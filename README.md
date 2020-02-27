@@ -9,6 +9,9 @@ Being a free app, there are no financial resources available to hire a professio
 
 <b>3. Edit/translate each file, and send the final translated files to me via [iffy.freshdesk.com](https://iffy.freshdesk.com/support/tickets/new).</b>
 
+# Compensation:
+There is no financial compensation that I can offer you for your translation work, unfortunately. You will, however, be offered a spot in Amphetamine's acknowledgements. This acknowledgement spot can include your name or username/handle, and any (concise, non-offensive) text or link you'd like to appear there, including a link to your own donation page where people can reward you directly. Beyond that, I can offer my sincere gratitude for helping make Amphetamine an even better app. Thank you! 
+
 # Guidelines:
 Please be sure to read the guidelines at the beginning of the Localizable.strings file. In short, they are:
 
