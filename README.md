@@ -3,7 +3,7 @@ This is the repository for the resources needed to localize (translate) [Ampheta
 
 Being a free app, there are no financial resources available to hire a professional company to perform the translation. If you are considering helping to translate Amphetamine to another language, first let me say <b>thank you</b>. Second, to get started, please follow these steps:
 
-<b>1. Visit [iffy.freshdesk.com](https://iffy.freshdesk.com/support/tickets/new) and submit a ticket letting me know you are going to start work on translating Amphetamine to another language (and let me know what language).</b>
+<b>1. Visit [iffy.freshdesk.com](https://iffy.freshdesk.com/support/tickets/new) and submit a ticket letting me know you are going to start work on translating Amphetamine to another language (and let me know what language). Please wait for my confirmation before proceeding to step 2 below. I'd love to avoid having people duplicate efforts.</b>
 
 <b>2. Download the [Localizable.strings](https://github.com/x74353/Amphetamine_Localization/raw/master/Localizable.strings), [AppStore_Description.txt](https://github.com/x74353/Amphetamine_Localization/raw/master/AppStore_Description.txt), & [AppStore_Keywords.txt](https://github.com/x74353/Amphetamine_Localization/raw/master/AppStore_Keywords.txt) files from this Github repository.</b>
 
