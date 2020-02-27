@@ -7,7 +7,7 @@ Being a free app, there are no financial resources available to hire a professio
 
 <b>2. Download the [Localizable.strings](https://github.com/x74353/Amphetamine_Localization/raw/master/Localizable.strings), [AppStore_Description.txt](https://github.com/x74353/Amphetamine_Localization/raw/master/AppStore_Description.txt), & [AppStore_Keywords.txt](https://github.com/x74353/Amphetamine_Localization/raw/master/AppStore_Keywords.txt) files from this Github repository.</b>
 
-<b>3. Edit/translate each file, and send the final translated files to me via [iffy.freshdesk.com](https://iffy.freshdesk.com/support/tickets/new).You can use a free app like [BBEdit](https://apps.apple.com/app/bbedit/id404009241?mt=12) to open and modify each file.</b>
+<b>3. Edit/translate each file, and send the final translated files to me via [iffy.freshdesk.com](https://iffy.freshdesk.com/support/tickets/new). You can use a free app like [BBEdit](https://apps.apple.com/app/bbedit/id404009241?mt=12) to open and modify each file.</b>
 
 # Compensation:
 There is no financial compensation that I can offer you for your translation work, unfortunately. You will, however, be offered a spot in Amphetamine's acknowledgements. This acknowledgement spot can include your name or username/handle, and any (concise, non-offensive) text or link you'd like to appear there, including a link to your own donation page where people can reward you directly. Beyond that, I can offer my sincere gratitude for helping make Amphetamine an even better app. Thank you! 
