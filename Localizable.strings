@@ -103,7 +103,7 @@
  
  
  ###########################################################################
- 2. Proper Nouns/Capitalization of Features
+ 2. PROPER NOUNS/CAPITALIZATION
  ###########################################################################
  
  • Amphetamine
@@ -130,7 +130,7 @@
  
  
  ###########################################################################
- 3. SARCASM / CHEEKY-NESS
+ 3. SARCASM/CHEEKINESS
  ###########################################################################
  
  In a few places, sarcasm is used, or Amphetamine appears to have a bit of a cheeky attitude. This type
@@ -157,6 +157,14 @@
  If there is an idiom in the target language that has the same meaning, please feel free to substitute it.
  If no suitable idiom exists in the target language, please attempt to translate the English idiom's meaning
  as concisely as possible.
+ 
+ 
+ ###########################################################################
+ 5. CONCISENESS
+ ###########################################################################
+ 
+ Space is extremely limited in many parts of Amphetamine's user interface (UI). Being clear is greatly important, but conciseness is also critical. Without a doubt, some adjustments to Amphetamine's UI will be required to accommodate differences in word/sentence length across languages, but you can greatly reduce the number of adjustments needed by keeping your translation as concise as possible.
+ 
  
 */
 
