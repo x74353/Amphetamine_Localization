@@ -27,7 +27,7 @@ Please be sure to read the guidelines at the beginning of the Localizable.string
 
 
 # Translations In Progress:
-• None
+• Spanish
 
 # Translations Completed:
 • English
