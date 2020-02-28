@@ -28,6 +28,8 @@ Please be sure to read the guidelines at the beginning of the Localizable.string
 
 # Translations In Progress:
 • Chinese<BR>
+• Dutch<BR>
+• Russian<BR>
 • Spanish
 
 # Translations Completed:
