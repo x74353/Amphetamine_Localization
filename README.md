@@ -30,7 +30,8 @@ Please be sure to read the guidelines at the beginning of the Localizable.string
 • Chinese<BR>
 • Dutch<BR>
 • Russian<BR>
-• Spanish
+• Spanish<BR>
+• French
 
 # Translations Completed:
 • English
