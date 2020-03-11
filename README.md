@@ -17,7 +17,7 @@ Please be sure to read the guidelines at the beginning of the Localizable.string
 
 <b>1. Placeholders:</b> Do not remove placeholder characters such as '%@', '%li', '\n', etc. Rearrange placeholder characters as needed to fit the grammar of the target language.
 
-<b>2. Proper Nouns/Capitalization:</b> Amphetamine, and branded features such as Triggers, Drive Alive, etc. should always be capitalized. In most cases, should not be translated.
+<b>2. Proper Nouns/Capitalization:</b> Amphetamine, and branded features such as Triggers, Drive Alive, etc. should always be capitalized when the target language supports this.
 
 <b>3. Sarcasm/Cheekiness:</b> Remove sarcastic humor if it doesn't work in the target language.
 

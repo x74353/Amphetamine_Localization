@@ -111,13 +111,15 @@
  The word "Amphetamine" should never be translated to another language.
  
  • Triggers
- "Triggers" is a branded feature of Amphetamine and __SHOULD NOT__ be translated to another language.
- For example, FileVault is a feature of macOS, but the name of this feature is the same across languages.
+ "Triggers" is a branded feature of Amphetamine. If possible, the term "Triggers" or "Trigger"
+ should be translated as a proper noun, keeping its capitalization. If there is not a word in the target language that accurately
+ represents the English word "Trigger(s)", please use a word that you feel best represents this feature.
+ A possible English alternative could be something like "Automation".
  
  • Quick Preferences
- "Quick Preferences" is a branded feature of Amphetamine, but likely __SHOULD__ be translated. The
+ "Quick Preferences" is a branded feature of Amphetamine. The
  "Preferences" part of this feature should be translated to match macOS's default translation for this
- word in the target language. Capitalization of this feature should remain intact. "Quick" should be
+ word in the target language. Capitalization of this feature should remain intact if possible. "Quick" should be
  translated to a word meaning fast/easy in the target language.
  
  -------------------------------------------
@@ -125,8 +127,9 @@
  -------------------------------------------
  
  • Drive Alive
- Drive Alive is a branded feature of Amphetamine and __SHOULD NOT__ be translated to another language.
- For example, FileVault is a feature of macOS, but the name of this feature is the same across languages.
+ Drive Alive is a branded feature of Amphetamine. While the target language's translation of this feature
+ likely won't rhyme, please be sure to keep the capitalization of this feature in place if possible.
+
  
  
  ###########################################################################
@@ -163,7 +166,10 @@
  5. CONCISENESS
  ###########################################################################
  
- Space is extremely limited in many parts of Amphetamine's user interface (UI). Being clear is greatly important, but conciseness is also critical. Without a doubt, some adjustments to Amphetamine's UI will be required to accommodate differences in word/sentence length across languages, but you can greatly reduce the number of adjustments needed by keeping your translation as concise as possible.
+ Space is extremely limited in many parts of Amphetamine's user interface (UI). Being clear is greatly important,
+ but conciseness is also critical. Without a doubt, some adjustments to Amphetamine's UI will be required to accommodate
+ differences in word/sentence length across languages, but you can greatly reduce the number of adjustments needed by
+ keeping your translation as concise as possible.
  
  
 */
@@ -290,7 +296,7 @@
 "pref_duration_5mins" = "5 minutes";
 "pref_duration_10mins" = "10 minutes";
 "pref_duration_15mins" = "15 minutes";
-"pref_duration_15mins" = "20 minutes";
+"pref_duration_20mins" = "20 minutes";
 "pref_duration_25mins" = "25 minutes";
 "pref_duration_30mins" = "30 minutes";
 "pref_duration_35mins" = "35 minutes";
@@ -491,6 +497,9 @@
 "pref_sess_nt_bttn_ignore_batt_if_pwr_adptr" = "Ignore charge (%) if power adapter is connected";
 "pref_sess_nt_bttn_start_session_pwr_adptr_connect" = "Start a new session if reconnected";
 
+"pref_sess_nt_bttn_endtime_timer" = "Use timer"; // v5.0.2
+"pref_sess_nt_bttn_endtime_sysclock" = "Use system clock"; //v5.0.2
+
 // PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS LABELS
 "pref_sess_nt_lbl_dd" = "Default Duration:";
 "pref_sess_nt_lbl_end_time_calc" = "End Time Calculation:";
@@ -606,7 +615,7 @@
 "pref_sess_as_bttn_lck_scrn_pt2" = "of inactivity";
 "pref_sess_as_bttn_lck_scrn_use_cursor" = "Use cursor movement to determine inactivity";
 "pref_sess_as_bttn_lck_scrn_disp_clsd" = "Lock screen immediately after display is closed";
-"pref_sess_as_bttn_lck_scrn_allow_disp_sleep" = "Allow display to sleep when screen is locked";
+"pref_sess_as_bttn_lck_scrn_allow_disp_sleep" = "Allow display sleep when screen is locked";
 "pref_sess_as_bttn_cursor_pt1" = "Move cursor every";
 "pref_sess_as_bttn_cursor_pt2" = "after";
 "pref_sess_as_bttn_cursor_pt3" = "of inactivity";
@@ -916,6 +925,8 @@
 "pref_appr_mi_text_format_letter" = "Letter notation format (8h 15m)";
 
 
+
+
 // ---------------------------------------------------------------------------
 // (?) BUTTON MENU ITEMS
 
@@ -960,7 +971,9 @@
 "pref_stat_bttn_enable" = "Enable statistics collection";
 
 // PREFERENCES → STATISTICS LABELS
-"pref_stat_lbl_how_long" = "Amphetamine has kept your Mac awake for";
+"pref_stat_lbl_how_long_title" = "Amphetamine has kept your Mac awake for"; // v5.0.1
+"pref_stat_lbl_how_long_about" = "\n%@ %@ %@ %@"; // v5.0.1
+"pref_stat_lbl_how_long_prefs" = "%@ %@ %@ %@"; // v5.0.1
 "pref_stat_lbl_average" = "Average Session Duration";
 "pref_stat_lbl_total_sessions" = "Total Sessions";
 
@@ -1280,6 +1293,7 @@
 "statbar_mi_about" = "About Amphetamine";
 "statbar_mi_fb_support" = "Feedback & Support";
 "statbar_mi_troubleshoot" = "Troubleshooting & FAQs";
+"statbar_mi_debugMode" = "Enable Debug Mode"; // v5.0.1
 "statbar_mi_contact" = "Contact Support";
 "statbar_mi_follow_dev" = "Follow the Developer"; // OPENS TWITTER LINK
 "statbar_mi_contribute" = "Contribute to Amphetamine's Development";
@@ -1385,13 +1399,6 @@
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_quick_prefs_body" = "Each menu item in Quick Preferences is linked to its corresponding item in Amphetamine's Preferences.\n\nIt is important to note that the state of an item in Quick Preferences may not reflect how the current session is behaving. This is especially true for Trigger sessions.\n\nCurrent session behavior can be changed/overridden on-the-fly using the Current Session Details menu item. To turn on/off the Current Session Details menu item, visit Preferences → Appearance → Menu Extras.";
-
-
-// Title
-"error_generic_went_wrong_title" = "Uh-Oh. Something went wrong.";
-"error_generic_went_wrong_body" = "Please try again. If the issue persists, you can submit a support request at iffy.freshdesk.com.";
-
-
 
 
 
@@ -1514,6 +1521,14 @@
 "alert_dont_show_again" = "Don't show this message again";
 "alert_dont_ask_again" = "Don't ask this again";
 "alert_open_sys_prefs" = "Open System Preferences";
+
+// GENERIC ERROR MESSAGE
+"error_generic_went_wrong_title" = "Uh-Oh. Something went wrong.";
+"error_generic_went_wrong_body" = "Please try again. If the issue persists, you can submit a support request at iffy.freshdesk.com.";
+
+// TRIGGER EDIT ERROR MESSAGE // v5.0.1
+"error_trigger_edit_title" = "This Trigger cannot be edited.";
+"error_trigger_edit_body" = "Please try again. If the issue persists, please remove the Trigger and re-create it. If you are unable to re-create the Trigger, please  submit a support request at iffy.freshdesk.com.";
 
 // ----- SCREEN SAVER FOR TRIGGER ALERT
 "alert_trig_scn_svr_bttn_enable" = "Enable Screen Saver";
@@ -1643,14 +1658,14 @@
 
 // THESE ARE USED TO INDICATE THE STATE OF EACH OPTION IN NOTIFICATIONS
 // SPACE IS EXTREMELY LIMITED IN NOTIFICATIONS, SO PLEASE ABBREVIATE WHERE POSSIBLE
-"notif_disp_sleep_state" = "Display Sleep:";
-"notif_scrn_svr_state" = "Screen Saver:";
-"notif_cdm_state" = "CDM:"; // CLOSED-DISPLAY MODE
+"notif_disp_sleep_state" = "Display Sleep:"; // 🖥️ ✗ Display Sleep:
+"notif_scrn_svr_state" = "Screen Saver:"; // 🌌 ✗ Screen Saver:
+"notif_cdm_state" = "CDM:"; // CLOSED-DISPLAY MODE // 🐚 ✗ CDM
 
 // THESE ARE USED TO INDICATE THE STATE OF EACH OPTION IN NOTIFICATIONS
 // UNLESS THESE CHARACTERS DO NOT EQUATE TO ON/YES OFF/NO IN THE TARGET LANGUAGE, THESE SHOULD LIKELY NOT BE CHANGED/TRANSLATED
-"notif_state_prevented" = "✗"; // NO/OFF/PREVENTED, other potential symbols: 🚫
-"notif_state_allowed" = "✓"; // YES/ON/ALLOWED, other potential symbols: ✅
+"notif_state_prevented" = "✗"; // NO/OFF/PREVENTED, other potential symbols: 🚫 ✗
+"notif_state_allowed" = "✓"; // YES/ON/ALLOWED, other potential symbols: ✅ ✓
 
 // ----- REGULAR SESSION ENDED
 "generic_sess_end_1" = "Session has ended";
