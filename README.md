@@ -5,7 +5,7 @@ Being a free app, there are no financial resources available to hire a professio
 
 <b>1. Visit [iffy.freshdesk.com](https://iffy.freshdesk.com/support/tickets/new) and submit a ticket letting me know you are going to start work on translating Amphetamine to another language (and let me know what language). Please wait for my confirmation before proceeding to step 2 below. I'd love to avoid having people duplicate efforts.</b>
 
-<b>2. Download the [Localizable.strings](https://github.com/x74353/Amphetamine_Localization/raw/master/Localizable.strings), [AppStore_Description.txt](https://github.com/x74353/Amphetamine_Localization/raw/master/AppStore_Description.txt), & [AppStore_Keywords.txt](https://github.com/x74353/Amphetamine_Localization/raw/master/AppStore_Keywords.txt) files from this Github repository.</b>
+<b>2. Download the [Localizable.strings](https://github.com/x74353/Amphetamine_Localization/raw/master/Localizable.strings), [AppStore_Description.txt](https://github.com/x74353/Amphetamine_Localization/raw/master/AppStore_Description.txt) files from this Github repository.</b>
 
 <b>3. Edit/translate each file, and send the final translated files to me via [iffy.freshdesk.com](https://iffy.freshdesk.com/support/tickets/new). You can use a free app like [BBEdit](https://apps.apple.com/app/bbedit/id404009241?mt=12) to open and modify each file.</b>
 
