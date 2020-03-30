@@ -15,6 +15,37 @@ wake, awake, anti, sleep, prevent, display, power, caffeine, battery, schedule, 
 
 
 ---------------------------------------------------------
+APP STORE PREVIEWS:
+
+** NOTE: The following text appears in the screen shots/previews show in Amphetamine’s Mac App Store listing. Please only translate the text below each PREVIEW section. Please keep each line of text separated. **
+
+
+PREVIEW 1:
+Keep your Mac awake with Amphetamine.
+Quick-start a session with one click, or choose a duration.
+
+PREVIEW 2:
+Use Triggers to automate when your Mac should sleep.
+WiFi, USB & Bluetooth, display, drives, + more.
+
+PREVIEW 3:
+Keep your Mac awake while you work.
+Pick an app and your Mac won’t sleep while it’s running.
+
+PREVIEW 4:
+Keep your Mac awake while its display is closed.
+Use and optional alarm so you won’t forget it’s awake.
+
+PREVIEW 5:
+Use your own status images.
+Customize almost everything, including notification sounds.
+
+PREVIEW 6:
+Keep your disks running and ready for action.
+Drive Alive makes sure your disks don’t spin down. 
+
+
+---------------------------------------------------------
 DESCRIPTION:
 
 Welcome to Amphetamine, the most awesome keep-awake app ever created for macOS. Amphetamine can keep your Mac, and optionally its display(s), awake through a super simple on/off switch, or automatically through easy-to-configure Triggers. Amphetamine is extremely powerful and includes advanced features for those who need them, yet remains intuitive and easy-to-use for those who don't need all of the bells and whistles.
