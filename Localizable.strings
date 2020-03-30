@@ -16,14 +16,9 @@
  
  Hi there!
  
- First off, THANK YOU for helping with translating Amphetamine into another language.
- I have chosen to give Amphetamine away for free, and thus, do not have the resources to hire
- a professional company to do this work. Thousands of people around the world use Amphetamine,
- but certainly, if one is not a native English speaker, it must be difficult to use the more advanced
- features.
+ First off, THANK YOU for helping with translating Amphetamine into another language. I have chosen to give Amphetamine away for free, and thus, do not have the resources to hire a professional company to do this work. Thousands of people around the world use Amphetamine but certainly, if one is not a native English speaker, it must be difficult to use the more advanced features.
  
- Before getting started, PLEASE read through the guidelines below. If you have any questions/run
- into trouble, please submit a support request at iffy.freshdesk.com.
+ Before getting started, PLEASE read through the guidelines below. If you have any questions/run into trouble, please submit a support request at iffy.freshdesk.com.
  
  Lastly, the text that needs translating in this file is ONLY on the right side of the equals sign.
  
@@ -52,7 +47,7 @@
  1. PLACEHOLDERS
  ###########################################################################
  
- Throughout this file, you will see many instances of what seem to be garbled text, or odd sets of characters.
+ Throughout this file, you will see in many instances of what seem to be garbled text, or odd sets of characters.
  
  -----------------
  EXAMPLES:
@@ -65,20 +60,16 @@
  ... etc.
  -----------------
  
- If you're not a developer, these characters may seem like they don't belong and should be removed.
- However, these characters are __VERY__ important and should never be removed. These characters act
- as placeholders for other values/text.
+ If you're not a developer, these characters may seem like they don't belong and should be removed. However, these characters are __VERY__ important and should never be removed. These characters act as placeholders for other values/text.
  
- ---------------------------------------------------------------------------------------------------------
+ -----------------------------------------------------
  EXAMPLE: Placeholder '%@' equals "not connected"
  • "Power adapter %@" → "Power adapter not connected"
- ---------------------------------------------------------------------------------------------------------
+ -----------------------------------------------------
  
- If you remove any of these placeholders, it will likely cause great confusion to Amphetamine's users.
- Please take extra special care to not accidentally remove any placeholders.
+ If you remove any of these placeholders, it will likely cause great confusion to Amphetamine's users. Please take extra special care to not accidentally remove any placeholders.
  
- In some cases, you may need to move the location of the placeholder if its position in the target
- language is not grammatically correct.
+ In some cases, you may need to move the location of the placeholder if its position in the target language is not grammatically correct.
  
  -------------------------------------------------------
  EXAMPLE: Placeholder '%@' equals the word "low"
@@ -87,19 +78,15 @@
  • SPANISH → "batería %@" → "batería baja"
  -------------------------------------------------------
  
- I have tried to add comments where placeholders exist to indicate the expected value of
- the placeholder. I may have missed a few. Let me know if you find one.
+ I have tried to add comments where placeholders exist to indicate the expected value of the placeholder. I may have missed a few. Let me know if you find one.
 
- You should also take care to not remove any '\n' characters. Each '\n' represents a line break and each
- '\n\n' starts a new paragraph. This helps longer text be broken up and made easier to read. There
- should typically never be any whitespace/spaces before or after the \n character(s).
+ You should also take care to not remove any '\n' characters. Each '\n' represents a line break and each '\n\n' starts a new paragraph. This helps longer text be broken up and made easier to read. There should typically never be any whitespace/spaces before or after the \n character(s).
  
  -------------------------------------------------------------------
  EXAMPLE: This is some sample text\nshowing how a line break works.
  -------------------------------------------------------------------
  
- Notice how the '\n' placeholder in "text\nshowing" does not have any spaces around it?
- This is the correct format.
+ Notice how the '\n' placeholder in "text\nshowing" does not have any spaces around it? This is the correct format.
  
  
  ###########################################################################
@@ -107,38 +94,27 @@
  ###########################################################################
  
  • Amphetamine
- Amphetamine is the name of the application and should always be capitalized as a proper noun.
- The word "Amphetamine" should never be translated to another language.
+ Amphetamine is the name of the application and should always be capitalized as a proper noun. The word "Amphetamine" should never be translated to another language.
  
  • Triggers
- "Triggers" is a branded feature of Amphetamine. If possible, the term "Triggers" or "Trigger"
- should be translated as a proper noun, keeping its capitalization. If there is not a word in the target language that accurately
- represents the English word "Trigger(s)", please use a word that you feel best represents this feature.
- A possible English alternative could be something like "Automation".
+ "Triggers" is a branded feature of Amphetamine. If possible, the term "Triggers" or "Trigger" should be translated as a proper noun, keeping its capitalization. If there is not a word in the target language that accurately represents the English word "Trigger(s)", please use a word that you feel best represents this feature. A possible English alternative could be something like "Automation".
  
  • Quick Preferences
- "Quick Preferences" is a branded feature of Amphetamine. The
- "Preferences" part of this feature should be translated to match macOS's default translation for this
- word in the target language. Capitalization of this feature should remain intact if possible. "Quick" should be
- translated to a word meaning fast/easy in the target language.
+ "Quick Preferences" is a branded feature of Amphetamine. The "Preferences" part of this feature should be translated to match macOS's default translation for this word in the target language. Capitalization of this feature should remain intact if possible. "Quick" should be translated to a word meaning fast/easy in the target language.
  
  -------------------------------------------
  EXAMPLE (SPANISH): "Preferencias Rápidas"
  -------------------------------------------
  
  • Drive Alive
- Drive Alive is a branded feature of Amphetamine. While the target language's translation of this feature
- likely won't rhyme, please be sure to keep the capitalization of this feature in place if possible.
+ Drive Alive is a branded feature of Amphetamine. While the target language's translation of this feature likely won't rhyme like it does in English, please be sure to keep the capitalization of this feature in place if possible.
 
- 
  
  ###########################################################################
  3. SARCASM/CHEEKINESS
  ###########################################################################
  
- In a few places, sarcasm is used, or Amphetamine appears to have a bit of a cheeky attitude. This type
- of humor may not translate well, and can be removed entirely if needed. Please replace the text you remove
- with a simple message that makes sense in the target language.
+ In a few places, sarcasm is used, or Amphetamine appears to have a bit of a cheeky attitude. This type of humor may not translate well, and can be removed entirely if needed. Please replace the text you remove with a simple message that makes sense in the target language.
  
  ---------------------------------------------
  EXAMPLE: See key "warn_diag_reset_conf_body"
@@ -157,19 +133,14 @@
  
  The English idiom "labor of love" means "Work done for one's satisfaction rather than monetary reward."
  
- If there is an idiom in the target language that has the same meaning, please feel free to substitute it.
- If no suitable idiom exists in the target language, please attempt to translate the English idiom's meaning
- as concisely as possible.
+ If there is an idiom in the target language that has the same meaning, please feel free to substitute it. If no suitable idiom exists in the target language, please attempt to translate the English idiom's meaning as concisely as possible.
  
  
  ###########################################################################
  5. CONCISENESS
  ###########################################################################
  
- Space is extremely limited in many parts of Amphetamine's user interface (UI). Being clear is greatly important,
- but conciseness is also critical. Without a doubt, some adjustments to Amphetamine's UI will be required to accommodate
- differences in word/sentence length across languages, but you can greatly reduce the number of adjustments needed by
- keeping your translation as concise as possible.
+ Space is extremely limited in many parts of Amphetamine's user interface (UI). Being clear is greatly important, but conciseness is also critical. Without a doubt, some adjustments to Amphetamine's UI will be required to accommodate differences in word/sentence length across languages, but you can greatly reduce the number of adjustments needed by keeping your translation as concise as possible.
  
  
 */
@@ -409,6 +380,7 @@
 // ----- PREFERENCES WINDOW → GLOBAL
 // ---------------------------------------------------------------------------
 
+"pref_window_title" = "Preferences"; // 5.0.2
 "pref_global_lbl_uses_default_duration" = "↳ Uses Default Duration";
 "pref_global_bttn_screen_saver_exceptions" = "Exceptions...";
 
@@ -1383,6 +1355,7 @@
 "qp_lbl_about" = "Quick Preferences items represent the status of the corresponding item in Preferences, and not necessarily the current session.";
 "qp_lbl_nt_sess" = "Non-Trigger Sessions:";
 "qp_lbl_all_sess" = "All Sessions:";
+"qp_lbl_other" = "Other:"; // 其他
 
 // PLACEHOLDER REPRESENTS A BATTER CHARGE LEVEL, EXAMPLE: 'END SESSION IF BATTERY IS BELOW 15%'
 "qp_bttn_end_sess_low_batt_title" = "End session if battery is below %@";
