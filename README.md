@@ -31,7 +31,8 @@ Please be sure to read the guidelines at the beginning of the Localizable.string
 • Dutch<BR>
 • Russian<BR>
 • Spanish<BR>
-• French
+• French<BR>
+• Czech<BR>
 
 # Translations Completed:
 • English
