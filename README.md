@@ -27,12 +27,15 @@ Please be sure to read the guidelines at the beginning of the Localizable.string
 
 
 # Translations In Progress:
-• Chinese<BR>
+• <strike>Spanish</strike> - Help needed, translation partially complete<BR>
 • Dutch<BR>
 • Russian<BR>
-• Spanish<BR>
 • French<BR>
 • Czech<BR>
+• Swedish<BR>
+• Italian<BR>
 
 # Translations Completed:
-• English
+• English<BR>
+• Chinese<BR>
+
