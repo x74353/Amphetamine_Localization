@@ -34,7 +34,8 @@ Please be sure to read the guidelines at the beginning of the Localizable.string
 • Czech<BR>
 • Swedish<BR>
 • Italian<BR>
-
+• Indonesian<BR>
+  
 # Translations Completed:
 • English<BR>
 • Chinese<BR>
