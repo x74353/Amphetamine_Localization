@@ -27,18 +27,8 @@ Please be sure to read the guidelines at the beginning of the Localizable.string
 
 
 # Translations In Progress:
+• Spanish<BR>
 
-• Brazilian Portuguese<BR>
-• Czech<BR>
-• Dutch<BR>
-• French<BR>
-• Indonesian<BR>
-• Italian<BR>
-• Russian<BR>
-• <strike>Spanish</strike> - Help needed, translation partially complete<BR>
-• Swedish<BR>
-
-  
 # Translations Completed:
 • English<BR>
 • Chinese<BR>
