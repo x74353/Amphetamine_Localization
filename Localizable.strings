@@ -1258,7 +1258,9 @@
 "statbar_mi_start_new_session" = "Start New Session:";
 "statbar_mi_drive_alive_details" = "Drive Alive Details:";
 "statbar_mi_other_duration" = "Other Time/Until...";
+"statbar_mi_other_duration_BigSur" = "Other Time/Until";
 "statbar_mi_app" = "While App is Running...";
+"statbar_mi_app_BigSur" = "While App is Running";
 "statbar_mi_file" = "While File is Downloading...";
 "statbar_mi_qp" = "Quick Preferences";
 "statbar_mi_prefs" = "Preferences...";
