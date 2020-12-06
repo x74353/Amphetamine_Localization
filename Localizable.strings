@@ -146,9 +146,6 @@
 */
 
 
-
-
-
 // ---------------------------------------------------------------------------
 // GENERAL USE STRINGS
 
@@ -158,6 +155,11 @@
 // USED IN BUTTONS, MENUS
 "gen_use_cont_session_cap" = "Continue Session";
 
+// USED IN SENTENCES
+// EXAMPLE: THERE ARE 10 MINUTES REMAINING IN THIS SESSION.
+"gen_use_remaining" = "remaining";
+
+// USED IN SENTENCES
 // EXAMPLE USAGE: BATTERY IS 100% 'CHARGED'
 "gen_use_charged" = "charged";
 
@@ -443,7 +445,7 @@
 "help_message_other_body_post_highsierra" = "• Hide Amphetamine in the Dock\nCheck this box to hide Amphetamine’s icon in the Dock. On macOS 10.15 and up, the Dock icon will automatically appear and disappear when one of Amphetamine's windows, such as the Preferences window, is open even if the Hide in Dock preference is enabled. Closing all open Amphetamine windows will cause the Dock icon to disappear again.\n\nOn macOS 10.14 and below, you may need to disable macOS's 'Show Recent Applications in Dock' feature by visiting  → System Preferences → Dock to completely remove Amphetamine from the Dock.\n\n• Reduce Motion\nCheck this box to reduce the use of animation in Amphetamine's interface.\n\nClick the Reset Warnings and Dialogs button to clear any 'do not show again' flags on warning messages and other dialogs.\n\nClick the Reset All Preferences button to return Amphetamine to a default state (all preferences, including Triggers will be lost).";
 
 // Body (macOS 10.11 - 10.13) ** NOTE: DO NOT REMOVE '\n' **
-"help_message_other_body_pre_mojave" = "• Hide Amphetamine in the Dock\nCheck this box to hide Amphetamine’s icon in the Dock.\n\n• Use Color to Represent Status in Quick Preferences\nCheck this box to use a colored circle to represent the status of each item in Quick Preferences. Green = ON, Red = OFF. Uncheck this box to use a non-color based image: a check mark for ON, and an X for OFF.\n\n• Reduce Motion\nUncheck this box to reduce the use of animation in Amphetamine's interface.\n\nClick the Reset Warnings and Dialogs button to clear any 'do not show again' flags on warning messages and other dialogs.\n\nClick the Reset All Preferences button to return Amphetamine to a default state (all preferences, including Triggers will be lost).";
+"help_message_other_body_pre_mojave" = "• Hide Amphetamine in the Dock\nCheck this box to hide Amphetamine’s icon in the Dock.\n\n• Use Color to Represent Status in Quick Preferences\nCheck this box to use a colored circle to represent the status of each item in Quick Preferences. Green = ON, Red = OFF. Uncheck this box to use a non-color based image: a check mark for ON, and an X for OFF.\n\n• Reduce Motion\nCheck this box to reduce the use of animation in Amphetamine's interface.\n\nClick the Reset Warnings and Dialogs button to clear any 'do not show again' flags on warning messages and other dialogs.\n\nClick the Reset All Preferences button to return Amphetamine to a default state (all preferences, including Triggers will be lost).";
 
 
 
@@ -547,7 +549,7 @@
 "help_message_closed_display_title" = "Closed-Display Mode";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_closed_display_body" = "Uncheck this box if you would like Amphetamine to keep your Mac awake while its display is closed\n\nGenerally, an external display, keyboard, mouse, and power adapter must all be connected to your Mac for closed-display mode to be enabled. Amphetamine can override these requirements temporarily and prevent your Mac from sleeping when its display is closed.\n\nThe checkbox will be disabled if your Mac does not support this feature.\n\nThis preference only affects non-Trigger sessions. If you want to enable this feature for a Trigger session, visit Preferences → Triggers and edit each Trigger you want to add this feature to.\n\nWhen using this feature, you may want to consider setting up Closed-Display Mode Warnings in Preferences → Notifications → Closed-Display Mode.";
+"help_message_closed_display_body" = "Uncheck this box if you would like Amphetamine to keep your Mac awake while its display is closed.\n\nGenerally, an external display, keyboard, mouse, and power adapter must all be connected to your Mac for closed-display mode to be enabled. Amphetamine can override these requirements temporarily and prevent your Mac from sleeping when its display is closed.\n\nThe checkbox will be disabled if your Mac does not support this feature.\n\nThis preference only affects non-Trigger sessions. If you want to enable this feature for a Trigger session, visit Preferences → Triggers and edit each Trigger you want to add this feature to.\n\nWhen using this feature, you may want to consider setting up Closed-Display Mode Warnings in Preferences → Notifications → Closed-Display Mode.";
 
 // ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Screen Saver Help Message
 
@@ -658,7 +660,7 @@
 "help_triggers_title" = "Triggers";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_triggers_body" = "Triggers are one of Amphetamine's most powerful features. You can create as many Triggers as you want. When all of the criteria of a Trigger is met, Amphetamine will automatically start a new session if one is not already running.\n\nIn addition to the global Enable Triggers button, which enables/disables all Triggers, each individual Trigger you create can also be enabled/disabled. Use the checkbox to the right of each Trigger in the list to temporarily enable or disable an individual Trigger.\n\nUse the + button to create a new Trigger. Select a Trigger in the list and use the - button to delete a Trigger.\n\nSelect a Trigger in the list and use the ↑ and ↓ buttons to reorder the Trigger list. Triggers will be evaluated in the order they are shown in the list. The topmost Trigger in the list will be evaluated first. If all of its criteria are met, a session will start. If its criteria are not met, the next Trigger in the list will be evaluated.";
+"help_triggers_body" = "Triggers are one of Amphetamine's most powerful features. You can create as many Triggers as you want. When all of the criteria of a Trigger is met, Amphetamine will automatically start a new session if one is not already running.\n\nIn addition to the global Enable Triggers button, which enables/disables all Triggers, each individual Trigger you create can also be enabled/disabled. Use the checkbox to the right of each Trigger in the list to temporarily enable or disable an individual Trigger.\n\nUse the + button to create a new Trigger. Select a Trigger in the list and use the − button to delete a Trigger.\n\nSelect a Trigger in the list and use the ↑ and ↓ buttons to reorder the Trigger list. Triggers will be evaluated in the order they are shown in the list. The topmost Trigger in the list will be evaluated first. If all of its criteria are met, a session will start. If its criteria are not met, the next Trigger in the list will be evaluated.";
 
 
 
@@ -687,7 +689,7 @@
 "help_drivealive_title" = "Drive Alive";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_drivealive_body" = "Drive Alive can keep your hard drives awake (alive) and ready for action. Drive Alive works by writing a tiny amount of data to your hard drives(s) on a regular interval. This data is repeatedly overwritten, and only takes up a couple of kilobytes (KB) of space on your drive.\n\nTo add a new drive, click the + button and then select the drive you want to keep alive. Select a drive in the list and click the - button to remove it.\n\nEach drive in the list can be kept alive either only when a session is running, or kept alive any time Amphetamine is running. To keep a drive alive all the time, check the box to the right of the drive in the list.\n\nThe default interval for Drive Alive to write data to your drive(s) is every 10 seconds. You can change this by entering a new number in the number field at the bottom of the window.";
+"help_drivealive_body" = "Drive Alive can keep your hard drives awake (alive) and ready for action. Drive Alive works by writing a tiny amount of data to your hard drives(s) on a regular interval. This data is repeatedly overwritten, and only takes up a couple of kilobytes (KB) of space on your drive.\n\nTo add a new drive, click the + button and then select the drive you want to keep alive. Select a drive in the list and click the − button to remove it.\n\nEach drive in the list can be kept alive either only when a session is running, or kept alive any time Amphetamine is running. To keep a drive alive all the time, check the box to the right of the drive in the list.\n\nThe default interval for Drive Alive to write data to your drive(s) is every 10 seconds. You can change this by entering a new number in the number field at the bottom of the window.";
 
 
 
@@ -747,7 +749,7 @@
 "help_message_open_menu_title" = "Open Menu";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_open_menu_body" = "This hot key will allow you to open Amphetamine's menu using a hot key. This is useful to quickly check the session and Drive Alive details show in the menu, or to quickly navigate or select menu items using the arrow keys and/or keyboard shortcuts (i.e. ⌘F to start a 'While File is Downloading ...' session.\n\nAfter recording the key combination for this hot key, you will be able to access this function of Amphetamine regardless of where you are in macOS. Amphetamine does not need to be the frontmost app, but it does need to be running.\n\nIf you aren't able to record your desired hot key combination, that means that the key combination is already in use elsewhere by another app.";
+"help_message_open_menu_body" = "This hot key will allow you to open Amphetamine's menu using a hot key. This is useful to quickly check the session and Drive Alive details shown in the menu, or to quickly navigate or select menu items using the arrow keys and/or keyboard shortcuts (i.e. ⌘F to start a 'While File is Downloading ...' session.\n\nAfter recording the key combination for this hot key, you will be able to access this function of Amphetamine regardless of where you are in macOS. Amphetamine does not need to be the frontmost app, but it does need to be running.\n\nIf you aren't able to record your desired hot key combination, that means that the key combination is already in use elsewhere by another app.";
 
 // ----- PREFERENCES → HOT KEYS → Toggle Display Sleep Help Message
 
@@ -825,7 +827,7 @@
 "help_message_sound_title" = "Sound";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_sound_body" = "• Play When Any Session Starts or Ends\nCheck this box to have a sound play whenever a session starts or ends.\n\n• Play With Session Reminders/Other Notifications\nCheck this box if you want a sound to play whenever a notification is delivered.\n\nTo add a new custom sound, click the + button and select a sound file. To remove a custom sound, click the - button. A Finder window will open to the directory where custom files are saved. Delete the sound file in Finder by dragging it to the Trash or by using the Command + Delete keyboard combination.";
+"help_message_sound_body" = "• Play With Session Reminders/Other Notifications\nCheck this box if you want a sound to play whenever a notification is delivered.\n\n• Play When Any Session Starts or Ends\nCheck this box to have a sound play whenever a session starts or ends.\n\nTo add a new custom sound, click the + button and select a sound file. To remove a custom sound, click the − button. A Finder window will open to the directory where custom files are saved. Delete the sound file in Finder by dragging it to the Trash or by using the Command + Delete keyboard combination.";
 
 // ----- PREFERENCES → NOTIFICATIONS → Closed-Display Mode Help Message
 
@@ -983,7 +985,7 @@
 "help_trigger_config_title" = "Trigger Configuration";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_trigger_config_body" = "Name\nGive your Trigger a memorable name. Your Trigger’s name will be used in notifications and in the session details section of Amphetamine’s menu (if you have these preferences enabled).\n\nCriteria\nYour Trigger can use one instance of each criterion. To add a new criterion, use the \"Add criterion…\" button, select a criterion, and then check the box to use it. To remove a criterion, double-click the criterion in the Criteria table, and uncheck the box.\n\nAdditional Options\nEach Trigger you create can independently be configured to allow or prevent display sleep, screen saver activation, and whether your Mac sleeps when its display is closed.";
+"help_trigger_config_body" = "Name\nGive your Trigger a memorable name. Your Trigger’s name will be used in notifications and in the session details section of Amphetamine’s menu (if you have these preferences enabled).\n\nCriteria\nYour Trigger can use one instance of each criterion. To add a new criterion, click the + button, select a criterion. To remove a criterion, select the criterion in the Criteria table, and click the − button.\n\nAdditional Options\nEach Trigger you create can independently be configured to allow or prevent display sleep, screen saver activation, and whether your Mac sleeps when its display is closed.";
 
 
 
@@ -1037,7 +1039,7 @@
 "trig_crit_name_sched" = "Schedule";
 "trig_crit_lbl_sched_from" = "From:";
 "trig_crit_lbl_sched_until" = "Until:";
-"trig_crit_lbl_sched_no_select" = "No days selected";
+"trig_crit_lbl_sched_no_select" = "No days selected ";
 
 // DAYS OF THE WEEK
 
@@ -1135,7 +1137,7 @@
 "criterion_help_app_title" = "App Criterion";
 
 // Body
-"criterion_help_app_body" = "This criterion will evaluate true only when the specified app is running on your Mac. Only apps that are currently running appear in the list. If an app does not appear in the list, either it is not currently running, or Apple's sandboxing feature prevents Amphetamine from interacting with the app.";
+"criterion_help_app_body" = "This criterion will evaluate true only when the specified app is running on your Mac. Only apps that are currently running appear in the list. If an app does not appear in the list, either it is not currently running, or macOS's App Sandbox technology prevents Amphetamine from interacting with the app.";
 
 
 // ----- Criterion Battery & Power Adapter Help Message
@@ -1234,7 +1236,7 @@
 "criterion_help_dns_title" = "DNS Server Criterion";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"criterion_help_dns_body" = "This criterion will evaluate true when your Mac is using any of DNS servers/addresses you have specified. To add the current DNS addresses your Mac is using to the list, click the + button. To remove a DNS address from the list, select it, and click the - button.\n\nIf you have recently updated your DNS severs in System Preferences, or recently changed the network configuration, please allow up to a couple of minutes for macOS to be able update Amphetamine with the new DNS servers.\n\nNote: This Trigger may not activate immediately in some circumstances. Amphetamine will query for your Mac's current DNS servers, but if they have updated/changed recently, it may take a minute or two for macOS to report this change to Amphetamine.";
+"criterion_help_dns_body" = "This criterion will evaluate true when your Mac is using any of DNS servers/addresses you have specified. To add the current DNS addresses your Mac is using to the list, click the + button. To remove a DNS address from the list, select it, and click the − button.\n\nIf you have recently updated your DNS severs in System Preferences, or recently changed the network configuration, please allow up to a couple of minutes for macOS to be able update Amphetamine with the new DNS servers.\n\nNote: This Trigger may not activate immediately in some circumstances. Amphetamine will query for your Mac's current DNS servers, but if they have updated/changed recently, it may take a minute or two for macOS to report this change to Amphetamine.";
 
 
 
@@ -1247,6 +1249,30 @@
 // CURRENT SESSION DETAILS VIEW MENU ITEM
 "csdv_lbl_title" = "Current Session Details: \n";
 "csdv_lbl_drive_alive_title" = "Drive Alive Details: \n";
+
+// REARRANGE THE BELOW PLACEHOLDERS (IF NEEDED) FOR THE TARGET LANGUAGE
+// IN ENGLISH, THE PLACEHOLDERS WOULD READ LIKE: "1h 3m 45s remaining"
+
+// %1$i = THE NUMBER OF HOURS REMAINING IN THE SESSION
+// %2$@ = duration_abbrv_hours_h
+// %3$02d = THE NUMBER OF MINUTES REMAINING IN THE SESSION
+// %4$@ = duration_abbrv_minutes_m
+// %5$02d = THE NUMBER OF MINUTES REMAINING IN THE SESSION
+// %6$@ = duration_abbrv_seconds_s
+// %7$@ = gen_use_remaining
+"csdv_time_remain_hms" = "%1$i%2$@ %3$02d%4$@ %5$02d%6$@ %7$@";
+
+// %1$02d = THE NUMBER OF MINUTES REMAINING IN THE SESSION
+// %2$@ = duration_abbrv_minutes_m
+// %3$02d = THE NUMBER OF MINUTES REMAINING IN THE SESSION
+// %4$@ = duration_abbrv_seconds_s
+// %5$@ = gen_use_remaining
+"csdv_time_remain_ms" = "%1$02d%2$@ %3$02d%4$@ %5$@";
+
+// %1$02d = THE NUMBER OF MINUTES REMAINING IN THE SESSION
+// %2$@ = duration_abbrv_seconds_s
+// %3$@ = gen_use_remaining
+"csdv_time_remain_s" = "%1$02d%2$@ %3$@";
 
 "csdv_bttn_disp_sleep" = "Allow display sleep";
 "csdv_bttn_cdm" = "Allow system sleep when display is closed";
@@ -1387,7 +1413,7 @@
 "help_screen_saver_exceptions_title" = "Screen Saver Exceptions";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_screen_saver_exceptions_body" = "If any of the apps or processes in this table are running, it will prevent Amphetamine from activating your Mac's screen saver.\n\nClick the + button to add an app or process to this table. Select an app in the table and click the - button to remove it.\n\nIf you do not see the app or process you are looking for either it is not currently running or Apple's sandboxing security prevents Amphetamine from seeing the app/process.";
+"help_screen_saver_exceptions_body" = "If any of the apps or processes in this table are running, it will prevent Amphetamine from activating your Mac's screen saver.\n\nClick the + button to add an app or process to this table. Select an app in the table and click the − button to remove it.\n\nIf you do not see the app or process you are looking for either it is not currently running or macOS's App Sandbox technology prevents Amphetamine from seeing the app/process.";
 
 
 // ----- Apps & Processes Picker Help Message
@@ -1396,7 +1422,7 @@
 "help_app_picker_title" = "Apps and Processes";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_app_picker_body" = "To see an app or process in this list, it must be running. Use the 'Don't show helper apps and processes' checkbox to filter the list to include or exclude helper apps/processes. Helper apps and processes may not have a user interface and often run silently in the background.\n\nIf you are not seeing an app/process in the list, either it is not running, or Amphetamine is blocked from observing the app/process by macOS's sandboxing security feature. To get around the sandboxing limitation, you'll need to install Amphetamine Enhancer.\n\nIf you've installed Amphetamine Enhancer and still aren't seeing the app/process you want (and you're sure its running), wait up to 10 sections and then refresh the app/process list by clicking the ↻ button to the right of the search field.";
+"help_app_picker_body" = "To see an app or process in this list, it must be running. Use the 'Don't show helper apps and processes' checkbox to filter the list to include or exclude helper apps/processes. Helper apps and processes may not have a user interface and often run silently in the background.\n\nIf you are not seeing an app/process in the list, either it is not running, or Amphetamine is blocked from observing the app/process by macOS's App Sandbox technology. To get around the App Sandbox limitation, you'll need to install Amphetamine Enhancer.\n\nIf you've installed Amphetamine Enhancer and still aren't seeing the app/process you want (and you're sure its running), wait up to 10 sections and then refresh the app/process list by clicking the ↻ button to the right of the search field.";
 
 
 // ----- CLOSED DISPLAY MODE WARNING
@@ -1503,7 +1529,7 @@
 
 // TRIGGER EDIT ERROR MESSAGE // v5.0.1
 "error_trigger_edit_title" = "This Trigger cannot be edited.";
-"error_trigger_edit_body" = "Please try again. If the issue persists, please remove the Trigger and re-create it. If you are unable to re-create the Trigger, please  submit a support request at iffy.freshdesk.com.";
+"error_trigger_edit_body" = "Please try again. If the issue persists, please remove the Trigger and re-create it. If you are unable to re-create the Trigger, please submit a support request at iffy.freshdesk.com.";
 
 // ----- SCREEN SAVER FOR TRIGGER ALERT
 "alert_trig_scn_svr_bttn_enable" = "Enable Screen Saver";
@@ -1515,7 +1541,7 @@
 "alert_drivealive_tech_det_title" = "Some technical details...";
 
 // PLACEHOLDER IS NAME OF DRIVE
-"alert_drivealive_tech_det_body" = "The macOS sandboxing feature prevents Amphetamine from writing to the root directory of the drive that macOS is installed on.\n\nAmphetamine can still keep this drive awake, but will write data to the following path:\n\n%@";
+"alert_drivealive_tech_det_body" = "macOS's App Sandbox technology prevents Amphetamine from writing to the root directory of the drive that macOS is installed on.\n\nAmphetamine can still keep this drive awake, but will write data to the following path:\n\n%@";
 
 "alert_drivealive_net_vol_title" = "Network volume detected";
 "alert_drivealive_net_vol_body" = "The drive/volume you have selected appears to be a network or non-local volume. Please be aware that if the connection to this volume is lost or otherwise unavailable, Amphetamine may become unresponsive.";
@@ -1534,7 +1560,7 @@
 
 // ----- DEFAULT DURATION
 "alert_dd_less_one_min_title" = "Default duration cannot be less than one minute.";
-"alert_dd_less_one_min_body" = "The default duration has be changed to the minimum value of 0 hours and 1 minute.";
+"alert_dd_less_one_min_body" = "The default duration has been changed to the minimum value of 0 hours and 1 minute.";
 
 // ----- CUSTOM STATUS/MENU BAR ITEM IMAGE MISSING OR NOT FOUND
 "cust_img_not_found_title" = "No custom images were found.";
@@ -1562,7 +1588,7 @@
 
 // ----- DRIVE ALIVE WRITE ERROR
 "drive_alive_write_err_title" = "An error occurred.";
-"drive_alive_write_err_body" = "Amphetamine does not have permission to write data to this location. This is most likely due to macOS sandboxing or the volume's formatting.\n\nYou can try the following workaround, but it may not be successful:\n\nCreate a new folder at the root of the volume/drive (you may be asked for the password of and admin user). Then, select that folder for use with Drive Alive.";
+"drive_alive_write_err_body" = "Amphetamine does not have permission to write data to this location. This is most likely due to macOS's App Sandbox technology or the volume's formatting.\n\nYou can try the following workaround, but it may not be successful:\n\nCreate a new folder at the root of the volume/drive (you may be asked for the password of and admin user). Then, select that folder for use with Drive Alive.";
 
 // ----- DRIVE ALIVE NETWORK VOLUME PROMPT
 "alert_net_volume_title" = "Network Volume/Drive";
