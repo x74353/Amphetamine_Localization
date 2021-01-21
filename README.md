@@ -30,6 +30,7 @@ Please be sure to read the guidelines at the beginning of the Localizable.string
 • Spanish<BR>
 • Portuguese<BR>
 • Greek<BR>
+• Korean<BR>
 
 # Translations Completed:
 • English<BR>
