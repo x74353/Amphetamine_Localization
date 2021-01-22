@@ -27,12 +27,14 @@ Please be sure to read the guidelines at the beginning of the Localizable.string
 
 
 # Translations In Progress:
-• Spanish<BR>
-• Portuguese<BR>
+• Bahasa Indonesia<BR>
 • Greek<BR>
 • Korean<BR>
+• Portuguese<BR>
+• Spanish<BR>
 
 # Translations Completed:
-• English<BR>
 • Chinese<BR>
+• English<BR>
+
 
