@@ -27,7 +27,7 @@ Please be sure to read the guidelines at the beginning of the Localizable.string
 
 
 # Translations In Progress:
-• Bahasa Indonesia<BR>
+• Bahasa Indonesian<BR>
 • Greek<BR>
 • Korean<BR>
 • Portuguese<BR>
