@@ -149,11 +149,20 @@
 // ---------------------------------------------------------------------------
 // GENERAL USE STRINGS
 
+// THE APP'S NAME, DON'T TRANSLATE
+"gen_use_app_name" = "Amphetamine";
+
 // USED IN BUTTONS, MENUS
 "gen_use_end_session_cap" = "End Session";
 
+// USED TO INFORM USER OF KEY COMMAND
+"gen_use_command_x" = "⌘ X";
+
 // USED IN BUTTONS, MENUS
 "gen_use_cont_session_cap" = "Continue Session";
+
+// USED IN MENU
+"gen_use_close_menu" = "Close Menu";
 
 // USED IN SENTENCES
 // EXAMPLE: THERE ARE 10 MINUTES REMAINING IN THIS SESSION.
@@ -385,6 +394,7 @@
 "pref_window_title" = "Preferences"; // 5.0.2
 "pref_global_lbl_uses_default_duration" = "↳ Uses Default Duration";
 "pref_global_bttn_screen_saver_exceptions" = "Exceptions...";
+"scrn_svr_excpt_VNC" = "Screen Sharing/VNC/Remote Desktop connections"; // 5.1.2
 
 
 
@@ -709,6 +719,7 @@
 "pref_hotk_lbl_start" = "Start Session:";
 "pref_hotk_lbl_end" = "End Session:";
 "pref_hotk_lbl_open_menu" = "Open Menu:";
+"pref_hotk_lbl_open_menu_close" = "Use Esc to close menu"; // Escape key closes menu
 "pref_hotk_lbl_toggle_disp_sleep" = "Toggle Allow Display Sleep:";
 "pref_hotk_lbl_toggle_screen_saver" = "Toggle Allow Screen Saver:";
 
@@ -788,6 +799,7 @@
 "pref_notif_bttn_cdm_play_warning" = "Play closed-display warning tone";
 "pref_notif_bttn_cdm_repeat_warning" = "Repeat tone every";
 "pref_notif_bttn_cdm_change_vol" = "Momentarily set system volume to";
+"pref_notif_bttn_cdm_change_vol_message" = "Enabling this feature will cause the tone to play from the default sound output rather than the Sound Effects output.";
 "pref_notif_bttn_notif_remove" = "Remove notifications after delivery";
 
 // PREFERENCES → NOTIFICATIONS LABELS
@@ -1182,7 +1194,7 @@
 "criterion_help_audio_title" = "Audio Output Criterion";
 
 // Body
-"criterion_help_audio_body" = "This criterion will evaluate true only when the specified audio output is set as the current output on your Mac./n/nAudio output can be set by visiting  → System Preferences → Sound → Output.";
+"criterion_help_audio_body" = "This criterion will evaluate true only when the specified audio output is set as the current output on your Mac.\n\nAudio output can be set by visiting  → System Preferences → Sound → Output.";
 
 
 // ----- Criterion Bluetooth Help Message
@@ -1247,8 +1259,8 @@
 // ---------------------------------------------------------------------------
 
 // CURRENT SESSION DETAILS VIEW MENU ITEM
-"csdv_lbl_title" = "Current Session Details: \n";
-"csdv_lbl_drive_alive_title" = "Drive Alive Details: \n";
+"csdv_lbl_title" = "Current Session Details:";
+"csdv_lbl_drive_alive_title" = "Drive Alive Details:";
 
 // REARRANGE THE BELOW PLACEHOLDERS (IF NEEDED) FOR THE TARGET LANGUAGE
 // IN ENGLISH, THE PLACEHOLDERS WOULD READ LIKE: "1h 3m 45s remaining"
@@ -1325,7 +1337,7 @@
 "ww2_lbl_subtitle" = "Amphetamine lives in the menu bar at the top right corner of your screen.";
 
 // ** NOTE: DO NOT REMOVE '\n' **
-"ww2_lbl_message" = "By default, clicking on Amphetamine in the menu bar will show Amphetamine's menu. Right clicking (or control clicking) will start or stop a keep-awake session. You can switch this behavior if you want.\n\nAmphetamine is highly customizable. You can change all kinds of things like the menu bar image, when notifications should appear, and what sounds to play in Amphetamine's Preferences.";
+"ww2_lbl_message" = "Clicking on Amphetamine in the menu bar will show Amphetamine's menu. Right clicking (or control clicking) will start or stop a keep-awake session. You can switch this behavior in Amphetamine's Preferences if you want.\n\nAmphetamine is highly customizable. You can change all kinds of things like the menu bar image, when notifications should appear, and what sounds to play in Amphetamine's Preferences.";
 
 "ww2_bttn_find_amph" = "Click Here to Locate Amphetamine";
 
@@ -1334,7 +1346,7 @@
 "ww3_lbl_subtitle" = "Amphetamine keeps your Mac awake. And its displays. And its drives.";
 
 // ** NOTE: DO NOT REMOVE '\n' **
-"ww3_lbl_message" = "When Amphetamine is keeping your Mac awake it's called a \"session.\" To start a session, click on Amphetamine in the menu bar and select a session duration. Alternatively, right/control click to start a session using the Default Duration. Change the Default Duration in Preferences → Sessions.\n\nIf you have a MacBook, and want to keep it awake while its display is closed this is now possible to achieve with Amphetamine. It is highly recommended you install Amphetamine Enhancer as a fail-safe, however.";
+"ww3_lbl_message" = "When Amphetamine is keeping your Mac awake it's called a \"session.\" To start a session, click on Amphetamine in the menu bar and select a session duration. Alternatively, right/control click to start a session using the Default Duration. You can change the Default Duration in Preferences → Sessions.\n\nIf you have a MacBook, and want to keep it awake while its display is closed, this is now possible. It is highly recommended you install Amphetamine Enhancer as a fail-safe, however.";
 
 "ww3_bttn_learn_amph_enh" = "Click Here to Learn More About Amphetamine Enhancer";
 
@@ -1352,10 +1364,7 @@
 "ww5_lbl_subtitle" = "Amphetamine is a labor of love.";
 
 // ** NOTE: DO NOT REMOVE '\n' **
-"ww5_lbl_message" = "Amphetamine is a gift from me to you. I really hope you find it useful, stable, and enjoyable. If you can spare a moment to leave your thoughts in an App Store review I would appreciate it. Thank you.\n\nIf you have a question or encounter an issue while using Amphetamine, please contact me by clicking Feedback & Support → Contact Support in Amphetamine's menu.";
-
-// ** NOTE: DO NOT REMOVE '\n' **
-"ww5_lbl_signature" = " William Gustafson\nAmphetamine Creator";
+"ww5_lbl_message" = "Amphetamine is a gift from me to you. I hope you find it useful, stable, and enjoyable. If you can spare a moment to leave your thoughts in an App Store review I would appreciate it. Thank you.\n\nIf you have a question or encounter an issue while using Amphetamine, please contact me by clicking Feedback & Support → Contact Support in Amphetamine's menu.\n\nWilliam Gustafson\nAmphetamine Creator";
 
 
 
@@ -1428,10 +1437,20 @@
 // ----- CLOSED DISPLAY MODE WARNING
 
 // Title
-"cdm_warning_title" = "Consider this a warning...";
+"cdm_warning_title" = "About Closed-Display Mode Sessions";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"cdm_warning_body" = "Be extremely mindful with preventing your Mac from sleeping while in closed-display mode. Your Mac could easily overheat inside of a bag/case or its battery could drain completely.\n\nPlease consider enabling closed-display mode warnings in Preferences → Notifications.\n\nIt is highly recommended that you install Amphetamine Enhancer as a fail-safe for ensuring your Mac performs as expected. If Amphetamine crashes or quits in a non-standard way while this feature is enabled and a session is running, your Mac may be unable to return to a normal state of sleeping when the display is closed until you relaunch Amphetamine.\n\nUSE THIS FEATURE AT YOUR OWN RISK!";
+"cdm_warning_body" = "• Power State\nYour Mac must remain in an unchanging power state during a closed-display mode session. If you connect or disconnect an external power supply/adapter, the closed-display mode session will fail. This restriction does not apply to other session types.\n\n• Overheating and Battery Drain\nYour Mac could easily overheat inside of a bag/case or its battery could drain completely if you forget that a closed-display mode session is active. Please consider enabling closed-display mode warnings in Preferences → Notifications.\n\n• Amphetamine Enhancer Fail-Safe\nIf Amphetamine crashes during a closed-display mode session, your Mac may be unable to return to normal sleeping behavior until you relaunch Amphetamine or you reboot your Mac. It is highly recommended that you install Amphetamine Enhancer as a fail-safe.";
+
+
+// ----- FAILED CLOSED DISPLAY MODE SESSION WARNING
+
+// Title
+"cdm_fail_warning_title" = "Closed-Display Mode Session Failure";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"cdm_fail_warning_body" = "A closed-display mode session has failed. An external power source/adapter was connected or disconnected. Your Mac must remain in an unchanging power state during a closed-display mode session. This restriction does not apply to other session types.\n\nAmphetamine automatically ended the failed closed-display mode session. If a Trigger session has restarted, the new session should be not be affected.";
+
 
 // ----- TRIGGER SESSION WARNING
 
@@ -1727,3 +1746,7 @@
 "trig_err_usb_edit" = "The USB device used with this Trigger is not currently connected.\n\nPlease connect \"%@\" and try again."; // PLACEHOLDER IS NAME OF USB DEVICE
 "trig_err_bluetooth_edit" = "The Bluetooth device used with this Trigger is no longer paired.\n\nPlease re-pair \"%@\" and try again."; // PLACEHOLDER IS NAME OF BLUETOOTH DEVICE
 "trig_err_audio_edit" = "The audio output used with this Trigger is not currently available.\n\nPlease connect \"%@\" and try again."; // PLACEHOLDER IS NAME OF AUDIO OUTPUT DEVICE
+
+
+
+
