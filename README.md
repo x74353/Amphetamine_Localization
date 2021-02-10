@@ -32,7 +32,7 @@ Please be sure to read the guidelines at the beginning of the Localizable.string
 • Greek<BR>
 • Japanese<BR>
 • Korean<BR>
-• Portuguese<BR>
+• Portuguese (Brazilian)<BR>
 • Spanish<BR>
 
 # Translations Completed:
