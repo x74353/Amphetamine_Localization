@@ -28,8 +28,9 @@ Please be sure to read the guidelines at the beginning of the Localizable.string
 
 # Translations In Progress:
 • Bahasa Indonesian<BR>
-• German and/or Turkish
+• German and/or Turkish<BR>
 • Greek<BR>
+• Japanese<BR>
 • Korean<BR>
 • Portuguese<BR>
 • Spanish<BR>
