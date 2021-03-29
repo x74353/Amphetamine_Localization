@@ -1,0 +1,124 @@
+---------------------------------------------------------
+SUBTITLE:
+
+** NOTE: This field has a 30 character limit **
+
+Tiện ích mạnh mẽ để giữ máy luôn thức
+
+
+---------------------------------------------------------
+KEYWORDS: 
+
+** NOTE: If there are other keywords that would make more sense in the target language, feel free to replace these **
+
+đánh thức, thức, phản, ngủ, ngăn, màn hình, năng lượng, caffeine, pin, thời gian biểu, màn hình, bảo vệ, bật
+
+
+---------------------------------------------------------
+APP STORE PREVIEWS:
+
+** NOTE: The following text appears in the screen shots/previews show in Amphetamine’s Mac App Store listing. Please only translate the text below each PREVIEW section. Please keep each line of text separated. **
+
+
+PREVIEW 1:
+Giữ máy Mac của bạn luôn thức với Amphetamine.
+Bắt đầu nhanh một phiên với chỉ 1 cú click chuột, hoặc chọn một khoảng thời gian.
+
+PREVIEW 2:
+Dùng Trigger để tự động hóa việc đưa máy Mac vào chế độ ngủ.
+WiFi, USB & Bluetooth, màn hình, ổ đĩa, và nhiều hơn thế.
+
+PREVIEW 3:
+Giữ máy Mac thức trong khi bạn đang làm việc với nó.
+Chọn 1 ứng dụng và máy Macsẽ không ngủ khi ứng dụng đang chạy.
+
+PREVIEW 4:
+Giữ máy Mac thức khi màn hình đã gập.
+Dùng báo thức để nhắc bạn rằng máy vẫn đang thức.
+
+PREVIEW 5:
+Dùng biểu tượng của riêng bạn.
+Có thể cá nhân hóa gần như mọi thứ, kể cả âm thanh thông báo.
+
+PREVIEW 6:
+Giữ các ổ đĩa luôn thức và sẵn sàng làm việc.
+Drive Alive sẽ đảm bảo ổ đĩa của bạn luôn sẵn sàng trong mọi lúc. 
+
+
+---------------------------------------------------------
+DESCRIPTION:
+
+Chào mừng bạn đến với Amphetamine, ứng dụng tuyệt vời nhất để giữ máy luôn thức dành cho macOS. Amphetamine giữ cho máy Mac của bạn cùng các màn hình phụ đã kết nối không bị tắt chỉ qua một nút click bật/tắt đơn giản, hoặc qua các Trigger mà bạn có thể dễ dàng tự tạo cho mình. Amphetamine cực kì mạnh mẽ và mang nhiều tính năng nâng cao mà vẫn rất trực quan và dễ sử dụng cả khi bạn chỉ cần các chức năng cơ bản nhất.
+
+=== Chỉ Một Cú Click Để Giữ Máy Luôn Thức ===
+
+Để nhanh chóng bắt đầu một phiên chạy, hãy bắt đầu từ biểu tượng của Amphetamine trên thanh menu hệ thống.
+
+• Thời gian vô hạn, có hạn, hoặc cho đến một thời điểm cụ thể
+• Trong khi có file đang tải xuống
+• Trong khi một ứng dụng cụ thể đang chạy
+
+Trong một phiên chạy để giữ máy thức, hãy chọn cho phép hoặc ngăn:
+
+• Màn hình được ngủ
+• Kích hoạt trình screen saver
+• Hệ thống ngủ khi màn hình tích hợp bị gập lại
+• Tự động di chuyển con trỏ chuột
+• Khóa màn hình
+
+=== Tự động hoá Nâng cao ===
+
+Tạo một Trigger để tự động hóa việc giữ máy thức. 
+
+• Khi kết nối với màn hình ngoài
+• Khi màn hình máy Mac đang được phản chiếu
+• Khi kết nối với một thiết bị USB hoặc Bluetooth
+• Khi một ứng dụng cụ thể đang chạy
+• Khi một ứng dụng cụ thể đang chạy với cửa sổ hiện hành nằm trên cùng
+• Khi pin máy Mac đang sạc và/hoặc khi phần trăm pin vượt một mức nhất định
+• Khi máy Mac kết nối/ngắt kết nối với nguồn sạc
+• Khi máy Mac có một địa chỉ IP cụ thể
+• Khi máy Mac kết nối tới một mạng Wi-Fi cụ thể
+• Khi máy Mac kết nối với dịch vụ Cisco AnyConnect VPN
+• Khi máy Mac đang dùng một máy chủ DNS cụ thể
+• Khi đang sử dụng tai nghe hoặc một nguồn xuất âm thanh khác
+• Khi một ổ đĩa hoặc phân vùng cụ thể đang mount vào máy
+• Khi CPU đang ở mức tải nhất định
+• Khi máy Mac nhàn rỗi tới một mức độ nhất định
+
+
+=== Vậy Thì Điều Kiện Là Gì? ===
+
+Chẳng gì cả! Amphetamine miễn phí 100%. Đây là món quà tôi dành cho bạn. Tận hưởng nhé!
+
+• Không hề có quảng cáo
+• Không hề yêu cầu mua trong ứng dụng
+• Không phải mở khóa tính năng thêm/không có phiên bản "pro"
+• Không có cửa sổ yêu cầu review Amphetamine gây khó chịu
+• Không có đường dẫn đến các ứng dụng trả phí khác
+• Không hề truy dấu người dùng
+• Không hề thu thập dữ liệu
+ 
+
+=== Amphetamine Còn Làm Được Những Gì Nữa? === 
+
+Amphetamine là tiện ích mạnh mẽ và dễ cá nhân hóa nhất được viết riêng cho macOS. Một số tính năng nổi bật khác gồm:
+
+• Khóa màn hình máy Mac sau một thời gian không dùng máy
+• Di chuyển con trỏ chuột theo chu kì
+• Giữ MacBook vẫn hoạt động khi màn hình đã gập
+• Giữ ổ đĩa luôn hoạt động với Drive Alive
+• Hỗ trợ AppleScript
+• Cho phép tùy biến biểu tượng trên thanh menu
+• Cho phép tùy biến âm thông báo
+• Cho phép màn hình ngủ trong khi máy Mac vẫn hoạt động
+• Cho phép trình screen saver chạy sau một khoảng thời gian cụ thể không dùng máy
+• Lựa chọn hiển thị thời gian còn lại của phiên chạy trên thanh menu (hỗ trợ định dạng 12/24h)
+• Tự động dừng phiên chạy khi mức pin xuống thấp
+• Hỗ trợ dùng phím nóng để bắt đầu/dừng phiên chạy, bật/tắt chế độ màn hình ngủ, và nhiều tính năng khác nữa
+
+
+=== Yêu cầu về Hệ thống + Các chi tiết khác === 
+
+• Amphetamine yêu cầu macOS 10.11 El Capitan trở lên; một số tính năng có thể cần các phiên bản macOS cao hơn
+• Amphetamine hỗ trợ màn hình Retina và chế độ giao diện tối của macOS.

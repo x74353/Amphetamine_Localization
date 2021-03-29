@@ -1,0 +1,124 @@
+---------------------------------------------------------
+SUBTITLE:
+
+** NOTE: This field has a 30 character limit **
+
+Powerful keep-awake utility
+
+
+---------------------------------------------------------
+KEYWORDS: 
+
+** NOTE: If there are other keywords that would make more sense in the target language, feel free to replace these **
+
+acordar,desperto,anti,repouso,impedir,tela,energia,caffeine,bateria,agendamento,protetor,ligado
+
+
+---------------------------------------------------------
+APP STORE PREVIEWS:
+
+** NOTE: The following text appears in the screen shots/previews show in Amphetamine’s Mac App Store listing. Please only translate the text below each PREVIEW section. Please keep each line of text separated. **
+
+
+PREVIEW 1:
+Mantenha o Mac desperto com o Amphetamine.
+Comece uma sessão com um clique ou escolha uma duração.
+
+PREVIEW 2:
+Use Acionadores para automatizar o repouso do Mac.
+Wi‑Fi, USB, Bluetooth, tela, discos e outros critérios.
+
+PREVIEW 3:
+Mantenha o Mac desperto enquanto você trabalha.
+Escolha um app para impedir o repouso enquanto ele estiver aberto.
+
+PREVIEW 4:
+Mantenha o Mac desperto com a tela fechada.
+Com alerta opcional para que você não se esqueça disso.
+
+PREVIEW 5:
+Use suas próprias imagens de estado.
+Personalize quase tudo, inclusive os sons de notificações.
+
+PREVIEW 6:
+Mantenha os discos funcionando e sempre à disposição.
+O Disco Vivo impede que eles entrem em repouso. 
+
+
+---------------------------------------------------------
+DESCRIPTION:
+
+Conheça o Amphetamine, o app mais incrível para manter seus dispositivos despertos já criado para macOS. O Amphetamine pode manter o Mac desperto, assim como as telas conectadas, através de um simples controle para ativar e desativar ou por Acionadores que você pode configurar facilmente. O Amphetamine é extremamente poderoso e inclui recursos avançados para aqueles que precisam disso, mas continua sendo intuitivo e fácil de usar para quem não precisa de funções adicionais.
+
+=== Clique para Manter o Mac Desperto ===
+
+Comece rapidamente uma sessão a partir do menu do Amphetamine para manter o Mac desperto:
+
+• Indefinidamente, por um tempo específico ou até uma hora específica;
+• Enquanto um arquivo estiver baixando;
+• Enquanto um app específico estiver aberto.
+
+Durante uma sessão para manter o Mac desperto, permita ou impeça o seguinte:
+
+• Repouso da tela;
+• Ativação do protetor de tela;
+• Repouso do sistema com a tela fechada;
+• Movimento automatizado do cursor;
+• Bloqueio da tela.
+
+=== Automação Avançada ===
+
+Crie Acionadores para manter o Mac desperto automaticamente: 
+
+• Enquanto uma tela externa estiver conectada;
+• Enquanto a tela do Mac estiver espelhada;
+• Enquanto um dispositivo USB ou Bluetooth estiver conectado;
+• Enquanto um app específico estiver aberto;
+• Enquanto um app específico estiver aberto e em primeiro plano;
+• Enquanto a bateria do Mac estiver carregando e/ou estiver acima de um certo limite;
+• Enquanto o adaptador de alimentação do Mac estiver conectado ou desconectado;
+• Enquanto o Mac tiver um endereço IP específico;
+• Enquanto o Mac estiver em uma rede Wi‑Fi específica;
+• Enquanto o Mac estiver conectado ao serviço de VPN Cisco AnyConnect;
+• Enquanto o Mac estiver usando servidores DNS específicos;
+• Enquanto os fones de ouvido ou outras saídas de áudio estiverem em uso;
+• Enquanto um disco ou volume específico estiver montado;
+• Enquanto a CPU do Mac estiver sendo usada dentro de um limite específico;
+• Quando o Mac estiver ocioso por um tempo específico.
+
+
+=== E Qual É a Pegadinha? ===
+
+Nenhuma. O Amphetamine é 100% gratuito. O Amphetamine é um presente meu para você. Desfrute de um app:
+
+• Sem anúncios;
+• Sem compras dentro do app;
+• Sem nada para desbloquear, não existe uma versão “pro”;
+• Sem janelas irritantes que pedem para você avaliar o app;
+• Sem links para outros apps pagos;
+• Sem rastreamento;
+• Sem coleta de dados.
+ 
+
+=== O que Mais o Amphetamine Pode Fazer? === 
+
+O Amphetamine é o utilitário mais poderoso e personalizável para manter seus dispositivos despertos já criado para macOS. Veja alguns outros recursos notáveis:
+
+• Bloqueie a tela do Mac após um período de inatividade;
+• Mova o cursor periodicamente;
+• Mantenha o MacBook desperto com a tela fechada;
+• Mantenha discos despertos com o Disco Vivo;
+• Compatibilidade com AppleScript;
+• Use seus próprios ícones na barra de menus;
+• Use seus próprios sons de notificações;
+• Permita que a tela entre em repouso enquanto o Mac continua desperto;
+• Permita que o protetor de tela funcione após um período de inatividade personalizado;
+• Se desejar, veja o tempo restante da sessão no menu (com exibição em formatos de 12 ou 24 horas);
+• Termine a sessão automaticamente se o Mac estiver com pouca bateria;
+• Atalhos para começar e terminar sessões, ativar e desativar o repouso da tela, e muito mais.
+
+
+=== Requisitos do Sistema e Outros Detalhes === 
+
+• O Amphetamine requer o macOS 10.11 El Capitan ou posterior; alguns recursos requerem uma versão posterior do macOS;
+• O Amphetamine é compatível com telas Retina e o modo escuro do macOS.

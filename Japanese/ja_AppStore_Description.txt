@@ -1,0 +1,234 @@
+---------------------------------------------------------
+SUBTITLE:
+
+** NOTE: This field has a 30 character limit **
+
+Powerful keep-awake utility
+パワフルなスリープ防止ユーティリティ
+
+
+---------------------------------------------------------
+KEYWORDS: 
+
+** NOTE: If there are other keywords that would make more sense in the target language, feel free to replace these **
+
+wake, awake, anti, sleep, prevent, display, power, caffeine, battery, schedule, screen, saver, on
+起こし, 起こす, スリープ, 防止, 眠らせない
+
+
+---------------------------------------------------------
+APP STORE PREVIEWS:
+
+** NOTE: The following text appears in the screen shots/previews show in Amphetamine’s Mac App Store listing. Please only translate the text below each PREVIEW section. Please keep each line of text separated. **
+
+
+PREVIEW 1:
+Keep your Mac awake with Amphetamine.
+Quick-start a session with one click, or choose a duration.
+
+Amphetamineで、Macを眠らせない
+ワンクリックで速やかにセッションを開始したり、期間を選んだり。
+
+
+PREVIEW 2:
+Use Triggers to automate when your Mac should sleep.
+WiFi, USB & Bluetooth, display, drives, + more.
+
+トリガーを使って自動的にMacを必要な時に眠らせよう
+Wi-Fi、USB & Bluetooth、ディスプレイ、ドライブ、その他諸々！
+
+
+PREVIEW 3:
+Keep your Mac awake while you work.
+Pick an app and your Mac won’t sleep while it’s running.
+
+あなたが仕事をしているうちに、スリープを防止
+特定のアプリを選んで、それが実行中のときスリープを防止することも可能です
+
+
+PREVIEW 4:
+Keep your Mac awake while its display is closed.
+Use and optional alarm so you won’t forget it’s awake.
+
+MacBookを閉じても、Macは起きたまま
+警告アラームもセットできるので、起きていることを忘れることもないです
+
+
+PREVIEW 5:
+Use your own status images.
+Customize almost everything, including notification sounds.
+
+自分だけのステータス画像を使おう
+カスタマイズ可能なものは、なんとほぼすべて！通知サウンドまでも…
+
+
+PREVIEW 6:
+Keep your disks running and ready for action.
+Drive Alive makes sure your disks don’t spin down. 
+
+ディスクも眠らせないことで、すぐに作業を開始
+ドライブのスリープ防止で、スピン・ダウンから守ってくれる！
+
+
+---------------------------------------------------------
+DESCRIPTION:
+
+Amphetamine（アンフェタミン）へようこそ！macOSのために作られた、最も素晴らしいスリープ防止アプリです！AmphetamineはあなたのMacや、そのディスプレイまで、簡単すぎるオン・オフスイッチだけで眠らせないことができます。さらに、構成も簡単なトリガー機能を用い、自動的にセットすることも可能です。Amphetamineはとてもパワフルで、高度な機能を必要とする人も満足させるとともに、そんな機能はいらないよ！という人にとっても直感的で、使いやすいアプリです。
+
+=== ワンクリックで、Macを起こしたままに ===
+
+Amphetamineのメニューからスリープ防止セッションを速やかに開始して、Macを眠らせません。
+
+•無期限に、指定された期間の間、または指定された時間までに設定が可能
+•ファイルをダウンロード中の間だけでも大丈夫！
+•特定のアプリが実行中の時のみ設定することも可能
+
+スリープ防止セッションを実行中に、許可する動作も選べられます。
+
+• ディスプレイのスリープ
+• スクリーンセーバ
+• ディスプレイを閉じたとき、システムのスリープ
+• マウスポインターを自動的に動かす
+• 画面をロック
+
+=== 高度な自動化 ===
+
+トリガーを作成してMacを自動的にスリープさせないことも可能です。
+
+• 追加のディスプレイがつながったとき
+• Macのディスプレイがミラーリングされているとき
+• USB または Bluetoothデバイスが接続されたとき
+• 特定のアプリが起動中のとき
+• 特定のアプリが最前面で起動中のとき
+• Macのバッテリーが充電中のときや、バッテリーが設定の残量より多いとき
+• Macに電源アダプターがつながったときや、電源アダプターを外したとき
+• Macに特定のIPアドレスが割り当てられたとき
+• Macが特定のWi-Fiネットワークにつながったとき
+• Cisco AnyConnect VPNサービスがつながったとき
+• Macが特定のDNSサーバにつながったとき
+• ヘッドフォンや、その他のオディオ出力を使用中のとき
+• 特定のドライブやボリュームがマウントされたとき
+• MacのCPU使用率が設定の数値になったとき
+• Macに一定時間以上、何の操作も入力されなかったとき
+
+
+=== お金を取られたりするんですか？ ===
+
+Amphetamineは完全に無料のアプリです。あなたのためのプレゼントです。楽しんでください！
+
+• 広告なし
+• App内購入なし
+• 「Proバージョン」なし、全ての機能を制限なく利用可能
+• レビューを勧誘するうるさい通知なし
+• 他の有料アプリへのリンクもなし
+• ユーザ情報の追跡なし
+• データ収集すら全くなし
+ 
+
+=== その他、Amphetamineにできることは何ですか？ === 
+
+AmphetamineはmacOS向けの最もパワフルで、最もカスタマイズが簡単な、スリープ防止アプリです。代表的な機能はご覧の通りです。
+
+• しばらく操作しなかったら、Macの画面をロック
+• マウスポインターを定期的に動かす
+• クラムシェルモード（ディスプレイが閉じているときもMacBookを眠らせないモード）
+• ドライブスリープ防止で、ドライブのアクティブ状態を保つ
+• AppleScriptに対応
+• メニューバーのアイコンを自由にカスタマイズ
+• 通知サウンドを自ら作成
+• Macは起こしたままに、ディスプレイだけをスリープさせる
+• 予め設定した時間後に、スクリーンセーバを有効にする
+• メニューに残りの時間を表示（12時間・24時間表示に対応）
+• Macのバッテリーが少ないとき、セッションを自動的にオフ
+• 「セッションの開始・終了」のホットキーに対応、さらにディスプレイスリープ防止などにもホットキーを設定可能
+
+=== システム要求・その他の情報 === 
+
+• AmphetamineはmacOS 10.11 El Capitan以上は必要です。また、一部の機能を使うためには、さらに最新のmacOSが必要となる場合がございます。
+• AmphetamineはRetinaディスプレイ、macOSのダークモードに対応しています。
+
+
+
+
+
+
+
+
+
+
+
+
+Welcome to Amphetamine, the most awesome keep-awake app ever created for macOS. Amphetamine can keep your Mac, and optionally its display(s), awake through a super simple on/off switch, or automatically through easy-to-configure Triggers. Amphetamine is extremely powerful and includes advanced features for those who need them, yet remains intuitive and easy-to-use for those who don't need all of the bells and whistles.
+
+=== Click to Keep Your Mac Awake ===
+
+Quickly start a keep-awake session from Amphetamine's menu to keep your Mac awake.
+
+• Indefinitely, for a specified amount of time, or until a specified time
+• While a file is downloading
+• While a specific app is running
+
+During a keep-awake session, choose to allow or prevent:
+
+• Display sleep
+• Screen saver activation
+• System sleep when built-in display is closed
+• Automated mouse cursor movement
+• Locking of the screen
+
+=== Advanced Automation ===
+
+Create a Trigger to automatically keep your Mac awake. 
+
+• While an external display is connected
+• While your Mac's display is being mirrored
+• While a USB or Bluetooth device is connected
+• While a specific app is running
+• While a specific app is running and is frontmost
+• While your Mac's battery is charging and/or when the battery is above a threshold
+• While your Mac's power adapter is connected or disconnected
+• While your Mac has a specific IP address
+• While your Mac is on a specific Wi-Fi network
+• While your Mac is connected to Cisco AnyConnect VPN service
+• While your Mac is using a specific DNS servers
+• While headphones or another audio output is in use
+• While a specific drive or volume is mounted
+• While your Mac's CPU is being utilized to a specific threshold
+• When your Mac has been idle for a specific threshold
+
+
+=== What's the Catch? ===
+
+No catch. Amphetamine is 100% free. It's a gift from me to you. Enjoy!
+
+• No advertisements
+• No in-app purchases
+• Nothing to unlock/no "pro" version
+• No annoying prompts asking you to review Amphetamine
+• No links for other paid apps
+• No tracking
+• No data-harvesting
+ 
+
+=== What Else Does Amphetamine Do? === 
+
+Amphetamine is the most powerful and customizable keep-awake utility ever created for macOS. Some other notable features are:
+
+• Lock your Mac's screen after a period of inactivity
+• Move the mouse cursor periodically
+• Keep your MacBook awake while its display/lid is closed
+• Keep your drive awake with Drive Alive
+• AppleScript support
+• Use your own menu bar icons
+• Use your own notification sounds
+• Allow your display to sleep while keeping your Mac awake
+• Allow screen saver to run after a customizable period of inactivity
+• Optional session time remaining display in the menu (with 12/24 hour support)
+• Auto-end session if your Mac's battery is low
+• Hot key support for starting/ending sessions, enabling disabling display sleep, and more
+
+
+=== System Requirements + Other Details === 
+
+• Amphetamine requires macOS 10.11 El Capitan or higher; some features require a higher version of macOS
+• Amphetamine supports Retina displays and macOS dark mode.

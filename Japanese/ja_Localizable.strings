@@ -1,0 +1,1618 @@
+/*
+ 
+  Localizable.strings
+  Amphetamine
+
+  Created by William Gustafson on 2/21/20.
+  Copyright © 2020 William C. Gustafson. All rights reserved.
+ 
+ */
+
+// ---------------------------------------------------------------------------
+// GENERAL USE STRINGS
+
+// THE APP'S NAME, DON'T TRANSLATE
+"gen_use_app_name" = "Amphetamine";
+
+// THE NAME OF THE TARGET LANGUAGE
+ "gen_use_locale" = "Japanese";
+
+// USED IN BUTTONS, MENUS
+"gen_use_end_session_cap" = "セッションを終了";
+
+// USED TO INFORM USER OF KEY COMMAND
+"gen_use_command_x" = "⌘ X";
+
+// USED IN BUTTONS, MENUS
+"gen_use_cont_session_cap" = "セッションを続ける";
+
+// USED IN MENU
+"gen_use_close_menu" = "メニューを閉じる";
+
+// USED IN SENTENCES
+// EXAMPLE: THERE ARE 10 MINUTES REMAINING IN THIS SESSION.
+"gen_use_remaining" = "残りの時間は";
+
+// USED IN SENTENCES
+// EXAMPLE USAGE: BATTERY IS 100% 'CHARGED'
+"gen_use_charged" = "充電されました";
+
+// EXAMPLE USAGE: POWER ADAPTER CONNECTED 'AND'/'OR' BATTERY 100% CHARGED
+"gen_use_and" = "かつ";
+
+// EXAMPLE USAGE: POWER ADAPTER CONNECTED 'OR' BATTERY 100% CHARGED
+"gen_use_or" = "または";
+
+// EXAMPLE USAGE: CLICK THE BUTTON LABELED 'SAVE' TO KEEP YOUR CHANGES
+"gen_use_save" = "保存";
+
+// EXAMPLE USAGE: CLICK THE BUTTON LABELED 'CANCEL' TO DISCARD YOUR CHANGES
+"gen_use_cancel" = "キャンセル";
+
+// EXAMPLE USAGE: CLICK THE BUTTON LABELED 'CONTINUE' TO PROCEED
+"gen_use_continue" = "続ける";
+
+// EXAMPLE USAGE: CLICK THE BUTTON LABELED 'SELECT' TO CONFIRM YOUR SELECTION
+"gen_use_select" = "選択";
+
+// USED AS A BUTTON LABEL OR MENU ITEM TITLE, ACTIONABLE, CLICKING ON THIS WILL END A SESSION
+"gen_use_end_session" = "今のセッションを終了";
+
+// USED IN CONJUNCTION WITH A NUMBER, EXAMPLE USAGE: Duration = 10 'hours'
+"gen_use_days" = "日";
+"gen_use_day" = "日";
+"gen_use_hours" = "時間";
+"gen_use_hour" = "時間";
+"gen_use_minutes" = "分";
+"gen_use_minute" = "分";
+"gen_use_seconds" = "秒";
+"gen_use_second" = "秒";
+
+// USED AS A CATEGORY, EXAMPLE: MENU NAME 'HOURS' SUBMENU CONTAINS "1 HOUR", "2 HOURS", ETC.
+"gen_use_hours_cap" = "〜時間";
+"gen_use_minutes_cap" = "〜分間";
+
+// TIME UNIT ABBREVIATIONS
+// EXAMPLE: 1h 30m = 1 HOUR 30 MINUTES
+"duration_abbrv_hours_h" = "時間";
+"duration_abbrv_hours_hrs" = "時間";
+
+"duration_abbrv_minutes_mins" = "分";
+"duration_abbrv_minutes_m" = "分";
+
+"duration_abbrv_seconds_secs" = "秒";
+"duration_abbrv_seconds_s" = "秒";
+
+// USED IN SENTENCE; EXAMPLE: 10 MINUTES 'OF INACTIVITY'
+"gen_use_of_inactivity" = "後、オフにする";
+
+// USED IN BUTTON TITLE FOR OTHER TIME DURATION SESSIONS
+// EXAMPLE: 'FOR' 3 HOURS, 'UNTIL' 5:00 PM
+"gen_use_other_time_for_cap" = "次の間";
+"gen_use_other_time_until_cap" = "次の時刻まで";
+
+// USED TO INDICATE A CUSTOM TIME SELECTION AS OPPOSED TO THE STANDARD SELECTIONS
+// EXAMPLE: " 'OTHER TIME:' 2 HRS 16 MINS "
+"gen_use_other_time_colon" = "カスタム時間:";
+
+// USED TO INDICATE THAT NO DEVICES (i.e. USB or BLUETOOTH DEVICE) ARE CONNECTED TO THIS MAC
+"gen_use_no_recog_dev" = "接続されているデバイスが見つかりませんでした";
+
+// USED TO PROMPT USER TO CONTINUE OR END A SESSION
+"gen_use_cont_session" = "今のセッションを続けますか？";
+
+// EXAMPLE 100 'PIXELS' WIDE
+"gen_use_pixels" = "ピクセル";
+
+// EXAMPLE 1 'PIXEL' WIDE
+"gen_use_pixel" = "ピクセル";
+
+// THE LOCALIZED NAME OF THE FINDER APP IN THE TARGET LANGUAGE. MAY BE FINDER AND NO CHANGED NEEDED
+"finder_app_name" = "Finder";
+
+// THE LOCALIZED PATH TO THE USER LIBRARY → PREFERENCES DIRECTORY
+// DO NOT ADD ~ OR ANY OTHER PATH COMPONENTS
+// FULL PATH IS GENERATED DYNAMICALLY USING ACCOUNT SHORT NAME
+// ONLY TRANSLATE THIS IF THESE FOLDER NAMES APPEAR DIFFERENTLY IN THE TARGET LANGUAGE
+// OTHERWISE, DO NOT TRANSLATE
+"path_to_usr_prefs" = "/Library/Preferences/";
+
+// Used to denote the version of the app. Example: Version 5.0
+"gen_use_version_cap" = "バージョン";
+
+// USED AS BUTTON LABEL/TITLE IN RESPONSE TO A QUESTION
+// EXAMPLE: Q: IS THIS DRIVE A NETWORK VOLUME? BUTTON TITLES: 'YES', 'NO'
+"gen_use_yes_cap" = "はい";
+"gen_use_no_cap" = "いいえ";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// SESSION DURATIONS
+// USED PRIMARILY IN IN MENUS AS SELECTABLE ITEMS
+
+"pref_duration_other" = "その他カスタム時間...";
+"pref_duration_indef" = "無期限に";
+"pref_duration_5secs" = "5秒間";
+"pref_duration_10secs" = "10秒間";
+"pref_duration_15secs" = "15秒間";
+"pref_duration_30secs" = "30秒間";
+"pref_duration_1min" = "1分間";
+"pref_duration_5mins" = "5分間";
+"pref_duration_10mins" = "10分間";
+"pref_duration_15mins" = "15分間";
+"pref_duration_20mins" = "20分間";
+"pref_duration_25mins" = "25分間";
+"pref_duration_30mins" = "30分間";
+"pref_duration_35mins" = "35分間";
+"pref_duration_40mins" = "40分間";
+"pref_duration_45mins" = "45分間";
+"pref_duration_50mins" = "50分間";
+"pref_duration_55mins" = "55分間";
+"pref_duration_1hr" = "1時間";
+"pref_duration_2hrs" = "2時間";
+"pref_duration_3hrs" = "3時間";
+"pref_duration_4hrs" = "4時間";
+"pref_duration_5hrs" = "5時間";
+"pref_duration_6hrs" = "6時間";
+"pref_duration_7hrs" = "7時間";
+"pref_duration_8hrs" = "8時間";
+"pref_duration_9hrs" = "9時間";
+"pref_duration_10hrs" = "10時間";
+"pref_duration_12hrs" = "12時間";
+"pref_duration_24hrs" = "24時間";
+"pref_duration_download" = "ファイルをダウンロード中...";
+
+// SESSION TIME REMAINING
+"session_time_remain_infin" = "残り時間：無限";
+"session_time_remain_dwnld" = "ファイルをダウンロードしている間";
+
+// SESSION TIME EXTENSION
+"session_time_extend" = "セッションを延長する:";
+
+
+
+// ---------------------------------------------------------------------------
+// DELAYED START DURATIONS
+// USED PRIMARILY IN IN MENUS AS SELECTABLE ITEMS
+
+"scrn_svr_delay_dur_1m" = "1分後にスタート";
+"scrn_svr_delay_dur_5m" = "5分後にスタート";
+"scrn_svr_delay_dur_10m" = "10分後にスタート";
+"scrn_svr_delay_dur_15m" = "15分後にスタート";
+"scrn_svr_delay_dur_30m" = "30分後にスタート";
+"scrn_svr_delay_dur_45m" = "45分後にスタート";
+"scrn_svr_delay_dur_1h" = "1時間後にスタート";
+"scrn_svr_delay_dur_1h15m" = "1時間 15分後にスタート";
+"scrn_svr_delay_dur_1h30m" = "1時間 30分後にスタート";
+"scrn_svr_delay_dur_1h45m" = "1時間 45分後にスタート";
+"scrn_svr_delay_dur_2h" = "2時間後にスタート";
+"scrn_svr_delay_dur_2h15m" = "2時間 15分後にスタート";
+"scrn_svr_delay_dur_2h30m" = "2時間 30分後にスタート";
+"scrn_svr_delay_dur_2h45m" = "2時間 45分後にスタート";
+"scrn_svr_delay_dur_3h" = "3時間後にスタート";
+"scrn_svr_delay_dur_3h15m" = "3時間 15分後にスタート";
+"scrn_svr_delay_dur_3h30m" = "3時間 30分後にスタート";
+"scrn_svr_delay_dur_3h45m" = "3時間 45分後にスタート";
+"scrn_svr_delay_dur_4h" = "4時間後にスタート";
+"scrn_svr_delay_dur_4h15m" = "4時間 15分後にスタート";
+"scrn_svr_delay_dur_4h30m" = "4時間 30分後にスタート";
+"scrn_svr_delay_dur_4h45m" = "4時間 45分後にスタート";
+"scrn_svr_delay_dur_5h" = "5時間後にスタート";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// FILE DOWNLOAD SESSION PROGRESS
+// USED PRIMARILY IN IN MENUS AS SELECTABLE ITEMS
+
+// ** NOTE: DO NOT REMOVE '%@' or '%.f%%' **
+// PLACEHOLDERS REPRESENT DOWNLOAD PROGRESS - EXAMPLE" File is downloading... (2GB | 47%)
+"pref_duration_download_progress" = "ファイルをダウンロードしています... (%@ | %.f%%)";
+"pref_duration_download_progress_unknown" = "ファイルをダウンロードしています... (%@ | 残り不明)";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// DATE FORMATTERS
+
+// 12 HOUR DATE FORMATTER STRING 1
+"12_hr_date_formatter" = "MMM月 d日, a h:mm";
+
+// 12 HOUR DATE FORMATTER STRING 2
+"12_hr_date_formatter_2" = "a h:mm";
+
+// 24 HOUR DATE FORMATTER STRING
+"24_hr_date_formatter" = "MMM月 d日, HH:mm";
+
+// 24 HOUR DATE FORMATTER STRING 2
+"24_hr_date_formatter_2" = "HH:mm";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// SESSION ACTIVATION REASONS
+
+"act_reason_sess_at_launch" = "Appを開いたときに新しいセッションを開始";
+"act_reason_manual" = "マニュアルアクティベーション";
+"act_reason_app_running" = "が起動中のとき"; // example usage: "Safari is running"
+"act_reason_trigger_name" = "トリガー名";
+"act_reason_applescript" = "AppleScript 実行";
+"act_reason_woke_from_sleep" = "Macのスリープが解除されたとき";
+"act_reason_ac_connected" = "電源アダプターにつながれているとき";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → GLOBAL
+// ---------------------------------------------------------------------------
+
+"pref_window_title" = "環境設定"; // 5.0.2
+"pref_global_lbl_uses_default_duration" = "↳ デフォルト設定の期間を使用";
+"pref_global_bttn_screen_saver_exceptions" = "例外...";
+"scrn_svr_excpt_VNC" = "スクリーン共有/VNC/Remote Desktop接続"; // 5.1.2
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → GENERAL TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_gen" = "一般";
+
+// PREFERENCES → GENERAL BUTTONS
+"pref_gen_bttn_launch_app_at_login" = "ログイン時にAmphetamineを起動";
+"pref_gen_bttn_start_session_at_launch" = "Amphetamineを起動するとき、自動的にセッションを開始";
+"pref_gen_bttn_start_session_after_wake" = "スリープを解除したとき、自動的にセッションを開始";
+"pref_gen_bttn_hide_dock_icon" = "DockからAmphetamineを隠す";
+"pref_gen_bttn_reduce_motion" = "視覚効果を減らす";
+"pref_gen_bttn_reset_warnings" = "警告及びダイアログをリセット";
+"pref_gen_bttn_reset_all_prefs" = "全ての設定をリセット";
+
+// PREFERENCES → GENERAL LABELS
+"pref_gen_lbl_quick_start" = "セッションを速やかに開始:";
+"pref_gen_lbl_launch_wake" = "起動またはスリープ解除時の動作:";
+"pref_gen_lbl_other" = "その他:";
+"pref_gen_lbl_takes_effect_close_win" = "↳ 開かれている全てのウインドウを閉じると適用されます";
+
+// PREFERENCES → GENERAL MENU ITEMS
+"pref_gen_mi_quick_start_rightclick" = "右クリック（左クリックでメニューを表示）";
+"pref_gen_mi_quick_start_leftclick" = "左クリック（右クリックでメニューを表示）";
+
+
+// ---------------------------------------------------------------------------
+// (?) BUTTON MENU ITEMS
+
+// ----- PREFERENCES → GENERAL → Quick-Start a Session Help Message
+
+// Title
+"help_message_quick_start_title" = "セッションを速やかに開始";
+
+// Body
+"help_message_quick_start_body" = "メニューバーのAmphetamineアイコンを左クリック（または主ボタンクリック）・右クリック（または副ボタンクリック）したときにセッションを開始するか、メニューを表示するか設定できます。";
+
+// ----- PREFERENCES → GENERAL → Launch and Wake Behavior Help Message
+
+// Title
+"help_message_quick_launch_wake_title" = "起動またはスリープ解除時の動作"; // fix me quick?
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_quick_launch_wake_body" = "• ログイン時にAmphetamineを起動\nMacにログインまたはMacを起動したときに自動的にAmphetamineを起動するためには、この項目をオンにしてください。\n\n• Amphetamineを起動するとき、自動的にセッションを開始\nAmphetamineを開いたときに自動的に新しいセッションを開始させるためには、この項目をオンにしてください。\n\n• スリープを解除したとき、自動的にセッションを開始\nMacのスリープが解除されたときに自動的に新しいセッションを開始させるためには、この項目をオンにしてください。ただし、すでにセッションが開始されていた場合には、新しいセッションを作成しません。";
+
+// ----- PREFERENCES → GENERAL → Other Help Message
+
+// Title
+"help_message_other_title" = "その他";
+
+// Body (macOS 10.14+) ** NOTE: DO NOT REMOVE '\n' **
+"help_message_other_body_post_highsierra" = "• DockからAmphetamineを隠す\nDockからAmphetamineのアイコンを隠すためには、この項目をオンにしてください。macOS 10.15以上では、Amphetamineのウインドウが一つでも開いている場合（例：環境設定ウインドウなど）、この設定をオンにしてもDockにアイコンが表示されるようになります。全てのウインドウを閉じたときにアイコンが隠されます。\n\nmacOS 10.14以下では、 → システム環境設定 → Dockのメニューから「最近使ったアプリをDockに表示」機能をオフにしてDockからAmphetamineのアイコンが隠せます。\n\n• 視覚効果を減らす\nAmphetamineのインターフェース上でのアニメーション効果などを減らすためには、この項目をオンにしてください。\n\n「警告及びダイアログをリセット」ボタンをクリックすると、「今後表示しない」にした警告や、その他のダイアログが再び現れるようになります。\n\n「全ての設定をリセット」ボタンをクリックすると、Amphetamineの全ての設定（トリガーを含む）を初期状態に戻し、リセットします。設定していた全ての設定は失われます。";
+
+// Body (macOS 10.11 - 10.13) ** NOTE: DO NOT REMOVE '\n' **
+"help_message_other_body_pre_mojave" = "• DockからAmphetamineを隠す\nDockからAmphetamineのアイコンを隠すためには、この項目をオンにしてください。\n\n• クイック設定で色で現在のステータスを表示\nクイック設定で丸い円の色で現在のステータスを表示するためにはこの項目をオンにしてください。緑はオン、赤はオフを表します。この項目をオフにすると、チェック表示でオン、Xでオフと、色を用いずにステータスを表示します。\n\n• 視覚効果を減らす\nAmphetamineのインターフェース上でのアニメーション効果などを減らすためには、この項目をオンにしてください。\n\n「警告及びダイアログをリセット」ボタンをクリックすると、「今後表示しない」にした警告や、その他のダイアログが再び現れるようになります。\n\n「全ての設定をリセット」ボタンをクリックすると、Amphetamineの全ての設定（トリガーを含む）を初期状態に戻し、リセットします。設定していた全ての設定は失われます。";
+
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → SESSIONS TAB → NON-TRIGGER SESSIONS SECTION
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_sess" = "デフォルトセッション";
+
+// PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS BUTTONS
+"pref_sess_nt_button_title" = "トリガーのないセッション";
+"pref_sess_nt_bttn_default_duration_edit" = "編集";
+"pref_sess_nt_bttn_end_session_force_sleep" = "Macが強制的にスリープされたときにセッションを終了";
+"pref_sess_nt_bttn_allow_display_sleep" = "ディスプレイのスリープを許可";
+"pref_sess_nt_bttn_allow_cdm" = "ディスプレイを閉じたとき、システムのスリープを許可";
+"pref_sess_nt_bttn_allow_screen_saver" = "以下で設定の時間後、スクリーンセーバを許可";
+"pref_sess_nt_bttn_end_low_batt" = "バッテリー残量が以下の数値(%)より少なくなるとセッションを終了";
+"pref_sess_nt_bttn_prompt_end_low_batt" = "セッションを終了する前に通知";
+"pref_sess_nt_bttn_ignore_batt_if_pwr_adptr" = "電源アダプターにつながっているとき、バッテリー残量を無視";
+"pref_sess_nt_bttn_start_session_pwr_adptr_connect" = "電源アダプターにつながったとき、新しいセッションを開始";
+
+"pref_sess_nt_bttn_endtime_timer" = "タイマーを使用"; // v5.0.2
+"pref_sess_nt_bttn_endtime_sysclock" = "システム時間を使用"; //v5.0.2
+
+// PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS LABELS
+"pref_sess_nt_lbl_dd" = "デフォルト期間設定:";
+"pref_sess_nt_lbl_end_time_calc" = "終了時間の計算:";
+"pref_sess_nt_lbl_forced_sleep" = "強制的にスリープ:";
+"pref_sess_nt_lbl_display_sleep" = "ディスプレイのスリープ:";
+"pref_sess_nt_lbl_cdm" = "Macのディスプレイを閉じる:";
+"pref_sess_nt_lbl_screen_saver" = "スクリーンセーバ:";
+"pref_sess_nt_lbl_battery" = "バッテリー:";
+"pref_sess_nt_lbl_pwr_adptr" = "電源アダプター:";
+"pref_sess_nt_lbl_cust_dd_enter" = "カスタム期間を設定するために、以下に時間を入力してください:";
+
+// OTHER STRINGS
+
+// USED IN SENTENCE; EXAMPLE: " 'Your Mac's battery is' not connected to power adapter"
+// ** NOTE: DO NOT REMOVE %@ **
+"pref_sess_batt_is" = "Macのバッテリー残量は%@です。";
+
+// USED IN SENTENCE; EXAMPLE: " 'Your Mac's battery is below' 10%"
+// ** NOTE: DO NOT REMOVE '%@' or '%li%%' **
+"pref_sess_batt_is_below" = "Macのバッテリー残量が%@未満です。";
+"pref_sess_batt_is_below2" = "Macのバッテリー残量が%li%%未満です。（充電中）";
+
+// USED IN SENTENCE; EXAMPLE: " 'End session when:' not connected to power adapter"
+"pref_sess_nt_end_when" = "次の場合、セッションを終了:";
+
+// USED IN SENTENCE; EXAMPLE: "End session when: 'not connected to power adapter' "
+"pref_sess_nt_ac_not_connected" = "電源アダプターにつながっていません";
+"pref_sess_nt_ac_not_connected_cap" = "電源アダプターにつながっていません";
+"pref_sess_nt_ac_connected" = "電源アダプターにつながっています";
+
+// USED IN SENTENCE; EXAMPLE: " 'End session if charge (%) is below: ' 10%"
+// ** NOTE: LEAVE SPACE CHAR AT END OF STRING **
+"pref_sess_nt_end_if_chrg" = "バッテリー残量(%)が次より少ないときにセッションを終了: ";
+
+// ---------------------------------------------------------------------------
+// (?) BUTTON MENU ITEMS
+
+// ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Default Duration Help Message
+
+// Title
+"help_message_default_duration_title" = "デフォルト期間設定";
+
+// Body
+"help_message_default_duration_body" = "特にセッションの期間を指定しないとき、このデフォルト期間設定を用いてセッションを開始します。Amphetamineを開いたとき自動的にセッションを開始したり、クリックして速やかにセッションを開始したりするときなどに使われます。";
+
+// ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → End Time Calculation Help Message
+
+// Title
+"help_message_end_time_cal_title" = "終了時間の計算";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_end_time_cal_body" = "セッションの終了時間を計算するとき、Amphetamineのタイマーを使うか、システム時間を使うか選べられます。もしタイマーを使うように設定して、3時間のセッションを開始した後に、強制的にスリープさせ2時間が経ったとすると、セッションの残り時間は3時間のままになります。Macがスリープ中の場合はタイマーの計算が止められるからです。\n\n同じ状況でシステム時間を使うように設定すると、セッションの残り時間は1時間になります。システム時間はMacがスリープ中の場合にも流れているからです。";
+
+// ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Forced Sleep Help Message
+
+// Title
+"help_message_forced_sleep_title" = "強制的にスリープ";
+
+// Body
+"help_message_forced_sleep_body" = "この項目をオンにすると、 → スリープや、キーボードショートカット・ホットキーなどを使ってMacを強制的にスリープさせたとき、全てのトリガーのないセッションが自動的に終了されます。";
+
+// ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Display Sleep Help Message
+
+// Title
+"help_message_display_sleep_title" = "ディスプレイのスリープ";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_display_sleep_body" = "この項目をオンにすると、セッションが開始されている間に、ディスプレイだけがスリープされるようになります。ディスプレイのスリープ時間は  → システム環境設定 → バッテリーから変更することができます。\n\nまた、この項目はトリガーのないセッションにのみ適用されます。もしトリガーセッションが開始されている時もオンにしたい場合は、トリガーごとにセットする必要があります。";
+
+// ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Closed-Display Mode Help Message
+
+// Title
+"help_message_closed_display_title" = "Macのディスプレイを閉じる";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_closed_display_body" = "この項目をオフにすると、AmphetamineはあなたのMacBookのディスプレイが閉じている時にも引き続きスリープさせない（クラムシェルモード）ようになります。\n\nAmphetamineがないときはクラムシェルモードを実行するために外部ディスプレイとキーボード、マウス、電源アダプターを繋げる必要がありますが、Amphetamineがあれば何一つ用意しなくても大丈夫です。\n\nもしお使いのMacがクラムシェルモードに対応していない場合は、この項目が非アクティベートされます。\n\nまた、この項目はトリガーのないセッションにのみ適用されます。もしトリガーセッションが開始されている時もオンにしたい場合は、トリガーごとにセットする必要があります。\n\nこの機能を使っているときに警告を受けたい場合は、環境設定 → 通知 → クラムシェルモードから設定できます。";
+
+// ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Screen Saver Help Message
+
+// Title
+"help_message_screen_saver_title" = "スクリーンセーバ";
+
+// Body
+"help_message_screen_saver_body" = "この項目をオンにすると、トリガーのないセッションでスクリーンセーバが有効になります。Macの設定でスクリーンセーバ開始までの時間を設定すると、その時間ごにスクリーンセーバが実行されます。また、「例外...」ボタンを押すとこの機能の対象から除外するアプリを選ぶこともできます。この場合、このアプリを起動中の時はスクリーンセーバが作動しなくなります。この機能はあなたが動画を見ていたり、電子書籍を読んでいたりするときに特にお得です。\n\nこの項目はトリガーのないセッションにのみ適用されます。もしトリガーセッションが開始されている時もオンにしたい場合は、トリガーごとにスクリーンセーバを許可するよう設定する必要があります。";
+
+// ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Battery Help Message
+
+// Title
+"help_message_battery_title" = "バッテリー";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_battery_body" = "• バッテリー残量が以下の数値(%)より少なくなるとセッションを終了\nこの項目をオンにすると、バッテリー残量がスライダーで設定したものより低くなった時に、トリガーのないセッションが終了されます。スライダーを一番右側まで動かすと、電源アダプターにつながっていない時は常にセッションを終了するようになります。\n\n• セッションを終了する前に通知\nこの項目をオンにすると、バッテリー残量が低くなり、セッションを終了することになったら、自動的にセッションを終了する前に通知を送ります。あなたはそのとき、セッションを続けるか、終了するかが選べるようになります。\n\n• 電源アダプターにつながっているとき、バッテリー残量を無視\nこの項目をオンにすると、電源アダプターにつながっているときはバッテリー残量が低くなってもセッションを終了しないようになります。\n\nまた、この項目はトリガーのないセッションにのみ適用されます。もしトリガーセッションが開始されている時もオンにしたい場合は、トリガーごとに設定する必要があります。";
+
+// ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Power Adapter Help Message
+
+// Title
+"help_message_power_adapter_title" = "電源アダプター";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_power_adapter_body" = "電源アダプターに繋げると「バッテリー残量が以下の数値(%)より少なくなるとセッションを終了」と「電源アダプターにつながっているとき、バッテリー残量を無視」が両方オンになっているとき、または「バッテリー残量が以下の数値(%)より少なくなるとセッションを終了」でスライダーを一番右側までスライドしたときに有効になります。\n\nこの項目をオンにすると、バッテリー残量の不足でセッションが終了されられていたとき、Macが電源アダプターにつながることで自動的に新しいセッションを開始するようになります。";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES → SESSIONS TAB → ALL SESSIONS SECTION
+// ---------------------------------------------------------------------------
+
+// PREFERENCES → SESSIONS → ALL SESSIONS BUTTONS
+"prefs_tb_sys_cntrl" = "システムコントロール";
+"pref_sess_as_button_title" = "全てのセッション";
+"pref_sess_as_bttn_lck_scrn_pt1" = "非アクティブから";
+"pref_sess_as_bttn_lck_scrn_pt2" = "〜後に画面をロック";
+"pref_sess_as_bttn_lck_scrn_use_cursor" = "非アクティブの解除にマウスポインターを使用";
+"pref_sess_as_bttn_lck_scrn_disp_clsd" = "ディスプレイを閉じたら、すぐに画面をロック";
+"pref_sess_as_bttn_lck_scrn_allow_disp_sleep" = "スクリーンがロックになっているとき、ディスプレイのスリープを許可";
+"pref_sess_as_bttn_cursor_pt1" = "マウスポインターを";
+"pref_sess_as_bttn_cursor_pt2" = "ごとに動かす。また、最後の操作から";
+"pref_sess_as_bttn_cursor_pt3" = "後から実行する";
+"pref_sess_as_bttn_cursor_stop_pt1" = "最後の操作の";
+"pref_sess_as_bttn_cursor_stop_pt2" = "後からマウスポインターの移動を停止";
+"pref_sess_as_bttn_fast_usr_switch" = "ログインアカウントの切り替え時にセッションを終了";
+
+// PREFERENCES → SESSIONS → ALL SESSIONS LABELS
+"pref_sess_as_lbl_cursor_speed" = "軌跡の速さ:";
+"pref_sess_as_lbl_cursor_speed_fast" =  "速い";
+"pref_sess_as_lbl_cursor_speed_slow" =  "遅い";
+"pref_sess_as_lbl_cursor_speed_warn" = "動きが遅いとCPUの使用率がわずかに増加します";
+"pref_sess_as_lbl_lck_scrn" = "ロック画面:";
+"pref_sess_as_lbl_cursor" = "マウスポインター:";
+"pref_sess_as_lbl_fast_usr_switch" = "ファストユーザスイッチメニュー:";
+
+// ---------------------------------------------------------------------------
+// (?) BUTTON MENU ITEMS
+
+// ----- PREFERENCES → SESSIONS → ALL SESSIONS → Lock Screen Help Message
+
+// Title
+"help_message_lock_screen_title" = "画面をロック";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_lock_screen_body" = "• 〜後にロック画面に設定\nこの項目をオンにすると、Amphetamineはセッションが実行中のとき、一定時間が経つと自動的に画面をロックします。セッションが開始されていないときにも画面をロックさせるためには、 → システム環境設定 → セキュリティとプライバシー → 一般からセットしてください。\n\n• 非アクティブの解除にマウスポインターを使用\nこの項目をオンにすると、画面がロックされたときにマウスポインターを使ってロックを解除できるようになります。この項目はVNC、ARD、RDPなどで遠隔でアクセスしているときに特にお得です。\n\n• ディスプレイを閉じたら、すぐに画面をロック\nこの項目をオンにすると、MacBookのディスプレイを閉じたとき、直ちに画面をロックするようになります。この機能はセッションが開始されていて、クラムシェルモードが実行されたときに有効になります。もしMacがクラムシェルモードに対応していない場合は、このチェックボックスは非アクティベートされます。";
+
+// ----- PREFERENCES → SESSIONS → ALL SESSIONS → Cursor Help Message
+
+// Title
+"help_message_cursor_title" = "マウスポインター";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_cursor_body" = "• マウスポインターを設定の時間間隔に動かす\nこの項目をオンにすると、Amphetamineはセッションが開始されているときにマウスポインターを動かします。この機能はトリガーの設定を問わず、全てのセッションに適用されます。もしスクリーンセーバを使いたい場合は、この項目を切ってください。マウスポインターを動かすように設定すると、セッションが開始されているときにディスプレイのスリープを許可しているとしても、ディスプレイをスリープさせないようになります。\n\n• 最後の操作から設定の時間が経過した後から、マウスポインターの移動を停止\nこの項目をオンにすると、Amphetamineは指定の時間が経過した後に、マウスポインターの移動を停止するようになります。これにより、ディスプレイのスリープを許可している場合は、ディスプレイをスリープできるようになります。";
+
+// ----- PREFERENCES → SESSIONS → ALL SESSIONS → Fast User Switching Help Message
+
+// Title
+"help_message_fast_user_switch_title" = "ファストユーザスイッチメニュー";
+
+// Body
+"help_message_fast_user_switch_body" = "この項目をオンにすると、ログインユーザを変えたときに、トリガーの設定を問わず全てのセッションを終了させるようになります。";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → TRIGGERS TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_trig" = "トリガー";
+
+// PREFERENCES → TRIGGERS BUTTONS
+"pref_trig_bttn_enable" = "トリガーをオンにする";
+
+// PREFERENCES → TRIGGERS LABELS
+"pref_trig_lbl_edit" = "トリガー名をダブルクリックしてトリガーを編集";
+
+// TRIGGER TABLE HEADERS
+"trig_tbl_head_name" = "トリガー名";
+"trig_tbl_head_enabled" = "オン";
+
+// ----- Triggers Help Message
+
+// Title
+"help_triggers_title" = "トリガー";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_triggers_body" = "トリガーはAmphetamineの最も強力な機能のうち一つです。あなたは作りたい放題、いくつでもトリガーが作れます。トリガーの条件を満たすと、セッションが開始されていない場合に、トリガーセッションを開始します。\n\nさらに、全てのトリガーをオン・オフできるグローバルトリガーボタンもあり、各トリガーごとにオン・オフを設定することも可能です。\n\n+ボタンを押してトリガーを作成し、リストからトリガーを選んで-ボタンを押すと削除されます。\n\nリストからトリガーを選んで↑または↓ボタンを押すと、トリガーのリストの順序を変えることも可能です。トリガーは最も上にある項目が最も優先され、もし1番目と2番目のトリガーの条件を一緒に満たすと、1番のトリガーのみ実行されるようになります。";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → DRIVE ALIVE TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_drive" = "ドライブのスリープ防止";
+
+// PREFERENCES → DRIVE ALIVE BUTTONS
+"pref_drivealive_bttn_enable" = "ドライブのスリープ防止をオンにする";
+
+// PREFERENCES → DRIVE ALIVE LABELS
+"pref_drivealive_lbl_wake" = "次の時間間隔でドライブを起こします:";
+
+// DRIVE ALIVE TABLE HEADERS
+"drivealive_tbl_head_name" = "ドライブ名";
+"drivealive_tbl_head_keepalive" = "常時実行";
+
+// ----- Drive Alive Help Message
+
+// Title
+"help_drivealive_title" = "ドライブのスリープ防止";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_drivealive_body" = "ドライブのスリープ防止はハードドライブが常に起きている（スリープされない）ようにし、いつでもすぐに作業ができるようにしてくれます。この機能はハードドライブに一定間隔で微小なデータを書き込むことにより行われます。この時に書き込まれるデータは数KBくらいにすぎず、繰り返し置き換えられます。ドライブのデータには影響しません。\n\n新しいドライブを追加するためには、+ボタンを押してからスリープさせないドライブを選びましょう。リストからドライブを選び、-ボタンを押すと解除されます。\n\nリストに追加したドライブをセッションが実行中の時のみスリープさせないか、Amphetamineが起動中の時は常にスリープさせないかも各ドライブごとに選べられます。常にスリープさせないためには、リストのドライブの右側にある「常時実行」のチェックボックスにチェックを入れましょう。\n\nデフォルトの値では、ドライブをスリープさせないために、10秒ごとにデータを書き込みます。ウインドウの下側にある数字フィールドに新しい番号を入力して、この間隔をカスタマイズすることも可能です。";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → HOT KEYS TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_hotk" = "ホットキー";
+
+// PREFERENCES → HOT KEYS LABELS
+"pref_hotk_lbl_startend_action" = "既にセッションが開始されているとき:";
+"pref_hotk_lbl_start_duration" = "次の時間の間:";
+"pref_hotk_lbl_startend" = "セッションを開始または終了:";
+"pref_hotk_lbl_start" = "セッションを開始:";
+"pref_hotk_lbl_end" = "セッションを終了:";
+"pref_hotk_lbl_open_menu" = "メニューを開く/閉める:";
+"pref_hotk_lbl_open_menu_close" = "Escを押してメニューを閉じる"; // Escape key closes menu
+"pref_hotk_lbl_toggle_disp_sleep" = "ディスプレイスリープ許可の設定を変更する:";
+"pref_hotk_lbl_toggle_screen_saver" = "スクリーンセーバの許可の設定を変更する:";
+
+// PREFERENCES → HOT KEYS MENU ITEMS
+"pref_hotk_mi_startend_action_endstart" = "セッションを終了し、新しいセッションを開始";
+"pref_hotk_mi_startend_action_end" = "セッションを終了";
+
+// ---------------------------------------------------------------------------
+// (?) BUTTON MENU ITEMS
+
+// ----- PREFERENCES → HOT KEYS → Start or End Session Help Message
+
+// Title
+"help_message_start_end_session_title" = "セッションを開始または終了";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_start_end_session_body" = "このホットキーは一回押すだけでセッションを開始・終了できるようにしてくれます。この時、セッションの実行時間はデフォルト期間（環境設定 → デフォルトセッション→ デフォルト期間設定）が用いられます。\n\nショートカットを入力してセットすると、いつでもホットキーを押してAmphetamineのこの機能を制御することが可能になります。この時、Amphetamineが現在表示中のアプリである必要はありませんが、少なくともAmphetamineがバッググラウンドで実行されていなければなりません。\n\nもし欲しいキーの組み合わせが登録できない場合は、そのキーの組み合わせが既に他のアプリにより使わられているとのことです。";
+
+// ----- PREFERENCES → HOT KEYS → Start Session Help Message
+
+// Title
+"help_message_start_session_title" = "セッションを開始";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_start_session_body" = "このホットキーは、時間を指定してセッションを開始できます。\n\n複数のキーでホットキーを設定した場合、Amphetamineが最前面にないときにもこのホットキーが使えます。ただし、少なくともAmphetamineがバッググラウンドで実行されていなければなりません。\n\nもし欲しいキーの組み合わせが登録できない場合は、そのキーの組み合わせが既に他のアプリにより使わられているとのことです。";
+
+// ----- PREFERENCES → HOT KEYS → End Session Help Message
+
+// Title
+"help_message_end_session_title" = "セッションを終了";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_end_session_body" = "このホットキーは、種類を問わず全てのセッションを終了させます。\n\n複数のキーでホットキーを設定した場合、Amphetamineが最前面にないときにもこのホットキーが使えます。ただし、少なくともAmphetamineがバッググラウンドで実行されていなければなりません。\n\nもし欲しいキーの組み合わせが登録できない場合は、そのキーの組み合わせが既に他のアプリにより使わられているとのことです。";
+
+// ----- PREFERENCES → HOT KEYS → Open Menu Help Message
+
+// Title
+"help_message_open_menu_title" = "メニューを開く";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_open_menu_body" = "このホットキーはいつでも素早くAmphetamineのメニューが開けるようにしてくれます。これにより、メニューからセッションやドライブのスリープ防止の状況にアクセスでき、または他のキーボードショートカットにアクセスできるようにしてくれます。（例：⌘Fを押して「ファイルをダウンロード中…」を実行など）\n\n複数のキーでホットキーを設定した場合、Amphetamineが最前面にないときにもこのホットキーが使えます。ただし、少なくともAmphetamineがバッググラウンドで実行されていなければなりません。\n\nもし欲しいキーの組み合わせが登録できない場合は、そのキーの組み合わせが既に他のアプリにより使わられているとのことです。";
+
+// ----- PREFERENCES → HOT KEYS → Toggle Display Sleep Help Message
+
+// Title
+"help_message_toggle_allow_display_sleep_title" = "ディスプレイスリープ許可の設定を変更する";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_toggle_allow_display_sleep_body" = "このホットキーはディスプレイのスリープを許可するか、オン・オフに素早く切り替えられます。もし既に始まっているセッションがある場合、このホットキーは現在のセッションでの許可設定を変えます。トリガーの設定を問わず、全てのセッションに適用されます。\n\nもし現在実行中のセッションがない場合、このホットキーはトリガーのないセッションでディスプレイのスリープを許可するかの環境設定を変えます。";
+
+// ----- PREFERENCES → HOT KEYS → Toggle Screen Saver Help Message
+
+// Title
+"help_message_toggle_allow_screen_saver_title" = "スクリーンセーバの許可の設定を変更する";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_toggle_allow_screen_saver_body" = "このホットキーはスクリーンセーバを許可するか、オン・オフに素早く切り替えられます。もし既に始まっているセッションがある場合、このホットキーは現在のセッションでの許可設定を変えます。トリガーの設定を問わず、全てのセッションに適用されます。\n\nもし現在実行中のセッションがない場合、このホットキーはトリガーのないセッションでスクリーンセーバを許可するかの環境設定を変えます。";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → NOTIFICATIONS TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_notif" = "通知";
+
+// PREFERENCES → NOTIFICATIONS BUTTONS
+"pref_notif_bttn_session_reminders_pt1" = "次の時間間隔でリマインド:";
+"pref_notif_bttn_session_reminders_pt2" = "分";
+"pref_notif_bttn_trig_autostart" = "トリガー/スケジュール済みセッションが自動的に開始された時に通知";
+"pref_notif_bttn_trig_autoend" = "トリガー/スケジュール済みセッションが自動的に終了された時に通知";
+"pref_notif_bttn_sound_remind" = "セッションリマインダー/その他の通知とともに再生";
+"pref_notif_bttn_sound_startend" = "種類を問わず、セッションが開始/終了される時に再生";
+"pref_notif_bttn_sound_extend" = "セッションが延長された時に再生";
+"pref_notif_bttn_cdm_play_warning" = "クラムシェル警告音を再生";
+"pref_notif_bttn_cdm_repeat_warning" = "警告音を次の間隔で繰り返す";
+"pref_notif_bttn_cdm_change_vol" = "警告音を鳴らす時に限って、システムボリュームを次に設定";
+"pref_notif_bttn_cdm_change_vol_message" = "この機能をオンにすると、サウンド出力の設定を無視して、デフォルトの出力先へ警告サウンドを鳴らします。";
+"pref_notif_bttn_notif_remove" = "配信後には通知を消す";
+
+// PREFERENCES → NOTIFICATIONS LABELS
+"pref_notif_lbl_sound_start" = "セッション開始/リマインダー:";
+"pref_notif_lbl_sound_end" = "セッション終了:";
+"pref_notif_lbl_session_reminders" = "セッションリマインダー:";
+"pref_notif_lbl_trig_sched" = "トリガー/スケジュール済み:";
+"pref_notif_lbl_sound" = "サウンド:";
+"pref_notif_lbl_cdm" = "クラムシェルモード:";
+"pref_notif_lbl_notif_center" = "通知センター:";
+
+// PREFERENCES → NOTIFICATIONS MENU ITEMS
+"pref_notif_mi_default_sound" = "デフォルトのシステムサウンド";
+
+// ---------------------------------------------------------------------------
+// (?) BUTTON MENU ITEMS
+
+// ----- PREFERENCES → NOTIFICATIONS → Session Reminders Help Message
+
+// Title
+"help_message_session_reminders_title" = "セッションリマインダー";
+
+// Body
+"help_message_session_reminders_body" = "この項目をオンにすると、セッションが実行中の時、Amphetamineがリマインダー・通知を送ります。";
+
+// ----- PREFERENCES → NOTIFICATIONS → Triggers/Scheduled Help Message
+
+// Title
+"help_message_triggers_scheduled_title" = "トリガー/スケジュール済み";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_triggers_scheduled_body" = "この項目をオンにすると、セッションが自動的に開始されたり、自動的に終了されたときにAmphetamineがリマインダー通知を送ります。この通知の対象にはトリガーセッション、予約されたセッション、またはいくつかの時間指定セッションが含まれます。\n\nメニューバーからアイコンをクリックしてセッションを開始したり、メニューからセッションを直接開始させたときには通知を送りません。";
+
+// ----- PREFERENCES → NOTIFICATIONS → Sound Help Message
+
+// Title
+"help_message_sound_title" = "サウンド";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_sound_body" = "• セッションリマインダー・他の通知とともに再生\nこの項目をオンにすると、通知を送るときにサウンドが再生されるようになります。\n\n• セッション開始/終了のときに再生\nこの項目をオンにすると、セッションが開始されたり、終了されるときにサウンドが再生されます。\n\n• セッションが延長された時に再生\nこの項目をオンにすると、セッションが延長された時にサウンドが再生されます。\n\nカスタムサウンドを追加する場合には、+ボタンを押してサウンドファイルを選び、追加してください。カスタムサウンドを削除する場合には、-ボタンを押してください。-ボタンを押すと、カスタムサウンドファイルが保存されている場所をFinderから開きます。そちらのサウンドファイルをゴミ箱に移動させるか、⌘ + deleteキーで削除すると、サウンドが削除されます。";
+
+// ----- PREFERENCES → NOTIFICATIONS → Closed-Display Mode Help Message
+
+// Title
+"help_message_closed_display_notif_title" = "クラムシェルモード";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_closed_display_notif_body" = "• クラムシェル警告音を再生\nこの項目をオンにすると、クラムシェルモードに入るとサウンドを再生します。もしMacが電源アダプターに接続されていたり、他のディスプレイに繋がっている場合には再生されません。\n\n• 警告音を次の間隔で繰り返す\nこの項目をオンにすると、クラムシェルモードでの警告音を一定の時間間隔で繰り返し再生します。\n\n• 警告音を鳴らす時に限って、システムボリュームを次に設定\nこの項目をオンにすると、クラムシェル警告音を鳴らすときに限って、システム音量を変えます。Macのシステムボリュームが低すぎて聞き取れなかったり、高すぎて周りに迷惑となるようなことを防止します。この機能がオンになっているとき、Amphetamineは警告音が鳴るときに、システムボリュームを予め設定した数値に変えて警告音を再生し、警告音を鳴らした直後、元のシステムボリュームに復元するようになります。";
+
+// ----- PREFERENCES → NOTIFICATIONS → Notification Center Help Message
+
+// Title
+"help_message_notif_center_title" = "通知センター";
+
+// Body
+"help_message_notif_center_body" = "この項目をオンにすると、Amphetamineが送った通知を通知センターから削除できるようになります。通知センターを簡潔にし、特にリマインダーをオンにしておいた場合に役に立てます。";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → APPEARANCE TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_appr" = "外観";
+
+// PREFERENCES → APPEARANCE BUTTONS
+"pref_appr_bttn_image_low_opac" = "アクティブされてないとき、アイコンの不透明度を下げる";
+"pref_appr_bttn_image_padd" = "メニューバーのアイコンの間隔を手動で管理";
+"pref_appr_bttn_text_show_time" = "セッションの残り時間をメニューバーに表示";
+"pref_appr_bttn_text_24hr_clock" = "24時間表示";
+"pref_appr_bttn_text_incl_secs" = "秒を含める";
+"pref_appr_bttn_show_curr_sess" = "現在のセッションの詳細を表示";
+"pref_appr_bttn_show_drive_alive" = "ドライブのスリープ防止機能の詳細を表示";
+
+// PREFERENCES → APPEARANCE LABELS
+"pref_appr_lbl_image" = "メニューバーのアイコン:";
+"pref_appr_lbl_text" = "メニューバーのテキスト:";
+"pref_appr_lbl_xtra" = "メニューのその他:";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"pref_appr_lbl_cust_icon_inst" = "画像ファイルを下のエリアにドラッグアンドドロップしてください。最善の結果のためには、背景が透明なバイナリ画像のみをご利用ください";
+
+"pref_appr_lbl_cust_icon_inact" = "非アクティブ";
+"pref_appr_lbl_cust_icon_act" = "アクティブ";
+"pref_appr_lbl_cust_icon_inact_inst" = "この画像はAmphetamineによるスリープ防止が作動していないときに表示されます。";
+"pref_appr_lbl_cust_icon_act_inst" = "この画像はAmphetamineによるスリープ防止が作動しているときに表示されます。";
+"pref_appr_lbl_cust_icon_get_more" = "その他の画像を取得する...";
+
+
+// PREFERENCES → APPEARANCE MENU ITEMS
+"pref_appr_mi_cust_image" = "カスタム画像...";
+"pref_appr_mi_image_pill" = "お薬";
+"pref_appr_mi_image_pill_out" = "お薬 (外郭線)";
+"pref_appr_mi_image_molecule" = "分子構造";
+"pref_appr_mi_image_coffee_pot" = "コーヒーカラフェ";
+"pref_appr_mi_image_caffeine" = "カフェイン";
+"pref_appr_mi_image_cup" = "コーヒーカップ";
+"pref_appr_mi_image_teapot" = "やかん (ケトル)";
+"pref_appr_mi_image_owl" = "フクロウ";
+"pref_appr_mi_image_eye" = "目";
+"pref_appr_mi_image_sun_moon" = "太陽と月";
+"pref_appr_mi_image_emoji" = "絵文字";
+"pref_appr_mi_text_normal_sz" = "標準のフォントサイズ";
+"pref_appr_mi_text_small_sz" = "小さめのフォントサイズ";
+"pref_appr_mi_text_format_normal" = "標準フォーマット (08:15)";
+"pref_appr_mi_text_format_letter" = "文字入れフォーマット (8時間 15分)";
+
+
+
+
+// ---------------------------------------------------------------------------
+// (?) BUTTON MENU ITEMS
+
+// ----- PREFERENCES → APPEARANCE → Menu Bar Image Help Message
+
+// Title
+"help_message_menu_bar_image_title" = "メニューバーのアイコン";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_menu_bar_image_body" = "メニューバーのAmphetamineアイコンを自由に設定できます。セッションが開始されているか否かも表します。セッションが開始・終了されると、Amphetamineのアイコンが自動的に状況に合うものに変わります。\n\nもちろん、カスタム画像に設定することも可能です。";
+
+// ----- PREFERENCES → APPEARANCE → Menu Bar Text Help Message
+
+// Title
+"help_message_menu_bar_text_title" = "メニューバーのテキスト";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_menu_bar_text_body" = "• セッションの残り時間をメニューバーに表示\nこの項目をオンにすると、セッションの残り時間をメニューバーのアイコンの横に表示させます。\n\n文字の大きさや、表示方法も変えられます。また、12時間表示・24時間表示といった時間の表示フォーマットも変えられます。";
+
+// ----- PREFERENCES → APPEARANCE → Menu Bar Extras Help Message
+
+// Title
+"help_message_menu_extras_title" = "メニューのその他";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_menu_extras_body" = "• 現在のセッションの詳細を表示\nこの項目をオンにすると、現在のセッションの経過時間、セッションの開始原因・残り時間などといった詳細情報をAmphetamineメニューに表示させます。\n\n• ドライブのスリープ防止機能の詳細を表示\nこの項目をオンにすると、どのドライブを対象に機能が働いているかなどといったドライブのスリープ防止機能の詳細情報を表示させます。";
+
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → STATISTICS TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_stat" = "統計";
+
+// PREFERENCES → STATISTICS BUTTONS
+"pref_stat_bttn_reset" = "統計をリセット";
+"pref_stat_bttn_enable" = "統計履歴を記録";
+
+// PREFERENCES → STATISTICS LABELS
+"pref_stat_lbl_how_long_title" = "AmphetamineによりMacがスリープされなかった時間"; // v5.0.1
+"pref_stat_lbl_how_long_about" = "\n%@ %@ %@ %@"; // v5.0.1
+"pref_stat_lbl_how_long_prefs" = "%@ %@ %@ %@"; // v5.0.1
+"pref_stat_lbl_average" = "セッションごとの平均期間";
+"pref_stat_lbl_total_sessions" = "総セッション";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- TRIGGER CONFIGURATION WINDOW + CRITERIA
+// ---------------------------------------------------------------------------
+
+// TRIGGER CONFIGURATION WINDOW
+"trig_config_lbl_name" = "トリガー名";
+"trig_config_lbl_name_placeholder" = "素敵なトリガー";
+"trig_config_lbl_name_desc" = "覚えられるトリガー名を入力してください。でないと、後から公開しますよ。";
+"trig_config_lbl_criteria" = "条件";
+"trig_config_lbl_criteria_desc" = "一つのトリガーは、条件につき最大一つの値までしか使えません。トリガーが作動するためには、全ての条件を満たしていなければなりません。";
+"trig_config_lbl_criteria_edit" = "条件をダブルクリックして条件を編集";
+"trig_config_lbl_add_opt" = "追加オプション";
+"trig_config_lbl_add_opt_desc" = "追加オプションはこのトリガーでしか使えません。";
+"trig_config_bttn_disp_sleep" = "ディスプレイのスリープを許可";
+"trig_config_bttn_cdm" = "ディスプレイを閉じたとき、システムのスリープを許可";
+"trig_config_bttn_scrn_svr" = "以下で設定の時間後、スクリーンセーバを許可:";
+
+// TABLE HEADERS
+"trig_config_tbl_head_criterion" = "条件";
+"trig_config_tbl_head_values" = "値";
+
+
+
+// ---------------------------------------------------------------------------
+// ----- TRIGGER CONFIGURATION HELP MESSAGE
+
+// Title
+"help_trigger_config_title" = "トリガー構成";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_trigger_config_body" = "名前\nトリガーに覚えられる名前をつけてください。セットした名前は通知や、Amphetamineのメニューからセッションの詳細を表示するとき（環境設定でこれらの機能をオンにしたときに限る）に用いられます。\n\n条件\nトリガーは各条件の一つのステータスを使用します。新しい条件を追加するときは+ボタンをクリックし、追加する条件を選んでください。条件を削除する場合は、条件テーブルから削除したい条件を選び、-ボタンをクリックしてください。\n\n追加オプション\n作成したトリガーごとにディスプレイのスリープ、スクリーンセーバの設定、及びMacのスリープを許可・禁止、ディスプレイを閉じたときのみなど、さまざまな動作を個別に設定できます。";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- TRIGGER CRITERIA
+
+// TRIGGER CRITERIA → GLOBAL
+"trig_crit_bttn_add" = "条件を追加";
+
+// example: "Selection: 'None selected'
+"trig_crit_lbl_no_selection" = "何も選択されていません";
+"trig_crit_lbl_no_value" = "値が指定されていません";
+
+// TRIGGER CRITERIA → WI-FI
+"trig_crit_name_wifi" = "Wi-Fiネットワーク";
+"trig_crit_name_wifi_placeholder" = "Wi-Fiネットワーク名";
+"trig_crit_bttn_wifi_get_current" = "現在のWi-Fiネットワーク名を取得";
+
+// TRIGGER CRITERIA → IP ADDRESS
+"trig_crit_name_ip" = "IPアドレス";
+"trig_crit_bttn_get_ip" = "現在のIPアドレスを取得";
+"trig_crit_bttn_use_range" = "IPアドレス範囲を使用";
+"trig_crit_lbl_ip_start" = "次の範囲から:";
+"trig_crit_lbl_ip_end" = "次の範囲まで:";
+"trig_crit_lbl_ip_addr" = "IPアドレス:";
+"trig_crit_lbl_ip_mutli" = "このMacから複数のIPアドレスが見つかりました。このトリガーで使いたいIPアドレスを選択してから、下の「続ける」ボタンをクリックしてください。";
+"trig_crit_ip_tbl_head_type" = "インタフェース/タイプ";
+"trig_crit_ip_tbl_head_addr" = "アドレス";
+
+// TRIGGER CRITERIA → DNS
+"trig_crit_name_dns" = "DNSサーバ";
+"trig_crit_dns_tbl_head" = "DNSサーバ";
+
+// TRIGGER CRITERIA → CISCO VPN SERVICE
+"trig_crit_name_vpn" = "Cisco AnyConnect VPN";
+"trig_crit_lbl_vpn_current" = "現在のサービス:";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"trig_crit_txtfd_vpn_message" = "この機能はCisco AnyConnect VPNのクライアントでのみ作動します。ほとんどの場合、つまりCisco AnyConnect VPNを使っていない場合には、この設定をオフにすることをお勧めします。その代わり、「IPアドレス範囲を使用」の設定をお使いください。\n\nこの条件を使いたい場合、VPNに繋がったあとに下の ↻ ボタンを押してください。";
+
+// TRIGGER CRITERIA → APP
+"trig_crit_name_app" = "アプリケーション";
+"trig_crit_bttn_no_helpers" = "補助アプリやプロセスを非表示";
+"trig_crit_bttn_frontmost" = "アプリが最前面のときのみ";
+"trig_crit_lbl_select_app" = "アプリを選択:";
+"trig_crit_lbl_when_frontmost" = "(最前面のとき)"; // example: Safari '(when frontmost)'
+
+// TRIGGER CRITERIA → SCHEDULE
+"trig_crit_name_sched" = "スケジュール";
+"trig_crit_lbl_sched_from" = "次から:";
+"trig_crit_lbl_sched_until" = "次まで:";
+"trig_crit_lbl_sched_no_select" = "何の日も選択されていません ";
+
+// DAYS OF THE WEEK
+
+// IT IS IMPORTANT TO TRANSLATE THE DAYS OF THE WEEK IN THE CORRECT ORDER, AND NOT JUST TRANSLATE THE WORD/SPELLING OF THE DAY
+// FOR EXAMPLE, IN THE USA THE WEEK STARTS ON SUNDAY. THEREFORE, weekday_abbr_1 SHOULD EQUAL THE TARGET LANGUAGE TRANSLATION OF "Sun"
+// IN OTHER LOCALES, HOWEVER, THE WEEK STARTS ON MONDAY, AND THUS, weekday_abbr_1 = SHOULD EQUAL THE TARGET LANGUAGE TRANSLATION OF "Mon"
+
+// THERE IS LIMITED SPACE IN THE SEGMENTED CONTROL. PLEASE USE THE SHORTEST ABBREVIATION FOR EACH WEEKDAY NAME WHERE POSSIBLE
+
+"weekday_abbr_1" = "日";
+"weekday_abbr_2" = "月";
+"weekday_abbr_3" = "火";
+"weekday_abbr_4" = "水";
+"weekday_abbr_5" = "木";
+"weekday_abbr_6" = "金";
+"weekday_abbr_7" = "土";
+
+// TRIGGER CRITERIA → BATTERY & POWER ADAPTER
+"trig_crit_name_power" = "バッテリー・電源アダプター";
+"trig_crit_lbl_batt_charge_min" = "最低バッテリー残量:";
+"trig_crit_lbl_batt_not_detected" = "バッテリーが認識できませんでした";
+"trig_crit_bttn_ac_connected" = "電源アダプターにつながりました";
+"trig_crit_bttn_ac_not_connected" = "電源アダプターにつながっていません";
+"trig_crit_bttn_ac_connected_only" = "電源アダプターにつながっているときのみ";
+"trig_crit_bttn_ac_not_connected_only" = "電源アダプターにつながっていないときのみ";
+"trig_crit_lbl_batt_lvl_greater" = "バッテリー残量 ≥ %i%%"; // PLACEHOLDER IS A NUMBER + PERCENT SIGN, EXAMPLE: 'BATTERY CHARGE ≥ 15%'
+
+// TRIGGER CRITERIA → DISPLAYS
+"trig_crit_name_disp" = "ディスプレイ";
+"trig_crit_mi_disp_equals" = "ディスプレイの数 =";
+"trig_crit_mi_disp_greater" = "ディスプレイの数 >";
+"trig_crit_mi_disp_less" = "ディスプレイの数 <";
+"trig_crit_mi_disp_mirrored" = "メインディスプレイがミラーリングされています";
+"trig_crit_bttn_ignore_built_in" = "内蔵ディスプレイを無視";
+
+// INDICATES AN EXTERNAL DISPLAY - i.e. NOT BUILT-IN
+"trig_crit_lbl_external" = "(外部)";
+
+// TRIGGER CRITERIA → VOLUMES/DRIVES
+"trig_crit_name_vols" = "ボリューム/ドライブ";
+
+// TRIGGER CRITERIA → USB DEVICE
+"trig_crit_name_usb" = "USBデバイス";
+
+// TRIGGER CRITERIA → BLUETOOTH DEVICE
+"trig_crit_name_bluetooth" = "Bluetoothデバイス";
+
+// TRIGGER CRITERIA POPUP → AUDIO OUTPUT
+"trig_crit_name_audio" = "オーディオ出力";
+"trig_crit_mi_audio_headphones" = "ヘッドフォン";
+"trig_crit_mi_audio_bi_speakers" = "内蔵スピーカー";
+"trig_crit_mi_audio_bi_output" = "内蔵出力";
+"trig_crit_mi_audio_headphones_35w" = "ヘッドフォン (有線, 3.5mm)";
+
+// TRIGGER CRITERIA POPUP → CPU
+"trig_crit_name_cpu" = "CPU使用率";
+"trig_crit_lbl_cpu" = "CPU使用率は:";
+"trig_crit_lbl_cpu_error" = "CPUエラー";
+
+// TRIGGER CRITERIA POPUP → IDLE TIME
+"trig_crit_name_idle" = "システムアイドル時間";
+"trig_crit_mi_idle_greater" = "アイドル時間 >";
+"trig_crit_mi_idle_less" = "アイドル時間 <";
+"trig_crit_lbl_idle_mins" = "分";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- TRIGGER CRITERIA HELP MESSAGES
+
+
+// ----- Criterion Wi-Fi Help Message
+
+// Title
+"criterion_help_wifi_title" = "Wi-Fi 条件";
+
+// Body
+"criterion_help_wifi_body" = "この条件はMacが特定のWi-Fiに繋がったときに満たされます。Wi-Fiの名前（英字の大文字・小文字を識別します）を入力するか、ボタンを押してMacが現在繋がっているWi-Fiの名前を自動的に入力することもできます。";
+
+
+// ----- Criterion IP Address Help Message
+
+// Title
+"criterion_help_ip_title" = "IPアドレス 条件";
+
+// Body
+"criterion_help_ip_body" = "この条件はMacに特定のIPアドレスや、IPアドレス範囲が割り当てられたときに満たされます。ボタンを押してMacの現在のIPアドレスを入力したり、カスタムIPアドレスを入力できます。";
+
+
+// ----- Criterion App Help Message
+
+// Title
+"criterion_help_app_title" = "アプリ 条件";
+
+// Body
+"criterion_help_app_body" = "この条件は特定のアプリやプロセスが実行されているときに満たされます。リストに表示されるアプリは、現在実行されているアプリのみです。アプリを実行しているにもかかわらずリストに出てこない場合には、macOSのSandbox技術によりAmphetamineの、そのアプリの状況情報へのアクセスが不許可されたわけです。";
+
+
+// ----- Criterion Battery & Power Adapter Help Message
+
+// Title
+"criterion_help_power_title" = "バッテリー＆電源アダプター 条件";
+
+// Body
+"criterion_help_power_body" = "この条件はMacが電源アダプターにつながっているときに満たされます。";
+
+
+// ----- Criterion Schedule Help Message
+
+// Title
+"criterion_help_schedule_title" = "スケジュール 条件";
+
+// Body
+"criterion_help_schedule_body" = "この条件はMacのシステム時間が特定時間または特定の日付の範囲内であるときに満たされます。";
+
+
+// ----- Criterion Displays Help Message
+
+// Title
+"criterion_help_displays_title" = "ディスプレイ 条件";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"criterion_help_displays_body" = "この条件は予め設定した個数よりディスプレイが多いとき、少ないとき、または同じときに満たされます。また、ディスプレイがミラーリングされているときに満たされるように設定することも可能です。\n\n「内蔵ディスプレイを無視」をオンにすると、ディスプレイの個数を数えるとき、内蔵ディスプレイは除いて数えます。";
+
+
+// ----- Criterion Volume/Drive Help Message
+
+// Title
+"criterion_help_volume_title" = "ボリューム/ドライブ 条件";
+
+// Body
+"criterion_help_volume_body" = "この条件は特定のドライブやボリュームがMacにマウントされているときに満たされます。リストからマウントされているデバイスやボリュームが見られます。";
+
+
+// ----- Criterion Audio Help Message
+
+// Title
+"criterion_help_audio_title" = "オーディオ出力 条件";
+
+// Body
+"criterion_help_audio_body" = "この条件はMacのオーディオ出力が特定のオーディオ出力に設定されたときに満たされます。\n\nオーディオ出力の設定は  → システム環境設定 → サウンド → 出力から変えられます。";
+
+
+// ----- Criterion Bluetooth Help Message
+
+// Title
+"criterion_help_bluetooth_title" = "Bluetoothデバイス 条件";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"criterion_help_bluetooth_body" = "この条件は特定のBluetoothデバイスがMacに繋がったときに満たされます。リストには、接続されたことのあるBluetoothデバイスのみ表示されます。\n\n新しいBluetoothデバイスに接続したい場合には、 → システム環境設定 → Bluetoothから接続してください。";
+
+
+// ----- Criterion Cisco AnyConnect VPN Help Message
+
+// Title
+"criterion_help_vpn_title" = "Cisco AnyConnect VPN 条件";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"criterion_help_vpn_body" = "この条件はMacが特定のVPNサービスに接続されているときに満たされます。VPNサービスを開始させた後に、再ロードボタンを押すと自動的にそのサービスの名前を取得します。\n\nこの条件機能はごく一部のサービスでのみテストされました。Cisco AnyConnectの公式クライアントで、Cisco AnyConnect VPNに繋がったときにのみ作動されます。";
+
+
+// ----- Criterion USB Help Message
+
+// Title
+"criterion_help_usb_title" = "USBデバイス 条件";
+
+// Body
+"criterion_help_usb_body" = "この条件はMacに特定のUSBデバイスが繋がったときにのみ満たされます。リストからMacに繋がっていて、電源の入っているUSBデバイスの名前が見られます。";
+
+
+// ----- Criterion CPU Utilization Help Message
+
+// Title
+"criterion_help_cpu_title" = "CPU使用率 条件";
+
+// Body
+"criterion_help_cpu_body" = "この条件はMacの、物理CPUの利用率の合計利用率が設定した値を上回っているとき、または下回っているときに満たされます。Amphetamineはアクティビティモニタに見える数値や、実際のCPU利用率が見られるアプリとはやや違う値を表示し、作動する可能性がございますので、ご注意ください。";
+
+// ----- Criterion Idle Time Help Message
+
+// Title
+"criterion_help_idle_title" = "アイドル時間 条件";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"criterion_help_idle_body" = "この条件はMacのアイドル(Idle)時間が設定した値（分単位）を上回っているか、下回っているときに満たされます。Macのアイドル時間は通常、マウスやキーボード、その他の入力デバイスを使ってなんらかの入力を行っていないときに数えられます。\n\nVNCなどのリモートサービスを利用中の場合には実際には利用中であってもアイドル時間が数えられる可能性がございますので、ご注意ください。";
+
+// ----- Criterion DNS Server Help Message
+
+// Title
+"criterion_help_dns_title" = "DNSサーバ 条件";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"criterion_help_dns_body" = "この条件はMacが設定されているDNSサーバのうちいづれかを使用している場合に満たされます。Macが使用している現在のDNSサーバをリストに追加するためには、+ボタンを押してください。リストからDNSサーバを削除したい場合には、-ボタンを押してください。\n\nシステム環境設定でDNSサーバを更新した場合またはネットワーク構成の設定を最近変更した場合には、macOSが新しいDNSサーバに繋がっていることをAmphetamineが認識するまで最大数分くらいかかります。\n\n注意：状況によっては、このトリガーがすぐにアクティブされない場合がございます。AmphetamineはMacに現在設定されているDNSサーバを常時照会しますが、macOSで設定を変更すると1分から2分程度、変更されたことが認識されない可能性がございます。";
+
+
+
+// ---------------------------------------------------------------------------
+// ----- STATUS ITEM MENU
+// ---------------------------------------------------------------------------
+
+// CURRENT SESSION DETAILS VIEW MENU ITEM
+"csdv_lbl_title" = "現在のセッションの詳細:";
+"csdv_lbl_drive_alive_title" = "ドライブのスリープ防止の詳細:";
+
+// REARRANGE THE BELOW PLACEHOLDERS (IF NEEDED) FOR THE TARGET LANGUAGE
+// IN ENGLISH, THE PLACEHOLDERS WOULD READ LIKE: "1h 3m 45s remaining"
+
+// %1$i = THE NUMBER OF HOURS REMAINING IN THE SESSION
+// %2$@ = duration_abbrv_hours_h
+// %3$02d = THE NUMBER OF MINUTES REMAINING IN THE SESSION
+// %4$@ = duration_abbrv_minutes_m
+// %5$02d = THE NUMBER OF MINUTES REMAINING IN THE SESSION
+// %6$@ = duration_abbrv_seconds_s
+// %7$@ = gen_use_remaining
+"csdv_time_remain_hms" = "%7$@ %1$i%2$@ %3$02d%4$@ %5$02d%6$@";
+
+// %1$02d = THE NUMBER OF MINUTES REMAINING IN THE SESSION
+// %2$@ = duration_abbrv_minutes_m
+// %3$02d = THE NUMBER OF MINUTES REMAINING IN THE SESSION
+// %4$@ = duration_abbrv_seconds_s
+// %5$@ = gen_use_remaining
+"csdv_time_remain_ms" = "%5$@ %1$02d%2$@ %3$02d%4$@";
+
+// %1$02d = THE NUMBER OF MINUTES REMAINING IN THE SESSION
+// %2$@ = duration_abbrv_seconds_s
+// %3$@ = gen_use_remaining
+"csdv_time_remain_s" = "%3$@ %1$02d%2$@";
+
+"csdv_bttn_disp_sleep" = "ディスプレイのスリープを許可";
+"csdv_bttn_cdm" = "ディスプレイを閉じたとき、システムのスリープを許可";
+
+"csdv_drive_alive_not_enabled" = "ドライブのスリープ防止はオフになっています";
+"csdv_drive_alive_not_config" = "ドライブが構成されていません";
+
+// MENU/STATUS BAR ITEM → MENU ITEMS
+"statbar_mi_start_new_session" = "新しいセッションを開始:";
+"statbar_mi_drive_alive_details" = "ドライブのスリープ防止の詳細:";
+"statbar_mi_other_duration" = "その他時間/〜まで...";
+"statbar_mi_other_duration_BigSur" = "その他時間/〜まで";
+"statbar_mi_app" = "アプリが開いている間...";
+"statbar_mi_app_BigSur" = "アプリが開いている間";
+"statbar_mi_file" = "ファイルをダウンロードしている間...";
+"statbar_mi_qp" = "クイック設定";
+"statbar_mi_prefs" = "環境設定...";
+"statbar_mi_about" = "Amphetamineについて";
+"statbar_mi_fb_support" = "フィードバック＆サポート";
+"statbar_mi_troubleshoot" = "問題報告＆よくある質問";
+"statbar_mi_debugMode" = "デバッグモードをオンにする"; // v5.0.1
+"statbar_mi_contact" = "お問い合わせ";
+"statbar_mi_follow_dev" = "開発者をフォロー"; // OPENS TWITTER LINK
+"statbar_mi_contribute" = "Amphetamineの開発者に寄付";
+"statbar_mi_quit" = "Amphetamineを終了";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- WELCOME WINDOW
+// ---------------------------------------------------------------------------
+
+// WELCOME WINDOW GLOBAL
+"ww_bttn_dont_show" = "今後このウインドウを表示しない";
+"ww_bttn_previous" = "前に";
+"ww_bttn_next" = "続く";
+"ww_bttn_end" = "終了";
+
+// WELCOME WINDOW #1
+"ww1_lbl_welcome" = "Amphetamineへようこそ";
+"ww1_lbl_credit" = "William Gustafsonが ♥ を込めて開発";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"ww1_lbl_message" = "\nAmphetamineはマジで素晴らしくて、パワフルで、macOSをスリープから解放してくれるアプリです。機能やカスタマイズは豊かで、にもかかわらずAmphetamineは驚くほどシンプルで、使いやすいです。\n\nAmphetamineをセットアップするためには、あといくつか簡単なステップを済ませましょう。\n「続く」をクリックして始めましょう。";
+
+// WELCOME WINDOW #2
+"ww2_lbl_title" = "Amphetamineはどこにあるんですか？";
+"ww2_lbl_subtitle" = "Amphetamineは画面の右上にあるメニューバーの住民です。";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"ww2_lbl_message" = "メニューバーのAmphetamineをクリックすることでAmphetamineのメニューが表示されます。右クリック（もしくはcontrolクリック）ですぐにスリープを防止するセッションを開始したり、終了することもできます。ご希望の場合、両方の動作を切り替えることも可能です。\n\nAmphetamineは、さまざまなところをカスタマイズすることができます。メニューバーのイメージを変えたり、いつ通知が表示されるか決めたり、Amphetamineの設定でどの音が出るようにするかを決めたり、全て自由に変更できます。";
+
+"ww2_bttn_find_amph" = "こちらをクリックすると、Amphetamineのメニューが表示されます。";
+
+// WELCOME WINDOW #3
+"ww3_lbl_title" = "そもそも、Amphetaminは何ですか？";
+"ww3_lbl_subtitle" = "Amphetamineは、あなたのMacをスリープさせません。さらに、ディスプレイやドライブまでも眠らせません。";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"ww3_lbl_message" = "AmphetamineがMacをスリープさせない動作のことを、「セッション」と呼びます。セッションを開始するためには、メニューバーのAmphetamineアイコンをクリックし、どのくらいの間スリープさせないのかを選びましょう。あるいは、右クリック・controlクリックでデフォルト設定の通りに、すぐにセッションを開始することもできます。 デフォルト設定は環境設定 → セッションで編集できます。\n\nAmphetamineでは、MacBookをお持ちの場合、MacBookの画面を閉じてもスリープさせないことも可能です。念のため、あなたの作業を失敗させないための保険として、Amphetamine Enhancerをインストールすることを強くお勧めします。";
+
+"ww3_bttn_learn_amph_enh" = "Amphetamine Enhancerについての詳しい情報はこちらをクリックしてご確認ください";
+
+// WELCOME WINDOW #4
+"ww4_lbl_title" = "その他に、Amphetamineで何ができるんですか？";
+"ww4_lbl_subtitle" = "Amphetamineは、あなたの想像を遥かに超える多様な機能を提供します。";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"ww4_lbl_message" = "トリガーを使うと、Wi-Fi接続やバッテリー残量、USBまたはBluetoothデバイス接続、時間、起動中のアプリケーション、IPアドレス、そしてさらに多くの環境に従い、Macを眠らせないこともできます。Amphetamineの環境設定から初のトリガーを設定するか、下のボタンをクリックして詳しく調べてみましょう。\n\nドライブのスリープ防止機能は定期的に各ドライブに微小なデータを書き込み、ドライブとあなたのMacとの接続を保てられます。Amphetamineの環境設定からドライブのスリープ防止機能をセットしてみましょう。";
+
+"ww4_bttn_learn_triggers" = "トリガーについての詳しい情報はこちらから";
+
+// WELCOME WINDOW #5
+"ww5_lbl_title" = "Amphetamineへようこそ。";
+"ww5_lbl_subtitle" = "こんな素晴らしいアプリがあるだなんて、みんなにハ　ナイショ...にしないでほしいです。";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"ww5_lbl_message" = "Amphetamineは、あなたへのプレゼントです。あなたがこのアプリをうまく利用し、楽しんでくださることを望みます。もし時間がありましたら、App Storeにレビューを残してくださるとありがたいです。本当に、ありがとうございます。\n\nもしAmphetamineを使用するにあたり、何か質問や問題が発生した場合は、Amphetamineのメニューからフィードバック＆サポート → お問い合わせからご連絡ください。\n\nWilliam Gustafson\nAmphetamine 開発者";
+
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- ABOUT WINDOW
+// ---------------------------------------------------------------------------
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"about_lbl_message" = "Amphetamineは、私が初めて作った Objective-C プロジェクトでした。2014年にAmphetamineを初リリースしてから、Macをスリープさせないための最も強力で、最も人気のあるアプリのうち一つに成長しました。貴方の提案、フィードバック、そしてサポートにより、ここまで成長することができました。心から感謝致します。\n\nAmphetamineは今まで、かつ今後もApp内購入や広告、有料のアップグレード機能のない、完全な無料アプリです。\n\nAmphetamineには私の友達、Isaac Kirkmanとの思い出が詰まっています。\n\nWilliam Gustafson\nAmphetamine 開発者";
+"about_lbl_hard_work" = "Amphetamineの開発は、大変な作業です。";
+"about_bttn_support" = "お問い合わせ";
+"about_bttn_rate" = "App Storeに評価を残す";
+"about_bttn_ack" = "謝辞・認証";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- QUICK PREFERENCES
+// ---------------------------------------------------------------------------
+
+"qp_lbl_about" = "クイック設定の項目は環境設定の項目に対応するステータスを表します。また、今現在のセッションである必要はありません。";
+"qp_lbl_nt_sess" = "デフォルトセッション";
+"qp_lbl_all_sess" = "システムコントロール";
+"qp_lbl_other" = "その他"; // 其他
+
+// PLACEHOLDER REPRESENTS A BATTER CHARGE LEVEL, EXAMPLE: 'END SESSION IF BATTERY IS BELOW 15%'
+"qp_bttn_end_sess_low_batt_title" = "バッテリー残量が%@未満のとき、セッションを終了";
+"qp_bttn_end_sess_ac_discon_title" = "電源アダプターにつながっていないとき、セッションを終了";
+
+// PLACEHOLDERS REPRESENT A TIME DURATION, EXAMPLE: 'LOCK SCREEN AFTER 1h 15m OF INACTIVITY'
+"qp_bttn_lck_scrn_title" = "非アクティブしてから %01ld%@後に画面をロック";
+"qp_bttn_mv_cursor_title" = "非アクティブしてから %01ld%@後にマウスポインターを動かす";
+
+// ----- Quick Preferences Help Message
+
+// Title
+"help_quick_prefs_title" = "クイック設定";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_quick_prefs_body" = "クイック設定の各メニューの項目は、Amphetamineの設定の各対応する項目と連携されています。\n\nまた、クイック設定で表示される各項目の状況は、今現在の実際の設定が（特にトリガーセッションが開始されていたりするとき）反映できていない可能性が充分ございますので、ご注意ください。\n\n現在のセッションの動作は、「現在のセッションの詳細」メニューを使って変えたり、上書きします。「現在のセッションの詳細」メニューから項目をオン・オフにするためには、環境設定 → 外観 → メニューのその他からご設定ください。";
+
+
+
+// ---------------------------------------------------------------------------
+// ----- OTHER HELP MESSAGES
+// ---------------------------------------------------------------------------
+
+// ----- Screen Saver Exceptions Help Message
+
+// Title
+"help_screen_saver_exceptions_title" = "スクリーンセーバの例外";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_screen_saver_exceptions_body" = "このメニューから例外に設定したアプリやプロセスが実行中の時は、スクリーンセーバの許可を無効化します。\n\nアプリやプロセスを追加するためには、+ボタンを押してください。削除するためには、-ボタンを押してください。\n\n追加したいアプリやプロセスが表示されない場合には、現在そのアプリやプロセスが実行されていないか、macOSのSandbox技術により、Amphetamineによるそのアプリ・プロセスへのアクセスが許可されなかった可能性がございます。";
+
+
+// ----- Apps & Processes Picker Help Message
+
+// Title
+"help_app_picker_title" = "アプリ及びプロセス";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_app_picker_body" = "このリストに表示されるアプリやプロセスは、現在実行されているものに限られます。「補助アプリやプロセスを非表示」をオンにすると、補助アプリやプロセスを除いたアプリやプロセスのみが表示されます。補助アプリやプロセスとは、UIがなく、バックグラウンドで、ユーザ側の認識されないところで実行されることが多いです。\n\n追加したいアプリやプロセスが表示されない場合は、macOSのSandbox技術によりAmphetamineによるアクセスが許可されなかった可能性がございます。Sandbox制限を無効化するためには、Amphetamine Enhancerをインストールください。\n\nAmphetamine Enhancerをインストールしても、そのアプリやプロセスが確実に実行されているにもかかわらず表示されない場合には、充分に待ってから検索の右側にある ↻ボタンを押してアプリ・プロセスのリストを再ロードしてください。";
+
+
+// ----- CLOSED DISPLAY MODE WARNING
+
+// Title
+"cdm_warning_title" = "クラムシェルモードセッションについて";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"cdm_warning_body" = "• 電源状態\nクラムシェルモードが実行されている時、Macの電源状態を変えてはいけません。外部電源/アダプターに接続・切断した場合、クラムシェルモードセッションは失敗されます。この制限は、他のセッションには影響されません。\n\n• 過熱またはバッテリー消耗\nクラムシェルモードがオンになったまま、Macがカバンやケースの中に入っているときには、非常に熱くなったり、バッテリーが全て消耗されることもあり得ます。環境設定 → 通知からクラムシェルモードが実行中の時に警告を鳴らすように設定することをお勧めします。\n\n• Amphetamine Enhancer Fail-Safe\nAmphetamineがクラムシェルモードのセッション中にクラッシュした場合、Macを再起動するか、Amphetamineを再実行するまでにMacが通常のスリープ状態に入れなくなる可能性がございます。このようなことを防止するために、Amphetamine Enhancerのインストールを強くお勧めします。";
+
+
+// ----- FAILED CLOSED DISPLAY MODE SESSION WARNING
+
+// Title
+"cdm_fail_warning_title" = "クラムシェルモードモードセッション失敗";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"cdm_fail_warning_body" = "クラムシェルモードの実行に失敗しました。電源アダプターが接続されたか、抜かれました。クラムシェルモードを維持するためには、電源ソースを変更してはいけません。この制限は他のセッションとは関係ありません。\n\nAmphetamineが自動的に、実行に失敗したクラムシェルセッションを終了させました。トリガーセッションにより新しいセッションが開始された場合、その新しいセッションには影響しません。";
+
+
+// ----- TRIGGER SESSION WARNING
+
+// USED IN SENTENCES, SEE PLACEHOLDER %@ IN KEY sess_is_trigger_body FOR EXAMPLE USAGE
+// OTHER EXAMPLE: IF YOU WOULD LIKE TO 'ALLOW' / 'PREVENT' THE DISPLAY TO SLEEP
+"gen_use_allow" = "承認";
+"gen_use_prevent" = "拒否";
+
+// USED IN SENTENCES, SEE PLACEHOLDER %@ IN KEY sess_is_trigger_body FOR EXAMPLE USAGE
+// OTHER EXAMPLE: YOU NEED TO 'CHECK' / 'UNCHECK' THE BOX TO ENABLE THIS FEATURE
+"gen_use_check" = "確認";
+"gen_use_uncheck" = "未確認";
+
+// ----- SESSION IS TRIGGER
+"sess_is_trigger_ds_bttn_title" = "ディスプレイのスリープを許可";
+"sess_is_trigger_ds_feature" = "ディスプレイをスリープ";
+
+"sess_is_trigger_ss_bttn_title" = "スクリーンセーバを許可";
+"sess_is_trigger_ss_feature" = "スクリーンセーバをアクティブ化";
+
+"sess_is_trigger_cdm_feature" = "クラムシェルモードのスリープ";
+"sess_is_trigger_cdm_bttn_title" = "ディスプレイを閉じているとき、システムのスリープを許可";
+
+// Title
+"sess_is_trigger_title" = "現在のセッションはトリガーセッションです";
+
+// PLACEHOLDERS MAY BE EITHER THE FEATURE, TITLE, CHECK/UNCHECK, OR ALLOW/PREVENT KEYS LISTED ABOVE. EXAMPLE:
+
+/*
+ "You have modified a preference that only applies to non-Trigger sessions.\n\nEach Trigger has its own Allow Display Sleep(sess_is_trigger_ds_bttn_title) preference which can be changed by editing the Trigger. To edit a Trigger, go to Preferences → Triggers and double-click the Trigger you want to edit.\n\nIf you would like to temporarily allow (gen_use_allow) display sleep (sess_is_trigger_ds_feature) for the duration of this Trigger session, click Amphetamine's image in the menu bar and check (gen_use_check) the Allow Display Sleep (sess_is_trigger_ds_bttn_title) checkbox in the Current Session Details section of the menu.\n\nIf you don't see the Current Session Details section in Amphetamine's menu, go to Preferences → Appearance → Menu Extras and check the Show Session Details in Menu box."
+*/
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"sess_is_trigger_body" = "トリガーのないセッションにのみ適用される環境設定を変更しました。\n\nトリガーは %@ 個の環境設定を持っていて、トリガーから変更が可能です。トリガーを編集するためには、環境設定 → トリガーから、編集したいトリガーをダブルクリックして編集に入ってください。\n\nもしトリガーのセッション中に一時的に %@ %@ の起源を持つトリガーを作成したい場合には、Amphetamineの詳細メニューから %@ から %@ のチェックを入れてください。\n\nもし現在のセッションの詳細情報がAmphetamineのメニューに表示されない場合には、環境設定 → メニューのその他から「現在のセッションの詳細を表示」をオンにしてください。";
+
+// ----- LOCK SCREEN MESSAGE
+
+"lck_scrn_request_title" = "Amphetamineが画面をロックするためには、アクセシビリティ機能へのアクセス許可が必要です。";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"lck_scrn_request_body" = "システム環境設定 → セキュリティとプライバシー → プライバシー → アクセシビリティからAmphetamineのアクセス権限をセットしてください。\n\nシステム環境設定から左下の鍵アイコンをクリックし、Macのパスワードを入力すると編集が可能となります。それから、+ボタンを押してAmphetamineをリストに追加して、チェックボックスにチェックを入れてください。\n\n一回だけアクセスを許可することで、今後は再びアクセスを許可しなくてもご利用いただけます。";
+
+
+// ----- CURSOR MOVEMENT MESSAGE
+
+"move_cursor_request_title" = "Amphetamineがマウスポインターを動かすためには、アクセシビリティ機能へのアクセス許可が必要です。";
+
+"move_cursor_request_body" = "システム環境設定 → セキュリティとプライバシー → プライバシー → アクセシビリティからAmphetamineのアクセス権限をセットしてください。\n\nシステム環境設定から左下の鍵アイコンをクリックし、Macのパスワードを入力すると編集が可能となります。それから、+ボタンを押してAmphetamineをリストに追加して、チェックボックスにチェックを入れてください。\n\n一回だけアクセスを許可することで、今後は再びアクセスを許可しなくてもご利用いただけます。";
+
+
+// ----- WHILE FILE IS DOWNLOADING MESSAGE
+
+"file_dwnld_title" = "タイムアウト";
+
+"file_dwnld_body" = "ファイルのダウンロードにおけるタイムアウトをセットしてください。ファイルのサイズが変わらず、タイムアウトに設定した時間が経過するとセッションを終了します。";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- DIALOGS
+// ---------------------------------------------------------------------------
+
+// BUTTON TITLE, USED TO CONFIRM SELECTION OF ITEM
+"dialog_select_bttn_title" = "選択";
+
+// CUSTOM SOUND FILE DIALOG MESSAGE
+"dialog_sound_select" = "Amphetamineに追加したいサウンドをお選びください:";
+
+// drive
+"dialog_drivealive_select" = "スリープさせたくないドライブをお選びください:";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- ALERTS
+// ---------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------
+// ALERT BUTTON LABELS/TITLES
+
+"alert_ok_button_title" = "確認";
+"alert_get_amph_enhancer_button_title" = "Amphetamine Enhancerをインストール";
+"alert_dont_show_type_again" = "今後このようなタイプのメッセージを表示しない";
+"alert_dont_show_again" = "今後このメッセージを表示しない";
+"alert_dont_ask_again" = "今後この質問を表示しない";
+"alert_open_sys_prefs" = "システム環境設定を開く";
+
+// GENERIC ERROR MESSAGE
+"error_generic_went_wrong_title" = "何か問題があったようです。";
+"error_generic_went_wrong_body" = "もう一度試してください。問題が解決されない場合、iffy.freshdesk.com　までお問い合わせください。";
+
+// TRIGGER EDIT ERROR MESSAGE // v5.0.1
+"error_trigger_edit_title" = "このトリガーは編集できません。";
+"error_trigger_edit_body" = "もう一度試してください。問題が解決されない場合、トリガーを削除してからもう一回作成してください。もしトリガーの再作成ができない場合は、iffy.freshdesk.com　までお問い合わせください。";
+
+// ----- SCREEN SAVER FOR TRIGGER ALERT
+"alert_trig_scn_svr_bttn_enable" = "スクリーンセーバを有効にします";
+
+"alert_trig_scn_svr_title" = "このトリガーはスクリーンセーバを許可するように構成されていません。";
+"alert_trig_scn_svr_body" = "このトリガーはスクリーンセーバを許可するように構成されていませんが、このセッションでスクリーンセーバを許可するようにすることも可能です。スクリーンセーバを常に許可するように設定したい場合、環境設定 → トリガーからトリガーをダブルクリックし、編集してください。その他のセッションでスクリーンセーバを許可するためには、以下から待機時間を設定し、「スクリーンセーバを許可」をオンにしてください。";
+
+// ----- DRIVE ALIVE SANDBOX ALERT
+"alert_drivealive_tech_det_title" = "詳細の技術的な情報...";
+
+// PLACEHOLDER IS NAME OF DRIVE
+"alert_drivealive_tech_det_body" = "macOSのSandbox技術により、AmphetamineがドライブのRootディレクトリーにデータを書き込められませんでした。\n\nそれにもかかわらずAmphetamineのディスクのスリープ防止機能は使えますが、Rootディレクトリーではなく、以下のディレクトリーにデータを書き込むように設定しました。\n\n%@";
+
+"alert_drivealive_net_vol_title" = "ネットワークボリューム感知";
+"alert_drivealive_net_vol_body" = "選択したドライブ・ボリュームがネットワークボリュームか、ローカルボリュームではないようです。このボリュームへの接続ができなくなったりする場合、Amphetamineが応答しなくなる可能性がございます。";
+
+// ----- APP PICK ERROR
+"alert_app_select_title" = "何らかの問題が起きました。";
+"alert_app_select_body" = "何のアプリも選択してないか、あなたが選んだアプリが既に終了されているだろうと思われます。他のアプリを選ぶか、選んだアプリを再起動してください。";
+
+// ----- APPLESCRIPT ERROR
+"alert_applescript_fail_title" = "AppleScriptでエラーが発生しました！";
+"alert_applescript_fail_title" = "AmphetamineがAppleScriptから受け取ったメッセージを認識できませんでした。";
+
+// ----- LOCK SCREEN FAILURE
+"alert_lck_scrn_fail_title" = "画面のロックができませんでした";
+"alert_lck_scrn_fail_body" = "環境設定→システムコントロール からこの機能を再度オンにできます。";
+
+// ----- DEFAULT DURATION
+"alert_dd_less_one_min_title" = "デフォルト期間を1分未満にセットすることはできません。";
+"alert_dd_less_one_min_body" = "デフォルト期間は最低値である0時間1分に変更されました。";
+
+// ----- CUSTOM STATUS/MENU BAR ITEM IMAGE MISSING OR NOT FOUND
+"cust_img_not_found_title" = "カスタム画像が見つかりませんでした。";
+"cust_img_not_found_body" = "二つのカスタム画像が必要です。（アクティブ・非アクティブ）デフォルト画像が用いられます。";
+
+// ----- CUSTOM STATUS/MENU BAR ITEM IMAGE SAVE ERROR
+"cust_img_save_err_title" = "画像の保存できませんでした。";
+"cust_img_save_err_body" = "原因不明のエラーが起きました。代わりにデフォルト画像を使います。";
+
+// ----- RESET PREFERENCES CONFIRMATION
+"prefs_reset_conf_title" = "mphetamineの環境設定を本当に削除しますか？";
+"prefs_reset_conf_body" = "全ての環境設定は削除され、初期値に戻されます。また、トリガーやドライブのスリープ防止設定なども初期化されます。";
+
+// ----- RESET WARNINGS & DIALOGS CONFIRMATION
+"warn_diag_reset_conf_title" = "警告及びダイアログのリセットが完了しました。";
+"warn_diag_reset_conf_body" = "あなたは警告されました。";
+
+// ----- IP ADDRESS CRITERIA MESSAGE
+"alert_no_ip_address_title" = "IPアドレスが見つけられませんでした。";
+"alert_no_ip_address_body" = "Macがインターネットにつながっているか、有効なIPアドレスを取得しているか、もう一度ご確認ください";
+
+// ----- DNS SERVER CRITERIA MESSAGE
+"dns_no_new_serv_title" = "新しいDNSサーバが見つかりませんでした。";
+"dns_no_new_serv_body" = "現在リストに設定されているDNSサーバは、macOSで使わられていると見られる唯一のサーバです。最近システム環境設定からDNSサーバの設定を変更した場合もしくはネットワーク構成を変更した場合には、数分待ってから再度お試しください。";
+
+// ----- DRIVE ALIVE WRITE ERROR
+"drive_alive_write_err_title" = "エラーが感知されました。";
+"drive_alive_write_err_body" = "Amphetamineには、このディレクトリーにデータを書き込む権限がありません。macOSのSandbox技術もしくはボリュームのフォーマットが原因となっている可能性があります。\n\n解決方法は以下の通りですが、下の方法を実行しても解決されない可能性がございます。\n\nボリュームやディスクののRootディレクトリーに新しいフォルダーを作成する（Adminユーザーのパスワードを要求される可能性がございます）その次に、ディスクのスリープ防止で使うフォルダーをそのフォルダーに設定してください。";
+
+// ----- DRIVE ALIVE NETWORK VOLUME PROMPT
+"alert_net_volume_title" = "ネットワークボリューム/ドライブ";
+
+// PLACEHOLDER IS NAME OF DRIVE
+"alert_net_volume_body" = "ボリューム/ドライブ名'%@'は、ネットワークを通して接続されたボリュームですか？この質問に正確に答えることでAmphetamineがより効率良く作動できます。";
+
+// ----- BETA EXPIRATION
+"alert_beta_expired_title" = "このベターはすでに期限切れになっています。";
+"alert_beta_expired_body" = "github.com/x74353/AmphetamineBeta　にて新しいバージョンのベターをインストールください。Amphetamineを終了します。";
+
+// ----- DISABLE TRIGGERS MESSAGE
+"alert_disable_trig_title" = "トリガーセッションが実行中です";
+
+// PLACEHOLDER IS NAME OF TRIGGER
+"alert_disable_trig_body" = "このセッションを終了するためには、以下のトリガーをオフにしなければなりません。\n\n%@\n\n下のボタンを押して全てのトリガーをオフにするか、Amphetamineの環境設定から特定のトリガーをオフにしてください。もし全てのトリガーをオンにしたい場合には、いつでもAmphetamineの環境設定からオンにできます。";
+
+"alert_disable_trig_bttn_disable" = "全てのトリガーをオフにします";
+"alert_disable_trig_bttn_suppress" = "次回、全てのトリガーを自動的にオフにします";
+
+"alert_disable_trig_dur_indef" = "無期限にオフ";
+"alert_disable_trig_dur_5mins" = "5分間オフ";
+"alert_disable_trig_dur_10mins" = "10分間オフ";
+"alert_disable_trig_dur_15mins" = "15分間オフ";
+"alert_disable_trig_dur_30mins" = "30分間オフ";
+"alert_disable_trig_dur_45mins" = "45分間オフ";
+"alert_disable_trig_dur_1hr" = "1時間の間オフ";
+"alert_disable_trig_dur_2hrs" = "2時間の間オフ";
+"alert_disable_trig_dur_3hrs" = "3時間の間オフ";
+"alert_disable_trig_dur_4hrs" = "4時間の間オフ";
+"alert_disable_trig_dur_5hrs" = "5時間の間オフ";
+"alert_disable_trig_dur_6hrs" = "6時間の間オフ";
+"alert_disable_trig_dur_7hrs" = "7時間の間オフ";
+"alert_disable_trig_dur_8hrs" = "8時間の間オフ";
+"alert_disable_trig_dur_9hrs" = "9時間の間オフ";
+"alert_disable_trig_dur_10hrs" = "10時間の間オフ";
+"alert_disable_trig_dur_12hrs" = "12時間の間オフ";
+"alert_disable_trig_dur_24hrs" = "24時間の間オフ";
+
+// ----- TRIGGER EVALUATION FAILED MESSAGE
+"alert_trigger_eval_fail_title" = "トリガー条件の判断に失敗しました。";
+"alert_trigger_eval_fail_body" = "トリガー条件の %@ が評価できませんでした。対象トリガー: \"%@.\"\n\nもしこの問題が頻繁に起こる場合、トリガーを削除してから再作成してみてください。";
+
+// ----- AMPHETAMINE 3 → 4/5 PREFERENCES CONVERSION
+"amph3_prefs_cnvrt_bttn_migrate" = "引っ越し";
+"amph3_prefs_cnvrt_bttn_reset" = "リセット";
+"amph3_prefs_cnvrt_bttn_backup" = "バックアップ";
+"amph3_prefs_cnvrt_bttn_quit" = "終了";
+
+"amph3_prefs_cnvrt_message" = "新しいAmphetamine 5を使うためには、あなたのAmphetamine 3の環境設定を引っ越すか、リセットしなければなりません。もし引っ越しを選ぶと、トリガー、ドライブのスリープ防止、アイコン、デフォルト期間設定、ホットキーなどといった環境設定をAmphetamine 5向けに再設定します。\n\nもちろん、引っ越すときに不具合が起こる可能性があります。Amphetamine 3の設定を守るためには、先にバックアップを行ってください。\n\nもし新しく始めたい場合には、リセットを押してください。このメッセージがなぜ表示されるのかわからない場合、予期せず表示された場合にはリセットを押してください。";
+
+"amph3_prefs_cnvrt_backedup" = "Amphetamineの環境設定がバックアップされました。";
+"amph3_prefs_cnvrt_ask" = "これで環境設定を引越し、またはリセットするように求められました。";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- NOTIFICATION MESSAGES
+// ---------------------------------------------------------------------------
+
+"notif_session_not_active" = "セッションがオンになっていません";
+"notif_amph_keep_awake" = "Amphetamineは貴方のMacをスリープさせません";
+"notif_amph_trig_start" = "トリガーセッションが開始されました";
+"notif_amph_trig_end" = "トリガーのセッションが終了されました";
+"notif_sleep_normal" = "通常のスケジュール通りにMacがスリープされます";
+"notif_next_reminder_plural_int" = "次のリマインダーは %li 分以内です。"; // PLACEHOLDER IS THE TIME UNTIL NEXT REMINDER, EXAMPLE: 'NEXT REMINDER IN 5 MINUTES'
+"notif_next_reminder_singular_int" = "次のリマインダーは %li 分以内です"; // PLACEHOLDER IS THE TIME UNTIL NEXT REMINDER, EXAMPLE: 'NEXT REMINDER IN 1 MINUTE'
+"notif_batt_no_ac" = "バッテリーが電源アダプターにつながっていません";
+"notif_batt_charge_low" = "バッテリーを充電中、残量が%li%%未満です"; // PLACEHOLDER IS BATTERY CHARGE LEVEL, EXAMPLE: 'BATTERY CHARGE IS BELOW 15%'
+
+// THESE ARE USED TO INDICATE THE STATE OF EACH OPTION IN NOTIFICATIONS
+// SPACE IS EXTREMELY LIMITED IN NOTIFICATIONS, SO PLEASE ABBREVIATE WHERE POSSIBLE
+"notif_disp_sleep_state" = "ディスプレイスリープ:"; // 🖥️ ✗ Display Sleep:
+"notif_scrn_svr_state" = "スクリーンセーバ:"; // 🌌 ✗ Screen Saver:
+"notif_cdm_state" = "クラムシェルモード:"; // CLOSED-DISPLAY MODE // 🐚 ✗ CDM
+
+// THESE ARE USED TO INDICATE THE STATE OF EACH OPTION IN NOTIFICATIONS
+// UNLESS THESE CHARACTERS DO NOT EQUATE TO ON/YES OFF/NO IN THE TARGET LANGUAGE, THESE SHOULD LIKELY NOT BE CHANGED/TRANSLATED
+"notif_state_prevented" = "✗"; // NO/OFF/PREVENTED, other potential symbols: 🚫 ✗
+"notif_state_allowed" = "✓"; // YES/ON/ALLOWED, other potential symbols: ✅ ✓
+
+// ----- REGULAR SESSION ENDED
+"generic_sess_end_1" = "セッションが終了されました";
+
+// ----- APP SESSION ENDED NOTIFICATION
+
+// NOTE: DO NOT REMOVE '%@'; %@ IS PLACEHOLDER FOR APP NAME
+"app_sess_end_2" = "%@ は現在、作動中ではありません"; // EXAMPLE: 'SAFARI' IS NO LONGER RUNNING
+
+// ----- UNTIL TIME SESSION ENDED NOTIFICATION
+
+// ** NOTE: DO NOT REMOVE %@ **
+"until_sess_end_1" = "時間指定のセッションが終了されました";
+"until_sess_end_2" = "終了時刻 (%@) が過ぎました"; // PLACEHOLDER IS A TIME, EXAMPLE: 'END TIME (5:00 PM) HAS PASSED'
+
+
+// ----- TIMED SESSION HAS ENDED NOTIFICATION
+"timed_sess_end_1" = "時間指定のセッションが終了されました";
+"timed_sess_end_2" = "セッション時間が経過しました";
+
+// ----- DISPLAY SLEEP TOGGLED VIA HOTKEY
+"disp_sleep_toggled" = "ディスプレイスリープの設定を変更しました";
+"disp_sleep_toggle_allow" = "ディスプレイのスリープを許可しました";
+"disp_sleep_toggle_prevent" = "ディスプレイのスリープを許可しません";
+"disp_sleep_toggle_fail" = "ディスプレイスリープの設定を変更できませんでした";
+
+// ----- SCREEN SAVER TOGGLED VIA HOTKEY
+"scrn_svr_toggled" = "スクリーンセーバの設定を変更しました";
+"scrn_svr_toggle_allow" = "スクリーンセーバが許可されました";
+"scrn_svr_toggle_prevent" = "スクリーンセーバは許可されていません";
+"scrn_svr_toggle_fail" = "スクリーンセーバはオンになっていません";
+
+// ----- TRIGGER ERROR MESSAGES
+"trig_err_title" = "そんな！何か深刻なエラーが発生したようです。";
+
+// SAVE TRIGGER ERRORS
+"trig_err_name" = "• トリガー名を入力してください\n\n";
+"trig_err_no_criteria" = "• 条件が一つも選択/オンになっていません\n\n";
+"trig_err_duplicate" = "• このトリガー名は既に使用されています。\n\n";
+"trig_err_wifi" = "• Wi-Fiの条件がオンになっていますが、ネットワーク名の欄が空白です。\n\n";
+"trig_err_ip" = "• IPアドレスの条件がオンになっていますが、IPアドレスの欄が空白です。\n\n";
+"trig_err_ip_2" = "• IPアドレスの条件がオンになっていますが、一つまたはそれ以上のアドレスの欄が空白です。\n\n";
+"trig_err_vpn" = "• VPNサービスの条件がオンになっていますが、サービスの名前が見つかりませんでした。\n\n";
+"trig_err_dns" = "• DNSサーバーの条件がオンになっていますが、サーバーのアドレスが見つかりませんでした。\n\n";
+"trig_err_app" = "• アプリ条件がオンになっていますが、どのアプリにするか設定されていません。\n\n";
+"trig_err_sched" = "• スケジュール条件がオンになっていますが、日付が設定されていません。\n\n";
+"trig_err_displays" =  "• ディスプレイの条件がオンになっていますが、個数の欄が空白です。\n\n";
+"trig_err_vol" =  "• ボリューム・ドライブの条件がオンになっていますが、ボリュームやドライブが設定されていません。\n\n";
+"trig_err_usb" =  "• USBデバイスの条件がオンになっていますが、どのデバイスを使うか設定されていません。\n\n";
+"trig_err_bluetooth" =  "• Bluetoothデバイスの条件がオンになっていますが、なんのデバイスも設定されていません。\n\n";
+"trig_err_cpu" =  "• CPU利用率の基準がオンになっていますが、値が設定されていません。\n\n";
+"trig_err_idle" =  "• アイドル時間の条件がオンになっていますが、値が設定されていません。\n\n";
+
+// EDIT TRIGGER ERRORS
+"trig_err_cant_edit" = "トリガー名 \"%@\" はただいま編集できません。"; // PLACEHOLDER IS NAME OF TRIGGER
+"trig_err_vpn_edit" = "現在このトリガーはVPNサービスを使用するようにセットされていますが、ただいまVPNサービスがオンになっていません。\n\nVPNサービス \"%@\" を実行してからもう一度お試しください。"; // PLACEHOLDER IS NAME OF VPN SERVICE
+"trig_err_vol_edit" = "トリガーで使われるボリューム/ドライブがマウントされていません。\n\n\"%@\"をマウントしてからもう一回お試しください。"; // PLACEHOLDER IS NAME OF DRIVE/VOLUME
+"trig_err_usb_edit" = "トリガーで使われるUSBデバイスが接続されていません。\n\n\"%@\"を接続してからもう一回お試しください。"; // PLACEHOLDER IS NAME OF USB DEVICE
+"trig_err_bluetooth_edit" = "トリガーで使われるBluetoothデバイスが接続されていません。\n\n\"%@\"に再び接続してからもう一回お試しください。"; // PLACEHOLDER IS NAME OF BLUETOOTH DEVICE
+"trig_err_audio_edit" = "このトリガーで使うオディオ出力はただいまお使いできません。\n\n\"%@\" をデバイスに繋いでからもう一度お試しください。"; // PLACEHOLDER IS NAME OF AUDIO OUTPUT DEVICE
+

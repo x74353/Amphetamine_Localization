@@ -152,6 +152,10 @@
 // THE APP'S NAME, DON'T TRANSLATE
 "gen_use_app_name" = "Amphetamine";
 
+// THE NAME OF THE TARGET LANGUAGE
+// EXAMPLE: PUT "SPANISH" HERE IF YOU ARE TRANSLATING INTO THE SPANISH LANGUAGE
+ "gen_use_locale" = "English";
+
 // USED IN BUTTONS, MENUS
 "gen_use_end_session_cap" = "End Session";
 
@@ -304,7 +308,8 @@
 "session_time_remain_infin" = "Indeterminate time remaining";
 "session_time_remain_dwnld" = "While file is downloading";
 
-
+// SESSION TIME EXTENSION
+"session_time_extend" = "Extend session by";
 
 
 
@@ -463,13 +468,13 @@
 
 
 // ---------------------------------------------------------------------------
-// ----- PREFERENCES WINDOW → SESSIONS TAB → NON-TRIGGER SESSIONS SECTION
+// ----- PREFERENCES WINDOW → SESSION DEFAULTS TAB
 // ---------------------------------------------------------------------------
 
 // PREFERENCES WINDOW TOOLBAR ITEM LABEL
-"prefs_tb_sess" = "Sessions";
+"prefs_tb_sess" = "Session Defaults";
 
-// PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS BUTTONS
+// PREFERENCES → SESSIONS DEFAULTS BUTTONS
 "pref_sess_nt_button_title" = "Non-Trigger Sessions";
 "pref_sess_nt_bttn_default_duration_edit" = "Edit";
 "pref_sess_nt_bttn_end_session_force_sleep" = "End session when Mac is forced to sleep";
@@ -484,7 +489,7 @@
 "pref_sess_nt_bttn_endtime_timer" = "Use timer"; // v5.0.2
 "pref_sess_nt_bttn_endtime_sysclock" = "Use system clock"; //v5.0.2
 
-// PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS LABELS
+// PREFERENCES → SESSION DEFAULTS LABELS
 "pref_sess_nt_lbl_dd" = "Default Duration:";
 "pref_sess_nt_lbl_end_time_calc" = "End Time Calculation:";
 "pref_sess_nt_lbl_forced_sleep" = "Forced Sleep:";
@@ -521,7 +526,7 @@
 // ---------------------------------------------------------------------------
 // (?) BUTTON MENU ITEMS
 
-// ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Default Duration Help Message
+// ----- PREFERENCES → SESSION DEFAULTS → Default Duration Help Message
 
 // Title
 "help_message_default_duration_title" = "Default Duration";
@@ -529,7 +534,7 @@
 // Body
 "help_message_default_duration_body" = "The Default Duration is used throughout Amphetamine when a session duration is not otherwise provided. Examples include when a session starts at launch and when clicking Amphetamine's image in the system menu bar to start a session.";
 
-// ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → End Time Calculation Help Message
+// ----- PREFERENCES → SESSION DEFAULTS → End Time Calculation Help Message
 
 // Title
 "help_message_end_time_cal_title" = "End Time Calculation";
@@ -537,7 +542,7 @@
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_message_end_time_cal_body" = "Session end time can either be calculated using a timer, or by using the system clock.\n\nFor example, let's say you select 'Use timer' and then start a session for 3 hours. Then you immediately sleep your Mac for 2 hours. When your Mac wakes, the session will still have 3 hours remaining. This is because the timer is paused while your Mac is sleeping.\n\nIn the same scenario described above, if you had instead selected 'Use system clock' only 1 hour would be remaining on the session. This is because 2 hours would have passed on the system clock while your Mac slept.";
 
-// ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Forced Sleep Help Message
+// ----- PREFERENCES → SESSION DEFAULTS → Forced Sleep Help Message
 
 // Title
 "help_message_forced_sleep_title" = "Forced Sleep";
@@ -545,7 +550,7 @@
 // Body
 "help_message_forced_sleep_body" = "Check this box to automatically end any non-Trigger sessions when your Mac is forced to sleep. Forced sleep includes any situation where you take an action to put your Mac to sleep such as clicking  → Sleep, or using a keyboard shortcut/hot key.";
 
-// ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Display Sleep Help Message
+// ----- PREFERENCES → SESSION DEFAULTS → Display Sleep Help Message
 
 // Title
 "help_message_display_sleep_title" = "Display Sleep";
@@ -553,7 +558,7 @@
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_message_display_sleep_body" = "Check this box if you want your Mac's display to sleep during a session. If you allow display sleep, your display will sleep/turn off after the time you have defined in  → System Preferences → Energy Saver has elapsed.\n\nNote that this preference only affects non-Trigger sessions. If you want Trigger-based sessions to allow your Mac's display to sleep, each individual Trigger can be configured to do so.";
 
-// ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Closed-Display Mode Help Message
+// ----- PREFERENCES → SESSION DEFAULTS → Closed-Display Mode Help Message
 
 // Title
 "help_message_closed_display_title" = "Closed-Display Mode";
@@ -561,7 +566,7 @@
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_message_closed_display_body" = "Uncheck this box if you would like Amphetamine to keep your Mac awake while its display is closed.\n\nGenerally, an external display, keyboard, mouse, and power adapter must all be connected to your Mac for closed-display mode to be enabled. Amphetamine can override these requirements temporarily and prevent your Mac from sleeping when its display is closed.\n\nThe checkbox will be disabled if your Mac does not support this feature.\n\nThis preference only affects non-Trigger sessions. If you want to enable this feature for a Trigger session, visit Preferences → Triggers and edit each Trigger you want to add this feature to.\n\nWhen using this feature, you may want to consider setting up Closed-Display Mode Warnings in Preferences → Notifications → Closed-Display Mode.";
 
-// ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Screen Saver Help Message
+// ----- PREFERENCES → SESSION DEFAULTS → Screen Saver Help Message
 
 // Title
 "help_message_screen_saver_title" = "Screen Saver";
@@ -569,7 +574,7 @@
 // Body
 "help_message_screen_saver_body" = "Check this box if you want your Mac's screen saver to run during non-Trigger sessions. Use the slider to select the time threshold before starting the screen saver. During non-Trigger sessions, Amphetamine will keep track of your Mac's idle time. If the idle time is above the threshold you set, Amphetamine will start your screen saver.\n\nYou can add apps to an exceptions list by clicking the 'Exceptions ...' button. If an app in the exceptions list is running on your Mac, Amphetamine will not start the screen saver. This can be useful if you're watching a video or reading a ebook, etc.\n\nNote that this preference only affects non-Trigger sessions. If you want Trigger-based sessions to allow your screen saver to run, each individual Trigger can be configured to allow or disallow the screen saver.";
 
-// ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Battery Help Message
+// ----- PREFERENCES → SESSION DEFAULTS → Battery Help Message
 
 // Title
 "help_message_battery_title" = "Battery";
@@ -577,7 +582,7 @@
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_message_battery_body" = "• End Session if Battery Charge is Below ...\nCheck this box if you want Amphetamine to automatically end non-Trigger sessions when your Mac's battery falls below the threshold set using the slider. Move the slider all the way to the right to end sessions any time the power adapter is not connected.\n\n• Prompt Before Ending a Session\nCheck this box if you want to be prompted before Amphetamine automatically ends a session due to a low battery charge. You can choose to continue the session, ignoring your Mac's battery charge, if desired.\n\n• Ignore Charge if Power Adapter is Connected\nCheck this box if you want Amphetamine to not automatically end sessions due to a low battery charge while your Mac's power adapter is connected.\n\nNote that these preferences only affect non-Trigger sessions. If you want Trigger sessions to consider your Mac's battery charge, add a Power criterion to your Trigger(s).";
 
-// ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Power Adapter Help Message
+// ----- PREFERENCES → SESSION DEFAULTS → Power Adapter Help Message
 
 // Title
 "help_message_power_adapter_title" = "Power Adapter";
@@ -590,11 +595,11 @@
 
 
 // ---------------------------------------------------------------------------
-// ----- PREFERENCES → SESSIONS TAB → ALL SESSIONS SECTION
+// ----- PREFERENCES → SYSTEM CONTROL TAB
 // ---------------------------------------------------------------------------
 
-// PREFERENCES → SESSIONS → ALL SESSIONS BUTTONS
-"pref_sess_as_button_title" = "All Sessions";
+// PREFERENCES → SYSTEM CONTROL BUTTONS
+"prefs_tb_sys_cntrl" = "System Control";
 "pref_sess_as_bttn_lck_scrn_pt1" = "Lock screen after";
 "pref_sess_as_bttn_lck_scrn_pt2" = "of inactivity";
 "pref_sess_as_bttn_lck_scrn_use_cursor" = "Use cursor movement to determine inactivity";
@@ -607,7 +612,7 @@
 "pref_sess_as_bttn_cursor_stop_pt2" = "of inactivity";
 "pref_sess_as_bttn_fast_usr_switch" = "End session when switching accounts";
 
-// PREFERENCES → SESSIONS → ALL SESSIONS LABELS
+// PREFERENCES → SYSTEM CONTROL LABELS
 "pref_sess_as_lbl_cursor_speed" = "Cursor Speed:";
 "pref_sess_as_lbl_cursor_speed_fast" =  "Fast";
 "pref_sess_as_lbl_cursor_speed_slow" =  "Slow";
@@ -619,7 +624,7 @@
 // ---------------------------------------------------------------------------
 // (?) BUTTON MENU ITEMS
 
-// ----- PREFERENCES → SESSIONS → ALL SESSIONS → Lock Screen Help Message
+// ----- PREFERENCES → SYSTEM CONTROL → Lock Screen Help Message
 
 // Title
 "help_message_lock_screen_title" = "Lock Screen";
@@ -627,7 +632,7 @@
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_message_lock_screen_body" = "• Lock Screen After ... of Inactivity\nCheck this box to have Amphetamine lock your Mac's screen after the specific period of inactivity. Amphetamine will only attempt to lock your screen if a session is active. To control when your screen locks when a session is not active, visit  → System Preferences → Security & Privacy → General.\n\n• Use Cursor Movement to Determine Inactivity\nCheck this box to have Amphetamine consider cursor/mouse movement, not just the system idle clock, when deciding when to lock your screen. This feature may be useful if you remotely access your Mac using VNC/ARD/RDP.\n\n• Lock Screen Immediately After Display is Closed\nCheck this box to have Amphetamine lock your Mac's screen immediately after the display is closed. This feature will only work if a session is active and you have closed-display mode enabled for that session. The checkbox will be disabled if your Mac does not support this feature.";
 
-// ----- PREFERENCES → SESSIONS → ALL SESSIONS → Cursor Help Message
+// ----- PREFERENCES → SYSTEM CONTROL → Cursor Help Message
 
 // Title
 "help_message_cursor_title" = "Cursor";
@@ -635,7 +640,7 @@
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_message_cursor_body" = "• Move Cursor Every...\nCheck this box and choose an interval and inactivity threshold to have Amphetamine move the mouse cursor during a session. This feature applies to both non-Trigger and Trigger sessions. Note that the cursor will not move if your Mac's screen saver is active. Cursor movement will prevent display sleep even if you have Allow Display Sleep enabled for a session.\n\n• Stop Moving Cursor After...\nCheck this box to end Amphetamine's cursor movement after the specific threshold. Stopping cursor movement will allow your Mac's display to sleep if you have enabled Allow Display Sleep enabled for a session.";
 
-// ----- PREFERENCES → SESSIONS → ALL SESSIONS → Fast User Switching Help Message
+// ----- PREFERENCES → SYSTEM CONTROL → Fast User Switching Help Message
 
 // Title
 "help_message_fast_user_switch_title" = "Fast User Switching";
@@ -718,7 +723,7 @@
 "pref_hotk_lbl_startend" = "Start or End Session:";
 "pref_hotk_lbl_start" = "Start Session:";
 "pref_hotk_lbl_end" = "End Session:";
-"pref_hotk_lbl_open_menu" = "Open Menu:";
+"pref_hotk_lbl_open_menu" = "Open/Close Menu:";
 "pref_hotk_lbl_open_menu_close" = "Use Esc to close menu"; // Escape key closes menu
 "pref_hotk_lbl_toggle_disp_sleep" = "Toggle Allow Display Sleep:";
 "pref_hotk_lbl_toggle_screen_saver" = "Toggle Allow Screen Saver:";
@@ -736,7 +741,7 @@
 "help_message_start_end_session_title" = "Start or End Session";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_start_end_session_body" = "This hot key will allow you to start or end a session using one hot key. The Default Duration (Preferences → Sessions → Non-Trigger Sessions → Default Duration) will be used for the session's duration.\n\nAfter recording the key combination for this hot key, you will be able to access this function of Amphetamine regardless of where you are in macOS. Amphetamine does not need to be the frontmost app, but it does need to be running.\n\nIf you aren't able to record your desired hot key combination, that means that the key combination is already in use elsewhere by another app.";
+"help_message_start_end_session_body" = "This hot key will allow you to start or end a session using one hot key. The Default Duration (Preferences → Session Defaults → Default Duration) will be used for the session's duration.\n\nAfter recording the key combination for this hot key, you will be able to access this function of Amphetamine regardless of where you are in macOS. Amphetamine does not need to be the frontmost app, but it does need to be running.\n\nIf you aren't able to record your desired hot key combination, that means that the key combination is already in use elsewhere by another app.";
 
 // ----- PREFERENCES → HOT KEYS → Start Session Help Message
 
@@ -796,10 +801,11 @@
 "pref_notif_bttn_trig_autoend" = "Notify when Trigger/scheduled sessions auto-end";
 "pref_notif_bttn_sound_remind" = "Play with session reminders/other notifications";
 "pref_notif_bttn_sound_startend" = "Play when any session starts or ends";
+"pref_notif_bttn_sound_extend" = "Play when any session is extended";
 "pref_notif_bttn_cdm_play_warning" = "Play closed-display warning tone";
 "pref_notif_bttn_cdm_repeat_warning" = "Repeat tone every";
 "pref_notif_bttn_cdm_change_vol" = "Momentarily set system volume to";
-"pref_notif_bttn_cdm_change_vol_message" = "Enabling this feature will cause the tone to play from the default sound output rather than the Sound Effects output.";
+"pref_notif_bttn_cdm_change_vol_message" = "Enabling this feature will cause the warning tone to play from the default sound output rather than the Sound Effects output.";
 "pref_notif_bttn_notif_remove" = "Remove notifications after delivery";
 
 // PREFERENCES → NOTIFICATIONS LABELS
@@ -839,7 +845,7 @@
 "help_message_sound_title" = "Sound";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_sound_body" = "• Play With Session Reminders/Other Notifications\nCheck this box if you want a sound to play whenever a notification is delivered.\n\n• Play When Any Session Starts or Ends\nCheck this box to have a sound play whenever a session starts or ends.\n\nTo add a new custom sound, click the + button and select a sound file. To remove a custom sound, click the − button. A Finder window will open to the directory where custom files are saved. Delete the sound file in Finder by dragging it to the Trash or by using the Command + Delete keyboard combination.";
+"help_message_sound_body" = "• Play With Session Reminders/Other Notifications\nCheck this box if you want a sound to play whenever a notification is delivered.\n\n• Play When Any Session Starts or Ends\nCheck this box to have a sound play whenever a session starts or ends.\n\n• Play When Any Session is Extended\nCheck this box to have a sound play when a session is extended.\n\nTo add a new custom sound, click the + button and select a sound file. To remove a custom sound, click the − button. A Finder window will open to the directory where custom files are saved. Delete the sound file in Finder by dragging it to the Trash or by using the Command + Delete keyboard combination.";
 
 // ----- PREFERENCES → NOTIFICATIONS → Closed-Display Mode Help Message
 
@@ -1376,7 +1382,7 @@
 
 // ** NOTE: DO NOT REMOVE '\n' **
 "about_lbl_message" = "Amphetamine was my first Objective-C project. Since Amphetamine's initial release back in 2014, it has grown to become one of the most powerful and popular apps for keeping your Mac awake. Your suggestions, feedback, and support are what has driven that growth. Thank you.\n\nAmphetamine will always be a 100% free app without advertisements, in-app purchases, or paid upgrades.\n\nAmphetamine is dedicated to the memory of my friend, Isaac Kirkman.\n\nWilliam Gustafson\nAmphetamine Creator";
-"about_lbl_hard_work" = "Creating Amphetamine is hard work.";
+"about_lbl_hard_work" = "Amphetamine is hard work! 🥵🛠";
 "about_bttn_support" = "Contact Support";
 "about_bttn_rate" = "Rate in App Store";
 "about_bttn_ack" = "Acknowledgments";
@@ -1390,9 +1396,9 @@
 // ---------------------------------------------------------------------------
 
 "qp_lbl_about" = "Quick Preferences items represent the status of the corresponding item in Preferences, and not necessarily the current session.";
-"qp_lbl_nt_sess" = "Non-Trigger Sessions:";
-"qp_lbl_all_sess" = "All Sessions:";
-"qp_lbl_other" = "Other:"; // 其他
+"qp_lbl_nt_sess" = "Session Defaults";
+"qp_lbl_all_sess" = "System Control";
+"qp_lbl_other" = "Other";
 
 // PLACEHOLDER REPRESENTS A BATTER CHARGE LEVEL, EXAMPLE: 'END SESSION IF BATTERY IS BELOW 15%'
 "qp_bttn_end_sess_low_batt_title" = "End session if battery is below %@";
@@ -1440,7 +1446,7 @@
 "cdm_warning_title" = "About Closed-Display Mode Sessions";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"cdm_warning_body" = "• Power State\nYour Mac must remain in an unchanging power state during a closed-display mode session. If you connect or disconnect an external power supply/adapter, the closed-display mode session will fail. This restriction does not apply to other session types.\n\n• Overheating and Battery Drain\nYour Mac could easily overheat inside of a bag/case or its battery could drain completely if you forget that a closed-display mode session is active. Please consider enabling closed-display mode warnings in Preferences → Notifications.\n\n• Amphetamine Enhancer Fail-Safe\nIf Amphetamine crashes during a closed-display mode session, your Mac may be unable to return to normal sleeping behavior until you relaunch Amphetamine or you reboot your Mac. It is highly recommended that you install Amphetamine Enhancer as a fail-safe.";
+"cdm_warning_body" = "• Power State\nYour Mac must remain in an unchanging power state during a closed-display mode session. If you connect or disconnect an external power source/adapter, the closed-display mode session will fail. This restriction does not apply to other session types.\n\n• Overheating and Battery Drain\nYour Mac could easily overheat inside of a bag/case or its battery could drain completely if you forget that a closed-display mode session is active. Please consider enabling closed-display mode warnings in Preferences → Notifications.\n\n• Amphetamine Enhancer Fail-Safe\nIf Amphetamine crashes during a closed-display mode session, your Mac may be unable to return to normal sleeping behavior until you relaunch Amphetamine or you reboot your Mac. It is highly recommended that you install Amphetamine Enhancer as a fail-safe.";
 
 
 // ----- FAILED CLOSED DISPLAY MODE SESSION WARNING
@@ -1575,7 +1581,7 @@
 
 // ----- LOCK SCREEN FAILURE
 "alert_lck_scrn_fail_title" = "Amphetamine could not lock the screen.";
-"alert_lck_scrn_fail_body" = "Visit Preferences → Sessions → All Sessions to re-enable this feature.";
+"alert_lck_scrn_fail_body" = "Visit Preferences → System Control to re-enable this feature.";
 
 // ----- DEFAULT DURATION
 "alert_dd_less_one_min_title" = "Default duration cannot be less than one minute.";
@@ -1646,6 +1652,10 @@
 "alert_disable_trig_dur_10hrs" = "Disable for 10 hours";
 "alert_disable_trig_dur_12hrs" = "Disable for 12 hours";
 "alert_disable_trig_dur_24hrs" = "Disable for 24 hours";
+
+// ----- TRIGGER EVALUATION FAILED MESSAGE
+"alert_trigger_eval_fail_title" = "Trigger criteria evaluation has failed.";
+"alert_trigger_eval_fail_body" = "An error occurred while trying to evaluate the %@ criteria for your Trigger, \"%@.\"\n\nTry deleting and recreating this Trigger if this issue reoccurs often.";
 
 // ----- AMPHETAMINE 3 → 4/5 PREFERENCES CONVERSION
 "amph3_prefs_cnvrt_bttn_migrate" = "Migrate";
