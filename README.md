@@ -25,19 +25,9 @@ Please be sure to read the guidelines at the beginning of the Localizable.string
 
 <b>5. Conciseness:</b> Space is limited. If you can reduce the amount of words used while remaining clear, please do so.
 
-
-# Translations In Progress:
-• Bahasa Indonesian<BR>
-• German and/or Turkish<BR>
-• Greek<BR>
+# Translations Completed:
+• Chinese (Simplified)<BR>
 • Japanese<BR>
 • Korean<BR>
 • Portuguese (Brazilian)<BR>
-• Spanish<BR>
-
-# Translations Completed:
-• Chinese<BR>
-• English<BR>
-
-
-[Localizable.strings](https://github.com/x74353/Amphetamine_Localization/raw/master/Localizable.strings), [AppStore_Description.txt](https://github.com/x74353/Amphetamine_Localization/raw/master/AppStore_Description.txt)
+• Vietnamese<BR>
