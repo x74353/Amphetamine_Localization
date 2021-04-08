@@ -1156,7 +1156,7 @@
 "csdv_bttn_disp_sleep" = "디스플레이 잠자기 허용";
 "csdv_bttn_cdm" = "디스플레이가 닫혔을시 시스템 잠자기 허용";
 
-"csdv_drive_alive_not_enabled" = "Drive Alive이 켜져 있지 않습니ㄷ";
+"csdv_drive_alive_not_enabled" = "Drive Alive이 켜져 있지 않습니다";
 "csdv_drive_alive_not_config" = "설정된 드라이브가 없습니다";
 
 // MENU/STATUS BAR ITEM → MENU ITEMS
