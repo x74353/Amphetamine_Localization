@@ -6,125 +6,121 @@
   Created by William Gustafson on 2/21/20.
   Copyright © 2020 William C. Gustafson. All rights reserved.
  
-  TRANSLATION COMPLETED BY:
-  Ứng dụng được đóng góp Việt hóa bởi Joe Pham.
- 
 */
 
-// ---------------------------------------------------------------------------
-// GENERAL USE STRINGS
+ // ---------------------------------------------------------------------------
+ // GENERAL USE STRINGS
 
-// THE APP'S NAME, DON'T TRANSLATE
-"gen_use_app_name" = "Amphetamine";
+ // THE APP'S NAME, DON'T TRANSLATE
+ "gen_use_app_name" = "Amphetamine";
 
 // THE NAME OF THE TARGET LANGUAGE
- "gen_use_locale" = "Portuguese Brazil";
+ "gen_use_locale" = "Vietnamese";
 
-// USED IN BUTTONS, MENUS
-"gen_use_end_session_cap" = "Terminar Sessão";
+ // USED IN BUTTONS, MENUS
+ "gen_use_end_session_cap" = "Dừng Phiên";
 
 // USED TO INFORM USER OF KEY COMMAND
 "gen_use_command_x" = "⌘ X";
 
-// USED IN BUTTONS, MENUS
-"gen_use_cont_session_cap" = "Continuar Sessão";
+ // USED IN BUTTONS, MENUS
+ "gen_use_cont_session_cap" = "Tiếp tục Phiên";
 
-// NEW IN 5.1.2
-// USED IN SENTENCES
-// EXAMPLE: THERE ARE 10 MINUTES REMAINING IN THIS SESSION.
-"gen_use_remaining" = "para terminar";
-// END IN 5.1.2
+ // USED IN SENTENCES
+ // EXAMPLE: THERE ARE 10 MINUTES REMAINING IN THIS SESSION.
+ "gen_use_remaining" = "còn lại";
 
-// EXAMPLE USAGE: BATTERY IS 100% 'CHARGED'
-"gen_use_charged" = "de carga";
+ // USED IN SENTENCES
+ // EXAMPLE USAGE: BATTERY IS 100% 'CHARGED'
+ "gen_use_charged" = "pin đã sạc";
 
-// EXAMPLE USAGE: POWER ADAPTER CONNECTED 'AND'/'OR' BATTERY 100% CHARGED
-"gen_use_and" = "e";
+ // EXAMPLE USAGE: POWER ADAPTER CONNECTED 'AND'/'OR' BATTERY 100% CHARGED
+ "gen_use_and" = "và";
 
-// EXAMPLE USAGE: POWER ADAPTER CONNECTED 'OR' BATTERY 100% CHARGED
-"gen_use_or" = "ou";
+ // EXAMPLE USAGE: POWER ADAPTER CONNECTED 'OR' BATTERY 100% CHARGED
+ "gen_use_or" = "hoặc";
 
-// EXAMPLE USAGE: CLICK THE BUTTON LABELED 'SAVE' TO KEEP YOUR CHANGES
-"gen_use_save" = "Salvar";
+ // EXAMPLE USAGE: CLICK THE BUTTON LABELED 'SAVE' TO KEEP YOUR CHANGES
+ "gen_use_save" = "Lưu";
 
-// EXAMPLE USAGE: CLICK THE BUTTON LABELED 'CANCEL' TO DISCARD YOUR CHANGES
-"gen_use_cancel" = "Cancelar";
+ // EXAMPLE USAGE: CLICK THE BUTTON LABELED 'CANCEL' TO DISCARD YOUR CHANGES
+ "gen_use_cancel" = "Hủy";
 
-// EXAMPLE USAGE: CLICK THE BUTTON LABELED 'CONTINUE' TO PROCEED
-"gen_use_continue" = "Continuar";
+ // EXAMPLE USAGE: CLICK THE BUTTON LABELED 'CONTINUE' TO PROCEED
+ "gen_use_continue" = "Tiếp tục";
 
-// EXAMPLE USAGE: CLICK THE BUTTON LABELED 'SELECT' TO CONFIRM YOUR SELECTION
-"gen_use_select" = "Selecionar";
+ // EXAMPLE USAGE: CLICK THE BUTTON LABELED 'SELECT' TO CONFIRM YOUR SELECTION
+ "gen_use_select" = "Chọn";
 
-// USED AS A BUTTON LABEL OR MENU ITEM TITLE, ACTIONABLE, CLICKING ON THIS WILL END A SESSION
-"gen_use_end_session" = "Terminar Sessão Atual";
+ // USED AS A BUTTON LABEL OR MENU ITEM TITLE, ACTIONABLE, CLICKING ON THIS WILL END A SESSION
+ "gen_use_end_session" = "Kết thúc Phiên Hiện hành";
 
-// USED IN CONJUNCTION WITH A NUMBER, EXAMPLE USAGE: Duration = 10 'hours'
-"gen_use_days" = "dias";
-"gen_use_day" = "dia";
-"gen_use_hours" = "horas";
-"gen_use_hour" = "hora";
-"gen_use_minutes" = "minutos";
-"gen_use_minute" = "minuto";
-"gen_use_seconds" = "segundos";
-"gen_use_second" = "segundo";
+ // USED IN CONJUNCTION WITH A NUMBER, EXAMPLE USAGE: Duration = 10 'hours'
+ "gen_use_days" = "ngày";
+ "gen_use_day" = "ngày";
+ "gen_use_hours" = "giờ";
+ "gen_use_hour" = "giờ";
+ "gen_use_minutes" = "phút";
+ "gen_use_minute" = "phút";
+ "gen_use_seconds" = "giây";
+ "gen_use_second" = "giây";
 
-// USED AS A CATEGORY, EXAMPLE: MENU NAME 'HOURS' SUBMENU CONTAINS "1 HOUR", "2 HOURS", ETC.
-"gen_use_hours_cap" = "Horas";
-"gen_use_minutes_cap" = "Minutos";
+ // USED AS A CATEGORY, EXAMPLE: MENU NAME 'HOURS' SUBMENU CONTAINS "1 HOUR", "2 HOURS", ETC.
+ "gen_use_hours_cap" = "Giờ";
+ "gen_use_minutes_cap" = "Phút";
 
-// TIME UNIT ABBREVIATIONS
-// EXAMPLE: 1h 30m = 1 HOUR 30 MINUTES
-"duration_abbrv_hours_h" = " h";
-"duration_abbrv_hours_hrs" = " h";
+ // TIME UNIT ABBREVIATIONS
+ // EXAMPLE: 1h 30m = 1 HOUR 30 MINUTES
+ "duration_abbrv_hours_h" = "h";
+ "duration_abbrv_hours_hrs" = "giờ";
 
-"duration_abbrv_minutes_mins" = " min";
-"duration_abbrv_minutes_m" = " min";
+ "duration_abbrv_minutes_mins" = "phút";
+ "duration_abbrv_minutes_m" = "p";
 
-"duration_abbrv_seconds_secs" = " s";
-"duration_abbrv_seconds_s" = " s";
+ "duration_abbrv_seconds_secs" = "giây";
+ "duration_abbrv_seconds_s" = "g";
 
-// USED IN SENTENCE; EXAMPLE: 10 MINUTES 'OF INACTIVITY'
-"gen_use_of_inactivity" = "de inatividade";
+ // USED IN SENTENCE; EXAMPLE: 10 MINUTES 'OF INACTIVITY'
+ "gen_use_of_inactivity" = "không dùng máy";
 
-// USED IN BUTTON TITLE FOR OTHER TIME DURATION SESSIONS
-// EXAMPLE: 'FOR' 3 HOURS, 'UNTIL' 5:00 PM
-"gen_use_other_time_for_cap" = "Por";
-"gen_use_other_time_until_cap" = "Até";
+ // USED IN BUTTON TITLE FOR OTHER TIME DURATION SESSIONS
+ // EXAMPLE: 'FOR' 3 HOURS, 'UNTIL' 5:00 PM
+ "gen_use_other_time_for_cap" = "Trong";
+ "gen_use_other_time_until_cap" = "Đến";
 
-// USED TO INDICATE A CUSTOM TIME SELECTION AS OPPOSED TO THE STANDARD SELECTIONS
-// EXAMPLE: " 'OTHER TIME:' 2 HRS 16 MINS "
-"gen_use_other_time_colon" = "Outro Tempo:";
+ // USED TO INDICATE A CUSTOM TIME SELECTION AS OPPOSED TO THE STANDARD SELECTIONS
+ // EXAMPLE: " 'OTHER TIME:' 2 HRS 16 MINS "
+ "gen_use_other_time_colon" = "Thời gian Khác:";
 
-// USED TO INDICATE THAT NO DEVICES (i.e. USB or BLUETOOTH DEVICE) ARE CONNECTED TO THIS MAC
-"gen_use_no_recog_dev" = "Nenhum dispositivo reconhecido conectado";
+ // USED TO INDICATE THAT NO DEVICES (i.e. USB or BLUETOOTH DEVICE) ARE CONNECTED TO THIS MAC
+ "gen_use_no_recog_dev" = "Không thấy thiết bị nào được kết nối";
 
-// USED TO PROMPT USER TO CONTINUE OR END A SESSION
-"gen_use_cont_session" = "Deseja continuar esta sessão?";
+ // USED TO PROMPT USER TO CONTINUE OR END A SESSION
+ "gen_use_cont_session" = "Bạn có muốn tiếp tục phiên hiện hành không?";
 
-// EXAMPLE 100 'PIXELS' WIDE
-"gen_use_pixels" = "pixels";
+ // EXAMPLE 100 'PIXELS' WIDE
+ "gen_use_pixels" = "điểm ảnh";
 
-// EXAMPLE 1 'PIXEL' WIDE
-"gen_use_pixel" = "pixel";
+ // EXAMPLE 1 'PIXEL' WIDE
+ "gen_use_pixel" = "điểm ảnh";
 
-// THE LOCALIZED NAME OF THE FINDER APP IN THE TARGET LANGUAGE. MAY BE FINDER AND NO CHANGED NEEDED
-"finder_app_name" = "Finder";
+ // THE LOCALIZED NAME OF THE FINDER APP IN THE TARGET LANGUAGE. MAY BE FINDER AND NO CHANGED NEEDED
+ "finder_app_name" = "Finder";
 
-// THE LOCALIZED PATH TO THE USER LIBRARY → PREFERENCES DIRECTORY
-// DO NOT ADD ~ OR ANY OTHER PATH COMPONENTS
-// FULL PATH IS GENERATED DYNAMICALLY USING ACCOUNT SHORT NAME
-// ONLY TRANSLATE THIS IF THESE FOLDER NAMES APPEAR DIFFERENTLY IN THE TARGET LANGUAGE
-// OTHERWISE, DO NOT TRANSLATE
-"path_to_usr_prefs" = "/Biblioteca/Preferences/";
+ // THE LOCALIZED PATH TO THE USER LIBRARY → PREFERENCES DIRECTORY
+ // DO NOT ADD ~ OR ANY OTHER PATH COMPONENTS
+ // FULL PATH IS GENERATED DYNAMICALLY USING ACCOUNT SHORT NAME
+ // ONLY TRANSLATE THIS IF THESE FOLDER NAMES APPEAR DIFFERENTLY IN THE TARGET LANGUAGE
+ // OTHERWISE, DO NOT TRANSLATE
+ "path_to_usr_prefs" = "/Library/Preferences/";
 
-// Used to denote the version of the app. Example: Version 5.0
-"gen_use_version_cap" = "Versão";
+ // Used to denote the version of the app. Example: Version 5.0
+ "gen_use_version_cap" = "Phiên bản";
 
-// USED AS BUTTON LABEL/TITLE IN RESPONSE TO A QUESTION
-// EXAMPLE: Q: IS THIS DRIVE A NETWORK VOLUME? BUTTON TITLES: 'YES', 'NO'
-"gen_use_yes_cap" = "Sim";
-"gen_use_no_cap" = "Não";
+ // USED AS BUTTON LABEL/TITLE IN RESPONSE TO A QUESTION
+ // EXAMPLE: Q: IS THIS DRIVE A NETWORK VOLUME? BUTTON TITLES: 'YES', 'NO'
+ "gen_use_yes_cap" = "Đúng";
+ "gen_use_no_cap" = "Không";
 
 
 
@@ -134,73 +130,74 @@
 // SESSION DURATIONS
 // USED PRIMARILY IN IN MENUS AS SELECTABLE ITEMS
 
-"pref_duration_other" = "Outro Tempo…";
-"pref_duration_indef" = "Indefinidamente";
-"pref_duration_5secs" = "5 segundos";
-"pref_duration_10secs" = "10 segundos";
-"pref_duration_15secs" = "15 segundos";
-"pref_duration_30secs" = "30 segundos";
-"pref_duration_1min" = "1 minuto";
-"pref_duration_5mins" = "5 minutos";
-"pref_duration_10mins" = "10 minutos";
-"pref_duration_15mins" = "15 minutos";
-"pref_duration_20mins" = "20 minutos";
-"pref_duration_25mins" = "25 minutos";
-"pref_duration_30mins" = "30 minutos";
-"pref_duration_35mins" = "35 minutos";
-"pref_duration_40mins" = "40 minutos";
-"pref_duration_45mins" = "45 minutos";
-"pref_duration_50mins" = "50 minutos";
-"pref_duration_55mins" = "55 minutos";
-"pref_duration_1hr" = "1 hora";
-"pref_duration_2hrs" = "2 horas";
-"pref_duration_3hrs" = "3 horas";
-"pref_duration_4hrs" = "4 horas";
-"pref_duration_5hrs" = "5 horas";
-"pref_duration_6hrs" = "6 horas";
-"pref_duration_7hrs" = "7 horas";
-"pref_duration_8hrs" = "8 horas";
-"pref_duration_9hrs" = "9 horas";
-"pref_duration_10hrs" = "10 horas";
-"pref_duration_12hrs" = "12 horas";
-"pref_duration_24hrs" = "24 horas";
-"pref_duration_download" = "Arquivo estiver baixando…";
+"pref_duration_other" = "Khoảng thời gian Khác...";
+"pref_duration_indef" = "Vô tận";
+"pref_duration_5secs" = "5 giây";
+"pref_duration_10secs" = "10 giây";
+"pref_duration_15secs" = "15 giây";
+"pref_duration_30secs" = "30 giây";
+"pref_duration_1min" = "1 phút";
+"pref_duration_5mins" = "5 phút";
+"pref_duration_10mins" = "10 phút";
+"pref_duration_15mins" = "15 phút";
+"pref_duration_20mins" = "20 phút";
+"pref_duration_25mins" = "25 phút";
+"pref_duration_30mins" = "30 phút";
+"pref_duration_35mins" = "35 phút";
+"pref_duration_40mins" = "40 phút";
+"pref_duration_45mins" = "45 phút";
+"pref_duration_50mins" = "50 phút";
+"pref_duration_55mins" = "55 phút";
+"pref_duration_1hr" = "1 giờ";
+"pref_duration_2hrs" = "2 giờ";
+"pref_duration_3hrs" = "3 giờ";
+"pref_duration_4hrs" = "4 giờ";
+"pref_duration_5hrs" = "5 giờ";
+"pref_duration_6hrs" = "6 giờ";
+"pref_duration_7hrs" = "7 giờ";
+"pref_duration_8hrs" = "8 giờ";
+"pref_duration_9hrs" = "9 giờ";
+"pref_duration_10hrs" = "10 giờ";
+"pref_duration_12hrs" = "12 giờ";
+"pref_duration_24hrs" = "24 giờ";
+"pref_duration_download" = "File đang tải...";
 
 // SESSION TIME REMAINING
-"session_time_remain_infin" = "Tempo indeterminado para terminar";
-"session_time_remain_dwnld" = "Enquanto arquivo estiver baixando";
+"session_time_remain_infin" = "Thời gian còn lại vô hạn định";
+"session_time_remain_dwnld" = "Khi có file đang download";
+
 
 // SESSION TIME EXTENSION
-"session_time_extend" = "Estender sessão por";
+"session_time_extend" = "Kéo dài phiên chạy thêm";
 
 
 // ---------------------------------------------------------------------------
 // DELAYED START DURATIONS
 // USED PRIMARILY IN IN MENUS AS SELECTABLE ITEMS
 
-"scrn_svr_delay_dur_1m" = "Iniciar após 1 minuto";
-"scrn_svr_delay_dur_5m" = "Iniciar após 5 minutos";
-"scrn_svr_delay_dur_10m" = "Iniciar após 10 minutos";
-"scrn_svr_delay_dur_15m" = "Iniciar após 15 minutos";
-"scrn_svr_delay_dur_30m" = "Iniciar após 30 minutos";
-"scrn_svr_delay_dur_45m" = "Iniciar após 45 minutos";
-"scrn_svr_delay_dur_1h" = "Iniciar após 1 hora";
-"scrn_svr_delay_dur_1h15m" = "Iniciar após 1 hora e 15 minutos";
-"scrn_svr_delay_dur_1h30m" = "Iniciar após 1 hora e 30 minutos";
-"scrn_svr_delay_dur_1h45m" = "Iniciar após 1 hora e 45 minutos";
-"scrn_svr_delay_dur_2h" = "Iniciar após 2 horas";
-"scrn_svr_delay_dur_2h15m" = "Iniciar após 2 horas e 15 minutos";
-"scrn_svr_delay_dur_2h30m" = "Iniciar após 2 horas e 30 minutos";
-"scrn_svr_delay_dur_2h45m" = "Iniciar após 2 horas e 45 minutos";
-"scrn_svr_delay_dur_3h" = "Iniciar após 3 horas";
-"scrn_svr_delay_dur_3h15m" = "Iniciar após 3 horas e 15 minutos";
-"scrn_svr_delay_dur_3h30m" = "Iniciar após 3 horas e 30 minutos";
-"scrn_svr_delay_dur_3h45m" = "Iniciar após 3 horas e 45 minutos";
-"scrn_svr_delay_dur_4h" = "Iniciar após 4 horas";
-"scrn_svr_delay_dur_4h15m" = "Iniciar após 4 horas e 15 minutos";
-"scrn_svr_delay_dur_4h30m" = "Iniciar após 4 horas e 30 minutos";
-"scrn_svr_delay_dur_4h45m" = "Iniciar após 4 horas e 45 minutos";
-"scrn_svr_delay_dur_5h" = "Iniciar após 5 horas";
+"scrn_svr_delay_dur_1m" = "Bắt đầu sau 1 phút";
+"scrn_svr_delay_dur_5m" = "Bắt đầu sau 5 phút";
+"scrn_svr_delay_dur_10m" = "Bắt đầu sau 10 phút";
+"scrn_svr_delay_dur_15m" = "Bắt đầu sau 15 phút";
+"scrn_svr_delay_dur_30m" = "Bắt đầu sau 30 phút";
+"scrn_svr_delay_dur_45m" = "Bắt đầu sau 45 phút";
+"scrn_svr_delay_dur_1h" = "Bắt đầu sau 1 giờ";
+"scrn_svr_delay_dur_1h15m" = "Bắt đầu sau 1 giờ 15 phút";
+"scrn_svr_delay_dur_1h30m" = "Bắt đầu sau 1 giờ 30 phút";
+"scrn_svr_delay_dur_1h45m" = "Bắt đầu sau 1 giờ 45 phút";
+"scrn_svr_delay_dur_2h" = "Bắt đầu sau 2 giờ";
+"scrn_svr_delay_dur_2h15m" = "Bắt đầu sau 2 giờ 15 phút";
+"scrn_svr_delay_dur_2h30m" = "Bắt đầu sau 2 giờ 30 phút";
+"scrn_svr_delay_dur_2h45m" = "Bắt đầu sau 2 giờ 45 phút";
+"scrn_svr_delay_dur_3h" = "Bắt đầu sau 3 giờ";
+"scrn_svr_delay_dur_3h15m" = "Bắt đầu sau 3 giờ 15 phút";
+"scrn_svr_delay_dur_3h30m" = "Bắt đầu sau 3 giờ 30 phút";
+"scrn_svr_delay_dur_3h45m" = "Bắt đầu sau 3 giờ 45 phút";
+"scrn_svr_delay_dur_4h" = "Bắt đầu sau 4 giờ";
+"scrn_svr_delay_dur_4h15m" = "Bắt đầu sau 4 giờ 15 phút";
+"scrn_svr_delay_dur_4h30m" = "Bắt đầu sau 4 giờ 30 phút";
+"scrn_svr_delay_dur_4h45m" = "Bắt đầu sau 4 giờ 45 phút";
+"scrn_svr_delay_dur_5h" = "Bắt đầu sau 5 giờ";
 
 
 
@@ -212,8 +209,8 @@
 
 // ** NOTE: DO NOT REMOVE '%@' or '%.f%%' **
 // PLACEHOLDERS REPRESENT DOWNLOAD PROGRESS - EXAMPLE" File is downloading... (2GB | 47%)
-"pref_duration_download_progress" = "Baixando arquivo… (%@ | %.f%%)";
-"pref_duration_download_progress_unknown" = "Baixando arquivo… (%@ de ?)";
+"pref_duration_download_progress" = "File đang tải... (%@ | %.f%%)";
+"pref_duration_download_progress_unknown" = "File đang tải... (%@ trên ?)";
 
 
 
@@ -223,13 +220,13 @@
 // DATE FORMATTERS
 
 // 12 HOUR DATE FORMATTER STRING 1
-"12_hr_date_formatter" = "d de MMM, h:mm a";
+"12_hr_date_formatter" = "MMM d, h:mm a";
 
 // 12 HOUR DATE FORMATTER STRING 2
 "12_hr_date_formatter_2" = "h:mm a";
 
 // 24 HOUR DATE FORMATTER STRING
-"24_hr_date_formatter" = "d de MMM, HH:mm";
+"24_hr_date_formatter" = "MMM d, HH:mm";
 
 // 24 HOUR DATE FORMATTER STRING 2
 "24_hr_date_formatter_2" = "HH:mm";
@@ -241,13 +238,13 @@
 // ---------------------------------------------------------------------------
 // SESSION ACTIVATION REASONS
 
-"act_reason_sess_at_launch" = "Nova sessão ao abrir o app";
-"act_reason_manual" = "Ativação manual";
-"act_reason_app_running" = "está aberto"; // example usage: "Safari is running"
-"act_reason_trigger_name" = "Nome do Acionador";
-"act_reason_applescript" = "Ativação via AppleScript";
-"act_reason_woke_from_sleep" = "O Mac despertou do repouso";
-"act_reason_ac_connected" = "Reconectado à alimentação";
+"act_reason_sess_at_launch" = "Phiên mới khi mở app";
+"act_reason_manual" = "Kích hoạt Thủ công";
+"act_reason_app_running" = "đang mở"; // example usage: "Safari is running"
+"act_reason_trigger_name" = "Tên của Trigger";
+"act_reason_applescript" = "Kích hoạt bằng AppleScript";
+"act_reason_woke_from_sleep" = "Máy Mac thoát Chế độ Sleep";
+"act_reason_ac_connected" = "Được cắm nguồn";
 
 
 
@@ -257,10 +254,9 @@
 // ----- PREFERENCES WINDOW → GLOBAL
 // ---------------------------------------------------------------------------
 
-"pref_window_title" = "Preferências"; // 5.0.2
-"pref_global_lbl_uses_default_duration" = "↳ Usa a Duração Padrão";
-"pref_global_bttn_screen_saver_exceptions" = "Exceções…";
-"scrn_svr_excpt_VNC" = "Conexões VNC/ARD/RDP"; // 5.1.2
+"pref_window_title" = "Tùy chọn"; // 5.0.2
+"pref_global_lbl_uses_default_duration" = "↳ Dùng khoảng thời gian mặc định";
+"pref_global_bttn_screen_saver_exceptions" = "Ngoại lệ...";
 
 
 
@@ -271,26 +267,26 @@
 // ---------------------------------------------------------------------------
 
 // PREFERENCES WINDOW TOOLBAR ITEM LABEL
-"prefs_tb_gen" = "Geral";
+"prefs_tb_gen" = "Chung";
 
 // PREFERENCES → GENERAL BUTTONS
-"pref_gen_bttn_launch_app_at_login" = "Abrir o Amphetamine ao iniciar a sessão";
-"pref_gen_bttn_start_session_at_launch" = "Começar sessão ao abrir o Amphetamine";
-"pref_gen_bttn_start_session_after_wake" = "Começar sessão após despertar do repouso";
-"pref_gen_bttn_hide_dock_icon" = "Ocultar o Amphetamine no Dock";
-"pref_gen_bttn_reduce_motion" = "Reduzir movimento";
-"pref_gen_bttn_reset_warnings" = "Redefinir Avisos e Diálogos";
-"pref_gen_bttn_reset_all_prefs" = "Redefinir Todas as Preferências";
+"pref_gen_bttn_launch_app_at_login" = "Mở Amphetamine khi bạn đăng nhập";
+"pref_gen_bttn_start_session_at_launch" = "Bắt đầu phiên khi Amphetamine khởi chạy";
+"pref_gen_bttn_start_session_after_wake" = "Bắt đầu phiên khi máy thoát chế độ ngủ";
+"pref_gen_bttn_hide_dock_icon" = "Ẩn Amphetamine trên Dock";
+"pref_gen_bttn_reduce_motion" = "Giảm chuyển động";
+"pref_gen_bttn_reset_warnings" = "Reset các cảnh báo và hội thoại";
+"pref_gen_bttn_reset_all_prefs" = "Reset tất cả tùy chỉnh";
 
 // PREFERENCES → GENERAL LABELS
-"pref_gen_lbl_quick_start" = "Começo de Sessão Rápido:";
-"pref_gen_lbl_launch_wake" = "Comportamento ao Abrir e Despertar:";
-"pref_gen_lbl_other" = "Outros:";
-"pref_gen_lbl_takes_effect_close_win" = "↳ Surte efeito após fechar todas as janelas abertas";
+"pref_gen_lbl_quick_start" = "Khởi chạy nhanh 1 Phiên:";
+"pref_gen_lbl_launch_wake" = "Hành vi khi Khởi chạy và Thoát sleep:";
+"pref_gen_lbl_other" = "Khác:";
+"pref_gen_lbl_takes_effect_close_win" = "↳ Có tác dụng sau khi đã đóng tất cả cửa sổ khác";
 
 // PREFERENCES → GENERAL MENU ITEMS
-"pref_gen_mi_quick_start_rightclick" = "Clique direito (clique esquerdo mostra o menu)";
-"pref_gen_mi_quick_start_leftclick" = "Clique esquerdo (clique direito mostra o menu)";
+"pref_gen_mi_quick_start_rightclick" = "Chuột phải (chuột trái để hiện menu)";
+"pref_gen_mi_quick_start_leftclick" = "Chuột trái (chuột phải để hiện menu)";
 
 
 // ---------------------------------------------------------------------------
@@ -299,29 +295,29 @@
 // ----- PREFERENCES → GENERAL → Quick-Start a Session Help Message
 
 // Title
-"help_message_quick_start_title" = "Começo de Sessão Rápido";
+"help_message_quick_start_title" = "Khởi chạy nhanh 1 Phiên";
 
 // Body
-"help_message_quick_start_body" = "Escolha se o clique esquerdo (clique primário) ou clique direito (clique secundário) no ícone do Amphetamine na barra de menus mostra o menu do Amphetamine ou começa e termina uma sessão.";
+"help_message_quick_start_body" = "Chọn click trái chuột (chuột chính) hoặc click phải chuột (chuột phụ) lên icon Amphetamine trên thanh menu hệ thống để hiện menu của Amphetamine, hoặc để bắt đầu/dừng một phiên.";
 
 // ----- PREFERENCES → GENERAL → Launch and Wake Behavior Help Message
 
 // Title
-"help_message_quick_launch_wake_title" = "Comportamento ao Abrir e Despertar"; // fix me quick?
+"help_message_quick_launch_wake_title" = "Hành vi khi Khởi chạy và Thoát sleep"; // fix me quick?
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_quick_launch_wake_body" = "•Abrir o Amphetamine ao iniciar a sessão\nSelecione esta opção caso deseje que o Amphetamine seja aberto automaticamente ao iniciar a sessão no Mac.\n\n• Começar sessão ao abrir o Amphetamine\nSelecione esta opção caso deseje que o Amphetamine comece automaticamente uma nova sessão quando ele for aberto.\n\n• Começar sessão após despertar do repouso\nSelecione esta opção caso deseje que o Amphetamine comece uma nova sessão sempre que o Mac despertar do repouso. Se já houver uma sessão em andamento, uma nova sessão não será começada.";
+"help_message_quick_launch_wake_body" = "• Chạy Amphetamine khi Đăng nhập\nChọn ô này nếu bạn muốn Amphetamine tự động chạy khi bạn đăng nhập máy Mac.\n\n• Bắt Đầu Phiên Khi Amphetamine Khởi Chạy\nChọn ô này nếu bạn muốn Amphetamine tự bắt đầu 1 phiên mới khi app khởi chạy.\n\n• Bắt Đầu Phiên Sau Khi Thoát Sleep\nChọn ô này nếu bạn muốn Amphetamine bắt đầu 1 phiên mới mỗi khi máy Mac thoát chế độ ngủ. Nếu 1 phiên khác đang chạy, phiên mới sẽ được bỏ qua.";
 
 // ----- PREFERENCES → GENERAL → Other Help Message
 
 // Title
-"help_message_other_title" = "Outros";
+"help_message_other_title" = "Khác";
 
 // Body (macOS 10.14+) ** NOTE: DO NOT REMOVE '\n' **
-"help_message_other_body_post_highsierra" = "• Ocultar o Amphetamine no Dock\nSelecione esta opção para ocultar o ícone do Amphetamine no Dock. No macOS 10.15 e posteriores, o ícone aparecerá e desaparecerá automaticamente quando uma das janelas do Amphetamine for aberta (como a janela de Preferências), mesmo se esta opção estiver ativada. O fechamento de todas as janelas abertas do Amphetamine fará com que o ícone no Dock desapareça novamente.\n\nNo macOS 10.14 e anteriores, pode ser necessário desativar a opção “Mostrar aplicativos recentes no Dock”; para isso, acesse Preferências do Sistema → Dock para remover o Amphetamine do Dock por completo.\n\n• Reduzir movimento\nSelecione esta opção para reduzir o uso de animações na interface do Amphetamine.\n\nClique em “Redefinir Avisos e Diálogos” para voltar a mostrar mensagens de avisos e outros diálogos onde a opção “Não mostrar novamente” tenha sido selecionada.\n\nClique em “Redefinir Todas as Preferências” para retornar o Amphetamine ao estado padrão (todas as preferências, incluindo Acionadores, serão perdidas).";
+"help_message_other_body_post_highsierra" = "• Ẩn Amphetamine trên Dock\nChọn ô này nếu bạn muốn ẩn icon Amphetamine trên thanh Dock. Từ macOS 10.15 trở lên, icon trên Dock sẽ tự xuất hiện rồi biến mất khi một cửa sổ của Amphetamine được mở, chẳng hạn Cửa sổ Tuỳ Chỉnh, ngay cả khi tùy chọn ẩn này được bật .\n\nTừ macOS 10.14 về trước, có thể bạn cần tắt tùy chọn 'Hiện các ứng dụng gần đây trên Dock' bằng cách vào  → Tùy chọn Hệ thống → Dock để tắt hoàn toàn icon Amphetamine trên thanh Dock.\n\n• Giảm Chuyển động\nChọn ô này nếu bạn muốn giảm các chuyển động hoạt họa của giao diện Amphetamine.\n\nClick vào Reset các cảnh báo và hội thoại để reset bất kì ô 'đừng hiện lần nữa' nào trên các cửa sổ cảnh báo.\n\nClick vào nút Reset tất cả tùy chỉnh để trả Amphetamine về trạng thái mặc định (toàn bộ tuỳ chỉnh sẽ mất, bao gồm cả các Trigger).";
 
 // Body (macOS 10.11 - 10.13) ** NOTE: DO NOT REMOVE '\n' **
-"help_message_other_body_pre_mojave" = "• Ocultar o Amphetamine no Dock\nSelecione esta opção para ocultar o ícone do Amphetamine no Dock.\n\n• Usar cor para representar estado nas Preferências Rápidas\nSelecione esta opção para usar um círculo colorido para indicar o estado de cada item nas Preferências Rápidas (verde = ativado, vermelho = desativado). Desmarque esta opção para usar uma imagem que não se baseia em cor (✓ = ativado, ✗ = desativado).\n\n• Reduzir movimento\nSelecione esta opção para reduzir o uso de animações na interface do Amphetamine.\n\nClique em “Redefinir Avisos e Diálogos” para voltar a mostrar mensagens de avisos e outros diálogos onde a opção “Não mostrar novamente” tenha sido selecionada.\n\nClique em “Redefinir Todas as Preferências” para retornar o Amphetamine ao estado padrão (todas as preferências, incluindo Acionadores, serão perdidas).";
+"help_message_other_body_pre_mojave" = "• Ẩn Amphetamine trên Dock\nCChọn ô này nếu bạn muốn ẩn icon Amphetamine trên thanh Dock.\n\n• Dùng Màu để Thay Trạng thái trong Tuỳ chỉnh Nhanh\nChọn ô này để hiện 1 hình tròn màu thay cho trạng thái của mỗi mục trong Tuỳ chỉnh Nhanh. Xanh lá = ON, Đỏ = OFF. Bỏ chọn ô này để dùng biểu tượng đơn sắc: có dấu tick để hiện ON, và dấu X để hiện OFF.\n\n• Giảm Chuyển động\nChọn ô này nếu bạn muốn giảm các chuyển động hoạt họa của giao diện Amphetamine.\n\nClick vào Reset các cảnh báo và hội thoại để reset bất kì ô 'đừng hiện lần nữa' nào trên các cửa sổ cảnh báo.\n\nClick vào nút Reset tất cả tùy chỉnh để trả Amphetamine về trạng thái mặc định (toàn bộ tuỳ chỉnh sẽ mất, bao gồm cả các Trigger).";
 
 
 
@@ -333,56 +329,56 @@
 // ---------------------------------------------------------------------------
 
 // PREFERENCES WINDOW TOOLBAR ITEM LABEL
-"prefs_tb_sess" = "Padrões da Sessão";
+"prefs_tb_sess" = "Phiên Mặc định";
 
 // PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS BUTTONS
-"pref_sess_nt_button_title" = "Sessões sem Acionador";
-"pref_sess_nt_bttn_default_duration_edit" = "Editar";
-"pref_sess_nt_bttn_end_session_force_sleep" = "Terminar sessão quando o repouso do Mac for forçado";
-"pref_sess_nt_bttn_allow_display_sleep" = "Permitir repouso da tela";
-"pref_sess_nt_bttn_allow_cdm" = "Permitir repouso do sistema com tela fechada";
-"pref_sess_nt_bttn_allow_screen_saver" = "Permitir protetor de tela após";
-"pref_sess_nt_bttn_end_low_batt" = "Terminar sessão se carga (%) estiver abaixo de";
-"pref_sess_nt_bttn_prompt_end_low_batt" = "Avisar antes de terminar sessão";
-"pref_sess_nt_bttn_ignore_batt_if_pwr_adptr" = "Ignorar carga (%) se estiver conectado";
-"pref_sess_nt_bttn_start_session_pwr_adptr_connect" = "Começar uma nova sessão se reconectado";
+"pref_sess_nt_button_title" = "Phiên Không Trigger";
+"pref_sess_nt_bttn_default_duration_edit" = "Sửa";
+"pref_sess_nt_bttn_end_session_force_sleep" = "Dừng phiên khi máy Mac bị buộc phải sleep";
+"pref_sess_nt_bttn_allow_display_sleep" = "Cho phép tắt màn hình";
+"pref_sess_nt_bttn_allow_cdm" = "Cho phép hệ thống ngủ khi gập màn hình";
+"pref_sess_nt_bttn_allow_screen_saver" = "Chạy screensaver sau";
+"pref_sess_nt_bttn_end_low_batt" = "Dừng phiên nếu mức (%) pin dưới";
+"pref_sess_nt_bttn_prompt_end_low_batt" = "Báo trước khi dừng 1 phiên";
+"pref_sess_nt_bttn_ignore_batt_if_pwr_adptr" = "Bỏ qua mức (%) pin nếu máy được cắm nguồn";
+"pref_sess_nt_bttn_start_session_pwr_adptr_connect" = "Bắt đầu phiên mới nếu được nối lại vào nguồn";
 
-"pref_sess_nt_bttn_endtime_timer" = "Usar timer"; // v5.0.2
-"pref_sess_nt_bttn_endtime_sysclock" = "Usar relógio do sistema"; //v5.0.2
+"pref_sess_nt_bttn_endtime_timer" = "Dùng bộ hẹn giờ"; // v5.0.2
+"pref_sess_nt_bttn_endtime_sysclock" = "Dùng đồng hồ hệ thống"; //v5.0.2
 
 // PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS LABELS
-"pref_sess_nt_lbl_dd" = "Duração Padrão:";
-"pref_sess_nt_lbl_end_time_calc" = "Cálculo do Término:";
-"pref_sess_nt_lbl_forced_sleep" = "Repouso Forçado:";
-"pref_sess_nt_lbl_display_sleep" = "Repouso da Tela:";
-"pref_sess_nt_lbl_cdm" = "Modo com Tela Fechada:";
-"pref_sess_nt_lbl_screen_saver" = "Protetor de Tela:";
-"pref_sess_nt_lbl_battery" = "Bateria:";
-"pref_sess_nt_lbl_pwr_adptr" = "Alimentação:";
-"pref_sess_nt_lbl_cust_dd_enter" = "Digite o tempo da nova duração:";
+"pref_sess_nt_lbl_dd" = "Thời gian Mặc định:";
+"pref_sess_nt_lbl_end_time_calc" = "Tính Thời gian Dừng:";
+"pref_sess_nt_lbl_forced_sleep" = "Sleep Bắt buộc:";
+"pref_sess_nt_lbl_display_sleep" = "Sleep Màn hình:";
+"pref_sess_nt_lbl_cdm" = "Chế độ khi Gập Màn hình:";
+"pref_sess_nt_lbl_screen_saver" = "Screen Saver:";
+"pref_sess_nt_lbl_battery" = "Pin:";
+"pref_sess_nt_lbl_pwr_adptr" = "Cắm Điện Nguồn:";
+"pref_sess_nt_lbl_cust_dd_enter" = "Nhập khoảng thời gian mới:";
 
 // OTHER STRINGS
 
 // USED IN SENTENCE; EXAMPLE: " 'Your Mac's battery is' not connected to power adapter"
 // ** NOTE: DO NOT REMOVE %@ **
-"pref_sess_batt_is" = "A bateria do Mac %@.";
+"pref_sess_batt_is" = "Pin máy Mac của bạn đang %@.";
 
 // USED IN SENTENCE; EXAMPLE: " 'Your Mac's battery is below' 10%"
 // ** NOTE: DO NOT REMOVE '%@' or '%li%%' **
-"pref_sess_batt_is_below" = "A bateria do Mac está abaixo de %@.";
-"pref_sess_batt_is_below2" = "A carga da bateria está abaixo de %li%%";
+"pref_sess_batt_is_below" = "Pin máy Mac của bạn đang dưới %@.";
+"pref_sess_batt_is_below2" = "Mức pin đang dưới %li%%";
 
 // USED IN SENTENCE; EXAMPLE: " 'End session when:' not connected to power adapter"
-"pref_sess_nt_end_when" = "Terminar sessão quando:";
+"pref_sess_nt_end_when" = "Dừng phiên khi:";
 
 // USED IN SENTENCE; EXAMPLE: "End session when: 'not connected to power adapter' "
-"pref_sess_nt_ac_not_connected" = "não conectado à alimentação";
-"pref_sess_nt_ac_not_connected_cap" = "Não conectado à alimentação";
-"pref_sess_nt_ac_connected" = "conectado à alimentação";
+"pref_sess_nt_ac_not_connected" = "không được cắm vào nguồn điện";
+"pref_sess_nt_ac_not_connected_cap" = "Không được cắm vào nguồn điện";
+"pref_sess_nt_ac_connected" = "được nối vào nguồn điện";
 
 // USED IN SENTENCE; EXAMPLE: " 'End session if charge (%) is below: ' 10%"
 // ** NOTE: LEAVE SPACE CHAR AT END OF STRING **
-"pref_sess_nt_end_if_chrg" = "Terminar sessão se carga (%) estiver abaixo de: ";
+"pref_sess_nt_end_if_chrg" = "Dừng phiên khi mức (%) pin dưới: ";
 
 // ---------------------------------------------------------------------------
 // (?) BUTTON MENU ITEMS
@@ -390,66 +386,66 @@
 // ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Default Duration Help Message
 
 // Title
-"help_message_default_duration_title" = "Duração Padrão";
+"help_message_default_duration_title" = "Thời gian Mặc định";
 
 // Body
-"help_message_default_duration_body" = "A Duração Padrão é usada pelo Amphetamine quando a duração da sessão não é fornecida de outra forma. Exemplos disso incluem: quando uma sessão é começada ao abrir o app ou ao clicar no ícone do Amphetamine na barra de menus.";
+"help_message_default_duration_body" = "Thời gian Mặc định được dùng xuyên suốt Amphetamine khi độ dài thời gian cho 1 phiên không được cung cấp cụ thể. Chẳng hạn lúc bắt đầu 1 phiên khi app khởi chạy, và khi click vào icon Amphetamine trên thanh menu hệ thống để chạy nhanh 1 phiên.";
 
 // ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → End Time Calculation Help Message
 
 // Title
-"help_message_end_time_cal_title" = "Cálculo do Término";
+"help_message_end_time_cal_title" = "Tính Thời gian Dừng";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_end_time_cal_body" = "O término da sessão pode ser calculado por um timer ou pelo relógio do sistema.\n\nDigamos que você selecione “Usar timer” e comece uma sessão de 3 horas. Imediatamente depois disso, você coloca o Mac em repouso por 2 horas. Quando o Mac despertar, a sessão ainda terá 3 horas restantes. Isso acontece porque o timer é pausado enquanto o Mac está em repouso.\n\nNo mesmo cenário descrito acima, se você tivesse selecionado “Usar relógio do sistema”, apenas 1 hora restaria na sessão. Isso acontece porque 2 horas teriam se passado no relógio do sistema enquanto o Mac estava em repouso.";
+"help_message_end_time_cal_body" = "Thời gian để dừng 1 phiên có thể được tính toán bằng 1 bộ hẹn giờ, hoặc bằng đồng hồ hệ thống.\n\nVí dụ, bạn chọn 'Dùng bộ hẹn giờ' để bắt đầu 1 phiên chạy 3 giờ đồng hồ; rồi ngay tức thì đưa máy vào chế độ sleep trong 2 giờ. Khi máy Mac thoát sleep, phiên chạy vẫn sẽ kéo dài 3 giờ. Lý do là vì bộ hẹn giờ tạm ngưng khi máy Mac đang sleep.\n\nCùng trường hợp trên, nếu bạn thay vào đó chọn 'Dùng đồng hồ hệ thống' thì phiên chạy sẽ tiếp tục trong 1 giờ nữa. Lý do là vì đã 2 giờ trôi qua trên đồng hồ hệ thống cả trong lúc máy đang sleep.";
 
 // ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Forced Sleep Help Message
 
 // Title
-"help_message_forced_sleep_title" = "Repouso Forçado";
+"help_message_forced_sleep_title" = "Sleep Bắt buộc";
 
 // Body
-"help_message_forced_sleep_body" = "Selecione esta opção para terminar automaticamente qualquer sessão sem Acionador que force o repouso do Mac. O repouso forçado abrange situações onde uma ação é tomada para colocar o Mac em repouso, como ao selecionar  → Repouso ou usar um atalho de teclado.";
+"help_message_forced_sleep_body" = "Chọn ô này để tự ngừng bất kì phiên không dùng Trigger khi máy Mac bị buộc phải sleep. Sleep Bắt Buộc gồm các trường hợp khi bạn ép máy Mac phải sleep, ví dụ khi click  → Ngủ, hoặc qua phím tắt/phím nóng trên bàn phím.";
 
 // ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Display Sleep Help Message
 
 // Title
-"help_message_display_sleep_title" = "Repouso da Tela";
+"help_message_display_sleep_title" = "Sleep Màn hình";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_display_sleep_body" = "Selecione esta opção caso deseje que a tela do Mac entre em repouso durante uma sessão. Se você permitir o repouso da tela, ela entrará em repouso ou será desligada depois do tempo definido em Preferências do Sistema → Economizador de Energia.\n\nNote que esta preferência afeta apenas sessões sem Acionador. Caso deseje permitir que a tela do Mac entre em repouso em sessões com Acionador, configure cada Acionador individualmente para atingir esse objetivo.";
+"help_message_display_sleep_body" = "Chọn ô này nếu bạn muốn màn hình được tắt trong 1 phiên chạy. Khi đó, màn hình sẽ tắt sau khoảng thời gian được thiết đặt sẵn trong  → Tuỳ chỉnh Hệ thống → Tiết kiệm Năng lượng.\n\nXin lưu ý là tuỳ chỉnh này chỉ có tác dụng cho các phiên không qua Trigger. Nếu bạn cần các phiên qua Trigger cho phép màn hình được tắt thì phải thiết đặt cụ thể trong mỗi Trigger.";
 
 // ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Closed-Display Mode Help Message
 
 // Title
-"help_message_closed_display_title" = "Modo com Tela Fechada";
+"help_message_closed_display_title" = "Chế độ khi Gập Màn hình";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_closed_display_body" = "Desmarque esta opção caso deseje que o Amphetamine mantenha o Mac desperto enquanto a tela estiver fechada.\n\nGeralmente, uma tela, teclado e mouse externos, além de um adaptador de alimentação, devem estar conectados ao Mac para que o Modo com Tela Fechada seja ativado. O Amphetamine pode substituir temporariamente esses requisitos e impedir que o Mac entre em repouso ao fechar a tela.\n\nEsta opção não estará disponível se o Mac for incompatível com este recurso.\n\nEsta opção afeta apenas sessões sem Acionador. Caso deseje ativar este recurso em sessões com Acionador, acesse Preferências → Acionadores e edite cada Acionador ao qual deseje adicionar este recurso.\n\nAo usar este recurso, é recomendável configurar os avisos de modo com tela fechada em Preferências → Notificações → Modo com Tela Fechada.";
+"help_message_closed_display_body" = "Bỏ chọn ô này nếu bạn muốn Amphetamine giữ máy Mac không tắt trong khi gập màn hình.\n\nBình thường để chế độ này chạy được thì phải có một màn hình ngoài, bàn phím, chuột, hoặc bộ sạc được kết nối vào máy Mac. Tuy nhiên Amphetamine có thể tạm thời vượt lên các giới hạn này và giữ máy Mac không tắt khi gập màn hình.\n\nÔ chọn sẽ ẩn nếu máy bạn không hỗ trợ tính năng này.\n\nTùy chọn này chỉ ảnh hưởng đến các phiên không qua Trigger. Nếu bạn muốn bật trên các phiên qua Trigger, hãy vào Tuỳ chỉnh → Trigger và thêm tính năng này vào mỗi Trigger mà bạn muốn.\n\nKhi dùng tihns năng này, có thể bạn cần thiết đặt Cảnh báo Chế độ Gập Màn hình trong mục Tuỳ chỉnh → Thông báo → Chế độ Gập Màn hình";
 
 // ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Screen Saver Help Message
 
 // Title
-"help_message_screen_saver_title" = "Protetor de Tela";
+"help_message_screen_saver_title" = "Screen Saver";
 
 // Body
-"help_message_screen_saver_body" = "Selecione esta opção caso deseje que o protetor de tela do Mac funcione durante sessões sem Acionador. Use o controle deslizante para selecionar o limite de tempo antes de iniciar o protetor de tela. Durante sessões sem Acionador, o Amphetamine acompanhará o tempo de ociosidade do Mac. Se esse tempo passar do limite definido, o Amphetamine iniciará o protetor de tela.\n\nVocê pode clicar em Exceções para adicionar apps a uma lista de exceções. Se um app nessa lista estiver aberto no Mac, o Amphetamine não iniciará o protetor de tela. Isso pode ser útil ao assistir a um vídeo, ler um e‑book, etc.\n\nNote que esta opção afeta apenas sessões sem Acionador. Caso deseje permitir que o protetor de tela do Mac funcione em sessões com Acionador, configure cada Acionador individualmente para atingir esse objetivo.";
+"help_message_screen_saver_body" = "Chọn ô này nếu bạn muốn chạy trình screen saver của máy Mac trong các phiên không qua Trigger. Dùng thanh slider để chọn khoảng thời gian tối đa trước khi chạy screen saver. Trong các phiên không qua Trigger, Amphetamine sẽ theo dõi thời gian nhàn rỗi của máy Mac. Nếu thời gian này vượt quá mức bạn vừa thiết lập, Amphetamine sẽ chạy screen saver.\n\nBạn có thể thêm các app vào danh sách ngoại lệ qua nút 'Ngoại lệ...'. Khi 1 app trong danh sách ngoại lệ đang chạy, Amphetamine sẽ ngăn screen saver không chạy. Tính năng này hữu dụng khi bạn xem video hoặc đọc ebook.\n\nXin lưu ý tùy chọn này chỉ ảnh hưởng các phiên không qua Trigger. Nếu bạn muốn bật screen saver trên các phiên qua Trigger, mỗi Trigger cần được thiết đặt cụ thể có cho chạy screen saver hay không.";
 
 // ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Battery Help Message
 
 // Title
-"help_message_battery_title" = "Bateria";
+"help_message_battery_title" = "Pin";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_battery_body" = "• Terminar sessão se carga (%) estiver abaixo de\nSelecione esta opção caso deseje que o Amphetamine termine automaticamente as sessões sem Acionador quando a bateria do Mac estiver abaixo do limite definido com o controle deslizante. Mova o controle para a extremidade direita para terminar sessões sempre que o adaptador de alimentação não estiver conectado.\n• Avisar antes de terminar sessão\n\nSelecione esta opção caso deseje receber um aviso antes que o Amphetamine termine uma sessão automaticamente devido à pouca carga da bateria. Caso deseje, você pode optar por ignorar tal fato e continuar a sessão.\n\n• Ignorar carga (%) se estiver conectado\nSelecione esta opção caso deseje que o Amphetamine não termine automaticamente as sessões devido à pouca carga da bateria enquanto o adaptador de alimentação do Mac estiver conectado.\n\nNote que estas opções afetam apenas sessões sem Acionador. Caso deseje que as sessões com Acionador considerem a carga da bateria do Mac como fator, adicione um critério de Energia ao Acionador.";
+"help_message_battery_body" = "• Dừng Phiên Khi Mức Pin Dưới...\nChọn ô này nếu bạn muốn Amphetamine tự động dừng các phiên không qua Trigger khi mức pin của máy thấp hơn mức thiết lập bằng thanh slider. Kéo thanh slider qua hết bên phải để dừng phiên chạy khi máy bị ngắt nguồn sạc.\n\n• Báo Trước Khi Dừng 1 Phiên\nChọn ô này nếu bạn muốn được báo trước khi Amphetamine tự động dừng 1 phiên chạy do mức pin xuống thấp. Bạn sẽ được chọn tiếp tục phiên hoặc bỏ qua mức pin yếu nếu muốn.\n\n• Bỏ qua Mức Pin Khi Máy Cắm Nguồn\nChọn ô này nếu bạn không muốn Amphetamine tự động dừng phiên chạy do mức pin thấp nhưng đã được cắm nguồn.\nXin lưu ý tùy chọn này chỉ ảnh hưởng các phiên không qua Trigger. Nếu bạn muốn các phiên qua Trigger tính đến mức pin thấp, hãy thêm một thiết đặt về Nguồn điện vào mỗi Trigger.";
 
 // ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Power Adapter Help Message
 
 // Title
-"help_message_power_adapter_title" = "Alimentação";
+"help_message_power_adapter_title" = "Cắm Điện Nguồn";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_power_adapter_body" = "Note que, para que esta opção esteja disponível, você deve ativar as opções “Terminar sessão se carga (%) estiver abaixo de” e “Ignorar carga (%) se estiver conectado” ou mover o controle deslizante “Terminar sessão se carga (%) estiver abaixo de” para a extremidade direita.\n\nSelecione esta opção para que o Amphetamine comece automaticamente uma nova sessão sempre que o adaptador de alimentação do Mac for conectado. O Amphetamine começará uma nova sessão apenas se a sessão anterior tiver terminado devido à pouca carga da bateria.";
+"help_message_power_adapter_body" = "Xin lưu ý hãy chọn bật 'Dừng Phiên Khi Mức Pin Dưới...' và 'Bỏ qua Mức Pin Khi Máy Cắm Nguồn', hoặc kéo thanh slider của 'Dừng Phiên Khi Mức Pin Dưới...' qua hết bên phải để bật được tùy chọn này.\n\nChọn ô này để Amphetamine tự bắt đầu 1 phiên mỗi khi máy Mac của bạn được cắm nguồn. Amphetamine sẽ chỉ bắt đầu phiên chạy mới nếu phiên trước đó đã ngừng do pin yếu.";
 
 
 
@@ -460,28 +456,28 @@
 // ---------------------------------------------------------------------------
 
 // PREFERENCES → SESSIONS → ALL SESSIONS BUTTONS
-"prefs_tb_sys_cntrl" = "Controle do Sistema";
-"pref_sess_as_button_title" = "Todas as Sessões";
-"pref_sess_as_bttn_lck_scrn_pt1" = "Bloquear tela após";
-"pref_sess_as_bttn_lck_scrn_pt2" = "de inatividade";
-"pref_sess_as_bttn_lck_scrn_use_cursor" = "Usar movimento do cursor para determinar inatividade";
-"pref_sess_as_bttn_lck_scrn_disp_clsd" = "Bloquear tela imediatamente após fechá-la";
-"pref_sess_as_bttn_lck_scrn_allow_disp_sleep" = "Permitir repouso da tela quando ela estiver bloqueada";
-"pref_sess_as_bttn_cursor_pt1" = "Mover cursor a cada";
-"pref_sess_as_bttn_cursor_pt2" = "após";
-"pref_sess_as_bttn_cursor_pt3" = "de inatividade";
-"pref_sess_as_bttn_cursor_stop_pt1" = "Parar de mover cursor após";
-"pref_sess_as_bttn_cursor_stop_pt2" = "de inatividade";
-"pref_sess_as_bttn_fast_usr_switch" = "Terminar sessão ao trocar de conta";
+"prefs_tb_sys_cntrl" = "Đ.khiển Hệ thống";
+"pref_sess_as_button_title" = "Tất cả Phiên";
+"pref_sess_as_bttn_lck_scrn_pt1" = "Khóa màn hình sau";
+"pref_sess_as_bttn_lck_scrn_pt2" = "không dùng máy";
+"pref_sess_as_bttn_lck_scrn_use_cursor" = "Dùng con trỏ chuột để xem xét mức hoạt động";
+"pref_sess_as_bttn_lck_scrn_disp_clsd" = "Khóa màn hình ngay khi gập";
+"pref_sess_as_bttn_lck_scrn_allow_disp_sleep" = "Cho phép sleep màn hình khi đã khóa";
+"pref_sess_as_bttn_cursor_pt1" = "Di chuyển trỏ chuột mỗi";
+"pref_sess_as_bttn_cursor_pt2" = "sau";
+"pref_sess_as_bttn_cursor_pt3" = "không dùng máy";
+"pref_sess_as_bttn_cursor_stop_pt1" = "Ngừng di chuyển trỏ chuột sau";
+"pref_sess_as_bttn_cursor_stop_pt2" = "không dùng máy";
+"pref_sess_as_bttn_fast_usr_switch" = "Dừng phiên khi đổi tài khoản người dùng";
 
 // PREFERENCES → SESSIONS → ALL SESSIONS LABELS
-"pref_sess_as_lbl_cursor_speed" = "Velocidade do Cursor:";
-"pref_sess_as_lbl_cursor_speed_fast" =  "Rápida";
-"pref_sess_as_lbl_cursor_speed_slow" =  "Lenta";
-"pref_sess_as_lbl_cursor_speed_warn" = "A movimentação mais lenta aumenta levemente o uso da CPU";
-"pref_sess_as_lbl_lck_scrn" = "Bloquear Tela:";
-"pref_sess_as_lbl_cursor" = "Cursor:";
-"pref_sess_as_lbl_fast_usr_switch" = "Troca Rápida de Usuário:";
+"pref_sess_as_lbl_cursor_speed" = "Tốc độ Trỏ chuột:";
+"pref_sess_as_lbl_cursor_speed_fast" =  "Nhanh";
+"pref_sess_as_lbl_cursor_speed_slow" =  "Chậm";
+"pref_sess_as_lbl_cursor_speed_warn" = "Chuyển động chậm hơn sẽ làm tăng nhẹ mức sử dụng CPU";
+"pref_sess_as_lbl_lck_scrn" = "Khóa Màn hình:";
+"pref_sess_as_lbl_cursor" = "Con trỏ Chuột:";
+"pref_sess_as_lbl_fast_usr_switch" = "Chuyển đổi Nhanh Người Dùng:";
 
 // ---------------------------------------------------------------------------
 // (?) BUTTON MENU ITEMS
@@ -489,26 +485,26 @@
 // ----- PREFERENCES → SESSIONS → ALL SESSIONS → Lock Screen Help Message
 
 // Title
-"help_message_lock_screen_title" = "Bloquear Tela";
+"help_message_lock_screen_title" = "Khóa Màn hình";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_lock_screen_body" = "• Bloquear tela após [tempo] de inatividade\nSelecione esta opção para que o Amphetamine bloqueie a tela do Mac após o período de inatividade especificado. O Amphetamine tentará bloquear a tela apenas se houver uma sessão ativa. Para controlar quando a tela é bloqueada quando não há uma sessão ativa, acesse Preferências do Sistema → Segurança e Privacidade → Geral.\n\n• Usar movimento do cursor para determinar inatividade\nSelecione esta opção para que o Amphetamine considere o movimento do cursor/mouse, e não apenas o relógio de ociosidade do sistema, ao decidir quando bloquear a tela. Este recurso pode ser útil ao usar VNC/ARD/RDP para acessar o Mac remotamente.\n\n• Bloquear tela imediatamente após fechá-la\nSelecione esta opção para que o Amphetamine bloqueie a tela do Mac imediatamente após ela ser fechada. Este recurso funciona apenas se houver uma sessão ativa com o Modo com Tela Fechada ativado. Esta opção não estará disponível se o Mac for incompatível com este recurso.";
+"help_message_lock_screen_body" = "• Khóa Màn hình Sau ... Không Dùng Máy\nChọn ô này để Amphetamine khóa màn hình máy Mac sau 1 khoảng thời gian cụ thể bạn không dùng máy. Amphetamine sẽ chỉ khóa màn hình nếu đang có 1 phiên chạy. Để kiểm soát khi nào hệ thống khóa màn hình khi không có phiên nào, hãy vào  → Tuỳ chỉnh Hệ thống → Bảo mật & Quyền riêng tư → Cài đặt chung.\n\n• Dùng Con trỏ Chuột để Xem xét Mức Hoạt Động\nChọn ô này để Amphetamine tính cả sự di chuyển của trỏ chuột, chứ không chỉ thời gian nhàn rỗi của hệ thống, để quyết định khi nào nên khóa màn hình. Tính năng này có thể hữu dụng khi bạn cần truy cập máy Mac này từ xa qua VNC/ARD/RDP.\n\n• Khóa Màn hình Ngay Khi Gập\nChọn ô này để Amphetamine có thể khóa màn hình ngay sau khi gập. Tính năng này chỉ hoạt động khi đang có 1 phiên chạy và bạn cũng đã bật chế độ gập màn hình cho phiên đó. Ô chọn sẽ ẩn nếu máy Mac của bạn không hỗ trợ tính năng này.";
 
 // ----- PREFERENCES → SESSIONS → ALL SESSIONS → Cursor Help Message
 
 // Title
-"help_message_cursor_title" = "Cursor";
+"help_message_cursor_title" = "Con trỏ Chuột";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_cursor_body" = "• Mover cursor a cada [tempo]\nSelecione esta opção e escolha um intervalo e um limite de inatividade para que o Amphetamine mova o cursor do mouse durante a sessão. Este recurso aplica-se a sessões com ou sem Acionador. Note que o cursor não será movido se o protetor de tela do Mac estiver ativado. O movimento do cursor impedirá que a tela entre em repouso mesmo se a opção “Permitir repouso da tela” estiver ativada para uma sessão.\n\n• Parar de mover cursor após [tempo] de inatividade\nSelecione esta opção para que o movimento do cursor seja interrompido após o limite especificado. A interrupção do movimento do cursor permitirá que a tela do Mac entre em repouso se a opção “Permitir repouso da tela” estiver ativada para uma sessão.";
+"help_message_cursor_body" = "• Di chuyển Trỏ chuột Mỗi...\nChọn ô này, khoảng thời gian, và mức độ không dùng máy để Amphetamine di chuyển trỏ chuột trong 1 phiên chạy. Tính năng này hoạt động trên các phiên không qua Trigger lẫn có Trigger. Xin lưu ý trỏ chuột sẽ không di chuyển nếu screen saver đang chạy. Trỏ chuột được di cũng sẽ ngăn màn hình bị khóa cả khi bạn bật tính năng Cho phép Khoá Màn hình cho 1 phiên.\n\n• Ngừng Di chuyển Trỏ Chuột Sau...\nChọn ô này để dừng Amphetamine di chuyển trỏ chuột sau khoảng thời gian nhất định. Ngừng di chuyển trỏ chuột cũng cho phép màn hình máy Mac được tắt nếu bạn đã bật tính năng Cho phép Khoá Màn hình cho 1 phiên.";
 
 // ----- PREFERENCES → SESSIONS → ALL SESSIONS → Fast User Switching Help Message
 
 // Title
-"help_message_fast_user_switch_title" = "Troca Rápida de Usuário";
+"help_message_fast_user_switch_title" = "Chuyển đổi Nhanh Người Dùng";
 
 // Body
-"help_message_fast_user_switch_body" = "Selecione esta opção para desativar automaticamente todas as sessões do Amphetamine (com ou sem Acionador) ao trocar para uma conta de usuário diferente no Mac sem finalizar a sessão da conta na qual o Amphetamine está aberto.";
+"help_message_fast_user_switch_body" = "Chọn ô này để tự động tắt tất cả phiên chạy của Amphetamine (có Trigger lẫn không qua Trigger) khi bạn chuyển sang tài khoản người dùng khác trên cùng máy Mac mà không cần đăng xuất tài khoản hiện tại đang chạy Amphetamine.";
 
 
 
@@ -519,25 +515,25 @@
 // ---------------------------------------------------------------------------
 
 // PREFERENCES WINDOW TOOLBAR ITEM LABEL
-"prefs_tb_trig" = "Acionadores";
+"prefs_tb_trig" = "Triggers";
 
 // PREFERENCES → TRIGGERS BUTTONS
-"pref_trig_bttn_enable" = "Ativar Acionadores";
+"pref_trig_bttn_enable" = "Bật Các Trigger";
 
 // PREFERENCES → TRIGGERS LABELS
-"pref_trig_lbl_edit" = "Clique duas vezes em um Acionador para editá-lo";
+"pref_trig_lbl_edit" = "Click đúp tên 1 Trigger để sửa đổi Trigger đó";
 
 // TRIGGER TABLE HEADERS
-"trig_tbl_head_name" = "Nome do Acionador";
-"trig_tbl_head_enabled" = "Ativado";
+"trig_tbl_head_name" = "Tên Trigger";
+"trig_tbl_head_enabled" = "Đã bật";
 
 // ----- Triggers Help Message
 
 // Title
-"help_triggers_title" = "Acionadores";
+"help_triggers_title" = "Triggers";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_triggers_body" = "Acionadores são um dos recursos mais poderosos do Amphetamine. Você pode criar quantos Acionadores desejar. Quando todos os critérios de um Acionador são atendidos e não há uma sessão em andamento, o Amphetamine começa uma nova sessão.\n\nAlém da opção global Ativar Acionadores, a qual ativa ou desativa todos os Acionadores, cada Acionador criado também pode ser ativado ou desativado individualmente. Use a caixa ao lado de cada Acionador na lista para ativá-lo ou desativá-lo temporariamente.\n\nUse o botão “+” para criar um novo Acionador. Selecione um Acionador na lista e use o botão “−” para apagá-lo.\n\nSelecione um Acionador na lista e use os botões “↑” e “↓” para reordenar a lista de Acionadores. Os Acionadores serão avaliados na ordem em que aparecem na lista. O Acionador no topo da lista será avaliado primeiro. Se todos os critérios desse Acionador forem atendidos, uma sessão será começada. Se os critérios não forem atendidos, o próximo Acionador na lista será avaliado.";
+"help_triggers_body" = "Triggers là một trong những tính năng mạnh nhất của Amphetamine. Bạn có thể tạo bao nhiêu Trigger tuỳ ý. Khi tất cả tiêu chí của 1 Trigger đều đúng, nếu không có phiên chạy nào hiện hành, Amphetamine sẽ tự động bắt đầu một phiên mới.\n\nNgoài nút Bật Các Trigger để bật/tắt tất cả các Trigger, bạn đều có thể bật/tắt riêng lẻ từng Trigger đã tạo. Hãy chọn ô bên phải mỗi Trigger trong danh sách để bật hoặc tắt tạm thời từng Trigger riêng lẻ.\n\nDùng nút dấu + để tạo mới 1 Trigger. Chọn 1 Trigger trong danh sách và dùng phím mũi tên ↑ và ↓ để sắp xếp lại danh sách các Trigger. Các Trigger sẽ được đánh giá theo thứ tự trên danh sách. Trigger trên cùng sẽ được đánh giá trước tiên. Nếu toàn bộ tiêu chí của Trigger đó đều đúng thì nó sẽ chạy. Bằng không, Trigger ở vị trí tiếp theo trong danh sách sẽ được đánh giá.";
 
 
 
@@ -548,25 +544,25 @@
 // ---------------------------------------------------------------------------
 
 // PREFERENCES WINDOW TOOLBAR ITEM LABEL
-"prefs_tb_drive" = "Disco Vivo";
+"prefs_tb_drive" = "Drive Alive";
 
 // PREFERENCES → DRIVE ALIVE BUTTONS
-"pref_drivealive_bttn_enable" = "Ativar Disco Vivo";
+"pref_drivealive_bttn_enable" = "Bật tính năng Drive Alive";
 
 // PREFERENCES → DRIVE ALIVE LABELS
-"pref_drivealive_lbl_wake" = "Despertar discos a cada";
+"pref_drivealive_lbl_wake" = "Đánh thức ổ đĩa mỗi";
 
 // DRIVE ALIVE TABLE HEADERS
-"drivealive_tbl_head_name" = "Nome do Disco";
-"drivealive_tbl_head_keepalive" = "Sempre Manter Disco Vivo";
+"drivealive_tbl_head_name" = "Tên Ổ đĩa";
+"drivealive_tbl_head_keepalive" = "Luôn Giữ Ổ Đĩa Thức";
 
 // ----- Drive Alive Help Message
 
 // Title
-"help_drivealive_title" = "Disco Vivo";
+"help_drivealive_title" = "Drive Alive";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_drivealive_body" = "O recurso Disco Vivo pode manter os discos despertos (vivos) e prontos para funcionar. Ele grava uma pequena quantidade de dados no disco em intervalos regulares. Esses dados são sobrescritos repetidamente e ocupam apenas alguns kilobytes (KB) de espaço no disco.\n\nPara adicionar um novo disco, clique no botão “+” e selecione o disco que deseja manter vivo. Selecione um disco na lista e clique no botão “−” para removê-lo.\n\nCada disco na lista pode ser mantido vivo apenas quando uma sessão estiver em andamento ou sempre que o Amphetamine estiver aberto. Para sempre manter um disco vivo, selecione a caixa à direita do disco na lista.\n\nO intervalo padrão de gravação de dados no disco usado pelo Disco Vivo é de 10 segundos. Você pode digitar um número no campo na parte inferior da janela para alterar esse intervalo.";
+"help_drivealive_body" = "Drive Alive giữ cho ổ đĩa cứng của bạn thức để luôn sẵn sàng làm việc. Drive Alive hoạt động bằng cách ghi một lượng dữ liệu nhỏ lên mỗi ổ đĩa theo chu kì. Dữ liệu này bị ghi đè liên tục, và chỉ chiếm vài kilobyte (KB) dung lượng lưu trữ trên ổ.\n\nĐể thêm một ổ đĩa, hãy click nút dấy + rồi chọn ổ đĩa bạn muốn. Để xóa một ổ đĩa khỏi danh sách, hãy chọn nó trước rồi click nút dấu -.\n\nMỗi ổ đĩa trong danh sách này giữ trạng thái thức chỉ khi một phiên đang được chạy. Để khiến chúng luôn thức, hãy chọn ô bên phải tên mỗi ổ đĩa trong danh sách.\n\nKhoảng thời gian mặc định để Drive Alive ghi dữ liệu lên đĩa là 10 giây. Bạn có thể sửa đổi thông số này ở ô trống bên dưới cửa sổ.";
 
 
 
@@ -577,22 +573,22 @@
 // ---------------------------------------------------------------------------
 
 // PREFERENCES WINDOW TOOLBAR ITEM LABEL
-"prefs_tb_hotk" = "Atalhos";
+"prefs_tb_hotk" = "Phím Nóng";
 
 // PREFERENCES → HOT KEYS LABELS
-"pref_hotk_lbl_startend_action" = "Se já houver uma sessão em andamento:";
-"pref_hotk_lbl_start_duration" = "Com duração:";
-"pref_hotk_lbl_startend" = "Começar ou Terminar Sessão:";
-"pref_hotk_lbl_start" = "Começar Sessão:";
-"pref_hotk_lbl_end" = "Terminar Sessão:";
-"pref_hotk_lbl_open_menu" = "Abrir/Fechar Menu:";
-"pref_hotk_lbl_open_menu_close" = "Use Esc para fechar o menu"; // Escape key closes menu
-"pref_hotk_lbl_toggle_disp_sleep" = "Alternar Permitir Repouso da Tela:";
-"pref_hotk_lbl_toggle_screen_saver" = "Alternar Permitir Protetor de Tela:";
+"pref_hotk_lbl_startend_action" = "Nếu có sẵn 1 phiên đang chạy:";
+"pref_hotk_lbl_start_duration" = "với khoảng thời gian:";
+"pref_hotk_lbl_startend" = "Bắt đầu hoặc Kết thúc Phiên:";
+"pref_hotk_lbl_start" = "Bắt đầu Phiên:";
+"pref_hotk_lbl_end" = "Kết thúc Phiên:";
+"pref_hotk_lbl_open_menu" = "Mở/Đóng Menu:";
+"pref_hotk_lbl_open_menu_close" = "Bấm Esc trên bàn phím để thoát menu"; // Escape key closes menu
+"pref_hotk_lbl_toggle_disp_sleep" = "Bật Cho phép Màn hình Ngủ:";
+"pref_hotk_lbl_toggle_screen_saver" = "Bật Cho chạy Screen Saver:";
 
 // PREFERENCES → HOT KEYS MENU ITEMS
-"pref_hotk_mi_startend_action_endstart" = "Terminar sessão e começar nova";
-"pref_hotk_mi_startend_action_end" = "Terminar sessão";
+"pref_hotk_mi_startend_action_endstart" = "Kết thúc phiên này và bắt đầu 1 phiên mới";
+"pref_hotk_mi_startend_action_end" = "Kết thúc phiên này";
 
 // ---------------------------------------------------------------------------
 // (?) BUTTON MENU ITEMS
@@ -600,50 +596,50 @@
 // ----- PREFERENCES → HOT KEYS → Start or End Session Help Message
 
 // Title
-"help_message_start_end_session_title" = "Começar ou Terminar Sessão";
+"help_message_start_end_session_title" = "Bắt đầu hoặc Dừng Phiên";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_start_end_session_body" = "Use este atalho para começar ou terminar uma sessão. A Duração Padrão (definida em Preferências → Padrões da Sessão → Duração Padrão) será usada para a duração da sessão.\n\nApós gravar a combinação de teclas deste atalho, você poderá acessar esta função do Amphetamine independentemente de onde estiver no macOS. O Amphetamine não precisa estar em primeiro plano, embora precise estar aberto.\n\nSe as teclas desejadas não puderem ser gravadas, isso significa que elas já estão sendo usadas por um outro app.";
+"help_message_start_end_session_body" = "Chỉ với một tổ hợp phím nóng này, bạn có thể bắt đầu hoặc kết thúc một phiên chạy. Thời gian Mặc định (mục Tùy chọn → Phiên Mặc định → Thời gian Mặc định) sẽ được đặt làm khoảng thời gian mặc định cho phiên chạy đó.\n\nSau khi thiết lập tổ hợp phím cho phím nóng, bạn có thể truy cập tính năng này của Amphetamine ở bất kì đâu trong HĐH macOS. Bạn chỉ cần Amphetamine chạy trong nền, không cần phải mở hiện hành trên màn hình.\n\nNếu bạn không thể tạo tổ hợp phím bất kì cho phím nóng này, có khả năng bạn đã đăng kí nó trước đó trong một app khác rồi.";
 
 // ----- PREFERENCES → HOT KEYS → Start Session Help Message
 
 // Title
-"help_message_start_session_title" = "Começar Sessão";
+"help_message_start_session_title" = "Bắt đầu Phiên";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_start_session_body" = "Use este atalho para começar uma sessão com uma duração específica. Especifique a duração que deseja que a sessão tenha.\n\nApós gravar a combinação de teclas deste atalho, você poderá acessar esta função do Amphetamine independentemente de onde estiver no macOS. O Amphetamine não precisa estar em primeiro plano, embora precise estar aberto.\n\nSe as teclas desejadas não puderem ser gravadas, isso significa que elas já estão sendo usadas por um outro app.";
+"help_message_start_session_body" = "Phím nóng này cho phép bạn bắt đầu một phiên chạy với khoảng thời gian được định sẵn. Hãy chọn khoảng thời gian cho phiên chạy trong menu sổ xuống.\n\nSau khi đã đặt xong cụm phím nóng, bạn sẽ sử dụng được tính năng này ở bất kì đâu trong macOS. Amphetamine khi đấy chỉ cần chạy trong nền, không cần phải là ứng dụng đang chạy trên cùng.\n\nNếu bạn không thể thiết lập được một cụm phím nóng bất kì, có thể cụm này đã được sử dụng ở một ứng dụng khác.";
 
 // ----- PREFERENCES → HOT KEYS → End Session Help Message
 
 // Title
-"help_message_end_session_title" = "Terminar Sessão";
+"help_message_end_session_title" = "Kết thúc Phiên";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_end_session_body" = "Use este atalho para terminar qualquer sessão.\n\nApós gravar a combinação de teclas deste atalho, você poderá acessar esta função do Amphetamine independentemente de onde estiver no macOS. O Amphetamine não precisa estar em primeiro plano, embora precise estar aberto.\n\nSe as teclas desejadas não puderem ser gravadas, isso significa que elas já estão sendo usadas por um outro app.";
+"help_message_end_session_body" = "Phím nóng này cho phép bạn kết thúc một phiên chạy.\n\nSau khi đã đặt xong cụm phím nóng, bạn sẽ sử dụng được tính năng này ở bất kì đâu trong macOS. Amphetamine khi đấy chỉ cần chạy trong nền, không cần phải là ứng dụng đang chạy trên cùng.\n\nNếu bạn không thể thiết lập được một cụm phím nóng bất kì, có thể cụm này đã được sử dụng ở một ứng dụng khác.";
 
 // ----- PREFERENCES → HOT KEYS → Open Menu Help Message
 
 // Title
-"help_message_open_menu_title" = "Abrir Menu";
+"help_message_open_menu_title" = "Mở Menu";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_open_menu_body" = "Use este atalho para abrir o menu do Amphetamine. Isso é útil para verificar os detalhes de sessão e Disco Vivo exibidos no menu, navegar rapidamente pelo menu ou usar as setas e atalhos de teclado para selecionar itens do menu (⌘ + F para começar uma sessão do tipo “Enquanto Arquivo Estiver Baixando”, por exemplo).\n\nApós gravar a combinação de teclas deste atalho, você poderá acessar esta função do Amphetamine independentemente de onde estiver no macOS. O Amphetamine não precisa estar em primeiro plano, embora precise estar aberto.\n\nSe as teclas desejadas não puderem ser gravadas, isso significa que elas já estão sendo usadas por um outro app.";
+"help_message_open_menu_body" = "Phím nóng này cho phép bạn mở menu ứng dụng của Amphetamine. Rất hữu dụng khi bạn cần xem nhanh thông tin về phiên chạy và chi tiết của Drive Alive (vd: ⌘F để bắt đầu phiên 'Khi File Đang Tải...'.\n\nSau khi đã đặt xong cụm phím nóng, bạn sẽ sử dụng được tính năng này ở bất kì đâu trong macOS. Amphetamine khi đấy chỉ cần chạy trong nền, không cần phải là ứng dụng đang chạy trên cùng.\n\nNếu bạn không thể thiết lập được một cụm phím nóng bất kì, có thể cụm này đã được sử dụng ở một ứng dụng khác.";
 
 // ----- PREFERENCES → HOT KEYS → Toggle Display Sleep Help Message
 
 // Title
-"help_message_toggle_allow_display_sleep_title" = "Alternar Permitir Repouso da Tela";
+"help_message_toggle_allow_display_sleep_title" = "Bật Cho phép Sleep Màn hình";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_toggle_allow_display_sleep_body" = "Use este atalho para ativar ou desativar o repouso da tela. Se houver uma sessão ativa, o atalho ativará ou desativará o repouso da tela para a sessão atual. Isso pode ser feito em sessões com ou sem Acionador.\n\nSe não houver uma sessão ativa, o atalho ativará ou desativará a opção “Permitir repouso da tela” para sessões sem Acionador.";
+"help_message_toggle_allow_display_sleep_body" = "Phím nóng này cho phép bạn bật/tắt tính năng cho phép sleep màn hình. Khi có 1 phiên đang chạy, phím nóng sẽ bật/tắt sleep màn hình cho phiên đó. Cả phiên qua Trigger hay không qua Trigger đều được hỗ trợ.\n\nKhi không có phiên nào chạy, phím nóng sẽ chọn/bỏ chọn ô thiết đặt Cho phép tắt màn hình của các phiên không qua Trigger.";
 
 // ----- PREFERENCES → HOT KEYS → Toggle Screen Saver Help Message
 
 // Title
-"help_message_toggle_allow_screen_saver_title" = "Alternar Permitir Protetor de Tela";
+"help_message_toggle_allow_screen_saver_title" = "Bật Cho phép Screen Saver";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_toggle_allow_screen_saver_body" = "Use este atalho para ativar ou desativar a ativação do protetor de tela. Se houver uma sessão ativa, o atalho ativará ou desativará a ativação do protetor de tela para a sessão atual. Isso pode ser feito em sessões com ou sem Acionador.\n\nSe não houver uma sessão ativa, o atalho ativará ou desativará a opção “Permitir protetor de tela após” para sessões sem Acionador.";
+"help_message_toggle_allow_screen_saver_body" = "Phím nóng này cho phép bạn bật/tắt kích hoạt screen saver. Khi có 1 phiên đang chạy, phím nóng sẽ bật/tắt kích hoạt screen saver cho phiên đó. Cả phiên qua Trigger hay không qua Trigger đều được hỗ trợ.\n\nKhi không có phiên nào chạy, phím nóng sẽ chọn/bỏ chọn ô thiết đặt Chạy Screen Saver của các phiên không qua Trigger.";
 
 
 
@@ -654,33 +650,33 @@
 // ---------------------------------------------------------------------------
 
 // PREFERENCES WINDOW TOOLBAR ITEM LABEL
-"prefs_tb_notif" = "Notificações";
+"prefs_tb_notif" = "Thông báo";
 
 // PREFERENCES → NOTIFICATIONS BUTTONS
-"pref_notif_bttn_session_reminders_pt1" = "Lembrar a cada";
-"pref_notif_bttn_session_reminders_pt2" = "minutos";
-"pref_notif_bttn_trig_autostart" = "Notificar quando sessões começarem automaticamente";
-"pref_notif_bttn_trig_autoend" = "Notificar quando sessões terminarem automaticamente";
-"pref_notif_bttn_sound_remind" = "Reproduzir com lembretes/outras notificações da sessão";
-"pref_notif_bttn_sound_startend" = "Reproduzir ao começar ou terminar qualquer sessão";
-"pref_notif_bttn_sound_extend" = "Reproduzir ao estender qualquer sessão";
-"pref_notif_bttn_cdm_play_warning" = "Reproduzir som de aviso de tela fechada";
-"pref_notif_bttn_cdm_repeat_warning" = "Repetir som a cada";
-"pref_notif_bttn_cdm_change_vol" = "Definir momentaneamente volume do sistema em";
-"pref_notif_bttn_cdm_change_vol_message" = "A ativação deste recurso fará com que o som de aviso seja reproduzido pela saída de som padrão ao invés da saída de Efeitos Sonoros.";
-"pref_notif_bttn_notif_remove" = "Remover notificações após mostrá-las";
+"pref_notif_bttn_session_reminders_pt1" = "Nhắc mỗi";
+"pref_notif_bttn_session_reminders_pt2" = "phút";
+"pref_notif_bttn_trig_autostart" = "Báo khi phiên có Trigger/có hiện giờ tự động chạy";
+"pref_notif_bttn_trig_autoend" = "Báo khi phiên có Trigger/có hiện giờ tự động dừng";
+"pref_notif_bttn_sound_remind" = "Chơi khi có lời nhắc phiên/các thông báo khác";
+"pref_notif_bttn_sound_startend" = "Chơi khi một phiên bắt đầu hoặc dừng";
+"pref_notif_bttn_sound_extend" = "Chơi khi phiên chạy bất kì được kéo dài thêm";
+"pref_notif_bttn_cdm_play_warning" = "Chơi âm báo gập màn hình";
+"pref_notif_bttn_cdm_repeat_warning" = "Lặp lại âm báo mỗi";
+"pref_notif_bttn_cdm_change_vol" = "Tạm đặt mức âm lượng hệ thống thành";
+"pref_notif_bttn_cdm_change_vol_message" = "Khi được bật, tính năng này sẽ chơi âm thanh cảnh báo từ nguồn ra âm thanh mặc định của hệ thống, thay vì nguồn ra hiện hành trong mục Cài đặt Âm thanh.";
+"pref_notif_bttn_notif_remove" = "Xoá các thông báo khi đã nhắn xong";
 
 // PREFERENCES → NOTIFICATIONS LABELS
-"pref_notif_lbl_sound_start" = "Sessão começada/lembrete:";
-"pref_notif_lbl_sound_end" = "Sessão terminada:";
-"pref_notif_lbl_session_reminders" = "Lembretes de Sessão:";
-"pref_notif_lbl_trig_sched" = "Acionadores/Agendamento:";
-"pref_notif_lbl_sound" = "Som:";
-"pref_notif_lbl_cdm" = "Modo com Tela Fechada:";
-"pref_notif_lbl_notif_center" = "Central de Notificações:";
+"pref_notif_lbl_sound_start" = "Bắt đầu phiên/Có lời nhắc:";
+"pref_notif_lbl_sound_end" = "Kết thúc phiên:";
+"pref_notif_lbl_session_reminders" = "Lời nhắc Phiên:";
+"pref_notif_lbl_trig_sched" = "Trigger/Có hẹn giờ:";
+"pref_notif_lbl_sound" = "Âm thanh:";
+"pref_notif_lbl_cdm" = "Chế độ Gập Màn hình:";
+"pref_notif_lbl_notif_center" = "Trung tâm Thông báo:";
 
 // PREFERENCES → NOTIFICATIONS MENU ITEMS
-"pref_notif_mi_default_sound" = "Som padrão do sistema";
+"pref_notif_mi_default_sound" = "Âm mặc định của hệ thống";
 
 // ---------------------------------------------------------------------------
 // (?) BUTTON MENU ITEMS
@@ -688,42 +684,42 @@
 // ----- PREFERENCES → NOTIFICATIONS → Session Reminders Help Message
 
 // Title
-"help_message_session_reminders_title" = "Lembretes de Sessão";
+"help_message_session_reminders_title" = "Lời nhắc Phiên";
 
 // Body
-"help_message_session_reminders_body" = "Selecione esta opção para que o Amphetamine mostre uma notificação/lembrete em intervalos regulares enquanto qualquer sessão estiver em andamento.";
+"help_message_session_reminders_body" = "Chọn ô này để Amphetamine tự động gửi một thông báo/lời nhắc theo chu kì trong khi có phiên đang chạy.";
 
 // ----- PREFERENCES → NOTIFICATIONS → Triggers/Scheduled Help Message
 
 // Title
-"help_message_triggers_scheduled_title" = "Acionadores/Agendamento";
+"help_message_triggers_scheduled_title" = "Trigger/Có hẹn giờ";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_triggers_scheduled_body" = "Selecione estas opções para que o Amphetamine mostre uma notificação quando qualquer sessão começar ou terminar automaticamente. Isso inclui sessões com Acionador, sessões agendadas e algumas sessões de tempo fixo.\n\nSessões começadas ou terminadas manualmente ao clicar no ícone do Amphetamine na barra de menus ou ao selecionar uma opção no menu do Amphetamine não farão com que uma notificação seja mostrada.";
+"help_message_triggers_scheduled_body" = "Chọn các ô này để Amphetamine gửi thông báo khi một phiên tự động bắt đầu hoặc dừng, bao gồm các phiên qua Trigger, có hẹn giờ, hoặc có tính giờ.\n\nCác phiên được bắt đầu hoặc dừng bằng việc click biểu tượng của Amphetamine trên thanh menu hoặc trong menu tùy chọn của Amphetamine sẽ không gửi thông báo.";
 
 // ----- PREFERENCES → NOTIFICATIONS → Sound Help Message
 
 // Title
-"help_message_sound_title" = "Som";
+"help_message_sound_title" = "Âm thanh";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_sound_body" = "• Reproduzir com lembretes/outras notificações da sessão\nSelecione esta opção caso deseje reproduzir um som sempre que uma notificação for mostrada.\n\n• Reproduzir ao começar ou terminar qualquer sessão\nSelecione esta opção para reproduzir um som sempre que uma sessão começar ou terminar.\n\n• Reproduzir ao estender qualquer sessão\nSelecione esta opção para reproduzir um som quando uma sessão for estendida.\n\nPara adicionar um som personalizado, clique no botão “+” e selecione um arquivo de áudio. Para remover um som personalizado, clique no botão “−”; o local de armazenamento do arquivo será aberto no Finder. Arraste o arquivo de áudio para o Lixo ou pressione ⌘ + Delete para apagar o arquivo de áudio.";
+"help_message_sound_body" = "• Chơi cùng Lời nhắc Phiên chạy/Các Thông báo khác\nChọn ô này nếu bạn muốn có âm thanh mỗi khi nhận thông báo từ app.\n\n• Chơi Khi Phiên chạy Bắt đầu hoặc Kết thúc\nChọn ô này nếu bạn muốn có âm thanh mỗi khi một phiên chạy bắt đầu hoặc kết thúc.\n\n• Chơi Khi Phiên chạy được Kéo dài\nChọn ô này nếu bạn muốn có âm thanh khi phiên chạy được kéo dài thêm.\n\nĐể thêm âm thanh tùy chọn, hãy click nút dấu + và chọn một file âm thanh. Để xóa bỏ âm thanh tùy chọn, hãy click nút dấu -. Một cửa sổ Finder sẽ mở ra và trỏ đến thư mục đã lưu các file tùy chọn. Xóa một file âm thanh trong Finder bằng cách kéo thả vào Thùng Rác, hoặc bằng tổ hợp phím Command + Delete.";
 
 // ----- PREFERENCES → NOTIFICATIONS → Closed-Display Mode Help Message
 
 // Title
-"help_message_closed_display_notif_title" = "Modo com Tela Fechada";
+"help_message_closed_display_notif_title" = "Chế độ Gập Màn hình";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_closed_display_notif_body" = "• Reproduzir som de aviso de tela fechada\nSelecione esta opção para que um som seja reproduzido sempre que o Mac entrar no Modo com Tela Fechada. O som de aviso não será reproduzido se o adaptador de alimentação do Mac e uma tela externa estiverem conectados.\n\n• Repetir som a cada [tempo]\nSelecione esta opção e um intervalo caso deseje que o som do Modo com Tela Fechada seja reproduzido repetidamente.\n\n• Definir momentaneamente volume do sistema em [porcentagem]\nSelecione esta opção e um nível de volume caso deseje que o Amphetamine ajuste o volume do sistema do Mac antes de reproduzir o som do Modo com Tela Fechada. Se o nível de volume estiver baixo demais, você pode não ouvir o som. Se o nível de volume estiver alto demais, você pode se assustar. Quando este recurso estiver ativado, o Amphetamine ajustará o nível de volume do sistema do Mac se ele estiver acima ou abaixo do nível desejado para o som de aviso do Modo com Tela Fechada. Após reproduzir o som, o nível de volume do sistema do Mac será restaurado.";
+"help_message_closed_display_notif_body" = "• Chơi Âm báo Gập Màn hình\nChọn ô này để có âm báo khi máy Mac của bạn ở chế độ màn hình gập. Nếu máy Mac được cắm nguồn hoặc kết nối với màn hình ngoài, sẽ không có âm báo.\n\n• Lặp lại Âm báo Mỗi ...\nChọn ô này và chu kì để báo khi bạn muốn âm báo màn hình đang gập được lặp lại.\n\n• Tạm Đặt Mức Âm lượng Hệ thống thành ...\nChọn ô này và mức âm lượng mà bạn muốn Amphetamine đặt cho âm lượng hệ thống, ngay trước khi âm báo màn hình gập được phát. Bạn có thể sẽ không nghe được âm báo nếu mức âm lượng máy Mac quá thấp. Ngược lại, âm báo sẽ rất chói tai nếu mức âm lượng máy Mac quá cao. Khi tính năng này được bật, dù mức âm lượng hệ thống có cao hay thấp hơn mức mà bạn chỉnh ở mục này, Amphetamine sẽ tạm thời thay đổi mức ấy để phát âm báo gập màn hình. Sau đó, mức âm lượng gốc của máy Mac sẽ trở về như cũ.";
 
 // ----- PREFERENCES → NOTIFICATIONS → Notification Center Help Message
 
 // Title
-"help_message_notif_center_title" = "Central de Notificações";
+"help_message_notif_center_title" = "Trung tâm Thông báo";
 
 // Body
-"help_message_notif_center_body" = "Selecione esta opção para que o Amphetamine limpe automaticamente suas respectivas notificações na Central de Notificações. Isso ajudará a reduzir o acúmulo de notificações, especialmente se os Lembretes de Sessão estiverem ativados.";
+"help_message_notif_center_body" = "Chọn ô này để tự động xóa các thông báo của Amphetamine trong Trung tâm Thông báo. Bạn sẽ giảm được các thông báo thừa, nhất là khi tính năng Lời nhắc Phiên được bật.";
 
 
 
@@ -734,49 +730,49 @@
 // ---------------------------------------------------------------------------
 
 // PREFERENCES WINDOW TOOLBAR ITEM LABEL
-"prefs_tb_appr" = "Aparência";
+"prefs_tb_appr" = "Giao diện";
 
 // PREFERENCES → APPEARANCE BUTTONS
-"pref_appr_bttn_image_low_opac" = "Reduzir opacidade quando inativo";
-"pref_appr_bttn_image_padd" = "Gerenciar espaçamento manualmente";
-"pref_appr_bttn_text_show_time" = "Mostrar tempo restante da sessão";
-"pref_appr_bttn_text_24hr_clock" = "Usar relógio de 24 horas";
-"pref_appr_bttn_text_incl_secs" = "Incluir segundos";
-"pref_appr_bttn_show_curr_sess" = "Mostrar detalhes da sessão atual";
-"pref_appr_bttn_show_drive_alive" = "Mostrar detalhes de Disco Vivo";
+"pref_appr_bttn_image_low_opac" = "Làm mờ khi không hoạt động";
+"pref_appr_bttn_image_padd" = "Chọn mức padding thủ công cho icon trên thanh menu";
+"pref_appr_bttn_text_show_time" = "Hiện thời gian còn lại trên thanh menu";
+"pref_appr_bttn_text_24hr_clock" = "Dùng định dạng 24-giờ";
+"pref_appr_bttn_text_incl_secs" = "Bao gồm giây";
+"pref_appr_bttn_show_curr_sess" = "Hiện chi tiết phiên hiện hành";
+"pref_appr_bttn_show_drive_alive" = "Hiện chi tiết Drive Alive";
 
 // PREFERENCES → APPEARANCE LABELS
-"pref_appr_lbl_image" = "Imagem na Barra de Menus:";
-"pref_appr_lbl_text" = "Texto na Barra de Menus:";
-"pref_appr_lbl_xtra" = "Extras do Menu:";
+"pref_appr_lbl_image" = "Ảnh Trên Thanh Menu:";
+"pref_appr_lbl_text" = "Chữ Trên Thanh Menu:";
+"pref_appr_lbl_xtra" = "Mục Menu Thêm:";
 
 // ** NOTE: DO NOT REMOVE '\n' **
-"pref_appr_lbl_cust_icon_inst" = "Arraste e solte as imagens nas zonas abaixo. Para obter resultados melhores, use apenas imagens em preto e branco com fundo transparente.";
+"pref_appr_lbl_cust_icon_inst" = "Kéo thả file biểu tượng bạn muốn vào các ô bên dưới. Tốt nhất nên dùng file hình có nền trong suốt.";
 
-"pref_appr_lbl_cust_icon_inact" = "Inativo";
-"pref_appr_lbl_cust_icon_act" = "Ativo";
-"pref_appr_lbl_cust_icon_inact_inst" = "Esta imagem será mostrada quando o Amphetamine estiver desativado.";
-"pref_appr_lbl_cust_icon_act_inst" = "Esta imagem será mostrada quando o Amphetamine estiver ativado.";
-"pref_appr_lbl_cust_icon_get_more" = "Obter Mais Imagens…";
+"pref_appr_lbl_cust_icon_inact" = "Ko chạy";
+"pref_appr_lbl_cust_icon_act" = "Chạy";
+"pref_appr_lbl_cust_icon_inact_inst" = "Hình này sẽ hiện khi Amphetamine cho máy Mac được ngủ.";
+"pref_appr_lbl_cust_icon_act_inst" = "Hình này sẽ hiện khi Amphetamine đã giữ máy Mac không tắt.";
+"pref_appr_lbl_cust_icon_get_more" = "Tìm thêm biểu tượng...";
 
 
 // PREFERENCES → APPEARANCE MENU ITEMS
-"pref_appr_mi_cust_image" = "Imagem Personalizada…";
-"pref_appr_mi_image_pill" = "Pílula";
-"pref_appr_mi_image_pill_out" = "Pílula (contorno)";
-"pref_appr_mi_image_molecule" = "Molécula";
-"pref_appr_mi_image_coffee_pot" = "Cafeteira";
+"pref_appr_mi_cust_image" = "Ảnh tùy chọn...";
+"pref_appr_mi_image_pill" = "Thuốc";
+"pref_appr_mi_image_pill_out" = "Thuốc (có viền)";
+"pref_appr_mi_image_molecule" = "Phân tử";
+"pref_appr_mi_image_coffee_pot" = "Bình Café";
 "pref_appr_mi_image_caffeine" = "Caffeine";
-"pref_appr_mi_image_cup" = "Xícara de Café";
-"pref_appr_mi_image_teapot" = "Chaleira";
-"pref_appr_mi_image_owl" = "Coruja";
-"pref_appr_mi_image_eye" = "Olho";
-"pref_appr_mi_image_sun_moon" = "Sol e Lua";
+"pref_appr_mi_image_cup" = "Tách Café";
+"pref_appr_mi_image_teapot" = "Ấm Trà";
+"pref_appr_mi_image_owl" = "Cú";
+"pref_appr_mi_image_eye" = "Mắt";
+"pref_appr_mi_image_sun_moon" = "Mặt trời & Trăng";
 "pref_appr_mi_image_emoji" = "Emoji";
-"pref_appr_mi_text_normal_sz" = "Tamanho de fonte padrão";
-"pref_appr_mi_text_small_sz" = "Tamanho de fonte pequeno";
-"pref_appr_mi_text_format_normal" = "Formato padrão (08:15)";
-"pref_appr_mi_text_format_letter" = "Formato escrito (8 𝗵 15 𝗺in)";
+"pref_appr_mi_text_normal_sz" = "Cỡ font chuẩn";
+"pref_appr_mi_text_small_sz" = "Cỡ font nhỏ";
+"pref_appr_mi_text_format_normal" = "Định dạng chuẩn (08:15)";
+"pref_appr_mi_text_format_letter" = "Định dạng có kí tự (8h 15m)";
 
 
 
@@ -787,26 +783,26 @@
 // ----- PREFERENCES → APPEARANCE → Menu Bar Image Help Message
 
 // Title
-"help_message_menu_bar_image_title" = "Imagem na Barra de Menus";
+"help_message_menu_bar_image_title" = "Ảnh Trên Thanh Menu";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_menu_bar_image_body" = "Escolha as imagens que deseja exibir na barra de menus para representar o estado da sessão do Amphetamine (ativo/inativo). Quando uma sessão começar ou terminar, a imagem do Amphetamine será atualizada de acordo na barra de menus.\n\nVocê também pode usar suas próprias imagens.";
+"help_message_menu_bar_image_body" = "Chọn các ảnh mà bạn muốn hiện trên thanh menu để thể hiện trạng thái phiên chạy Amphetamine (đang chạy/không chạy). Khi 1 phiên khởi chạy hay kết thúc, ảnh của Amphetamine trên thanh menu cũng sẽ thay đổi theo.\n\nHoặc nếu muốn bạn cũng có thể dùng các ảnh tùy chọn riêng.";
 
 // ----- PREFERENCES → APPEARANCE → Menu Bar Text Help Message
 
 // Title
-"help_message_menu_bar_text_title" = "Texto na Barra de Menus";
+"help_message_menu_bar_text_title" = "Chữ Trên Thanh Menu";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_menu_bar_text_body" = "• Mostrar tempo restante da sessão\nSelecione esta opção caso deseje que o tempo restante ou horário final de uma sessão seja exibido ao lado do ícone do Amphetamine na barra de menus.\n\nEscolha opções de formatação adicionais, como o tamanho do texto na barra de menus, a representação das horas, a inclusão de segundos e um formato de 12 ou 24 horas.";
+"help_message_menu_bar_text_body" = "• Hiện Thời gian Còn lại của Phiên trên Thanh menu.\nChọn ô này nếu bạn muốn hiện thời gian còn lại hoặc thời gian kết thúc của phiên chạy cùng biểu tượng của Amphetamine trên thanh menu.\n\nChọn thêm các tùy chọn về định dạng như cỡ font chữ trên thanh menu, cách hiện thời gian, có hiện giây hay không, và dùng định dạng 12-giờ hay 24-giờ.";
 
 // ----- PREFERENCES → APPEARANCE → Menu Bar Extras Help Message
 
 // Title
-"help_message_menu_extras_title" = "Extras do Menu";
+"help_message_menu_extras_title" = "Mục Menu Thêm";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_menu_extras_body" = "• Mostrar detalhes da sessão atual\nSelecione esta opção para mostrar detalhes da sessão, como a duração da sessão e o tempo restante, além do motivo da ativação, no menu do Amphetamine.\n\n• Mostrar detalhes de Disco Vivo\nSelecione esta opção para mostrar os detalhes de Disco Vivo, como quais discos estão ou não sendo mantidos despertos.";
+"help_message_menu_extras_body" = "• Hiện Chi tiết Phiên Hiện hành\nChọn ô này để hiện thêm các chi tiết về phiên chạy trong menu như thời gian phiên/thời gian còn lại và lí do kích hoạt.\n\n• Hiện Chi tiết Drive Alive\nChọn ô này để hiện các chi tiết của tính năng Drive Alive như ổ đĩa nào đang được giữ cho chạy và ổ đĩa nào không.";
 
 
 
@@ -818,18 +814,18 @@
 // ---------------------------------------------------------------------------
 
 // PREFERENCES WINDOW TOOLBAR ITEM LABEL
-"prefs_tb_stat" = "Estatísticas";
+"prefs_tb_stat" = "Số liệu";
 
 // PREFERENCES → STATISTICS BUTTONS
-"pref_stat_bttn_reset" = "Redefinir Estatísticas";
-"pref_stat_bttn_enable" = "Ativar coleta de estatísticas";
+"pref_stat_bttn_reset" = "Reset lại Số liệu";
+"pref_stat_bttn_enable" = "Cho phép thu thập số liệu sử dụng";
 
 // PREFERENCES → STATISTICS LABELS
-"pref_stat_lbl_how_long_title" = "O Amphetamine manteve o Mac desperto por"; // v5.0.1
-"pref_stat_lbl_how_long_about" = "\n%@ %@ %@ e %@"; // v5.0.1
-"pref_stat_lbl_how_long_prefs" = "%@ %@ %@ e %@"; // v5.0.1
-"pref_stat_lbl_average" = "Duração Média das Sessões";
-"pref_stat_lbl_total_sessions" = "Total de Sessões";
+"pref_stat_lbl_how_long_title" = "Amphetamine đã giữ máy Mac của bạn thức được"; // v5.0.1
+"pref_stat_lbl_how_long_about" = "\n%@ %@ %@ %@"; // v5.0.1
+"pref_stat_lbl_how_long_prefs" = "%@ %@ %@ %@"; // v5.0.1
+"pref_stat_lbl_average" = "Độ Dài Trung Bình Mỗi Phiên";
+"pref_stat_lbl_total_sessions" = "Tổng số Phiên chạy";
 
 
 
@@ -840,21 +836,21 @@
 // ---------------------------------------------------------------------------
 
 // TRIGGER CONFIGURATION WINDOW
-"trig_config_lbl_name" = "Nome";
-"trig_config_lbl_name_placeholder" = "Meu Acionador";
-"trig_config_lbl_name_desc" = "Dê um nome memorável ao Acionador para lembrar-se dele mais tarde.";
-"trig_config_lbl_criteria" = "Critérios";
-"trig_config_lbl_criteria_desc" = "Cada Acionador criado pode usar uma instância de cada critério. Todos os critérios devem ser avaliados como verdadeiros para que o Acionador seja ativado.";
-"trig_config_lbl_criteria_edit" = "Clique duas vezes em um critério para editá-lo";
-"trig_config_lbl_add_opt" = "Opções Adicionais";
-"trig_config_lbl_add_opt_desc" = "Opções adicionais que aplicam-se apenas a este Acionador.";
-"trig_config_bttn_disp_sleep" = "Permitir repouso da tela";
-"trig_config_bttn_cdm" = "Permitir repouso do sistema com tela fechada";
-"trig_config_bttn_scrn_svr" = "Permitir protetor de tela após:";
+"trig_config_lbl_name" = "Tên";
+"trig_config_lbl_name_placeholder" = "Trigger Tuyệt Vời Của Tôi";
+"trig_config_lbl_name_desc" = "Hãy đặt 1 cái tên đáng nhớ cho Trigger này. Bạn sẽ cảm ơn chính mình đấy!";
+"trig_config_lbl_criteria" = "Tiêu chí";
+"trig_config_lbl_criteria_desc" = "Mỗi Trigger mà bạn tạo có thể dùng 1 khoản của mỗi tiêu chí. Tất cả các tiêu chí phải đều đúng thì Trigger của bạn mới được kích hoạt.";
+"trig_config_lbl_criteria_edit" = "Click đúp một tiêu chí để chỉnh sửa nó";
+"trig_config_lbl_add_opt" = "Các Tùy chọn Bổ sung";
+"trig_config_lbl_add_opt_desc" = "Các tùy chọn bổ sung chỉ có tác dụng với Trigger này.";
+"trig_config_bttn_disp_sleep" = "Cho phép tắt màn hình";
+"trig_config_bttn_cdm" = "Cho phép hệ thống ngủ khi gập màn hình";
+"trig_config_bttn_scrn_svr" = "Cho chạy screen saver sau:";
 
 // TABLE HEADERS
-"trig_config_tbl_head_criterion" = "Critério";
-"trig_config_tbl_head_values" = "Valor(es)";
+"trig_config_tbl_head_criterion" = "Tiêu chí";
+"trig_config_tbl_head_values" = "(Các) giá trị";
 
 
 
@@ -862,10 +858,10 @@
 // ----- TRIGGER CONFIGURATION HELP MESSAGE
 
 // Title
-"help_trigger_config_title" = "Configuração do Acionador";
+"help_trigger_config_title" = "Cấu hình cho Trigger";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_trigger_config_body" = "Nome\nDê um nome memorável ao Acionador. O nome do Acionador será usado em notificações e nos detalhes da sessão no menu do Amphetamine (se essas opções estiverem ativadas).\n\nCritérios\nO Acionador pode usar uma instância de cada critério. Para adicionar um novo critério, clique no botão “+” e selecione um critério. Para remover um critério, selecione-o na lista de critérios e clique no botão “−”.\n\nOpções Adicionais\nCada Acionador criado pode ser configurado independentemente para permitir ou impedir o repouso da tela, a ativação do protetor de tela e o repouso do Mac com a tela fechada.";
+"help_trigger_config_body" = "Tên\nHãy đặt một cái tên dễ nhớ cho Trigger của bạn. Tên này sẽ được dùng trong các thông báo và mục chi tiết phiên chạy trên menu Amphetamine (nếu bạn đã bật các tùy chọn này).\n\nTiêu chí\nTrigger của bạn có thể dùng 1 khoản của mỗi tiêu chí. Để thêm tiêu chí mới, click nút dấu +, rồi chọn tên tiêu chí. Để xoá, hãy chọn tiêu chí trong danh sách, rồi click nút dấu -.\n\nCác tùy chọn Bổ sung\nMỗi Trigger bạn tạo có thể được cấu hình độc lập để cho phép/ngăn chế độ tắt màn hình, chạy screen saver, và có cho hệ thống ngủ khi gập màn hình hay không.";
 
 
 
@@ -875,51 +871,51 @@
 // ----- TRIGGER CRITERIA
 
 // TRIGGER CRITERIA → GLOBAL
-"trig_crit_bttn_add" = "Adicionar Critério";
+"trig_crit_bttn_add" = "Thêm tiêu chí";
 
 // example: "Selection: 'None selected'
-"trig_crit_lbl_no_selection" = "Nenhum selecionado";
-"trig_crit_lbl_no_value" = "Nenhum valor fornecido";
+"trig_crit_lbl_no_selection" = "Không có tiêu chí được chọn";
+"trig_crit_lbl_no_value" = "Không có giá trị được chọn";
 
 // TRIGGER CRITERIA → WI-FI
-"trig_crit_name_wifi" = "Rede Wi‑Fi";
-"trig_crit_name_wifi_placeholder" = "Nome da rede Wi‑Fi";
-"trig_crit_bttn_wifi_get_current" = "Obter Nome da Rede Wi‑Fi Atual";
+"trig_crit_name_wifi" = "Mạng Wi-Fi";
+"trig_crit_name_wifi_placeholder" = "Tên mạng Wi-Fi";
+"trig_crit_bttn_wifi_get_current" = "Dò tên mạng Wi-Fi đang dùng";
 
 // TRIGGER CRITERIA → IP ADDRESS
-"trig_crit_name_ip" = "Endereço IP";
-"trig_crit_bttn_get_ip" = "Obter Endereço IP Atual";
-"trig_crit_bttn_use_range" = "Usar intervalo de endereços IP";
-"trig_crit_lbl_ip_start" = "Início do intervalo:";
-"trig_crit_lbl_ip_end" = "Fim do intervalo:";
-"trig_crit_lbl_ip_addr" = "Endereço IP:";
-"trig_crit_lbl_ip_mutli" = "Vários endereços IP foram encontrados para este Mac. Selecione o endereço IP que deseja usar neste Acionador e clique em Continuar.";
-"trig_crit_ip_tbl_head_type" = "Interface/Tipo";
-"trig_crit_ip_tbl_head_addr" = "Endereço";
+"trig_crit_name_ip" = "Địa chỉ IP";
+"trig_crit_bttn_get_ip" = "Dò địa chỉ IP đang dùng";
+"trig_crit_bttn_use_range" = "Dùng dải địa chỉ IP";
+"trig_crit_lbl_ip_start" = "Địa chỉ IP đầu dải:";
+"trig_crit_lbl_ip_end" = "Địa chỉ IP cuối dải:";
+"trig_crit_lbl_ip_addr" = "Địa chỉ IP:";
+"trig_crit_lbl_ip_mutli" = "Đã tìm thấy nhiều địa chỉ IP của máy Mac này. Bạn vui lòng chọn địa chỉ IP đang cần thêm vào Trigger này và click nút Tiếp tục bên dưới.";
+"trig_crit_ip_tbl_head_type" = "Giao diện/Loại";
+"trig_crit_ip_tbl_head_addr" = "Địa chỉ";
 
 // TRIGGER CRITERIA → DNS
-"trig_crit_name_dns" = "Servidor DNS";
-"trig_crit_dns_tbl_head" = "Servidores DNS";
+"trig_crit_name_dns" = "Máy Chủ DNS";
+"trig_crit_dns_tbl_head" = "Các Máy Chủ DNS";
 
 // TRIGGER CRITERIA → CISCO VPN SERVICE
-"trig_crit_name_vpn" = "VPN Cisco AnyConnect";
-"trig_crit_lbl_vpn_current" = "Serviço atual:";
+"trig_crit_name_vpn" = "Cisco AnyConnect VPN";
+"trig_crit_lbl_vpn_current" = "Dịch vụ hiện tại:";
 
 // ** NOTE: DO NOT REMOVE '\n' **
-"trig_crit_txtfd_vpn_message" = "Este critério funciona apenas com o cliente de VPN Cisco AnyConnect. Na maioria dos casos, este critério deve ser evitado se você não estiver usando o Cisco AnyConnect. Use a função de intervalo do critério de Endereço IP em vez disso.\n\nPara usar este critério, conecte-se à VPN e clique no botão “↻”.";
+"trig_crit_txtfd_vpn_message" = "Tiêu chí này hiện tại chỉ hoạt động với máy trạm Cisco AnyConnect VPN. Trong đa số trường hợp, nếu bạn không dùng Cisco AnyConnect, vui lòng tránh tiêu chí này. Thay vào đó hãy dùng tính năng Dải Địa Chỉ IP.\n\nĐể dùng tiêu chí này, hãy kết nối đến VPN của bạn và click nút ↻ bên dưới.";
 
 // TRIGGER CRITERIA → APP
-"trig_crit_name_app" = "Aplicativo";
-"trig_crit_bttn_no_helpers" = "Não mostrar apps auxiliares ou processos";
-"trig_crit_bttn_frontmost" = "Exigir app em primeiro plano";
-"trig_crit_lbl_select_app" = "Selecione um app:";
-"trig_crit_lbl_when_frontmost" = "(quando em primeiro plano)"; // example: Safari '(when frontmost)'
+"trig_crit_name_app" = "Ứng Dụng";
+"trig_crit_bttn_no_helpers" = "Không hiện các app helper và các tiến trình";
+"trig_crit_bttn_frontmost" = "Bắt buộc ứng dụng phải trước nhất";
+"trig_crit_lbl_select_app" = "Chọn một ứng dụng:";
+"trig_crit_lbl_when_frontmost" = "(khi trước nhất)"; // example: Safari '(when frontmost)'
 
 // TRIGGER CRITERIA → SCHEDULE
-"trig_crit_name_sched" = "Agendamento";
-"trig_crit_lbl_sched_from" = "De:";
-"trig_crit_lbl_sched_until" = "Até:";
-"trig_crit_lbl_sched_no_select" = "Nenhum dia selecionado ";
+"trig_crit_name_sched" = "Thời Gian Biểu";
+"trig_crit_lbl_sched_from" = "Từ:";
+"trig_crit_lbl_sched_until" = "Đến:";
+"trig_crit_lbl_sched_no_select" = "Không có ngày cụ thể ";
 
 // DAYS OF THE WEEK
 
@@ -929,61 +925,61 @@
 
 // THERE IS LIMITED SPACE IN THE SEGMENTED CONTROL. PLEASE USE THE SHORTEST ABBREVIATION FOR EACH WEEKDAY NAME WHERE POSSIBLE
 
-"weekday_abbr_1" = "Dom";
-"weekday_abbr_2" = "Seg";
-"weekday_abbr_3" = "Ter";
-"weekday_abbr_4" = "Qua";
-"weekday_abbr_5" = "Qui";
-"weekday_abbr_6" = "Sex";
-"weekday_abbr_7" = "Sáb";
+"weekday_abbr_1" = "T2";
+"weekday_abbr_2" = "T3";
+"weekday_abbr_3" = "T4";
+"weekday_abbr_4" = "T5";
+"weekday_abbr_5" = "T6";
+"weekday_abbr_6" = "T7";
+"weekday_abbr_7" = "CN";
 
 // TRIGGER CRITERIA → BATTERY & POWER ADAPTER
-"trig_crit_name_power" = "Bateria e Alimentação";
-"trig_crit_lbl_batt_charge_min" = "A bateria estiver com, no mínimo:";
-"trig_crit_lbl_batt_not_detected" = "Bateria não detectada";
-"trig_crit_bttn_ac_connected" = "conectado à alimentação";
-"trig_crit_bttn_ac_not_connected" = "não conectado à alimentação";
-"trig_crit_bttn_ac_connected_only" = "Apenas quando conectado à alimentação";
-"trig_crit_bttn_ac_not_connected_only" = "Apenas quando não conectado à alimentação";
-"trig_crit_lbl_batt_lvl_greater" = "Carga da bateria ≥ %i%%"; // PLACEHOLDER IS A NUMBER + PERCENT SIGN, EXAMPLE: 'BATTERY CHARGE ≥ 15%'
+"trig_crit_name_power" = "Pin & Sạc Nguồn";
+"trig_crit_lbl_batt_charge_min" = "Mức pin ít nhất:";
+"trig_crit_lbl_batt_not_detected" = "Không dò thấy pin";
+"trig_crit_bttn_ac_connected" = "có cắm sạc";
+"trig_crit_bttn_ac_not_connected" = "không cắm sạc";
+"trig_crit_bttn_ac_connected_only" = "Chỉ khi có cắm sạc";
+"trig_crit_bttn_ac_not_connected_only" = "Chỉ khi không cắm sạc";
+"trig_crit_lbl_batt_lvl_greater" = "Mức pin ≥ %i%%"; // PLACEHOLDER IS A NUMBER + PERCENT SIGN, EXAMPLE: 'BATTERY CHARGE ≥ 15%'
 
 // TRIGGER CRITERIA → DISPLAYS
-"trig_crit_name_disp" = "Telas";
-"trig_crit_mi_disp_equals" = "Número de telas =";
-"trig_crit_mi_disp_greater" = "Número de telas >";
-"trig_crit_mi_disp_less" = "Número de telas <";
-"trig_crit_mi_disp_mirrored" = "Tela principal estiver espelhada";
-"trig_crit_bttn_ignore_built_in" = "Ignorar tela integrada";
+"trig_crit_name_disp" = "Màn Hình";
+"trig_crit_mi_disp_equals" = "Số màn hình =";
+"trig_crit_mi_disp_greater" = "Số màn hình >";
+"trig_crit_mi_disp_less" = "Số màn hình <";
+"trig_crit_mi_disp_mirrored" = "Phản chiếu màn hình chính";
+"trig_crit_bttn_ignore_built_in" = "Bỏ qua màn hình tích hợp";
 
 // INDICATES AN EXTERNAL DISPLAY - i.e. NOT BUILT-IN
-"trig_crit_lbl_external" = "(Externa(s))";
+"trig_crit_lbl_external" = "(External)";
 
 // TRIGGER CRITERIA → VOLUMES/DRIVES
-"trig_crit_name_vols" = "Volumes/Discos";
+"trig_crit_name_vols" = "Phân vùng/Ổ đĩa";
 
 // TRIGGER CRITERIA → USB DEVICE
-"trig_crit_name_usb" = "Dispositivo USB";
+"trig_crit_name_usb" = "Thiết bị USB";
 
 // TRIGGER CRITERIA → BLUETOOTH DEVICE
-"trig_crit_name_bluetooth" = "Dispositivo Bluetooth";
+"trig_crit_name_bluetooth" = "Thiết bị Bluetooth";
 
 // TRIGGER CRITERIA POPUP → AUDIO OUTPUT
-"trig_crit_name_audio" = "Saída de Áudio";
-"trig_crit_mi_audio_headphones" = "Fones de Ouvido";
-"trig_crit_mi_audio_bi_speakers" = "Alto-falantes Integrados";
-"trig_crit_mi_audio_bi_output" = "Saída Integrada";
-"trig_crit_mi_audio_headphones_35w" = "Fones de Ouvido (com fio, 3,5 mm)";
+"trig_crit_name_audio" = "Đầu ra Âm thanh";
+"trig_crit_mi_audio_headphones" = "Tai nghe";
+"trig_crit_mi_audio_bi_speakers" = "Loa Tích hợp";
+"trig_crit_mi_audio_bi_output" = "Đầu ra Tích hợp";
+"trig_crit_mi_audio_headphones_35w" = "Tai nghe (có dây, 3.5mm)";
 
 // TRIGGER CRITERIA POPUP → CPU
-"trig_crit_name_cpu" = "Uso da CPU";
-"trig_crit_lbl_cpu" = "Uso da CPU for:";
-"trig_crit_lbl_cpu_error" = "Erro da CPU";
+"trig_crit_name_cpu" = "Mức Tải CPU";
+"trig_crit_lbl_cpu" = "Mức tải CPU:";
+"trig_crit_lbl_cpu_error" = "Lỗi CPU";
 
 // TRIGGER CRITERIA POPUP → IDLE TIME
-"trig_crit_name_idle" = "Tempo Ocioso";
-"trig_crit_mi_idle_greater" = "Tempo ocioso >";
-"trig_crit_mi_idle_less" = "Tempo ocioso <";
-"trig_crit_lbl_idle_mins" = "minuto(s)";
+"trig_crit_name_idle" = "Thời gian Nhàn rỗi Hệ thống";
+"trig_crit_mi_idle_greater" = "Thời gian nhàn rỗi >";
+"trig_crit_mi_idle_less" = "Thời gian nhàn rỗi <";
+"trig_crit_lbl_idle_mins" = "phút";
 
 
 
@@ -996,127 +992,127 @@
 // ----- Criterion Wi-Fi Help Message
 
 // Title
-"criterion_help_wifi_title" = "Critério de Wi‑Fi";
+"criterion_help_wifi_title" = "Tiêu chí về Wi-Fi";
 
 // Body
-"criterion_help_wifi_body" = "Este critério será avaliado como verdadeiro apenas quando o Mac estiver conectado a uma rede Wi‑Fi específica. Digite o nome da rede Wi‑Fi (com distinção de maiúsculas) no campo oferecido ou use o botão para obter automaticamente o nome da rede à qual o Mac está conectado.";
+"criterion_help_wifi_body" = "Tiêu chí này được xem là đúng chỉ khi máy Mac của bạn kết nối với một mạng Wi-Fi nhất định. Hãy nhập tên mạng Wi-Fi (có phân biệt chữ hoa-thường) vào ô trống, hoặc click nút chọn để tự động dò tên mạng Wi-Fi mà máy Mac của bạn đang kết nối.";
 
 
 // ----- Criterion IP Address Help Message
 
 // Title
-"criterion_help_ip_title" = "Critério de Endereço IP";
+"criterion_help_ip_title" = "Tiêu chí về Địa chỉ IP";
 
 // Body
-"criterion_help_ip_body" = "Este critério será avaliado como verdadeiro apenas quando o Mac tiver um endereço IP específico ou o endereço IP do Mac estiver no intervalo especificado. Use o botão para obter o endereço IP atual do Mac ou digite um ou mais endereços manualmente.";
+"criterion_help_ip_body" = "Tiêu chí này được xem là đúng chỉ khi máy Mac của bạn có 1 địa chỉ IP cụ thể hoặc nằm trong dải địa chỉ IP cụ thể. Hãy click nút chọn để tự động dò địa chỉ IP của máy, hoặc nhập thủ công (các) địa chỉ vào.";
 
 
 // ----- Criterion App Help Message
 
 // Title
-"criterion_help_app_title" = "Critério de Aplicativo";
+"criterion_help_app_title" = "Tiêu chí về Ứng Dụng";
 
 // Body
-"criterion_help_app_body" = "Este critério será avaliado como verdadeiro apenas quando o app especificado estiver aberto no Mac. Apenas os apps que se encontram abertos aparecem na lista. Caso um app não conste da lista, ele não está aberto ou a tecnologia de Sandbox de Apps do macOS impede que o Amphetamine interaja com ele.";
+"criterion_help_app_body" = "Tiêu chí này được xem là đúng chỉ khi một ứng dụng cụ thể đang chạy trên máy Mac của bạn. Chỉ những ứng dụng đang chạy mới hiện trong danh sách. Nếu danh sách không có ứng dụng bạn cần thì hoặc do ứng dụng đang không chạy, hoặc công nghệ App Sandbox của macOS đang ngăn không cho Amphetamine tương tác với ứng dụng đấy.";
 
 
 // ----- Criterion Battery & Power Adapter Help Message
 
 // Title
-"criterion_help_power_title" = "Critério de Bateria e Alimentação";
+"criterion_help_power_title" = "Tiêu chí về Pin & Sạc Nguồn";
 
 // Body
-"criterion_help_power_body" = "Este critério será avaliado como verdadeiro apenas quando as condições de energia especificadas forem atendidas pelo Mac.";
+"criterion_help_power_body" = "Tiêu chí này được xem là đúng chỉ khi đạt các điều kiện cụ thể về năng lượng trên máy Mac của bạn.";
 
 
 // ----- Criterion Schedule Help Message
 
 // Title
-"criterion_help_schedule_title" = "Critério de Agendamento";
+"criterion_help_schedule_title" = "Tiêu chí về Thời Gian Biểu";
 
 // Body
-"criterion_help_schedule_body" = "Este critério será avaliado como verdadeiro apenas quando a hora e o dia do relógio do sistema do Mac estiverem no intervalo especificado.";
+"criterion_help_schedule_body" = "Tiêu chí này được xem là đúng chỉ khi thời gian và ngày tháng trên đồng hồ hệ thống máy Mac của bạn nằm trong khoảng thời gian và ngày tháng cụ thể.";
 
 
 // ----- Criterion Displays Help Message
 
 // Title
-"criterion_help_displays_title" = "Critério de Tela";
+"criterion_help_displays_title" = "Tiêu chí về Màn Hình";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"criterion_help_displays_body" = "Este critério será avaliado como verdadeiro quando o número de telas conectadas ao Mac for igual, maior ou menor que o número definido. Opcionalmente, opte por espelhar a tela para que este critério seja avaliado como verdadeiro apenas quando a tela principal do Mac estiver espelhada.\n\nSelecione a opção “Ignorar tela integrada” para ignorá-la ao calcular o número de telas conectadas ao Mac.";
+"criterion_help_displays_body" = "Tiêu chí này được xem là đúng khi số màn hình được kết nối hoặc bằng, trên, hoặc dưới số lượng bạn chỉ định. Ngoài ra, hãy chọn màn hình phản chiếu để tiêu chí này được đúng chỉ khi màn hình tích hợp trên máy Mac của bạn đang được phản chiếu.\n\nChọn mục 'Bỏ qua màn hình tích hợp' để bỏ qua màn hình tích hợp theo máy khi xét đến số lượng màn hình đang được kết nối vào máy Mac của bạn.";
 
 
 // ----- Criterion Volume/Drive Help Message
 
 // Title
-"criterion_help_volume_title" = "Critério de Volume/Disco";
+"criterion_help_volume_title" = "Tiêu chí về Phân vùng/Ổ đĩa";
 
 // Body
-"criterion_help_volume_body" = "Este critério será avaliado como verdadeiro apenas quando o disco ou volume especificado estiver montado no Mac. Para ver o disco ou volume desejado na lista, certifique-se de que ele já esteja montado.";
+"criterion_help_volume_body" = "Tiêu chí này được xem là đúng chỉ khi một ổ đĩa hoặc phân vùng cụ thể được mount vào máy Mac của bạn. Để thấy được ổ đĩa hoặc phân vùng bạn cần, vui lòng đảm bảo nó đã được mount.";
 
 
 // ----- Criterion Audio Help Message
 
 // Title
-"criterion_help_audio_title" = "Critério de Saída de Áudio";
+"criterion_help_audio_title" = "Tiêu chí về Đầu ra Âm thanh";
 
 // Body
-"criterion_help_audio_body" = "Este critério será avaliado como verdadeiro apenas quando a saída de áudio especificada for definida como a saída atual do Mac.\n\nA saída de áudio pode ser configurada em Preferências do Sistema → Som → Saída.";
+"criterion_help_audio_body" = "Tiêu chí này được xem là đúng chỉ khi một nguồn xuất âm thanh hiện hành nhất định đang được máy Mac của bạn sử dụng.\n\nĐể thiết đặt một đầu ra âm thanh, vui lòng vào  → tùy chọn Hệ thống → Âm thanh → Đầu ra.";
 
 
 // ----- Criterion Bluetooth Help Message
 
 // Title
-"criterion_help_bluetooth_title" = "Critério de Dispositivo Bluetooth";
+"criterion_help_bluetooth_title" = "Tiêu chí về Thiết bị Bluetooth";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"criterion_help_bluetooth_body" = "Este critério será avaliado como verdadeiro apenas quando o dispositivo Bluetooth especificado estiver conectado ao Mac. Apenas dispositivos Bluetooth já emparelhados com o Mac aparecem na lista.\n\nPara emparelhar um novo dispositivo Bluetooth, coloque o dispositivo no modo de emparelhamento e acesse Preferências do Sistema → Bluetooth.";
+"criterion_help_bluetooth_body" = "Tiêu chí này được xem là đúng chỉ khi một thiết bị Bluetooth nhất định được kết nối với máy Mac của bạn. Chỉ những thiết bị Bluetooth đã được pair với máy Mac mới hiện trong danh sách.\n\nĐể pair một thiết bị Bluetooth mới, hãy đưa nó về chế độ pair và truy cập  → Tùy chọn Hệ thống → Bluetooth.";
 
 
 // ----- Criterion Cisco AnyConnect VPN Help Message
 
 // Title
-"criterion_help_vpn_title" = "Critério de VPN Cisco AnyConnect";
+"criterion_help_vpn_title" = "Cisco AnyConnect VPN Criterion";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"criterion_help_vpn_body" = "Este critério será avaliado como verdadeiro apenas quando o Mac estiver conectado ao serviço de VPN especificado. Inicie o serviço de VPN no Mac e clique no botão “↻” para obter automaticamente o nome do serviço.\n\nEste critério é, de certa forma, experimental, já que a maioria dos serviços de VPN não foi testada. No momento, a VPN Cisco AnyConnect, quando usada com seu respectivo cliente oficial, é o único serviço de VPN compatível.";
+"criterion_help_vpn_body" = "Tiêu chí này được xem là đúng chỉ khi máy Mac của bạn kết nối đến một dịch vụ VPN được chỉ định. Hãy khởi động dịch vụ VPN trước rồi click nút refresh để tự động dò tên dịch vụ.\n\nTiêu chí này vẫn còn mang tính thử nghiệm do vẫn chưa tương thích với phần lớn các dịch vụ VPN hiện có. Hiện tại dịch vụ VPN dùng được là Cisco AnyConnect VPN, khi đã được cài đặt với máy trạm Cisco AnyConnect chính thức.";
 
 
 // ----- Criterion USB Help Message
 
 // Title
-"criterion_help_usb_title" = "Critério de Dispositivo USB";
+"criterion_help_usb_title" = "Tiêu chí về Thiết bị USB";
 
 // Body
-"criterion_help_usb_body" = "Este critério será avaliado como verdadeiro apenas quando o dispositivo USB especificado estiver conectado ao Mac. Para ver o dispositivo USB desejado na lista, conecte-o ao Mac e ligue-o.";
+"criterion_help_usb_body" = "Tiêu chí này được xem là đúng chỉ khi có thiết bị USB cụ thể được cắm vào máy Mac của bạn. Để thấy được thiết bị bạn muốn trong danh sách, hãy kết nối thiết bị đó vào máy và bật nguồn.";
 
 
 // ----- Criterion CPU Utilization Help Message
 
 // Title
-"criterion_help_cpu_title" = "Critério de Uso da CPU";
+"criterion_help_cpu_title" = "Tiêu chí về Mức Tải CPU";
 
 // Body
-"criterion_help_cpu_body" = "Este critério será avaliado como verdadeiro apenas quando o uso combinado de todas as CPUs lógicas do Mac estiver acima ou abaixo do limite definido. Note que a amostragem de uso da CPU do Amphetamine pode não ser sempre igual à do Monitor de Atividade ou de outros apps de monitoração de uso da CPU. Isso deve-se, provavelmente, a taxas de amostragem diferentes.";
+"criterion_help_cpu_body" = "Tiêu chí này được xem là đúng chỉ khi mức tải tổng của toàn bộ CPU logic trong máy Mac cao hơn hoặc thấp hơn mức mà bạn thiết lập. Xin lưu ý con số về mức tải CPU mà Amphetamine sử dụng có thể không trùng với con số mà ứng dụng Giám sát hoạt động của macOS hoặc các ứng dụng tương tự hiển thị. Lý do có thể vì tốc độ lấy mẫu khác nhau giữa các ứng dụng.";
 
 
 // ----- Criterion Idle Time Help Message
 
 // Title
-"criterion_help_idle_title" = "Critério de Tempo Ocioso";
+"criterion_help_idle_title" = "Tiêu chí về Thời gian Nhàn rỗi";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"criterion_help_idle_body" = "Este critério será avaliado como verdadeiro apenas quando o relógio de tempo de ociosidade do Mac estiver acima ou abaixo do limite definido (minutos). Esse tempo normalmente aumenta quando não há uma atividade de teclado, mouse ou de outro dispositivo de entrada.\n\nNote que entradas de mouse e teclado feitas por acesso remoto (VNC/ARD/RDP) não impedem que o relógio de ociosidade aumente.";
+"criterion_help_idle_body" = "Tiêu chí này được xem là đúng chỉ khi đồng hồ tính thời gian nhàn rỗi của hệ thống nằm trong số phút mà bạn thiết đặt. Thông thường, đồng hồ tính thời gian nhàn rỗi của máy Mac sẽ tăng khi không có hoạt động từ bàn phím, chuột, hoặc bất kì thiết bị đầu vào nào.\n\nXin lưu ý dữ liệu từ chuột và bàn phím trong các truy cập từ xa hoặc qua VNC/chia sẻ màn hình cũng làm tăng lượng thời gian này.";
 
 
 // ----- Criterion DNS Server Help Message
 
 // Title
-"criterion_help_dns_title" = "Critério de Servidor DNS";
+"criterion_help_dns_title" = "Tiêu chí về Máy Chủ DNS";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"criterion_help_dns_body" = "Este critério será avaliado como verdadeiro quando o Mac estiver usando qualquer servidor ou endereço DNS especificado. Para adicionar os endereços DNS atuais à lista, clique no botão “+”. Para remover um endereço DNS da lista, selecione-o e clique no botão “−”.\n\nCaso tenha atualizado os servidores DNS nas Preferências do Sistema ou alterado as configurações de rede recentemente, aguarde alguns minutos para que o macOS possa repassá-los ao Amphetamine.\n\nNota: este Acionador pode não ser ativado imediatamente sob algumas circunstâncias. O Amphetamine consultará os servidores DNS atuais do Mac, mas se eles tiverem sido atualizados ou alterados recentemente, o macOS poderá levar até dois minutos para comunicar essas alterações ao Amphetamine.";
+"criterion_help_dns_body" = "Tiêu chí này được xem là đúng khi máy Mac của bạn đang dùng bất kì địa chỉ/máy chủ DNS được chỉ định. Để thêm các địa chỉ DNS mà hệ thống đang dùng vào danh sách, hãy click nút dấy +. Để xoá địa chỉ DNS bất kì khỏi danh sách, hãy chọn địa chỉ đó rồi click nút dấu -.\n\nNếu gần đây bạn có cập nhật máy chủ DNS trong Tùy chọn Hệ thống, hoặc thay đổi thiết đặt mạng, xin vui lòng đợi vài phút để macOS cập nhật thông tin máy chủ DNS mới cho Amphetamine.\n\nLưu ý: Trong một số trường hợp, rigger này có thể không được kích hoạt ngay tức thì. Amphetamine sẽ lệnh hỏi các địa chỉ DNS của máy Mac, nhưng nếu gần đây bạn có thay đổi thiết đặt của chúng thì cảm phiền bạn dành 1-2 phút để macOS liên kết thay đổi đó đến Amphetamine nhé.";
 
 
 
@@ -1127,10 +1123,9 @@
 // ---------------------------------------------------------------------------
 
 // CURRENT SESSION DETAILS VIEW MENU ITEM
-"csdv_lbl_title" = "Detalhes da Sessão Atual:";
-"csdv_lbl_drive_alive_title" = "Detalhes de Disco Vivo:";
+"csdv_lbl_title" = "Chi tiết Phiên Hiện hành: \n";
+"csdv_lbl_drive_alive_title" = "Chi tiết Drive Alive: \n";
 
-// NEW IN 5.1.2
 // REARRANGE THE BELOW PLACEHOLDERS (IF NEEDED) FOR THE TARGET LANGUAGE
 // IN ENGLISH, THE PLACEHOLDERS WOULD READ LIKE: "1h 3m 45s remaining"
 
@@ -1154,32 +1149,31 @@
 // %2$@ = duration_abbrv_seconds_s
 // %3$@ = gen_use_remaining
 "csdv_time_remain_s" = "%1$02d%2$@ %3$@";
-// END NEW IN 5.1.2
 
-"csdv_bttn_disp_sleep" = "Permitir repouso da tela";
-"csdv_bttn_cdm" = "Permitir repouso do sistema com tela fechada";
+"csdv_bttn_disp_sleep" = "Cho phép tắt màn hình";
+"csdv_bttn_cdm" = "Cho phép sleep hệ thống khi gập màn hình";
 
-"csdv_drive_alive_not_enabled" = "O Disco Vivo não está ativado";
-"csdv_drive_alive_not_config" = "Não há nenhum disco configurado";
+"csdv_drive_alive_not_enabled" = "Drive Alive không được bật";
+"csdv_drive_alive_not_config" = "Không có thiết lập về ổ đĩa";
 
 // MENU/STATUS BAR ITEM → MENU ITEMS
-"statbar_mi_start_new_session" = "Começar Nova Sessão:";
-"statbar_mi_drive_alive_details" = "Detalhes de Disco Vivo:";
-"statbar_mi_other_duration" = "Outro Tempo/Até…";
-"statbar_mi_other_duration_BigSur" = "Outro Tempo/Até";
-"statbar_mi_app" = "Enquanto App Estiver Aberto…";
-"statbar_mi_app_BigSur" = "Enquanto App Estiver Aberto";
-"statbar_mi_file" = "Enquanto Arquivo Estiver Baixando…";
-"statbar_mi_qp" = "Preferências Rápidas";
-"statbar_mi_prefs" = "Preferências…";
-"statbar_mi_about" = "Sobre o Amphetamine";
-"statbar_mi_fb_support" = "Feedback e Suporte";
-"statbar_mi_troubleshoot" = "Resolução de Problemas e Dúvidas";
-"statbar_mi_debugMode" = "Ativar Modo de Depuração"; // v5.0.1
-"statbar_mi_contact" = "Contatar Suporte";
-"statbar_mi_follow_dev" = "Seguir o Desenvolvedor"; // OPENS TWITTER LINK
-"statbar_mi_contribute" = "Contribuir para o Desenvolvimento do Amphetamine";
-"statbar_mi_quit" = "Encerrar Amphetamine";
+"statbar_mi_start_new_session" = "Bắt đầu Phiên Mới:";
+"statbar_mi_drive_alive_details" = "Chi tiết Drive Alive:";
+"statbar_mi_other_duration" = "Thời gian Khác/Cho đến...";
+"statbar_mi_other_duration_BigSur" = "Thời gian Khác/Cho đến";
+"statbar_mi_app" = "Khi App Đang Chạy...";
+"statbar_mi_app_BigSur" = "Khi App Đang Chạy";
+"statbar_mi_file" = "Khi File Đang Tải...";
+"statbar_mi_qp" = "Tùy chọn Nhanh";
+"statbar_mi_prefs" = "Tùy chọn...";
+"statbar_mi_about" = "Về Amphetamine";
+"statbar_mi_fb_support" = "Phản hồi & Hỗ trợ";
+"statbar_mi_troubleshoot" = "Sự cố & Câu hỏi Thường gặp";
+"statbar_mi_debugMode" = "Bật Chế độ Debug"; // v5.0.1
+"statbar_mi_contact" = "Liên hệ Hỗ trợ";
+"statbar_mi_follow_dev" = "Theo dõi Nhà phát triển"; // OPENS TWITTER LINK
+"statbar_mi_contribute" = "Đóng góp để Phát triển Amphetamine";
+"statbar_mi_quit" = "Thoát Amphetamine";
 
 
 
@@ -1190,51 +1184,54 @@
 // ---------------------------------------------------------------------------
 
 // WELCOME WINDOW GLOBAL
-"ww_bttn_dont_show" = "Não mostrar esta janela novamente";
-"ww_bttn_previous" = "Anterior";
-"ww_bttn_next" = "Seguinte";
-"ww_bttn_end" = "Fim";
+"ww_bttn_dont_show" = "Không hiện cửa sổ này nữa";
+"ww_bttn_previous" = "Trở về";
+"ww_bttn_next" = "Tiếp theo";
+"ww_bttn_end" = "Kết thúc";
 
 // WELCOME WINDOW #1
-"ww1_lbl_welcome" = "Amphetamine";
-"ww1_lbl_credit" = "Criado com ♥ por William Gustafson";
+"ww1_lbl_welcome" = "Chào mừng bạn đến với Amphetamine";
+"ww1_lbl_credit" = "Được viết với ♥ bởi William Gustafson";
 
 // ** NOTE: DO NOT REMOVE '\n' **
-"ww1_lbl_message" = "\nO Amphetamine é um utilitário superincrível, poderoso e flexível para manter seus dispositivos despertos no macOS. Mesmo tendo muitos recursos e opções, o Amphetamine continua sendo incrivelmente fácil de usar.\n\nVocê só precisa de alguns poucos passos para configurar o Amphetamine. Clique em Seguinte para começar.";
+"ww1_lbl_message" = "\nAmphetamine là một tiện ích cực tuyệt vời, mạnh mẽ, và giữ-máy-thức một cách linh động cho macOS. Dù có rất nhiều tính năng và tùy chọn, Amphetamine vẫn cực kì dễ dùng.\n\nBạn chỉ cần vài bước để thiết lập Amphetamine. Hãy click Tiếp tục để bắt đầu nhé.";
 
 // WELCOME WINDOW #2
-"ww2_lbl_title" = "Onde o Amphetamine fica?";
-"ww2_lbl_subtitle" = "O Amphetamine fica na barra de menus, no canto superior direito da tela.";
+"ww2_lbl_title" = "Amphetamine nằm ở đâu?";
+"ww2_lbl_subtitle" = "Amphetamine nằm trên thanh menu hệ thống ở góc trên bên phải màn hình của bạn.";
 
 // ** NOTE: DO NOT REMOVE '\n' **
-"ww2_lbl_message" = "Por padrão, ao clicar no ícone do Amphetamine na barra de menus, o menu do Amphetamine é aberto. Um clique com o botão direito (ou clique com a tecla Control pressionada) começa ou termina uma sessão para manter o Mac desperto. Você pode mudar esse comportamento se desejar.\n\nO Amphetamine é altamente personalizável. Você pode alterar várias coisas, como a imagem da barra de menus, o momento em que as notificações aparecem e quais sons devem ser reproduzidos, nas Preferências do Amphetamine.";
+"ww2_lbl_message" = "Theo mặc định, menu của Amphetamine sẽ hiển thị khi bạn click vào Amphetamine trên thanh menu. Click phải chuột (hoặc Control + click) sẽ bắt đầu/kết thúc một phiên chạy để giữ máy thức. Nếu muốn, bạn có thể đổi thiết đặt này.\n\nHãy thay đổi các thiết đặt của Amphetamine tuỳ ý bạn, như biểu tượng trên thanh menu, khi nào nên hiện thông báo, và âm thanh nào để phát trong mục Tùy chọn của Amphetamine.";
 
-"ww2_bttn_find_amph" = "Clique Aqui para Localizar o Amphetamine";
+"ww2_bttn_find_amph" = "Click vào đây để tìm Amphetamine";
 
 // WELCOME WINDOW #3
-"ww3_lbl_title" = "O que o Amphetamine faz?";
-"ww3_lbl_subtitle" = "O Amphetamine mantém o Mac desperto. E as telas. E os discos.";
+"ww3_lbl_title" = "Amphetamine làm được gì?";
+"ww3_lbl_subtitle" = "Amphetamine giữ máy Mac của bạn thức. Cả các màn hình. Và cả các ổ đĩa.";
 
 // ** NOTE: DO NOT REMOVE '\n' **
-"ww3_lbl_message" = "Uma “sessão” descreve o ato do Mac ser mantido desperto pelo Amphetamine. Para começar uma sessão, clique no ícone do Amphetamine na barra de menus e escolha uma duração. Você também pode clicar com o botão direito para começar uma sessão com a Duração Padrão. Altere a Duração Padrão em Preferências → Sessões.\n\nCaso tenha um MacBook e deseje mantê-lo desperto com a tela fechada, você pode usar o Amphetamine para fazer isso. No entanto, é altamente recomendável instalar o Amphetamine Enhancer como medida de segurança.";
+"ww3_lbl_message" = "Khi Amphetamine giữ máy Mac của bạn thức, ta gọi là 1 \"phiên.\" Để bắt đầu 1 phiên chạy, hãy click vào Amphetamine trên thanh menu và chọn 1 khoảng thời gian. Ngoài ra hãy click phải chuột/Control + click để chạy 1 phiên với Thời gian Mặc định. Vào mục Tuỳ chỉnh → Phiên chạy để đổi Thời gian Mặc định.\n\nNếu bạn đang dùng MacBook và muốn máy vẫn thức trong khi gập màn hình, bạn có thể làm được với Amphetamine. Tuy vậy, nên cài đặt thêm Amphetamine Enhancer cho chắc chắn nhé.";
 
-"ww3_bttn_learn_amph_enh" = "Clique Aqui para Saber Mais sobre o Amphetamine Enhancer";
+"ww3_bttn_learn_amph_enh" = "Click vào đây để biết thêm về Amphetamine Enhancer";
 
 // WELCOME WINDOW #4
-"ww4_lbl_title" = "O que mais o Amphetamine pode fazer?";
-"ww4_lbl_subtitle" = "O Amphetamine pode fazer muito mais do que você imagina.";
+"ww4_lbl_title" = "Amphetamine còn làm được gì khác không?";
+"ww4_lbl_subtitle" = "Amphetamine làm được nhiều hơn bạn tưởng đấy.";
 
 // ** NOTE: DO NOT REMOVE '\n' **
-"ww4_lbl_message" = "Acionadores automatizam o processo de manter o Mac desperto com base na conexão Wi‑Fi, nível da bateria, conexões de dispositivos USB e Bluetooth, hora do dia, aplicativos abertos, endereço IP e muito mais. Acesse as Preferências do Amphetamine para configurar seu primeiro Acionador ou clique no botão abaixo para saber mais.\n\nO recurso Disco Vivo mantém despertos os discos conectados ao Mac ao gravar periodicamente uma pequena quantidade de dados em cada um deles. Acesse as Preferências do Amphetamine para configurar o Disco Vivo.";
+"ww4_lbl_message" = "Tính năng Trigger tự động giữ cho máy Mac thức tuỳ vào các điều kiện về kết nối Wi-Fi, mức pin, kết nối thiết bị USB và Bluetooth, thời gian trong ngày, các ứng dụng đang chạy, địa chỉ IP, nhiều lắm. Hãy vào mục Tùy chọn để tạo Trigger đầu tiên cho mình, hoặc click nút bên dưới để tìm hiểu thêm.\n\nDrive Alive giữ cho ổ đĩa đang kết nối vào máy được thức bằng việc ghi một ít dữ liệu vào mỗi ổ đĩa theo chu kì. Vui lòng vào mục Tùy chọn để thiết lập Drive Alive nhé.";
 
-"ww4_bttn_learn_triggers" = "Clique Aqui para Saber Mais sobre Acionadores";
+"ww4_bttn_learn_triggers" = "Click vào đây để tìm hiểu về Triggers";
 
 // WELCOME WINDOW #5
-"ww5_lbl_title" = "Obrigado por usar o Amphetamine.";
-"ww5_lbl_subtitle" = "O Amphetamine é fruto de uma paixão.";
+"ww5_lbl_title" = "Cảm ơn bạn đã dùng Amphetamine nhé.";
+"ww5_lbl_subtitle" = "Tôi viết Amphetamine hoàn toàn vì đam mê đấy.";
 
 // ** NOTE: DO NOT REMOVE '\n' **
-"ww5_lbl_message" = "O Amphetamine é um presente meu para você. Realmente espero que você o ache útil, estável e prazeroso. Se você dispuser de um momento para deixar sua opinião na App Store, eu ficaria gratíssimo. Obrigado.\n\nSe você tiver dúvidas ou encontrar um problema ao usar o Amphetamine, entre em contato comigo: clique no ícone do Amphetamine na barra de menus e selecione Feedback e Suporte → Contatar Suporte.\n\nWilliam Gustafson\nCriador do Amphetamine";
+"ww5_lbl_message" = "Amphetamine là món quà nhỏ tôi dành cho bạn. Rất hi vọng bạn thấy nó hữu ích, ổn định, và thú vị. Nếu có thể được, mong bạn dành chút thời gian để review ứng dụng này trên App Store nhé. Tôi xin trân trọng cảm ơn.\n\nNếu bạn có thắc mắc hay gặp phải vấn đề gì khi dùng Amphetamine, hãy liên hệ tôi qua mục Phản hồi & Hỗ trợ → Liên hệ Hỗ trợ trong menu Amphetamine nhé.";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"ww5_lbl_signature" = " William Gustafson\nTác giả của Amphetamine";
 
 
 
@@ -1245,11 +1242,11 @@
 // ---------------------------------------------------------------------------
 
 // ** NOTE: DO NOT REMOVE '\n' **
-"about_lbl_message" = "O Amphetamine foi o meu primeiro projeto em Objective-C. Desde o lançamento inicial do Amphetamine em 2014, ele evoluiu até se tornar um dos apps mais poderosos e populares para manter o Mac desperto. Suas sugestões, feedback e suporte são os fatores que guiaram essa evolução. Obrigado.\n\nO Amphetamine sempre será um app 100% gratuito e sem anúncios, compras dentro do app ou atualizações pagas.\n\nO Amphetamine é dedicado à memória do meu amigo Isaac Kirkman.\n\nWilliam Gustafson\nCriador do Amphetamine";
-"about_lbl_hard_work" = "Desenvolver o Amphetamine dá trabalho.";
-"about_bttn_support" = "Contatar Suporte";
-"about_bttn_rate" = "Avaliar na App Store";
-"about_bttn_ack" = "Reconhecimentos";
+"about_lbl_message" = "Amphetamine là dự án viết bằng Objective-C đầu tiên của tôi. Kể từ phiên bản đầu tiên vào năm 2014, Amphetamine đã trở thành một trong những ứng dụng mạnh mẽ và thông dụng nhất để giữ máy Mac của bạn luôn thức. Những đề xuất, phản hồi, và hỗ trợ từ các bạn là động lực cho sự phát triển ấy. Xin chân thành cảm ơn.\n\nAmphetamine sẽ luôn là ứng dụng miễn phí 100%, không quảng cáo, không mua trong ứng dụng, không phải trả phí để nâng cấp.\n\nXin dành Amphetamine để trân trọng kí ức về anh bạn Isaac Kirkman của tôi.\n\nWilliam Gustafson\nTác giả của Amphetamine";
+"about_lbl_hard_work" = "🥵 Viết nên Amphetamine là cả một quá trình cần mẫn đấy. 🥵";
+"about_bttn_support" = "Liên hệ Hỗ trợ";
+"about_bttn_rate" = "Đánh giá trên App Store";
+"about_bttn_ack" = "Bản xác nhận";
 
 
 
@@ -1259,26 +1256,26 @@
 // ----- QUICK PREFERENCES
 // ---------------------------------------------------------------------------
 
-"qp_lbl_about" = "Os itens das Preferências Rápidas representam o estado dos itens correspondentes nas Preferências, e não necessariamente, da sessão atual.";
-"qp_lbl_nt_sess" = "Padrões da Sessão";
-"qp_lbl_all_sess" = "Controle do Sistema";
-"qp_lbl_other" = "Outros";
+"qp_lbl_about" = "Các mục Tùy chọn Nhanh đại diện cho tình trạng của mục tương ứng trong màn hình Tùy chọn, và không nhất thiết phải là phiên chạy hiện hành.";
+"qp_lbl_nt_sess" = "Phiên Mặc định";
+"qp_lbl_all_sess" = "Đ.khiển Hệ thống";
+"qp_lbl_other" = "Khác"; // 其他
 
 // PLACEHOLDER REPRESENTS A BATTER CHARGE LEVEL, EXAMPLE: 'END SESSION IF BATTERY IS BELOW 15%'
-"qp_bttn_end_sess_low_batt_title" = "Terminar sessão se bateria estiver abaixo de %@";
-"qp_bttn_end_sess_ac_discon_title" = "Terminar sessão se não conectado à alimentação";
+"qp_bttn_end_sess_low_batt_title" = "Dừng phiên nếu mức pin xuống dưới %@";
+"qp_bttn_end_sess_ac_discon_title" = "Dừng phiên nếu bị ngắt nguồn";
 
 // PLACEHOLDERS REPRESENT A TIME DURATION, EXAMPLE: 'LOCK SCREEN AFTER 1h 15m OF INACTIVITY'
-"qp_bttn_lck_scrn_title" = "Bloquear tela após %01ld%@ de inatividade";
-"qp_bttn_mv_cursor_title" = "Mover cursor após %01ld%@ de inatividade";
+"qp_bttn_lck_scrn_title" = "Khóa màn hình sau %01ld%@ không dùng máy";
+"qp_bttn_mv_cursor_title" = "Di chuyển trỏ chuột sau %01ld%@ không dùng máy";
 
 // ----- Quick Preferences Help Message
 
 // Title
-"help_quick_prefs_title" = "Preferências Rápidas";
+"help_quick_prefs_title" = "Tùy chọn Nhanh";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_quick_prefs_body" = "Cada item das Preferências Rápidas está relacionado ao seu item correspondente nas Preferências do Amphetamine.\n\nNote que o estado de um item nas Preferências Rápidas pode não refletir o comportamento da sessão atual. Isso ocorre especificamente em sessões com Acionador.\n\nO comportamento da sessão atual pode ser alterado ou substituído a qualquer momento em Detalhes da Sessão Atual, no menu do Amphetamine. Para ativar ou desativar esse item no menu, acesse Preferências → Aparência → Extras do Menu.";
+"help_quick_prefs_body" = "Mỗi mục của Tùy chọn Nhanh đều tương ứng với một cài đặt trong màn hình Tùy chọn của Amphetamine.\n\nXin chú ý là trạng thái của một mục trong Tùy chọn Nhanh có thể không thể hiện đúng phiên chạy hiện hành, nhất là những phiên qua Trigger.\n\nHành vi của phiên chạy hiện hành có thể bị thay đổi khi bạn dùng mục menu Chi tiết Phiên chạy Hiện hành. Để bật/tắt mục này, hãy vào Tùy chọn → Giao diện → Mục menu thêm.";
 
 
 
@@ -1289,62 +1286,66 @@
 // ----- Screen Saver Exceptions Help Message
 
 // Title
-"help_screen_saver_exceptions_title" = "Exceções do Protetor de Tela";
+"help_screen_saver_exceptions_title" = "Ngoại lệ cho Screen Saver";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_screen_saver_exceptions_body" = "Se um dos apps ou processos nesta lista estiverem abertos, eles impedirão que o Amphetamine ative o protetor de tela do Mac.\n\nClique no botão “+” para adicionar um app ou processo à lista. Selecione um item na lista e clique no botão “−” para removê-lo.\n\nCaso um app ou processo não conste da lista, ele não está aberto ou a tecnologia de Sandbox de Apps do macOS impede que o Amphetamine o veja.";
+"help_screen_saver_exceptions_body" = "Nếu trong bảng này có ứng dụng hay tiến trình nào đang chạy, Amphetamine sẽ bị ngăn không cho hiển thị trình screen saver của máy Mac.\n\nClick nút dấu + để thêm 1 ứng dụng hoặc tiến trình vào bảng này. Để xoá, chọn tên ứng dụng rồi click nút dấu -.\n\nNếu không tìm thấy ứng dụng hoặc tiến trình cần tìm thì do bạn đang không chạy hoặc công nghệ App Sandbox của macOS đang ngăn Amphetamine được tương tác với ứng dụng/tiến trình ấy.";
 
 
 // ----- Apps & Processes Picker Help Message
 
 // Title
-"help_app_picker_title" = "Apps e Processos";
+"help_app_picker_title" = "Ứng dụng và Tiến trình";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_app_picker_body" = "Para ver um app ou processo na lista, ele deve estar aberto. Use a opção “Não mostrar apps auxiliares ou processos” para filtrar a lista e incluir ou não esses itens. Apps auxiliares e processos podem não ter uma interface e, por muitas vezes, são executados em segundo plano.\n\nCaso um app ou processo não conste da lista, ele não está aberto ou a tecnologia de Sandbox de Apps do macOS impede que o Amphetamine o observe. Para contornar a limitação de sandbox, é preciso instalar o Amphetamine Enhancer.\n\nCaso tenha instalado o Amphetamine Enhancer a ainda assim não veja o app ou processo desejado (e tenha certeza de que ele esteja aberto), aguarde 10 segundos e clique no botão “↻” à direita do campo de busca para atualizar a lista.";
+"help_app_picker_body" = "Một ứng dụng hoặc tiến trình phải đang chạy thì danh sách này mới liệt kê nó. Hãy dùng ô 'Không hiện các app helper và tiến trình' để lọc chúng khỏi danh sách. Các app helper và tiến trình thường không có giao diện người dùng và chạy âm thầm trong nền.\n\nNếu không tìm thấy ứng dụng hoặc tiến trình cần tìm thì do bạn đang không chạy hoặc Amphetamine không được tương tác với ứng dụng/tiến trình ấy vì công nghệ App Sandbox của macOS. Để xử lí vấn đề này, bạn có thể cài đặt Amphetamine Enhancer.\n\nNếu bạn cũng đã cài Amphetamine Enhancer mà vẫn không thấy ứng dụng/tiến trình cần tìm (dù chắc chắn nó đang chạy), vui lòng đợi trong giây lát rồi bấm refresh danh sách này bằng nút ↻ phía bên phải ô tìm kiếm.";
 
 
 // ----- CLOSED DISPLAY MODE WARNING
 
 // Title
-"cdm_warning_title" = "Sobre as Sessões do Modo com Tela Fechada";
+"cdm_warning_title" = "Về Các Phiên ở Chế độ Gập Màn hình";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"cdm_warning_body" = "• Estado da Alimentação\nO Mac deve permanecer em um estado de alimentação inalterado durante uma sessão do Modo com Tela Fechada. Se você conectar ou desconectar uma fonte de alimentação ou adaptador, a sessão do Modo com Tela Fechada falhará. Essa restrição não se aplica a outros tipos de sessão.\n\n• Superaquecimento e Esgotamento da Bateria\nO Mac poderia facilmente sobreaquecer dentro de uma bolsa ou case e a bateria poderia se esgotar completamente se você se esquecer que uma sessão do Modo com Tela Fechada está ativada. Considere ativar os avisos do Modo com Tela Fechada em Preferências → Notificações.\n\n• Medida de Segurança do Amphetamine Enhancer\nSe o Amphetamine falhar durante uma sessão do Modo com Tela Fechada, o Mac poderá ser incapaz de retornar ao comportamento de repouso normal até que você reabra o Amphetamine ou reinicie o Mac. É altamente recomendável instalar o Amphetamine Enhancer como medida de segurança.";
+"cdm_warning_body" = "• Tình trạng Năng lượng\nCác phiên chạy ở chế độ gập màn hình sẽ ngừng nếu máy Mac của bạn bị ngắt khỏi nguồn điện. Khi phiên chạy bắt đầu, nếu máy Mac bị ngắt nguồn, phiên chạy cũng sẽ ngừng. Dù điều này là bắt buộc bởi macOS, các kiểu phiên chạy khác không bị hạn chế như vậy.\n\n• Hao pin và Quá nhiệt\nMáy có thể bị quá nhiệt trong ba lô/va li hoặc pin máy sẽ cạn hoàn toàn nếu bạn quên rằng đã bật tùy chọn chế độ phiên chạy gập màn hình. Hãy xem xét việc bật cảnh cáo chế độ gập màn hình trong Tùy chọn → Thông báo.\n\n• Yên tâm hơn với Amphetamine Enhancer\nNếu Amphetamine bị crash trong một phiên chạy ở chế độ gập màn hình, máy Mac của bạn sẽ có khả năng không thể trở về tình trạng hoạt động như bình thường cho tới khi bạn mở lại Amphetamine hoặc khởi động lại máy. Để phòng khả năng này xảy ra, tôi khuyên bạn hãy cài đặt thêm Amphetamine Enhancer.";
 
 // ----- FAILED CLOSED DISPLAY MODE SESSION WARNING
 
 // Title
-"cdm_fail_warning_title" = "Falha na Sessão do Modo com Tela Fechada";
+"cdm_fail_warning_title" = "Phiên chạy ở Chế độ Gập Màn hình Không thành công";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"cdm_fail_warning_body" = "Uma sessão do Modo com Tela Fechada falhou. Uma fonte de alimentação ou adaptador externo foi conectado ou desconectado. O Mac deve permanecer em um estado de alimentação inalterado durante uma sessão do Modo com Tela Fechada. Essa restrição não se aplica a outros tipos de sessão.\n\nO Amphetamine terminou automaticamente a sessão do Modo com Tela Fechada. Se uma sessão com Acionador tiver recomeçado, ela não deve ser afetada.";
+"cdm_fail_warning_body" = "Phiên chạy ở chế độ gập màn hình đã không thể duy trì do máy được kết nối với nguồn điện/củ sạc. Vấn đề này chỉ xảy ra trên một số máy Mac nhất định.\n\nNếu máy Mac của bạn không bị ảnh hưởng, bạn có thể tắt tính năng này ở bên dưới.";
+
+
+// ----- FAILED CLOSED DISPLAY MODE SESSION WARNING SUPPRESSION
+"cdm_fail_warning_suppression" =  "Tắt tính năng ngừng phiên khi gập màn hình";
 
 
 // ----- TRIGGER SESSION WARNING
 
 // USED IN SENTENCES, SEE PLACEHOLDER %@ IN KEY sess_is_trigger_body FOR EXAMPLE USAGE
 // OTHER EXAMPLE: IF YOU WOULD LIKE TO 'ALLOW' / 'PREVENT' THE DISPLAY TO SLEEP
-"gen_use_allow" = "permitir";
-"gen_use_prevent" = "impedir";
+"gen_use_allow" = "cho phép";
+"gen_use_prevent" = "chặn";
 
 // USED IN SENTENCES, SEE PLACEHOLDER %@ IN KEY sess_is_trigger_body FOR EXAMPLE USAGE
 // OTHER EXAMPLE: YOU NEED TO 'CHECK' / 'UNCHECK' THE BOX TO ENABLE THIS FEATURE
-"gen_use_check" = "selecione";
-"gen_use_uncheck" = "desmarque";
+"gen_use_check" = "chọn";
+"gen_use_uncheck" = "bỏ chọn";
 
 // ----- SESSION IS TRIGGER
-"sess_is_trigger_ds_bttn_title" = "Permitir repouso da tela";
-"sess_is_trigger_ds_feature" = "o repouso da tela";
+"sess_is_trigger_ds_bttn_title" = "Cho phép Tắt Màn hình";
+"sess_is_trigger_ds_feature" = "màn hình tắt";
 
-"sess_is_trigger_ss_bttn_title" = "Permitir protetor de tela";
-"sess_is_trigger_ss_feature" = "a ativação do protetor de tela";
+"sess_is_trigger_ss_bttn_title" = "Cho phép Screen Saver";
+"sess_is_trigger_ss_feature" = "kích hoạt screen saver";
 
-"sess_is_trigger_cdm_feature" = "o repouso com a tela fechada";
-"sess_is_trigger_cdm_bttn_title" = "Permitir repouso do sistema com tela fechada";
+"sess_is_trigger_cdm_feature" = "ngủ khi gập màn hình";
+"sess_is_trigger_cdm_bttn_title" = "Cho phép Hệ thống Ngủ Khi Gập Màn hình";
 
 // Title
-"sess_is_trigger_title" = "A sessão atual é uma sessão com Acionador";
+"sess_is_trigger_title" = "Phiên hiện hành là một phiên qua Trigger";
 
 // PLACEHOLDERS MAY BE EITHER THE FEATURE, TITLE, CHECK/UNCHECK, OR ALLOW/PREVENT KEYS LISTED ABOVE. EXAMPLE:
 
@@ -1353,28 +1354,28 @@
 */
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"sess_is_trigger_body" = "Você modificou uma preferência que se aplica apenas a sessões sem Acionador.\n\nCada Acionador tem sua própria opção de “%@”, a qual pode ser alterada ao editar o Acionador. Para editar um Acionador, acesse Preferências → Acionadores e clique duas vezes no Acionador que deseja editar.\n\nCaso deseje %@ temporariamente %@ pela duração desta sessão com Acionador, clique no ícone do Amphetamine na barra de menus e %@ a opção “%@” em Detalhes da Sessão Atual.\n\nCaso esses detalhes não apareçam, acesse Preferências → Aparência → Extras do Menu e selecione a opção “Mostrar detalhes da sessão atual”.";
+"sess_is_trigger_body" = "Bạn vừa đổi một thiết đặt vốn chỉ tác động đến các phiên chạy không qua Trigger.\n\nMỗi Trigger có %@ tùy chọn riêng; bạn có thể thay đổi trong thông số tiêu chí của từng Trigger. Để sửa đổi một Trigger, hãy vào Tùy chọn → Triggers và click đúp vào Trigger bạn cần sửa.\n\nNếu bạn muốn tạm thời %@ %@ trong khoảng thời gian của phiên chạy qua Trigger này, hãy click vào ảnh của Amphetamine trên thanh menu và %@ ô chọn %@ trong phần Chi tiết Phiên chạy Hiện hành\n\nNếu bạn không thấy có phần Chi tiết Phiên chạy Hiện hành trong menu Amphetamine, hãy vào Tùy chọn → Giao diện → Mục Menu Thêm và click chọn ô Hiện chi tiết phiên hiện hành.";
 
 // ----- LOCK SCREEN MESSAGE
 
-"lck_scrn_request_title" = "Para bloquear a tela, o Amphetamine precisa de acesso aos recursos de acessibilidade.";
+"lck_scrn_request_title" = "Để có thể khóa màn hình, Amphetamine cần bạn cho phép truy cập tính năng Trợ năng.";
 
 // ** NOTE: DO NOT REMOVE '\n' **
-"lck_scrn_request_body" = "Você pode conceder acesso aos recursos de acessibilidade ao Amphetamine em Preferências do Sistema → Segurança e Privacidade → Privacidade → Acessibilidade.\n\nNas Preferências do Sistema, clique no ícone de cadeado no canto inferior esquerdo e digite a senha do Mac quando solicitada. Depois, selecione a caixa ao lado do Amphetamine na seção Acessibilidade da aba Privacidade das preferências de Segurança e Privacidade.\n\nCaso não veja o Amphetamine nessa lista, clique no botão “+” e selecione‑o na pasta Aplicativos.\n\nDepois de conceder acesso ao Amphetamine, volte aqui e tente ativar este recurso novamente.";
+"lck_scrn_request_body" = "Bạn có thể cho phép Amphetamine truy cập tính năng về trợ năng trong Tùy chọn Hệ thống → Bảo mật & Quyền riêng tư → Quyền riêng tư → Trợ năng.\n\nTrong Tùy chọn Hệ thống, click vào icon hình ổ khóa ở góc dưới bên trái và nhập mật khẩu máy Mac của bạn vào. Sau đó, click chọn ô bên cạnh tên của Amphetamine trong mục Trợ năng của tab Quyền riêng tư.\n\nNếu bạn không thấy có Amphetamine trong danh sách Trợ năng, hãy click nút dấu + rồi dò tìm Amphetamine trong thư mục Ứng dụng.\n\nMột khi đã cấp quyền truy cập trợ năng cho Amphetamine xong, bạn hãy trở lại phần tính năng này và bật nó lên nhé.";
 
 
 // ----- CURSOR MOVEMENT MESSAGE
 
-"move_cursor_request_title" = "Para mover o cursor, o Amphetamine precisa de acesso aos recursos de acessibilidade.";
+"move_cursor_request_title" = "Để có thể di chuyển con trỏ chuột, Amphetamine cần bạn cho phép truy cập tính năng Trợ năng.";
 
-"move_cursor_request_body" = "Você pode conceder acesso aos recursos de acessibilidade ao Amphetamine em Preferências do Sistema → Segurança e Privacidade → Privacidade → Acessibilidade.\n\nNas Preferências do Sistema, clique no ícone de cadeado no canto inferior esquerdo e digite a senha do Mac quando solicitada. Depois, selecione a caixa ao lado do Amphetamine na seção Acessibilidade da aba Privacidade das preferências de Segurança e Privacidade.\n\nCaso não veja o Amphetamine nessa lista, clique no botão “+” e selecione‑o na pasta Aplicativos.\n\nDepois de conceder acesso ao Amphetamine, volte aqui e tente ativar este recurso novamente.";
+"move_cursor_request_body" = "Bạn có thể cho phép Amphetamine truy cập tính năng về trợ năng trong Tùy chọn Hệ thống → Bảo mật & Quyền riêng tư → Quyền riêng tư → Trợ năng.\n\nTrong Tùy chọn Hệ thống, click vào icon hình ổ khóa ở góc dưới bên trái và nhập mật khẩu máy Mac của bạn vào. Sau đó, click chọn ô bên cạnh tên của Amphetamine trong mục Trợ năng của tab Quyền riêng tư.\n\nNếu bạn không thấy có Amphetamine trong danh sách Trợ năng, hãy click nút dấu + rồi dò tìm Amphetamine trong thư mục Ứng dụng.\n\nMột khi đã cấp quyền truy cập trợ năng cho Amphetamine xong, bạn hãy trở lại phần tính năng này và bật nó lên nhé.";
 
 
 // ----- WHILE FILE IS DOWNLOADING MESSAGE
 
-"file_dwnld_title" = "Limite de Tempo";
+"file_dwnld_title" = "Đếm giờ";
 
-"file_dwnld_body" = "Escolha um limite de tempo para o download do arquivo. Se o arquivo não mudar nem aumentar de tamanho durante este período, a sessão será encerrada.";
+"file_dwnld_body" = "Chọn thời gian chờ để tải file. Nếu dung lượng file không thay đổi hay tăng trong khoảng thời gian này, phiên chạy sẽ kết thúc.";
 
 
 
@@ -1385,13 +1386,13 @@
 // ---------------------------------------------------------------------------
 
 // BUTTON TITLE, USED TO CONFIRM SELECTION OF ITEM
-"dialog_select_bttn_title" = "Selecionar";
+"dialog_select_bttn_title" = "Chọn";
 
 // CUSTOM SOUND FILE DIALOG MESSAGE
-"dialog_sound_select" = "Escolha os sons que deseja adicionar ao Amphetamine:";
+"dialog_sound_select" = "Hãy chọn âm thanh bạn muốn thêm vào Amphetamine:";
 
 // drive
-"dialog_drivealive_select" = "Escolha o disco que deseja manter desperto:";
+"dialog_drivealive_select" = "Hãy chọn ổ đĩa bạn muốn giữ luôn thức:";
 
 
 
@@ -1405,133 +1406,132 @@
 // ALERT BUTTON LABELS/TITLES
 
 "alert_ok_button_title" = "OK";
-"alert_get_amph_enhancer_button_title" = "Obter o Amphetamine Enhancer";
-"alert_dont_show_type_again" = "Não mostrar este tipo de mensagem novamente";
-"alert_dont_show_again" = "Não mostrar esta mensagem novamente";
-"alert_dont_ask_again" = "Não perguntar novamente";
-"alert_open_sys_prefs" = "Abrir Preferências do Sistema";
+"alert_get_amph_enhancer_button_title" = "Tải Amphetamine Enhancer";
+"alert_dont_show_type_again" = "Không hiện cảnh báo như thế này nữa";
+"alert_dont_show_again" = "Không hiện cảnh báo này nữa";
+"alert_dont_ask_again" = "Không hỏi nữa";
+"alert_open_sys_prefs" = "Mở Tùy chọn Hệ thống";
 
 // GENERIC ERROR MESSAGE
-"error_generic_went_wrong_title" = "Ops. Algo deu errado.";
-"error_generic_went_wrong_body" = "Tente novamente. Caso o problema persista, acesse iffy.freshdesk.com para enviar um pedido de suporte.";
+"error_generic_went_wrong_title" = "Ui cha. Có gì đó sai sai đã xảy ra.";
+"error_generic_went_wrong_body" = "Xin vui lòng thử lại. Nếu vẫn xảy ra cùng một vấn đề, bạn hãy gửi yêu cầu hỗ trợ ở trang iffy.freshdesk.com.";
 
 // TRIGGER EDIT ERROR MESSAGE // v5.0.1
-"error_trigger_edit_title" = "Este Acionador não pode ser editado.";
-"error_trigger_edit_body" = "Tente novamente. Caso o problema persista, remova o Acionador e recrie-o. Caso não consiga recriar o Acionador, acesse iffy.freshdesk.com para enviar um pedido de suporte.";
+"error_trigger_edit_title" = "Không thể sửa đổi Trigger này.";
+"error_trigger_edit_body" = "Xin vui lòng thử lại. Nếu vẫn xảy ra cùng một vấn đề, bạn hãy xóa Trigger đó và tạo lại. Nếu bạn cũng không thể tạo lại Trigger, bạn hãy gửi yêu cầu hỗ trợ ở trang iffy.freshdesk.com.";
 
 // ----- SCREEN SAVER FOR TRIGGER ALERT
-"alert_trig_scn_svr_bttn_enable" = "Ativar Protetor de Tela";
+"alert_trig_scn_svr_bttn_enable" = "Bật Screen Saver";
 
-"alert_trig_scn_svr_title" = "Este Acionador não está configurado para permitir o protetor de tela.";
-"alert_trig_scn_svr_body" = "Embora este Acionador não esteja configurado para permitir o protetor de tela, você pode permiti-lo nesta sessão. Para que este Acionador sempre permita o protetor de tela, acesse Preferências → Acionadores e clique duas vezes no Acionador para editá-lo.\n\nCaso deseje permitir o protetor de tela apenas nesta sessão, escolha um intervalo abaixo e clique em Ativar Protetor de Tela.";
+"alert_trig_scn_svr_title" = "Trigger này không được thiết lập để cho phép chạy screen saver.";
+"alert_trig_scn_svr_body" = "Dù Trigger này không được thiết lập để cho phép chạy screen saver, bạn vẫn có thể thay đổi được. Để làm được điều này, hãy vào Tùy chọn → Triggers và click đúp vào tên Trigger để sửa.\n\Hoặc không bạn hãy chọn một mức delay bên dưới, rồi click Bật Screen Saver.";
 
 // ----- DRIVE ALIVE SANDBOX ALERT
-"alert_drivealive_tech_det_title" = "Alguns detalhes técnicos…";
+"alert_drivealive_tech_det_title" = "Vài chi tiết về kĩ thuật...";
 
 // PLACEHOLDER IS NAME OF DRIVE
-"alert_drivealive_tech_det_body" = "A tecnologia de Sandbox de Apps do macOS impede que o Amphetamine grave no diretório raiz do disco onde o macOS está instalado.\n\nO Amphetamine ainda poderá manter este disco desperto, mas os dados serão gravados no seguinte caminho:\n\n%@";
+"alert_drivealive_tech_det_body" = "Công nghệ App Sandbox của macOS ngăn không cho Amphetamine ghi thông tin vào thư mục gốc của ổ đĩa chứa phần cài đặt của macOS.\n\nAmphetamine vẫn có thể giữ ổ đĩa này luôn thức, và thay vào đó sẽ ghi dữ liệu theo đường dẫn này:\n\n%@";
 
-"alert_drivealive_net_vol_title" = "Volume de rede detectado";
-"alert_drivealive_net_vol_body" = "O disco ou volume selecionado parece ser um volume de rede ou não local. Note que, se a conexão a esse volume for perdida ou ele estiver indisponível de outra forma, o Amphetamine pode parar de responder.";
+"alert_drivealive_net_vol_title" = "Đã dò thấy phân vùng mạng";
+"alert_drivealive_net_vol_body" = "Ổ đĩa/phân vùng bạn vừa chọn có vẻ là một phân vùng mạng hoặc không nội bộ trên máy. Xin lưu ý nếu vì lí do nào đó kết nối đến phân vùng này bị mất, Amphetamine có thể bị treo.";
 
 // ----- APP PICK ERROR
-"alert_app_select_title" = "Algo deu errado.";
-"alert_app_select_body" = "Talvez você não tenha selecionado um app ou o app selecionado tenha sido encerrado. Selecione outro app ou reabra o app selecionado anteriormente.";
+"alert_app_select_title" = "Có gì đó không đúng.";
+"alert_app_select_body" = "Có thể bạn đã không chọn một ứng dụng hoặc ứng dụng đó đã thoát. Vui lòng chọn một ứng dụng khác hoặc chạy lại ứng dụng bạn vừa chọn trước đó.";
 
 // ----- APPLESCRIPT ERROR
-"alert_applescript_fail_title" = "Ocorreu um erro.";
-"alert_applescript_fail_title" = "O Amphetamine não pôde entender a mensagem recebida do AppleScript.";
+"alert_applescript_fail_title" = "Có lỗi xảy ra.";
+"alert_applescript_fail_title" = "Amphetamine không thể dịch dữ liệu gửi từ AppleScript";
 
 // ----- LOCK SCREEN FAILURE
-"alert_lck_scrn_fail_title" = "O Amphetamine não pôde bloquear a tela.";
-"alert_lck_scrn_fail_body" = "Acesse Preferências → Controle do Sistema para reativar esse recurso.";
+"alert_lck_scrn_fail_title" = "Amphetamine không thể khóa được màn hình.";
+"alert_lck_scrn_fail_body" = "Hãy vào Tùy chọn → Điều khiển Hệ thống để bật lại tính năng này.";
 
 // ----- DEFAULT DURATION
-"alert_dd_less_one_min_title" = "A duração padrão não pode ser de menos de um minuto.";
-"alert_dd_less_one_min_body" = "A duração padrão foi alterada para o valor mínimo de 0 hora e 1 minuto.";
+"alert_dd_less_one_min_title" = "Thời gian mặc định không thể ít hơn 1 phút.";
+"alert_dd_less_one_min_body" = "Khoảng thời gian mặc định đã được đổi thành giá trị tối thiểu là 0 giờ 1 phút.";
 
 // ----- CUSTOM STATUS/MENU BAR ITEM IMAGE MISSING OR NOT FOUND
-"cust_img_not_found_title" = "Nenhuma imagem personalizada foi encontrada.";
-"cust_img_not_found_body" = "Duas imagens personalizadas (estado ativo e inativo) são necessárias. As imagens padrão serão usadas.";
+"cust_img_not_found_title" = "Không thấy ảnh tùy chọn.";
+"cust_img_not_found_body" = "Cần có 2 ảnh tùy chọn cho chế độ chạy/không chạy. biểu tượng mặc định sẽ được dùng thay.";
 
 // ----- CUSTOM STATUS/MENU BAR ITEM IMAGE SAVE ERROR
-"cust_img_save_err_title" = "As imagens não puderam ser salvas.";
-"cust_img_save_err_body" = "Ocorreu um erro desconhecido. As imagens padrão serão usadas.";
+"cust_img_save_err_title" = "Không thể lưu ảnh.";
+"cust_img_save_err_body" = "Đã xảy ra lỗi không xác định. biểu tượng mặc định sẽ được dùng thay.";
 
 // ----- RESET PREFERENCES CONFIRMATION
-"prefs_reset_conf_title" = "Tem certeza de que deseja redefinir as preferências do Amphetamine?";
-"prefs_reset_conf_body" = "Todas as preferências serão redefinidas aos valores padrão e todas as configurações de Acionadores e Disco Vivo serão perdidas.";
+"prefs_reset_conf_title" = "Bạn có chắc chắn muốn reset các tùy chỉnh của Amphetamine?";
+"prefs_reset_conf_body" = "Tất cả tùy chọn sẽ được đưa về mặc định ban đầu. Bạn cũng sẽ mất các thiết lập về Trigger và Drive Alive.";
 
 // ----- RESET WARNINGS & DIALOGS CONFIRMATION
-"warn_diag_reset_conf_title" = "Avisos e diálogos redefinidos com sucesso.";
-"warn_diag_reset_conf_body" = "Aviso dado.";
+"warn_diag_reset_conf_title" = "Reset các cảnh báo và hộp thoại thành công.";
+"warn_diag_reset_conf_body" = "Tôi đã cảnh báo bạn rồi mà nhỉ.";
 
 // ----- IP ADDRESS CRITERIA MESSAGE
-"alert_no_ip_address_title" = "Nenhum endereço IP foi encontrado.";
-"alert_no_ip_address_body" = "Certifique-se de que o Mac possa se conectar à internet e/ou tenha um endereço IP válido.";
+"alert_no_ip_address_title" = "Không thấy địa chỉ IP nào.";
+"alert_no_ip_address_body" = "Vui lòng kiểm tra lại xem máy Mac của bạn có đang kết nối Internet và/hoặc có 1 địa chỉ IP hợp lệ không.";
 
 // ----- DNS SERVER CRITERIA MESSAGE
-"dns_no_new_serv_title" = "Nenhum servidor DNS foi encontrado.";
-"dns_no_new_serv_body" = "Os servidores DNS que aparecem na lista atualmente são os únicos informados como em uso pelo macOS. Caso tenha atualizado os servidores DNS nas Preferências do Sistema ou alterado a configuração de rede, aguarde alguns minutos e tente novamente.";
+"dns_no_new_serv_title" = "Không thấy máy chủ DNS mới nào.";
+"dns_no_new_serv_body" = "Các máy chủ DNS trong danh sách là những gì macOS đã khai báo. Nếu gần đây bạn có cập nhật máy chủ DNS trong Tùy chọn Hệ thống, hay thay đổi thiết đặt mạng, xin vui lòng đợi trong giây lát và thử lại.";
 
 // ----- DRIVE ALIVE WRITE ERROR
-"drive_alive_write_err_title" = "Ocorreu um erro.";
-"drive_alive_write_err_body" = "O Amphetamine não tem permissão para gravar dados neste local. Isso provavelmente se deve à tecnologia de Sandbox de Apps do macOS ou ao formato do volume.\n\nPara contornar isso, você pode tentar o seguinte:\n\nCrie uma nova pasta na raiz do volume ou disco (a senha de um usuário administrador pode ser solicitada). Selecione essa pasta para usar com o Disco Vivo.";
+"drive_alive_write_err_title" = "Có lỗi xảy ra.";
+"drive_alive_write_err_body" = "Amphetamine không được cấp quyền ghi dữ liệu đến đường dẫn này. Khả năng cao là do công nghệ App Sandbox của macOS hoặc do định dạng của phân vùng.\n\Bạn có thể thử cách này, nhưng tôi không đảm bảo nhé:\n\nHãy tạo một thư mục mới trong thư mục gốc của phân vùng/ổ đĩa (có thể phải nhập mật khẩu tài khoản admin). Sau đó, chọn sử dụng thư mục vừa tạo cho Drive Alive.";
 
 // ----- DRIVE ALIVE NETWORK VOLUME PROMPT
-"alert_net_volume_title" = "Volume ou Disco de Rede";
+"alert_net_volume_title" = "Phân vùng/Ổ đĩa Mạng";
 
 // PLACEHOLDER IS NAME OF DRIVE
-"alert_net_volume_body" = "O volume ou disco chamado “%@” está conectado a uma rede? Responda a essa pergunta corretamente para ajudar o Amphetamine a funcionar com mais eficiência.";
+"alert_net_volume_body" = "Phân vùng/ổ đĩa có tên '%@' có phải được kết nối qua mạng không? Trả lời đúng câu hỏi này sẽ giúp Amphetamine hoạt động chính xác hơn nhiều đấy.";
 
 // ----- BETA EXPIRATION
-"alert_beta_expired_title" = "Este beta expirou.";
-"alert_beta_expired_body" = "Para obter uma nova versão do beta do Amphetamine, visite github.com/x74353/AmphetamineBeta. O Amphetamine será encerrado agora.";
+"alert_beta_expired_title" = "Bản beta này đã hết hạn.";
+"alert_beta_expired_body" = "Để tải về bản beta mới của Amphetamine, vui lòng truy cập github.com/x74353/AmphetamineBeta. Bây giờ Amphetamine sẽ thoát.";
 
 // ----- DISABLE TRIGGERS MESSAGE
-"alert_disable_trig_title" = "Uma sessão com Acionador está em andamento.";
+"alert_disable_trig_title" = "1 Phiên Có Trigger Đang Chạy.";
 
 // PLACEHOLDER IS NAME OF TRIGGER
-"alert_disable_trig_body" = "Para terminar esta sessão, é preciso desativar o seguinte Acionador: \n\n%@\n\nVocê pode usar o botão abaixo para desativar todos os Acionadores ou acessar as Preferências do Amphetamine para desativar apenas esse Acionador específico. Você sempre pode reativar todos os Acionadores nas Preferências do Amphetamine mais tarde.";
+"alert_disable_trig_body" = "Bắt buộc phải tắt các Trigger sau để dừng phiên này:\n\n%@\n\nBạn có thể tắt toàn bộ Trigger bằng nút bên dưới, hoặc vào mục Tùy chọn để tắt một Trigger cụ thể. Dù sao bạn vẫn có thể bật lại tất cả Trigger từ màn hình Tùy chọn mà nhỉ.";
 
-"alert_disable_trig_bttn_disable" = "Desativar Todos os Acionadores";
-"alert_disable_trig_bttn_suppress" = "Desativar automaticamente todos os Acionadores da próxima vez";
+"alert_disable_trig_bttn_disable" = "Tắt Tất cả Trigger";
+"alert_disable_trig_bttn_suppress" = "Tự động Tắt Tất cả Trigger ở Lần chạy Kế tiếp";
 
-"alert_disable_trig_dur_indef" = "Desativar indefinidamente";
-"alert_disable_trig_dur_5mins" = "Desativar por 5 minutos";
-"alert_disable_trig_dur_10mins" = "Desativar por 10 minutos";
-"alert_disable_trig_dur_15mins" = "Desativar por 15 minutos";
-"alert_disable_trig_dur_30mins" = "Desativar por 30 minutos";
-"alert_disable_trig_dur_45mins" = "Desativar por 45 minutos";
-"alert_disable_trig_dur_1hr" = "Desativar por 1 hora";
-"alert_disable_trig_dur_2hrs" = "Desativar por 2 horas";
-"alert_disable_trig_dur_3hrs" = "Desativar por 3 horas";
-"alert_disable_trig_dur_4hrs" = "Desativar por 4 horas";
-"alert_disable_trig_dur_5hrs" = "Desativar por 5 horas";
-"alert_disable_trig_dur_6hrs" = "Desativar por 6 horas";
-"alert_disable_trig_dur_7hrs" = "Desativar por 7 horas";
-"alert_disable_trig_dur_8hrs" = "Desativar por 8 horas";
-"alert_disable_trig_dur_9hrs" = "Desativar por 9 horas";
-"alert_disable_trig_dur_10hrs" = "Desativar por 10 horas";
-"alert_disable_trig_dur_12hrs" = "Desativar por 12 horas";
-"alert_disable_trig_dur_24hrs" = "Desativar por 24 horas";
+"alert_disable_trig_dur_indef" = "Tắt vĩnh viễn";
+"alert_disable_trig_dur_5mins" = "Tắt trong 5 phút";
+"alert_disable_trig_dur_10mins" = "Tắt trong 10 phút";
+"alert_disable_trig_dur_15mins" = "Tắt trong 15 phút";
+"alert_disable_trig_dur_30mins" = "Tắt trong 30 phút";
+"alert_disable_trig_dur_45mins" = "Tắt trong 45 phút";
+"alert_disable_trig_dur_1hr" = "Tắt trong 1 giờ";
+"alert_disable_trig_dur_2hrs" = "Tắt trong 2 giờ";
+"alert_disable_trig_dur_3hrs" = "Tắt trong 3 giờ";
+"alert_disable_trig_dur_4hrs" = "Tắt trong 4 giờ";
+"alert_disable_trig_dur_5hrs" = "Tắt trong 5 giờ";
+"alert_disable_trig_dur_6hrs" = "Tắt trong 6 giờ";
+"alert_disable_trig_dur_7hrs" = "Tắt trong 7 giờ";
+"alert_disable_trig_dur_8hrs" = "Tắt trong 8 giờ";
+"alert_disable_trig_dur_9hrs" = "Tắt trong 9 giờ";
+"alert_disable_trig_dur_10hrs" = "Tắt trong 10 giờ";
+"alert_disable_trig_dur_12hrs" = "Tắt trong 12 giờ";
+"alert_disable_trig_dur_24hrs" = "Tắt trong 24 giờ";
 
 // ----- TRIGGER EVALUATION FAILED MESSAGE
-"alert_trigger_eval_fail_title" = "A avaliação do critério do Acionador falhou.";
-"alert_trigger_eval_fail_body" = "Ocorreu um erro ao tentar avaliar o critério de %@ do Acionador “%@”.\n\nSe este problema ocorrer com frequência, tente apagar e recriar o Acionador.";
-
+"alert_trigger_eval_fail_title" = "Lỗi đánh giá tiêu chí cho Trigger.";
+"alert_trigger_eval_fail_body" = "Đã xảy ra lỗi trong lúc đánh giá tiêu chí %@ của Trigger, \"%@.\"\n\nHãy thử xóa và tạo lại Trigger nếu vấn đề này xảy ra thường xuyên.";
 
 
 // ----- AMPHETAMINE 3 → 4/5 PREFERENCES CONVERSION
-"amph3_prefs_cnvrt_bttn_migrate" = "Migrar";
-"amph3_prefs_cnvrt_bttn_reset" = "Redefinir";
-"amph3_prefs_cnvrt_bttn_backup" = "Fazer Backup";
-"amph3_prefs_cnvrt_bttn_quit" = "Encerrar";
+"amph3_prefs_cnvrt_bttn_migrate" = "Nhập cài đặt";
+"amph3_prefs_cnvrt_bttn_reset" = "Reset";
+"amph3_prefs_cnvrt_bttn_backup" = "Backup";
+"amph3_prefs_cnvrt_bttn_quit" = "Thoát";
 
-"amph3_prefs_cnvrt_message" = "Devido a todos os novos recursos incríveis do Amphetamine 5, as preferências do Amphetamine 3 precisam ser migradas ou redefinidas. Se você optar por migrar, o Amphetamine tentará migrar todas as preferências anteriores (incluindo Acionadores, ajustes de Disco Vivo, ícones, durações, atalhos, etc.) para o novo formato do Amphetamine 5.\n\nObviamente, há algum risco nessa operação. Migre com cautela. Se você não puder perder nenhuma das preferências do Amphetamine 3, faça um backup antes de tentar migrá-las.\n\nSe você preferir começar do zero (e por quê não?), opte por redefinir. Se esta mensagem estiver sendo exibida inesperadamente, clique em Redefinir.";
+"amph3_prefs_cnvrt_message" = "Do phiên bản Amphetamine 5 tuyệt vời quá nên các thiết đặt từ bản Amphetamine 3 của bạn cần được nhập sang hoặc reset lại. Nếu bạn chọn Nhập cài đặt, Amphetamine sẽ thử nhập toàn bộ các tùy chọn trước đó (bao gồm Trigger, Drive Alive, biểu tượng, khoảng thời gian, phím nóng, v.v) sang định dạng mới cho Amphetamine 5.\n\nTất nhiên sẽ có một ít rủi ro trong quá trình này, vậy nên hãy thận trọng. Nếu bạn hoàn toàn không muốn mất các cài đặt của bản Amphetamine 3, hãy chọn Backup trước khi thử Nhập cài đặt.\n\nCòn nếu bạn muốn bắt đầu lại từ đầu (khá đấy!), hãy chọn Reset. Cứ click nút Reset nếu bạn không mong đợi thông báo này nhé.";
 
-"amph3_prefs_cnvrt_backedup" = "Um backup das preferências do Amphetamine foi feito.";
-"amph3_prefs_cnvrt_ask" = "Uma solicitação para que você migre ou redefina as preferências será feita agora.";
+"amph3_prefs_cnvrt_backedup" = "Các tùy chọn của Amphetamine đã được back up.";
+"amph3_prefs_cnvrt_ask" = "Bây giờ ứng dụng sẽ hỏi bạn muốn nhập hay reset các tùy chọn.";
 
 
 
@@ -1541,21 +1541,21 @@
 // ----- NOTIFICATION MESSAGES
 // ---------------------------------------------------------------------------
 
-"notif_session_not_active" = "Não há uma sessão ativa";
-"notif_amph_keep_awake" = "O Amphetamine está mantendo o Mac desperto";
-"notif_amph_trig_start" = "Sessão com Acionador começada";
-"notif_amph_trig_end" = "Sessão com Acionador terminada";
-"notif_sleep_normal" = "O Mac repousará no agendamento normal";
-"notif_next_reminder_plural_int" = "Próximo lembrete em %li minutos"; // PLACEHOLDER IS THE TIME UNTIL NEXT REMINDER, EXAMPLE: 'NEXT REMINDER IN 5 MINUTES'
-"notif_next_reminder_singular_int" = "Próximo lembrete em %li minuto"; // PLACEHOLDER IS THE TIME UNTIL NEXT REMINDER, EXAMPLE: 'NEXT REMINDER IN 1 MINUTE'
-"notif_batt_no_ac" = "Bateria não conectada à alimentação";
-"notif_batt_charge_low" = "A carga da bateria está abaixo de %li%%"; // PLACEHOLDER IS BATTERY CHARGE LEVEL, EXAMPLE: 'BATTERY CHARGE IS BELOW 15%'
+"notif_session_not_active" = "Phiên không hoạt động";
+"notif_amph_keep_awake" = "Amphetamine đã giữ máy Mac này thức";
+"notif_amph_trig_start" = "Đã bắt đầu phiên có Trigger";
+"notif_amph_trig_end" = "Đã dừng phiên có Trigger";
+"notif_sleep_normal" = "Máy Mac này sẽ ngủ theo thời gian biểu thông thường";
+"notif_next_reminder_plural_int" = "Lời nhắc tiếp theo trong %li phút"; // PLACEHOLDER IS THE TIME UNTIL NEXT REMINDER, EXAMPLE: 'NEXT REMINDER IN 5 MINUTES'
+"notif_next_reminder_singular_int" = "Lời nhắn tiếp theo trong %li phút"; // PLACEHOLDER IS THE TIME UNTIL NEXT REMINDER, EXAMPLE: 'NEXT REMINDER IN 1 MINUTE'
+"notif_batt_no_ac" = "Pin không được nối vào nguồn điện";
+"notif_batt_charge_low" = "Mức pin đang xuống dưới %li%%"; // PLACEHOLDER IS BATTERY CHARGE LEVEL, EXAMPLE: 'BATTERY CHARGE IS BELOW 15%'
 
 // THESE ARE USED TO INDICATE THE STATE OF EACH OPTION IN NOTIFICATIONS
 // SPACE IS EXTREMELY LIMITED IN NOTIFICATIONS, SO PLEASE ABBREVIATE WHERE POSSIBLE
-"notif_disp_sleep_state" = "Repouso da tela:"; // 🖥️ ✗ Display Sleep:
-"notif_scrn_svr_state" = "Protetor de tela:"; // 🌌 ✗ Screen Saver:
-"notif_cdm_state" = "MTF:"; // CLOSED-DISPLAY MODE // 🐚 ✗ CDM
+"notif_disp_sleep_state" = "Sleep Màn hình:"; // 🖥️ ✗ Display Sleep:
+"notif_scrn_svr_state" = "Screen Saver:"; // 🌌 ✗ Screen Saver:
+"notif_cdm_state" = "CĐG:"; // CLOSED-DISPLAY MODE // 🐚 ✗ CDM
 
 // THESE ARE USED TO INDICATE THE STATE OF EACH OPTION IN NOTIFICATIONS
 // UNLESS THESE CHARACTERS DO NOT EQUATE TO ON/YES OFF/NO IN THE TARGET LANGUAGE, THESE SHOULD LIKELY NOT BE CHANGED/TRANSLATED
@@ -1563,95 +1563,61 @@
 "notif_state_allowed" = "✓"; // YES/ON/ALLOWED, other potential symbols: ✅ ✓
 
 // ----- REGULAR SESSION ENDED
-"generic_sess_end_1" = "Sessão terminada";
+"generic_sess_end_1" = "Đã dừng phiên";
 
 // ----- APP SESSION ENDED NOTIFICATION
 
 // NOTE: DO NOT REMOVE '%@'; %@ IS PLACEHOLDER FOR APP NAME
-"app_sess_end_2" = "O app %@ não está mais aberto"; // EXAMPLE: 'SAFARI' IS NO LONGER RUNNING
+"app_sess_end_2" = "%@ không còn chạy nữa"; // EXAMPLE: 'SAFARI' IS NO LONGER RUNNING
 
 // ----- UNTIL TIME SESSION ENDED NOTIFICATION
 
 // ** NOTE: DO NOT REMOVE %@ **
-"until_sess_end_1" = "Sessão de tempo fixo terminada";
-"until_sess_end_2" = "Horário final (%@) alcançado"; // PLACEHOLDER IS A TIME, EXAMPLE: 'END TIME (5:00 PM) HAS PASSED'
+"until_sess_end_1" = "Đã dừng phiên có tính thời gian";
+"until_sess_end_2" = "Đã đến thời gian dừng (%@)"; // PLACEHOLDER IS A TIME, EXAMPLE: 'END TIME (5:00 PM) HAS PASSED'
 
 
 // ----- TIMED SESSION HAS ENDED NOTIFICATION
-"timed_sess_end_1" = "Sessão de tempo fixo terminada";
-"timed_sess_end_2" = "Duração da sessão alcançada";
+"timed_sess_end_1" = "Đã dừng phiên có tính thời gian";
+"timed_sess_end_2" = "Thời gian của phiên đã hết";
 
 // ----- DISPLAY SLEEP TOGGLED VIA HOTKEY
-"disp_sleep_toggled" = "Repouso da tela alternado";
-"disp_sleep_toggle_allow" = "Repouso da tela permitido";
-"disp_sleep_toggle_prevent" = "Repouso da tela não permitido";
-"disp_sleep_toggle_fail" = "Repouso da tela não alternado";
+"disp_sleep_toggled" = "Đã bật Sleep Màn hình";
+"disp_sleep_toggle_allow" = "Cho phép sleep màn hình";
+"disp_sleep_toggle_prevent" = "Không cho sleep màn hình";
+"disp_sleep_toggle_fail" = "Sleep màn hình không được bật";
 
 // ----- SCREEN SAVER TOGGLED VIA HOTKEY
-"scrn_svr_toggled" = "Protetor de tela alternado";
-"scrn_svr_toggle_allow" = "Protetor de tela permitido";
-"scrn_svr_toggle_prevent" = "Protetor de tela não permitido";
-"scrn_svr_toggle_fail" = "Protetor de tela não alternado";
+"scrn_svr_toggled" = "Đã bật Screen Saver";
+"scrn_svr_toggle_allow" = "Cho phép screen saver";
+"scrn_svr_toggle_prevent" = "Không cho phép screen saver";
+"scrn_svr_toggle_fail" = "Screen saver không được bật";
 
 // ----- TRIGGER ERROR MESSAGES
-"trig_err_title" = "Ops! Algo não está certo.";
+"trig_err_title" = "Úiii. Có lỗi gì đó nặng lắm.";
 
 // SAVE TRIGGER ERRORS
-"trig_err_name" = "• O nome do Acionador não foi fornecido.\n\n";
-"trig_err_no_criteria" = "• Nenhum critério foi selecionado ou ativado.\n\n";
-"trig_err_duplicate" = "• Já existe um Acionador com esse nome.\n\n";
-"trig_err_wifi" = "• O critério de Wi‑Fi está ativado, mas o nome da rede está em branco.\n\n";
-"trig_err_ip" = "• O critério de Endereço IP está ativado, mas o campo de endereço IP está em branco.\n\n";
-"trig_err_ip_2" = "• O critério de Endereço IP está ativado, mas um ou mais campos de endereço estão em branco.\n\n";
-"trig_err_vpn" = "• O critério de Serviço de VPN está ativado, mas nenhum nome de serviço foi encontrado.\n\n";
-"trig_err_dns" = "• O critério de Servidor DNS está ativado, mas nenhum endereço de servidor foi encontrado.\n\n";
-"trig_err_app" = "• O critério de Aplicativo está ativado, mas nenhum app foi selecionado.\n\n";
-"trig_err_sched" = "• O critério de Agendamento está ativado, mas nenhum dia foi selecionado.\n\n";
-"trig_err_displays" =  "• O critério de Telas está ativado, mas o campo de número está em branco.\n\n";
-"trig_err_vol" =  "• O critério de Volume/Disco está ativado, mas nenhum volume ou disco foi selecionado.\n\n";
-"trig_err_usb" =  "• O critério de Dispositivo USB está ativado, mas nenhum dispositivo foi selecionado.\n\n";
-"trig_err_bluetooth" =  "• O critério de Dispositivo Bluetooth está ativado, mas nenhum dispositivo foi selecionado.\n\n";
-"trig_err_cpu" =  "• O critério de Uso da CPU está ativado, mas nenhum valor foi digitado.\n\n";
-"trig_err_idle" =  "• O critério de Tempo Ocioso está ativado, mas nenhum valor foi digitado.\n\n";
+"trig_err_name" = "• Trigger không được đặt tên.\n\n";
+"trig_err_no_criteria" = "• Không có tiêu chí nào được chọn/bật.\n\n";
+"trig_err_duplicate" = "• Đã có một Trigger khác trùng tên.\n\n";
+"trig_err_wifi" = "• Tiêu chí Wi-Fi được bật nhưng tên mạng bị trống.\n\n";
+"trig_err_ip" = "• Tiêu chí Địa chỉ IP được bật nhưng ô địa chỉ IP bị trống.\n\n";
+"trig_err_ip_2" = "• Tiêu chí Địa chỉ IP được bật nhưng các ô địa chỉ bị trống.\n\n";
+"trig_err_vpn" = "• Tiêu chí Dịch vụ VPN được bật nhưng không tìm thấy tên dịch vụ.\n\n";
+"trig_err_dns" = "• Tiêu chí Máy chủ DNS được bật nhưng không tìm thấy địa chỉ máy chủ nào.\n\n";
+"trig_err_app" = "• Tiêu chí về Ứng dụng được bật nhưng không có ứng dụng nào được chọn.\n\n";
+"trig_err_sched" = "• Tiêu chí Thời gian biểu được bật nhưng không có ngày nào được chọn.\n\n";
+"trig_err_displays" =  "• Tiêu chí Màn hình được bật nhưng ô số lượng bị trống.\n\n";
+"trig_err_vol" =  "• Tiêu chí Phân vùng/Ổ đĩa được bật nhưng không có phân vùng hay ổ đĩa được chọn.\n\n";
+"trig_err_usb" =  "• Tiêu chí Thiết bị USB được bật nhưng không có thiết bị nào được chọn.\n\n";
+"trig_err_bluetooth" =  "• Tiêu chí Thiết bị Bluetooth được bật nhưng không có thiết bị nào được chọn.\n\n";
+"trig_err_cpu" =  "• Tiêu chí Mức Tải CPU được chọn nhưng không có mức nào được nhập.\n\n";
+"trig_err_idle" =  "• Tiêu chí Thời gian Nhàn rỗi được bật nhưng không có thời gian nào được nhập.\n\n";
 
 // EDIT TRIGGER ERRORS
-"trig_err_cant_edit" = "O Acionador “%@” não pode ser editado no momento."; // PLACEHOLDER IS NAME OF TRIGGER
-"trig_err_vpn_edit" = "O serviço de VPN usado com este Acionador não está ativado no momento.\n\nInicie o serviço de VPN “%@” e tente novamente."; // PLACEHOLDER IS NAME OF VPN SERVICE
-"trig_err_vol_edit" = "O volume ou disco usado com este Acionador não está montado no momento.\n\nMonte “%@” e tente novamente."; // PLACEHOLDER IS NAME OF DRIVE/VOLUME
-"trig_err_usb_edit" = "O dispositivo USB usado com este Acionador não está conectado no momento.\n\nConecte “%@” e tente novamente."; // PLACEHOLDER IS NAME OF USB DEVICE
-"trig_err_bluetooth_edit" = "O dispositivo Bluetooth usado com este Acionador não está mais emparelhado.\n\nEmparelhe “%@” e tente novamente."; // PLACEHOLDER IS NAME OF BLUETOOTH DEVICE
-"trig_err_audio_edit" = "A saída de áudio usada com este Acionador não está disponível no momento.\n\nConecte “%@” e tente novamente."; // PLACEHOLDER IS NAME OF AUDIO OUTPUT DEVICE
-
-
-
-
-
-
-// EDIT MENU
-
-/* Class = "NSMenu"; title = "Edit"; ObjectID = "W48-6f-4Dl"; */
-"EditMenu" = "Editar";
-
-/* Class = "NSMenuItem"; title = "Undo"; ObjectID = "dRJ-4n-Yzg"; */
-"dRJ-4n-Yzg.title" = "Desfazer";
-
-/* Class = "NSMenuItem"; title = "Redo"; ObjectID = "6dh-zS-Vam"; */
-"6dh-zS-Vam.title" = "Refazer";
-
-/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "uRl-iY-unG"; */
-"uRl-iY-unG.title" = "Cortar";
-
-/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "x3v-GG-iWU"; */
-"x3v-GG-iWU.title" = "Copiar";
-
-/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "gVA-U4-sdL"; */
-"gVA-U4-sdL.title" = "Colar";
-
-/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "pa3-QI-u2k"; */
-"pa3-QI-u2k.title" = "Apagar";
-
-/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "Ruw-6m-B2m"; */
-"Ruw-6m-B2m.title" = "Selecionar Tudo";
-
-
-
+"trig_err_cant_edit" = "Hiện tại không thể sửa Trigger \"%@\"."; // PLACEHOLDER IS NAME OF TRIGGER
+"trig_err_vpn_edit" = "Dịch vụ VPN cho Trigger này đang không chạy.\n\nVui lòng chạy dịch vụ VPN \"%@\" và thử lại."; // PLACEHOLDER IS NAME OF VPN SERVICE
+"trig_err_vol_edit" = "Phân vùng/ổ đĩa cho Trigger này không có kết nối.\n\nVui lòng mount \"%@\" và thử lại."; // PLACEHOLDER IS NAME OF DRIVE/VOLUME
+"trig_err_usb_edit" = "Thiết bị USB cho Trigger này không có kết nối.\n\nui lòng cắm \"%@\" và thử lại."; // PLACEHOLDER IS NAME OF USB DEVICE
+"trig_err_bluetooth_edit" = "Thiết bị Bluetooth cho Trigger này không pair được.\n\nVui lòng pair lại \"%@\" và thử lại."; // PLACEHOLDER IS NAME OF BLUETOOTH DEVICE
+"trig_err_audio_edit" = "Đầu ra âm thanh cho Trigger này không có.\n\nVui lòng kết nối \"%@\" và thử lại."; // PLACEHOLDER IS NAME OF AUDIO OUTPUT DEVICE

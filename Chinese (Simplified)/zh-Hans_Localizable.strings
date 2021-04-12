@@ -5,9 +5,6 @@
 
   Created by William Gustafson on 2/21/20.
   Copyright © 2020 William C. Gustafson. All rights reserved.
-  
-  TRANSLATION COMPLETED BY:
-  简体中文版本由Peter Flynn汉化。
  
 */
  
@@ -1241,7 +1238,7 @@
 
 // ** NOTE: DO NOT REMOVE '\n' **
 "about_lbl_message" = "Amphetamine是我第一个Objective-C项目。自2014年Amphetamine首次发布以来，它已经发展成为最强大、最受欢迎的Mac免睡眠应用程序之一。你们的建议、反馈和支持帮助了它的成长。谢谢。\n\nAmphetamine将永久免费、无广告、无内购或付费升级。\n\nAmphetamine致力于纪念我的朋友，Isaac Kirkman。\n\nWilliam Gustafson\nAmphetamine Creator";
-"about_lbl_hard_work" = "编写Amphetamine是一项艰难的工作。";
+"about_lbl_hard_work" = "🥵 编写Amphetamine是一项艰难的工作。🥵";
 "about_bttn_support" = "联系支持";
 "about_bttn_rate" = "在App Store中评分";
 "about_bttn_ack" = "致谢";
@@ -1317,6 +1314,8 @@
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "cdm_fail_warning_body" = "显示器关闭模式会话中止。这可能是因为你连接或断开了外部电源/适配器。在显示器关闭模式会话期间，你必须让Mac的电源状态保持不变。此限制不适用于其他会话类型。Amphetamine自动结束了这个显示器关闭模式会话。但如果一个触发器会话已重新启动，新的会话不会受到影响。";
 
+// ----- FAILED CLOSED DISPLAY MODE SESSION WARNING SUPPRESSION
+"cdm_fail_warning_suppression" =  "停止显示器关闭模式终止";
 
 // ----- TRIGGER SESSION WARNING
 

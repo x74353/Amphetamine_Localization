@@ -669,7 +669,7 @@
 "pref_notif_bttn_notif_remove" = "알람을 알린후 지우기";
 
 // PREFERENCES → NOTIFICATIONS LABELS
-"pref_notif_lbl_sound_start" = "세션 시작/미리 알림:";  
+"pref_notif_lbl_sound_start" = "세션 시작/미리 알림:";
 "pref_notif_lbl_sound_end" = "세션 종료:";
 "pref_notif_lbl_session_reminders" = "세션 미리 알림:";
 "pref_notif_lbl_trig_sched" = "트리거/예정됨:";
@@ -1246,7 +1246,7 @@
 
 // ** NOTE: DO NOT REMOVE '\n' **
 "about_lbl_message" = "Amphetamine은 제 첫번쩌 Objective-C 프로젝트입니다. 2014년부터 개발이 이뤄져, Amphetamine은 맥을 깨우는 강력하면서 유명한 앱으로 자리내김 하였습니다. 여러분의 제안과 피드백, 그리고 지원은 Amphetamine을 더 성장하게 해주셨습니다. 감사합니다. Amphetamine은 언제나 광고 없는 100% 무료 앱입니다. 물론 인앱 결재나 유료 업그레이드도 없을것입니다.\n\nAmphetamine은 제 친구인 Isaac Kirkman과의 기억에 바칩니다.\n\nWilliam Gustafson\nAmphetamine 개발자";
-"about_lbl_hard_work" = "Amphetamine를 만드는건 힘든 일이죠.";
+"about_lbl_hard_work" = "🥵 Amphetamine를 만드는건 힘든 일이죠. 🥵";
 "about_bttn_support" = "지원 요청하기";
 "about_bttn_rate" = "App Store에 별점 남기기";
 "about_bttn_ack" = "감사의 말";
@@ -1307,10 +1307,10 @@
 // ----- CLOSED DISPLAY MODE WARNING
 
 // Title
-"cdm_warning_title" = "클림셀 모드 세션에 대하여";
+"cdm_warning_title" = "클림쉘 모드 중 세션에 대하여";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"cdm_warning_body" = "• 전원 상태\n여러분의 Mac은 클림쉘 모드시 전원이 충전되지 않습니다. 만약 외부 전원 공급이라던가 어뎁터를 끼울시 클림쉘 모드 세션은 자동적으로 종료되게 됩니다. 이 제한은 다른 세션 종류에는 적용되지 않습니다.\n\n• 과열 및 배터리 소모\n여러분의 Mac을 깜빡하고 클림셀 모드를 켜고 가방이나 케이스에 넣어 다닐때 발열이나 배터리 소모가 일어날 수 있습니다. 설정 → 알림에서 클림쉘 모드 경고를 켜두시는걸 고려해주세요.\n\n• Amphetamine Enhancer 안전장치\n만약 Amphetamine 이 클림쉘 모드 세션에서 충돌이 발생할 경우, Mac을 다시 재시동 할때까지 계속 자고 있을수 있습니다. 그러므로 Amphetamine Enhancer를 안전 장치로 꼭 설치해주세요.";
+"cdm_warning_body" = "• 전원 상태\n클림쉘 모드 세션은 Mac의 전원 연결이 끊기거나 혹은 재연결 될 경우 꺼질 수 있습니다. 또한 세션이 시작된 후 전원 연결이 끊기거나 혹은 재 연결 될 경우에도 꺼질 수 있으며, 세션 중 어느 시점에서 외부 전원과 더불어 어뎁터가 연결되어도 꺼질 수 있습니다. 이런 제한은 다른 세션 종류에 영향을 주지 않으며, macOS에서 이를 강제합니다.\n\n• 왜 그런가 하면 까먹고 가방이나 케이스에 넣었을시에 클림쉘 모드에서 발열이 나거나 혹은 배터리가 닳을 수 있기 때문입니다.\nAmphetamine의 설정 →  알림에서 이를 켤 수 있습니다.\n\n• Amphetamine Enhancer에서 제공하는 안전 장치\n 만약 Amphetamine 이 클림쉘 모드에서 충돌이 발생할 경우, Amphetamine을 새로 시작하거나 혹은 다시 시작할깨까지 사용을 못 하실수 있습니다. Amphetamine Enhancer는 이에 대해 안전 장치를 제공해 주니, 설치하시는 것을 추천드립니다.";
 
 
 // ----- FAILED CLOSED DISPLAY MODE SESSION WARNING
@@ -1319,7 +1319,12 @@
 "cdm_fail_warning_title" = "클림쉘 모드 세션 실패";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"cdm_fail_warning_body" = "클림쉘 모드 세션이 실패하였습니다. 외부 전원 연결/어뎁터가 연결되었거나 빠져있을수 있습니다. 클림쉘 모드를 돌리는 동안 Mac은 전원이 충전되지 않습니다. 이런 제한은 다른 세션 종류들에 적용되지 아니합니다.\n\nAmphetamine은 자동으로 실패된 클림쉘 모드 세션을 종료합니다. 만약 트리거 세션이 다시 시작된 경우 새 세션은 여기에 영향을 받지 않습니다.";
+"cdm_fail_warning_body" = "클림쉘 모드 세션은 전원이 끊기거나 혹은 어뎁터가 새로 연결 될 경우, 세션이 실패 할 수 있습니다. 몇몇 Mac은 이 문제가 발생할 수 있습니다.\n\n만약 이 문제가 사용중인 Mac에 생기게 되면, 아래 기능을 끌 수 있습니다.";
+
+
+// ----- FAILED CLOSED DISPLAY MODE SESSION WARNING SUPPRESSION
+"cdm_fail_warning_suppression" =  "클림쉘 모드로 들어갈 경우 자동으로 세션 종료 해제";
+
 
 
 // ----- TRIGGER SESSION WARNING

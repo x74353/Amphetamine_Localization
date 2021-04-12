@@ -6,9 +6,6 @@
   Created by William Gustafson on 2/21/20.
   Copyright © 2020 William C. Gustafson. All rights reserved.
  
-  TRANSLATION COMPLETED BY:
-  日本語版の翻訳はYuri HARUNA（春菜 柚梨）により提供されました。
- 
  */
 
 // ---------------------------------------------------------------------------
@@ -1244,7 +1241,7 @@
 
 // ** NOTE: DO NOT REMOVE '\n' **
 "about_lbl_message" = "Amphetamineは、私が初めて作った Objective-C プロジェクトでした。2014年にAmphetamineを初リリースしてから、Macをスリープさせないための最も強力で、最も人気のあるアプリのうち一つに成長しました。貴方の提案、フィードバック、そしてサポートにより、ここまで成長することができました。心から感謝致します。\n\nAmphetamineは今まで、かつ今後もApp内購入や広告、有料のアップグレード機能のない、完全な無料アプリです。\n\nAmphetamineには私の友達、Isaac Kirkmanとの思い出が詰まっています。\n\nWilliam Gustafson\nAmphetamine 開発者";
-"about_lbl_hard_work" = "Amphetamineの開発は、大変な作業です。";
+"about_lbl_hard_work" = "🥵 Amphetamineの開発は、大変な作業です。🥵";
 "about_bttn_support" = "お問い合わせ";
 "about_bttn_rate" = "App Storeに評価を残す";
 "about_bttn_ack" = "謝辞・認証";
@@ -1317,8 +1314,10 @@
 "cdm_fail_warning_title" = "クラムシェルモードモードセッション失敗";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"cdm_fail_warning_body" = "クラムシェルモードの実行に失敗しました。電源アダプターが接続されたか、抜かれました。クラムシェルモードを維持するためには、電源ソースを変更してはいけません。この制限は他のセッションとは関係ありません。\n\nAmphetamineが自動的に、実行に失敗したクラムシェルセッションを終了させました。トリガーセッションにより新しいセッションが開始された場合、その新しいセッションには影響しません。";
+"cdm_fail_warning_body" = "クラムシェルモードの実行に失敗しました。電源アダプターが接。クラムシェルモードを維持するためには、電源ソースを変更してはいけません。この制限は他のセッションとは関係ありません。\n\nAmphetamineが自動的に、実行に失敗したクラムシェルセッションを終了させました。";
 
+// ----- FAILED CLOSED DISPLAY MODE SESSION WARNING SUPPRESSION
+"cdm_fail_warning_suppression" =  "停止 自動 クラムシェルモードが 終了";
 
 // ----- TRIGGER SESSION WARNING
 

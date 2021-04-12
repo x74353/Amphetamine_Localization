@@ -6,9 +6,6 @@
   Created by William Gustafson on 2/21/20.
   Copyright © 2020 William C. Gustafson. All rights reserved.
  
-  TRANSLATION COMPLETED BY:
-  BR Lingo
- 
 */
 
 // ---------------------------------------------------------------------------
@@ -1246,7 +1243,7 @@
 
 // ** NOTE: DO NOT REMOVE '\n' **
 "about_lbl_message" = "O Amphetamine foi o meu primeiro projeto em Objective-C. Desde o lançamento inicial do Amphetamine em 2014, ele evoluiu até se tornar um dos apps mais poderosos e populares para manter o Mac desperto. Suas sugestões, feedback e suporte são os fatores que guiaram essa evolução. Obrigado.\n\nO Amphetamine sempre será um app 100% gratuito e sem anúncios, compras dentro do app ou atualizações pagas.\n\nO Amphetamine é dedicado à memória do meu amigo Isaac Kirkman.\n\nWilliam Gustafson\nCriador do Amphetamine";
-"about_lbl_hard_work" = "Desenvolver o Amphetamine dá trabalho.";
+"about_lbl_hard_work" = "🥵 Desenvolver o Amphetamine dá trabalho. 🥵";
 "about_bttn_support" = "Contatar Suporte";
 "about_bttn_rate" = "Avaliar na App Store";
 "about_bttn_ack" = "Reconhecimentos";
@@ -1310,7 +1307,7 @@
 "cdm_warning_title" = "Sobre as Sessões do Modo com Tela Fechada";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"cdm_warning_body" = "• Estado da Alimentação\nO Mac deve permanecer em um estado de alimentação inalterado durante uma sessão do Modo com Tela Fechada. Se você conectar ou desconectar uma fonte de alimentação ou adaptador, a sessão do Modo com Tela Fechada falhará. Essa restrição não se aplica a outros tipos de sessão.\n\n• Superaquecimento e Esgotamento da Bateria\nO Mac poderia facilmente sobreaquecer dentro de uma bolsa ou case e a bateria poderia se esgotar completamente se você se esquecer que uma sessão do Modo com Tela Fechada está ativada. Considere ativar os avisos do Modo com Tela Fechada em Preferências → Notificações.\n\n• Medida de Segurança do Amphetamine Enhancer\nSe o Amphetamine falhar durante uma sessão do Modo com Tela Fechada, o Mac poderá ser incapaz de retornar ao comportamento de repouso normal até que você reabra o Amphetamine ou reinicie o Mac. É altamente recomendável instalar o Amphetamine Enhancer como medida de segurança.";
+"cdm_warning_body" = "• Estado da Alimentação\nAs sessões do Modo com Tela Fechada falharão se o Mac for desconectado e reconectado a uma fonte de alimentação ou adaptador. A sessão também falhará se o Mac estiver desconectado de uma fonte de alimentação ou adaptador quando a sessão começar e for conectado a uma fonte de alimentação ou adaptador durante a sessão. Essa restrição não se aplica a outros tipos de sessão e é exigida pelo macOS.\n\n• Superaquecimento e Esgotamento da Bateria\nO Mac poderia facilmente sobreaquecer dentro de uma bolsa ou case e a bateria poderia se esgotar completamente se você se esquecer que uma sessão do Modo com Tela Fechada está ativada. Considere ativar os avisos do Modo com Tela Fechada em Preferências → Notificações.\n\n• Medida de Segurança do Amphetamine Enhancer\nSe o Amphetamine falhar durante uma sessão do Modo com Tela Fechada, o Mac poderá ser incapaz de retornar ao comportamento de repouso normal até que você reabra o Amphetamine ou reinicie o Mac. É altamente recomendável instalar o Amphetamine Enhancer como medida de segurança.";
 
 // ----- FAILED CLOSED DISPLAY MODE SESSION WARNING
 
@@ -1318,7 +1315,10 @@
 "cdm_fail_warning_title" = "Falha na Sessão do Modo com Tela Fechada";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"cdm_fail_warning_body" = "Uma sessão do Modo com Tela Fechada falhou. Uma fonte de alimentação ou adaptador externo foi conectado ou desconectado. O Mac deve permanecer em um estado de alimentação inalterado durante uma sessão do Modo com Tela Fechada. Essa restrição não se aplica a outros tipos de sessão.\n\nO Amphetamine terminou automaticamente a sessão do Modo com Tela Fechada. Se uma sessão com Acionador tiver recomeçado, ela não deve ser afetada.";
+"cdm_fail_warning_body" = "Uma sessão do Modo com Tela Fechada provavelmente falhou porque uma fonte de alimentação ou adaptador foi conectado. Alguns Macs são afetados por isso, enquanto outros não.\n\nCaso este Mac não seja afetado por esse problema, você pode desativar esse recurso abaixo.";
+
+// ----- FAILED CLOSED DISPLAY MODE SESSION WARNING SUPPRESSION
+"cdm_fail_warning_suppression" =  "Desativar término automático da sessão do Modo com Tela Fechada";
 
 
 // ----- TRIGGER SESSION WARNING
