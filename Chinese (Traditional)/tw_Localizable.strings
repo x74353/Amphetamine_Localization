@@ -873,49 +873,49 @@
 // ---------------------------------------------------------------------------
 
 // PREFERENCES WINDOW TOOLBAR ITEM LABEL
-"prefs_tb_appr" = "Appearance";
+"prefs_tb_appr" = "外觀";
 
 // PREFERENCES → APPEARANCE BUTTONS
-"pref_appr_bttn_image_low_opac" = "Use low opacity when inactive";
-"pref_appr_bttn_image_padd" = "Manually manage padding for menu bar image";
-"pref_appr_bttn_text_show_time" = "Show session time remaining in menu bar";
-"pref_appr_bttn_text_24hr_clock" = "Use 24-hour clock";
-"pref_appr_bttn_text_incl_secs" = "Include seconds";
-"pref_appr_bttn_show_curr_sess" = "Show current session details";
-"pref_appr_bttn_show_drive_alive" = "Show Drive Alive details";
+"pref_appr_bttn_image_low_opac" = "未使用時降低透明度";
+"pref_appr_bttn_image_padd" = "手動管理選單列圖示的間距";
+"pref_appr_bttn_text_show_time" = "在選單列顯示亢奮階段的剩餘時間";
+"pref_appr_bttn_text_24hr_clock" = "使用 24 小時制時鐘";
+"pref_appr_bttn_text_incl_secs" = "加上秒數";
+"pref_appr_bttn_show_curr_sess" = "顯示目前亢奮接電的詳細資訊";
+"pref_appr_bttn_show_drive_alive" = "顯示「磁碟機喚醒」的詳細資訊";
 
 // PREFERENCES → APPEARANCE LABELS
-"pref_appr_lbl_image" = "Menu Bar Image:";
-"pref_appr_lbl_text" = "Menu Bar Text:";
-"pref_appr_lbl_xtra" = "Menu Extras:";
+"pref_appr_lbl_image" = "選單列圖示：";
+"pref_appr_lbl_text" = "選單列文字：";
+"pref_appr_lbl_xtra" = "選單附加項：";
 
 // ** NOTE: DO NOT REMOVE '\n' **
-"pref_appr_lbl_cust_icon_inst" = "Drag and drop your image files into the zones below. For best results,\nonly binary images with a transparent background should be used.";
+"pref_appr_lbl_cust_icon_inst" = "將您的圖示檔案拖曳到下方區域。\n透明背景的點陣影像，使用效果最佳。";
 
-"pref_appr_lbl_cust_icon_inact" = "Inactive";
-"pref_appr_lbl_cust_icon_act" = "Active";
-"pref_appr_lbl_cust_icon_inact_inst" = "This image will show when Amphetamine is not keeping your Mac awake.";
-"pref_appr_lbl_cust_icon_act_inst" = "This image will show when Amphetamine is keeping your Mac awake.";
-"pref_appr_lbl_cust_icon_get_more" = "Get more images...";
+"pref_appr_lbl_cust_icon_inact" = "未使用";
+"pref_appr_lbl_cust_icon_act" = "使用中";
+"pref_appr_lbl_cust_icon_inact_inst" = "這個圖示只會在 Amphetamine 沒讓 Mac 亢奮時顯示。";
+"pref_appr_lbl_cust_icon_act_inst" = "這個圖示只會在 Amphetamine 讓 Mac 亢奮時顯示。";
+"pref_appr_lbl_cust_icon_get_more" = "取得更多圖示⋯";
 
 
 // PREFERENCES → APPEARANCE MENU ITEMS
-"pref_appr_mi_cust_image" = "Custom image...";
-"pref_appr_mi_image_pill" = "Pill";
-"pref_appr_mi_image_pill_out" = "Pill (outline)";
-"pref_appr_mi_image_molecule" = "Molecule";
-"pref_appr_mi_image_coffee_pot" = "Coffee Carafe";
-"pref_appr_mi_image_caffeine" = "Caffeine";
-"pref_appr_mi_image_cup" = "Coffee Cup";
-"pref_appr_mi_image_teapot" = "Tea Kettle";
-"pref_appr_mi_image_owl" = "Owl";
-"pref_appr_mi_image_eye" = "Eye";
-"pref_appr_mi_image_sun_moon" = "Sun & Moon";
-"pref_appr_mi_image_emoji" = "Emoji";
-"pref_appr_mi_text_normal_sz" = "Standard font size";
-"pref_appr_mi_text_small_sz" = "Small font size";
-"pref_appr_mi_text_format_normal" = "Standard format (08:15)";
-"pref_appr_mi_text_format_letter" = "Letter notation format (8h 15m)";
+"pref_appr_mi_cust_image" = "自訂圖示⋯";
+"pref_appr_mi_image_pill" = "藥丸";
+"pref_appr_mi_image_pill_out" = "藥丸（外框）";
+"pref_appr_mi_image_molecule" = "分子式";
+"pref_appr_mi_image_coffee_pot" = "咖啡瓶";
+"pref_appr_mi_image_caffeine" = "咖啡因";
+"pref_appr_mi_image_cup" = "咖啡杯";
+"pref_appr_mi_image_teapot" = "茶壺";
+"pref_appr_mi_image_owl" = "貓頭鷹";
+"pref_appr_mi_image_eye" = "眼睛";
+"pref_appr_mi_image_sun_moon" = "日夜";
+"pref_appr_mi_image_emoji" = "顏文字";
+"pref_appr_mi_text_normal_sz" = "標準字體大小";
+"pref_appr_mi_text_small_sz" = "小型字體大小";
+"pref_appr_mi_text_format_normal" = "標準格式 (08:15)";
+"pref_appr_mi_text_format_letter" = "字母表示格式 (8h 15m)";
 
 
 
@@ -926,7 +926,7 @@
 // ----- PREFERENCES → APPEARANCE → Menu Bar Image Help Message
 
 // Title
-"help_message_menu_bar_image_title" = "Menu Bar Image";
+"help_message_menu_bar_image_title" = "選單列圖示（英文）";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_message_menu_bar_image_body" = "Choose the images you want displayed in the menu bar to represent Amphetamine's session state (active/inactive). When a session starts or ends, Amphetamine's image in the menu bar will update accordingly.\n\nAlternatively, provide your own custom images.";
@@ -934,7 +934,7 @@
 // ----- PREFERENCES → APPEARANCE → Menu Bar Text Help Message
 
 // Title
-"help_message_menu_bar_text_title" = "Menu Bar Text";
+"help_message_menu_bar_text_title" = "選單列文字（英文）";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_message_menu_bar_text_body" = "• Show Session Time Remaining in Menu Bar\nCheck this box if you want a session's time remaining or end time to display alongside Amphetamine's image in the menu bar.\n\nChoose additional formatting options like the size of the text in the menu bar, how time is represented, whether to include seconds, and whether to represent time in a 12 or 24 hour format.";
@@ -942,7 +942,7 @@
 // ----- PREFERENCES → APPEARANCE → Menu Bar Extras Help Message
 
 // Title
-"help_message_menu_extras_title" = "Menu Extras";
+"help_message_menu_extras_title" = "選單附加項（英文）";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_message_menu_extras_body" = "• Show Current Session Details\nCheck this box to show session details such as the session's duration/time remaining and activation reason in Amphetamine's menu.\n\n• Show Drive Alive Details\nCheck this box to show Drive Alive details such as which drives are being kept alive and which aren't.";
