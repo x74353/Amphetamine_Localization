@@ -693,7 +693,7 @@
 "pref_drivealive_bttn_enable" = "啟用磁碟機喚醒";
 
 // PREFERENCES → DRIVE ALIVE LABELS
-"pref_drivealive_lbl_wake" = "喚醒磁碟機，每";
+"pref_drivealive_lbl_wake" = "喚醒磁碟機的時間間隔：";
 
 // DRIVE ALIVE TABLE HEADERS
 "drivealive_tbl_head_name" = "磁碟機名稱";
