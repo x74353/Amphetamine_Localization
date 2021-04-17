@@ -810,16 +810,16 @@
 "pref_notif_bttn_notif_remove" = "通知傳達後自動刪除";
 
 // PREFERENCES → NOTIFICATIONS LABELS
-"pref_notif_lbl_sound_start" = "Session start/reminder:";
-"pref_notif_lbl_sound_end" = "Session end:";
-"pref_notif_lbl_session_reminders" = "Session Reminders:";
-"pref_notif_lbl_trig_sched" = "Triggers/Scheduled:";
-"pref_notif_lbl_sound" = "Sound:";
-"pref_notif_lbl_cdm" = "Closed-Display Mode:";
-"pref_notif_lbl_notif_center" = "Notification Center:";
+"pref_notif_lbl_sound_start" = "亢奮階段開始及提醒：";
+"pref_notif_lbl_sound_end" = "亢奮階段結束：";
+"pref_notif_lbl_session_reminders" = "亢奮階段提醒：";
+"pref_notif_lbl_trig_sched" = "觸發器及排定階段：";
+"pref_notif_lbl_sound" = "音效：";
+"pref_notif_lbl_cdm" = "顯示器關閉模式：";
+"pref_notif_lbl_notif_center" = "通知中心：";
 
 // PREFERENCES → NOTIFICATIONS MENU ITEMS
-"pref_notif_mi_default_sound" = "Default system sound";
+"pref_notif_mi_default_sound" = "預設系統音效";
 
 // ---------------------------------------------------------------------------
 // (?) BUTTON MENU ITEMS
@@ -827,7 +827,7 @@
 // ----- PREFERENCES → NOTIFICATIONS → Session Reminders Help Message
 
 // Title
-"help_message_session_reminders_title" = "Session Reminders";
+"help_message_session_reminders_title" = "亢奮階段提醒（英文）";
 
 // Body
 "help_message_session_reminders_body" = "Check this box to have Amphetamine deliver a notification/reminder on a regular interval while any session is running.";
@@ -835,7 +835,7 @@
 // ----- PREFERENCES → NOTIFICATIONS → Triggers/Scheduled Help Message
 
 // Title
-"help_message_triggers_scheduled_title" = "Triggers/Scheduled";
+"help_message_triggers_scheduled_title" = "觸發器及排定階段（英文）";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_message_triggers_scheduled_body" = "Check these boxes to have Amphetamine deliver a notification when any session starts or ends automatically. This includes Trigger sessions, scheduled, and some timed sessions.\n\nSessions started or ended manually by clicking on Amphetamine's image in the menu bar, or by selecting an option from Amphetamine's menu will not cause a notification to be delivered.";
@@ -843,7 +843,7 @@
 // ----- PREFERENCES → NOTIFICATIONS → Sound Help Message
 
 // Title
-"help_message_sound_title" = "Sound";
+"help_message_sound_title" = "音效（英文）";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_message_sound_body" = "• Play With Session Reminders/Other Notifications\nCheck this box if you want a sound to play whenever a notification is delivered.\n\n• Play When Any Session Starts or Ends\nCheck this box to have a sound play whenever a session starts or ends.\n\n• Play When Any Session is Extended\nCheck this box to have a sound play when a session is extended.\n\nTo add a new custom sound, click the + button and select a sound file. To remove a custom sound, click the − button. A Finder window will open to the directory where custom files are saved. Delete the sound file in Finder by dragging it to the Trash or by using the Command + Delete keyboard combination.";
@@ -851,7 +851,7 @@
 // ----- PREFERENCES → NOTIFICATIONS → Closed-Display Mode Help Message
 
 // Title
-"help_message_closed_display_notif_title" = "Closed-Display Mode";
+"help_message_closed_display_notif_title" = "顯示器關閉模式（英文）";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_message_closed_display_notif_body" = "• Play Closed-Display Mode Warning Tone\nCheck this box to have a sound play whenever your Mac enters closed-display mode. The warning tone won't play if your Mac's power adapter and an external display are connected.\n\n• Repeat Tone Every ...\nCheck this box and select an interval if you want the closed-display mode warning tone to play repeatedly.\n\n• Momentarily Set System Volume to ...\nCheck this box and select a volume level if you want Amphetamine to adjust your Mac's system volume level before playing the closed-display warning tone. If your Mac's system volume level is set too low, you may not hear the tone. If your Mac's system volume level is set too high, the tone may be jarring. When this feature is enabled, Amphetamine will adjust your Mac's system volume level both if the system volume level is set below or above the target level for the closed-display warning tone. After the closed-display warning tone plays, your Mac's original system volume level will be restored.";
@@ -859,7 +859,7 @@
 // ----- PREFERENCES → NOTIFICATIONS → Notification Center Help Message
 
 // Title
-"help_message_notif_center_title" = "Notification Center";
+"help_message_notif_center_title" = "通知中心（英文）";
 
 // Body
 "help_message_notif_center_body" = "Check this box to have Amphetamine automatically clean up its notifications in Notification Center. This will help reduce notification clutter, especially if you have Session Reminders enabled.";
