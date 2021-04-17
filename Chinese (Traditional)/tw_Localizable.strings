@@ -979,21 +979,21 @@
 // ---------------------------------------------------------------------------
 
 // TRIGGER CONFIGURATION WINDOW
-"trig_config_lbl_name" = "Name";
-"trig_config_lbl_name_placeholder" = "My Awesome Trigger";
-"trig_config_lbl_name_desc" = "Give your Trigger a memorable name. You'll thank yourself later.";
-"trig_config_lbl_criteria" = "Criteria";
-"trig_config_lbl_criteria_desc" = "Each Trigger you create can use up to one instance of each criterion. All criteria must evaluate true for your Trigger to activate.";
-"trig_config_lbl_criteria_edit" = "Double-click a criterion to edit the criterion";
-"trig_config_lbl_add_opt" = "Additional Options";
-"trig_config_lbl_add_opt_desc" = "Additional options that only apply to this Trigger.";
-"trig_config_bttn_disp_sleep" = "Allow display to sleep";
-"trig_config_bttn_cdm" = "Allow system to sleep when display is closed";
-"trig_config_bttn_scrn_svr" = "Allow screen saver to run after:";
+"trig_config_lbl_name" = "名稱";
+"trig_config_lbl_name_placeholder" = "觸發嗑藥時間";
+"trig_config_lbl_name_desc" = "幫你的觸發器取個好記的名字。取得夠好，未來無憂。";
+"trig_config_lbl_criteria" = "條件";
+"trig_config_lbl_criteria_desc" = "您建立的每個觸發器，每個條件類別最多可以使用一次。唯當每個條件都成立時才會觸發。";
+"trig_config_lbl_criteria_edit" = "點兩下觸發條件即可編輯";
+"trig_config_lbl_add_opt" = "其他選項";
+"trig_config_lbl_add_opt_desc" = "其他只在這個觸發器套用的選項。";
+"trig_config_bttn_disp_sleep" = "允許顯示器睡眠";
+"trig_config_bttn_cdm" = "允許系統在顯示器關閉時睡眠";
+"trig_config_bttn_scrn_svr" = "允許螢幕保護裝置在時間後執行：";
 
 // TABLE HEADERS
-"trig_config_tbl_head_criterion" = "Criterion";
-"trig_config_tbl_head_values" = "Value(s)";
+"trig_config_tbl_head_criterion" = "條件";
+"trig_config_tbl_head_values" = "條件值";
 
 
 
@@ -1001,7 +1001,7 @@
 // ----- TRIGGER CONFIGURATION HELP MESSAGE
 
 // Title
-"help_trigger_config_title" = "Trigger Configuration";
+"help_trigger_config_title" = "觸發器設定（英文）";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_trigger_config_body" = "Name\nGive your Trigger a memorable name. Your Trigger’s name will be used in notifications and in the session details section of Amphetamine’s menu (if you have these preferences enabled).\n\nCriteria\nYour Trigger can use one instance of each criterion. To add a new criterion, click the + button, select a criterion. To remove a criterion, select the criterion in the Criteria table, and click the − button.\n\nAdditional Options\nEach Trigger you create can independently be configured to allow or prevent display sleep, screen saver activation, and whether your Mac sleeps when its display is closed.";
