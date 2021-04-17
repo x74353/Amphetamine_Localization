@@ -1382,7 +1382,7 @@
 
 // ** NOTE: DO NOT REMOVE '\n' **
 "about_lbl_message" = "Amphetamine was my first Objective-C project. Since Amphetamine's initial release back in 2014, it has grown to become one of the most powerful and popular apps for keeping your Mac awake. Your suggestions, feedback, and support are what has driven that growth. Thank you.\n\nAmphetamine will always be a 100% free app without advertisements, in-app purchases, or paid upgrades.\n\nAmphetamine is dedicated to the memory of my friend, Isaac Kirkman.\n\nWilliam Gustafson\nAmphetamine Creator";
-"about_lbl_hard_work" = "Amphetamine is hard work! 🥵🛠";
+"about_lbl_hard_work" = "🥵 Making Amphetamine is hard work! 🥵";
 "about_bttn_support" = "Contact Support";
 "about_bttn_rate" = "Rate in App Store";
 "about_bttn_ack" = "Acknowledgments";
@@ -1446,16 +1446,18 @@
 "cdm_warning_title" = "About Closed-Display Mode Sessions";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"cdm_warning_body" = "• Power State\nYour Mac must remain in an unchanging power state during a closed-display mode session. If you connect or disconnect an external power source/adapter, the closed-display mode session will fail. This restriction does not apply to other session types.\n\n• Overheating and Battery Drain\nYour Mac could easily overheat inside of a bag/case or its battery could drain completely if you forget that a closed-display mode session is active. Please consider enabling closed-display mode warnings in Preferences → Notifications.\n\n• Amphetamine Enhancer Fail-Safe\nIf Amphetamine crashes during a closed-display mode session, your Mac may be unable to return to normal sleeping behavior until you relaunch Amphetamine or you reboot your Mac. It is highly recommended that you install Amphetamine Enhancer as a fail-safe.";
-
+"cdm_warning_body" = "• Power State\nClosed-display mode sessions may fail if your Mac is reconnected to an external power source/adapter during the session. This issue does not affect all Macs and Amphetamine is unable to detect whether the session has actually failed.\n\n• Overheating and Battery Drain\nYour Mac could easily overheat inside of a bag/case or its battery could drain completely if you forget that a closed-display mode session is active. Please consider enabling closed-display mode warnings in Preferences → Notifications.\n\n• Amphetamine Enhancer Fail-Safe\nIf Amphetamine crashes during a closed-display mode session, your Mac may be unable to return to normal sleeping behavior until you relaunch Amphetamine or you reboot your Mac. It is highly recommended that you install Amphetamine Enhancer as a fail-safe.";
 
 // ----- FAILED CLOSED DISPLAY MODE SESSION WARNING
 
 // Title
-"cdm_fail_warning_title" = "Closed-Display Mode Session Failure";
+"cdm_fail_warning_title" = "Possible Closed-Display Mode Session Failure";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"cdm_fail_warning_body" = "A closed-display mode session has failed. An external power source/adapter was connected or disconnected. Your Mac must remain in an unchanging power state during a closed-display mode session. This restriction does not apply to other session types.\n\nAmphetamine automatically ended the failed closed-display mode session. If a Trigger session has restarted, the new session should be not be affected.";
+"cdm_fail_warning_body" = "A closed-display mode session has possibly failed due to an external power source/adapter being connected.\n\nDue to restrictions in macOS, Amphetamine cannot detect whether the session has actually failed, however. If you are confident that your Mac is unaffected by this issue, you may disable this feature below.\n\nAmphetamine has automactically terminated the closed-display mode session that was running. If you disable this feature, future closed-display mode sessions will not be automatically terminated.";
+
+// ----- FAILED CLOSED DISPLAY MODE SESSION WARNING SUPPRESSION
+"cdm_fail_warning_suppression" =  "Disable automatic closed-display mode session termination";
 
 
 // ----- TRIGGER SESSION WARNING
