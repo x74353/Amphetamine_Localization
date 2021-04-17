@@ -1,0 +1,96 @@
+// AMPHETAMINE MENU
+
+/* Class = "NSMenu"; title = "Amphetamine"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "Amphetamine";
+
+/* Class = "NSMenuItem"; title = "About Amphetamine"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "關於 Amphetamine";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "BOF-NM-1cW"; */
+"BOF-NM-1cW.title" = "偏好設定⋯";
+
+/* Class = "NSMenuItem"; title = "Hide Amphetamine"; ObjectID = "Olw-nP-bQN"; */
+"Olw-nP-bQN.title" = "隱藏 Amphetamine";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; */
+"Vdr-fp-XzO.title" = "隱藏其他";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "Kd2-mp-pUS"; */
+"Kd2-mp-pUS.title" = "顯示全部";
+
+
+// EDIT MENU
+
+/* Class = "NSMenu"; title = "Edit"; ObjectID = "W48-6f-4Dl"; */
+"W48-6f-4Dl.title" = "編輯";
+
+/* Class = "NSMenuItem"; title = "Undo"; ObjectID = "dRJ-4n-Yzg"; */
+"dRJ-4n-Yzg.title" = "還原";
+
+/* Class = "NSMenuItem"; title = "Redo"; ObjectID = "6dh-zS-Vam"; */
+"6dh-zS-Vam.title" = "重做";
+
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "uRl-iY-unG"; */
+"uRl-iY-unG.title" = "剪下";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "x3v-GG-iWU"; */
+"x3v-GG-iWU.title" = "拷貝";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "gVA-U4-sdL"; */
+"gVA-U4-sdL.title" = "貼上";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "pa3-QI-u2k"; */
+"pa3-QI-u2k.title" = "刪除";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "Ruw-6m-B2m"; */
+"Ruw-6m-B2m.title" = "全選";
+
+
+// WINDOW MENU
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "Td7-aD-5lo"; */
+"Td7-aD-5lo.title" = "視窗";
+
+/* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "OY7-WF-poV"; */
+"OY7-WF-poV.title" = "縮到最小";
+
+/* Class = "NSMenuItem"; title = "Close"; ObjectID = "Ucq-Ov-42D"; */
+"Ucq-Ov-42D.title" = "關閉";
+
+/* Class = "NSMenuItem"; title = "Zoom"; ObjectID = "R4o-n2-Eq4"; */
+"R4o-n2-Eq4.title" = "縮放";
+
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "LE2-aR-0XJ"; */
+"LE2-aR-0XJ.title" = "將此程式所有視窗移至最前";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "F2S-fz-NVQ"; */
+"F2S-fz-NVQ.title" = "輔助說明";
+
+/* Class = "NSMenuItem"; title = "Amphetamine Help"; ObjectID = "FKE-Sm-Kum"; */
+"FKE-Sm-Kum.title" = "Amphetamine 輔助說明";
+
+
+// TOOL TIPS
+
+// TOOL TIP FOR CISCO ANYCONNECT VPN
+/* Class = "NSButton"; ibShadowedToolTip = "Refresh service name"; ObjectID = "LoY-pN-Mqt"; */
+"LoY-pN-Mqt.ibShadowedToolTip" = "重新載入服務名稱";
+
+// TOOL TIP FOR TRIGGER SCREEN SAVER EXCEPTIONS 
+/* Class = "NSButton"; ibShadowedToolTip = "Copy screen saver exceptions used in non-Trigger list to this Trigger"; ObjectID = "UWl-xZ-W0U"; */
+"UWl-xZ-W0U.ibShadowedToolTip" = "將用在非觸發器清單的螢幕保護裝置例外複製到這個觸發器中";
+
+// TOOL TIP FOR RUNNING APPS TABLE
+/* Class = "NSButton"; ibShadowedToolTip = "Refresh list"; ObjectID = "e7M-fJ-LMG"; */
+"e7M-fJ-LMG.ibShadowedToolTip" = "重新載入清單";
+
+// TOOL TIP FOR RUNNING APPS TABLE 2
+/* Class = "NSStackView"; ibShadowedToolTip = "Refresh list"; ObjectID = "ya4-bY-UXz"; */
+"ya4-bY-UXz.ibShadowedToolTip" = "重新載入清單";
+
+// TOOL TIP FOR RUNNING APPS SHOW/HIDE PROCESSES BUTTON
+/* Class = "NSButton"; ibShadowedToolTip = "Show/Hide apps and processes that have no user interface"; ObjectID = "HT5-oY-HMS"; */
+"HT5-oY-HMS.ibShadowedToolTip" = "顯示或隱藏無使用者介面的 App 或程序";
+
+
+// END OF USED STRINGS
