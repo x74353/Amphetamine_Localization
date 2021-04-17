@@ -957,18 +957,18 @@
 // ---------------------------------------------------------------------------
 
 // PREFERENCES WINDOW TOOLBAR ITEM LABEL
-"prefs_tb_stat" = "Statistics";
+"prefs_tb_stat" = "統計資料";
 
 // PREFERENCES → STATISTICS BUTTONS
-"pref_stat_bttn_reset" = "Reset Statistics";
-"pref_stat_bttn_enable" = "Enable statistics collection";
+"pref_stat_bttn_reset" = "重設統計資料";
+"pref_stat_bttn_enable" = "蒐集統計資料";
 
 // PREFERENCES → STATISTICS LABELS
-"pref_stat_lbl_how_long_title" = "Amphetamine has kept your Mac awake for"; // v5.0.1
+"pref_stat_lbl_how_long_title" = "Amphetamine 已經讓您的 Mac 亢奮⋯⋯"; // v5.0.1
 "pref_stat_lbl_how_long_about" = "\n%@ %@ %@ %@"; // v5.0.1
 "pref_stat_lbl_how_long_prefs" = "%@ %@ %@ %@"; // v5.0.1
-"pref_stat_lbl_average" = "Average Session Duration";
-"pref_stat_lbl_total_sessions" = "Total Sessions";
+"pref_stat_lbl_average" = "平均亢奮階段時長";
+"pref_stat_lbl_total_sessions" = "亢奮階段總數";
 
 
 
