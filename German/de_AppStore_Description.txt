@@ -1,0 +1,124 @@
+---------------------------------------------------------
+SUBTITLE:
+
+** NOTE: This field has a 30 character limit **
+
+Nützliche Sleep/Wake-App
+
+
+---------------------------------------------------------
+KEYWORDS: 
+
+** NOTE: If there are other keywords that would make more sense in the target language, feel free to replace these **
+
+wach, aufwecken, anti, schlafen, verhindern, display, Strom, Koffein, Akku, Planung, Bildschirm, Bildschirmschoner, Monitor, an, aus
+
+
+---------------------------------------------------------
+APP STORE PREVIEWS:
+
+** NOTE: The following text appears in the screen shots/previews show in Amphetamine’s Mac App Store listing. Please only translate the text below each PREVIEW section. Please keep each line of text separated. **
+
+
+PREVIEW 1:
+Halte deinen Mac mit Amphetamine wach.
+Starte eine Sitzung mit nur einem Klick oder wähle eine gewisse Sitzungsdauer.
+
+PREVIEW 2:
+Nutze automatische Auslöser, um deinen Mac in den Ruhemodus zu versetzen.
+WLAN, USB, Bluetooth, Display, Laufwerke und mehr.
+
+PREVIEW 3:
+Halte deinen Mac wach, während du arbeitest.
+Wähle Apps, während deren Nutzung dein Mac nicht in den Ruhemodus wechselt.
+
+PREVIEW 4:
+Halte deinen Mac wach, auch während das Display geschlossen ist.
+Erhalte zur Sicherheit Hinweise, um dies auch nicht zu vergessen.
+
+PREVIEW 5:
+Nutze deine eigenen Statusleisten-Symbole.
+Du kannst fast alles anpassen, selbst Hinweistöne.
+
+PREVIEW 6:
+Halte dein Laufwerk wach und allzeit bereit.
+Drive Alive sorgt für diese ständige Bereitschaft. 
+
+
+---------------------------------------------------------
+DESCRIPTION:
+
+Willkommen bei Amphetamine, der bis heute besten Sleep/Wake-App für macOS. Amphetamine hält deinen Mac und gegebenenfalls auch Displays mit einem simplen Knopfdruck oder automatisch mit einfach zu erstellenden Auslösern wach. Amphetamine ist umfangreich und beinhaltet weitreichende Funktionen für Fortgeschrittene, bleibt dabei aber nutzerfreundlich und übersichtlich.
+
+=== Klicke, um deinen Mac wach zu halten ===
+
+Über das Menü von Amphetamine kannst du schnell in eine Bleib-Wach-Sitzung wechseln, um deinen Mac wach zu halten.
+
+• Endlos, für eine gewisse Zeit oder bis zu einer gewissen Zeit
+• Bis ein Download abgeschlossen ist
+• Solange eine gewisse App ausgeführt wird
+
+Während einer Sitzung kannst du Abläufe erlauben oder unterbinden:
+
+• Monitor ausschalten
+• Bildschirmschoner aktivieren
+• Ruhemodus, wenn das Display geschlossen ist
+• Automatisierte Mausbewegung
+• Bildschirmsperre
+
+=== Umfangreiche Automationen ===
+
+Erstelle Auslöser, um deinen Mac automatisch wach zu halten. 
+
+• Während ein externer Monitor angeschlossen ist.
+• Während der Monitor deines Mac's gespiegelt wird.
+• Während ein Gerät über USB oder Bluetooth verbunden ist.
+• Während eine gewisse App ausgeführt wird.
+• Während eine gewisse App im Vordergrund ausgeführt wird.
+• Während der Akku deines Mac's geladen wird und/oder der Ladestand eine Grenze überschreitet.
+• Wenn der Mac's power adapter is connected or disconnected
+• Während dein Mac eine spezielle IP-Adresse besitzt.
+• Während dein Mac mit einem gewissen WLAN verbunden ist.
+• Während dein Mac mit Cisco AnyConnect VPN verbunden ist.
+• Während dein Mac festgelegte DNS-Server nutzt.
+• Während Kopfhörer oder ein anderer Audio-Ausgang genutzt wird.
+• Während ein ausgewähltes Laufwerk verbunden ist.
+• Falls die CPU-Auslastung deines Mac's einen definierten Grenzwert erreicht.
+• Wenn dein Mac für eine gewisse Zeit nicht genutzt wird.
+
+
+=== Wo ist der Haken? ===
+
+Es gibt keinen. Amphetamine ist zu 100% kostenlos. Die App ist ein Geschenk von mir an euch. Habt Spaß damit!
+
+• Keine Werbung
+• Keine In-App-Käufe
+• Es gibt nichts freizuschalten oder eine Pro-Version
+• Keine nervigen Fragen nach einer Bewertung für Amphetamine
+• Keine Verbindungen zu anderen Bezahlapps
+• Keine Nachverfolgung
+• Keine Datenerhebung
+ 
+
+=== Was kann Amphetamine sonst? === 
+
+Amphetamine ist die bis dato stärkste und anpassungsfähigste Wach-Halte-App für macOS. Weitere tolle Funktionen:
+
+• Sperre den Monitor, nachdem du den Mac längere Zeit nicht genutzt hast
+• Lass die Maus sich regelmäßig bewegen
+• Halte dein MacBook wach, auch wenn das Display geschlossen ist
+• Halte dein Laufwerk mit Drive Alive wach
+• Unterstützung von AppleScript
+• Nutze deine eigenen Symbole in der Menüleiste
+• Nutze deine eigenen Benachrichtigungstöne
+• Du kannst das Display unabhängig von deinem Mac in den Ruhemodus versetzen
+• Starte den Bildschirmschoner nach einer gewissen Dauer der Nichtbenutzung
+• Wahlweise Anzeige der restlichen Sitzungsdauer (12 oder 24h-Anzeige)
+• Falls der Akkustand deines Mac's niedrig ist, kann die Sitzung automatisch beendet werden
+• Das Starten und Beenden von Sitzungen, De-/aktivieren des Bildschirmschoners etc. kann mit Kurzbefehlen gesteuert werden
+
+
+=== Systemvoraussetzungen + andere Details === 
+
+• Amphetamine erfordert macOS 10.11 El Capitan oder neuer; wobei manche Funktionen eine neuere Version von macOS voraussetzen
+• Amphetamine unterstützt Retina-Displays und den Dunkelmodus von macOS.

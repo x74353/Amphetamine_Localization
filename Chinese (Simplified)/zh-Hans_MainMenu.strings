@@ -1,7 +1,3 @@
-//  TRANSLATION COMPLETED BY:
-//  简体中文版本由Peter Flynn汉化。
-
-
 // AMPHETAMINE MENU
 
 /* Class = "NSMenu"; title = "Amphetamine"; ObjectID = "uQy-DD-JDr"; */
@@ -95,5 +91,3 @@
 // TOOL TIP FOR RUNNING APPS SHOW/HIDE PROCESSES BUTTON
 /* Class = "NSButton"; ibShadowedToolTip = "显示/隐藏没有用户界面的应用程序和进程。"; ObjectID = "HT5-oY-HMS"; */
 "HT5-oY-HMS.ibShadowedToolTip" = "显示/隐藏没有用户界面的应用程序和进程。";
-
-// END OF USED STRINGS

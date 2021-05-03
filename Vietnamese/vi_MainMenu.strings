@@ -1,99 +1,88 @@
-//  TRANSLATION COMPLETED BY:
-//  Ứng dụng được đóng góp Việt hóa bởi Joe Pham.
-  
 // AMPHETAMINE MENU
 
 /* Class = "NSMenu"; title = "Amphetamine"; ObjectID = "uQy-DD-JDr"; */
 "uQy-DD-JDr.title" = "Amphetamine";
 
 /* Class = "NSMenuItem"; title = "About Amphetamine"; ObjectID = "5kV-Vb-QxS"; */
-"5kV-Vb-QxS.title" = "Sobre o Amphetamine";
+"5kV-Vb-QxS.title" = "Về Amphetamine";
 
 /* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "BOF-NM-1cW"; */
-"BOF-NM-1cW.title" = "Preferências…";
+"BOF-NM-1cW.title" = "Tùy chọn…";
 
 /* Class = "NSMenuItem"; title = "Hide Amphetamine"; ObjectID = "Olw-nP-bQN"; */
-"Olw-nP-bQN.title" = "Ocultar Amphetamine";
+"Olw-nP-bQN.title" = "Ẩn Amphetamine";
 
 /* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; */
-"Vdr-fp-XzO.title" = "Ocultar Outros";
+"Vdr-fp-XzO.title" = "Ẩn Các Cửa sổ Khác";
 
 /* Class = "NSMenuItem"; title = "Show All"; ObjectID = "Kd2-mp-pUS"; */
-"Kd2-mp-pUS.title" = "Mostrar Tudo";
+"Kd2-mp-pUS.title" = "Hiển thị Tất cả Cửa sổ";
 
 
 // EDIT MENU
 
 /* Class = "NSMenu"; title = "Edit"; ObjectID = "W48-6f-4Dl"; */
-"W48-6f-4Dl.title" = "Editar";
+"W48-6f-4Dl.title" = "Sửa";
 
 /* Class = "NSMenuItem"; title = "Undo"; ObjectID = "dRJ-4n-Yzg"; */
-"dRJ-4n-Yzg.title" = "Desfazer";
+"dRJ-4n-Yzg.title" = "Hoàn tác";
 
 /* Class = "NSMenuItem"; title = "Redo"; ObjectID = "6dh-zS-Vam"; */
-"6dh-zS-Vam.title" = "Refazer";
+"6dh-zS-Vam.title" = "Làm lại";
 
 /* Class = "NSMenuItem"; title = "Cut"; ObjectID = "uRl-iY-unG"; */
-"uRl-iY-unG.title" = "Cortar";
+"uRl-iY-unG.title" = "Cắt";
 
 /* Class = "NSMenuItem"; title = "Copy"; ObjectID = "x3v-GG-iWU"; */
-"x3v-GG-iWU.title" = "Copiar";
+"x3v-GG-iWU.title" = "Sao chép";
 
 /* Class = "NSMenuItem"; title = "Paste"; ObjectID = "gVA-U4-sdL"; */
-"gVA-U4-sdL.title" = "Colar";
+"gVA-U4-sdL.title" = "Dán";
 
 /* Class = "NSMenuItem"; title = "Delete"; ObjectID = "pa3-QI-u2k"; */
-"pa3-QI-u2k.title" = "Apagar";
+"pa3-QI-u2k.title" = "Xóa";
 
 /* Class = "NSMenuItem"; title = "Select All"; ObjectID = "Ruw-6m-B2m"; */
-"Ruw-6m-B2m.title" = "Selecionar Tudo";
+"Ruw-6m-B2m.title" = "Chọn Tất cả";
 
 
 // WINDOW MENU
 
 /* Class = "NSMenu"; title = "Window"; ObjectID = "Td7-aD-5lo"; */
-"Td7-aD-5lo.title" = "Janela";
+"Td7-aD-5lo.title" = "Cửa sổ";
 
 /* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "OY7-WF-poV"; */
-"OY7-WF-poV.title" = "Minimizar";
+"OY7-WF-poV.title" = "Thu nhỏ";
 
 /* Class = "NSMenuItem"; title = "Close"; ObjectID = "Ucq-Ov-42D"; */
-"Ucq-Ov-42D.title" = "Fechar";
+"Ucq-Ov-42D.title" = "Đóng";
 
 /* Class = "NSMenuItem"; title = "Zoom"; ObjectID = "R4o-n2-Eq4"; */
-"R4o-n2-Eq4.title" = "Zoom";
+"R4o-n2-Eq4.title" = "Thu phóng";
 
 /* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "LE2-aR-0XJ"; */
-"LE2-aR-0XJ.title" = "Trazer Todas para a Frente";
+"LE2-aR-0XJ.title" = "Đưa Tất cả lên Phía trước";
 
 /* Class = "NSMenu"; title = "Help"; ObjectID = "F2S-fz-NVQ"; */
-"F2S-fz-NVQ.title" = "Ajuda";
+"F2S-fz-NVQ.title" = "Trợ giúp";
 
 /* Class = "NSMenuItem"; title = "Amphetamine Help"; ObjectID = "FKE-Sm-Kum"; */
-"FKE-Sm-Kum.title" = "Ajuda do Amphetamine";
+"FKE-Sm-Kum.title" = "Trợ giúp về Amphetamine";
 
 
 // TOOL TIPS
 
-// TOOL TIP FOR CISCO ANYCONNECT VPN
 /* Class = "NSButton"; ibShadowedToolTip = "Refresh service name"; ObjectID = "LoY-pN-Mqt"; */
-"LoY-pN-Mqt.ibShadowedToolTip" = "Atualizar nome do serviço";
+"LoY-pN-Mqt.ibShadowedToolTip" = "Tải lại tên dịch vụ";
 
-// TOOL TIP FOR TRIGGER SCREEN SAVER EXCEPTIONS
 /* Class = "NSButton"; ibShadowedToolTip = "Copy screen saver exceptions used in non-Trigger list to this Trigger"; ObjectID = "UWl-xZ-W0U"; */
-"UWl-xZ-W0U.ibShadowedToolTip" = "Copiar lista de exceções do protetor de tela usada em Sessões sem Acionador";
+"UWl-xZ-W0U.ibShadowedToolTip" = "Sao chép các ngoại lệ của screen saver được sử dụng cho danh sách các phiên không qua Trigger vào Trigger này";
 
-// TOOL TIP FOR RUNNING APPS TABLE
 /* Class = "NSButton"; ibShadowedToolTip = "Refresh list"; ObjectID = "e7M-fJ-LMG"; */
-"e7M-fJ-LMG.ibShadowedToolTip" = "Atualizar lista";
+"e7M-fJ-LMG.ibShadowedToolTip" = "Tải lại danh sách";
 
-// TOOL TIP FOR RUNNING APPS TABLE 2
 /* Class = "NSStackView"; ibShadowedToolTip = "Refresh list"; ObjectID = "ya4-bY-UXz"; */
-"ya4-bY-UXz.ibShadowedToolTip" = "Atualizar lista";
+"ya4-bY-UXz.ibShadowedToolTip" = "Tải lại danh sách";
 
-// TOOL TIP FOR RUNNING APPS SHOW/HIDE PROCESSES BUTTON
 /* Class = "NSButton"; ibShadowedToolTip = "Show/Hide apps and processes that have no user interface"; ObjectID = "HT5-oY-HMS"; */
-"HT5-oY-HMS.ibShadowedToolTip" = "Mostre ou oculte apps e processos que não têm uma interface de usuário";
-
-
-// END OF USED STRINGS
+"HT5-oY-HMS.ibShadowedToolTip" = "Hiển thị/Ẩn các ứng dụng và tiến trình không có giao diện người dùng";

@@ -1,6 +1,3 @@
-// TRANSLATION COMPLETED BY:
-// 日本語版の翻訳はYuri HARUNA（春菜 柚梨）により提供されました。
-
 // AMPHETAMINE MENU
 
 /* Class = "NSMenu"; title = "Amphetamine"; ObjectID = "uQy-DD-JDr"; */
@@ -94,6 +91,3 @@
 // TOOL TIP FOR RUNNING APPS SHOW/HIDE PROCESSES BUTTON
 /* Class = "NSButton"; ibShadowedToolTip = "Show/Hide apps and processes that have no user interface"; ObjectID = "HT5-oY-HMS"; */
 "HT5-oY-HMS.ibShadowedToolTip" = "UI表示のないアプリ・プロセスを表示/しまう";
-
-
-// END OF USED STRINGS

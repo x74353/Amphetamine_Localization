@@ -1,0 +1,1622 @@
+/*
+ 
+ Localizable.strings
+ Amphetamine
+
+ Created by William Gustafson on 2/21/20.
+ Copyright © 2020 William C. Gustafson. All rights reserved.
+
+*/
+
+// ---------------------------------------------------------------------------
+// GENERAL USE STRINGS
+
+// THE APP'S NAME, DON'T TRANSLATE
+"gen_use_app_name" = "Amphetamine";
+
+// THE NAME OF THE TARGET LANGUAGE
+// EXAMPLE: PUT "SPANISH" HERE IF YOU ARE TRANSLATING INTO THE SPANISH LANGUAGE
+ "gen_use_locale" = "Nederlands";
+
+// USED IN BUTTONS, MENUS
+"gen_use_end_session_cap" = "Stop sessie";
+
+// USED TO INFORM USER OF KEY COMMAND
+"gen_use_command_x" = "⌘ X";
+
+// USED IN BUTTONS, MENUS
+"gen_use_cont_session_cap" = "Zet sessie voort";
+
+// USED IN MENU
+"gen_use_close_menu" = "Sluit menu";
+
+// USED IN SENTENCES
+// EXAMPLE: THERE ARE 10 MINUTES REMAINING IN THIS SESSION.
+"gen_use_remaining" = "resterend";
+
+// USED IN SENTENCES
+// EXAMPLE USAGE: BATTERY IS 100% 'CHARGED'
+"gen_use_charged" = "opgeladen";
+
+// EXAMPLE USAGE: POWER ADAPTER CONNECTED 'AND'/'OR' BATTERY 100% CHARGED
+"gen_use_and" = "en";
+
+// EXAMPLE USAGE: POWER ADAPTER CONNECTED 'OR' BATTERY 100% CHARGED
+"gen_use_or" = "of";
+
+// EXAMPLE USAGE: CLICK THE BUTTON LABELED 'SAVE' TO KEEP YOUR CHANGES
+"gen_use_save" = "Bewaar";
+
+// EXAMPLE USAGE: CLICK THE BUTTON LABELED 'CANCEL' TO DISCARD YOUR CHANGES
+"gen_use_cancel" = "Annuleer";
+
+// EXAMPLE USAGE: CLICK THE BUTTON LABELED 'CONTINUE' TO PROCEED
+"gen_use_continue" = "Ga door";
+
+// EXAMPLE USAGE: CLICK THE BUTTON LABELED 'SELECT' TO CONFIRM YOUR SELECTION
+"gen_use_select" = "Selecteer";
+
+// USED AS A BUTTON LABEL OR MENU ITEM TITLE, ACTIONABLE, CLICKING ON THIS WILL END A SESSION
+"gen_use_end_session" = "Stop huidige sessie";
+
+// USED IN CONJUNCTION WITH A NUMBER, EXAMPLE USAGE: Duration = 10 'hours'
+"gen_use_days" = "dagen";
+"gen_use_day" = "dag";
+"gen_use_hours" = "uren";
+"gen_use_hour" = "uur";
+"gen_use_minutes" = "minuten";
+"gen_use_minute" = "minuut";
+"gen_use_seconds" = "seconden";
+"gen_use_second" = "seconde";
+
+// USED AS A CATEGORY, EXAMPLE: MENU NAME 'HOURS' SUBMENU CONTAINS "1 HOUR", "2 HOURS", ETC.
+"gen_use_hours_cap" = "Uren";
+"gen_use_minutes_cap" = "Minuten";
+
+// TIME UNIT ABBREVIATIONS
+// EXAMPLE: 1h 30m = 1 HOUR 30 MINUTES
+"duration_abbrv_hours_h" = "u";
+"duration_abbrv_hours_hrs" = "u";
+
+"duration_abbrv_minutes_mins" = "m";
+"duration_abbrv_minutes_m" = "m";
+
+"duration_abbrv_seconds_secs" = "s";
+"duration_abbrv_seconds_s" = "s";
+
+// USED IN SENTENCE; EXAMPLE: 10 MINUTES 'OF INACTIVITY'
+"gen_use_of_inactivity" = "inactiviteit";
+
+// USED IN BUTTON TITLE FOR OTHER TIME DURATION SESSIONS
+// EXAMPLE: 'FOR' 3 HOURS, 'UNTIL' 5:00 PM
+"gen_use_other_time_for_cap" = "gedurende";
+"gen_use_other_time_until_cap" = "Tot";
+
+// USED TO INDICATE A CUSTOM TIME SELECTION AS OPPOSED TO THE STANDARD SELECTIONS
+// EXAMPLE: " 'OTHER TIME:' 2 HRS 16 MINS "
+"gen_use_other_time_colon" = "Andere tijd:";
+
+// USED TO INDICATE THAT NO DEVICES (i.e. USB or BLUETOOTH DEVICE) ARE CONNECTED TO THIS MAC
+"gen_use_no_recog_dev" = "Geen bekende apparaten verbonden";
+
+// USED TO PROMPT USER TO CONTINUE OR END A SESSION
+"gen_use_cont_session" = "Deze sessie verderzetten?";
+
+// EXAMPLE 100 'PIXELS' WIDE
+"gen_use_pixels" = "pixels";
+
+// EXAMPLE 1 'PIXEL' WIDE
+"gen_use_pixel" = "pixel";
+
+// THE LOCALIZED NAME OF THE FINDER APP IN THE TARGET LANGUAGE. MAY BE FINDER AND NO CHANGED NEEDED
+"finder_app_name" = "Finder";
+
+// THE LOCALIZED PATH TO THE USER LIBRARY → PREFERENCES DIRECTORY
+// DO NOT ADD ~ OR ANY OTHER PATH COMPONENTS
+// FULL PATH IS GENERATED DYNAMICALLY USING ACCOUNT SHORT NAME
+// ONLY TRANSLATE THIS IF THESE FOLDER NAMES APPEAR DIFFERENTLY IN THE TARGET LANGUAGE
+// OTHERWISE, DO NOT TRANSLATE
+"path_to_usr_prefs" = "/Bibliotheek/Preferences/";
+
+// Used to denote the version of the app. Example: Version 5.0
+"gen_use_version_cap" = "Versie";
+
+// USED AS BUTTON LABEL/TITLE IN RESPONSE TO A QUESTION
+// EXAMPLE: Q: IS THIS DRIVE A NETWORK VOLUME? BUTTON TITLES: 'YES', 'NO'
+"gen_use_yes_cap" = "Ja";
+"gen_use_no_cap" = "Nee";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// SESSION DURATIONS
+// USED PRIMARILY IN IN MENUS AS SELECTABLE ITEMS
+
+"pref_duration_other" = "Andere duur…";
+"pref_duration_indef" = "Oneindig";
+"pref_duration_5secs" = "5 seconden";
+"pref_duration_10secs" = "10 seconden";
+"pref_duration_15secs" = "15 seconden";
+"pref_duration_30secs" = "30 seconden";
+"pref_duration_1min" = "1 minuut";
+"pref_duration_5mins" = "5 minuten";
+"pref_duration_10mins" = "10 minuten";
+"pref_duration_15mins" = "15 minuten";
+"pref_duration_20mins" = "20 minuten";
+"pref_duration_25mins" = "25 minuten";
+"pref_duration_30mins" = "30 minuten";
+"pref_duration_35mins" = "35 minuten";
+"pref_duration_40mins" = "40 minuten";
+"pref_duration_45mins" = "45 minuten";
+"pref_duration_50mins" = "50 minuten";
+"pref_duration_55mins" = "55 minuten";
+"pref_duration_1hr" = "1 uur";
+"pref_duration_2hrs" = "2 uur";
+"pref_duration_3hrs" = "3 uur";
+"pref_duration_4hrs" = "4 uur";
+"pref_duration_5hrs" = "5 uur";
+"pref_duration_6hrs" = "6 uur";
+"pref_duration_7hrs" = "7 uur";
+"pref_duration_8hrs" = "8 uur";
+"pref_duration_9hrs" = "9 uur";
+"pref_duration_10hrs" = "10 uur";
+"pref_duration_12hrs" = "12 uur";
+"pref_duration_24hrs" = "24 uur";
+"pref_duration_download" = "Bestand aan het downloaden…";
+
+// SESSION TIME REMAINING
+"session_time_remain_infin" = "Resterende tijd oneindig";
+"session_time_remain_dwnld" = "Zolang bestand gedownload wordt";
+
+// SESSION TIME EXTENSION
+"session_time_extend" = "Sessie verlengen met";
+
+
+
+// ---------------------------------------------------------------------------
+// DELAYED START DURATIONS
+// USED PRIMARILY IN IN MENUS AS SELECTABLE ITEMS
+
+"scrn_svr_delay_dur_1m" = "Start binnen 1 minuut";
+"scrn_svr_delay_dur_5m" = "Start binnen 5 minuten";
+"scrn_svr_delay_dur_10m" = "Start binnen 10 minuten";
+"scrn_svr_delay_dur_15m" = "Start binnen 15 minuten";
+"scrn_svr_delay_dur_30m" = "Start binnen 30 minuten";
+"scrn_svr_delay_dur_45m" = "Start binnen 45 minuten";
+"scrn_svr_delay_dur_1h" = "Start binnen 1 uur";
+"scrn_svr_delay_dur_1h15m" = "Start binnen 1 uur en 15 minuten";
+"scrn_svr_delay_dur_1h30m" = "Start binnen 1 uur en 30 minuten";
+"scrn_svr_delay_dur_1h45m" = "Start binnen 1 uur en 45 minuten";
+"scrn_svr_delay_dur_2h" = "Start binnen 2 uur";
+"scrn_svr_delay_dur_2h15m" = "Start binnen 2 uur en 15 minuten";
+"scrn_svr_delay_dur_2h30m" = "Start binnen 2 uur en 30 minuten";
+"scrn_svr_delay_dur_2h45m" = "Start binnen 2 uur en 45 minuten";
+"scrn_svr_delay_dur_3h" = "Start binnen 3 uur";
+"scrn_svr_delay_dur_3h15m" = "Start binnen 3 uur en 15 minuten";
+"scrn_svr_delay_dur_3h30m" = "Start binnen 3 uur en 30 minuten";
+"scrn_svr_delay_dur_3h45m" = "Start binnen 3 uur en 45 minuten";
+"scrn_svr_delay_dur_4h" = "Start binnen 4 uur";
+"scrn_svr_delay_dur_4h15m" = "Start binnen 4 uur en 15 minuten";
+"scrn_svr_delay_dur_4h30m" = "Start binnen 4 uur en 30 minuten";
+"scrn_svr_delay_dur_4h45m" = "Start binnen 4 uur en 45 minuten";
+"scrn_svr_delay_dur_5h" = "Start binnen 5 uur";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// FILE DOWNLOAD SESSION PROGRESS
+// USED PRIMARILY IN IN MENUS AS SELECTABLE ITEMS
+
+// ** NOTE: DO NOT REMOVE '%@' or '%.f%%' **
+// PLACEHOLDERS REPRESENT DOWNLOAD PROGRESS - EXAMPLE" File is downloading... (2GB | 47%)
+"pref_duration_download_progress" = "Bestand aan het downloaden… (%@ | %.f%%)";
+"pref_duration_download_progress_unknown" = "Bestand aan het downloaden... (%@ of ?)";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// DATE FORMATTERS
+
+// 12 HOUR DATE FORMATTER STRING 1
+"12_hr_date_formatter" = "MMM d, h:mm a";
+
+// 12 HOUR DATE FORMATTER STRING 2
+"12_hr_date_formatter_2" = "h:mm a";
+
+// 24 HOUR DATE FORMATTER STRING
+"24_hr_date_formatter" = "MMM d, HH:mm";
+
+// 24 HOUR DATE FORMATTER STRING 2
+"24_hr_date_formatter_2" = "HH:mm";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// SESSION ACTIVATION REASONS
+
+"act_reason_sess_at_launch" = "Nieuwe sessie bij starten van app";
+"act_reason_manual" = "Manueel inschakelen";
+"act_reason_app_running" = "is actief"; // example usage: "Safari is actief"
+"act_reason_trigger_name" = "Naam van Trigger";
+"act_reason_applescript" = "AppleScript-activatie";
+"act_reason_woke_from_sleep" = "Mac kwam uit sluimerstand";
+"act_reason_ac_connected" = "Stroomkabel aangesloten";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → GLOBAL
+// ---------------------------------------------------------------------------
+
+"pref_window_title" = "Voorkeuren"; // 5.0.2
+"pref_global_lbl_uses_default_duration" = "↳ Gebruikt standaardduur";
+"pref_global_bttn_screen_saver_exceptions" = "Uitzonderingen…";
+"scrn_svr_excpt_VNC" = "Schermdeling/VNC/Remote Desktop-verbindingen"; // 5.1.2
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → GENERAL TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_gen" = "Algemeen";
+
+// PREFERENCES → GENERAL BUTTONS
+"pref_gen_bttn_launch_app_at_login" = "Start Amphetamine bij inloggen";
+"pref_gen_bttn_start_session_at_launch" = "Start sessie bij opstarten van Amphetamine";
+"pref_gen_bttn_start_session_after_wake" = "Start sessie nadat je Mac uit sluimerstand komt";
+"pref_gen_bttn_hide_dock_icon" = "Verberg Amphetamine in het Dock";
+"pref_gen_bttn_reduce_motion" = "Verminder beweging";
+"pref_gen_bttn_reset_warnings" = "Stel waarschuwingen opnieuw in";
+"pref_gen_bttn_reset_all_prefs" = "Stel alle voorkeuren opnieuw in";
+
+// PREFERENCES → GENERAL LABELS
+"pref_gen_lbl_quick_start" = "Start een snelle sessie:";
+"pref_gen_lbl_launch_wake" = "Opstart- en sluimerstandgedrag:";
+"pref_gen_lbl_other" = "Andere:";
+"pref_gen_lbl_takes_effect_close_win" = "↳ Wordt geactiveerd zodra alle open vensters gesloten worden";
+
+// PREFERENCES → GENERAL MENU ITEMS
+"pref_gen_mi_quick_start_rightclick" = "Rechtermuisknop (links toont het menu)";
+"pref_gen_mi_quick_start_leftclick" = "Linkermuisknop (rechts toont het menu)";
+
+
+// ---------------------------------------------------------------------------
+// (?) BUTTON MENU ITEMS
+
+// ----- PREFERENCES → GENERAL → Quick-Start a Session Help Message
+
+// Title
+"help_message_quick_start_title" = "Start een snelle sessie";
+
+// Body
+"help_message_quick_start_body" = "Kies zelf of klikken op Amphetamines logo met de linkermuisknop (= primair klikken) of rechtermuisknop (= secundair klikken) het menu opent of een sessie start/beëindigt.";
+
+// ----- PREFERENCES → GENERAL → Launch and Wake Behavior Help Message
+
+// Title
+"help_message_quick_launch_wake_title" = "Opstart- en sluimerstandgedrag"; // fix me quick?
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_quick_launch_wake_body" = "• Start Amphetamine bij inloggen\nVink dit aan als je wil dat Amphetamine vanzelf opstart wanneer je inlogt in je Mac.\n\n• Start een sessie wanneer Amphetamine opstart\nVink dit aan als je automatisch een nieuwe sessie wil starten zodra Amphetamine opstart.\n\n• Start een sessie na ontwaken uit sluimerstand\nVink dit aan als je een nieuwe sessie wil starten telkens wanneer je Mac uit sluimerstand komt. Als er al een sessie bezig is, wordt er geen nieuwe sessie gestart.";
+
+// ----- PREFERENCES → GENERAL → Other Help Message
+
+// Title
+"help_message_other_title" = "Andere";
+
+// Body (macOS 10.14+) ** NOTE: DO NOT REMOVE '\n' **
+"help_message_other_body_post_highsierra" = "• Verberg Amphetamine in het Dock\nVink dit aan om het logo van Amphetamine te verbergen in het Dock. In macOS 10.15 en later verschijnt het logo vanzelf als er een venster van Amphetamine openstaat (zoals het Voorkeurenvenster), ook al heb je de verbergoptie ingesteld. Als je alle vensters van Amphetamine sluit, verdwijnt het logo weer.\n\nIn macOS 10.14 en eerder kan het zijn dat je de macOS-functie ‘Toon recente apps in het Dock’ moet uitschakelen (te vinden bij  → Systeemvoorkeuren → Dock) om het logo van Amphetamine volledig van het Dock weg te halen.\n\n• Verminder beweging\nVink dit aan om bewegende animaties van Amphetamine te verminderen.\n\nKlik op ‘Stel waarschuwingen opnieuw in’ om ervoor te zorgen dat alle waarschuwings- en informatievensters waarbij je ‘Niet meer tonen’ aanduidde opnieuw weergegeven worden.\n\nKlik op ‘Stel alle voorkeuren opnieuw in’ om Amphetamine terug naar de standaardmodus te zetten (alle voorkeuren en Triggers gaan hierbij verloren).";
+
+// Body (macOS 10.11 - 10.13) ** NOTE: DO NOT REMOVE '\n' **
+"help_message_other_body_pre_mojave" = "• Verberg Amphetamine in het Dock\nVink dit aan om het logo van Amphetamine te verbergen in het Dock.\n\n• Gebruik kleur om de status weer te geven in Snelle Voorkeuren\nVink dit aan om een gekleurde cirkel in te stellen die de status van elke optie weergeeft in Snelle Voorkeuren (groen = aan; rood = uit). Als je dit niet aanvinkt, wordt een icoontje zonder kleur gebruikt (vinkje = aan; X = uit).\n\n• Verminder beweging\nVink dit aan om bewegende animaties van Amphetamine te verminderen.\n\nKlik op ‘Stel waarschuwingen opnieuw in’ om ervoor te zorgen dat alle waarschuwings- en informatievensters waarbij je ‘Niet meer tonen’ aanduidde opnieuw weergegeven worden.\n\nKlik op ‘Stel alle voorkeuren opnieuw in’ om Amphetamine terug naar de standaardmodus te zetten (alle voorkeuren en Triggers gaan hierbij verloren).";
+
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → SESSION DEFAULTS TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_sess" = "Standaardsessies";
+
+// PREFERENCES → SESSIONS DEFAULTS BUTTONS
+"pref_sess_nt_button_title" = "Sessies zonder Trigger";
+"pref_sess_nt_bttn_default_duration_edit" = "Wijzig";
+"pref_sess_nt_bttn_end_session_force_sleep" = "Beëindig sessie wanneer je je Mac in slaapstand forceert";
+"pref_sess_nt_bttn_allow_display_sleep" = "Scherm sluimeren toestaan";
+"pref_sess_nt_bttn_allow_cdm" = "Sluimerstand van je Mac toestaan wanneer het scherm dicht is";
+"pref_sess_nt_bttn_allow_screen_saver" = "Schermbeveiliging toestaan na";
+"pref_sess_nt_bttn_end_low_batt" = "Beëindig sessie als je batterij (%) lager is dan";
+"pref_sess_nt_bttn_prompt_end_low_batt" = "Geef een melding voor het einde van een sessie";
+"pref_sess_nt_bttn_ignore_batt_if_pwr_adptr" = "Negeer batterijlading (%) als je lader is aangesloten";
+"pref_sess_nt_bttn_start_session_pwr_adptr_connect" = "Start een nieuwe sessie als lader opnieuw wordt verbonden";
+
+"pref_sess_nt_bttn_endtime_timer" = "Gebruik timer"; // v5.0.2
+"pref_sess_nt_bttn_endtime_sysclock" = "Gebruik systeemklok"; //v5.0.2
+
+// PREFERENCES → SESSION DEFAULTS LABELS
+"pref_sess_nt_lbl_dd" = "Standaardduur:";
+"pref_sess_nt_lbl_end_time_calc" = "Berekening einddtijd:";
+"pref_sess_nt_lbl_forced_sleep" = "Geforceerde sluimerstand:";
+"pref_sess_nt_lbl_display_sleep" = "Sluimerstand van het scherm:";
+"pref_sess_nt_lbl_cdm" = "Modus met dichtgeklapt scherm:";
+"pref_sess_nt_lbl_screen_saver" = "Schermbeveiliging:";
+"pref_sess_nt_lbl_battery" = "Batterij:";
+"pref_sess_nt_lbl_pwr_adptr" = "Oplader:";
+"pref_sess_nt_lbl_cust_dd_enter" = "Voor tijd in voor nieuwe duur:";
+
+// OTHER STRINGS
+
+// USED IN SENTENCE; EXAMPLE: " 'Your Mac's battery is' not connected to power adapter"
+// ** NOTE: DO NOT REMOVE %@ **
+"pref_sess_batt_is" = "De batterij van je Mac is %@.";
+
+// USED IN SENTENCE; EXAMPLE: " 'Your Mac's battery is below' 10%"
+// ** NOTE: DO NOT REMOVE '%@' or '%li%%' **
+"pref_sess_batt_is_below" = "De batterijlading van je Mac is lager dan %@.";
+"pref_sess_batt_is_below2" = "Batterijlading is lager dan %li%%";
+
+// USED IN SENTENCE; EXAMPLE: " 'End session when:' not connected to power adapter"
+"pref_sess_nt_end_when" = "Stop sessie indien:";
+
+// USED IN SENTENCE; EXAMPLE: "End session when: 'not connected to power adapter' "
+"pref_sess_nt_ac_not_connected" = "niet verbonden met oplader";
+"pref_sess_nt_ac_not_connected_cap" = "Niet verbonden met oplader";
+"pref_sess_nt_ac_connected" = "verbonden met oplader";
+
+// USED IN SENTENCE; EXAMPLE: " 'End session if charge (%) is below: ' 10%"
+// ** NOTE: LEAVE SPACE CHAR AT END OF STRING **
+"pref_sess_nt_end_if_chrg" = "Stop sessie indien batterij (%) lager is dan: ";
+
+// ---------------------------------------------------------------------------
+// (?) BUTTON MENU ITEMS
+
+// ----- PREFERENCES → SESSION DEFAULTS → Default Duration Help Message
+
+// Title
+"help_message_default_duration_title" = "Standaardduur";
+
+// Body
+"help_message_default_duration_body" = "De standaardduur wordt altijd gebruikt wanneer er geen andere lengtes of voorwaarden voor een sessie zijn ingesteld. Ze wordt bijvoorbeeld gebruikt bij het starten van een sessie bij het opstarten of wanneer je op het logo van Amphetamine klikt in de menubalk.";
+
+// ----- PREFERENCES → SESSION DEFAULTS → End Time Calculation Help Message
+
+// Title
+"help_message_end_time_cal_title" = "Berekening einddtijd";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_end_time_cal_body" = "De eindtijd van een sessie kan berekend worden met een timer of met behulp van de systeemklok.\n\nAls je bijvoorbeeld ‘Gebruik timer’ kiest en een sessie van 3 uur start, maar je Mac staat 2 uur in sluimerstand, dan blijft je sessie alsnog 3 uur duren wanneer je je Mac uit sluimerstand haalt. De timer werd namelijk gepauzeerd tijdens de sluimerstand.\n\nAls je in het scenario hierboven daarentegen ‘Gebruik systeemklok’ zou selecteren, zou de sessie nog 1 uur duren. Bij de systeemklok zijn er namelijk wel 2 uren voorbijgegaan terwijl je Mac sluimerde.";
+
+// ----- PREFERENCES → SESSION DEFAULTS → Forced Sleep Help Message
+
+// Title
+"help_message_forced_sleep_title" = "Geforceerde sluimerstand";
+
+// Body
+"help_message_forced_sleep_body" = "Vink dit aan om alle sessies zonder Trigger automatisch te beëindigen als je je Mac geforceerd laat sluimeren. Het gaat dan om elke situatie om je Mac in sluimerstand te zetten, bijvoorbeeld klikken op ‘ → Sluimer’ of een sneltoetscombinatie.";
+
+// ----- PREFERENCES → SESSION DEFAULTS → Display Sleep Help Message
+
+// Title
+"help_message_display_sleep_title" = "Sluimerstand van het scherm";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_display_sleep_body" = "Vink dit aan als je je scherm wil laten sluimeren tijdens een sessie. Je scherm zal dan dimmen na jouw gekozen tijd (in te stellen via  → Systeemvoorkeuren → Batterij (indien je Mac draagbaar is) of Energiestand (indien je een niet-draagbare Mac hebt)).\n\nOpgelet: deze optie betreft enkel sessies zonder Trigger. Als je dit ook wil inschakelen bij sessies mét Trigger, kan je elke individuele Trigger zo configureren.";
+
+// ----- PREFERENCES → SESSION DEFAULTS → Closed-Display Mode Help Message
+
+// Title
+"help_message_closed_display_title" = "Modus met dichtgeklapt scherm";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_closed_display_body" = "Laat deze optie uitstaan als je wil dat Amphetamine je Mac wakker houdt terwijl je scherm is dichtgeklapt.\n\nNormaal gezien moeten een extern scherm, toetsenbord, muis en oplader allemaal verbonden zijn met je Mac om deze modus te activeren. Amphetamine kan deze voorwaarden tijdelijk omzeilen en kan dus je Mac wakker houden, ook al is je scherm dichtgeklapt.\n\nDit vinkje wordt gedeactiveerd als je Mac deze functie niet ondersteunt.\n\nDeze optie betreft enkel sessies zonder Trigger. Als je dit ook wil inschakelen bij sessies mét Trigger, kan je elke individuele Trigger zo configureren via ‘Voorkeuren → Trigger’.\n\nAls je deze functie gebruikt, stel je best ‘Waarschuwingen voor modus met dichtgeklapt scherm’ in via ‘Voorkeuren → Meldingen → Modus met dichtgeklapt scherm’.";
+
+// ----- PREFERENCES → SESSION DEFAULTS → Screen Saver Help Message
+
+// Title
+"help_message_screen_saver_title" = "Schermbeveiliging";
+
+// Body
+"help_message_screen_saver_body" = "Vink dit aan als je je schermbeveiliging wil activeren tijdens sessies zonder Trigger. Gebruik de balk om de tijd te bepalen waarna je schermbeveiliging gestart wordt. Amphetamine zal je inactieve tijd monitoren tijdens sessies zonder Trigger; als die inactieve tijd deze ingestelde tijdsduur overschrijdt, start je schermbeveiliging.\n\nJe kan programma’s als uitzondering instellen via de ‘Uitzonderingen…’-knop. Als een app uit die lijst actief is, start Amphetamine de schermbeveiliging niet. Dat kan handig zijn voor wanneer je een video aan bekijken bent of een e-boek aan het lezen bent, …\n\nOpgelet: deze optie betreft enkel sessies zonder Trigger. Als je dit ook wil inschakelen bij sessies mét Trigger, kan je elke individuele Trigger zo configureren.";
+
+// ----- PREFERENCES → SESSION DEFAULTS → Battery Help Message
+
+// Title
+"help_message_battery_title" = "Batterij";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_battery_body" = "• Stop sessie als je batterijniveau lager is dan…\nVink dit aan als je wil dat sessies zonder Trigger automatisch stoppen zodra de batterij van je Mac onder een bepaalde drempelwaarde valt die je kan instellen met de schuifbalk. Schuif helemaal naar rechts om sessies meteen te beëindigen als de oplader niet is aangesloten.\n\n• Melding voor het stoppen van een sessie\nVink dit aan als je een melding wil krijgen voordat Amphetamine automatisch een sessies beëindigt door een te laag batterijniveau. Je kan dan kiezen om de sessie verder te zetten als je dat wil, ondanks je lager batterijniveau.\n\n• Negeer batterijniveau als oplader is aangesloten\nVink dit aan als je niet wil dat sessies automatisch gestopt worden bij een laag batterijniveau terwijl je oplader is aangesloten.\n\nNpgelet: deze optie betreft enkel sessies zonder Trigger. Als je dit ook wil inschakelen bij sessies mét Trigger, kan je elke individuele Trigger zo configureren (met een ‘batterijcriterium’).";
+
+// ----- PREFERENCES → SESSION DEFAULTS → Power Adapter Help Message
+
+// Title
+"help_message_power_adapter_title" = "Oplader";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_power_adapter_body" = "Opgelet: de opties ‘Stop sessie als batterijniveau lager is dan…’ en ‘Negeer batterijniveau als oplader’ moeten geactiveerd zijn om deze optie te activeren. Je kan ook de schuifbalk ‘Stop sessie als batterijniveau lager is dan…’ helemaal naar rechts instellen.\n\nVink dit aan als Amphetamine vanzelf een nieuwe sessie moet starten als je je oplader aansluit. Er wordt enkel een nieuwe sessie gestart als de vorige sessie stopte door een te laag batterijniveau.";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES → SYSTEM CONTROL TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES → SYSTEM CONTROL BUTTONS
+"prefs_tb_sys_cntrl" = "Systeeminstellingen";
+"pref_sess_as_bttn_lck_scrn_pt1" = "Scherm vergrendelen na";
+"pref_sess_as_bttn_lck_scrn_pt2" = "inactiviteit";
+"pref_sess_as_bttn_lck_scrn_use_cursor" = "Gebruik muisbewegingen om inactiviteit te bepalen";
+"pref_sess_as_bttn_lck_scrn_disp_clsd" = "Vergendel scherm meteen nadat het scherm is dichtgeklapt";
+"pref_sess_as_bttn_lck_scrn_allow_disp_sleep" = "Sluimerstand van het scherm toestaan terwijl scherm vergrendeld is";
+"pref_sess_as_bttn_cursor_pt1" = "Muisaanwijzer bewegen na elke…";
+"pref_sess_as_bttn_cursor_pt2" = "na";
+"pref_sess_as_bttn_cursor_pt3" = "inactiviteit";
+"pref_sess_as_bttn_cursor_stop_pt1" = "Stop muisbewegingen na…";
+"pref_sess_as_bttn_cursor_stop_pt2" = "inactiviteit";
+"pref_sess_as_bttn_fast_usr_switch" = "Stop sessie bij overschakelen naar ander gebruikersaccount";
+
+// PREFERENCES → SYSTEM CONTROL LABELS
+"pref_sess_as_lbl_cursor_speed" = "Snelheid muisaanwijzer:";
+"pref_sess_as_lbl_cursor_speed_fast" =  "Snel";
+"pref_sess_as_lbl_cursor_speed_slow" =  "Traag";
+"pref_sess_as_lbl_cursor_speed_warn" = "Tragere snelheid zorgt voor een iets hoger processorgebruik";
+"pref_sess_as_lbl_lck_scrn" = "Scherm vergrendelen:";
+"pref_sess_as_lbl_cursor" = "Muisaanwijzer:";
+"pref_sess_as_lbl_fast_usr_switch" = "Snelle gebruikersoverschakeling:";
+
+// ---------------------------------------------------------------------------
+// (?) BUTTON MENU ITEMS
+
+// ----- PREFERENCES → SYSTEM CONTROL → Lock Screen Help Message
+
+// Title
+"help_message_lock_screen_title" = "Scherm vergrendelen";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_lock_screen_body" = "• Scherm vergendelen na… inactiviteit\nVink dit aan als Amphetamine je scherm moet vergrendelen na een bepaalde periode van inactiviteit. Dit gebeurt enkel terwijl er een sessie actief is. Om in te stellen wanneer je scherm vergrendeld wordt terwijl er geen sessie actief is, ga je naar  → Systeemvoorkeuren → Beveiliging & Privacy → Algemeen.\n\n• Gebruik muisbewegingen om inactiviteit te bepalen\nVink dit aan als het gebrek aan muisbewegingen ook een voorwaarde moet zijn om je scherm te vergrendelen, naast de systeemklok. Dit is handig voor als je je Mac vanop afstand benadert via VNC/ARD/RDP.\n\n• Vergendel scherm meteen nadat het scherm is dichtgeklapt\nVink dit aan als Amphetamine je scherm meteen moet vergrendelen nadat je het scherm dichtklapt. Dit werkt alleen tijdens een actieve sessie en als je de modus met dichtgeklapt scherm ingeschakeld hebt voor die sessie. Als je Mac deze functie niet ondersteunt, wordt deze optie gedeactiveerd.";
+
+// ----- PREFERENCES → SYSTEM CONTROL → Cursor Help Message
+
+// Title
+"help_message_cursor_title" = "Muisaanwijzer";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_cursor_body" = "• Muisaanwijzer bewegen na elke…\nVink dit aan en kies een interval en drempelwaarde qua inactiviteit om je muisaanwijzer automatisch te laten bewegen tijdens een sessie. Het gaat dan over sessies met én zonder Trigger. Opgelet: de muisaanwijzer beweegt niet als je schermbeveiliging actief is. Muisbewegingen zorgen ervoor dat je scherm niet in sluimerstand gaat, ook al activeerde je ‘Sluimerstand van het scherm toestaan’ voor een bepaalde sessie.\n\n• Stop muisbewegingen na...\nVink dit aan om automatische muisbewegingen te stoppen na een bepaalde duur. Dat zorgt ervoor dat je scherm wel in sluimerstand kan gaan als je de optie ‘Sluimerstand van het scherm toestaan’ hebt geactiveerd tijdens een bepaalde sessie.";
+
+// ----- PREFERENCES → SYSTEM CONTROL → Fast User Switching Help Message
+
+// Title
+"help_message_fast_user_switch_title" = "Snelle gebruikersoverschakeling";
+
+// Body
+"help_message_fast_user_switch_body" = "Vink dit aan om alle sessies te stoppen (met én zonder Trigger) wanneer je naar een ander gebruikersaccount overschakelen op deze Mac (ook zonder daarbij uit te loggen bij je huidige account).";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → TRIGGERS TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_trig" = "Triggers";
+
+// PREFERENCES → TRIGGERS BUTTONS
+"pref_trig_bttn_enable" = "Triggers activeren";
+
+// PREFERENCES → TRIGGERS LABELS
+"pref_trig_lbl_edit" = "Dubbelklik op een Trigger-naam om hem te wijzigen";
+
+// TRIGGER TABLE HEADERS
+"trig_tbl_head_name" = "Trigger-naam";
+"trig_tbl_head_enabled" = "Geactiveerd";
+
+// ----- Triggers Help Message
+
+// Title
+"help_triggers_title" = "Triggers";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_triggers_body" = "Triggers is een bijzonder krachtige functie van Amphetamine. Je kan er maken zoveel je wil. Als aan alle voorwaarden van een Trigger is voldaan, start Amphetamine een nieuwe sessie (als er nog geen bezig was).\n\nNaast de algemene knop ‘Triggers activeren’, die alle Triggers in- of uitschakelt, kan je ook elke Trigger individueel in- of uitschakelen. Gebruik het vinkje rechts in de lijst om een individuele Trigger tijdelijk te (de)activeren.\n\nGebruik de +-knop om een nieuwe Trigger te maken. Kies er eentje uit de lijst; gebruik de knop ‘-‘ om hem te verwijderen.\n\nKies een Trigger uit de lijst en gebruik de pijltjestoetsen om de volgorde te veranderen. Triggers worden in volgorde geactiveerd: de bovenste zal eerst bekeken worden. Als die criteria kloppen, wordt een sessie gestart. Indien dat niet het geval is, gaat Amphetamine over naar de criteria van de volgende Trigger in de lijst.";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → DRIVE ALIVE TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_drive" = "Schijf in bedrijf";
+
+// PREFERENCES → DRIVE ALIVE BUTTONS
+"pref_drivealive_bttn_enable" = "Schijf in bedrijf activeren";
+
+// PREFERENCES → DRIVE ALIVE LABELS
+"pref_drivealive_lbl_wake" = "Schijven activeren na elke";
+
+// DRIVE ALIVE TABLE HEADERS
+"drivealive_tbl_head_name" = "Schijfnaam";
+"drivealive_tbl_head_keepalive" = "Schijf in bedrijf altijd actief houden";
+
+// ----- Drive Alive Help Message
+
+// Title
+"help_drivealive_title" = "Schijf in bedrijf";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_drivealive_body" = "’Schijf in bedrijf’ houdt je schijven actief (‘in bedrijf’) en klaar voor actie. Dat gebeurt door sporadisch een minieme hoeveelheid data erop te schrijven. Die data nemen slechts enkele kilobytes (kB) in beslag en worden telkens overschreven.\n\nOm een nieuwe schijf toe te voegen klik je op ‘+’ en dan kies je de schijf die je actief wil houden. Selecteer een schijf en klik op ‘-‘ om te verwijderen.\n\nElke schijf in de lijst kan ofwel actief zijn tijdens een sessie, ofwel constant terwijl Amphetamine geopend is. Voor die laatste optie vink je het vakje in de rechterkolom aan.\n\nStandaard worden er met ‘Schijf in bedrijf’ elke 10 seconden data geschreven op je schijf/schijven. Je kan dat interval gerust zelf aanpassen door een nieuwe waarde in te geven onderaan het venster.";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → HOT KEYS TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_hotk" = "Sneltoetsen";
+
+// PREFERENCES → HOT KEYS LABELS
+"pref_hotk_lbl_startend_action" = "Als er al een sessie actief is:";
+"pref_hotk_lbl_start_duration" = "duur:";
+"pref_hotk_lbl_startend" = "Sessie starten of stoppen:";
+"pref_hotk_lbl_start" = "Start sessie:";
+"pref_hotk_lbl_end" = "Stop sessie:";
+"pref_hotk_lbl_open_menu" = "Menu openen of sluiten:";
+"pref_hotk_lbl_open_menu_close" = "Gebruik Esc om menu te sluiten"; // Escapetoets sluit menu
+"pref_hotk_lbl_toggle_disp_sleep" = "Zet ‘sluimeren van scherm toestaan’ aan of uit:";
+"pref_hotk_lbl_toggle_screen_saver" = "Zet ‘schermbeveiliging toestaan’ aan of uit:";
+
+// PREFERENCES → HOT KEYS MENU ITEMS
+"pref_hotk_mi_startend_action_endstart" = "Beëindig deze sessie en start een nieuwe";
+"pref_hotk_mi_startend_action_end" = "Beëindig deze sessie";
+
+// ---------------------------------------------------------------------------
+// (?) BUTTON MENU ITEMS
+
+// ----- PREFERENCES → HOT KEYS → Start or End Session Help Message
+
+// Title
+"help_message_start_end_session_title" = "Sessie starten of stoppen";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_start_end_session_body" = "Deze sneltoets laat je snel een sessie starten of stoppen. De standaardduur (Voorkeuren → Standaardsessies → Standaardduur) zal hierbij gebruikt worden.\n\nEens je de sneltoetscombinatie ingesteld hebt, kan je deze functie gebruiken eender waar in macOS: Amphetamine moet wel actief zijn, maar dat mag ook op de achtergrond.\n\nAls het instellen van je toetsencombinatie niet lukt, betekent dat dat die combinatie ergens anders al voor gebruikt wordt. Helaas pindakaas.";
+
+// ----- PREFERENCES → HOT KEYS → Start Session Help Message
+
+// Title
+"help_message_start_session_title" = "Start sessie";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_start_session_body" = "Deze sneltoets laat je een sessie starten met een specifieke duur. Je kan de duur instellen.\n\nEens je de sneltoetscombinatie ingesteld hebt, kan je deze functie gebruiken eender waar in macOS: Amphetamine moet wel actief zijn, maar dat mag ook op de achtergrond.\n\nAls het instellen van je toetsencombinatie niet lukt, betekent dat dat die combinatie ergens anders al voor gebruikt wordt. Helaas pindakaas.";
+
+// ----- PREFERENCES → HOT KEYS → End Session Help Message
+
+// Title
+"help_message_end_session_title" = "Stop sessie";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_end_session_body" = "Deze sneltoets doet een sessie meteen eindigen.\n\nEens je de sneltoetscombinatie ingesteld hebt, kan je deze functie gebruiken eender waar in macOS: Amphetamine moet wel actief zijn, maar dat mag ook op de achtergrond.\n\nAls het instellen van je toetsencombinatie niet lukt, betekent dat dat die combinatie ergens anders al voor gebruikt wordt. Helaas pindakaas.";
+
+// ----- PREFERENCES → HOT KEYS → Open Menu Help Message
+
+// Title
+"help_message_open_menu_title" = "Menu openen";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_open_menu_body" = "Deze sneltoets opent snel Amphetamines menu. Da’s handig om even je huidige sessie of andere details te bekijken. Je kan zo snel bij alle opties geraken: dat kan door te navigeren met de pijltjestoetsen of sneltoetscombinaties (bijvoorbeeld ⌘F om een ‘Zolang bestand gedownload wordt…’-sessie te starten).\n\nEens je de sneltoetscombinatie ingesteld hebt, kan je deze functie gebruiken eender waar in macOS: Amphetamine moet wel actief zijn, maar dat mag ook op de achtergrond.\n\nAls het instellen van je toetsencombinatie niet lukt, betekent dat dat die combinatie ergens anders al voor gebruikt wordt. Helaas pindakaas.";
+
+// ----- PREFERENCES → HOT KEYS → Toggle Display Sleep Help Message
+
+// Title
+"help_message_toggle_allow_display_sleep_title" = "Zet ‘sluimeren van scherm toestaan’ aan of uit";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_toggle_allow_display_sleep_body" = "Deze sneltoets kan de sluimerstand van het scherm (de)activeren. Tijdens een actieve sessie schakel je hiermee het sluimeren van het scherm in of uit voor de huidige sessie. Dit geldt voor sessies met én zonder Trigger.\n\nAls er geen actieve sessie bezig is, schakel je hiermee de functie ‘Sluimeren van scherm toestaan’ aan of uit voor sessies zonder Trigger.";
+
+// ----- PREFERENCES → HOT KEYS → Toggle Screen Saver Help Message
+
+// Title
+"help_message_toggle_allow_screen_saver_title" = "Zet ‘schermbeveiliging toestaan’ aan of uit";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_toggle_allow_screen_saver_body" = "Deze sneltoets kan de schermbeveiliging (de)activeren. Tijdens een actieve sessie schakel je hiermee de sschermbeveiliging in of uit voor de huidige sessie. Dit geldt voor sessies met én zonder Trigger.\n\nAls er geen actieve sessie bezig is, schakel je hiermee de functie ‘Schermbeveiliging toestaan’ aan of uit voor sessies zonder Trigger.";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → NOTIFICATIONS TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_notif" = "Meldingen";
+
+// PREFERENCES → NOTIFICATIONS BUTTONS
+"pref_notif_bttn_session_reminders_pt1" = "Melding na elke";
+"pref_notif_bttn_session_reminders_pt2" = "minuten";
+"pref_notif_bttn_trig_autostart" = "Melding bij automatisch starten van geplande of Trigger-sessies";
+"pref_notif_bttn_trig_autoend" = "Melding bij automatisch stoppen van geplande of Trigger-sessies";
+"pref_notif_bttn_sound_remind" = "Geluid bij sessiemeldingen/andere meldingen";
+"pref_notif_bttn_sound_startend" = "Geluid bij starten/stoppen van eender welke sessie";
+"pref_notif_bttn_sound_extend" = "Geluid bij verlengen van eender welke sessie";
+"pref_notif_bttn_cdm_play_warning" = "Geluid als waarschuwing voor dichtgeklapt scherm";
+"pref_notif_bttn_cdm_repeat_warning" = "Geluid herhalen na elke";
+"pref_notif_bttn_cdm_change_vol" = "Zet systeemvolume tijdelijk op";
+"pref_notif_bttn_cdm_change_vol_message" = "Als je dit aanzet, komt het geluid van de geluidsoutput van het systeem en niet specifiek van de geluidsoutput van ‘Geluidseffecten’.";
+"pref_notif_bttn_notif_remove" = "Verwijder meldingen nadat ze getoond zijn";
+
+// PREFERENCES → NOTIFICATIONS LABELS
+"pref_notif_lbl_sound_start" = "Begin van een sessie/melding:";
+"pref_notif_lbl_sound_end" = "Einde van een sessie:";
+"pref_notif_lbl_session_reminders" = "Sessiemeldingen:";
+"pref_notif_lbl_trig_sched" = "Triggers/planning:";
+"pref_notif_lbl_sound" = "Geluid:";
+"pref_notif_lbl_cdm" = "Modus met dichtgeklapt scherm:";
+"pref_notif_lbl_notif_center" = "Berichtencentrum:";
+
+// PREFERENCES → NOTIFICATIONS MENU ITEMS
+"pref_notif_mi_default_sound" = "Standaard systeemgeluid";
+
+// ---------------------------------------------------------------------------
+// (?) BUTTON MENU ITEMS
+
+// ----- PREFERENCES → NOTIFICATIONS → Session Reminders Help Message
+
+// Title
+"help_message_session_reminders_title" = "Sessiemeldingen";
+
+// Body
+"help_message_session_reminders_body" = "Vink dit aan als je wil dat Amphetamine je na bepaalde intervallen stalkt met een melding terwijl er een sessie bezig is. Creepy, maar wel handig!";
+
+// ----- PREFERENCES → NOTIFICATIONS → Triggers/Scheduled Help Message
+
+// Title
+"help_message_triggers_scheduled_title" = "Triggers/planning";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_triggers_scheduled_body" = "Vink dit aan als je een melding wil krijgen als een sessie start of stopt. Het gaat dan om sessies met Trigger, geplande sessies en sommige getimede sessies.\n\nJe krijgt geen melding voor sessies die je manueel start of stopt, door op het logo in de menubalk te klikken of een optie uit het menu van Amphetamine te kiezen.";
+
+// ----- PREFERENCES → NOTIFICATIONS → Sound Help Message
+
+// Title
+"help_message_sound_title" = "Geluid";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_sound_body" = "• Geluid bij sessiemeldingen/andere meldingen\nVink dit aan als je een geluid wil horen bij het verschijnen van een melding\n\n• Geluid bij starten/stoppen van eender welke sessie\nVink dit aan als je een geluid wil horen bij het starten of stoppen van eender welke sessie.\n\n• Geluid bij verlengen van eender welke sessie\nVink dit aan als je een geluid wil horen bij het verlengen van een sessie.\n\nAls je zelf een geluid wil toevoegen, klik je op ‘+’ en kies je een geluidsbestand. Om te verwijderen klik je op ‘-‘. Dan zal Finder een venster openen met de locatie van de zelfgekozen geluiden. Sleep het vanuit de Finder naar de Prullenmand of gebruik Command + Backspace om te verwijderen.";
+
+// ----- PREFERENCES → NOTIFICATIONS → Closed-Display Mode Help Message
+
+// Title
+"help_message_closed_display_notif_title" = "Modus met dichtgeklapt scherm";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_closed_display_notif_body" = "• Geluid als waarschuwing voor dichtgeklapt scherm\nVink dit aan om een geluid te horen zodra je Mac in modus met dichtgeklapt scherm gaat. Dit geluid zal niet hoorbaar zijn als je oplader en een extern scherm aangesloten zijn.\n\n• Geluid herhalen na elke…\nVink dit aan en kies een herhalend interval om het waarschuwingsgeluid te laten afspelen.\n\n• Zet systeemvolume tijdelijk op ...\nVink dit aan en kies een volumeniveau als Amphetamine je systeemvolume moet aanpassen voordat het geluid als waarschuwing voor dichtgeklapt scherm afgespeeld wordt. Als je systeemvolume te laag staat, hoor je misschien het geluid niet. Als het te hoog staat, zal het schel klinken. Met deze functie past Amphetamine je systeemvolumeniveau aan, zowel wanneer het niveau onder een bepaalde drempel komt als bij het overschrijven van een bepaalde drempel. Na de waarschuwingstoon wordt het vorige systeemvolumeniveau weer ingesteld. Knallen maar.";
+
+// ----- PREFERENCES → NOTIFICATIONS → Notification Center Help Message
+
+// Title
+"help_message_notif_center_title" = "Berichtencentrum";
+
+// Body
+"help_message_notif_center_body" = "Vink dit aan als je melding in het berichtencentrum automatisch wil opschonen. Zo wordt het geen boeltje, vooral als je Sessiemeldingen ingeschakeld hebt.";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → APPEARANCE TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_appr" = "Weergave";
+
+// PREFERENCES → APPEARANCE BUTTONS
+"pref_appr_bttn_image_low_opac" = "Gebruik lage doorzichtigheid indien inactief";
+"pref_appr_bttn_image_padd" = "Stel tussenruimte voor logo in menubalk manueel in";
+"pref_appr_bttn_text_show_time" = "Geef resterende tijd van sessie weer in menubalk";
+"pref_appr_bttn_text_24hr_clock" = "Gebruik 24-uursnotatie bij klok";
+"pref_appr_bttn_text_incl_secs" = "Seconden weergeven";
+"pref_appr_bttn_show_curr_sess" = "Toon details van huidige sessie";
+"pref_appr_bttn_show_drive_alive" = "Toon details van ‘Schijf in bedrijf’";
+
+// PREFERENCES → APPEARANCE LABELS
+"pref_appr_lbl_image" = "Icoon menubalk:";
+"pref_appr_lbl_text" = "Tekst menubalk:";
+"pref_appr_lbl_xtra" = "Extra’s menu:";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"pref_appr_lbl_cust_icon_inst" = "Sleep afbeeldingen en laat ze los in de onderstaande vakjes. Om de beste resultaten te krijgen\ngebruik je best enkel binaire afbeeldingen met een transparante achtergrond.";
+
+"pref_appr_lbl_cust_icon_inact" = "Inactief";
+"pref_appr_lbl_cust_icon_act" = "Actief";
+"pref_appr_lbl_cust_icon_inact_inst" = "Dit icoon wordt getoond als Amphetamine je Mac niet wakker aan het houden is.";
+"pref_appr_lbl_cust_icon_act_inst" = "Dit icoon wordt getoond als Amphetamine je Mac wakker aan het houden is.";
+"pref_appr_lbl_cust_icon_get_more" = "Meer afbeeldingen…";
+
+
+// PREFERENCES → APPEARANCE MENU ITEMS
+"pref_appr_mi_cust_image" = "Eigen afbeelding…";
+"pref_appr_mi_image_pill" = "Pil";
+"pref_appr_mi_image_pill_out" = "Pil (omtrek)";
+"pref_appr_mi_image_molecule" = "Molecule";
+"pref_appr_mi_image_coffee_pot" = "Koffiekan";
+"pref_appr_mi_image_caffeine" = "Cafeïne";
+"pref_appr_mi_image_cup" = "Koffiemok";
+"pref_appr_mi_image_teapot" = "Theeketel";
+"pref_appr_mi_image_owl" = "Uil";
+"pref_appr_mi_image_eye" = "Oog";
+"pref_appr_mi_image_sun_moon" = "Zon & maan";
+"pref_appr_mi_image_emoji" = "Emoji";
+"pref_appr_mi_text_normal_sz" = "Standaard lettergrootte";
+"pref_appr_mi_text_small_sz" = "Kleine lettergrootte";
+"pref_appr_mi_text_format_normal" = "Standaardnotatie (08:15)";
+"pref_appr_mi_text_format_letter" = "Notatie met letters (8u 15m)";
+
+
+
+
+// ---------------------------------------------------------------------------
+// (?) BUTTON MENU ITEMS
+
+// ----- PREFERENCES → APPEARANCE → Menu Bar Image Help Message
+
+// Title
+"help_message_menu_bar_image_title" = "Icoon menubalk";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_menu_bar_image_body" = "Kies de icoontjes die je wil zien in de menubalk om de status van Amphetamine weer te geven (actief of inactief). Zodra een sessie start of stopt, verandert de afbeelding mee. #magie\n\nJe kan als alternatief ook je eigen afbeeldingen kiezen.";
+
+// ----- PREFERENCES → APPEARANCE → Menu Bar Text Help Message
+
+// Title
+"help_message_menu_bar_text_title" = "Tekst menubalk";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_menu_bar_text_body" = "• Geef resterende tijd van sessie weer in menubalk\nVink dit aan als je naast het icoontje ook graag de resterende tijd of eindtijd van de sessie ziet in de menubalk.\n\nJe kan de notatieweergave kiezen, waaronder de lettergrootte, hoe de tijd wordt weergegeven, of er seconden bij moeten staan en of je graag een 24-uursnotatie gebruikt.";
+
+// ----- PREFERENCES → APPEARANCE → Menu Bar Extras Help Message
+
+// Title
+"help_message_menu_extras_title" = "Extra’s menu";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_menu_extras_body" = "• Toon details van huidige sessie\nVink dit aan om de (resterende) tijd van de huidige sessie te zien in het menu van Amphetamine. Ook de oorzaak waarom de sessie startte, wordt dan weergegeven.\n\n• Toon details van ‘Schijf in bedrijf’\nVink dit aan om details te zien over ‘Schijf in bedrijf’, waaronder de precieze schijven die actief gehouden worden en welke niet.";
+
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → STATISTICS TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_stat" = "Statistieken";
+
+// PREFERENCES → STATISTICS BUTTONS
+"pref_stat_bttn_reset" = "Stel statistieken opnieuw in";
+"pref_stat_bttn_enable" = "Verzamelen van statistieken toestaan";
+
+// PREFERENCES → STATISTICS LABELS
+"pref_stat_lbl_how_long_title" = "Amphetamine heeft jouw Mac al wakker gehouden gedurende"; // v5.0.1
+"pref_stat_lbl_how_long_about" = "\n%@ %@ %@ %@"; // v5.0.1
+"pref_stat_lbl_how_long_prefs" = "%@ %@ %@ %@"; // v5.0.1
+"pref_stat_lbl_average" = "Gemiddelde duur van een sessie";
+"pref_stat_lbl_total_sessions" = "Aantal sessies";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- TRIGGER CONFIGURATION WINDOW + CRITERIA
+// ---------------------------------------------------------------------------
+
+// TRIGGER CONFIGURATION WINDOW
+"trig_config_lbl_name" = "Naam";
+"trig_config_lbl_name_placeholder" = "Bv. Trigger-finger";
+"trig_config_lbl_name_desc" = "Geef je trigger een epische naam. Je zal jezelf dankbaar zijn.";
+"trig_config_lbl_criteria" = "Voorwaarden";
+"trig_config_lbl_criteria_desc" = "Elke Trigger kan één functie van elke voorwaarde gebruiken. Er moet aan alle voorwaarden voldaan zijn alvorens je Trigger geactiveerd wordt.";
+"trig_config_lbl_criteria_edit" = "Dubbelklik op een voorwaarde om die te wijzigen";
+"trig_config_lbl_add_opt" = "Extra opties";
+"trig_config_lbl_add_opt_desc" = "Extra opties die enkel van toepassing zijn op deze Trigger.";
+"trig_config_bttn_disp_sleep" = "Sluimeren van scherm toestaan";
+"trig_config_bttn_cdm" = "Sluimerstand toestaan als scherm is dichtgeklapt";
+"trig_config_bttn_scrn_svr" = "Toestaan om schermbeveiliging te activeren na:";
+
+// TABLE HEADERS
+"trig_config_tbl_head_criterion" = "Voorwaarde";
+"trig_config_tbl_head_values" = "Waarde(n)";
+
+
+
+// ---------------------------------------------------------------------------
+// ----- TRIGGER CONFIGURATION HELP MESSAGE
+
+// Title
+"help_trigger_config_title" = "Configuratie van Triggers";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_trigger_config_body" = "Naam\nGeef je Trigger een memorabele naam. Die zal gebruikt worden bij meldingen en details van een sessie in het menu (als je dat hebt ingesteld in de voorkeuren).\n\nVoorwaarden\nJe Trigger kan één functie van elke voorwaarde gebruiken. Om een nieuwe voorwaarde toe te voegen klik je op ‘+’ en kies je een voorwaarde. Om te verwijderen selecteer je een voorwaarde in de lijst en klik je op ‘-‘.\n\nExtra opties\nElke Trigger kan apart worden geconfigureerd om de volgende zaken toe te staan of tegen te houden: sluimeren van het scherm, activeren van de schermbeveiliging en of je Mac al dan niet sluimert als het scherm wordt dichtgeklapt.";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- TRIGGER CRITERIA
+
+// TRIGGER CRITERIA → GLOBAL
+"trig_crit_bttn_add" = "Voorwaarde toevoegen";
+
+// example: "Selection: 'None selected'
+"trig_crit_lbl_no_selection" = "Niets geselecteer";
+"trig_crit_lbl_no_value" = "Geen waarde ingegeven";
+
+// TRIGGER CRITERIA → WI-FI
+"trig_crit_name_wifi" = "Wi-Fi-netwerk";
+"trig_crit_name_wifi_placeholder" = "Wi-Fi netwerknaam";
+"trig_crit_bttn_wifi_get_current" = "Gebruik naam van het huidige netwerk";
+
+// TRIGGER CRITERIA → IP ADDRESS
+"trig_crit_name_ip" = "IP-adres";
+"trig_crit_bttn_get_ip" = "Gebruik huidige IP-adres";
+"trig_crit_bttn_use_range" = "Gebruik bereik van IP-adres";
+"trig_crit_lbl_ip_start" = "Start van bereik:";
+"trig_crit_lbl_ip_end" = "Einde van bereik:";
+"trig_crit_lbl_ip_addr" = "IP-adres:";
+"trig_crit_lbl_ip_mutli" = "Ik vond meerdere IP-adressen voor deze Mac. Selecteer welke je wil gebruiken voor deze Trigger en klik dan op ‘Ga door’.";
+"trig_crit_ip_tbl_head_type" = "Interface";
+"trig_crit_ip_tbl_head_addr" = "Adres";
+
+// TRIGGER CRITERIA → DNS
+"trig_crit_name_dns" = "DNS-server";
+"trig_crit_dns_tbl_head" = "DNS-servers";
+
+// TRIGGER CRITERIA → CISCO VPN SERVICE
+"trig_crit_name_vpn" = "Cisco AnyConnect VPN";
+"trig_crit_lbl_vpn_current" = "Huidige service:";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"trig_crit_txtfd_vpn_message" = "Deze voorwaarde werkt enkel met zekerheid met de Cisco AnyConnect VPN-dienst. Als je dat niet gebruikt, is het het best om deze voorwaarde niet te gebruiken. Gebruik in plaats daarvan de functie om een bereik in te stellen bij je IP-adres.\n\nOm deze voorwaarde te gebruiken, maak je verbinding met je VPN en klik je dan op ↻ hieronder.";
+
+// TRIGGER CRITERIA → APP
+"trig_crit_name_app" = "Programma";
+"trig_crit_bttn_no_helpers" = "Geen hulpprogramma’s of -processen tonen";
+"trig_crit_bttn_frontmost" = "Vereisen dat programma op de voorgrond draait";
+"trig_crit_lbl_select_app" = "Kies een programma:";
+"trig_crit_lbl_when_frontmost" = "(indien op voorgrond)"; // example: Safari '(when frontmost)'
+
+// TRIGGER CRITERIA → SCHEDULE
+"trig_crit_name_sched" = "Planning";
+"trig_crit_lbl_sched_from" = "Van:";
+"trig_crit_lbl_sched_until" = "Tot:";
+"trig_crit_lbl_sched_no_select" = "Geen dagen geselecteerd ";
+
+// DAYS OF THE WEEK
+
+// IT IS IMPORTANT TO TRANSLATE THE DAYS OF THE WEEK IN THE CORRECT ORDER, AND NOT JUST TRANSLATE THE WORD/SPELLING OF THE DAY
+// FOR EXAMPLE, IN THE USA THE WEEK STARTS ON SUNDAY. THEREFORE, weekday_abbr_1 SHOULD EQUAL THE TARGET LANGUAGE TRANSLATION OF "Sun"
+// IN OTHER LOCALES, HOWEVER, THE WEEK STARTS ON MONDAY, AND THUS, weekday_abbr_1 = SHOULD EQUAL THE TARGET LANGUAGE TRANSLATION OF "Mon"
+
+// THERE IS LIMITED SPACE IN THE SEGMENTED CONTROL. PLEASE USE THE SHORTEST ABBREVIATION FOR EACH WEEKDAY NAME WHERE POSSIBLE
+
+"weekday_abbr_1" = "Ma";
+"weekday_abbr_2" = "Di";
+"weekday_abbr_3" = "Wo";
+"weekday_abbr_4" = "Do";
+"weekday_abbr_5" = "Vr";
+"weekday_abbr_6" = "Za";
+"weekday_abbr_7" = "Zo";
+
+// TRIGGER CRITERIA → BATTERY & POWER ADAPTER
+"trig_crit_name_power" = "Batterij & oplader";
+"trig_crit_lbl_batt_charge_min" = "Batterijniveau is ten minste:";
+"trig_crit_lbl_batt_not_detected" = "Geen batterij gevonden";
+"trig_crit_bttn_ac_connected" = "oplader is aangesloten";
+"trig_crit_bttn_ac_not_connected" = "oplader is niet aangesloten";
+"trig_crit_bttn_ac_connected_only" = "Enkel wanneer oplader is aangesloten";
+"trig_crit_bttn_ac_not_connected_only" = "Enkel wanneer oplader niet is aangesloten";
+"trig_crit_lbl_batt_lvl_greater" = "Batterijniveau ≥ %i%%"; // PLACEHOLDER IS A NUMBER + PERCENT SIGN, EXAMPLE: 'BATTERY CHARGE ≥ 15%'
+
+// TRIGGER CRITERIA → DISPLAYS
+"trig_crit_name_disp" = "Schermen";
+"trig_crit_mi_disp_equals" = "Aantal schermen =";
+"trig_crit_mi_disp_greater" = "Aantal schermen >";
+"trig_crit_mi_disp_less" = "Aantal schermen <";
+"trig_crit_mi_disp_mirrored" = "Primair scherm wordt synchroon weergegeven";
+"trig_crit_bttn_ignore_built_in" = "Negeer ingebouwd scherm";
+
+// INDICATES AN EXTERNAL DISPLAY - i.e. NOT BUILT-IN
+"trig_crit_lbl_external" = "(Extern)";
+
+// TRIGGER CRITERIA → VOLUMES/DRIVES
+"trig_crit_name_vols" = "Schijven/volumes";
+
+// TRIGGER CRITERIA → USB DEVICE
+"trig_crit_name_usb" = "USB-apparaat";
+
+// TRIGGER CRITERIA → BLUETOOTH DEVICE
+"trig_crit_name_bluetooth" = "Bluetooth-apparaat";
+
+// TRIGGER CRITERIA POPUP → AUDIO OUTPUT
+"trig_crit_name_audio" = "Audio-uitvoer";
+"trig_crit_mi_audio_headphones" = "Hoofdtelefoon";
+"trig_crit_mi_audio_bi_speakers" = "Ingebouwde luidsprekers";
+"trig_crit_mi_audio_bi_output" = "Ingebouwde uitvoer";
+"trig_crit_mi_audio_headphones_35w" = "Hoofdtelefoon (bedraad, 3.5mm)";
+
+// TRIGGER CRITERIA POPUP → CPU
+"trig_crit_name_cpu" = "CPU-gebruik";
+"trig_crit_lbl_cpu" = "CPU-gebruik is:";
+"trig_crit_lbl_cpu_error" = "Fout in CPU";
+
+// TRIGGER CRITERIA POPUP → IDLE TIME
+"trig_crit_name_idle" = "Duur van systeem dat inactief is";
+"trig_crit_mi_idle_greater" = "Duur van inactiviteit >";
+"trig_crit_mi_idle_less" = "Duur van inactiviteit <";
+"trig_crit_lbl_idle_mins" = "minu(u)t(en)";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- TRIGGER CRITERIA HELP MESSAGES
+
+
+// ----- Criterion Wi-Fi Help Message
+
+// Title
+"criterion_help_wifi_title" = "Wi-Fi-voorwaarde";
+
+// Body
+"criterion_help_wifi_body" = "Aan deze voorwaarde wordt enkel voldaan als je Mac verbonden is met een specifiek Wi-Fi-netwerk. Typ de naam van het netwerk (hoofdlettergevoelig!) in de voorziene ruimte, of gebruik de knop om automatisch de naam van het netwerk te gebruiken waarmee je nu verbonden bent.";
+
+
+// ----- Criterion IP Address Help Message
+
+// Title
+"criterion_help_ip_title" = "IP-adresvoorwaarde";
+
+// Body
+"criterion_help_ip_body" = "Aan deze voorwaarde wordt enkel voldaan als je Mac een specifiek IP-adres heeft of als dat binnen een bepaald bereik valt. Gebruik de knop om het huidige IP-adres van je Mac te verkrijgen. Je kan het IP-adres ook manueel ingeven als je minder lui bent.";
+
+
+// ----- Criterion App Help Message
+
+// Title
+"criterion_help_app_title" = "Programmavoorwaarde";
+
+// Body
+"criterion_help_app_body" = "Aan deze voorwaarde wordt enkel voldaan als een specifiek programma open staat op je Mac. Enkel programma’s die nu open staan, verschijnen in de lijst. Als een programma ontbreekt, is het ofwel niet opgestart ofwel verhindert de sandboxfunctie van macOS de werking van deze functie doordat Amphetamine dan niet met sommige andere programma’s kan communiceren.";
+
+
+// ----- Criterion Battery & Power Adapter Help Message
+
+// Title
+"criterion_help_power_title" = "Batterij- & opladervoorwaarde";
+
+// Body
+"criterion_help_power_body" = "Aan deze voorwaarde wordt enkel voldaan als je Mac specifieke energiedrempels bereikt.";
+
+
+// ----- Criterion Schedule Help Message
+
+// Title
+"criterion_help_schedule_title" = "Planningsvoorswaarde";
+
+// Body
+"criterion_help_schedule_body" = "Aan deze voorwaarde wordt enkel voldaan als de huidige datum en tijd van je Mac binnen een specifiek bereik vallen.";
+
+
+// ----- Criterion Displays Help Message
+
+// Title
+"criterion_help_displays_title" = "Schermvoorwaarde";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"criterion_help_displays_body" = "Aan deze voorwaarde wordt enkel voldaan als het aantal schermen gelijk is aan, kleiner is dan of groter is dan jouw gekozen waarde. Je kan ook selecteren dat deze functie enkel geactiveerd wordt als je huidige scherm synchroon wordt weergegeven op een ander scherm.\n\nSelecteer de optie ‘Negeer ingebouwd scherm’ om het ingebouwde scherm niet mee te tellen bij het aantal aangesloten schermen.";
+
+
+// ----- Criterion Volume/Drive Help Message
+
+// Title
+"criterion_help_volume_title" = "Volume-/schijfvoorwaarde";
+
+// Body
+"criterion_help_volume_body" = "Aan deze voorwaarde wordt enkel voldaan als de specifieke schijf of het specifieke volume is aangesloten of geladen op je Mac. Sluit zeker de schijf al aan of laad het volume in om het in deze lijst te zien verschijnen.";
+
+
+// ----- Criterion Audio Help Message
+
+// Title
+"criterion_help_audio_title" = "Audio-uitvoervoorwaarde";
+
+// Body
+"criterion_help_audio_body" = "Aan deze voorwaarde wordt enkel voldaan als een bepaalde geluidsuitvoer als huidige uitvoerbron op je Mac is geselecteerd. Je kan dit aanpassen in  → Systeemvoorkeuren → Geluid → Uitvoer.";
+
+
+// ----- Criterion Bluetooth Help Message
+
+// Title
+"criterion_help_bluetooth_title" = "Bluetooth-apparaatvoorwaarde";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"criterion_help_bluetooth_body" = "Aan deze voorwaarde wordt enkel voldaan als een specifiek Bluetoothapparaat verbonden is met je Mac. Deze lijst geeft enkel de apparaten weer die al gekoppeld zijn met je Mac.\n\nOm een nieuw apparaat te verbinden, zet je het in verbindingsmodus en ga je naar  → Systeemvoorkeuren → Bluetooth.";
+
+
+// ----- Criterion Cisco AnyConnect VPN Help Message
+
+// Title
+"criterion_help_vpn_title" = "Cisco AnyConnect VPN-voorwaarde";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"criterion_help_vpn_body" = "Aan deze voorwaarde wordt enkel voldaan als je Mac verbonden is met de gekozen VPN-dienst. Start de VPN op je Mac en klik op de ‘Vernieuw’-knop om de naam van de VPN-dienst automatisch te krijgen.\n\nDeze voorwaarde is enigszins experimenteel, want de meeste VPN’s zijn nog niet getest. Die van Cisco AnyConnect is de enige die op dit moment met zekerheid werkt.";
+
+
+// ----- Criterion USB Help Message
+
+// Title
+"criterion_help_usb_title" = "USB-apparaatvoorwaarde";
+
+// Body
+"criterion_help_usb_body" = "Aan deze voorwaarde wordt enkel voldaan als een specifiek USB-apparaat aangesloten is op je Mac. Om een USB-apparaat in de lijst te zien, sluit je het aan op je Mac en schakel je het in.";
+
+
+// ----- Criterion CPU Utilization Help Message
+
+// Title
+"criterion_help_cpu_title" = "CPU-gebruiksvoorwaarde";
+
+// Body
+"criterion_help_cpu_body" = "Aan deze voorwaarde wordt enkel voldaan als je CPU boven of onder een bepaalde drempelwaarde komt, die je zelf instelt. Het gaat dan om het gebruik van alle processoren tezamen. Opgelet: de precieze percentages van Amphetamine kunnen lichtjes afwijken van die van de app Activiteitenweergave of andere CPU-monitorapps. De oorzaak daarvan zit ’m in lichtelijk verschillende berekeningen.";
+
+
+// ----- Criterion Idle Time Help Message
+
+// Title
+"criterion_help_idle_title" = "Duur van inactiviteitsvoorwaarde";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"criterion_help_idle_body" = "Aan deze voorwaarde wordt enkel voldaan als je Mac langer of minder lang inactief is, afhankelijk van wat jij instelt. Met inactief zijn wordt bedoeld dat er geen aangesloten apparaten actief zijn en dat er geen invoer is via het toetsenbord of de muis.\n\nOpgelet: muisbewegingen en toetsenbordinvoer via VNC/schermdeling/extern bureaublad hebben hier geen invloed op! Dan loopt de inactieve tijd dus alsnog verder.";
+
+
+// ----- Criterion DNS Server Help Message
+
+// Title
+"criterion_help_dns_title" = "DNS-servervoorwaarde";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"criterion_help_dns_body" = "Aan deze voorwaarde wordt enkel voldaan als je Mac een door jou gespecifieerd(e) DNS-server of -adres gebruikt. Klik op ‘+’ om het huidige DNS-adres toe te voegen aan de lijst. Om te verwijderen selecteer je het en klik je op ‘-‘.\n\nAls je DNS-servers recent zijn geüpdatet in Systeemvoorkeuren of als je nog maar pas de netwerkconfiguratie hebt gewijzigd, moet je wellicht enkele minuten wachten alvorens macOS ze doet verschijnen in Amphetamine. Geduld is een schone deugd.\n\nOpgelet: deze Trigger activeert niet altijd ogenblikkelijk in sommige omstandigheden. Soms duurt het wat langer om gewijzigde DNS-servers te laten doorkomen in Amphetamine.";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- STATUS ITEM MENU
+// ---------------------------------------------------------------------------
+
+// CURRENT SESSION DETAILS VIEW MENU ITEM
+"csdv_lbl_title" = "Details van huidige sessie:";
+"csdv_lbl_drive_alive_title" = "Details van ‘Schijf in bedrijf’:";
+
+// REARRANGE THE BELOW PLACEHOLDERS (IF NEEDED) FOR THE TARGET LANGUAGE
+// IN ENGLISH, THE PLACEHOLDERS WOULD READ LIKE: "1h 3m 45s remaining"
+
+// %1$i = THE NUMBER OF HOURS REMAINING IN THE SESSION
+// %2$@ = duration_abbrv_hours_h
+// %3$02d = THE NUMBER OF MINUTES REMAINING IN THE SESSION
+// %4$@ = duration_abbrv_minutes_m
+// %5$02d = THE NUMBER OF MINUTES REMAINING IN THE SESSION
+// %6$@ = duration_abbrv_seconds_s
+// %7$@ = gen_use_remaining
+"csdv_time_remain_hms" = "%1$i%2$@ %3$02d%4$@ %5$02d%6$@ %7$@";
+
+// %1$02d = THE NUMBER OF MINUTES REMAINING IN THE SESSION
+// %2$@ = duration_abbrv_minutes_m
+// %3$02d = THE NUMBER OF MINUTES REMAINING IN THE SESSION
+// %4$@ = duration_abbrv_seconds_s
+// %5$@ = gen_use_remaining
+"csdv_time_remain_ms" = "%1$02d%2$@ %3$02d%4$@ %5$@";
+
+// %1$02d = THE NUMBER OF MINUTES REMAINING IN THE SESSION
+// %2$@ = duration_abbrv_seconds_s
+// %3$@ = gen_use_remaining
+"csdv_time_remain_s" = "%1$02d%2$@ %3$@";
+
+"csdv_bttn_disp_sleep" = "Sluimeren van scherm toestaan";
+"csdv_bttn_cdm" = "Sluimerstand toestaan bij dichtgeklapt scherm";
+
+"csdv_drive_alive_not_enabled" = "’Schijf in bedrijf’ is niet geactiveerd";
+"csdv_drive_alive_not_config" = "Geen geconfigureerde schijven gevonden";
+
+// MENU/STATUS BAR ITEM → MENU ITEMS
+"statbar_mi_start_new_session" = "Start nieuwe sessie:";
+"statbar_mi_drive_alive_details" = "Details over ‘Schijf in bedrijf’:";
+"statbar_mi_other_duration" = "Andere duur/Tot";
+"statbar_mi_other_duration_BigSur" = "Andere duur/Tot";
+"statbar_mi_app" = "Terwijl programma geopend is…";
+"statbar_mi_app_BigSur" = "Terwijl programma geopend is";
+"statbar_mi_file" = "Zolang bestand aan het downloaden is…";
+"statbar_mi_qp" = "Snelle voorkeuren";
+"statbar_mi_prefs" = "Voorkeuren…";
+"statbar_mi_about" = "Over Amphetamine";
+"statbar_mi_fb_support" = "Feedback & ondersteuning";
+"statbar_mi_troubleshoot" = "Problemen oplossen & FAQ";
+"statbar_mi_debugMode" = "Ontwikkelmodus activeren"; // v5.0.1
+"statbar_mi_contact" = "Support contacteren";
+"statbar_mi_follow_dev" = "Volg de ontwikkelaar"; // OPENS TWITTER LINK
+"statbar_mi_contribute" = "Bijdragen aan de ontwikkeling van Amphetamine";
+"statbar_mi_quit" = "Stop Amphetamine";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- WELCOME WINDOW
+// ---------------------------------------------------------------------------
+
+// WELCOME WINDOW GLOBAL
+"ww_bttn_dont_show" = "Dit venster niet meer tonen";
+"ww_bttn_previous" = "Vorige";
+"ww_bttn_next" = "Volgende";
+"ww_bttn_end" = "Einde";
+
+// WELCOME WINDOW #1
+"ww1_lbl_welcome" = "Welkom bij Amphetamine";
+"ww1_lbl_credit" = "Met ♥ gecreëerd door William Gustafson";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"ww1_lbl_message" = "\nAmphetamine is een fabelachtig fantastisch en fenomenaal flexibel ‘houd-je-Mac-wakker’-programma, speciaal voor macOS.\nZelfs ondanks alle mogelijkheden en functies is Amphetamine erg makkelijk om te gebruiken.\n\nIn enkele korte stappen ga je Amphetamine klaarmaken voor actie. Klik op ‘Volgende’ om te starten.";
+
+// WELCOME WINDOW #2
+"ww2_lbl_title" = "Waar woont Amphetamine?";
+"ww2_lbl_subtitle" = "Amphetamine leeft in de menubalk, rechtsbovenaan in je schermhoek.";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"ww2_lbl_message" = "Door op het icoontje in de menubalk te klikken krijg je het menu te zien. Als je er rechts op klikt, start of stop je een sessie om je Mac wakker te houden. Je kan deze functie ook omkeren in de voorkeuren als je dat wil.\n\nJe kan Amphetamine oneindig personaliseren. Verander het icoontje, stel meldingen in, kies zelf welke geluiden je wil horen, etc. Neem zeker een kijkje in de voorkeuren van het programma.";
+
+"ww2_bttn_find_amph" = "Klik hier om Amphetamine te lokaliseren";
+
+// WELCOME WINDOW #3
+"ww3_lbl_title" = "Wat doet Amphetamine?";
+"ww3_lbl_subtitle" = "Amphetamine houdt je Mac wakker. En je scherm(en). En je schijf/schijven. Heerlijk handige insomnia voor alles!";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"ww3_lbl_message" = "Als Amphetamine je Mac wakker houdt, noemen we dat een ’sessie’. Om er eentje te starten, klik je op het icoontje in de menubalk en selecteer je hoe lang je sessie moet duren. Je kan ook rechts klikken op het icoontje om een sessie te starten met de standaardduur. Die standaardduur kan je aanpassing bij Voorkeuren → Sessies.\n\nAls je een MacBook hebt, kan je die nu ook wakker houden, zelfs met een dichtgeklapt scherm. Voor de zekerheid kan je dan wel best ‘Amphetamine-verbeteraar’ installeren.";
+
+"ww3_bttn_learn_amph_enh" = "Klik hier om meer te leren over ‘Amphetamine-verbeteraar’";
+
+// WELCOME WINDOW #4
+"ww4_lbl_title" = "Wat doet Amphetamine nog?";
+"ww4_lbl_subtitle" = "Veel! Hou je vast aan de takken van de bomen, want we zijn nog maar net begonnen.";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"ww4_lbl_message" = "Triggers houden je Mac wakker op basis van bijvoorbeeld je Wi-Fi-verbinding, batterijniveau, aangesloten apparaten (USB en Bluetooth), het huidige tijdstip, je IP-adres, programma’s die geopend zijn, en zoveel meer. In de voorkeuren kan je je eerste Trigger instellen. Of je kan hieronder klikken als je eerst meer wil weten.\n\n’Schijf in bedrijf’ houdt schijven draaiende die zijn verbonden met je Mac. Dat gebeurt door sporadisch een minieme hoeveelheid data weg te schrijven op elke schijf. Via de voorkeuren kan je ‘Schijf in bedrijf’ inschakelen.";
+
+"ww4_bttn_learn_triggers" = "Klik hier om meer te leren over Triggers";
+
+// WELCOME WINDOW #5
+"ww5_lbl_title" = "Beste vriend of vriendin, bedankt om Amphetamine een kans te geven. Veel plezier ermee!";
+"ww5_lbl_subtitle" = "Amphetamine is een daad van altruïsme: gratis, zonder gedoe, from me to you. Hey, da’s meertalig én het rijmt!";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"ww5_lbl_message" = "Amphetamine is een cadeau van mij voor jou (net als deze Nederlandse vertaling door Mitch Goos). Hopelijk vind je het nuttig, stabiel en geniet je ervan. Als je een klein momentje hebt om een recensie in de App Store achter te laten, kan je op mijn eeuwige dankbaarheid rekenen.\n\nHeb je een vraag of kom je een probleem tegen? Contacteer me dan zeker door naar ‘Feedback & ondersteuning’ te gaan en daar te kiezen voor ‘Support contacteren’.\n\nWilliam Gustafson\nBedenker van Amphetamine";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- ABOUT WINDOW
+// ---------------------------------------------------------------------------
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"about_lbl_message" = "Amphetamine was mijn eerste project in Objective-C. In 2014 werd het gelanceerd en sindsdien is het uitgegroeid tot een waanzinnig krachtige en enorm populaire app om je Mac wakker te houden. Suggesties, feedback en steun waren de drijfveren voor die groei. Bedankt daarvoor.\n\nAmphetamine zal tot in de eeuwigheid 100% gratis zijn en geen reclame bevatten, noch in-app-aankopen of betaalde upgrades.\n\nIk draag Amphetamine op aan een goede vriend van mij, Isaac Kirkman.\n\nWilliam Gustafson\nBedenker van Amphetamine";
+"about_lbl_hard_work" = "🥵 Amphetamine maken is een titanenkarwei! 🥵";
+"about_bttn_support" = "Support contacteren";
+"about_bttn_rate" = "Recensie in App Store geven";
+"about_bttn_ack" = "Dankwoorden";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- QUICK PREFERENCES
+// ---------------------------------------------------------------------------
+
+"qp_lbl_about" = "Snelle voorkeuren zijn gelinkt aan de status van de instellingen in de gewone voorkeuren. Dat heeft niet per se iets te maken met de huidige sessie.";
+"qp_lbl_nt_sess" = "Standaardinstellingen van sessies";
+"qp_lbl_all_sess" = "Systeemcontrole";
+"qp_lbl_other" = "Andere";
+
+// PLACEHOLDER REPRESENTS A BATTER CHARGE LEVEL, EXAMPLE: 'END SESSION IF BATTERY IS BELOW 15%'
+"qp_bttn_end_sess_low_batt_title" = "Stop sessie als batterijniveau lager is dan %@";
+"qp_bttn_end_sess_ac_discon_title" = "Stop sessie indien niet aangesloten op oplader";
+
+// PLACEHOLDERS REPRESENT A TIME DURATION, EXAMPLE: 'LOCK SCREEN AFTER 1h 15m OF INACTIVITY'
+"qp_bttn_lck_scrn_title" = "Vergrendel scherm na %01ld%@ inactiviteit";
+"qp_bttn_mv_cursor_title" = "Beweeg muisaanwijzer na %01ld%@ inactiviteit";
+
+// ----- Quick Preferences Help Message
+
+// Title
+"help_quick_prefs_title" = "Snelle voorkeuren";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_quick_prefs_body" = "Elke menuoptie in Snelle Voorkeuren is gelinkt aan de overeenkomstige optie in de voorkeuren van Amphetamine.\n\nBelangrijk om te weten is dat de status van een optie in Snelle Voorkeuren niet per se overeenkomt met de instellingen van de huidige sessie. Dit komt zeker vaak voor bij sessies met Trigger.\n\nDe instellingen van de huidige sessie kan je snel en ad hoc veranderen door in het menu te kiezen voor ‘Details van huidige sessie’. Om die menuoptie te laten zien of verbergen, kan je terecht bij Voorkeuren → Weergave → Extra’s menu.";
+
+
+
+// ---------------------------------------------------------------------------
+// ----- OTHER HELP MESSAGES
+// ---------------------------------------------------------------------------
+
+// ----- Screen Saver Exceptions Help Message
+
+// Title
+"help_screen_saver_exceptions_title" = "Uitzonderingen schermbeveiliging";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_screen_saver_exceptions_body" = "Wanneer eender welk programma of proces in deze tabel actief is, zal Amphetamine je schermbeveiliging niet opzetten.\n\nVia ‘+’ kan je een programma of proces toevoegen. Om te verwijderen klik je op ‘-‘.\n\nAls een programma of proces dat je zoekt niet zichtbaar is, is het waarschijnlijk niet geopend of actief. Het kan ook zijn dat de applicatie-sandboxfunctie van macOS de werking van deze functie tegenhoudt.";
+
+
+// ----- Apps & Processes Picker Help Message
+
+// Title
+"help_app_picker_title" = "Programma’s en processen";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_app_picker_body" = "Een programma of proces moet draaiende zijn om het te kunnen zien in deze lijst. Vink ‘Geen hulpprogramma’s of -processen tonen’ aan om de lijst desgewenst te filteren. Deze hulpprogramma’s of -processen hebben vaak geen interface en draaien meestal in de achtergrond.\n\nAls een programma of proces dat je zoekt niet zichtbaar is, is het waarschijnlijk niet geopend of actief. Het kan ook zijn dat de applicatie-sandboxfunctie van macOS de werking van deze functie tegenhoudt. Als je ‘Amphetamine-verbeteraar’ installeert, kan je deze beperking omzeilen.\n\nAls het na de installatie van ‘Amphetamine-verbeteraar’ nog steeds niet verschijnt (maar het is wel geopend), wacht dan 10 seconden en vernieuw de lijst door op ↻ te klikken (rechts van het zoekveld).";
+
+
+// ----- CLOSED DISPLAY MODE WARNING
+
+// Title
+"cdm_warning_title" = "Over sessies in ‘Modus met dichtgeklapt scherm’";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"cdm_warning_body" = "• Oplaadstatus\nSessies met ‘Modus met dichtgeklapt scherm’ kunnen mislukken als je Mac weer opgeladen wordt tijdens de sessie. Dit komt niet bij alle Macs voor gelukkig. Jammer genoeg kan Amphetamine niet detecteren of een sessie werkelijk mislukt is.\n\n• Oververhitting en batterijverbruik\nMet de ‘Modus met dichtgeklapt scherm’ ingeschakeld kan je Mac makkelijk oververhit geraken in een tas/rugzak, of de batterij kan snel leeg geraken. Je kan daarom best waarschuwingen voor ‘Modus met dichtgeklapt scherm’ activeren bij Voorkeuren → Meldingen.\n\n• Amphetamine-verbeteraar als beveiliging\nAls Amphetamine crasht tijdens een sessie met ‘Modus met dichtgeklapt scherm’, kan het zijn dat je Mac niet zomaar terugkeert naar de normale sluimerinstellingen totdat je Amphetamine of je Mac herstart. Daarom wordt het warm aanbevolen om Amphetamine-verbeteraar te installeren als extra beveiliging.";
+
+// ----- FAILED CLOSED DISPLAY MODE SESSION WARNING
+
+// Title
+"cdm_fail_warning_title" = "Sessie met ‘Modus met dichtgeklapt scherm’ is misschien mislukt";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"cdm_fail_warning_body" = "Je sessie met ‘Modus met dichtgeklapt scherm’ is misschien mislukt doordat een externe oplader werd aangesloten.\n\nVanwege beperkingen in macOS kan Amphetamine niet detecteren of de sessie werkelijk mislukt is. Als je er zeker van bent dat jouw Mac dit probleem niet heeft, kan je de functie hieronder uitschakelen.\n\nAmphetamine heeft de sessie met ‘Modus met dichtgeklapt scherm’ die bezig was automatisch beëindigd uit voorzorg. Als je deze functie uitschakelt, zullen toekomstige sessies met ‘Modus met dichtgeklapt scherm’ niet vanzelf beëindigd worden.";
+
+// ----- FAILED CLOSED DISPLAY MODE SESSION WARNING SUPPRESSION
+"cdm_fail_warning_suppression" =  "Voortaan sessies met ‘Modus met dichtgeklapt scherm’ niet meer automatisch beëindigen";
+
+
+// ----- TRIGGER SESSION WARNING
+
+// USED IN SENTENCES, SEE PLACEHOLDER %@ IN KEY sess_is_trigger_body FOR EXAMPLE USAGE
+// OTHER EXAMPLE: IF YOU WOULD LIKE TO 'ALLOW' / 'PREVENT' THE DISPLAY TO SLEEP
+"gen_use_allow" = "toestaan";
+"gen_use_prevent" = "verhinderen";
+
+// USED IN SENTENCES, SEE PLACEHOLDER %@ IN KEY sess_is_trigger_body FOR EXAMPLE USAGE
+// OTHER EXAMPLE: YOU NEED TO 'CHECK' / 'UNCHECK' THE BOX TO ENABLE THIS FEATURE
+"gen_use_check" = "aanvinken";
+"gen_use_uncheck" = "uitvinken";
+
+// ----- SESSION IS TRIGGER
+"sess_is_trigger_ds_bttn_title" = "Sluimerstand van het scherm toestaan";
+"sess_is_trigger_ds_feature" = "sluimerstand van het scherm";
+
+"sess_is_trigger_ss_bttn_title" = "Schermbeveiliging toestaan";
+"sess_is_trigger_ss_feature" = "activatie van schermbeveiliging";
+
+"sess_is_trigger_cdm_feature" = "sluimerstand met dichtgeklapt scherm";
+"sess_is_trigger_cdm_bttn_title" = "Toestaan dat je Mac sluimert als het scherm is dichtgeklapt";
+
+// Title
+"sess_is_trigger_title" = "Je huidige sessie is een sessie met Trigger(s).";
+
+// PLACEHOLDERS MAY BE EITHER THE FEATURE, TITLE, CHECK/UNCHECK, OR ALLOW/PREVENT KEYS LISTED ABOVE. EXAMPLE:
+
+/*
+ "You have modified a preference that only applies to non-Trigger sessions.\n\nEach Trigger has its own Allow Display Sleep(sess_is_trigger_ds_bttn_title) preference which can be changed by editing the Trigger. To edit a Trigger, go to Preferences → Triggers and double-click the Trigger you want to edit.\n\nIf you would like to temporarily allow (gen_use_allow) display sleep (sess_is_trigger_ds_feature) for the duration of this Trigger session, click Amphetamine's image in the menu bar and check (gen_use_check) the Allow Display Sleep (sess_is_trigger_ds_bttn_title) checkbox in the Current Session Details section of the menu.\n\nIf you don't see the Current Session Details section in Amphetamine's menu, go to Preferences → Appearance → Menu Extras and check the Show Session Details in Menu box."
+*/
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"sess_is_trigger_body" = "Je hebt een voorkeur aangepast die enkel van toepassing is op sessies zonder Trigger.\n\nElke Trigger heeft zijn eigen %@ optie die je kan aanpassen door de Trigger te wijzigen. Dat doe je in Voorkeuren → Triggers; daar dubbelklik je op de Trigger die je wil wijzigen.\n\nAls je tijdelijk wil %@ %@ voor zolang deze sessie met Trigger duurt, kan je op het logo in de menubalk klikken en bij ‘Details van huidige sessie’ het %@ vinkje %@.\n\nAls je in het menu geen optie ‘Details van huidige sessie’ ziet, kan je dat isnchakelen via Voorkeuren → Weergave → Extra’s menu.";
+
+// ----- LOCK SCREEN MESSAGE
+
+"lck_scrn_request_title" = "Om je scherm te vergrendelen moet je Amphetamine toestemming geven voor de toegankelijkheidsvoorzieningen. Ik zal niets stouts doen, beloofd.";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"lck_scrn_request_body" = "Je kan Amphetamine toestemming geven voor de toegankelijkheidsvoorzieningen via Systeemvoorkeuren → Beveiliging & privacy → Privacy → Toegankelijkheid.\n\nKlik in Systeemvoorkeuren dan op het slot-icoontje linksonderaan en geef je gebruikerswachtwoord in als dat gevraagd wordt. Dan moet je het hokje naast Amphetamine aanvinken bij het onderdeel Toegankelijkheid.\n\nIndien Amphetamine niet in de lijst staat, klik je op ‘+’ en kies je Amphetamine in de map ‘Apps’.\n\nZodra je Amphetamine toestemming hebt gegeven voor de toegankelijkheidsvoorzieningen, kan je naar hier terugkeren en de functie opnieuw proberen te activeren.";
+
+
+// ----- CURSOR MOVEMENT MESSAGE
+
+"move_cursor_request_title" = "Om de muisaanwijzer te bewegen moet je Amphetamine toestemming geven voor de toegankelijkheidsvoorzieningen. Ik zal me gedragen, ik zweer het.";
+
+"move_cursor_request_body" = "Je kan Amphetamine toestemming geven voor de toegankelijkheidsvoorzieningen via Systeemvoorkeuren → Beveiliging & privacy → Privacy → Toegankelijkheid.\n\nKlik in Systeemvoorkeuren dan op het slot-icoontje linksonderaan en geef je gebruikerswachtwoord in als dat gevraagd wordt. Dan moet je het hokje naast Amphetamine aanvinken bij het onderdeel Toegankelijkheid.\n\nIndien Amphetamine niet in de lijst staat, klik je op ‘+’ en kies je Amphetamine in de map ‘Apps’.\n\nZodra je Amphetamine toestemming hebt gegeven voor de toegankelijkheidsvoorzieningen, kan je naar hier terugkeren en de functie opnieuw proberen te activeren.";
+
+
+// ----- WHILE FILE IS DOWNLOADING MESSAGE
+
+"file_dwnld_title" = "Timeout";
+
+"file_dwnld_body" = "Kies een timeout voor het downloaden van het bestand. Als het bestand niet qua grootte verandert gedurende de timeoutperiode zal de sessie stoppen.";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- DIALOGS
+// ---------------------------------------------------------------------------
+
+// BUTTON TITLE, USED TO CONFIRM SELECTION OF ITEM
+"dialog_select_bttn_title" = "Selecteer";
+
+// CUSTOM SOUND FILE DIALOG MESSAGE
+"dialog_sound_select" = "Kies de geluiden die je zou willen toevoegen aan Amphetamine:";
+
+// drive
+"dialog_drivealive_select" = "Kies de schijf die je graag draaiende zou willen houden:";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- ALERTS
+// ---------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------
+// ALERT BUTTON LABELS/TITLES
+
+"alert_ok_button_title" = "Oké";
+"alert_get_amph_enhancer_button_title" = "Download Amphetamine-verbeteraar";
+"alert_dont_show_type_again" = "Toon dit soort melding niet meer";
+"alert_dont_show_again" = "Toon deze melding niet meer";
+"alert_dont_ask_again" = "Vraag dit niet meer";
+"alert_open_sys_prefs" = "Open Systeemvoorkeuren";
+
+// GENERIC ERROR MESSAGE
+"error_generic_went_wrong_title" = "Oh jeetje. Ik wil geen paniek zaaien, maar er ging helaas iets mis.";
+"error_generic_went_wrong_body" = "Probeer het alsjeblieft nog eens. Als het probleem blijft voorvallen, kan je ondersteuning aanvragen via iffy.freshdesk.com.";
+
+// TRIGGER EDIT ERROR MESSAGE // v5.0.1
+"error_trigger_edit_title" = "Deze Trigger kan niet gewijzigd worden.";
+"error_trigger_edit_body" = "robeer het alsjeblieft nog eens. Als het probleem blijft voorvallen, kan je de Trigger eens verwijderen en opnieuw toevoegen. Indien je de Trigger niet opnieuw kan toevoegen kan je ondersteuning aanvragen via iffy.freshdesk.com.";
+
+// ----- SCREEN SAVER FOR TRIGGER ALERT
+"alert_trig_scn_svr_bttn_enable" = "Schermbeveiliging inschakelen";
+
+"alert_trig_scn_svr_title" = "Deze Trigger kan door zijn configuratie de schermbeveiliging niet toelaten.";
+"alert_trig_scn_svr_body" = "Hoewel deze Trigger door zijn configuratie de schermbeveiliging niet kan toestaan, kan je dat voor deze sessie wel toelaten. Als je wil dat deze Trigger altijd toegang heeft tot deze functie, kan je hem wijzigen via Voorkeuren → Triggers. Dubbelklik om te wijzigen.\n\nAls je de schermbeveiliging enkel voor deze sessie wil toestaan, kan je hieronder een vertraging kiezen en klikken op ‘Schermbeveiliging inschakelen’.";
+
+// ----- DRIVE ALIVE SANDBOX ALERT
+"alert_drivealive_tech_det_title" = "Wat technische praat…";
+
+// PLACEHOLDER IS NAME OF DRIVE
+"alert_drivealive_tech_det_body" = "De app-sandboxfunctie van macOS zorgt ervoor dat Amphetamine geen data kan schrijven naar het hoofddirectory van de schijf waarop macOS is geïnstalleerd.\n\nAmphetamine kan deze schijf nog wel draaiende houden, en zal dan data schrijven op de volgende locatie:\n\n%@";
+
+"alert_drivealive_net_vol_title" = "Netwerkschijf gedetecteerd";
+"alert_drivealive_net_vol_body" = "De schijf of het volume dat je selecteerde, blijkt een netwerkschijf of niet-lokaal volume te zijn. Wees je er van bewust dat Amphetamine misschien niet meer reageert als de verbinding met deze schijf of dit volume verbroken wordt. Tja, ik kan ook niet alles.";
+
+// ----- APP PICK ERROR
+"alert_app_select_title" = "Oepsie, er ging iets mis.";
+"alert_app_select_body" = "Misschien heb je geen programma geselecteerd of is het programma dat je selecteerde gestopt. Kies een ander programma of herstart het programma dat je wou kiezen.";
+
+// ----- APPLESCRIPT ERROR
+"alert_applescript_fail_title" = "Er trad een fout op.";
+"alert_applescript_fail_title" = "Amphetamine kon het ontvangen bericht van AppleScript niet verwerken.";
+
+// ----- LOCK SCREEN FAILURE
+"alert_lck_scrn_fail_title" = "Amphetamine kon je scherm niet vergrendelen.";
+"alert_lck_scrn_fail_body" = "Ga naar Voorkeuren → Systeemcontrole om deze functie opnieuw in te schakelen. Even vervelend, maar da’s zo gepiept.";
+
+// ----- DEFAULT DURATION
+"alert_dd_less_one_min_title" = "Standaardduur kan niet korter zijn dan één minuut.";
+"alert_dd_less_one_min_body" = "De standaardduur werd aangepast naar de minimumwaarde: 0 uur en 1 minuut. Wat zijn 60 seconden op een mensenleven?";
+
+// ----- CUSTOM STATUS/MENU BAR ITEM IMAGE MISSING OR NOT FOUND
+"cust_img_not_found_title" = "Geen eigen afbeeldingen gevonden.";
+"cust_img_not_found_body" = "Je hebt twee eigen afbeeldingen (voor actieve en inactieve status) nodig. De standaardafbeeldingen zijn weer ingesteld.";
+
+// ----- CUSTOM STATUS/MENU BAR ITEM IMAGE SAVE ERROR
+"cust_img_save_err_title" = "Iconen konden niet bewaard worden.";
+"cust_img_save_err_body" = "Een onbekende fout strooit roet in het eten. De standaardicoontjes zijn weer ingesteld.";
+
+// ----- RESET PREFERENCES CONFIRMATION
+"prefs_reset_conf_title" = "Ben je zeker dat je de voorkeuren van Amphetamine opnieuw wil instellen?";
+"prefs_reset_conf_body" = "Je verwijdert zo alle Triggers en configuraties van ‘Schijf in bedrijf’. Alle voorkeuren worden weer naar hun beginstatus ingesteld.";
+
+// ----- RESET WARNINGS & DIALOGS CONFIRMATION
+"warn_diag_reset_conf_title" = "Alle waarschuwingen zijn opnieuw ingesteld.";
+"warn_diag_reset_conf_body" = "Een gewaarschuwd man is er twee waard. Maar wacht, nu word je voor de tweede keer gewaarschuwd. Ben je er nu vier waard?";
+
+// ----- IP ADDRESS CRITERIA MESSAGE
+"alert_no_ip_address_title" = "Geen IP-adressen gevonden.";
+"alert_no_ip_address_body" = "Kijk even na of je Mac met het wereldwijde web verbonden is en/of een geldig IP-adres heeft.";
+
+// ----- DNS SERVER CRITERIA MESSAGE
+"dns_no_new_serv_title" = "Geen nieuwe DNS-servers gevonden.";
+"dns_no_new_serv_body" = "De DNS-servers in deze lijst zijn de enige die in gebruik zijn volgens macOS. Als je nog maar pas de DNS-servers geüpdatet hebt in Systeemvoorkeuren of als je je netwerkconfiguratie recentelijk aangepast hebt, wacht je best enkele minuten en probeer je dan opnieuw.";
+
+// ----- DRIVE ALIVE WRITE ERROR
+"drive_alive_write_err_title" = "Er trad een fout op.";
+"drive_alive_write_err_body" = "Amphetamine heeft geen toestemming om data te schrijven naar deze locatie. Waarschijnlijk is dit te wijten aan de sanboxfunctie van macOS of aan de structuur van het volume.\n\nJe kan het volgende proberen, maar zonder garantie op succes:\n\nMaak een nieuwe map aan in de hoofdmap van het volume/de schijf (je moet daarbij misschien het beheerderswachtwoord ingeven). Selecteer dan die map om te gebruiken met ‘Schijf in bedrijf’.";
+
+// ----- DRIVE ALIVE NETWORK VOLUME PROMPT
+"alert_net_volume_title" = "Netwerkvolume of -schijf";
+
+// PLACEHOLDER IS NAME OF DRIVE
+"alert_net_volume_body" = "Is de schijf/het volume met de naam '%@' verbonden met een netwerk? Als je juist antwoordt, zal Amphetamine efficiënter z’n ding kunnen doen.";
+
+// ----- BETA EXPIRATION
+"alert_beta_expired_title" = "Deze bèta is afgelopen. Am-bèta-nt hé?";
+"alert_beta_expired_body" = "Om een nieuwe bètaversie te verkrijgen, kan je github.com/x74353/AmphetamineBeta bezoeken. Amphetamine zal nu afgesloten worden.";
+
+// ----- DISABLE TRIGGERS MESSAGE
+"alert_disable_trig_title" = "Er is een sessie met Trigger bezig.";
+
+// PLACEHOLDER IS NAME OF TRIGGER
+"alert_disable_trig_body" = "Je moet de volgende Trigger deactiveren om deze sessie te stoppen:\n\n%@\n\nJe kan ook alle Triggers uitschakelen door de knop hieronder te gebruiken. Als je enkel deze ene Trigger wil uitschakelen kan je dat doen via de voorkeuren. Op een later moment kan je dan steeds alle Triggers weer inschakelen via de voorkeuren.";
+
+"alert_disable_trig_bttn_disable" = "Alle Triggers uitschakelen";
+"alert_disable_trig_bttn_suppress" = "Volgende keer alle Triggers automatisch uitschakelen";
+
+"alert_disable_trig_dur_indef" = "Uitschakelen voor onbepaalde tijd";
+"alert_disable_trig_dur_5mins" = "Uitschakelen gedurende 5 minuten";
+"alert_disable_trig_dur_10mins" = "Uitschakelen gedurende 10 minuten";
+"alert_disable_trig_dur_15mins" = "Uitschakelen gedurende 15 minuten";
+"alert_disable_trig_dur_30mins" = "Uitschakelen gedurende 30 minuten";
+"alert_disable_trig_dur_45mins" = "Uitschakelen gedurende 45 minuten";
+"alert_disable_trig_dur_1hr" = "Uitschakelen gedurende 1 uur";
+"alert_disable_trig_dur_2hrs" = "Uitschakelen gedurende 2 uur";
+"alert_disable_trig_dur_3hrs" = "Uitschakelen gedurende 3 uur";
+"alert_disable_trig_dur_4hrs" = "Uitschakelen gedurende 4 uur";
+"alert_disable_trig_dur_5hrs" = "Uitschakelen gedurende 5 uur";
+"alert_disable_trig_dur_6hrs" = "Uitschakelen gedurende 6 uur";
+"alert_disable_trig_dur_7hrs" = "Uitschakelen gedurende 7 uur";
+"alert_disable_trig_dur_8hrs" = "Uitschakelen gedurende 8 uur";
+"alert_disable_trig_dur_9hrs" = "Uitschakelen gedurende 9 uur";
+"alert_disable_trig_dur_10hrs" = "Uitschakelen gedurende 10 uur";
+"alert_disable_trig_dur_12hrs" = "Uitschakelen gedurende 12 uur";
+"alert_disable_trig_dur_24hrs" = "Uitschakelen gedurende 24 uur";
+
+// ----- TRIGGER EVALUATION FAILED MESSAGE
+"alert_trigger_eval_fail_title" = "Voorwaardencontrole voor Trigger is mislukt.";
+"alert_trigger_eval_fail_body" = "Er trad een fout op bij het checken van de %@ voorwaarden van deze Trigger, \"%@.\"\n\nProbeer deze Trigger te verwijderen en opnieuw aan te maken als dit probleem zich vaker voordoet.";
+
+// ----- AMPHETAMINE 3 → 4/5 PREFERENCES CONVERSION
+"amph3_prefs_cnvrt_bttn_migrate" = "Overzetten";
+"amph3_prefs_cnvrt_bttn_reset" = "Opnieuw instellen";
+"amph3_prefs_cnvrt_bttn_backup" = "Maak een reservekopie";
+"amph3_prefs_cnvrt_bttn_quit" = "Stoppen";
+
+"amph3_prefs_cnvrt_message" = "Omdat Amphetamine 5 zo ongelooflijk veel nieuwe heerlijkheden bevat, moeten je voorkeuren van een eerdere versie overgezet worden of opnieuw ingesteld worden. Als je voor ‘Overzetten’ kiest, probeer ik al je huidige voorkeuren (Triggers, instellingen voor ‘Schijf in bedrijf’, icoontjes, sneltoetsen, etc.) te kopiëren naar de nieuwste versie.\n\nNatuurlijk zijn daar risico’s aan verbonden, dus doe het voorzichtig (een algemeen levensadvies trouwens).\n\nAls je liever een frisse, nieuwe start maakt (goed bezig!), kies dan voor ‘Opnieuw instellen’. Als je deze melding onverwachts ziet, kies dan gewoon voor ‘Opnieuw instellen’.";
+
+"amph3_prefs_cnvrt_backedup" = "Je hebt een reservekopie gemaakt van Amphetamines voorkeuren.";
+"amph3_prefs_cnvrt_ask" = "Je zal nu de vraag krijgen om je voorkeuren over te zetten of opnieuw in te stellen. #keuzestress";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- NOTIFICATION MESSAGES
+// ---------------------------------------------------------------------------
+
+"notif_session_not_active" = "Sessie is niet actief";
+"notif_amph_keep_awake" = "Amphetamine is je Mac wakker aan het houden";
+"notif_amph_trig_start" = "Sessie met Trigger gestart";
+"notif_amph_trig_end" = "Sessie met Trigger gestopt";
+"notif_sleep_normal" = "Je Mac zal sluimeren volgens de normale planning";
+"notif_next_reminder_plural_int" = "Volgende melding binnen %li minutes"; // PLACEHOLDER IS THE TIME UNTIL NEXT REMINDER, EXAMPLE: 'NEXT REMINDER IN 5 MINUTES'
+"notif_next_reminder_singular_int" = "Volgende melding binnen %li minuut"; // PLACEHOLDER IS THE TIME UNTIL NEXT REMINDER, EXAMPLE: 'NEXT REMINDER IN 1 MINUTE'
+"notif_batt_no_ac" = "Je batterij is niet aangesloten op de oplader";
+"notif_batt_charge_low" = "Batterijniveau is lager dan %li%%"; // PLACEHOLDER IS BATTERY CHARGE LEVEL, EXAMPLE: 'BATTERY CHARGE IS BELOW 15%'
+
+// THESE ARE USED TO INDICATE THE STATE OF EACH OPTION IN NOTIFICATIONS
+// SPACE IS EXTREMELY LIMITED IN NOTIFICATIONS, SO PLEASE ABBREVIATE WHERE POSSIBLE
+"notif_disp_sleep_state" = "Sluimer scherm:"; // 🖥️ ✗ Display Sleep:
+"notif_scrn_svr_state" = "Schermbev.:"; // 🌌 ✗ Screen Saver:
+"notif_cdm_state" = "MDS:"; // MODUS MET DICHTGEKLAPT SCHERM // 🐚 ✗ CDM
+
+// THESE ARE USED TO INDICATE THE STATE OF EACH OPTION IN NOTIFICATIONS
+// UNLESS THESE CHARACTERS DO NOT EQUATE TO ON/YES OFF/NO IN THE TARGET LANGUAGE, THESE SHOULD LIKELY NOT BE CHANGED/TRANSLATED
+"notif_state_prevented" = "✗"; // NO/OFF/PREVENTED, other potential symbols: 🚫 ✗
+"notif_state_allowed" = "✓"; // YES/ON/ALLOWED, other potential symbols: ✅ ✓
+
+// ----- REGULAR SESSION ENDED
+"generic_sess_end_1" = "Sessie is gestopt";
+
+// ----- APP SESSION ENDED NOTIFICATION
+
+// NOTE: DO NOT REMOVE '%@'; %@ IS PLACEHOLDER FOR APP NAME
+"app_sess_end_2" = "%@ is niet meer geopend"; // EXAMPLE: 'SAFARI' IS NO LONGER RUNNING
+
+// ----- UNTIL TIME SESSION ENDED NOTIFICATION
+
+// ** NOTE: DO NOT REMOVE %@ **
+"until_sess_end_1" = "Getimede sessie is gestopt";
+"until_sess_end_2" = "De eindtijd (%@) is gepasseerd"; // PLACEHOLDER IS A TIME, EXAMPLE: 'END TIME (5:00 PM) HAS PASSED'
+
+
+// ----- TIMED SESSION HAS ENDED NOTIFICATION
+"timed_sess_end_1" = "Getimede sessie is gestopt";
+"timed_sess_end_2" = "De duur van deze sessie is afgelopen";
+
+// ----- DISPLAY SLEEP TOGGLED VIA HOTKEY
+"disp_sleep_toggled" = "Sluimerstand scherm ingeschakeld";
+"disp_sleep_toggle_allow" = "Sluimerstand scherm toegestaan";
+"disp_sleep_toggle_prevent" = "Sluimerstand scherm niet toegestaan";
+"disp_sleep_toggle_fail" = "Sluimerstand scherm niet ingeschakeld";
+
+// ----- SCREEN SAVER TOGGLED VIA HOTKEY
+"scrn_svr_toggled" = "Schermbeveiliging ingeschakeld";
+"scrn_svr_toggle_allow" = "Schermbeveiliging toegestaan";
+"scrn_svr_toggle_prevent" = "Schermbeveiliging niet toegestaan";
+"scrn_svr_toggle_fail" = "Schermbeveiliging niet ingeschakeld";
+
+// ----- TRIGGER ERROR MESSAGES
+"trig_err_title" = "Ik zeg het niet graag, maar er is iets gruwelijks misgelopen.";
+
+// SAVE TRIGGER ERRORS
+"trig_err_name" = "• Geen Triggernaam ingegeven\n\n";
+"trig_err_no_criteria" = "• Geen voorwaarden geselecteerd of geactiveerd.\n\n";
+"trig_err_duplicate" = "• Er is al een Trigger met deze (overigens erg coole) naam.\n\n";
+"trig_err_wifi" = "• Wi-Fi-voorwaarde is ingeschakeld, maar er is geen netwerknaam.\n\n";
+"trig_err_ip" = "• IP-adresvoorwaarde is ingeschakeld, maar het veld van het IP-adres is leeg.\n\n";
+"trig_err_ip_2" = "• IP-adresvoorwaarde is ingeschakeld, maar één of meer adresvelden zijn leeg.\n\n";
+"trig_err_vpn" = "• VPN-servicevoorwaarde is ingeschakeld, maar er werd geen servicenaam gevonden.\n\n";
+"trig_err_dns" = "• DNS-server(s)voorwaarde is ingeschakeld, maar er werden geen serveradressen gevonden.\n\n";
+"trig_err_app" = "• Programmavoorwaarde is ingeschakeld, maar er is geen app geselecteerd.\n\n";
+"trig_err_sched" = "• Planningsvoorwaarde is ingeschakeld, maar je koos geen dagen.\n\n";
+"trig_err_displays" =  "• Schermenvoorwaarde is ingeschakeld, maar het cijferveld is leeg.\n\n";
+"trig_err_vol" =  "• Volume-/schijfvoorwaarde is ingeschakeld, maar er werd geen volume/schijf geselecteerd.\n\n";
+"trig_err_usb" =  "• USB-apparaatvoorwaarde is ingeschakeld, maar je selecteerde geen apparaat.\n\n";
+"trig_err_bluetooth" =  "• Bluetooth-apparaatvoorwaarde is ingeschakeld, maar er is geen apparaat gekozen.\n\n";
+"trig_err_cpu" =  "• CPU-gebruiksvoorwaarde is ingeschakeld, maar je voerde geen drempelwaarde in.\n\n";
+"trig_err_idle" =  "• Duur van inactiviteitsvoorwaarde is ingeschakeld, maar je gaf geen waarde in.\n\n";
+
+// EDIT TRIGGER ERRORS
+"trig_err_cant_edit" = "Trigger \"%@\" kan op dit moment niet gewijzigd worden."; // PLACEHOLDER IS NAME OF TRIGGER
+"trig_err_vpn_edit" = "De VPN-service bij deze Trigger is momenteel niet actief.\n\nStart VPN-dienst \"%@\" opnieuw op en probeer nog eens."; // PLACEHOLDER IS NAME OF VPN SERVICE
+"trig_err_vol_edit" = "Het volume/de schijf bij deze Trigger is momenteel niet aangesloten/ingeladen.\n\nSluit \"%@\" aan en probeer nog eens."; // PLACEHOLDER IS NAME OF DRIVE/VOLUME
+"trig_err_usb_edit" = "Het USB-apparaat bij deze Trigger is momenteel niet aangesloten.\n\nVerbind \"%@\" en probeer nog eens."; // PLACEHOLDER IS NAME OF USB DEVICE
+"trig_err_bluetooth_edit" = "Het Bluetooth-apparaat bij deze Trigger is niet meer gekoppeld.\n\nKoppel \"%@\" opnieuw en probeer nog eens."; // PLACEHOLDER IS NAME OF BLUETOOTH DEVICE
+"trig_err_audio_edit" = "De geluidsuitvoer bij deze Trigger is momenteel niet beschikbaar\n\nVerbind \"%@\" en probeer opnieuw."; // PLACEHOLDER IS NAME OF AUDIO OUTPUT DEVICE
