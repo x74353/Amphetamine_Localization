@@ -31,7 +31,7 @@
 "6dh-zS-Vam.title" = "Wiederholen";
 
 /* Class = "NSMenuItem"; title = "Cut"; ObjectID = "uRl-iY-unG"; */
-"uRl-iY-unG.title" = "Auscchneiden";
+"uRl-iY-unG.title" = "Ausschneiden";
 
 /* Class = "NSMenuItem"; title = "Copy"; ObjectID = "x3v-GG-iWU"; */
 "x3v-GG-iWU.title" = "Kopieren";
@@ -74,11 +74,11 @@
 
 // TOOL TIP FOR CISCO ANYCONNECT VPN
 /* Class = "NSButton"; ibShadowedToolTip = "Refresh service name"; ObjectID = "LoY-pN-Mqt"; */
-"LoY-pN-Mqt.ibShadowedToolTip" = "Dienstename aktualisieren";
+"LoY-pN-Mqt.ibShadowedToolTip" = "Dienstnamen aktualisieren";
 
 // TOOL TIP FOR TRIGGER SCREEN SAVER EXCEPTIONS
 /* Class = "NSButton"; ibShadowedToolTip = "Copy screen saver exceptions used in non-Trigger list to this Trigger"; ObjectID = "UWl-xZ-W0U"; */
-"UWl-xZ-W0U.ibShadowedToolTip" = "Kopiere die Bildschirmschonerausnahmen in der Non-Trigger-Liste in diesen Trigger";
+"UWl-xZ-W0U.ibShadowedToolTip" = "Kopiere die Bildschirmschonerausnahmen aus der Non-Trigger-Liste in diesen Trigger";
 
 // TOOL TIP FOR RUNNING APPS TABLE
 /* Class = "NSButton"; ibShadowedToolTip = "Refresh list"; ObjectID = "e7M-fJ-LMG"; */
