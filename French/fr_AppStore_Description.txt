@@ -1,0 +1,125 @@
+---------------------------------------------------------
+SUBTITLE:
+
+** NOTE: This field has a 30 character limit **
+
+Puissant utilitaire de gestion de veille
+
+
+---------------------------------------------------------
+KEYWORDS: 
+
+** NOTE: If there are other keywords that would make more sense in the target language, feel free to replace these **
+
+wake, awake, anti, sleep, prevent, display, power, caffeine, battery, schedule, screen, saver, on, Veille, Batterie, Gestion
+
+
+---------------------------------------------------------
+APP STORE PREVIEWS:
+
+** NOTE: The following text appears in the screen shots/previews show in Amphetamine’s Mac App Store listing. Please only translate the text below each PREVIEW section. Please keep each line of text separated. **
+
+
+PREVIEW 1:
+Gardez votre Mac éveillé avec Amphetamine.
+Démarrez rapidement une session en un clic ou choisissez une durée.
+
+PREVIEW 2:
+Utilisez des déclencheurs pour automatiser quand votre Mac doit se mettre en veille.
+WiFi, USB et Bluetooth, écran, lecteurs, et plus encore.
+
+PREVIEW 3:
+Gardez votre Mac éveillé pendant que vous travaillez.
+Choisissez une application et votre Mac ne se mettra pas en veille pendant son exécution.
+
+PREVIEW 4:
+Gardez votre Mac éveillé pendant que son écran est fermé.
+Utilisez l'option alarme pour que vous n'oubliiez pas qu'il est réveillé.
+
+PREVIEW 5:
+Utilisez vos propres images de statut.
+Personnalisez presque tout, y compris les sons de notification.
+
+PREVIEW 6:
+Gardez vos disques en marche et prêts à l'action.
+Drive Alive s'assure que vos disques ne ralentissent pas.
+
+
+
+---------------------------------------------------------
+DESCRIPTION:
+
+Bienvenue dans Amphetamine, l'application de veille la plus impressionnante jamais créée pour macOS. Amphetamine peut garder votre Mac, et éventuellement son ou ses écrans, éveillés grâce à un interrupteur marche/arrêt très simple, ou automatiquement grâce à des déclencheurs faciles à configurer. Amphetamine est extrêmement puissante et comprend des fonctionnalités avancées pour ceux qui en ont besoin, tout en restant intuitive et facile à utiliser pour ceux qui n'ont pas besoin de toutes les fonctions.
+
+=== Cliquez pour garder votre Mac éveillé ===
+
+Démarrez rapidement une session de veille à partir du menu d'Amphetamine pour garder votre Mac éveillé.
+
+• Indéfiniment, pour une durée spécifiée, ou jusqu'à une heure spécifique
+• Pendant le téléchargement d'un fichier
+• Pendant qu'une application spécifique est en cours d'exécution
+
+Au cours d'une session de maintien d'activité, choisissez d'autoriser ou d'interdire :
+
+• L'affichage du mode veille
+• L'activation de l'économiseur d'écran
+• La mise en veille du système lorsque l'écran intégré est fermé
+• Le mouvement automatique du curseur de la souris
+• Le verrouillage de l'écran
+
+=== Automatisation avancée ===
+
+Créez un déclencheur pour garder automatiquement votre Mac éveillé.
+
+• Lorsqu'un écran externe est connecté
+• Pendant que l'affichage de votre Mac est dupliqué
+• Lorsqu'un périphérique USB ou Bluetooth est connecté
+• Pendant qu'une application spécifique est en cours d'exécution
+• Lorsqu'une application spécifique est en cours d'exécution et est au premier plan
+• Pendant que la batterie de votre Mac est en charge et/ou lorsque la batterie est au-dessus d'un seuil
+• Lorsque l'adaptateur secteur de votre Mac est connecté ou déconnecté
+• Lorsque votre Mac a une adresse IP spécifique
+• Pendant que votre Mac est sur un réseau Wi-Fi spécifique
+• Pendant que votre Mac est connecté au service VPN Cisco AnyConnect
+• Pendant que votre Mac utilise un serveur DNS spécifique
+• Pendant l'utilisation d'un casque ou d'une autre sortie audio
+• Lorsqu'un lecteur ou un volume spécifique est monté
+• Pendant que le processeur de votre Mac est utilisé à un seuil spécifique
+• Lorsque votre Mac a été inactif pendant une durée spécifique
+
+
+=== Quel est le piège ? ===
+
+Pas de piège. Amphetamine est 100% gratuite. C'est un cadeau pour toi. Enjoy !
+
+• Aucune publicité
+• Aucun achat intégré
+• Rien à débloquer/pas de version "pro"
+• Aucune invite gênante vous demandant d'évaluer Amphetamine
+• Aucun lien vers d'autres applications payantes
+• Pas de localisation
+• Aucune collecte de données
+ 
+
+=== Que fait Amphetamine en plus ? ===
+
+Amphetamine est l'utilitaire de veille le plus puissant et le plus personnalisable jamais créé pour macOS. Voici d'autres caractéristiques notables :
+
+• Verrouillez l'écran de votre Mac après une période d'inactivité
+• Déplacez le curseur de la souris périodiquement
+• Gardez votre MacBook éveillé pendant que son écran/couvercle est fermé
+• Gardez vos disques éveillés avec Drive Alive
+• Prise en charge d'AppleScript
+• Utilisez vos propres icônes de barre de menu
+• Utilisez vos propres sons de notification
+• Laissez votre écran en veille tout en gardant votre Mac éveillé
+• Autoriser l'économiseur d'écran à s'exécuter après une période d'inactivité personnalisable
+• Affichage du temps de session restant en option dans le menu (avec support 12/24 heures)
+• Fin de session automatique si la batterie de votre Mac est faible
+• Prise en charge des raccourcis clavier pour le démarrage/la fin des sessions, activation / désactivation de la mise en veille, etc.
+
+
+=== Configuration requise + Autres détails ===
+
+• Amphetamine nécessite macOS 10.11 El Capitan ou ultérieur ; certaines fonctionnalités nécessitent une version ultérieure de macOS
+• Amphetamine prend en charge les écrans Retina et le mode sombre macOS.
