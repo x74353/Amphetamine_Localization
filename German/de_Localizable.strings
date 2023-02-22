@@ -1,11 +1,11 @@
 /*
- 
+
   Localizable.strings
   Amphetamine
 
   Created by William Gustafson on 2/21/20.
   Copyright © 2020 William C. Gustafson. All rights reserved.
- 
+
 */
 
 // ---------------------------------------------------------------------------
@@ -1234,7 +1234,7 @@
 "ww3_lbl_subtitle" = "Amphetamine hält Ihren Mac wach. Und dessen Anzeigen. Und dessen Laufwerke.";
 
 // ** NOTE: DO NOT REMOVE '\n' **
-"ww3_lbl_message" = "Wenn Amphetamine Ihren Mac wachhält, nennt man dies eine \"Sitzung.\" Um eine Sitzung zu starten,klicken Sie auf Amphetamine in der Menüleiste und wählen Sie eine Sitzungsdauer aus. Alternativ, rechtsklicken oder Control-klicken Sie auf das Icon, um eine Sitzung mit der Standarddauer zu starten. Sie können die Standarddauer unter Einstellungen → Sitzungen festlegen.\n\nWenn Sie ein MacBook besitzen und dieses wachhalten möchten, während das Display geschlossen ist, ist dies nun möglich. Es ist dennoch dringend empfohlen, Amphetamine Enhancer als Fail-Safe-Option zu installieren.";
+"ww3_lbl_message" = "Wenn Amphetamine Ihren Mac wachhält, nennt man dies eine \"Sitzung.\" Um eine Sitzung zu starten, klicken Sie auf Amphetamine in der Menüleiste und wählen Sie eine Sitzungsdauer aus. Alternativ, rechtsklicken oder Control-klicken Sie auf das Icon, um eine Sitzung mit der Standarddauer zu starten. Sie können die Standarddauer unter Einstellungen → Sitzungen festlegen.\n\nWenn Sie ein MacBook besitzen und dieses wachhalten möchten, während das Display geschlossen ist, ist dies nun möglich. Es ist dennoch dringend empfohlen, Amphetamine Enhancer als Fail-Safe-Option zu installieren.";
 
 "ww3_bttn_learn_amph_enh" = "Klicken Sie hier, um mehr über Amphetamine Enhancer zu erfahren";
 
