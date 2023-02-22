@@ -992,7 +992,7 @@
 "trig_crit_mi_audio_headphones" = "Kopfhörer";
 "trig_crit_mi_audio_bi_speakers" = "Eingebaute Lautsprecher";
 "trig_crit_mi_audio_bi_output" = "Eingebaute Ausgabe";
-"trig_crit_mi_audio_headphones_35w" = "Kopfhörer (Kabel, 3.5mm)";
+"trig_crit_mi_audio_headphones_35w" = "Kopfhörer (Kabel, 3,5mm)";
 
 // TRIGGER CRITERIA POPUP → CPU
 "trig_crit_name_cpu" = "CPU-Auslastung";
