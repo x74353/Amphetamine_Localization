@@ -1454,7 +1454,7 @@
 "cdm_fail_warning_title" = "Possible Closed-Display Mode Session Failure";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"cdm_fail_warning_body" = "A closed-display mode session has possibly failed due to an external power source/adapter being connected.\n\nDue to restrictions in macOS, Amphetamine cannot detect whether the session has actually failed, however. If you are confident that your Mac is unaffected by this issue, you may disable this feature below.\n\nAmphetamine has automactically terminated the closed-display mode session that was running. If you disable this feature, future closed-display mode sessions will not be automatically terminated.";
+"cdm_fail_warning_body" = "A closed-display mode session has possibly failed due to an external power source/adapter being connected.\n\nDue to restrictions in macOS, Amphetamine cannot detect whether the session has actually failed, however. If you are confident that your Mac is unaffected by this issue, you may disable this feature below.\n\nAmphetamine has automatically terminated the closed-display mode session that was running. If you disable this feature, future closed-display mode sessions will not be automatically terminated.";
 
 // ----- FAILED CLOSED DISPLAY MODE SESSION WARNING SUPPRESSION
 "cdm_fail_warning_suppression" =  "Disable automatic closed-display mode session termination";
