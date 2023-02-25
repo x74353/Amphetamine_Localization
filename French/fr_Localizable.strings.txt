@@ -1,0 +1,1764 @@
+/*
+ 
+  Localizable.strings
+  Amphetamine
+
+  Created by William Gustafson on 2/21/20.
+  Copyright © 2020 William C. Gustafson. All rights reserved.
+ 
+ 
+ ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️
+ 
+  ❗️❗️ GUIDELINES PART 1; PLEASE READ ❗️❗️
+ 
+ ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️
+ 
+ 
+ Hi there!
+ 
+ First off, THANK YOU for helping with translating Amphetamine into another language. I have chosen to give Amphetamine away for free, and thus, do not have the resources to hire a professional company to do this work. Thousands of people around the world use Amphetamine but certainly, if one is not a native English speaker, it must be difficult to use the more advanced features.
+ 
+ Before getting started, PLEASE read through the guidelines below. If you have any questions/run into trouble, please submit a support request at iffy.freshdesk.com.
+ 
+ Lastly, the text that needs translating in this file is ONLY on the right side of the equals sign.
+ 
+ -----------------------------------------------------------------------------------------------
+ EXAMPLE: "gen_use_end_session_cap" = "End Session";
+ 
+ • "gen_use_end_session_cap" is a unique key. Please do not change any of the unique keys.
+ • "End Session" is the text that needs to be translated.
+ -----------------------------------------------------------------------------------------------
+ 
+ Make sure to never remove the quotation marks and leave each line ending with a semicolon character ';'
+ 
+ Thanks again!
+ 
+ - William Gustafson, Amphetamine Creator
+ 
+ 
+ ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️
+ 
+  ❗️❗️ GUIDELINES PART 2; PLEASE READ ❗️❗️
+ 
+ ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️
+ 
+ 
+ ###########################################################################
+ 1. PLACEHOLDERS
+ ###########################################################################
+ 
+ Throughout this file, you will see in many instances of what seem to be garbled text, or odd sets of characters.
+ 
+ -----------------
+ EXAMPLES:
+ 
+ • %@
+ • %li%%
+ • %.f
+ • \n\n
+ 
+ ... etc.
+ -----------------
+ 
+ If you're not a developer, these characters may seem like they don't belong and should be removed. However, these characters are __VERY__ important and should never be removed. These characters act as placeholders for other values/text.
+ 
+ -----------------------------------------------------
+ EXAMPLE: Placeholder '%@' equals "not connected"
+ • "Power adapter %@" → "Power adapter not connected"
+ -----------------------------------------------------
+ 
+ If you remove any of these placeholders, it will likely cause great confusion to Amphetamine's users. Please take extra special care to not accidentally remove any placeholders.
+ 
+ In some cases, you may need to move the location of the placeholder if its position in the target language is not grammatically correct.
+ 
+ -------------------------------------------------------
+ EXAMPLE: Placeholder '%@' equals the word "low"
+ 
+ • ENGLISH → "%@ battery" → "low battery"
+ • SPANISH → "batería %@" → "batería baja"
+ -------------------------------------------------------
+ 
+ I have tried to add comments where placeholders exist to indicate the expected value of the placeholder. I may have missed a few. Let me know if you find one.
+
+ You should also take care to not remove any '\n' characters. Each '\n' represents a line break and each '\n\n' starts a new paragraph. This helps longer text be broken up and made easier to read. There should typically never be any whitespace/spaces before or after the \n character(s).
+ 
+ -------------------------------------------------------------------
+ EXAMPLE: This is some sample text\nshowing how a line break works.
+ -------------------------------------------------------------------
+ 
+ Notice how the '\n' placeholder in "text\nshowing" does not have any spaces around it? This is the correct format.
+ 
+ 
+ ###########################################################################
+ 2. PROPER NOUNS/CAPITALIZATION
+ ###########################################################################
+ 
+ • Amphetamine
+ Amphetamine is the name of the application and should always be capitalized as a proper noun. The word "Amphetamine" should never be translated to another language.
+ 
+ • Triggers
+ "Triggers" is a branded feature of Amphetamine. If possible, the term "Triggers" or "Trigger" should be translated as a proper noun, keeping its capitalization. If there is not a word in the target language that accurately represents the English word "Trigger(s)", please use a word that you feel best represents this feature. A possible English alternative could be something like "Automation".
+ 
+ • Quick Preferences
+ "Quick Preferences" is a branded feature of Amphetamine. The "Preferences" part of this feature should be translated to match macOS's default translation for this word in the target language. Capitalization of this feature should remain intact if possible. "Quick" should be translated to a word meaning fast/easy in the target language.
+ 
+ -------------------------------------------
+ EXAMPLE (SPANISH): "Preferencias Rápidas"
+ -------------------------------------------
+ 
+ • Drive Alive
+ Drive Alive is a branded feature of Amphetamine. While the target language's translation of this feature likely won't rhyme like it does in English, please be sure to keep the capitalization of this feature in place if possible.
+
+ 
+ ###########################################################################
+ 3. SARCASM/CHEEKINESS
+ ###########################################################################
+ 
+ In a few places, sarcasm is used, or Amphetamine appears to have a bit of a cheeky attitude. This type of humor may not translate well, and can be removed entirely if needed. Please replace the text you remove with a simple message that makes sense in the target language.
+ 
+ ---------------------------------------------
+ EXAMPLE: See key "warn_diag_reset_conf_body"
+ ---------------------------------------------
+ 
+ 
+ ###########################################################################
+ 4. IDIOMS
+ ###########################################################################
+ 
+ Some English phrases/idioms, may not make sense in other languages.
+ 
+ -----------------------------------------------------------------------
+ EXAMPLE: See "ww5_lbl_subtitle" = "Amphetamine is a labor of love."
+ -----------------------------------------------------------------------
+ 
+ The English idiom "labor of love" means "Work done for one's satisfaction rather than monetary reward."
+ 
+ If there is an idiom in the target language that has the same meaning, please feel free to substitute it. If no suitable idiom exists in the target language, please attempt to translate the English idiom's meaning as concisely as possible.
+ 
+ 
+ ###########################################################################
+ 5. CONCISENESS
+ ###########################################################################
+ 
+ Space is extremely limited in many parts of Amphetamine's user interface (UI). Being clear is greatly important, but conciseness is also critical. Without a doubt, some adjustments to Amphetamine's UI will be required to accommodate differences in word/sentence length across languages, but you can greatly reduce the number of adjustments needed by keeping your translation as concise as possible.
+ 
+ 
+*/
+
+
+// ---------------------------------------------------------------------------
+// GENERAL USE STRINGS
+
+// THE APP'S NAME, DON'T TRANSLATE
+"gen_use_app_name" = "Amphetamine";
+
+// THE NAME OF THE TARGET LANGUAGE
+// EXAMPLE: PUT "SPANISH" HERE IF YOU ARE TRANSLATING INTO THE SPANISH LANGUAGE
+ "gen_use_locale" = "Français";
+
+// USED IN BUTTONS, MENUS
+"gen_use_end_session_cap" = "terminer la Session";
+
+// USED TO INFORM USER OF KEY COMMAND
+"gen_use_command_x" = "⌘ X";
+
+// USED IN BUTTONS, MENUS
+"gen_use_cont_session_cap" = "Continuer la Session";
+
+// USED IN MENU
+"gen_use_close_menu" = "Fermer le Menu";
+
+// USED IN SENTENCES
+// EXAMPLE: THERE ARE 10 MINUTES REMAINING IN THIS SESSION.
+"gen_use_remaining" = "restant";
+
+// USED IN SENTENCES
+// EXAMPLE USAGE: BATTERY IS 100% 'CHARGED'
+"gen_use_charged" = "chargée";
+
+// EXAMPLE USAGE: POWER ADAPTER CONNECTED 'AND'/'OR' BATTERY 100% CHARGED
+"gen_use_and" = "et";
+
+// EXAMPLE USAGE: POWER ADAPTER CONNECTED 'OR' BATTERY 100% CHARGED
+"gen_use_or" = "ou";
+
+// EXAMPLE USAGE: CLICK THE BUTTON LABELED 'SAVE' TO KEEP YOUR CHANGES
+"gen_use_save" = "Enregistrer";
+
+// EXAMPLE USAGE: CLICK THE BUTTON LABELED 'CANCEL' TO DISCARD YOUR CHANGES
+"gen_use_cancel" = "Annuler";
+
+// EXAMPLE USAGE: CLICK THE BUTTON LABELED 'CONTINUE' TO PROCEED
+"gen_use_continue" = "Continuer";
+
+// EXAMPLE USAGE: CLICK THE BUTTON LABELED 'SELECT' TO CONFIRM YOUR SELECTION
+"gen_use_select" = "Sélectionner";
+
+// USED AS A BUTTON LABEL OR MENU ITEM TITLE, ACTIONABLE, CLICKING ON THIS WILL END A SESSION
+"gen_use_end_session" = "Terminer la session en cours";
+
+// USED IN CONJUNCTION WITH A NUMBER, EXAMPLE USAGE: Duration = 10 'hours'
+"gen_use_days" = "jours";
+"gen_use_day" = "jour";
+"gen_use_hours" = "heures";
+"gen_use_hour" = "heure";
+"gen_use_minutes" = "minutes";
+"gen_use_minute" = "minute";
+"gen_use_seconds" = "secondes";
+"gen_use_second" = "seconde";
+
+// USED AS A CATEGORY, EXAMPLE: MENU NAME 'HOURS' SUBMENU CONTAINS "1 HOUR", "2 HOURS", ETC.
+"gen_use_hours_cap" = "Heures";
+"gen_use_minutes_cap" = "Minutes";
+
+// TIME UNIT ABBREVIATIONS
+// EXAMPLE: 1h 30m = 1 HOUR 30 MINUTES
+"duration_abbrv_hours_h" = "h";
+"duration_abbrv_hours_hrs" = "hrs";
+
+"duration_abbrv_minutes_mins" = "mins";
+"duration_abbrv_minutes_m" = "min";
+
+"duration_abbrv_seconds_secs" = "secs";
+"duration_abbrv_seconds_s" = "sec";
+
+// USED IN SENTENCE; EXAMPLE: 10 MINUTES 'OF INACTIVITY'
+"gen_use_of_inactivity" = "d'inactivité";
+
+// USED IN BUTTON TITLE FOR OTHER TIME DURATION SESSIONS
+// EXAMPLE: 'FOR' 3 HOURS, 'UNTIL' 5:00 PM
+"gen_use_other_time_for_cap" = "Pour";
+"gen_use_other_time_until_cap" = "Jusqu'à";
+
+// USED TO INDICATE A CUSTOM TIME SELECTION AS OPPOSED TO THE STANDARD SELECTIONS
+// EXAMPLE: " 'OTHER TIME:' 2 HRS 16 MINS "
+"gen_use_other_time_colon" = "Autre durée:";
+
+// USED TO INDICATE THAT NO DEVICES (i.e. USB or BLUETOOTH DEVICE) ARE CONNECTED TO THIS MAC
+"gen_use_no_recog_dev" = "Aucun périphérique reconnu connecté";
+
+// USED TO PROMPT USER TO CONTINUE OR END A SESSION
+"gen_use_cont_session" = "Voulez-vous continuer cette session ?";
+
+// EXAMPLE 100 'PIXELS' WIDE
+"gen_use_pixels" = "pixels";
+
+// EXAMPLE 1 'PIXEL' WIDE
+"gen_use_pixel" = "pixel";
+
+// THE LOCALIZED NAME OF THE FINDER APP IN THE TARGET LANGUAGE. MAY BE FINDER AND NO CHANGED NEEDED
+"finder_app_name" = "Finder";
+
+// THE LOCALIZED PATH TO THE USER LIBRARY → PREFERENCES DIRECTORY
+// DO NOT ADD ~ OR ANY OTHER PATH COMPONENTS
+// FULL PATH IS GENERATED DYNAMICALLY USING ACCOUNT SHORT NAME
+// ONLY TRANSLATE THIS IF THESE FOLDER NAMES APPEAR DIFFERENTLY IN THE TARGET LANGUAGE
+// OTHERWISE, DO NOT TRANSLATE
+"path_to_usr_prefs" = "/Library/Preferences/";
+
+// Used to denote the version of the app. Example: Version 5.0
+"gen_use_version_cap" = "Version";
+
+// USED AS BUTTON LABEL/TITLE IN RESPONSE TO A QUESTION
+// EXAMPLE: Q: IS THIS DRIVE A NETWORK VOLUME? BUTTON TITLES: 'YES', 'NO'
+"gen_use_yes_cap" = "Oui";
+"gen_use_no_cap" = "Non";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// SESSION DURATIONS
+// USED PRIMARILY IN IN MENUS AS SELECTABLE ITEMS
+
+"pref_duration_other" = "Autre durée...";
+"pref_duration_indef" = "Indéfiniment";
+"pref_duration_5secs" = "5 secondes";
+"pref_duration_10secs" = "10 secondes";
+"pref_duration_15secs" = "15 secondes";
+"pref_duration_30secs" = "30 secondes";
+"pref_duration_1min" = "1 minute";
+"pref_duration_5mins" = "5 minutes";
+"pref_duration_10mins" = "10 minutes";
+"pref_duration_15mins" = "15 minutes";
+"pref_duration_20mins" = "20 minutes";
+"pref_duration_25mins" = "25 minutes";
+"pref_duration_30mins" = "30 minutes";
+"pref_duration_35mins" = "35 minutes";
+"pref_duration_40mins" = "40 minutes";
+"pref_duration_45mins" = "45 minutes";
+"pref_duration_50mins" = "50 minutes";
+"pref_duration_55mins" = "55 minutes";
+"pref_duration_1hr" = "1 heure";
+"pref_duration_2hrs" = "2 heure";
+"pref_duration_3hrs" = "3 heures";
+"pref_duration_4hrs" = "4 heures";
+"pref_duration_5hrs" = "5 heures";
+"pref_duration_6hrs" = "6 heures";
+"pref_duration_7hrs" = "7 heures";
+"pref_duration_8hrs" = "8 heures";
+"pref_duration_9hrs" = "9 heures";
+"pref_duration_10hrs" = "10 heures";
+"pref_duration_12hrs" = "12 heures";
+"pref_duration_24hrs" = "24 heures";
+"pref_duration_download" = "Le fichier est en cours de téléchargement...";
+
+// SESSION TIME REMAINING
+"session_time_remain_infin" = "Temps restant indéterminé";
+"session_time_remain_dwnld" = "Pendant le téléchargement du fichier";
+
+// SESSION TIME EXTENSION
+"session_time_extend" = "Prolonger la session de";
+
+
+
+// ---------------------------------------------------------------------------
+// DELAYED START DURATIONS
+// USED PRIMARILY IN IN MENUS AS SELECTABLE ITEMS
+
+"scrn_svr_delay_dur_1m" = "Démarrer après 1 minute";
+"scrn_svr_delay_dur_5m" = "Démarrer après 5 minutes";
+"scrn_svr_delay_dur_10m" = "Démarrer après 10 minutes";
+"scrn_svr_delay_dur_15m" = "Démarrer après 15 minutes";
+"scrn_svr_delay_dur_30m" = "Démarrer après 30 minutes";
+"scrn_svr_delay_dur_45m" = "Démarrer après 45 minutes";
+"scrn_svr_delay_dur_1h" = "Démarrer après 1 heure";
+"scrn_svr_delay_dur_1h15m" = "Démarrer après 1 heure 15 minutes";
+"scrn_svr_delay_dur_1h30m" = "Démarrer après 1 heure 30 minutes";
+"scrn_svr_delay_dur_1h45m" = "Démarrer après 1 heure 45 minutes";
+"scrn_svr_delay_dur_2h" = "Démarrer après 2 heures";
+"scrn_svr_delay_dur_2h15m" = "Démarrer après 2 heures 15 minutes";
+"scrn_svr_delay_dur_2h30m" = "Démarrer après 2 heures 30 minutes";
+"scrn_svr_delay_dur_2h45m" = "Démarrer après 2 heures 45 minutes";
+"scrn_svr_delay_dur_3h" = "Démarrer après 3 heures";
+"scrn_svr_delay_dur_3h15m" = "Démarrer après 3 heures 15 minutes";
+"scrn_svr_delay_dur_3h30m" = "Démarrer après 3 heures 30 minutes";
+"scrn_svr_delay_dur_3h45m" = "Démarrer après 3 heures 45 minutes";
+"scrn_svr_delay_dur_4h" = "Démarrer après 4 heures";
+"scrn_svr_delay_dur_4h15m" = "Démarrer après 4 heures 15 minutes";
+"scrn_svr_delay_dur_4h30m" = "Démarrer après 4 heures 30 minutes";
+"scrn_svr_delay_dur_4h45m" = "Démarrer après 4 heures 45 minutes";
+"scrn_svr_delay_dur_5h" = "Démarrer après 5 heures";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// FILE DOWNLOAD SESSION PROGRESS
+// USED PRIMARILY IN IN MENUS AS SELECTABLE ITEMS
+
+// ** NOTE: DO NOT REMOVE '%@' or '%.f%%' **
+// PLACEHOLDERS REPRESENT DOWNLOAD PROGRESS - EXAMPLE" File is downloading... (2GB | 47%)
+"pref_duration_download_progress" = "Le fichier est en cours de téléchargement... (%@ | %.f%%)";
+"pref_duration_download_progress_unknown" = "Le fichier est en cours de téléchargement... (%@ sur ?)";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// DATE FORMATTERS
+
+// 12 HOUR DATE FORMATTER STRING 1
+"12_hr_date_formatter" = "MMM d, h:mm a";
+
+// 12 HOUR DATE FORMATTER STRING 2
+"12_hr_date_formatter_2" = "h:mm a";
+
+// 24 HOUR DATE FORMATTER STRING
+"24_hr_date_formatter" = "MMM d, HH:mm";
+
+// 24 HOUR DATE FORMATTER STRING 2
+"24_hr_date_formatter_2" = "HH:mm";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// SESSION ACTIVATION REASONS
+
+"act_reason_sess_at_launch" = "Nouvelle session au lancement de l'application";
+"act_reason_manual" = "Activation manuelle";
+"act_reason_app_running" = "est en cours d'activation"; // example usage: "Safari is running"
+"act_reason_trigger_name" = "Nom du déclencheur";
+"act_reason_applescript" = "Activation AppleScript";
+"act_reason_woke_from_sleep" = "Le Mac est sorti de veille";
+"act_reason_ac_connected" = "Adaptateur secteur reconnecté";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → GLOBAL
+// ---------------------------------------------------------------------------
+
+"pref_window_title" = "Préférences"; // 5.0.2
+"pref_global_lbl_uses_default_duration" = "↳ Utilise la durée par défaut";
+"pref_global_bttn_screen_saver_exceptions" = "Exceptions...";
+"scrn_svr_excpt_VNC" = "Partage d'écran/VNC/Bureau à distance"; // 5.1.2
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → GENERAL TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_gen" = "Général";
+
+// PREFERENCES → GENERAL BUTTONS
+"pref_gen_bttn_launch_app_at_login" = "Lancer Amphétamine à la connexion de l'utilisateur";
+"pref_gen_bttn_start_session_at_launch" = "Démarrer la session au lancement d'amphétamine";
+"pref_gen_bttn_start_session_after_wake" = "Démarrer la session après la sortie de veille";
+"pref_gen_bttn_hide_dock_icon" = "Masquer Amphetamine dans le Dock";
+"pref_gen_bttn_reduce_motion" = "Réduire les animations";
+"pref_gen_bttn_reset_warnings" = "Réinitialiser les avertissements et les boîtes de dialogue";
+"pref_gen_bttn_reset_all_prefs" = "Réinitialiser toutes les préférences";
+
+// PREFERENCES → GENERAL LABELS
+"pref_gen_lbl_quick_start" = "Démarrage rapide d'une session:";
+"pref_gen_lbl_launch_wake" = "Comportement de lancement et de réveil:";
+"pref_gen_lbl_other" = "Autre:";
+"pref_gen_lbl_takes_effect_close_win" = "↳ Prend effet après la fermeture de toutes les fenêtres ouvertes";
+
+// PREFERENCES → GENERAL MENU ITEMS
+"pref_gen_mi_quick_start_rightclick" = "Clic droit (clic gauche affiche le menu)";
+"pref_gen_mi_quick_start_leftclick" = "Clic gauche (clic droit affiche le menu)";
+
+
+// ---------------------------------------------------------------------------
+// (?) BUTTON MENU ITEMS
+
+// ----- PREFERENCES → GENERAL → Quick-Start a Session Help Message
+
+// Title
+"help_message_quick_start_title" = "Démarrer rapidement une session";
+
+// Body
+"help_message_quick_start_body" = "Choisissez si un clic gauche (également appelé clic principal) ou un clic droit (également appelé clic secondaire) sur l'image d'amphétamine dans la barre de menu affiche le menu d'amphétamine ou démarre/termine une session.";
+
+// ----- PREFERENCES → GENERAL → Launch and Wake Behavior Help Message
+
+// Title
+"help_message_quick_launch_wake_title" = "Comportement de lancement et de réveil"; // fix me quick?
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_quick_launch_wake_body" = "• Lancer Amphétamine à la connexion de l'utilisateur\nCochez cette case si vous souhaitez qu'Amphétamine se lance automatiquement lorsque vous vous connectez à votre Mac.\n\n• Démarrer la session au lancement d'Amphétamine\nCochez cette case si vous souhaitez qu'Amphétamine démarre automatiquement une nouvelle session au lancement de l'application.\n\n• Démarrer la session après la sortie du mode veille\nCochez cette case si vous souhaitez qu'Amphetamine démarre une nouvelle session chaque fois que votre Mac sort du mode veille. Si une session est déjà en cours, une nouvelle session ne peut être démarré.";
+
+// ----- PREFERENCES → GENERAL → Other Help Message
+
+// Title
+"help_message_other_title" = "Autre";
+
+// Body (macOS 10.14+) ** NOTE: DO NOT REMOVE '\n' **
+"help_message_other_body_post_highsierra" = "• Hide Amphetamine in the Dock\nCheck this box to hide Amphetamine’s icon in the Dock. On macOS 10.15 and up, the Dock icon will automatically appear and disappear when one of Amphetamine's windows, such as the Preferences window, is open even if the Hide in Dock preference is enabled. Closing all open Amphetamine windows will cause the Dock icon to disappear again.\n\nOn macOS 10.14 and below, you may need to disable macOS's 'Show Recent Applications in Dock' feature by visiting  → System Preferences → Dock to completely remove Amphetamine from the Dock.\n\n• Reduce Motion\nCheck this box to reduce the use of animation in Amphetamine's interface.\n\nClick the Reset Warnings and Dialogs button to clear any 'do not show again' flags on warning messages and other dialogs.\n\nClick the Reset All Preferences button to return Amphetamine to a default state (all preferences, including Triggers will be lost).";
+
+// Body (macOS 10.11 - 10.13) ** NOTE: DO NOT REMOVE '\n' **
+"help_message_other_body_pre_mojave" = • Masquer Amphétamine dans le Dock\nCochez cette case pour masquer l'icône d'Amphétamine dans le Dock. Sur macOS 10.15 et versions ultérieures, l'icône du Dock apparaîtra et disparaîtra automatiquement lorsque l'une des fenêtres d'Amphétamine, comme la fenêtre Préférences, est ouvert même si la préférence Masquer dans le Dock est activée. La fermeture de toutes les fenêtres Amphétamine ouvertes entraînera à nouveau la disparition de l'icône du Dock.\n\nSur macOS 10.14 et versions antérieures, vous devrez peut-être désactiver la fonction "Afficher les applications récentes dans le Dock" de macOS en visitant  → Préférences Système → Dock pour supprimer complètement Amphétamine du Dock.\n\n• Réduire le mouvement\nCochez cette case pour réduire l'utilisation d'animations dans l'interface d'Amphétamine.\n\nCliquez sur le bouton Réinitialiser les avertissements et les boîtes de dialogue pour ne plus afficher les drapeaux sur les messages d'avertissement et autres boîtes de dialogue.\n\nCliquez sur le bouton Réinitialiser toutes les préférences pour rétablir l'état par défaut d'Amphétamine (toutes les préférences, y compris les déclencheurs, seront perdues).";
+
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → SESSION DEFAULTS TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_sess" = "Session par défaut";
+
+// PREFERENCES → SESSIONS DEFAULTS BUTTONS
+"pref_sess_nt_button_title" = "Sessions sans déclencheurs";
+"pref_sess_nt_bttn_default_duration_edit" = "Modifier";
+"pref_sess_nt_bttn_end_session_force_sleep" = "Terminer la session lorsque le Mac est forcé de se mettre en veille";
+"pref_sess_nt_bttn_allow_display_sleep" = "Autoriser l'affichage en veille";
+"pref_sess_nt_bttn_allow_cdm" = "Autoriser la mise en veille du système lorsque l'écran est fermé";
+"pref_sess_nt_bttn_allow_screen_saver" = "Autoriser l'économiseur d'écran après";
+"pref_sess_nt_bttn_end_low_batt" = "Terminer la session si la charge est inférieure à (%)";
+"pref_sess_nt_bttn_prompt_end_low_batt" = "Demander avant de terminer une session";
+"pref_sess_nt_bttn_ignore_batt_if_pwr_adptr" = "Ignorer le niveau de charge (%) si l'adaptateur secteur est connecté";
+"pref_sess_nt_bttn_start_session_pwr_adptr_connect" = "Démarrer une nouvelle session si reconnecté";
+
+"pref_sess_nt_bttn_endtime_timer" = "Utiliser le minuteur"; // v5.0.2
+"pref_sess_nt_bttn_endtime_sysclock" = "Utiliser l'horloge système"; //v5.0.2
+
+// PREFERENCES → SESSION DEFAULTS LABELS
+"pref_sess_nt_lbl_dd" = "Durée par défaut:";
+"pref_sess_nt_lbl_end_time_calc" = "Calcul de l'heure de fin:";
+"pref_sess_nt_lbl_forced_sleep" = "Veille forcée:";
+"pref_sess_nt_lbl_display_sleep" = "Afficher la mise en veille:";
+"pref_sess_nt_lbl_cdm" = "Mode écran fermé:";
+"pref_sess_nt_lbl_screen_saver" = "Économiseur d'écran:";
+"pref_sess_nt_lbl_battery" = "Batterie:";
+"pref_sess_nt_lbl_pwr_adptr" = "Adaptateur secteur:";
+"pref_sess_nt_lbl_cust_dd_enter" = "Entrez l'heure de la nouvelle durée:";
+
+// OTHER STRINGS
+
+// USED IN SENTENCE; EXAMPLE: " 'Your Mac's battery is' not connected to power adapter"
+// ** NOTE: DO NOT REMOVE %@ **
+"pref_sess_batt_is" = "La batterie de votre Mac est %@.";
+
+// USED IN SENTENCE; EXAMPLE: " 'Your Mac's battery is below' 10%"
+// ** NOTE: DO NOT REMOVE '%@' or '%li%%' **
+"pref_sess_batt_is_below" = "La charge de la batterie de votre Mac est inférieure à %@.";
+"pref_sess_batt_is_below2" = "La charge de la batterie est inférieure à %li%%";
+
+// USED IN SENTENCE; EXAMPLE: " 'End session when:' not connected to power adapter"
+"pref_sess_nt_end_when" = "Terminer la session quand:";
+
+// USED IN SENTENCE; EXAMPLE: "End session when: 'not connected to power adapter' "
+"pref_sess_nt_ac_not_connected" = "non connecté à l'adaptateur secteur";
+"pref_sess_nt_ac_not_connected_cap" = "non connecté à l'adaptateur secteur";
+"pref_sess_nt_ac_connected" = "connecté à l'adaptateur secteur";
+
+// USED IN SENTENCE; EXAMPLE: " 'End session if charge (%) is below: ' 10%"
+// ** NOTE: LEAVE SPACE CHAR AT END OF STRING **
+"pref_sess_nt_end_if_chrg" = "Terminer la session si la charge (%) est inférieure à: ";
+
+// ---------------------------------------------------------------------------
+// (?) BUTTON MENU ITEMS
+
+// ----- PREFERENCES → SESSION DEFAULTS → Default Duration Help Message
+
+// Title
+"help_message_default_duration_title" = "Durée par défaut";
+
+// Body
+"help_message_default_duration_body" = "La durée par défaut est utilisée dans Amphétamine lorsqu'une durée de session n'est pas indiquée. Par exemple, lorsqu'une session démarre au lancement et lorsque vous cliquez sur l'image d'amphétamine dans la barre de menu système pour démarrer une session.";
+
+// ----- PREFERENCES → SESSION DEFAULTS → End Time Calculation Help Message
+
+// Title
+"help_message_end_time_cal_title" = "Calcul de l'heure de fin";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_end_time_cal_body" = "L'heure de fin de la session peut être calculée soit à l'aide d'une minuterie, soit à l'aide de l'horloge système.\n\nPar exemple, disons que vous sélectionnez "Utiliser la minuterie" puis démarrez une session pendant 3 heures. Ensuite, vous mettez immédiatement votre Mac en veille pendant 2 heures. Lorsque votre Mac sortira de veille, il restera encore 3 heures dans la session. C'est parce que le minuteur est mis en pause pendant que votre Mac est en veille.\n\nDans le même scénario décrit ci-dessus, si vous aviez sélectionné à la place "Utiliser horloge système', il ne resterait qu'une heure sur la session. En effet, 2 heures se seraient écoulées sur l'horloge système pendant que votre Mac dormait.";
+
+// ----- PREFERENCES → SESSION DEFAULTS → Forced Sleep Help Message
+
+// Title
+"help_message_forced_sleep_title" = "Mise en veille forcée";
+
+// Body
+"help_message_forced_sleep_body" = "Cochez cette case pour mettre fin automatiquement à toutes les sessions sans déclencheurs lorsque votre Mac est forcé de se mettre en veille. La mise en veille forcée inclut toute situation dans laquelle vous entreprenez une action pour mettre votre Mac en veille, par exemple en cliquant sur  → Suspendre l’activité, ou en utilisant un raccourci clavier/une touche de raccourci.";
+
+// ----- PREFERENCES → SESSION DEFAULTS → Display Sleep Help Message
+
+// Title
+"help_message_display_sleep_title" = "Mise en veille de l'écran";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_display_sleep_body" = "Cochez cette case si vous souhaitez que l'écran de votre Mac se mette en veille pendant une session. Si vous autorisez la mise en veille de l'affichage, votre affichage se mettra en veille/s'éteindra après la durée que vous avez définie dans  → Préférences système → Économie d'énergie / Batterie.\n\nNotez que cette préférence n'affecte que les sessions sans déclencheurs. Si vous souhaitez que les sessions basées sur des déclencheurs permettent la mise en veille de l'écran, chaque déclencheur individuel peut être configuré pour le faire.";
+
+// ----- PREFERENCES → SESSION DEFAULTS → Closed-Display Mode Help Message
+
+// Title
+"help_message_closed_display_title" = "Mode écran fermé";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_closed_display_body" = "Décochez cette case si vous souhaitez qu'Amphétamine garde votre Mac éveillé pendant que son écran est fermé.\n\nGénéralement, un écran externe, un clavier, une souris et un adaptateur secteur doivent tous être connectés à votre Mac pour que le mode écran fermé soit activé . Amphétamine peut remplacer temporairement ces exigences et empêcher votre Mac de se mettre en veille lorsque son écran est fermé.\n\nLa case à cocher sera désactivée si votre Mac ne prend pas en charge cette fonctionnalité.\n\nCette préférence n'affecte que les sessions sans déclencheurs. Si vous souhaitez activer cette fonctionnalité pour une session avec déclencheurs, accédez à Préférences → Déclencheurs et modifiez chaque déclencheur auquel vous souhaitez ajouter cette fonctionnalité.\n\nLorsque vous utilisez cette fonctionnalité, vous pouvez envisager de configurer des avertissements de mode d'écran fermé dans les préférences → Notifications → Mode d'écran fermé.";
+
+// ----- PREFERENCES → SESSION DEFAULTS → Screen Saver Help Message
+
+// Title
+"help_message_screen_saver_title" = "Économiseur d'écran";
+
+// Body
+"help_message_screen_saver_body" = "Cochez cette case si vous souhaitez que l'économiseur d'écran de votre Mac s'exécute pendant les sessions sans déclencheurs. Utilisez le curseur pour sélectionner le seuil de temps avant de démarrer l'économiseur d'écran. Pendant les sessions sans déclencheurs, Amphetamine gardera une trace du temps d'inactivité de votre Mac. Si le temps d'inactivité est supérieur au seuil que vous avez défini, Amphétamine démarrera votre économiseur d'écran.\n\nVous pouvez ajouter des applications à une liste d'exceptions en cliquant sur le bouton "Exceptions...". Si une application de la liste des exceptions est en cours d'exécution sur votre Mac, Amphétamine ne démarrera pas l'économiseur d'écran. Cela peut être utile si vous regardez une vidéo ou lisez un livre électronique, etc.\n\nNotez que cette préférence n'affecte que les sessions sans déclencheurs. Si vous souhaitez que les sessions basées sur des déclencheurs permettent à votre économiseur d'écran de se lancer, chaque déclencheur individuel peut être configuré pour autoriser ou interdire le lancement de l'économiseur d'écran.";
+
+// ----- PREFERENCES → SESSION DEFAULTS → Battery Help Message
+
+// Title
+"help_message_battery_title" = "Batterie";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_battery_body" = "• Terminer la session si la charge de la batterie est inférieure...\nCochez cette case si vous souhaitez qu'Amphetamine mette fin automatiquement aux sessions non déclenchées lorsque la batterie de votre Mac tombe en dessous du seuil défini à l'aide du curseur. Déplacez le curseur complètement vers la droite pour mettre fin aux sessions chaque fois que l'adaptateur secteur n'est pas connecté.\n\n• Demander avant de mettre fin à une session\nCochez cette case si vous souhaitez être averti avant qu'Amphetamine mette automatiquement fin à une session en raison d'un faible charge de la batterie. Vous pouvez choisir de continuer la session, en ignorant la charge de la batterie de votre Mac, si vous le souhaitez.\n\n• Ignorer la charge si l'adaptateur secteur est connecté\nCochez cette case si vous souhaitez qu'Amphetamine ne mette pas automatiquement fin aux sessions en raison d'une charge de batterie faible pendant que votre adaptateur secteur est connecté.\n\nNotez que ces préférences n'affectent que les sessions sans déclencheurs. Si vous souhaitez que les sessions de déclenchement prennent en compte la charge de la batterie de votre Mac, ajoutez un critère de puissance à votre (vos) déclencheur(s).";
+
+// ----- PREFERENCES → SESSION DEFAULTS → Power Adapter Help Message
+
+// Title
+"help_message_power_adapter_title" = "Adaptateur secteur";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_power_adapter_body" = "Notez que vous devez activer les options « Terminer la session si la charge de la batterie est inférieure à... » et activer « Ignorer le niveau de la batterie si l'adaptateur secteur » ou déplacer le curseur « Terminer la session si la charge de la batterie est inférieure à... » jusqu'au à droite pour que cette préférence soit disponible.\n\nCochez cette case pour qu'Amphétamine démarre automatiquement une nouvelle session chaque fois que l'adaptateur secteur de votre Mac est connecté. L'amphétamine ne démarrera une nouvelle session que si la session précédente s'est terminée à cause d'une charge de batterie faible.";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES → SYSTEM CONTROL TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES → SYSTEM CONTROL BUTTONS
+"prefs_tb_sys_cntrl" = "Controle du système";
+"pref_sess_as_bttn_lck_scrn_pt1" = "Verrouiller l'écran après";
+"pref_sess_as_bttn_lck_scrn_pt2" = "d'inactivité";
+"pref_sess_as_bttn_lck_scrn_use_cursor" = "Utilisez le mouvement du curseur pour déterminer l'inactivité";
+"pref_sess_as_bttn_lck_scrn_disp_clsd" = "Verrouiller l'écran immédiatement après la fermeture de l'écran";
+"pref_sess_as_bttn_lck_scrn_allow_disp_sleep" = "Autoriser l'affichage en veille lorsque l'écran est verrouillé";
+"pref_sess_as_bttn_cursor_pt1" = "Déplacer le curseur tous les";
+"pref_sess_as_bttn_cursor_pt2" = "après";
+"pref_sess_as_bttn_cursor_pt3" = "d'inactivité";
+"pref_sess_as_bttn_cursor_stop_pt1" = "Arrêter de déplacer le curseur après";
+"pref_sess_as_bttn_cursor_stop_pt2" = "d'inactivité";
+"pref_sess_as_bttn_fast_usr_switch" = "Mettre fin à la session lors du changement de compte";
+
+// PREFERENCES → SYSTEM CONTROL LABELS
+"pref_sess_as_lbl_cursor_speed" = "Vitesse du curseur:";
+"pref_sess_as_lbl_cursor_speed_fast" =  "Rapide";
+"pref_sess_as_lbl_cursor_speed_slow" =  "Lent";
+"pref_sess_as_lbl_cursor_speed_warn" = "Un mouvement plus lent augmentera légèrement l'utilisation du processeur";
+"pref_sess_as_lbl_lck_scrn" = "Verrouiller l'écran:";
+"pref_sess_as_lbl_cursor" = "Curseur:";
+"pref_sess_as_lbl_fast_usr_switch" = "Changement rapide d'utilisateur:";
+
+// ---------------------------------------------------------------------------
+// (?) BUTTON MENU ITEMS
+
+// ----- PREFERENCES → SYSTEM CONTROL → Lock Screen Help Message
+
+// Title
+"help_message_lock_screen_title" = "Écran de verrouillage";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_lock_screen_body" = "• Verrouiller l'écran après ... d'inactivité\nCochez cette case pour qu'Amphétamine verrouille l'écran de votre Mac après la période d'inactivité spécifique. Amphétamine ne tentera de verrouiller votre écran que si une session est active. Pour contrôler le verrouillage de votre écran lorsqu'une session n'est pas active, accédez à  → Préférences système → Sécurité et confidentialité → Général.\n\n• Utilisez le mouvement du curseur pour déterminer l'inactivité\nCochez cette case pour qu'Amphétamine prenne en compte le mouvement du curseur/souris, et pas juste l'horloge d'inactivité du système, au moment de décider quand verrouiller votre écran. Cette fonctionnalité peut être utile si vous accédez à distance à votre Mac à l'aide de VNC/ARD/RDP.\n\n• Verrouiller l'écran immédiatement après la fermeture de l'écran\nCochez cette case pour qu'Amphétamine verrouille l'écran de votre Mac immédiatement après la fermeture de l'écran. Cette fonctionnalité ne fonctionnera que si une session est active et que vous avez activé le mode d'écran fermé pour cette session. La case à cocher sera désactivée si votre Mac ne prend pas en charge cette fonctionnalité.";
+
+// ----- PREFERENCES → SYSTEM CONTROL → Cursor Help Message
+
+// Title
+"help_message_cursor_title" = "Curseur";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_cursor_body" = "• Déplacer le curseur tous les...\nCochez cette case et choisissez un intervalle et un seuil d'inactivité pour qu'Amphétamine déplace le curseur de la souris pendant une session. Cette fonctionnalité s'applique à la fois aux sessions avec et sans déclencheurs. Notez que le curseur ne bougera pas si l'économiseur d'écran de votre Mac est actif. Le mouvement du curseur empêchera la mise en veille de l'affichage même si vous avez activé l'option Autoriser la mise en veille de l'affichage pour une session.\n\n• Arrêter le déplacement du curseur après...\nCochez cette case pour arrêter le mouvement du curseur d'amphétamine après le seuil spécifique. L'arrêt du mouvement du curseur permettra à l'écran de votre Mac de se mettre en veille si vous avez activé Autoriser la mise en veille de l'affichage pour une session.";
+
+// ----- PREFERENCES → SYSTEM CONTROL → Fast User Switching Help Message
+
+// Title
+"help_message_fast_user_switch_title" = "Changement rapide d'utilisateur";
+
+// Body
+"help_message_fast_user_switch_body" = "Cochez cette case pour désactiver automatiquement toutes les sessions Amphétamine (avec et sans déclencheurs) lorsque vous passez à un autre compte utilisateur sur votre Mac sans vous déconnecter du compte sur lequel Amphétamine s'exécute.";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → TRIGGERS TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_trig" = "Déclencheur";
+
+// PREFERENCES → TRIGGERS BUTTONS
+"pref_trig_bttn_enable" = "Activer les déclencheurs";
+
+// PREFERENCES → TRIGGERS LABELS
+"pref_trig_lbl_edit" = "Double-cliquez sur le nom d'un déclencheur pour le modifier";
+
+// TRIGGER TABLE HEADERS
+"trig_tbl_head_name" = "Nom du déclencheur";
+"trig_tbl_head_enabled" = "Activé";
+
+// ----- Triggers Help Message
+
+// Title
+"help_triggers_title" = "Déclencheur";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_triggers_body" = "Le déclencheur est l'une des caractéristiques les plus puissantes d'Amphetamine. Vous pouvez créer autant de déclencheurs que vous le souhaitez. Lorsque tous les critères d'un déclencheur sont remplis, Amphétamine démarre automatiquement une nouvelle session si aucune n'est déjà en cours d'exécution.\n\nEn plus du bouton global Activer les déclencheurs,, chaque déclencheur individuel que vous créez peuvent également être activés/désactivés. Utilisez la case à cocher à droite de chaque déclencheur dans la liste pour l'activer ou le désactiver temporairement.\n\nUtilisez le bouton + pour créer un nouveau déclencheur. Sélectionnez un déclencheur dans la liste et utilisez le bouton − pour le supprimer.\n\nSélectionnez un déclencheur dans la liste et utilisez les boutons ↑ et ↓ pour la réorganiser. Les déclencheurs seront traités dans l'ordre dans lequel ils sont affichés dans la liste. Le déclencheur le plus haut sera traité en premier. Si tous ses critères sont remplis, une session démarre. Sinon, le prochain déclencheur de la liste sera traité.";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → DRIVE ALIVE TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_drive" = "Drive Alive";
+
+// PREFERENCES → DRIVE ALIVE BUTTONS
+"pref_drivealive_bttn_enable" = "Activer Drive Alive";
+
+// PREFERENCES → DRIVE ALIVE LABELS
+"pref_drivealive_lbl_wake" = "Sortir le disque dur de veille tous les";
+
+// DRIVE ALIVE TABLE HEADERS
+"drivealive_tbl_head_name" = "Nom du disque";
+"drivealive_tbl_head_keepalive" = "Toujours laisser Drive Alive activé";
+
+// ----- Drive Alive Help Message
+
+// Title
+"help_drivealive_title" = "Drive Alive";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_drivealive_body" = "Drive Alive peut garder vos disques durs éveillés (hors de veille) et prêts à l'action. Drive Alive fonctionne en écrivant une petite quantité de données sur vos disques durs à intervalles réguliers. Ces données sont écrasées à plusieurs reprises et n'occupent que quelques kilo-octets (Ko) d'espace sur votre disque.\n\nPour ajouter un nouveau disque, cliquez sur le bouton +, puis sélectionnez le disque que vous souhaitez. Sélectionnez un lecteur dans la liste et cliquez sur le bouton − pour le supprimer.\n\nChaque lecteur peut être maintenu hors de veille soit uniquement lorsqu'une session est en cours, soit à chaque fois qu'Amphétamine est en cours d'exécution. Pour garder un lecteur activé tout le temps, cochez la case à droite du lecteur dans la liste.\n\nL'intervalle par défaut pour que Drive Alive écrive des données sur votre(vos) lecteur(s) est toutes les 10 secondes. Vous pouvez modifier cela en entrant un nouveau numéro dans le champ numérique en bas de la fenêtre.";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → HOT KEYS TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_hotk" = "Raccourcis clavier";
+
+// PREFERENCES → HOT KEYS LABELS
+"pref_hotk_lbl_startend_action" = "Si une session est déjà en cours:";
+"pref_hotk_lbl_start_duration" = "avec durée:";
+"pref_hotk_lbl_startend" = "Démarrer ou terminer la session:";
+"pref_hotk_lbl_start" = "Démarrer la session:";
+"pref_hotk_lbl_end" = "Terminer la Session:";
+"pref_hotk_lbl_open_menu" = "Ouvrir/fermer le Menu:";
+"pref_hotk_lbl_open_menu_close" = "Utilisez Echap pour fermer le menu"; // Escape key closes menu
+"pref_hotk_lbl_toggle_disp_sleep" = "Basculer Autoriser la mise en veille de l'affichage:";
+"pref_hotk_lbl_toggle_screen_saver" = "Basculer Autoriser l'économiseur d'écran:";
+
+// PREFERENCES → HOT KEYS MENU ITEMS
+"pref_hotk_mi_startend_action_endstart" = "Terminer la session et démarrer une nouvelle";
+"pref_hotk_mi_startend_action_end" = "Terminer la Session";
+
+// ---------------------------------------------------------------------------
+// (?) BUTTON MENU ITEMS
+
+// ----- PREFERENCES → HOT KEYS → Start or End Session Help Message
+
+// Title
+"help_message_start_end_session_title" = "Démarrer ou terminer la session";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_start_end_session_body" = "Ce raccourci vous permettra de démarrer ou de terminer une session en un instant. La durée par défaut (Préférences → Valeurs par défaut de la session → Durée par défaut) sera utilisée pour la durée de la session.\n\nAprès avoir enregistré la combinaison de touches pour ce raccourci, vous pourrez accéder à cette fonction d'amphétamine où que vous soyez dans macOS. Amphétamine n'a pas besoin d'être au premier plan, mais doit être en cours d'exécution.\n\nSi vous ne parvenez pas à enregistrer la combinaison de touches souhaitée, cela signifie qu'elle est déjà utilisée ailleurs par une autre application.";
+
+// ----- PREFERENCES → HOT KEYS → Start Session Help Message
+
+// Title
+"help_message_start_session_title" = "Démarrer la session";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_start_session_body" = "Ce raccourci clavier vous permettra de démarrer une session avec une durée spécifique. Spécifiez la durée que vous souhaitez.\n\nAprès avoir enregistré la combinaison de touches, vous pourrez accéder à cette fonction d'amphétamine quel que soit l'endroit où vous vous trouvez dans macOS. Amphétamine n'a pas besoin d'être au premier plan, mais elle doit être en cours d'exécution.\n\nSi vous ne parvenez pas à enregistrer la combinaison de touches  souhaitée, cela signifie qu'elle est déjà utilisée ailleurs par une autre application.";
+
+// ----- PREFERENCES → HOT KEYS → End Session Help Message
+
+// Title
+"help_message_end_session_title" = "Terminer la Session";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_end_session_body" = "Ce raccourci clavier vous permettra de mettre fin à n'importe quelle session.\n\nAprès avoir enregistré la combinaison de touches, vous pourrez accéder à cette fonction d'Amphétamine quel que soit l'endroit où vous vous trouvez dans macOS. Amphétamine n'a pas besoin d'être au premier plan, mais elle doit être en cours d'exécution.\n\nSi vous ne parvenez pas à enregistrer la combinaison de touches souhaitée, cela signifie qu'elle est déjà utilisée par une autre application.";
+
+// ----- PREFERENCES → HOT KEYS → Open Menu Help Message
+
+// Title
+"help_message_open_menu_title" = "Ouvrir le Menu";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_open_menu_body" = "Ce raccourci clavier vous permettra d'ouvrir le menu d'Amphétamine. Ceci est utile pour vérifier rapidement la session et les détails Drive Alive affichés dans le menu, ou pour naviguer ou sélectionner rapidement des éléments de menu à l'aide des touches fléchées et/ou des raccourcis clavier (par exemple ⌘F pour démarrer une Session  Pendant le téléchargement d'un fichier.\n\nAprès avoir enregistré la combinaison de touches, vous pourrez accéder à cette fonction d'amphétamine, quel que soit l'endroit où vous vous trouvez dans macOS. Amphétamine n'a pas besoin d'être au premier plan, mais elle doit être en cours d'exécution .\n\nSi vous ne parvenez pas à enregistrer la combinaison de touches souhaitée, cela signifie qu'elle est déjà utilisée ailleurs par une autre application.";
+
+// ----- PREFERENCES → HOT KEYS → Toggle Display Sleep Help Message
+
+// Title
+"help_message_toggle_allow_display_sleep_title" = "Basculer Autoriser la mise en veille de l'affichage";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_toggle_allow_display_sleep_body" = "Ce raccourci vous permettra d'activer/désactiver l'affichage du mode veille. S'il y a une session active, le raccourci active/désactive l'affichage de la mise en veille pour la session en cours. Les sessions avec et sans déclencheurs sont prises en charge.\n\nS'il n'y a pas de session active, le raccourci active ou désactive l'option Autoriser l'affichage de la mise en  veille pour les sessions sans déclencheurs.";
+
+// ----- PREFERENCES → HOT KEYS → Toggle Screen Saver Help Message
+
+// Title
+"help_message_toggle_allow_screen_saver_title" = "Basculer Autoriser l'économiseur d'écran";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_toggle_allow_screen_saver_body" = "Ce raccourci clavier vous permettra d'activer/désactiver l'activation de l'économiseur d'écran. S'il y a une session active, le raccourci permet d'activer ou de désactiver l'économiseur d'écran pour la session en cours. Les sessions avec et sans déclencheurs sont prises en charge.\n\nS'il n'y a pas de session active, le raccourci clavier active ou désactive la préférence Autoriser l'économiseur d'écran pour les sessions sans déclencheurs.";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → NOTIFICATIONS TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_notif" = "Notifications";
+
+// PREFERENCES → NOTIFICATIONS BUTTONS
+"pref_notif_bttn_session_reminders_pt1" = "Rappeler toute les";
+"pref_notif_bttn_session_reminders_pt2" = "minutes";
+"pref_notif_bttn_trig_autostart" = "Avertir lorsque les sessions avec déclencheurs/planifiées démarrent automatiquement";
+"pref_notif_bttn_trig_autoend" = "Avertir lorsque les sessions avec déclencheurs/planifiées se terminent automatiquement";
+"pref_notif_bttn_sound_remind" = "Jouez un son lors des rappels de session/autres notifications";
+"pref_notif_bttn_sound_startend" = "Jouez un son lorsqu'une session commence ou se termine";
+"pref_notif_bttn_sound_extend" = "Jouez un son quand une session est prolongée";
+"pref_notif_bttn_cdm_play_warning" = "Jouer un son d'avertissement lorsque l'écran est fermé";
+"pref_notif_bttn_cdm_repeat_warning" = "Répéter le son toute les";
+"pref_notif_bttn_cdm_change_vol" = "Réglez momentanément le volume du système à";
+"pref_notif_bttn_cdm_change_vol_message" = "L'activation de cette fonctionnalité entraînera la lecture du son d'avertissement à partir de la sortie par défaut et non de la sortie des effets sonores.";
+"pref_notif_bttn_notif_remove" = "Supprimer les notifications après la réception";
+
+// PREFERENCES → NOTIFICATIONS LABELS
+"pref_notif_lbl_sound_start" = "Session démarrée/rappel:";
+"pref_notif_lbl_sound_end" = "Session terminée:";
+"pref_notif_lbl_session_reminders" = "Rappel de Session:";
+"pref_notif_lbl_trig_sched" = "Déclencheurs/planifiée:";
+"pref_notif_lbl_sound" = "son:";
+"pref_notif_lbl_cdm" = "Mode écran fermé:";
+"pref_notif_lbl_notif_center" = "Centre de notification:";
+
+// PREFERENCES → NOTIFICATIONS MENU ITEMS
+"pref_notif_mi_default_sound" = "Son système par défaut";
+
+// ---------------------------------------------------------------------------
+// (?) BUTTON MENU ITEMS
+
+// ----- PREFERENCES → NOTIFICATIONS → Session Reminders Help Message
+
+// Title
+"help_message_session_reminders_title" = "Rappels de session";
+
+// Body
+"help_message_session_reminders_body" = "Cochez cette case pour qu'Amphetamine envoie une notification/un rappel à intervalle régulier pendant qu'une session est en cours.";
+
+// ----- PREFERENCES → NOTIFICATIONS → Triggers/Scheduled Help Message
+
+// Title
+"help_message_triggers_scheduled_title" = "Déclencheurs/Planifiés";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_triggers_scheduled_body" = "Cochez ces cases pour qu'Amphetamine envoie une notification lorsqu'une session démarre ou se termine automatiquement. Cela inclut les sessions avec déclencheurs, planifiées et certaines sessions avec minuteurs.\n\nLes sessions démarrées ou terminées manuellement en cliquant sur l'image d'amphétamine dans la barre de menu ou en sélectionnant une option dans le menu d'amphétamine n'entraîneront pas l'envoi d'une notification.";
+
+// ----- PREFERENCES → NOTIFICATIONS → Sound Help Message
+
+// Title
+"help_message_sound_title" = "son";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_sound_body" = "Jouer un son lors des rappels de session/autres notifications\nCochez cette case si vous souhaitez qu'un son soit émis à chaque fois qu'une notification est envoyée.\n\n• jouer un son au début ou à la fin d'une session\nCochez cette case pour qu'un son soit émis chaque fois qu'une session démarre ou se termine.\n\n• Jouer un son lorsqu'une session est prolongée\nCochez cette case pour qu'un son soit lu lorsqu'une session est prolongée.\n\nPour ajouter un nouveau son personnalisé, cliquez sur le bouton + et sélectionnez un fichier son. Pour supprimer un son personnalisé, cliquez sur le bouton −. Une fenêtre du Finder s'ouvrira dans le répertoire où les fichiers personnalisés sont enregistrés. Supprimez le fichier son dans le Finder en le faisant glisser vers la corbeille ou en utilisant la combinaison de touches Commande + Supprimer.";
+
+// ----- PREFERENCES → NOTIFICATIONS → Closed-Display Mode Help Message
+
+// Title
+"help_message_closed_display_notif_title" = "Mode écran fermé";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_closed_display_notif_body" = "• Jouer un son d'avertissement en mode d'écran fermé\nCochez cette case pour qu'un son soit émis chaque fois que votre Mac passe en mode d'écran fermé. La tonalité d'avertissement ne retentira pas si l'adaptateur secteur de votre Mac et un écran externe sont connectés.\n\n• Répéter la tonalité tous les...\nCochez cette case et sélectionnez un intervalle si vous souhaitez que la tonalité d'avertissement du mode écran fermé soit émise à plusieurs reprises.\n\n• Réglez momentanément le volume du système à ...\nCochez cette case et sélectionnez un niveau de volume si vous souhaitez qu'Amphetamine ajuste le niveau de volume du système de votre Mac avant de jouer la tonalité d'avertissement d'écran fermé. Si le niveau de volume du système de votre Mac est réglé trop bas, vous risquez de ne pas entendre la tonalité. Si le niveau de volume du système de votre Mac est trop élevé, la tonalité peut être discordante. Lorsque cette fonction est activée, Amphétamine ajustera le niveau de volume du système de votre Mac  si le niveau de volume du système est réglé en dessous ou au-dessus du niveau cible pour la tonalité d'avertissement d'écran fermé. Après la tonalité d'avertissement d'écran fermé, le niveau de volume du système d'origine de votre Mac sera restauré.";
+
+// ----- PREFERENCES → NOTIFICATIONS → Notification Center Help Message
+
+// Title
+"help_message_notif_center_title" = "Centre de notification";
+
+// Body
+"help_message_notif_center_body" = "Cochez cette case pour qu'Amphetamine supprime automatiquement ses notifications dans le Centre de notifications. Cela aidera à réduire l'encombrement des notifications, surtout si vous avez activé les rappels de session.";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → APPEARANCE TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_appr" = "Apparence";
+
+// PREFERENCES → APPEARANCE BUTTONS
+"pref_appr_bttn_image_low_opac" = "Utiliser une faible opacité lorsqu'il est inactif";
+"pref_appr_bttn_image_padd" = "Gérer manuellement le remplissage pour l'image de la barre de menus" ;
+"pref_appr_bttn_text_show_time" = "Afficher le temps de session restant dans la barre de menu";
+"pref_appr_bttn_text_24hr_clock" = "Afficher l'heure au format 24 heures";
+"pref_appr_bttn_text_incl_secs" = "Inclure les secondes";
+"pref_appr_bttn_show_curr_sess" = "Afficher les détails de la session en cours";
+"pref_appr_bttn_show_drive_alive" = "Afficher les détails de Drive Alive";
+
+// PREFERENCES → APPEARANCE LABELS
+"pref_appr_lbl_image" = "Image de la barre de menus:";
+"pref_appr_lbl_text" = "Texte de la barre de menus:";
+"pref_appr_lbl_xtra" = "Menu supplémentaire:";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"pref_appr_lbl_cust_icon_inst" = "Faites glisser et déposez vos fichiers image dans les zones ci-dessous. Pour de meilleurs résultats,\ndes images binaires avec un fond transparent doivent être utilisées.";
+
+"pref_appr_lbl_cust_icon_inact" = "Inactive";
+"pref_appr_lbl_cust_icon_act" = "Active";
+"pref_appr_lbl_cust_icon_inact_inst" = "Cette image s'affichera lorsque Aamphétamine ne maintient pas votre Mac éveillé.";
+"pref_appr_lbl_cust_icon_act_inst" = "Cette image s'affichera quand Amphétamine maintient votre Mac éveillé.";
+"pref_appr_lbl_cust_icon_get_more" = "Obtenir plus d'images...";
+
+
+// PREFERENCES → APPEARANCE MENU ITEMS
+"pref_appr_mi_cust_image" = "Image personnalisée...";
+"pref_appr_mi_image_pill" = "Pill";
+"pref_appr_mi_image_pill_out" = "Pill (outline)";
+"pref_appr_mi_image_molecule" = "Molecule";
+"pref_appr_mi_image_coffee_pot" = "Coffee Carafe";
+"pref_appr_mi_image_caffeine" = "Caffeine";
+"pref_appr_mi_image_cup" = "Coffee Cup";
+"pref_appr_mi_image_teapot" = "Tea Kettle";
+"pref_appr_mi_image_owl" = "Owl";
+"pref_appr_mi_image_eye" = "Eye";
+"pref_appr_mi_image_sun_moon" = "Sun & Moon";
+"pref_appr_mi_image_emoji" = "Emoji";
+"pref_appr_mi_text_normal_sz" = "Taille de police standard";
+"pref_appr_mi_text_small_sz" = "Petite taille de police";
+"pref_appr_mi_text_format_normal" = "Format standard (08:15)";
+"pref_appr_mi_text_format_letter" = "Format de notation par lettre (8h 15m)";
+
+
+
+
+// ---------------------------------------------------------------------------
+// (?) BUTTON MENU ITEMS
+
+// ----- PREFERENCES → APPEARANCE → Menu Bar Image Help Message
+
+// Title
+"help_message_menu_bar_image_title" = "Image de la barre de menus";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_menu_bar_image_body" = "Choisissez les images que vous souhaitez afficher dans la barre de menu pour représenter l'état de la session d'amphétamine (active/inactive). Lorsqu'une session commence ou se termine, l'image d'amphétamine dans la barre de menu sera mise à jour en conséquence.\n\nVous pouvez également fournir vos propres images personnalisées.";
+
+// ----- PREFERENCES → APPEARANCE → Menu Bar Text Help Message
+
+// Title
+"help_message_menu_bar_text_title" = "Texte de la barre de menus";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_menu_bar_text_body" = "• Afficher le temps de session restant dans la barre de menus\nCochez cette case si vous souhaitez que le temps restant ou l'heure de fin d'une session s'affiche à côté de l'image d'Amphétamine dans la barre de menus.\n\nChoisissez des options de formatage supplémentaires telles que la taille du texte dans la barre de menus, comment l'heure est représentée, s'il faut inclure les secondes et s'il faut représenter l'heure au format 12 ou 24 heures.";
+
+// ----- PREFERENCES → APPEARANCE → Menu Bar Extras Help Message
+
+// Title
+"help_message_menu_extras_title" = "Menu supplémentaire";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_menu_extras_body" = "• Afficher les détails de la session en cours\nCochez cette case pour afficher les détails de la session, tels que la durée/le temps restant de la session et la raison de l'activation dans le menu d'amphétamine.\n\n• Afficher les détails de Drive Alive\nCochez cette case pour afficher les détails de Drive Alive, tels que les lecteurs qui sont maintenus en marche et ceux qui ne le sont pas.";
+
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → STATISTICS TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_stat" = "Statistiques";
+
+// PREFERENCES → STATISTICS BUTTONS
+"pref_stat_bttn_reset" = "Réinitialiser les statistiques";
+"pref_stat_bttn_enable" = "Activer la collecte de statistiques";
+
+// PREFERENCES → STATISTICS LABELS
+"pref_stat_lbl_how_long_title" = "Amphétamine a gardé votre Mac éveillé pendant"; // v5.0.1
+"pref_stat_lbl_how_long_about" = "\n%@ %@ %@ %@"; // v5.0.1
+"pref_stat_lbl_how_long_prefs" = "%@ %@ %@ %@"; // v5.0.1
+"pref_stat_lbl_average" = "Durée moyenne des sessions";
+"pref_stat_lbl_total_sessions" = "Nombre total de sessions";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- TRIGGER CONFIGURATION WINDOW + CRITERIA
+// ---------------------------------------------------------------------------
+
+// TRIGGER CONFIGURATION WINDOW
+"trig_config_lbl_name" = "Nom";
+"trig_config_lbl_name_placeholder" = "Mon déclencheur génial";
+"trig_config_lbl_name_desc" = "Donnez à votre déclencheur un nom mémorable. Vous vous remercierez plus tard.";
+"trig_config_lbl_criteria" = "Critères";
+"trig_config_lbl_criteria_desc" = "Chaque déclencheur que vous créez peuvent utiliser jusqu'à une instance de chaque critère. Tous les critères doivent être rempli pour que votre déclencheur s'active.";
+"trig_config_lbl_criteria_edit" = "Double-cliquez sur un critère pour le modifier";
+"trig_config_lbl_add_opt" = "Plus d'options";
+"trig_config_lbl_add_opt_desc" = "Options supplémentaires qui s'appliquent uniquement à ce déclencheur.";
+"trig_config_bttn_disp_sleep" = "Autoriser l'affichage de la mise en veille";
+"trig_config_bttn_cdm" = "Autoriser le système à se mettre en veille lorsque l'écran est fermé";
+"trig_config_bttn_scrn_svr" = "Autoriser l'économiseur d'écran à s'exécuter après:";
+
+// TABLE HEADERS
+"trig_config_tbl_head_criterion" = "Critère";
+"trig_config_tbl_head_values" = "Valeur(s)";
+
+
+
+// ---------------------------------------------------------------------------
+// ----- TRIGGER CONFIGURATION HELP MESSAGE
+
+// Title
+"help_trigger_config_title" = "Configuration du déclencheur";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_trigger_config_body" = "Nom\nDonnez à votre déclencheur un nom mémorable. Le nom de votre déclencheur sera utilisé dans les notifications et dans la section des détails de la session du menu d'amphétamine (si vous avez activé ces préférences).\n\nCritères\nVotre déclencheur peut utiliser une instance de chaque critère. Pour ajouter un nouveau critère, cliquez sur le bouton +, sélectionnez un critère. Pour supprimer un critère, sélectionnez le critère dans le tableau des Critères et cliquez sur le bouton -.\n\nOptions supplémentaires\nChaque déclencheur que vous créez peut être configuré indépendamment pour autoriser ou empêcher la mise en veille de l'affichage, l'activation de l'économiseur d'écran et si votre Mac se met en veille lorsque son écran est fermé.";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- TRIGGER CRITERIA
+
+// TRIGGER CRITERIA → GLOBAL
+"trig_crit_bttn_add" = "Ajouter un critère";
+
+// example: "Selection: 'None selected'
+"trig_crit_lbl_no_selection" = "Aucune sélection";
+"trig_crit_lbl_no_value" = "Aucune valeur fournie";
+
+// TRIGGER CRITERIA → WI-FI
+"trig_crit_name_wifi" = "Réseau Wi-Fi";
+"trig_crit_name_wifi_placeholder" = "Nom du réseau Wi-Fi";
+"trig_crit_bttn_wifi_get_current" = "Obtenir le nom du réseau Wi-Fi actuel";
+
+// TRIGGER CRITERIA → IP ADDRESS
+"trig_crit_name_ip" = "Adresse IP";
+"trig_crit_bttn_get_ip" = "Obtenir l'adresse IP actuelle";
+"trig_crit_bttn_use_range" = "Utiliser la plage d'adresses IP";
+"trig_crit_lbl_ip_start" = "Plage de départ:";
+"trig_crit_lbl_ip_end" = "Plage de fin:";
+"trig_crit_lbl_ip_addr" = "Adresse IP:";
+"trig_crit_lbl_ip_mutli" = "Plusieurs adresses IP ont été trouvées pour ce Mac. Sélectionnez l'adresse IP que vous souhaitez utiliser pour ce déclencheur et cliquez sur Continuer.";
+"trig_crit_ip_tbl_head_type" = "Interface/Type";
+"trig_crit_ip_tbl_head_addr" = "Adresse";
+
+// TRIGGER CRITERIA → DNS
+"trig_crit_name_dns" = "Serveur DNS";
+"trig_crit_dns_tbl_head" = "Serveurs DNS";
+
+// TRIGGER CRITERIA → CISCO VPN SERVICE
+"trig_crit_name_vpn" = "VPN Cisco AnyConnect";
+"trig_crit_lbl_vpn_current" = "Service actuel:";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"trig_crit_txtfd_vpn_message" = "Ce critère est uniquement connu pour fonctionner avec le client VPN Cisco AnyConnect. Dans la plupart des cas, ce critère doit être évité si vous n'utilisez pas Cisco AnyConnect. Utilisez plutôt la fonction de plage du critère Adresse IP.\n\nPour utiliser ce critère, connectez-vous à votre VPN et cliquez sur le bouton ↻ ci-dessous.";
+
+// TRIGGER CRITERIA → APP
+"trig_crit_name_app" = "Application";
+"trig_crit_bttn_no_helpers" = "Ne pas afficher les applications ou les processus d'assistance";
+"trig_crit_bttn_frontmost" = "Exiger que l'application soit au premier plan";
+"trig_crit_lbl_select_app" = "Sélectionnez une application:";
+"trig_crit_lbl_when_frontmost" = "(Au premier plan)"; // example: Safari '(when frontmost)'
+
+// TRIGGER CRITERIA → SCHEDULE
+"trig_crit_name_sched" = "Planifier";
+"trig_crit_lbl_sched_from" = "De:";
+"trig_crit_lbl_sched_until" = "Jusqu'à:";
+"trig_crit_lbl_sched_no_select" = "Aucun jour sélectionné ";
+
+// DAYS OF THE WEEK
+
+// IT IS IMPORTANT TO TRANSLATE THE DAYS OF THE WEEK IN THE CORRECT ORDER, AND NOT JUST TRANSLATE THE WORD/SPELLING OF THE DAY
+// FOR EXAMPLE, IN THE USA THE WEEK STARTS ON SUNDAY. THEREFORE, weekday_abbr_1 SHOULD EQUAL THE TARGET LANGUAGE TRANSLATION OF "Sun"
+// IN OTHER LOCALES, HOWEVER, THE WEEK STARTS ON MONDAY, AND THUS, weekday_abbr_1 = SHOULD EQUAL THE TARGET LANGUAGE TRANSLATION OF "Mon"
+
+// THERE IS LIMITED SPACE IN THE SEGMENTED CONTROL. PLEASE USE THE SHORTEST ABBREVIATION FOR EACH WEEKDAY NAME WHERE POSSIBLE
+
+"weekday_abbr_1" = "Lundi";
+"weekday_abbr_2" = "Mardi";
+"weekday_abbr_3" = "Mercredi";
+"weekday_abbr_4" = "Jeudi";
+"weekday_abbr_5" = "Vendredi";
+"weekday_abbr_6" = "Samedi";
+"weekday_abbr_7" = "Dimanche";
+
+// TRIGGER CRITERIA → BATTERY & POWER ADAPTER
+"trig_crit_name_power" = "Batterie et adaptateur secteur";
+"trig_crit_lbl_batt_charge_min" = "La batterie est au moins:";
+"trig_crit_lbl_batt_not_detected" = "Batterie non détectée";
+"trig_crit_bttn_ac_connected" = "l'adaptateur secteur est connecté";
+"trig_crit_bttn_ac_not_connected" = "l'adaptateur secteur n'est pas connecté";
+"trig_crit_bttn_ac_connected_only" = "Uniquement lorsque l'adaptateur secteur est connecté";
+"trig_crit_bttn_ac_not_connected_only" = "Uniquement lorsque l'adaptateur secteur n'est pas connecté";
+"trig_crit_lbl_batt_lvl_greater" = "Charge de la batterie ≥ %i%%"; // PLACEHOLDER IS A NUMBER + PERCENT SIGN, EXAMPLE: 'BATTERY CHARGE ≥ 15%'
+
+// TRIGGER CRITERIA → DISPLAYS
+"trig_crit_name_disp" = "Écran";
+"trig_crit_mi_disp_equals" = "Nombre d'écrans =";
+"trig_crit_mi_disp_greater" = "Nombre d'écrans >";
+"trig_crit_mi_disp_less" = "Nombre d'écrans <";
+"trig_crit_mi_disp_mirrored" = "L'écran principal est dupliqué";
+"trig_crit_bttn_ignore_built_in" = "Ignorer l'écran intégré";
+
+// INDICATES AN EXTERNAL DISPLAY - i.e. NOT BUILT-IN
+"trig_crit_lbl_external" = "(Externe)";
+
+// TRIGGER CRITERIA → VOLUMES/DRIVES
+"trig_crit_name_vols" = "Volumes/Drives";
+
+// TRIGGER CRITERIA → USB DEVICE
+"trig_crit_name_usb" = "Périphérique USB";
+
+// TRIGGER CRITERIA → BLUETOOTH DEVICE
+"trig_crit_name_bluetooth" = "Appareil Bluetooth";
+
+// TRIGGER CRITERIA POPUP → AUDIO OUTPUT
+"trig_crit_name_audio" = "Sortie audio";
+"trig_crit_mi_audio_headphones" = "Casques";
+"trig_crit_mi_audio_bi_speakers" = "Haut-parleurs intégrés";
+"trig_crit_mi_audio_bi_output" = "Sortie intégrée";
+"trig_crit_mi_audio_headphones_35w" = "Casque (filaire, 3,5 mm)";
+
+// TRIGGER CRITERIA POPUP → CPU
+"trig_crit_name_cpu" = "Utilisation du processeur";
+"trig_crit_lbl_cpu" = "L'utilisation du processeur est:";
+"trig_crit_lbl_cpu_error" = "Erreur CPU";
+
+// TRIGGER CRITERIA POPUP → IDLE TIME
+"trig_crit_name_idle" = "Temps d'inactivité du système";
+"trig_crit_mi_idle_greater" = "Temps d'inactivité >";
+"trig_crit_mi_idle_less" = "Temps d'inactivité <";
+"trig_crit_lbl_idle_mins" = "minute(s)";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- TRIGGER CRITERIA HELP MESSAGES
+
+
+// ----- Criterion Wi-Fi Help Message
+
+// Title
+"criterion_help_wifi_title" = "Critère Wi-Fi";
+
+// Body
+"criterion_help_wifi_body" = "Ce critère sera déclenché uniquement lorsque votre Mac est connecté à un réseau Wi-Fi spécifié. Entrez le nom du réseau Wi-Fi (sensible à la casse) dans le champ fourni ou utilisez le bouton pour obtenir automatiquement le nom du réseau actuel auquel votre Mac est connecté.";
+
+
+// ----- Criterion IP Address Help Message
+
+// Title
+"criterion_help_ip_title" = "Critère d'adresse IP";
+
+// Body
+"criterion_help_ip_body" = "Ce critère sera déclenché uniquement lorsque votre Mac a une adresse IP spécifique ou que l'adresse IP de votre Mac se situe dans une plage spécifiée. Utilisez le bouton pour obtenir l'adresse IP actuelle de votre Mac ou entrez la ou les adresses manuellement.";
+
+
+// ----- Criterion App Help Message
+
+// Title
+"criterion_help_app_title" = "Critère de l'application";
+
+// Body
+"criterion_help_app_body" = "Ce critère sera déclenché uniquement lorsque l'application spécifiée est en cours d'exécution sur votre Mac. Seules les applications en cours d'exécution apparaissent dans la liste. Si une application n'apparaît pas dans la liste, soit elle n'est pas en cours d'exécution, soit la technologie App Sandbox de macOS empêche Amphétamine d'interagir avec l'application.";
+
+
+// ----- Criterion Battery & Power Adapter Help Message
+
+// Title
+"criterion_help_power_title" = "Critère de la batterie et de l'adaptateur secteur";
+
+// Body
+"criterion_help_power_body" = "Ce critère sera déclenché uniquement lorsque les conditions d'alimentation spécifiées sont remplies sur votre Mac.";
+
+
+// ----- Criterion Schedule Help Message
+
+// Title
+"criterion_help_schedule_title" = "Critère d'horaire";
+
+// Body
+"criterion_help_schedule_body" = "Ce critère sera déclenché uniquement lorsque l'heure et le jour actuels de l'horloge système de votre Mac se situent dans la plage d'heure et de jour spécifiée.";
+
+
+// ----- Criterion Displays Help Message
+
+// Title
+"criterion_help_displays_title" = "Critère d'écran";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"criterion_help_displays_body" = "Ce critère sera déclenché lorsque le nombre d'écrans connectés est égal, supérieur ou inférieur au nombre que vous définissez. Vous pouvez également choisir la mise en miroir de l'affichage pour que ce critère soit déclenché uniquement lorsque l'affichage principal de votre Mac est dupliqué.\n\nSélectionnez l'option "Ignorer l'écran intégré" pour ignorer l'affichage intégré de votre Mac lors du calcul du nombre d'écrans connectés.";
+
+
+// ----- Criterion Volume/Drive Help Message
+
+// Title
+"criterion_help_volume_title" = "Critère de volume/lecteur";
+
+// Body
+"criterion_help_volume_body" = "Ce critère sera déclenché uniquement lorsque le lecteur ou le volume spécifié est monté sur votre Mac. Pour le voir dans la liste, assurez-vous qu'il est déjà monté.";
+
+
+// ----- Criterion Audio Help Message
+
+// Title
+"criterion_help_audio_title" = "Critère de sortie audio";
+
+// Body
+"criterion_help_audio_body" = "Ce critère sera déclenché uniquement lorsque la sortie audio spécifiée est définie comme la sortie actuelle sur votre Mac.\n\nLa sortie audio peut être définie en allant dans le menu  → Préférences Système → Son → Sortie.";
+
+
+// ----- Criterion Bluetooth Help Message
+
+// Title
+"criterion_help_bluetooth_title" = "Critère de périphérique Bluetooth";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"criterion_help_bluetooth_body" = "Ce critère sera déclenché uniquement lorsque le périphérique Bluetooth spécifié est connecté à votre Mac. Seuls les appareils Bluetooth qui ont été jumelé apparaîtront dans la liste.\n\nPour jumeler un nouvel appareil Bluetooth, placez votre appareil en mode couplage et accédez au menu  → Préférences Système → Bluetooth.";
+
+
+// ----- Criterion Cisco AnyConnect VPN Help Message
+
+// Title
+"criterion_help_vpn_title" = "Critère VPN Cisco AnyConnect";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"criterion_help_vpn_body" = "Ce critère sera déclenché uniquement lorsque votre Mac est connecté au service VPN spécifié. Démarrez votre service VPN sur votre Mac puis cliquez sur le bouton Actualiser pour obtenir automatiquement le nom du service.\n\nCe critère est quelque peu expérimental, car la plupart des services VPN n'ont pas été testés. Le VPN Cisco AnyConnect, lors de l'utilisation du client Cisco AnyConnect officiel, est actuellement le seul service VPN compatible connu.";
+
+
+// ----- Criterion USB Help Message
+
+// Title
+"criterion_help_usb_title" = "Critère de périphérique USB";
+
+// Body
+"criterion_help_usb_body" = "Ce critère sera déclenché uniquement lorsque le périphérique USB spécifié est connecté à votre Mac. Pour le voir dans la liste, connectez-le à votre Mac et allumez-le.";
+
+
+// ----- Criterion CPU Utilization Help Message
+
+// Title
+"criterion_help_cpu_title" = "Critère d'utilisation du processeur";
+
+// Body
+"criterion_help_cpu_body" = "Ce critère sera déclenché uniquement lorsque l'utilisation combinée de tous les processeurs logiques de votre Mac est supérieure ou inférieure au seuil que vous avez défini. Notez que l'échantillonnage de l'utilisation du processeur par Amphétamine peut ne pas toujours correspondre à celui du moniteur d'activité ou d'autres applications capables de surveiller l'utilisation du processeur. Cela est probablement dû à des taux d'échantillonnage différents.";
+
+
+// ----- Criterion Idle Time Help Message
+
+// Title
+"criterion_help_idle_title" = "Critère de temps d'inactivité";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"criterion_help_idle_body" = "Ce critère sera déclenché uniquement lorsque l'horloge d'inactivité de votre Mac est supérieure ou inférieure au seuil (minutes) que vous avez défini. L'horloge d'inactivité de votre Mac augmente généralement lorsqu'il n'y a pas d'activité du clavier, de la souris ou d'un autre périphérique d'entrée.\n\nNotez que l'entrée de la souris et du clavier via un bureau à distance ou le partage VNC/écran n'empêche pas l'horloge d'inactivité d'augmenter.";
+
+
+// ----- Criterion DNS Server Help Message
+
+// Title
+"criterion_help_dns_title" = "Critère de serveur DNS";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"criterion_help_dns_body" = "Ce critère sera déclenché lorsque votre Mac utilise l'un des serveurs/adresses DNS que vous avez spécifiés. Pour ajouter les adresses DNS actuelles que votre Mac utilise à la liste, cliquez sur le bouton +. Pour supprimer une adresse DNS de la liste, sélectionnez-la et cliquez sur le bouton -.\n\nSi vous avez récemment mis à jour vos serveurs DNS dans les Préférences Système, ou récemment modifié la configuration réseau, veuillez patienter quelques minutes pour pouvoir mettre à jour Amphétamine avec les nouveaux serveurs DNS.\n\nRemarque : ce déclencheur peut ne pas s'activer immédiatement dans certaines circonstances. Amphetamine interrogera les serveurs DNS actuels de votre Mac, mais s'ils ont été mis à jour/modifiés récemment, macOS peut prendre une minute ou deux pour signaler ce changement à Amphetamine.";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- STATUS ITEM MENU
+// ---------------------------------------------------------------------------
+
+// CURRENT SESSION DETAILS VIEW MENU ITEM
+"csdv_lbl_title" = "Détails de la session en cours:";
+"csdv_lbl_drive_alive_title" = "Détails de Drive Alive:";
+
+// REARRANGE THE BELOW PLACEHOLDERS (IF NEEDED) FOR THE TARGET LANGUAGE
+// IN ENGLISH, THE PLACEHOLDERS WOULD READ LIKE: "1h 3m 45s remaining"
+
+// %1$i = THE NUMBER OF HOURS REMAINING IN THE SESSION
+// %2$@ = duration_abbrv_hours_h
+// %3$02d = THE NUMBER OF MINUTES REMAINING IN THE SESSION
+// %4$@ = duration_abbrv_minutes_m
+// %5$02d = THE NUMBER OF MINUTES REMAINING IN THE SESSION
+// %6$@ = duration_abbrv_seconds_s
+// %7$@ = gen_use_remaining
+"csdv_time_remain_hms" = "%1$i%2$@ %3$02d%4$@ %5$02d%6$@ %7$@";
+
+// %1$02d = THE NUMBER OF MINUTES REMAINING IN THE SESSION
+// %2$@ = duration_abbrv_minutes_m
+// %3$02d = THE NUMBER OF MINUTES REMAINING IN THE SESSION
+// %4$@ = duration_abbrv_seconds_s
+// %5$@ = gen_use_remaining
+"csdv_time_remain_ms" = "%1$02d%2$@ %3$02d%4$@ %5$@";
+
+// %1$02d = THE NUMBER OF MINUTES REMAINING IN THE SESSION
+// %2$@ = duration_abbrv_seconds_s
+// %3$@ = gen_use_remaining
+"csdv_time_remain_s" = "%1$02d%2$@ %3$@";
+
+"csdv_bttn_disp_sleep" = "Autoriser la mise en veille de l'affichage";
+"csdv_bttn_cdm" = "Autoriser la mise en veille du système lorsque l'écran est fermé";
+
+"csdv_drive_alive_not_enabled" = "Drive Alive n'est pas activé";
+"csdv_drive_alive_not_config" = "Aucun lecteur n'est configuré";
+
+// MENU/STATUS BAR ITEM → MENU ITEMS
+"statbar_mi_start_new_session" = "Démarrer une nouvelle session:";
+"statbar_mi_drive_alive_details" = "Détails de Drive Alive:";
+"statbar_mi_other_duration" = "Autre heure/Jusqu'à...";
+"statbar_mi_other_duration_BigSur" = "Autre heure/Jusqu'à";
+"statbar_mi_app" = "Pendant que l'application est en cours d'exécution...";
+"statbar_mi_app_BigSur" = "Pendant que l'application est en cours d'exécution";
+"statbar_mi_file" = "Pendant le téléchargement du fichier...";
+"statbar_mi_qp" = "Préférences rapides";
+"statbar_mi_prefs" = "Préférences...";
+"statbar_mi_about" = "À propos d'amphétamine";
+"statbar_mi_fb_support" = "Commentaires et assistance";
+"statbar_mi_troubleshoot" = "Dépannage et FAQ";
+"statbar_mi_debugMode" = "Activer le mode de débogage"; // v5.0.1
+"statbar_mi_contact" = "Contactez le support";
+"statbar_mi_follow_dev" = "Suivez le développeur"; // OPENS TWITTER LINK
+"statbar_mi_contribute" = "Contribuer au développement d'Amphétamine";
+"statbar_mi_quit" = "Quitter Amphétamine";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- WELCOME WINDOW
+// ---------------------------------------------------------------------------
+
+// WELCOME WINDOW GLOBAL
+"ww_bttn_dont_show" = "Ne plus afficher cette fenêtre";
+"ww_bttn_previous" = "Précédent";
+"ww_bttn_next" = "Suivant";
+"ww_bttn_end" = "Fin";
+
+// WELCOME WINDOW #1
+"ww1_lbl_welcome" = "Bienvenue dans Amphétamine";
+"ww1_lbl_credit" = "Créé avec ♥ par William Gustafson";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"ww1_lbl_message" = "\nAmphétamine est un utilitaire de veille super génial, puissant et flexible pour macOS.\nMême avec toutes ses fonctionnalités et options, Amphétamine reste incroyablement facile à utiliser.\n\nIl suffit de quelques étapes pour configurer Amphétamine . Cliquez sur Suivant pour commencer.";
+
+// WELCOME WINDOW #2
+"ww2_lbl_title" = "Où est Amphétamine?";
+"ww2_lbl_subtitle" = "Amphétamine est dans la barre de menu dans le coin supérieur droit de votre écran.";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"ww2_lbl_message" = "En cliquant sur Amphétamine dans la barre de menu, le menu Amphétamine s'affichera. Un clic droit (ou Control + Clic) démarrera ou arrêtera une session. Vous pouvez modifier ce comportement dans les préférences d'amphétamine si vous le souhaitez.\n\nAmphétamine est très personnalisable. Vous pouvez modifier toutes sortes de choses comme l'image de la barre de menu, le moment où les notifications doivent apparaître et les sons à jouer dans les préférences.";
+
+"ww2_bttn_find_amph" = "Cliquez ici pour localiser Amphétamine";
+
+// WELCOME WINDOW #3
+"ww3_lbl_title" = "Que fait Amphétamine?";
+"ww3_lbl_subtitle" = "L'amphétamine maintient votre Mac, son écran et ses disques éveillés.";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"ww3_lbl_message" = "Lorsque Amphétamine maintient votre Mac éveillé, cela s'appelle une "session". Pour démarrer une session, cliquez sur Amphétamine dans la barre de menu et sélectionnez une durée de session. Sinon, faites un clic droit/contrôl + Clic pour démarrer une session en utilisant la durée par défaut. Vous pouvez la modifier dans Préférences → Sessions.\n\nSi vous avez un MacBook et que vous souhaitez le garder éveillé pendant que son écran est fermé, c'est désormais possible. Cependant, il est fortement recommandé d'installer Amphetamine Enhancer en tant que sécurité intégrée.";
+
+"ww3_bttn_learn_amph_enh" = "Cliquez ici pour en savoir plus sur Amphetamine Enhancer";
+
+// WELCOME WINDOW #4
+"ww4_lbl_title" = "Que fait de plus Amphétamine?";
+"ww4_lbl_subtitle" = "Amphétamine peut faire beaucoup plus que vous ne le pensez.";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"ww4_lbl_message" = "Les déclencheurs automatisent le maintien de votre Mac éveillé en fonction d'éléments tels que sa connexion Wi-Fi, le niveau de la batterie, les connexions des périphériques USB et Bluetooth, l'heure de la journée, les applications en cours d'exécution, l'adresse IP et bien plus encore. Visitez les Préférences d'Amphetamine pour configurer votre premier déclencheur, ou cliquez sur le bouton ci-dessous pour en savoir plus.\n\nDrive Alive maintient les disques connectés à votre Mac en éveil en écrivant périodiquement une petite quantité de données sur chaque disque. Visitez les préférences d'amphétamine pour configurer Drive Alive.";
+
+"ww4_bttn_learn_triggers" = "Cliquez ici pour en savoir plus sur les déclencheurs";
+
+// WELCOME WINDOW #5
+"ww5_lbl_title" = "Merci d'avoir utilisé Amphétamine, mon ami.";
+"ww5_lbl_subtitle" = "Amphetamine is a labor of love.";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"ww5_lbl_message" = "Amphetamine est un cadeau pour vous. J'espère que vous le trouverez utile, stable et agréable. Si vous pouvez prendre un moment pour laisser vos commentaires sur l'App Store, je vous en serais reconnaissant. Merci.\n\nSi vous avez une question ou rencontrez un problème lors de l'utilisation d'amphétamine, veuillez me contacter en cliquant sur Commentaires et assistance → Contacter l'assistance dans le menu d'amphétamine.\n\nWilliam Gustafson\nCréateur d'Amphetamine";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- ABOUT WINDOW
+// ---------------------------------------------------------------------------
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"about_lbl_message" = "Amphétamine a été mon premier projet Objectif-C. Depuis la sortie initiale d'Amphetamine en 2014, elle est devenue l'une des applications les plus puissantes et les plus populaires pour garder votre Mac éveillé. Vos suggestions, vos commentaires et votre soutien sont le moteur de cette croissance. Merci.\n\nAmphétamine sera toujours une application 100 % gratuite sans publicités, achats intégrés ou mises à niveau payantes.\n\nAmphétamine est dédiée à la mémoire de mon ami, Isaac Kirkman.\n\nWilliam Gustafson\ncréateur d'Amphétamine ";
+"about_lbl_hard_work" = "🥵 Faire amphétamine est un travail difficile! 🥵";
+"about_bttn_support" = "Contactez le support";
+"about_bttn_rate" = "Évaluer dans l'App Store";
+"about_bttn_ack" = "Remerciements";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- QUICK PREFERENCES
+// ---------------------------------------------------------------------------
+
+"qp_lbl_about" = "Les éléments des Préférences rapides représentent le statut de l'élément correspondant dans les Préférences, et pas nécessairement la session en cours.";
+"qp_lbl_nt_sess" = "Valeurs par défaut de la session";
+"qp_lbl_all_sess" = "Controle du système";
+"qp_lbl_other" = "Autre";
+
+// PLACEHOLDER REPRESENTS A BATTER CHARGE LEVEL, EXAMPLE: 'END SESSION IF BATTERY IS BELOW 15%'
+"qp_bttn_end_sess_low_batt_title" = "Terminer la session si la batterie est en dessous de %@";
+"qp_bttn_end_sess_ac_discon_title" = "Terminer la session si non connecté à l'adaptateur secteur";
+
+// PLACEHOLDERS REPRESENT A TIME DURATION, EXAMPLE: 'LOCK SCREEN AFTER 1h 15m OF INACTIVITY'
+"qp_bttn_lck_scrn_title" = "Écran de verrouillage après %01ld%@ d'inactivité";
+"qp_bttn_mv_cursor_title" = "Déplacer le curseur après %01ld%@ d'inactivité";
+
+// ----- Quick Preferences Help Message
+
+// Title
+"help_quick_prefs_title" = "Préférences rapides";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_quick_prefs_body" = "Chaque élément de menu dans les préférences rapides est lié à son élément correspondant dans les préférences d'amphétamine.\n\nIl est important de noter que l'état d'un élément dans les préférences rapides peut ne pas refléter le comportement de la session en cours. Cela est particulièrement vrai pour les sessions avec déclencheurs.\n\nLe comportement de la session en cours peut être modifié/remplacé à la volée à l'aide de l'élément de menu Détails de la session en cours. Pour activer/désactiver l'élément de menu Détails de la session en cours, visitez Préférences → Apparence → Menu suplémentaire.";
+
+
+
+// ---------------------------------------------------------------------------
+// ----- OTHER HELP MESSAGES
+// ---------------------------------------------------------------------------
+
+// ----- Screen Saver Exceptions Help Message
+
+// Title
+"help_screen_saver_exceptions_title" = "Exceptions de l'économiseur d'écran";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_screen_saver_exceptions_body" = "Si l'une des applications ou des processus de cette liste est en cours d'exécution, cela empêchera Amphétamine d'activer l'économiseur d'écran de votre Mac.\n\nCliquez sur le bouton + pour ajouter une application ou un processus à la liste. Sélectionnez une application et cliquez sur le bouton - pour la supprimer.\n\nSi vous ne voyez pas l'application ou le processus que vous recherchez, soit il n'est pas en cours d'exécution, soit la technologie App Sandbox de macOS empêche Amphétamine de voir l'application/le processus .";
+
+
+// ----- Apps & Processes Picker Help Message
+
+// Title
+"help_app_picker_title" = "Applications et processus";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_app_picker_body" = "Pour voir une application ou un processus dans cette liste, il doit être en cours d'exécution. Utilisez la case à cocher « Ne pas afficher les applications et processus d'assistance » pour filtrer la liste afin d'inclure ou d'exclure les applications/processus d'assistance. Les applications et les processus d'assistance peuvent ne pas avoir d'interface utilisateur et s'exécuter souvent de manière silencieuse en arrière-plan.\n\nSi vous ne voyez pas une application/un processus dans la liste, soit il n'est pas en cours d'exécution, soit Amphétamine ne peut pas observer l'application/le processus par la technologie App Sandbox de macOS. Pour contourner la limitation d'App Sandbox, vous devez installer Amphetamine Enhancer.\n\nSi vous avez installé Amphetamine Enhancer et que vous ne voyez toujours pas l'application/le processus souhaité (et que vous êtes sûr qu'il est en cours d'exécution), attendez jusqu'à 10 secondes, puis actualisez la liste des applications/processus en cliquant sur le bouton ↻ à droite du champ de recherche.";
+
+
+// ----- CLOSED DISPLAY MODE WARNING
+
+// Title
+"cdm_warning_title" = "À propos des sessions en mode écran fermé";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"cdm_warning_body" = "• État de l'alimentation\nLes sessions en mode d'écran fermé peuvent échouer si votre Mac est reconnecté à une source d'alimentation/un adaptateur externe pendant la session. Ce problème n'affecte pas tous les Mac et Amphétamine est incapable de détecter si la session a réellement échoué.\n\n• Surchauffe et décharge de la batterie\nVotre Mac peut facilement surchauffer à l'intérieur d'un sac/étui ou sa batterie peut se décharger complètement si vous oubliez qu'une session en mode affichage fermé est active. Veuillez envisager d'activer les avertissements du mode d'affichage fermé dans Préférences → Notifications.\n\n• Sécurité intégrée de l'amplificateur d'amphétamine\nSi Amphétamine se bloque pendant une session en mode d'affichage fermé, votre Mac peut être incapable de revenir à un comportement de veille normal tant que vous n'avez pas relancé Amphétamine. ou vous redémarrez votre Mac. Il est fortement recommandé d'installer Amphetamine Enhancer en tant que sécurité intégrée.";
+
+// ----- FAILED CLOSED DISPLAY MODE SESSION WARNING
+
+// Title
+"cdm_fail_warning_title" = "Échec possible de la session en mode d'écran fermé";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"cdm_fail_warning_body" = "Une session en mode d'écran fermé peut échouer en raison de la connexion d'une source d'alimentation externe/d'un adaptateur.\n\nÀ cause des restrictions de macOS, Amphetamine ne peut cependant pas détecter si la session a réellement échoué. Si vous êtes sûr que votre Mac n'est pas affecté par ce problème, vous pouvez désactiver cette fonctionnalité ci-dessous.\n\nAmphétamine a automatiquement mis fin à la session en mode d'écran fermé en cours. Si vous désactivez cette fonctionnalité, les futures sessions en mode d'écran fermé ne seront pas terminées automatiquement.";
+
+// ----- FAILED CLOSED DISPLAY MODE SESSION WARNING SUPPRESSION
+"cdm_fail_warning_suppression" =  "Désactiver l'arrêt automatique de session en mode d'écran fermé";
+
+
+// ----- TRIGGER SESSION WARNING
+
+// USED IN SENTENCES, SEE PLACEHOLDER %@ IN KEY sess_is_trigger_body FOR EXAMPLE USAGE
+// OTHER EXAMPLE: IF YOU WOULD LIKE TO 'ALLOW' / 'PREVENT' THE DISPLAY TO SLEEP
+"gen_use_allow" = "Autoriser";
+"gen_use_prevent" = "empêcher";
+
+// USED IN SENTENCES, SEE PLACEHOLDER %@ IN KEY sess_is_trigger_body FOR EXAMPLE USAGE
+// OTHER EXAMPLE: YOU NEED TO 'CHECK' / 'UNCHECK' THE BOX TO ENABLE THIS FEATURE
+"gen_use_check" = "Cocher";
+"gen_use_uncheck" = "décocher";
+
+// ----- SESSION IS TRIGGER
+"sess_is_trigger_ds_bttn_title" = "Autoriser la mise en veille de l'écran";
+"sess_is_trigger_ds_feature" = "Écran mis en veille";
+
+"sess_is_trigger_ss_bttn_title" = "Autoriser l'économiseur d'écran";
+"sess_is_trigger_ss_feature" = "activation de l'économiseur d'écran";
+
+"sess_is_trigger_cdm_feature" = "Mise en veille lors de la fermeture de l'écran";
+"sess_is_trigger_cdm_bttn_title" = "Autoriser le système à se mettre en veille lorsque l'écran est fermé";
+
+// Title
+"sess_is_trigger_title" = "La session en cours est une session avec déclancheurs";
+
+// PLACEHOLDERS MAY BE EITHER THE FEATURE, TITLE, CHECK/UNCHECK, OR ALLOW/PREVENT KEYS LISTED ABOVE. EXAMPLE:
+
+/*
+ "You have modified a preference that only applies to non-Trigger sessions.\n\nEach Trigger has its own Allow Display Sleep(sess_is_trigger_ds_bttn_title) preference which can be changed by editing the Trigger. To edit a Trigger, go to Preferences → Triggers and double-click the Trigger you want to edit.\n\nIf you would like to temporarily allow (gen_use_allow) display sleep (sess_is_trigger_ds_feature) for the duration of this Trigger session, click Amphetamine's image in the menu bar and check (gen_use_check) the Allow Display Sleep (sess_is_trigger_ds_bttn_title) checkbox in the Current Session Details section of the menu.\n\nIf you don't see the Current Session Details section in Amphetamine's menu, go to Preferences → Appearance → Menu Extras and check the Show Session Details in Menu box."
+*/
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"sess_is_trigger_body" = "Vous avez modifié une option qui s'applique uniquement aux sessions sans déclencheur.\n\nChaque déclencheur a sa propre préférence %@ qui peut être modifiée. Pour modifier un déclencheur, allez dans Préférences → Déclencheurs et double-cliquez sur le déclencheur que vous souhaitez modifier.\n\nSi vous souhaitez temporairement %@ %@ pendant la durée de cette session de déclencheur, cliquez sur l'image d'amphétamine dans la barre de menu et %@ la case %@ dans la section Détails de la session en cours du menu.\n\nSi vous ne voyez pas la section Détails de la session en cours dans le menu d'Amphetamine, allez dans Préférences → Apparence → Extras du menu et cochez Afficher les détails de la session dans le menu.";
+
+// ----- LOCK SCREEN MESSAGE
+
+"lck_scrn_request_title" = "Pour verrouiller l'écran, Amphétamine a besoin d'accéder aux fonctionnalités d'accessibilité.";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"lck_scrn_request_body" = "Vous pouvez autoriser à Amphétamine l'accès aux fonctionnalités d'accessibilité dans Préférences Système → Sécurité et confidentialité → Confidentialité → Accessibilité.\n\nDans Préférences Système, cliquez sur l'icône de verrouillage dans le coin inférieur gauche et entrez le mot de passe de votre Mac lorsque vous y êtes invité. Ensuite, cochez la case à côté d'Amphétamine dans la section Accessibilité de l'onglet Confidentialité de Sécurité et confidentialité.\n\nSi vous ne voyez pas Amphétamine dans la liste Accessibilité, cliquez sur le bouton + et sélectionnez Amphétamine dans le dossier Applications.\n \nUne fois que vous avez autorisé à Amphétamine l'accès aux fonctionnalités d'accessibilité, revenez ici et essayez à nouveau d'activer cette fonctionnalité.";
+
+
+// ----- CURSOR MOVEMENT MESSAGE
+
+"move_cursor_request_title" = "Pour déplacer le curseur, Amphétamine a besoin d'accéder aux fonctionnalités d'accessibilité.";
+
+"move_cursor_request_body" = "Vous pouvez autoriser à Amphétamine l'accès aux fonctionnalités d'accessibilité dans Préférences Système → Sécurité et confidentialité → Confidentialité → Accessibilité.\n\nDans Préférences Système, cliquez sur l'icône de verrouillage dans le coin inférieur gauche et entrez le mot de passe de votre Mac lorsque vous y êtes invité. Ensuite, cochez la case à côté d'Amphétamine dans la section Accessibilité de l'onglet Confidentialité de Sécurité et confidentialité.\n\nSi vous ne voyez pas Amphétamine dans la liste Accessibilité, cliquez sur le bouton + et sélectionnez Amphétamine dans le dossier Applications.\n \nUne fois que vous avez autorisé à Amphétamine l'accès aux fonctionnalités d'accessibilité, revenez ici et essayez à nouveau d'activer cette fonctionnalité.";
+
+
+// ----- WHILE FILE IS DOWNLOADING MESSAGE
+
+"file_dwnld_title" = "Attente";
+
+"file_dwnld_body" = "Choisissez un délai d'attente pour le téléchargement du fichier. Si le fichier ne change pas ou n'augmente pas en taille pendant la période, la session se terminera.";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- DIALOGS
+// ---------------------------------------------------------------------------
+
+// BUTTON TITLE, USED TO CONFIRM SELECTION OF ITEM
+"dialog_select_bttn_title" = "Sélectionner";
+
+// CUSTOM SOUND FILE DIALOG MESSAGE
+"dialog_sound_select" = "Veuillez choisir les sons que vous souhaitez ajouter à Amphetamine:";
+
+// drive
+"dialog_drivealive_select" = "Veuillez choisir le lecteur que vous souhaitez garder activé:";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- ALERTS
+// ---------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------
+// ALERT BUTTON LABELS/TITLES
+
+"alert_ok_button_title" = "OK";
+"alert_get_amph_enhancer_button_title" = "Obtenir Amphetamine Enhancer";
+"alert_dont_show_type_again" = "Ne plus afficher ce type de message";
+"alert_dont_show_again" = "Ne plus afficher ce message";
+"alert_dont_ask_again" = "Ne plus demander ça";
+"alert_open_sys_prefs" = "Ouvrir les préférences système";
+
+// GENERIC ERROR MESSAGE
+"error_generic_went_wrong_title" = "Euh. Quelque chose s'est mal passé.";
+"error_generic_went_wrong_body" = "Veuillez réessayer. Si le problème persiste, vous pouvez soumettre une demande d'assistance sur iffy.freshdesk.com.";
+
+// TRIGGER EDIT ERROR MESSAGE // v5.0.1
+"error_trigger_edit_title" = "Ce déclencheur ne peut pas être modifié.";
+"error_trigger_edit_body" = "Veuillez réessayer. Si le problème persiste, veuillez supprimer le déclencheur et le recréer. Si vous n'y parvenez toujours pas, veuillez soumettre une demande d'assistance à l'adresse iffy.freshdesk.com.";
+
+// ----- SCREEN SAVER FOR TRIGGER ALERT
+"alert_trig_scn_svr_bttn_enable" = "Activer l'économiseur d'écran";
+
+"alert_trig_scn_svr_title" = "Ce déclencheur n'est pas configuré pour autoriser l'économiseur d'écran.";
+"alert_trig_scn_svr_body" = "Bien que ce déclencheur ne soit pas configuré pour autoriser l'économiseur d'écran, vous pouvez l'autoriser pour cette session. Pour configurer ce déclencheur afin qu'il autorise toujours l'économiseur d'écran, accédez à Préférences → Déclencheurs et double-cliquez sur le déclencheur pour le modifier.\n\nSinon, pour autoriser l'économiseur d'écran uniquement pour cette session, choisissez un délai ci-dessous et cliquez sur Activer l'économiseur d'écran .";
+
+// ----- DRIVE ALIVE SANDBOX ALERT
+"alert_drivealive_tech_det_title" = "Quelques détails techniques...";
+
+// PLACEHOLDER IS NAME OF DRIVE
+"alert_drivealive_tech_det_body" = "La technologie App Sandbox de macOS empêche Amphetamine d'écrire dans le répertoire racine du lecteur sur lequel macOS est installé.\n\nAmphetamine peut toujours garder ce lecteur éveillé, mais écrira les données dans le chemin suivant:\n\n%@";
+
+"alert_drivealive_net_vol_title" = "Volume réseau détecté";
+"alert_drivealive_net_vol_body" = "Le lecteur/volume que vous avez sélectionné semble être un volume réseau ou non local. Veuillez noter que si la connexion à ce volume est perdue ou indisponible, amphetamine peut ne plus répondre.";
+
+// ----- APP PICK ERROR
+"alert_app_select_title" = "Quelque chose s'est mal passé.";
+"alert_app_select_body" = "Vous n'avez peut-être pas sélectionné d'application ou l'application que vous avez sélectionnée s'est peut-être fermée. Veuillez sélectionner une autre application ou relancer celle que vous avez sélectionnée précédemment.";
+
+// ----- APPLESCRIPT ERROR
+"alert_applescript_fail_title" = "Une erreur s'est produite.";
+"alert_applescript_fail_title" = "Amphétamine n'a pas pu comprendre le message reçu d'AppleScript";
+
+// ----- LOCK SCREEN FAILURE
+"alert_lck_scrn_fail_title" = "Amphétamine n'a pas pu verrouiller l'écran.";
+"alert_lck_scrn_fail_body" = "Visitez Préférences → Contrôle du système pour réactiver cette fonctionnalité.";
+
+// ----- DEFAULT DURATION
+"alert_dd_less_one_min_title" = "La durée par défaut ne peut pas être inférieure à une minute.";
+"alert_dd_less_one_min_body" = "La durée par défaut a été modifiée à la valeur minimale de 0 heures et 1 minute.";
+
+// ----- CUSTOM STATUS/MENU BAR ITEM IMAGE MISSING OR NOT FOUND
+"cust_img_not_found_title" = "Aucune image personnalisée n'a été trouvée.";
+"cust_img_not_found_body" = "Deux images personnalisées (actives et inactives) sont requises. Les images par défaut seront utilisées.";
+
+// ----- CUSTOM STATUS/MENU BAR ITEM IMAGE SAVE ERROR
+"cust_img_save_err_title" = "Les images n'ont pas pu être enregistrées.";
+"cust_img_save_err_body" = "Une erreur inconnue est survenue. Les images par défaut seront utilisées..";
+
+// ----- RESET PREFERENCES CONFIRMATION
+"prefs_reset_conf_title" = "Voulez-vous vraiment réinitialiser les préférences d'amphétamine ?";
+"prefs_reset_conf_body" = "Toutes les préférences seront réinitialisées à leurs valeurs par défaut et vous perdrez toutes les configurations de déclancheurs, Drive Alive.";
+
+// ----- RESET WARNINGS & DIALOGS CONFIRMATION
+"warn_diag_reset_conf_title" = "Les avertissements et les boîtes de dialogue on été réinitialisées avec succès.";
+"warn_diag_reset_conf_body" = "Tu étais prévenu.";
+
+// ----- IP ADDRESS CRITERIA MESSAGE
+"alert_no_ip_address_title" = "Aucune adresse IP n'a été trouvée.";
+"alert_no_ip_address_body" = "Veuillez vérifier que votre Mac peut se connecter à Internet et/ou possède une adresse IP valide";
+
+// ----- DNS SERVER CRITERIA MESSAGE
+"dns_no_new_serv_title" = "Aucun nouveau serveur DNS trouvé.";
+"dns_no_new_serv_body" = "Les serveurs DNS actuellement répertoriés sont les seuls signalés comme étant utilisés par macOS. Si vous avez récemment mis à jour vos serveurs DNS dans les Préférences Système ou modifié la configuration du réseau, veuillez patienter quelques minutes et réessayer.";
+
+// ----- DRIVE ALIVE WRITE ERROR
+"drive_alive_write_err_title" = "Une erreur s'est produite.";
+"drive_alive_write_err_body" = "Amphétamine n'a pas la permission d'écrire des données à cet endroit. Cela est probablement dû à la technologie App Sandbox de macOS ou au formatage du volume.\n\nVous pouvez essayer la solution de contournement suivante, mais cela peut ne pas fonctionner :\n\nCréez un nouveau dossier à la racine du volume/lecteur (le mot de passe et l'utilisateur admin peut vous être demandé). Ensuite, sélectionnez ce dossier à utiliser avec Drive Alive.";
+
+// ----- DRIVE ALIVE NETWORK VOLUME PROMPT
+"alert_net_volume_title" = "Volume réseau/Lecteur";
+
+// PLACEHOLDER IS NAME OF DRIVE
+"alert_net_volume_body" = "Le volume/lecteur nommé '%@' est-il un volume connecté au réseau ? Répondre correctement à cette question aidera Amphétamine à fonctionner plus efficacement.";
+
+// ----- BETA EXPIRATION
+"alert_beta_expired_title" = "Cette version bêta a expiré.";
+"alert_beta_expired_body" = "Pour obtenir une nouvelle version bêta d'Amphetamine, veuillez visiter github.com/x74353/AmphetamineBeta. Amphétamine va maintenant se fermer.";
+
+// ----- DISABLE TRIGGERS MESSAGE
+"alert_disable_trig_title" = "Une session avec déclancheur est en cours d'exécution.";
+
+// PLACEHOLDER IS NAME OF TRIGGER
+"alert_disable_trig_body" = "Pour terminer cette session, vous devez désactiver le déclencheur suivant : \n\n%@\n\nVous pouvez désactiver tous les déclencheurs à l'aide du bouton ci-dessous, ou visiter les préférences d'Amphetamine pour désactiver ce déclencheur spécifique. Vous pouvez toujours réactiver tous les déclencheurs dans les préférences d'amphétamine plus tard.";
+
+"alert_disable_trig_bttn_disable" = "Désactiver tous les déclencheurs";
+"alert_disable_trig_bttn_suppress" = "Désactivez tous les déclencheurs automatiquement la prochaine fois";
+
+"alert_disable_trig_dur_indef" = "Désactiver indéfiniment";
+"alert_disable_trig_dur_5mins" = "Désactiver pendant 5 minutes";
+"alert_disable_trig_dur_10mins" = "Désactiver pendant 10 minutes";
+"alert_disable_trig_dur_15mins" = "Désactiver pendant 15 minutes";
+"alert_disable_trig_dur_30mins" = "Désactiver pendant 30 minutes";
+"alert_disable_trig_dur_45mins" = "Désactiver pendant 45 minutes";
+"alert_disable_trig_dur_1hr" = "Désactiver pendant 1 heure";
+"alert_disable_trig_dur_2hrs" = "Désactiver pendant 2 heures";
+"alert_disable_trig_dur_3hrs" = "Désactiver pendant 3 heures";
+"alert_disable_trig_dur_4hrs" = "Désactiver pendant 4 heures";
+"alert_disable_trig_dur_5hrs" = "Désactiver pendant 5 heures";
+"alert_disable_trig_dur_6hrs" = "Désactiver pendant 6 heures";
+"alert_disable_trig_dur_7hrs" = "Désactiver pendant 7 heures";
+"alert_disable_trig_dur_8hrs" = "Désactiver pendant 8 heures";
+"alert_disable_trig_dur_9hrs" = "Désactiver pendant 9 heures";
+"alert_disable_trig_dur_10hrs" = "Désactiver pendant 10 heures";
+"alert_disable_trig_dur_12hrs" = "Désactiver pendant 12 heures";
+"alert_disable_trig_dur_24hrs" = "Désactiver pendant 24 heures";
+
+// ----- TRIGGER EVALUATION FAILED MESSAGE
+"alert_trigger_eval_fail_title" = "L'évaluation des critères de déclencheurs a échoué.";
+"alert_trigger_eval_fail_body" = "Une erreur s'est produite lors de la tentative d'évaluation des critères %@ pour votre déclencheur, \"%@.\"\n\nEssayez de supprimer et de recréer ce déclencheur si ce problème se reproduit souvent.";
+
+// ----- AMPHETAMINE 3 → 4/5 PREFERENCES CONVERSION
+"amph3_prefs_cnvrt_bttn_migrate" = "Migrer";
+"amph3_prefs_cnvrt_bttn_reset" = "Réinitialiser";
+"amph3_prefs_cnvrt_bttn_backup" = "Sauvegarder";
+"amph3_prefs_cnvrt_bttn_quit" = "Quitter";
+
+"amph3_prefs_cnvrt_message" = "En raison de toutes les nouveautés géniales d'Amphetamine 5, vos préférences d'Amphetamine 3 doivent être migrées ou réinitialisées. Si vous choisissez Migrer, Amphetamine tentera de migrer toutes vos préférences précédentes (y compris les déclencheurs, les paramètres Drive Alive, les icônes, les durées, les raccourcis clavier, etc.) vers le nouveau format Amphetamine 5.\n\nIl y a un certain risque avec cette opération. Utilisez la avec prudence. Si vous ne pouvez absolument pas perdre vos préférences Amphetamine 3, veuillez choisir Sauvegarder avant d'essayer de migrer.\n\nSi vous préférez recommencer à zéro (c'est bien pour vous !), choisissez Réinitialiser. Si vous voyez ce message de manière inattendue, cliquez simplement sur Réinitialiser.";
+
+"amph3_prefs_cnvrt_backedup" = "Les préférences d'Amphetamine ont été sauvegardées.";
+"amph3_prefs_cnvrt_ask" = "Il vous sera maintenant demandé de migrer ou de réinitialiser les préférences.";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- NOTIFICATION MESSAGES
+// ---------------------------------------------------------------------------
+
+"notif_session_not_active" = "Session non active";
+"notif_amph_keep_awake" = "Amphétamine maintient votre Mac éveillé";
+"notif_amph_trig_start" = "La session avec déclencheur a commencé";
+"notif_amph_trig_end" = "La session avec déclencheur est terminée";
+"notif_sleep_normal" = "Votre Mac se mettra en veille selon son horaire normal";
+"notif_next_reminder_plural_int" = "Prochain rappel dans %li minutes"; // PLACEHOLDER IS THE TIME UNTIL NEXT REMINDER, EXAMPLE: 'NEXT REMINDER IN 5 MINUTES'
+"notif_next_reminder_singular_int" = "Prochain rappel dans %li minute"; // PLACEHOLDER IS THE TIME UNTIL NEXT REMINDER, EXAMPLE: 'NEXT REMINDER IN 1 MINUTE'
+"notif_batt_no_ac" = "La batterie n'est pas connectée à l'adaptateur secteur";
+"notif_batt_charge_low" = "La charge de la batterie est inférieure à %li%%"; // PLACEHOLDER IS BATTERY CHARGE LEVEL, EXAMPLE: 'BATTERY CHARGE IS BELOW 15%'
+
+// THESE ARE USED TO INDICATE THE STATE OF EACH OPTION IN NOTIFICATIONS
+// SPACE IS EXTREMELY LIMITED IN NOTIFICATIONS, SO PLEASE ABBREVIATE WHERE POSSIBLE
+"notif_disp_sleep_state" = "Veille de l'affichage:"; // 🖥️ ✗ Display Sleep:
+"notif_scrn_svr_state" = "Économiseur d'écran:"; // 🌌 ✗ Screen Saver:
+"notif_cdm_state" = "CDM:"; // CLOSED-DISPLAY MODE // 🐚 ✗ CDM
+
+// THESE ARE USED TO INDICATE THE STATE OF EACH OPTION IN NOTIFICATIONS
+// UNLESS THESE CHARACTERS DO NOT EQUATE TO ON/YES OFF/NO IN THE TARGET LANGUAGE, THESE SHOULD LIKELY NOT BE CHANGED/TRANSLATED
+"notif_state_prevented" = "✗"; // NO/OFF/PREVENTED, other potential symbols: 🚫 ✗
+"notif_state_allowed" = "✓"; // YES/ON/ALLOWED, other potential symbols: ✅ ✓
+
+// ----- REGULAR SESSION ENDED
+"generic_sess_end_1" = "La session est terminée";
+
+// ----- APP SESSION ENDED NOTIFICATION
+
+// NOTE: DO NOT REMOVE '%@'; %@ IS PLACEHOLDER FOR APP NAME
+"app_sess_end_2" = "%@ n'est plus en cours d'exécution"; // EXAMPLE: 'SAFARI' IS NO LONGER RUNNING
+
+// ----- UNTIL TIME SESSION ENDED NOTIFICATION
+
+// ** NOTE: DO NOT REMOVE %@ **
+"until_sess_end_1" = "La session avec minuteur est terminée";
+"until_sess_end_2" = "L'heure de fin (%@) est passée"; // PLACEHOLDER IS A TIME, EXAMPLE: 'END TIME (5:00 PM) HAS PASSED'
+
+
+// ----- TIMED SESSION HAS ENDED NOTIFICATION
+"timed_sess_end_1" = "La session avec minuteur est terminée";
+"timed_sess_end_2" = "La durée de la session est écoulée";
+
+// ----- DISPLAY SLEEP TOGGLED VIA HOTKEY
+"disp_sleep_toggled" = "Affichage du mode veille activé";
+"disp_sleep_toggle_allow" = "écran de veille autorisé";
+"disp_sleep_toggle_prevent" = "Echran de veille non autorisé";
+"disp_sleep_toggle_fail" = "Affichage de l'écran de veille non activé";
+
+// ----- SCREEN SAVER TOGGLED VIA HOTKEY
+"scrn_svr_toggled" = "Économiseur d'écran activé";
+"scrn_svr_toggle_allow" = "Économiseur d'écran autorisé";
+"scrn_svr_toggle_prevent" = "Économiseur d'écran non autorisé";
+"scrn_svr_toggle_fail" = "Économiseur d'écran non activé";
+
+// ----- TRIGGER ERROR MESSAGES
+"trig_err_title" = "Oh-oh ! Quelque chose a horriblement mal tourné.";
+
+// SAVE TRIGGER ERRORS
+"trig_err_name" = "• Nom de déclencheur non fourni.\n\n";
+"trig_err_no_criteria" = "• Aucun critère n'a été sélectionné/activé.\n\n";
+"trig_err_duplicate" = "• Un déclencheur avec ce nom existe déjà.\n\n";
+"trig_err_wifi" = "• Le critère Wi-Fi est activé mais le champ du nom du réseau est vide.\n\n";
+"trig_err_ip" = "• Le critère d'adresse IP est activé mais le champ d'adresse IP est vide.\n\n";
+"trig_err_ip_2" = "• Le critère d'adresse IP est activé mais un ou plusieurs champs d'adresse sont vides.\n\n";
+"trig_err_vpn" = "• Le critère de service VPN est activé mais aucun nom de service n'a été trouvé.\n\n";
+"trig_err_dns" = "• Le critère Serveur(s) DNS est activé mais aucune adresse de serveur n'a été trouvée.\n\n";
+"trig_err_app" = "• Le critère d'application est activé mais aucune application n'a été sélectionnée.\n\n";
+"trig_err_sched" = "• Le critère de planification est activé mais aucun jour n'a été sélectionné.\n\n";
+"trig_err_displays" =  "• Affiche le critère est activé mais le champ de comptage est vide.\n\n";
+"trig_err_vol" =  "• Le critère Volume/Drive est activé mais aucun volume ou lecteur n'est sélectionné.\n\n";
+"trig_err_usb" =  "• Le critère Périphérique USB est activé mais aucun périphérique n'est sélectionné.\n\n";
+"trig_err_bluetooth" =  "• Le critère Périphérique Bluetooth est activé mais aucun périphérique n'est sélectionné.\n\n";
+"trig_err_cpu" =  "• Le critère d'utilisation du processeur est activé mais aucune valeur n'a été saisie.\n\n";
+"trig_err_idle" =  "• Le critère de temps d'inactivité est activé mais aucune valeur n'a été saisie.\n\n";
+
+// EDIT TRIGGER ERRORS
+"trig_err_cant_edit" = "Le déclencheur \"%@\" ne peut pas être modifié pour le moment."; // PLACEHOLDER IS NAME OF TRIGGER
+"trig_err_vpn_edit" = "Le service VPN utilisé avec ce déclencheur n'est pas actif actuellement.\n\nVeuillez démarrer le service VPN \"%@\" et réessayer."; // PLACEHOLDER IS NAME OF VPN SERVICE
+"trig_err_vol_edit" = "Le volume/lecteur utilisé avec ce déclencheur n'est pas monté actuellement.\n\nVeuillez monter \"%@\" et réessayez."; // PLACEHOLDER IS NAME OF DRIVE/VOLUME
+"trig_err_usb_edit" = "Le périphérique USB utilisé avec ce déclencheur n'est pas connecté actuellement.\n\nVeuillez connecter \"%@\" et réessayer."; // PLACEHOLDER IS NAME OF USB DEVICE
+"trig_err_bluetooth_edit" = "Le périphérique Bluetooth utilisé avec ce déclencheur n'est plus couplé.\n\nVeuillez reconnecter \"%@\" et réessayer."; // PLACEHOLDER IS NAME OF BLUETOOTH DEVICE
+"trig_err_audio_edit" = "La sortie audio utilisée avec ce déclencheur n'est pas disponible actuellement.\n\nVeuillez connecter \"%@\" et réessayer."; // PLACEHOLDER IS NAME OF AUDIO OUTPUT DEVICE
+
+
+
+
