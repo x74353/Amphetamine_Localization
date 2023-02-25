@@ -1495,36 +1495,36 @@
 "alert_beta_expired_body" = "Amphetamine의 새 베타버전을 받으실려면 https://github.com/x74353/AmphetamineBeta 에서 받아주세요. Amphetamine이 곧 종료됩니다.";
 
 // ----- DISABLE TRIGGERS MESSAGE
-"alert_disable_trig_title" = "트리거 세션이 시작되었습니다.";
+"alert_disable_trig_title" = "트리거 세션이 동작 중입니다.";
 
 // PLACEHOLDER IS NAME OF TRIGGER
-"alert_disable_trig_body" = "이 세션을 종료하실려면 다음 트리거를 종료하셔야 합니다: \n\n%@\n\n모든 트리거를 아래 버튼으로 끌 수 있으며, 혹은 Amphetamine의 설정에서 특정 트리거만 끄실수 있습니다. 또한 나중에 설정에서 전체 트리거를 다시 켜실수 있습니다.Y";
+"alert_disable_trig_body" = "세션을 종료하려면 다음 트리거를 비활성화해야 합니다: \n\n%@\n\n아래 버튼을 통해 모든 트리거를 비활성화할 수도 있으며, 또는 Amphetamine 설정에서 개별 트리거를 비활성화할 수 있습니다. 비활성화된 트리거는 설정에서 언제든 다시 활성화할 수 있습니다.";
 
-"alert_disable_trig_bttn_disable" = "전체 트리거 해제";
-"alert_disable_trig_bttn_suppress" = "자동으로 다음에 오는 트리거 해제";
+"alert_disable_trig_bttn_disable" = "모든 트리거 비활성화";
+"alert_disable_trig_bttn_suppress" = "다음부터는 묻지 않고 모두 비활성화";
 
-"alert_disable_trig_dur_indef" = "제한없음 해제";
-"alert_disable_trig_dur_5mins" = "5분간 해제";
-"alert_disable_trig_dur_10mins" = "10분간 해제";
-"alert_disable_trig_dur_15mins" = "15분간 해제";
-"alert_disable_trig_dur_30mins" = "30분간 해제";
-"alert_disable_trig_dur_45mins" = "45분간 해제";
-"alert_disable_trig_dur_1hr" = "1시간 동안 해제";
-"alert_disable_trig_dur_2hrs" = "2시간 동안 해제";
-"alert_disable_trig_dur_3hrs" = "3시간 동안 해제";
-"alert_disable_trig_dur_4hrs" = "4시간 동안 해제";
-"alert_disable_trig_dur_5hrs" = "5시간 동안 해제";
-"alert_disable_trig_dur_6hrs" = "6시간 동안 해제";
-"alert_disable_trig_dur_7hrs" = "7시간 동안 해제";
-"alert_disable_trig_dur_8hrs" = "8시간 동안 해제";
-"alert_disable_trig_dur_9hrs" = "9시간 동안 해제";
-"alert_disable_trig_dur_10hrs" = "10시간 동안 해제";
-"alert_disable_trig_dur_12hrs" = "12시간 동안 해제";
-"alert_disable_trig_dur_24hrs" = "24시간 동안 해제";
+"alert_disable_trig_dur_indef" = "무기한 비활성화";
+"alert_disable_trig_dur_5mins" = "5분간 비활성화";
+"alert_disable_trig_dur_10mins" = "10분간 비활성화";
+"alert_disable_trig_dur_15mins" = "15분간 비활성화";
+"alert_disable_trig_dur_30mins" = "30분간 비활성화";
+"alert_disable_trig_dur_45mins" = "45분간 비활성화";
+"alert_disable_trig_dur_1hr" = "1시간 동안 비활성화";
+"alert_disable_trig_dur_2hrs" = "2시간 동안 비활성화";
+"alert_disable_trig_dur_3hrs" = "3시간 동안 비활성화";
+"alert_disable_trig_dur_4hrs" = "4시간 동안 비활성화";
+"alert_disable_trig_dur_5hrs" = "5시간 동안 비활성화";
+"alert_disable_trig_dur_6hrs" = "6시간 동안 비활성화";
+"alert_disable_trig_dur_7hrs" = "7시간 동안 비활성화";
+"alert_disable_trig_dur_8hrs" = "8시간 동안 비활성화";
+"alert_disable_trig_dur_9hrs" = "9시간 동안 비활성화";
+"alert_disable_trig_dur_10hrs" = "10시간 동안 비활성화";
+"alert_disable_trig_dur_12hrs" = "12시간 동안 비활성화";
+"alert_disable_trig_dur_24hrs" = "24시간 동안 비활성화";
 
 // ALERT MESSAGE THAT APPEARS WHEN EVALUATION OF A TRIGGER'S CRITERION FAILS
-"alert_trigger_eval_fail_body" = "\"%@\" 트리거를 실행하던 중, %@을 확인하는 도중 오류가 발생하였습니다.\n\n게속 오류가 발생한다면 이 트리거를 지우시고 다시 만들어주세요.";
-"alert_trigger_eval_fail_title" = "트리거 확인중 오류가 발생하였습니다.";
+"alert_trigger_eval_fail_body" = "%@ 조건을 확인하는 중에 오류가 발생하였습니다. 해당 트리거는 \"%@\" 입니다.\n\n문제가 반복되면 해당 트리거를 삭제한 후 다시 생성해보세요.";
+"alert_trigger_eval_fail_title" = "트리거 동작 조건 확인에 실패하였습니다.";
 
 // ----- AMPHETAMINE 3 → 4/5 PREFERENCES CONVERSION
 "amph3_prefs_cnvrt_bttn_migrate" = "병합";
