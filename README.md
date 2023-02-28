@@ -26,7 +26,11 @@ Please be sure to read the guidelines at the beginning of the Localizable.string
 <b>5. Conciseness:</b> Space is limited. If you can reduce the amount of words used while remaining clear, please do so.
 
 # Translations Completed:
+• Arabic<BR>
 • Chinese (Simplified)<BR>
+• Dutch<BR>
+• French<BR>
+• German<BR>
 • Japanese<BR>
 • Korean<BR>
 • Portuguese (Brazilian)<BR>
