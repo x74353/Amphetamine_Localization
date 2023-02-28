@@ -4,10 +4,40 @@
   Amphetamine
 
   Created by William Gustafson on 2/21/20.
-  Copyright © 2020 William C. Gustafson. All rights reserved.
+  Copyright © 2023 William C. Gustafson. All rights reserved.
  
 */
  
+
+// BEGIN NEW STRINGS ADDED FOR v5.2.3
+// NOTE: "Closed-Display Mode" is translated as "显示器关闭模式"
+
+"cdm_install_script_alert_title" = "Action Required For Closed-Display Mode on Apple Silicon";
+
+"cdm_install_script_alert_body" = "Due to hardware changes introduced with Apple Silicon, Closed-Display Mode has new requirements.\n\nTo be able to connect or disconnect your Mac's power adapter without interrupting the Closed-Display Mode session, Amphetamine needs to install and run a script whenever a Closed-Display Mode session begins or ends. The script must be installed in Amphetamine's Application Scripts folder.\n\nEach time the script runs, authentication will be required. The authentication prompt will say \"osascript wants to make changes.\" After you authenticate, the script will run. If you do not want to authenticate each Closed-Display Mode session, click the Skip button below.\n\nIf you skip installing the Closed-Display Mode script, you won't be asked about this again, and you may experience closed-display mode session interruptions when connecting or disconnecting your Mac's power adapter. If you select Skip but later want to install the script, go to Amphetamine Settings → General, click Reset Warnings and Dialogs, and start a Closed-Display Mode session.";
+
+"cdm_install_script_button" = "Install Script";
+
+"cdm_skip_script_button" = "Skip";
+
+"cdm_remind_me_script_button" = "Remind Me Later";
+
+"cdm_anomaly_alert_title" = "Amphetamine detected an anomaly with your Mac's sleep settings.";
+
+"cdm_anomaly_alert_body" = "An Amphetamine session is not currently active, but your Mac appears to be configured to prevent sleep when in Closed-Display Mode. This can lead to unexpected battery drain and/or overheating.\n\nTo correct this issue, Amphetamine needs to run, and if necessary, install a script. You will be prompted to install the script, if needed, and then prompted to authenticate running the script.\n\nThis issue may have occurred due to a Amphetamine crashing during a Closed-Display Mode session, or by someone manually disabling sleep on your Mac.";
+
+"cdm_anomaly_alert_ignore_button" = "Ignore";
+
+"cdm_anomaly_alert_fix_button" = "Fix Issue";
+
+"cdm_script_fail_alert_title" = "Closed-Display Mode Script Failure";
+
+"cdm_script_fail_alert_body_disable" = "Amphetamine attempted to run a script to disable Closed-Display Mode, but the script either wasn't authenticated successfully or it was cancelled.\n\nYour Mac may still be preventing sleep when the display is closed. This can lead to unexpected battery drain or overheating.\n\nWhen Amphetamine prompts you to fix this issue, it is highly recommended you choose \"Fix Issue.\" You'll be prompted to authenticate allowing \"osascript\" to make changes.";
+
+"cdm_script_fail_alert_body_enable" = "Amphetamine attempted to run a script to enable Closed-Display Mode, but the script either wasn't authenticated successfully or it was cancelled.\n\nYour Mac may still be allowing sleep when the display is closed.\n\nTo fix this issue, end the current session and start a new one. When prompted to allow \"osascript\" to make changes, follow the on-screen directions to successfully authenticate.";
+
+// END NEW STRINGS ADDED FOR v5.2.3
+
 // ---------------------------------------------------------------------------
 // GENERAL USE STRINGS
 
@@ -254,6 +284,7 @@
 // ---------------------------------------------------------------------------
 
 "pref_window_title" = "偏好设置"; // 5.0.2
+"pref_window_title_13" = "设置";
 "pref_global_lbl_uses_default_duration" = "↳ 使用默认时长";
 "pref_global_bttn_screen_saver_exceptions" = "例外...";
 "scrn_svr_excpt_VNC" = "Screen Sharing/VNC/Remote Desktop connections"; // 5.1.2
@@ -277,6 +308,7 @@
 "pref_gen_bttn_reduce_motion" = "减弱动态效果";
 "pref_gen_bttn_reset_warnings" = "重置提醒事项和对话框";
 "pref_gen_bttn_reset_all_prefs" = "恢复默认设置";
+"pref_gen_bttn_reset_all_prefs_13" = "恢复默认设置";
 
 // PREFERENCES → GENERAL LABELS
 "pref_gen_lbl_quick_start" = "快速开启一个会话:";
@@ -316,8 +348,13 @@
 // Body (macOS 10.14+) ** NOTE: DO NOT REMOVE '\n' **
 "help_message_other_body_post_highsierra" = "• 在程序坞中隐藏Amphetamine\n选中此框在程序坞中隐藏Amphetamine图标。在macOS 10.15及更高版本中，即使勾选了“在程序坞中隐藏”，当对Amphetamine的其中一个窗口进行操作时（如偏好设置），程序坞中图标也将会自动显示，或消失。关闭所有Amphetamine的窗口将使程序坞的图标消失。\n\n在macOS 10.14及更低版本中，你可能需要通过访问 → 系统偏好设置 → 程序坞来禁用macOS的“在程序坞中显示最近使用的应用程序”功能，以从程序坞中完全移除Amphetamine图标。\n\n• 减弱动态效果\n选中此框将减少在Amphetamine的界面中动画的使用。\n\n单击“重置提醒事项和对话框”按钮以清除提醒事项消息和其他对话框上的所有“不再显示”标志。\n\n单击恢复默认设置按钮以将Amphetamine恢复为默认状态（所有偏好设置，包括触发器将丢失）。";
 
+"help_message_other_body_post_highsierra_13" = "• 在程序坞中隐藏Amphetamine\n选中此框在程序坞中隐藏Amphetamine图标。在macOS 10.15及更高版本中，即使勾选了“在程序坞中隐藏”，当对Amphetamine的其中一个窗口进行操作时（如设置），程序坞中图标也将会自动显示，或消失。关闭所有Amphetamine的窗口将使程序坞的图标消失。\n\n在macOS 10.14及更低版本中，你可能需要通过访问 → 系统设置 → 程序坞来禁用macOS的“在程序坞中显示最近使用的应用程序”功能，以从程序坞中完全移除Amphetamine图标。\n\n• 减弱动态效果\n选中此框将减少在Amphetamine的界面中动画的使用。\n\n单击“重置提醒事项和对话框”按钮以清除提醒事项消息和其他对话框上的所有“不再显示”标志。\n\n单击恢复默认设置按钮以将Amphetamine恢复为默认状态（所有设置，包括触发器将丢失）。";
+
 // Body (macOS 10.11 - 10.13) ** NOTE: DO NOT REMOVE '\n' **
 "help_message_other_body_pre_mojave" = "• 在程序坞中隐藏Amphetamine\n选中此框在程序坞中隐藏Amphetamine图标。\n\n• 使用颜色表示快速设置中的状态\n选中此框以使用彩色圆圈表示快速设置中每个项目的状态。 绿色 = ON，红色 = OFF。取消选中此框可使用非彩色图像：打钩表示 ON，打叉表示 OFF。\n\n• 减弱动态效果\n选中此框可减少Amphetamine界面中动画的使用。\n\n单击“重置提醒事项和对话框”按钮以清除提醒事项消息和其他对话框上的所有“不再显示”标志。\n\n单击“恢复默认设置”按钮以将Amphetamine恢复为默认状态（所有偏好设置，包括触发器将丢失）。";
+
+// return
+"help_message_other_body_pre_mojave_13" = "• 在程序坞中隐藏Amphetamine\n选中此框在程序坞中隐藏Amphetamine图标。\n\n• 使用颜色表示快速设置中的状态\n选中此框以使用彩色圆圈表示快速设置中每个项目的状态。 绿色 = ON，红色 = OFF。取消选中此框可使用非彩色图像：打钩表示 ON，打叉表示 OFF。\n\n• 减弱动态效果\n选中此框可减少Amphetamine界面中动画的使用。\n\n单击“重置提醒事项和对话框”按钮以清除提醒事项消息和其他对话框上的所有“不再显示”标志。\n\n单击“恢复默认设置”按钮以将Amphetamine恢复为默认状态（所有设置，包括触发器将丢失）。";
 
 
 
@@ -415,6 +452,8 @@
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_message_display_sleep_body" = "如果你希望Mac的显示器在会话期间睡眠，请选中此框。如果你允许显示器睡眠，你在 → 系统偏好设置 → 节能中定义的时间过后，显示器将进入睡眠/关闭状态。\n\n请注意，此设置仅影响非触发会话。 如果你希望基于触发器的会话允许Mac的显示器进入睡眠状态，则可以将每个触发器作相同的设置。";
 
+"help_message_display_sleep_body_13" = "如果你希望Mac的显示器在会话期间睡眠，请选中此框。如果你允许显示器睡眠，你在 → 系统设置 → 节能中定义的时间过后，显示器将进入睡眠/关闭状态。\n\n请注意，此设置仅影响非触发会话。 如果你希望基于触发器的会话允许Mac的显示器进入睡眠状态，则可以将每个触发器作相同的设置。";
+
 // ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Closed-Display Mode Help Message
 
 // Title
@@ -422,6 +461,8 @@
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_message_closed_display_body" = "如果你希望Amphetamine在关闭显示器的状态下保持Mac的唤醒状态，请取消选中此框。\n\n通常，必须将外部显示器、键盘、鼠标和电源适配器都连接到Mac，才能启用显示器关闭模式。 Amphetamine可以暂时屏蔽这些条件，在关闭显示器时防止Mac进入睡眠状态。\n\n如果你的Mac不支持此功能，则该复选框将被禁用。\n\n此设置仅对非触发会话生效。如果要为触发器会话启用此功能，请访问偏好设置 → 触发器，然后设置将此功能添加到的每个触发器。\n\n使用此功能时，你可能需要考虑在偏好设置 → 通知 → 显示器关闭模式中设置播放显示器关闭模式警告音。";
+
+"help_message_closed_display_body_13" = "如果你希望Amphetamine在关闭显示器的状态下保持Mac的唤醒状态，请取消选中此框。\n\n通常，必须将外部显示器、键盘、鼠标和电源适配器都连接到Mac，才能启用显示器关闭模式。 Amphetamine可以暂时屏蔽这些条件，在关闭显示器时防止Mac进入睡眠状态。\n\n如果你的Mac不支持此功能，则该复选框将被禁用。\n\n此设置仅对非触发会话生效。如果要为触发器会话启用此功能，请访问设置 → 触发器，然后设置将此功能添加到的每个触发器。\n\n使用此功能时，你可能需要考虑在设置 → 通知 → 显示器关闭模式中设置播放显示器关闭模式警告音。";
 
 // ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Screen Saver Help Message
 
@@ -437,7 +478,9 @@
 "help_message_battery_title" = "电池";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_battery_body" = "• 当电池电量低于...时结束会话\n如果你希望Amphetamin在Mac的电池电量低于设定的值以下时自动结束非触发会话，请选中此框。在电源适配器未连接时，将滑块一直向右移动以结束会话.\n\n• 在结束会话之前提示\n如果需要Amphetamine在电池电量低而即将自动结束会话之前提示你，请选中此框。 如果有需要，你也可以选择忽略Mac的电量并继续会话。\n\n• 电源适配器连接时忽略电量\n如果你希望Amphetamine在连接Mac的电源适配器的情况下，不会由于电池电量不足而自动结束会话，请选中此框。\n\n请注意，此设置仅对非触发会话生效。如果你希望触发器会话考虑Mac的电池电量，请在触发器中添加电量标准。";
+"help_message_battery_body" = "• 当电池电量低于...时结束会话\n如果你希望Amphetamin在Mac的电池电量低于设定的值以下时自动结束非触发会话，请选中此框。在电源适配器未连接时，将滑块一直向右移动以结束会话.\n\n• 在结束会话之前提示\n如果需要Amphetamine在电池电量低而即将自动结束会话之前提示你，请选中此框。 如果有需要，你也可以选择忽略Mac的电量并继续会话。\n\n• 电源适配器连接时忽略电量\n如果你希望Amphetamine在连接Mac的电源适配器的情况下，不会由于电池电量不足而自动结束会话，请选中此框。\n\n请注意，此偏好设置仅对非触发会话生效。如果你希望触发器会话考虑Mac的电池电量，请在触发器中添加电量标准。";
+
+"help_message_battery_body_13" = "• 当电池电量低于...时结束会话\n如果你希望Amphetamin在Mac的电池电量低于设定的值以下时自动结束非触发会话，请选中此框。在电源适配器未连接时，将滑块一直向右移动以结束会话.\n\n• 在结束会话之前提示\n如果需要Amphetamine在电池电量低而即将自动结束会话之前提示你，请选中此框。 如果有需要，你也可以选择忽略Mac的电量并继续会话。\n\n• 电源适配器连接时忽略电量\n如果你希望Amphetamine在连接Mac的电源适配器的情况下，不会由于电池电量不足而自动结束会话，请选中此框。\n\n请注意，此设置仅对非触发会话生效。如果你希望触发器会话考虑Mac的电池电量，请在触发器中添加电量标准。";
 
 // ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Power Adapter Help Message
 
@@ -489,6 +532,8 @@
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_message_lock_screen_body" = "• 在闲置 ... 之后锁定屏幕\n选中此框可使Amphetamine在特定时间段内闲置后锁定你的Mac屏幕。如果会话处于活动状态，则Amphetamine只会尝试锁定屏幕。无活动会话时要控制屏幕锁定设置，请访问 → 系统偏好设置 → 安全性和隐私 → 通用。\n\n• 使用光标移动来确定闲置状态\n选中此框可以让Amphetamine决定何时在锁定屏幕时进行光标/鼠标移动，而不仅在系统闲置时。如果你使用VNC/ARD/RDP远程访问Mac，则此功能可能很有用。\n\n• 关闭显示器后立即锁定屏幕\n选中此框可在关闭显示器后立即使Amphetamine锁定你的Mac屏幕。仅当会话处于活动状态并且你已为该会话启用了显示器关闭模式时，此功能才起作用。如果你的Mac不支持此功能，则该复选框将被禁用。";
+
+"help_message_lock_screen_body_13" = "• 在闲置 ... 之后锁定屏幕\n选中此框可使Amphetamine在特定时间段内闲置后锁定你的Mac屏幕。如果会话处于活动状态，则Amphetamine只会尝试锁定屏幕。无活动会话时要控制屏幕锁定设置，请访问 → 系统设置 → 安全性和隐私 → 通用。\n\n• 使用光标移动来确定闲置状态\n选中此框可以让Amphetamine决定何时在锁定屏幕时进行光标/鼠标移动，而不仅在系统闲置时。如果你使用VNC/ARD/RDP远程访问Mac，则此功能可能很有用。\n\n• 关闭显示器后立即锁定屏幕\n选中此框可在关闭显示器后立即使Amphetamine锁定你的Mac屏幕。仅当会话处于活动状态并且你已为该会话启用了显示器关闭模式时，此功能才起作用。如果你的Mac不支持此功能，则该复选框将被禁用。";
 
 // ----- PREFERENCES → SESSIONS → ALL SESSIONS → Cursor Help Message
 
@@ -600,6 +645,8 @@
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_message_start_end_session_body" = "这个热键将允许你一键开始或结束一个会话。默认持续时间（偏好设置 → 会话默认设置 → 默认持续时间）将被用于会话的持续时间。\n\n在记录了这个热键的组合键之后，无论你在macOS中的哪个位置，你都可以使用Amphetamine的这个功能。Amphetamine不需要是最前面的应用程序，但它需要处于运行状态。\n\n如果你无法记录你所需的热键组合，则意味着该热键组合已在被其他应用程序占用。";
+
+"help_message_start_end_session_body_13" = "这个热键将允许你一键开始或结束一个会话。默认持续时间（设置 → 会话默认设置 → 默认持续时间）将被用于会话的持续时间。\n\n在记录了这个热键的组合键之后，无论你在macOS中的哪个位置，你都可以使用Amphetamine的这个功能。Amphetamine不需要是最前面的应用程序，但它需要处于运行状态。\n\n如果你无法记录你所需的热键组合，则意味着该热键组合已在被其他应用程序占用。";
 
 // ----- PREFERENCES → HOT KEYS → Start Session Help Message
 
@@ -859,9 +906,9 @@
 "help_trigger_config_title" = "触发器配置";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_trigger_config_body" = "名字\n给触发器起个好记的名字。触发器的名字将用于通知和Amphetamine菜单的会话详细信息部分。\n\n触发条件\n你的触发器最多可以使用每个条件的其中一个选项。要添加新条件，请使用添加条件按钮，选中一个条件。要删除条件，请双击触发条件列表中的条件，然后取消选择。\n\n附加选项\n你创建的每个触发器都可以单独设置允许或禁止显示器睡眠、允许或禁止屏幕保护程序激活以及当显示器睡眠时是否允许系统睡眠。";
+"help_trigger_config_body" = "名字\n给触发器起个好记的名字。触发器的名字将用于通知和Amphetamine菜单的会话详细信息部分。\n\n触发条件\n你的触发器最多可以使用每个条件的其中一个选项。要添加新条件，请使用添加条件按钮，选中一个条件。要删除条件，请双击触发条件列表中的条件，然后取消选择。\n\n附加选项\n你创建的每个触发器都可以单独偏好设置允许或禁止显示器睡眠、允许或禁止屏幕保护程序激活以及当显示器睡眠时是否允许系统睡眠。";
 
-
+"help_trigger_config_body_13" = "名字\n给触发器起个好记的名字。触发器的名字将用于通知和Amphetamine菜单的会话详细信息部分。\n\n触发条件\n你的触发器最多可以使用每个条件的其中一个选项。要添加新条件，请使用添加条件按钮，选中一个条件。要删除条件，请双击触发条件列表中的条件，然后取消选择。\n\n附加选项\n你创建的每个触发器都可以单独设置允许或禁止显示器睡眠、允许或禁止屏幕保护程序激活以及当显示器睡眠时是否允许系统睡眠。";
 
 
 
@@ -1057,7 +1104,7 @@
 
 // Body
 "criterion_help_audio_body" = "仅当将指定的音频输出设置为Mac上的当前输出时，此条件触发。\n\n可以通过访问 → 系统偏好设置 → 声音 → 输出来设置音频输出。";
-
+"criterion_help_audio_body_13" = "仅当将指定的音频输出设置为Mac上的当前输出时，此条件触发。\n\n可以通过访问 → 系统设置 → 声音 → 输出来设置音频输出。";
 
 // ----- Criterion Bluetooth Help Message
 
@@ -1066,6 +1113,7 @@
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "criterion_help_bluetooth_body" = "只有当指定的蓝牙设备连接到Mac时，此条件才会触发。列表中只会显示与Mac配对的蓝牙设备。\n\n要配对新的蓝牙设备，请将设备置于配对模式并访问 → 系统偏好设置 → 蓝牙。";
+"criterion_help_bluetooth_body_13" = "只有当指定的蓝牙设备连接到Mac时，此条件才会触发。列表中只会显示与Mac配对的蓝牙设备。\n\n要配对新的蓝牙设备，请将设备置于配对模式并访问 → 系统设置 → 蓝牙。";
 
 
 // ----- Criterion Cisco AnyConnect VPN Help Message
@@ -1112,6 +1160,7 @@
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "criterion_help_dns_body" = "当Mac使用你指定的任何DNS服务器/地址时，此条件将触发。要将Mac正在使用的当前DNS地址添加到列表中，请单击 + 按钮。若要从列表中删除DNS地址，请选择它，然后单击 - 按钮。\n\n如果你最近在系统偏好设置中更新了DNS服务器，或者最近更改了网络配置，请等待几分钟，以便macOS能够使用新的DNS服务器。\n\n注意：在某些情况下，此触发器可能不会立即激活。Amphetamine将查询Mac当前的DNS服务器，但是如果它们最近已更新/更改，则macOS可能需要一两分钟才能将更改报告给Amphetamine。";
 
+"criterion_help_dns_body_13" = "当Mac使用你指定的任何DNS服务器/地址时，此条件将触发。要将Mac正在使用的当前DNS地址添加到列表中，请单击 + 按钮。若要从列表中删除DNS地址，请选择它，然后单击 - 按钮。\n\n如果你最近在系统设置中更新了DNS服务器，或者最近更改了网络配置，请等待几分钟，以便macOS能够使用新的DNS服务器。\n\n注意：在某些情况下，此触发器可能不会立即激活。Amphetamine将查询Mac当前的DNS服务器，但是如果它们最近已更新/更改，则macOS可能需要一两分钟才能将更改报告给Amphetamine。";
 
 
 
@@ -1162,8 +1211,10 @@
 "statbar_mi_app" = "当App正在运行时...";
 "statbar_mi_app_BigSur" = "当App正在运行时";
 "statbar_mi_file" = "当下载文件时...";
-"statbar_mi_qp" = "快速设置";
+"statbar_mi_qp" = "快速偏好设置";
+"statbar_mi_qp_13" = "快速设置";
 "statbar_mi_prefs" = "偏好设置...";
+"statbar_mi_prefs_13" = "设置...";
 "statbar_mi_about" = "关于Amphetamine";
 "statbar_mi_fb_support" = "反馈和支持";
 "statbar_mi_troubleshoot" = "故障排除 & FAQs";
@@ -1199,7 +1250,9 @@
 "ww2_lbl_subtitle" = "Amphetamine在你屏幕右上角的菜单栏里。";
 
 // ** NOTE: DO NOT REMOVE '\n' **
-"ww2_lbl_message" = "默认情况下，单击菜单栏中的Amphetamine将显示菜单。右键单击（或按住control键单击）将启动或停止防睡眠会话。你也可以根据需要切换这些操作设定。\n\nAmphetamine可以高度自定义。你可以更改各种内容，例如菜单栏图标、何时显示通知以及各种提示音。";
+"ww2_lbl_message" = "默认情况下，单击菜单栏中的Amphetamine将显示菜单。右键单击（或按住control键单击）将启动或停止防睡眠会话。你也可以根据需要切换这些偏好设置 定。\n\nAmphetamine可以高度自定义。你可以更改各种内容，例如菜单栏图标、何时显示通知以及各种提示音。";
+
+"ww2_lbl_message_13" = "默认情况下，单击菜单栏中的Amphetamine将显示菜单。右键单击（或按住control键单击）将启动或停止防睡眠会话。你也可以根据需要切换这些操作设定。\n\nAmphetamine可以高度自定义。你可以更改各种内容，例如菜单栏图标、何时显示通知以及各种提示音。";
 
 "ww2_bttn_find_amph" = "单击这里找到Amphetamine";
 
@@ -1210,6 +1263,8 @@
 // ** NOTE: DO NOT REMOVE '\n' **
 "ww3_lbl_message" = "Amphetamine让你的Mac保持唤醒状态的时段，我们称之为一个会话。要开始一个会话，请在菜单栏中单击Amphetamine然后选择一个会话时长。或者，右键或按住control单击开始一个使用默认持续时长的会话。在偏好设置 → 会话中可以更改默认时长。\n\n如果你使用MacBook，并且希望在关闭显示器时保持唤醒状态，现在可以使用Amphetamine来实现。强烈建议你安装Amphetamine Enhancer作为故障保险。";
 
+"ww3_lbl_message_13" = "Amphetamine让你的Mac保持唤醒状态的时段，我们称之为一个会话。要开始一个会话，请在菜单栏中单击Amphetamine然后选择一个会话时长。或者，右键或按住control单击开始一个使用默认持续时长的会话。在设置 → 会话中可以更改默认时长。\n\n如果你使用MacBook，并且希望在关闭显示器时保持唤醒状态，现在可以使用Amphetamine来实现。强烈建议你安装Amphetamine Enhancer作为故障保险。";
+
 "ww3_bttn_learn_amph_enh" = "单击此处了解有关Amphetamine Enhancer的更多信息";
 
 // WELCOME WINDOW #4
@@ -1218,6 +1273,8 @@
 
 // ** NOTE: DO NOT REMOVE '\n' **
 "ww4_lbl_message" = "触发器会根据其Wi-Fi连接，电池电量，USB和蓝牙设备连接，一天中的时间，正在运行的应用程序，IP地址等信息自动使Mac保持唤醒状态。访问Amphetamine的偏好设置来设置你的第一个触发器，或单击下面的按钮以了解更多信息。\n\n硬盘唤醒通过定期向每个驱动器写入少量数据来使连接到Mac的驱动器保持唤醒状态。访问Amphetamine的偏好设置来设置硬盘唤醒功能。";
+
+"ww4_lbl_message_13" = "触发器会根据其Wi-Fi连接，电池电量，USB和蓝牙设备连接，一天中的时间，正在运行的应用程序，IP地址等信息自动使Mac保持唤醒状态。访问Amphetamine的设置来设置你的第一个触发器，或单击下面的按钮以了解更多信息。\n\n硬盘唤醒通过定期向每个驱动器写入少量数据来使连接到Mac的驱动器保持唤醒状态。访问Amphetamine的设置来设置硬盘唤醒功能。";
 
 "ww4_bttn_learn_triggers" = "单击此处了解有关触发器的更多信息";
 
@@ -1238,7 +1295,7 @@
 
 // ** NOTE: DO NOT REMOVE '\n' **
 "about_lbl_message" = "Amphetamine是我第一个Objective-C项目。自2014年Amphetamine首次发布以来，它已经发展成为最强大、最受欢迎的Mac免睡眠应用程序之一。你们的建议、反馈和支持帮助了它的成长。谢谢。\n\nAmphetamine将永久免费、无广告、无内购或付费升级。\n\nAmphetamine致力于纪念我的朋友，Isaac Kirkman。\n\nWilliam Gustafson\nAmphetamine Creator";
-"about_lbl_hard_work" = "🥵 编写Amphetamine是一项艰难的工作。🥵";
+"about_lbl_hard_work" = "编写Amphetamine是一项艰难的工作。";
 "about_bttn_support" = "联系支持";
 "about_bttn_rate" = "在App Store中评分";
 "about_bttn_ack" = "致谢";
@@ -1252,6 +1309,7 @@
 // ---------------------------------------------------------------------------
 
 "qp_lbl_about" = "快速设置代表偏好设置中相应项目的状态，不一定代表当前会话。";
+"qp_lbl_about_13" = "快速设置代表设置中相应项目的状态，不一定代表当前会话。";
 "qp_lbl_nt_sess" = "会话默认设置";
 "qp_lbl_all_sess" = "系统控制";
 "qp_lbl_other" = "其他";
@@ -1267,10 +1325,13 @@
 // ----- Quick Preferences Help Message
 
 // Title
-"help_quick_prefs_title" = "快速设置";
+"help_quick_prefs_title" = "快速偏好设置";
+"help_quick_prefs_title_13" = "快速设置";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_quick_prefs_body" = "快速设置中的每个菜单项都链接到Amphetamine偏好设置中的相应项目。\n\n重要提醒，快速设置中的项目的状态可能无法反映当前会话的行为，对于触发器会话尤其如此。\n\n可以使用当前会话详细信息菜单项即时更改/覆盖当前会话行为。要打开/关闭当前会话详细信息菜单项，请访问偏好设置 → 外观 → 附加菜单。";
+
+"help_quick_prefs_body_13" = "快速设置中的每个菜单项都链接到Amphetamine设置中的相应项目。\n\n重要提醒，快速设置中的项目的状态可能无法反映当前会话的行为，对于触发器会话尤其如此。\n\n可以使用当前会话详细信息菜单项即时更改/覆盖当前会话行为。要打开/关闭当前会话详细信息菜单项，请访问设置 → 外观 → 附加菜单。";
 
 
 
@@ -1305,6 +1366,8 @@
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "cdm_warning_body" = "• 电源状态\n在显示器关闭模式会话期间，你的 Mac 必须保持恒定的电源状态。如果你连接或断开外部电源或者适配器，显示器关闭模式将会中止。此限制不适用于其他会话类型。\n\n• 过热和电池耗尽\n如果你忘记了显示器关闭模式正在运行，你的Mac可能很容易在包/盒内过热，或者将电池完全耗尽。请考虑在偏好设置 → 通知中启用显示器关闭模式警告。\n\n• Amphetamine Enhancer安全保障\n如果Amphetamine在显示器关闭模式会话期间崩溃，你的Mac可能无法恢复正常睡眠行为，直到你重新启动Amphetamine或重新启动Mac。强烈建议你安装Amphetamine Enhancer作为保障措施。";
+
+"cdm_warning_body_13" = "• 电源状态\n在显示器关闭模式会话期间，你的 Mac 必须保持恒定的电源状态。如果你连接或断开外部电源或者适配器，显示器关闭模式将会中止。此限制不适用于其他会话类型。\n\n• 过热和电池耗尽\n如果你忘记了显示器关闭模式正在运行，你的Mac可能很容易在包/盒内过热，或者将电池完全耗尽。请考虑在设置 → 通知中启用显示器关闭模式警告。\n\n• Amphetamine Enhancer安全保障\n如果Amphetamine在显示器关闭模式会话期间崩溃，你的Mac可能无法恢复正常睡眠行为，直到你重新启动Amphetamine或重新启动Mac。强烈建议你安装Amphetamine Enhancer作为保障措施。";
 
 // ----- FAILED CLOSED DISPLAY MODE SESSION WARNING
 
@@ -1351,6 +1414,8 @@
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "sess_is_trigger_body" = "你已经修改了仅适用于非触发会话的设置。\n\n每个触发器都有单独的%@设置，可以通过编辑触发器来更改。要编辑触发器，请访问偏好设置 → 触发器，然后双击要编辑的触发器。\n\n如果你想在此触发器会话期间暂时%@%@，请在菜单栏单击Amphetamine图标，然后在菜单的当前会话详细信息部分单击%@%@复选框。\n\n如果你在Amphetamin菜单中无法看到当前会话详细信息，请访问偏好设置 → 外观 → 附加菜单，然后选中在菜单中显示会话详细信息框。";
 
+"sess_is_trigger_body_13" = "你已经修改了仅适用于非触发会话的设置。\n\n每个触发器都有单独的%@设置，可以通过编辑触发器来更改。要编辑触发器，请访问设置 → 触发器，然后双击要编辑的触发器。\n\n如果你想在此触发器会话期间暂时%@%@，请在菜单栏单击Amphetamine图标，然后在菜单的当前会话详细信息部分单击%@%@复选框。\n\n如果你在Amphetamin菜单中无法看到当前会话详细信息，请访问设置 → 外观 → 附加菜单，然后选中在菜单中显示会话详细信息框。";
+
 // ----- LOCK SCREEN MESSAGE
 
 "lck_scrn_request_title" = "要锁定屏幕，Amphetamin需要访问辅助功能。";
@@ -1358,6 +1423,7 @@
 // ** NOTE: DO NOT REMOVE '\n' **
 "lck_scrn_request_body" = "你可以在系统偏好设置 → 安全性与隐私 → 隐私 → 辅助功能中授权Amphetamin控制此电脑。\n\n在系统偏好设置中，单击左下角的锁定图标，并在出现提示时输入Mac的密码。然后，在安全性和隐私和隐私选项卡上的辅助功能选项中，选中Amphetamine旁边的框。\n\n如果辅助功能列表中没有看到Amphetamine，请单击 + 按钮，然后从应用程序文件夹中选择Amphetamine。\n\n授权完毕后，请回到此处并尝试再次启用此功能。";
 
+"lck_scrn_request_body_13" = "你可以在系统设置 → 安全性与隐私 → 隐私 → 辅助功能中授权Amphetamin控制此电脑。\n\n在系统设置中，单击左下角的锁定图标，并在出现提示时输入Mac的密码。然后，在安全性和隐私和隐私选项卡上的辅助功能选项中，选中Amphetamine旁边的框。\n\n如果辅助功能列表中没有看到Amphetamine，请单击 + 按钮，然后从应用程序文件夹中选择Amphetamine。\n\n授权完毕后，请回到此处并尝试再次启用此功能。";
 
 // ----- CURSOR MOVEMENT MESSAGE
 
@@ -1365,6 +1431,7 @@
 
 "move_cursor_request_body" = "你可以在系统偏好设置 → 安全性与隐私 → 隐私 → 辅助功能中授权Amphetamin控制此电脑。\n\n在系统偏好设置中，单击左下角的锁定图标，并在出现提示时输入Mac的密码。然后，在安全性和隐私和隐私选项卡上的辅助功能选项中，选中Amphetamine旁边的框。\n\n如果辅助功能列表中没有看到Amphetamine，请单击 + 按钮，然后从应用程序文件夹中选择Amphetamine\n\n授权完毕后，请回到此处并尝试再次启用此功能。";
 
+"move_cursor_request_body_13" = "你可以在系统设置 → 安全性与隐私 → 隐私 → 辅助功能中授权Amphetamin控制此电脑。\n\n在系统设置中，单击左下角的锁定图标，并在出现提示时输入Mac的密码。然后，在安全性和隐私和隐私选项卡上的辅助功能选项中，选中Amphetamine旁边的框。\n\n如果辅助功能列表中没有看到Amphetamine，请单击 + 按钮，然后从应用程序文件夹中选择Amphetamine\n\n授权完毕后，请回到此处并尝试再次启用此功能。";
 
 // ----- WHILE FILE IS DOWNLOADING MESSAGE
 
@@ -1406,6 +1473,7 @@
 "alert_dont_show_again" = "不再显示此信息";
 "alert_dont_ask_again" = "不再询问";
 "alert_open_sys_prefs" = "打开系统偏好设置";
+"alert_open_sys_prefs_13" = "打开系统设置";
 
 // GENERIC ERROR MESSAGE
 "error_generic_went_wrong_title" = "噢，出现了错误。";
@@ -1420,6 +1488,8 @@
 
 "alert_trig_scn_svr_title" = "此触发器未设置允许屏幕保护程序运行。";
 "alert_trig_scn_svr_body" = "虽然此触发器未设置允许屏幕保护程序运行，但是你可以为此会话设置允许屏幕保护程序运行。要将该触发器设置为始终允许屏幕保护程序运行，请访问偏好设置 → 触发器，然后双击该触发器进行编辑。\n\n否则，要允许该屏幕保护程序仅对于此会话生效，请在下面选择一个延迟时间，然后单击启用屏幕保护程序。";
+
+"alert_trig_scn_svr_body_13" = "虽然此触发器未设置允许屏幕保护程序运行，但是你可以为此会话设置允许屏幕保护程序运行。要将该触发器设置为始终允许屏幕保护程序运行，请访问设置 → 触发器，然后双击该触发器进行编辑。\n\n否则，要允许该屏幕保护程序仅对于此会话生效，请在下面选择一个延迟时间，然后单击启用屏幕保护程序。";
 
 // ----- DRIVE ALIVE SANDBOX ALERT
 "alert_drivealive_tech_det_title" = "一些技术细节...";
@@ -1441,6 +1511,7 @@
 // ----- LOCK SCREEN FAILURE
 "alert_lck_scrn_fail_title" = "Amphetamine无法锁定屏幕。";
 "alert_lck_scrn_fail_body" = "访问偏好设置 → 系统控制以重新启用此功能。";
+"alert_lck_scrn_fail_body_13" = "访问设置 → 系统控制以重新启用此功能。";
 
 // ----- DEFAULT DURATION
 "alert_dd_less_one_min_title" = "默认时长不能少于1分钟。";
@@ -1456,7 +1527,9 @@
 
 // ----- RESET PREFERENCES CONFIRMATION
 "prefs_reset_conf_title" = "你确定要重置Amphetamine的偏好设置吗？";
+"prefs_reset_conf_title_13" = "你确定要重置Amphetamine的设置吗？";
 "prefs_reset_conf_body" = "所有偏好设置将重置为默认设置，并且你将丢失所有触发器和硬盘唤醒配置。";
+"prefs_reset_conf_body_13" = "所有设置将重置为默认设置，并且你将丢失所有触发器和硬盘唤醒配置。";
 
 // ----- RESET WARNINGS & DIALOGS CONFIRMATION
 "warn_diag_reset_conf_title" = "成功重置提醒事项和对话框。";
@@ -1469,6 +1542,7 @@
 // ----- DNS SERVER CRITERIA MESSAGE
 "dns_no_new_serv_title" = "找不到新的DNS服务器。";
 "dns_no_new_serv_body" = "当前列出的DNS服务器是唯一被macOS报告为正在使用的DNS服务器。 如果你最近在系统偏好设置中更新了DNS服务器，或者更改了网络配置，请等待几分钟，然后重试。";
+"dns_no_new_serv_body_13" = "当前列出的DNS服务器是唯一被macOS报告为正在使用的DNS服务器。 如果你最近在系统设置更新了DNS服务器，或者更改了网络配置，请等待几分钟，然后重试。";
 
 // ----- DRIVE ALIVE WRITE ERROR
 "drive_alive_write_err_title" = "发生错误。";
@@ -1489,6 +1563,8 @@
 
 // PLACEHOLDER IS NAME OF TRIGGER
 "alert_disable_trig_body" = "结束此会话需要禁用以下触发器:\n\n%@\n\n你可以使用下面的按钮禁用所有的触发器，或访问Amphetamine的偏好设置禁用特定 的触发器。你可以随时从Amphetamine的偏好设置中重新启用所有触发器。";
+
+"alert_disable_trig_body_13" = "结束此会话需要禁用以下触发器:\n\n%@\n\n你可以使用下面的按钮禁用所有的触发器，或访问Amphetamine的设置禁用特定 的触发器。你可以随时从Amphetamine的设置中重新启用所有触发器。";
 
 "alert_disable_trig_bttn_disable" = "禁用所有触发器";
 "alert_disable_trig_bttn_suppress" = "下次自动禁用所有触发器";
@@ -1524,8 +1600,12 @@
 
 "amph3_prefs_cnvrt_message" = "由于Amphetamine 5的新功能，你的Amphetamine 3 设置必须迁移或重置。如果你选择迁移，Amphetamine将尝试将以前的所有偏好设置（包括触发器、硬盘唤醒设置、图标、持续时长、热键等）迁移到新的Amphetamine 5格式。\n\n当然，此操作存在一定风险，请谨慎迁移。如果你不希望失去在Amphetamine 3上的设置，请在迁移之前选择备份。\n\n如果你希望重新开始（更好的选择！），请选择重置。如果你意外看到此消息，只需单击重置。";
 
+"amph3_prefs_cnvrt_message_13" = "由于Amphetamine 5的新功能，你的Amphetamine 3 设置必须迁移或重置。如果你选择迁移，Amphetamine将尝试将以前的所有设置（包括触发器、硬盘唤醒设置、图标、持续时长、热键等）迁移到新的Amphetamine 5格式。\n\n当然，此操作存在一定风险，请谨慎迁移。如果你不希望失去在Amphetamine 3上的设置，请在迁移之前选择备份。\n\n如果你希望重新开始（更好的选择！），请选择重置。如果你意外看到此消息，只需单击重置。";
+
 "amph3_prefs_cnvrt_backedup" = "Amphetamine的偏好设置已经备份。";
+"amph3_prefs_cnvrt_backedup_13" = "Amphetamine的设置已经备份。";
 "amph3_prefs_cnvrt_ask" = "现在将要求你选择迁移或重置偏好设置。";
+"amph3_prefs_cnvrt_ask_13" = "现在将要求你选择迁移或重置设置。";
 
 
 

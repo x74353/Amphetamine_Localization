@@ -4,12 +4,41 @@
   Amphetamine
 
   Created by William Gustafson on 2/21/20.
-  Copyright © 2020 William C. Gustafson. All rights reserved.
+  Copyright © 2023 William C. Gustafson. All rights reserved.
  
   TRANSLATION COMPLETED BY:
   @reading_snail
  
 */
+
+// BEGIN NEW STRINGS ADDED FOR v5.2.3
+// NOTE: "Closed-Display Mode" is translated as "디스플레이를 닫았을시"
+
+"cdm_install_script_alert_title" = "Action Required For Closed-Display Mode on Apple Silicon";
+
+"cdm_install_script_alert_body" = "Due to hardware changes introduced with Apple Silicon, Closed-Display Mode has new requirements.\n\nTo be able to connect or disconnect your Mac's power adapter without interrupting the Closed-Display Mode session, Amphetamine needs to install and run a script whenever a Closed-Display Mode session begins or ends. The script must be installed in Amphetamine's Application Scripts folder.\n\nEach time the script runs, authentication will be required. The authentication prompt will say \"osascript wants to make changes.\" After you authenticate, the script will run. If you do not want to authenticate each Closed-Display Mode session, click the Skip button below.\n\nIf you skip installing the Closed-Display Mode script, you won't be asked about this again, and you may experience closed-display mode session interruptions when connecting or disconnecting your Mac's power adapter. If you select Skip but later want to install the script, go to Amphetamine Settings → General, click Reset Warnings and Dialogs, and start a Closed-Display Mode session.";
+
+"cdm_install_script_button" = "Install Script";
+
+"cdm_skip_script_button" = "Skip";
+
+"cdm_remind_me_script_button" = "Remind Me Later";
+
+"cdm_anomaly_alert_title" = "Amphetamine detected an anomaly with your Mac's sleep settings.";
+
+"cdm_anomaly_alert_body" = "An Amphetamine session is not currently active, but your Mac appears to be configured to prevent sleep when in Closed-Display Mode. This can lead to unexpected battery drain and/or overheating.\n\nTo correct this issue, Amphetamine needs to run, and if necessary, install a script. You will be prompted to install the script, if needed, and then prompted to authenticate running the script.\n\nThis issue may have occurred due to a Amphetamine crashing during a Closed-Display Mode session, or by someone manually disabling sleep on your Mac.";
+
+"cdm_anomaly_alert_ignore_button" = "Ignore";
+
+"cdm_anomaly_alert_fix_button" = "Fix Issue";
+
+"cdm_script_fail_alert_title" = "Closed-Display Mode Script Failure";
+
+"cdm_script_fail_alert_body_disable" = "Amphetamine attempted to run a script to disable Closed-Display Mode, but the script either wasn't authenticated successfully or it was cancelled.\n\nYour Mac may still be preventing sleep when the display is closed. This can lead to unexpected battery drain or overheating.\n\nWhen Amphetamine prompts you to fix this issue, it is highly recommended you choose \"Fix Issue.\" You'll be prompted to authenticate allowing \"osascript\" to make changes.";
+
+"cdm_script_fail_alert_body_enable" = "Amphetamine attempted to run a script to enable Closed-Display Mode, but the script either wasn't authenticated successfully or it was cancelled.\n\nYour Mac may still be allowing sleep when the display is closed.\n\nTo fix this issue, end the current session and start a new one. When prompted to allow \"osascript\" to make changes, follow the on-screen directions to successfully authenticate.";
+
+// END NEW STRINGS ADDED FOR v5.2.3
 
 // ---------------------------------------------------------------------------
 // GENERAL USE STRINGS
@@ -258,6 +287,7 @@
 // ---------------------------------------------------------------------------
 
 "pref_window_title" = "설정"; // 5.0.2
+"pref_window_title_13" = "설정";
 "pref_global_lbl_uses_default_duration" = "↳ 기본 시간 사용";
 "pref_global_bttn_screen_saver_exceptions" = "예외...";
 
@@ -280,6 +310,7 @@
 "pref_gen_bttn_reduce_motion" = "움직임 줄이기";
 "pref_gen_bttn_reset_warnings" = "경고 및 내용 초기화";
 "pref_gen_bttn_reset_all_prefs" = "전체 설정 초기화";
+"pref_gen_bttn_reset_all_prefs_13" = "전체 설정 초기화";
 
 // PREFERENCES → GENERAL LABELS
 "pref_gen_lbl_quick_start" = "빠른 세션 시작:";
@@ -319,8 +350,12 @@
 // Body (macOS 10.14+) ** NOTE: DO NOT REMOVE '\n' **
 "help_message_other_body_post_highsierra" = "• Dock에서 Amphetamine 숨기기\n이 항목을 체크하게 되면 Amphetamine 아이콘을 Dock에서 제거합니다. macOS 10.15와 그 윗 버전의 경우 설정 창 같이 Amphetamine 창을 띄우게 되면 Dock에 잠시 나타났다가 창을 닫게 되면 사라지게 됩니다.\n\nmacOS 10.14 및 아랫버전의 경우,  → 시스템 환경설정 → Dock 항목에서 'Dock에서 최근 사용한 응용 프로그램 보기'를 끄셔야 됩니다.\n\n• 움직임 줄이기\n이 항목을 체크하게 되면 Amphetamine 아이콘의 애니메이션이 줄어듭니다.\n\n경고 및 내용 초기화를 클릭하시게 되면 '더 이상 보이지 않기' 플래그가 달린 경고 메시지와 더불어 여럿 다이어로그를 지우게 됩니다.\n\n전체 설정 초기화는 모든 설정을 재설정하며, 여기엔 트리거들도 포함됩니다.";
 
+"help_message_other_body_post_highsierra_13" = "• Dock에서 Amphetamine 숨기기\n이 항목을 체크하게 되면 Amphetamine 아이콘을 Dock에서 제거합니다. macOS 10.15와 그 윗 버전의 경우 설정 창 같이 Amphetamine 창을 띄우게 되면 Dock에 잠시 나타났다가 창을 닫게 되면 사라지게 됩니다.\n\nmacOS 10.14 및 아랫버전의 경우,  → 시스템 설정 → Dock 항목에서 'Dock에서 최근 사용한 응용 프로그램 보기'를 끄셔야 됩니다.\n\n• 움직임 줄이기\n이 항목을 체크하게 되면 Amphetamine 아이콘의 애니메이션이 줄어듭니다.\n\n경고 및 내용 초기화를 클릭하시게 되면 '더 이상 보이지 않기' 플래그가 달린 경고 메시지와 더불어 여럿 다이어로그를 지우게 됩니다.\n\n전체 설정 초기화는 모든 설정을 재설정하며, 여기엔 트리거들도 포함됩니다.";
+
 // Body (macOS 10.11 - 10.13) ** NOTE: DO NOT REMOVE '\n' **
 "help_message_other_body_pre_mojave" = "• Dock에서 Amphetamine 숨기기\n이 항목을 체크하게 되면 Amphetamine 아이콘을 Dock에서 제거합니다.\n\n• 색상을 사용하여 빠른 설정에서 현재 상황 보이기\n이 항목을 체크하게 되면 빠른 설정의 항목에 각각의 색깔표시등이 나타나게 됩니다. 초록색 = 켜짐, 빨간색 = 꺼짐. 체크를 끄실경우, 체크 마크 = 켜짐, X 는 꺼짐을 나타냅니다.\n\n• 움직임 줄이기\n이 항목을 체크하게 되면 Amphetamine 아이콘의 애니메이션이 줄어듭니다.\n\n경고 및 내용 초기화를 클릭하시게 되면 '더 이상 보이지 않기' 플래그가 달린 경고 메시지와 더불어 여럿 대화를 지우게 됩니다.\n\n전체 설정 초기화는 모든 설정을 재설정하며, 여기엔 트리거들도 포함됩니다.";
+
+"help_message_other_body_pre_mojave_13" = "• Dock에서 Amphetamine 숨기기\n이 항목을 체크하게 되면 Amphetamine 아이콘을 Dock에서 제거합니다.\n\n• 색상을 사용하여 빠른 설정에서 현재 상황 보이기\n이 항목을 체크하게 되면 빠른 설정의 항목에 각각의 색깔표시등이 나타나게 됩니다. 초록색 = 켜짐, 빨간색 = 꺼짐. 체크를 끄실경우, 체크 마크 = 켜짐, X 는 꺼짐을 나타냅니다.\n\n• 움직임 줄이기\n이 항목을 체크하게 되면 Amphetamine 아이콘의 애니메이션이 줄어듭니다.\n\n경고 및 내용 초기화를 클릭하시게 되면 '더 이상 보이지 않기' 플래그가 달린 경고 메시지와 더불어 여럿 대화를 지우게 됩니다.\n\n전체 설정 초기화는 모든 설정을 재설정하며, 여기엔 트리거들도 포함됩니다.";
 
 
 
@@ -418,6 +453,8 @@
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_message_display_sleep_body" = "이 항목을 체크하게 되면, 세션이 실행되는 동안 화면만 잠들기에 들어갑니다. 만약 이를 조절하고 싶다면,  → 시스템 환경설정  → 에너지 절약 패널 혹은 배터리(Big Sur 이후)에서 이를 바꾸실수 있습니다.\n\참고로 이는 Triggers가 없는 세션에서만 영향을 받습니다. 트리거에 영향을 받는 세션의 경우, 각각의 트리거마다 이를 설정해 줘야 합니다.";
 
+"help_message_display_sleep_body_13" = "이 항목을 체크하게 되면, 세션이 실행되는 동안 화면만 잠들기에 들어갑니다. 만약 이를 조절하고 싶다면,  → 시스템 설정  → 에너지 절약 패널 혹은 배터리(Big Sur 이후)에서 이를 바꾸실수 있습니다.\n\참고로 이는 Triggers가 없는 세션에서만 영향을 받습니다. 트리거에 영향을 받는 세션의 경우, 각각의 트리거마다 이를 설정해 줘야 합니다.";
+
 // ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Closed-Display Mode Help Message
 
 // Title
@@ -425,6 +462,8 @@
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_message_closed_display_body" = "Amphetamine이 디스플레이가 닫혔을때도 계속 깨어있게 하고 싶으시다면 이 항목을 체크하지 말아주세요.\n\n일반적으로, 클림쉘 모드(디스플레이를 닫았을때 macOS를 구동시키는 모드)를 하려면 외부 디스플레이, 키보드와 마우스, 전원 어뎁터가 필요하지만, Amphetamine은 이를 무시하고 계속 잠들게 할수 있습니다.\n\n물론 이 항목은 맥이 클림쉘 모드를 지원하지 않는 경우 비활성화 됩니다.\n\n또한 이 설정은 트리거가 없는 세션에서만 구동됩니다. 만일 이 기능을 Triggers에서 사용하고 싶으시다면 설정 → 트리거에서 각각의 트리거에 이를 지정해줘야 합니다.\n\n만일 이 기능을 트리거가 걸려있는 상황에서 사용하길 원하신다면 설정 → 알림 → 클림쉘 모드에서 경고를 끄는걸 생각해볼 수도 있습니다.";
+
+"help_message_closed_display_body_13" = "Amphetamine이 디스플레이가 닫혔을때도 계속 깨어있게 하고 싶으시다면 이 항목을 체크하지 말아주세요.\n\n일반적으로, 클림쉘 모드(디스플레이를 닫았을때 macOS를 구동시키는 모드)를 하려면 외부 디스플레이, 키보드와 마우스, 전원 어뎁터가 필요하지만, Amphetamine은 이를 무시하고 계속 잠들게 할수 있습니다.\n\n물론 이 항목은 맥이 클림쉘 모드를 지원하지 않는 경우 비활성화 됩니다.\n\n또한 이 설정은 트리거가 없는 세션에서만 구동됩니다. 만일 이 기능을 Triggers에서 사용하고 싶으시다면 설정 → 트리거에서 각각의 트리거에 이를 지정해줘야 합니다.\n\n만일 이 기능을 트리거가 걸려있는 상황에서 사용하길 원하신다면 설정 → 알림 → 클림쉘 모드에서 경고를 끄는걸 생각해볼 수도 있습니다.";
 
 // ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Screen Saver Help Message
 
@@ -441,6 +480,8 @@
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_message_battery_body" = "• 배터리 충전량이 이보다 낮을 경우 세션 종료 ...\n이 항목을 체크하게 되면 전원 어뎁터가 안 꽂힌 상황에서 배터리 충전량이 정해진 값 아래로 내려가게 되면 세션을 종료하게 됩니다.\n\n• 세션을 종료하기 전에 확인\nAmphetamine이 자동으로 세션을 종료하기 전에 확인 메시지를 띄웁니다. 여기서 세션을 끌것인지 아님 켤 것인지 선택하실수 있습니다.\n\n• 전원 어뎁터가 꽂아져 있는 경우 배터리 충전량 무시\nAmphetamine이 전원 어뎁터가 꽂아져 있는 상황에서 배터리 충전률이 낮을경우 자동으로 세션을 종료하는걸 원치 않으신다면 체크해주세요.\n\n참고로 이는 트리거가 없는 세션에서만 영향을 받습니다. 트리거에 영향을 받는 세션의 경우, 각각의 트리거마다 이를 설정해 줘야 합니다.";
+
+"help_message_battery_body_13" = "• 배터리 충전량이 이보다 낮을 경우 세션 종료 ...\n이 항목을 체크하게 되면 전원 어뎁터가 안 꽂힌 상황에서 배터리 충전량이 정해진 값 아래로 내려가게 되면 세션을 종료하게 됩니다.\n\n• 세션을 종료하기 전에 확인\nAmphetamine이 자동으로 세션을 종료하기 전에 확인 메시지를 띄웁니다. 여기서 세션을 끌것인지 아님 켤 것인지 선택하실수 있습니다.\n\n• 전원 어뎁터가 꽂아져 있는 경우 배터리 충전량 무시\nAmphetamine이 전원 어뎁터가 꽂아져 있는 상황에서 배터리 충전률이 낮을경우 자동으로 세션을 종료하는걸 원치 않으신다면 체크해주세요.\n\n참고로 이는 트리거가 없는 세션에서만 영향을 받습니다. 트리거에 영향을 받는 세션의 경우, 각각의 트리거마다 이를 설정해 줘야 합니다.";
 
 // ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Power Adapter Help Message
 
@@ -492,6 +533,8 @@
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_message_lock_screen_body" = "• 화면이 이 시간 이후로 활동하지 않을시 ... \n이를 체크하게 되면 Amphetamine은 세션이 실행중이고, 특정시간이 지난후 Mac의 스크린을 잠그게 합니다. 세션이 안 켜져도 잠그게 하려면  → 시스템 환경설정 → 보안 및 개인 정보 보호 → 일반 에서 조절하시면 됩니다.\n\n• 커서를 이용하여 잠금 풀기\n이를 체크하게 되면 시스템 설정이 아니라 Amphetamine 의 잠금 설정을 변경합니다. 이 기능은 VNC/ARD/RDP를 사용하실때 도움이 되실수 있습니다.\n\n• 디스플레이가 닫히면 스크린 잠금\n이 항목을 체크하시게 되면 Amphetamine은 디스플레이가 닫히게 되면 자동으로 잠기게 됩니다. 이 기능은 세션이 실행중이며, 클림쉘 모드를 이용시 구동됩니다. 물론, Mac이 이 기능을 지원하지 않으면 구동되지 않습니다.";
+
+"help_message_lock_screen_body_13" = "• 화면이 이 시간 이후로 활동하지 않을시 ... \n이를 체크하게 되면 Amphetamine은 세션이 실행중이고, 특정시간이 지난후 Mac의 스크린을 잠그게 합니다. 세션이 안 켜져도 잠그게 하려면  → 시스템 설정 → 보안 및 개인 정보 보호 → 일반 에서 조절하시면 됩니다.\n\n• 커서를 이용하여 잠금 풀기\n이를 체크하게 되면 시스템 설정이 아니라 Amphetamine 의 잠금 설정을 변경합니다. 이 기능은 VNC/ARD/RDP를 사용하실때 도움이 되실수 있습니다.\n\n• 디스플레이가 닫히면 스크린 잠금\n이 항목을 체크하시게 되면 Amphetamine은 디스플레이가 닫히게 되면 자동으로 잠기게 됩니다. 이 기능은 세션이 실행중이며, 클림쉘 모드를 이용시 구동됩니다. 물론, Mac이 이 기능을 지원하지 않으면 구동되지 않습니다.";
 
 // ----- PREFERENCES → SESSIONS → ALL SESSIONS → Cursor Help Message
 
@@ -603,6 +646,8 @@
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_message_start_end_session_body" = "이 핫키를 통해 세션을 시작하거나 끌수 있습니다. 기본 시간 (설정 → 세션 기본값 → 기본 세션값) 이 세션의 시간으로 사용됩니다.\n\nA이 핫키 조합을 입력하고 난후, macOS 어디서나 이 핫키를 사용하실수 있습니다. Amphetamine이 가장 앞에 있어야 되는 앱은 아닐지라도 실행은 되어 있어야 합니ㄷ.\n\n만약 핫키 조합을 기록 할 수 없다면 이미 다른 앱에서 이 키 조합을 사용하고 있을수 있습니ㄷ.";
+
+"help_message_start_end_session_body_13" = "이 핫키를 통해 세션을 시작하거나 끌수 있습니다. 기본 시간 (설정 → 세션 기본값 → 기본 세션값) 이 세션의 시간으로 사용됩니다.\n\nA이 핫키 조합을 입력하고 난후, macOS 어디서나 이 핫키를 사용하실수 있습니다. Amphetamine이 가장 앞에 있어야 되는 앱은 아닐지라도 실행은 되어 있어야 합니ㄷ.\n\n만약 핫키 조합을 기록 할 수 없다면 이미 다른 앱에서 이 키 조합을 사용하고 있을수 있습니ㄷ.";
 
 // ----- PREFERENCES → HOT KEYS → Start Session Help Message
 
@@ -866,6 +911,7 @@
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_trigger_config_body" = "이름\n여러분의 트리거에 기억나는 이름을 지어주세요. 트리거의 이름은 알람에 뜰 뿐만 아니라, 상세 설정을 켜놨을 경우 자세하게 뜨게 됩니다.\n\기준\n여러분의 트리거는 하나 이상의 기준이 필요합니다. 새 기준을 넣으실려면, + 버튼을 눌러 추가하실수 있습니다. 기준을 삭제하시려면, 기준 테이블에서 선택한후 - 버튼을 눌러주세요.\n\n기타 옵션\n각각의 트리거는 디스플레이 잠자기를 허용하거나, 화면 보호기를 시작하거나 혹은 디스플레이가 닫혔을시 Mac을 잠자게 할 수 있습니다.";
 
+"help_trigger_config_body_13" = "이름\n여러분의 트리거에 기억나는 이름을 지어주세요. 트리거의 이름은 알람에 뜰 뿐만 아니라, 상세 설정을 켜놨을 경우 자세하게 뜨게 됩니다.\n\기준\n여러분의 트리거는 하나 이상의 기준이 필요합니다. 새 기준을 넣으실려면, + 버튼을 눌러 추가하실수 있습니다. 기준을 삭제하시려면, 기준 테이블에서 선택한후 - 버튼을 눌러주세요.\n\n기타 옵션\n각각의 트리거는 디스플레이 잠자기를 허용하거나, 화면 보호기를 시작하거나 혹은 디스플레이가 닫혔을시 Mac을 잠자게 할 수 있습니다.";
 
 
 
@@ -1062,6 +1108,7 @@
 
 // Body
 "criterion_help_audio_body" = "이 기준은 특정한 오디오 출력이 현재 Mac의 출력일 경우 충족됩니다.\n\n오디오 출력은  → 시스템 환경 설정 → 사운드 → 출력 에서 보실수 있습니다.";
+"criterion_help_audio_body_13" = "이 기준은 특정한 오디오 출력이 현재 Mac의 출력일 경우 충족됩니다.\n\n오디오 출력은  → 시스템 환경 설정 → 사운드 → 출력 에서 보실수 있습니다.";
 
 
 // ----- Criterion Bluetooth Help Message
@@ -1071,6 +1118,8 @@
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "criterion_help_bluetooth_body" = "이 기준은 특정한 Bluetooth 디바이스가 Mac에 연결되면 충족합니다. Bluetooth 디바이스는 Mac에 페어링 되어야 목록에 보입니다.\n\n새로운 Bluetooth 디바이스를 페어링 하실려면  → 시스템 환경설정 → Bluetooth 에서 하시면 됩니다.";
+
+"criterion_help_bluetooth_body_13" = "이 기준은 특정한 Bluetooth 디바이스가 Mac에 연결되면 충족합니다. Bluetooth 디바이스는 Mac에 페어링 되어야 목록에 보입니다.\n\n새로운 Bluetooth 디바이스를 페어링 하실려면  → 시스템 설정 → Bluetooth 에서 하시면 됩니다.";
 
 
 // ----- Criterion Cisco AnyConnect VPN Help Message
@@ -1117,7 +1166,7 @@
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "criterion_help_dns_body" = "이 기준은 Mac이 특정한 DNS 서버나 주소를 사용하고 있는가에 따라 충족됩니다. 현재 주소를 추가하고자 한다면, + 버튼을 눌러주세요. 그리고 DNS 주소를 제외하겠다 하면 주소를 선택하신후 - 버튼을 눌러주시면 됩니다.\n\n만일 시스템 환경설정에서 변경하시거나 혹은 최근에 네트워크 설정에서 변경하셨더라면 macOS가 Amphetamine을 업데이트 하는데 몇분이 걸릴수 있습니다. \n\n주의: 이 트리거는 즉각적으로 반응하지 않을수 있습니다. Amphetamine은 현재 Mac의 DNS 서버로 쿼리를 보내는데, 변화를 리포트 하는데 1~2분이 소요될 수 있습니다.";
 
-
+"criterion_help_dns_body_13" = "이 기준은 Mac이 특정한 DNS 서버나 주소를 사용하고 있는가에 따라 충족됩니다. 현재 주소를 추가하고자 한다면, + 버튼을 눌러주세요. 그리고 DNS 주소를 제외하겠다 하면 주소를 선택하신후 - 버튼을 눌러주시면 됩니다.\n\n만일 시스템 설정에서 변경하시거나 혹은 최근에 네트워크 설정에서 변경하셨더라면 macOS가 Amphetamine을 업데이트 하는데 몇분이 걸릴수 있습니다. \n\n주의: 이 트리거는 즉각적으로 반응하지 않을수 있습니다. Amphetamine은 현재 Mac의 DNS 서버로 쿼리를 보내는데, 변화를 리포트 하는데 1~2분이 소요될 수 있습니다.";
 
 
 
@@ -1168,7 +1217,9 @@
 "statbar_mi_app_BigSur" = "앱이 실행중일경우";
 "statbar_mi_file" = "파일을 다운로드 중일경우...";
 "statbar_mi_qp" = "빠른 설정";
+"statbar_mi_qp_13" = "빠른 설정";
 "statbar_mi_prefs" = "설정...";
+"statbar_mi_prefs_13" = "설정...";
 "statbar_mi_about" = "Amphetamine에 대하여";
 "statbar_mi_fb_support" = "피드백 & 지원";
 "statbar_mi_troubleshoot" = "문제해결 & FAQs";
@@ -1206,6 +1257,8 @@
 // ** NOTE: DO NOT REMOVE '\n' **
 "ww2_lbl_message" = "기본적으로, Amphetamine을 클릭하면 메뉴바가 뜨게 되어 있으며, 오른쪽 클릭(혹은 보조 클릭)은 Amphetamine을 원하시는대로 활성화 하거나 비활성화 할수 있지요.\n\n또한 Amphetamine은 매우 뜯어고치기 쉽습니다. 메뉴바 이미지를 뜯거나, 알림을 변경한다던가, Amphetamine의 알림소리등을 고칠 수 있습니다.";
 
+"ww2_lbl_message_13" = "기본적으로, Amphetamine을 클릭하면 메뉴바가 뜨게 되어 있으며, 오른쪽 클릭(혹은 보조 클릭)은 Amphetamine을 원하시는대로 활성화 하거나 비활성화 할수 있지요.\n\n또한 Amphetamine은 매우 뜯어고치기 쉽습니다. 메뉴바 이미지를 뜯거나, 알림을 변경한다던가, Amphetamine의 알림소리등을 고칠 수 있습니다.";
+
 "ww2_bttn_find_amph" = "클릭하여 Amphetamine이 어디 있는지 보세요";
 
 // WELCOME WINDOW #3
@@ -1215,6 +1268,8 @@
 // ** NOTE: DO NOT REMOVE '\n' **
 "ww3_lbl_message" = "Amphetamine이 macOS를 잠 못들게 하는것을 가리켜 \"세션\" 이라 합니다. 세션을 시작하실려면, Amphetamine을 클릭하신 후 세션 시간을 선택해주시면 됩니다. 물론, 클릭과 더불어 기본 세션시간을 설정 → 세션에서 변경하실 수 있습니다.\n\n맥북을 쓰시면서 디스플레이만 잠들게하는 것도 가능합니다. 이 경우 혹시나 모르니 Amphetamine Enhancer를 설치 하시는 것을 추천드립니다.";
 
+"ww3_lbl_message_13" = "Amphetamine이 macOS를 잠 못들게 하는것을 가리켜 \"세션\" 이라 합니다. 세션을 시작하실려면, Amphetamine을 클릭하신 후 세션 시간을 선택해주시면 됩니다. 물론, 클릭과 더불어 기본 세션시간을 설정 → 세션에서 변경하실 수 있습니다.\n\n맥북을 쓰시면서 디스플레이만 잠들게하는 것도 가능합니다. 이 경우 혹시나 모르니 Amphetamine Enhancer를 설치 하시는 것을 추천드립니다.";
+
 "ww3_bttn_learn_amph_enh" = "Amphetamine Enhancer에 대해서 더 자세한 정보는 여길 클릭해주세요";
 
 // WELCOME WINDOW #4
@@ -1223,6 +1278,8 @@
 
 // ** NOTE: DO NOT REMOVE '\n' **
 "ww4_lbl_message" = "Amphetamine의 트리거는 Wi-Fi 연결, 배터리 사용량, USB 및 Bluetooth 장비 연결, 특정한 날 혹은 시간, 실행중인 애플리케이션, IP 주소 등등을 모두 자동화 하여 세션을 지정할 수 있습니다. Amphetamine 설정에서 첫 트리거를 만드시거나 혹은 물음표 버튼을 눌러 더 많은 정보를 얻으실 수 있습니다.\n\nDrive Alive는 각각의 드라이브에 정기적으로 데이터를 써서 드라이브를 계속 유지시켜 줍니다. 설정의 Drive Alive에서 더 많은 정보를 보실 수 있습니다.";
+
+"ww4_lbl_message_13" = "Amphetamine의 트리거는 Wi-Fi 연결, 배터리 사용량, USB 및 Bluetooth 장비 연결, 특정한 날 혹은 시간, 실행중인 애플리케이션, IP 주소 등등을 모두 자동화 하여 세션을 지정할 수 있습니다. Amphetamine 설정에서 첫 트리거를 만드시거나 혹은 물음표 버튼을 눌러 더 많은 정보를 얻으실 수 있습니다.\n\nDrive Alive는 각각의 드라이브에 정기적으로 데이터를 써서 드라이브를 계속 유지시켜 줍니다. 설정의 Drive Alive에서 더 많은 정보를 보실 수 있습니다.";
 
 "ww4_bttn_learn_triggers" = "클릭하여 트리거에 대해 더 알아보기";
 
@@ -1246,7 +1303,7 @@
 
 // ** NOTE: DO NOT REMOVE '\n' **
 "about_lbl_message" = "Amphetamine은 제 첫번쩌 Objective-C 프로젝트입니다. 2014년부터 개발이 이뤄져, Amphetamine은 맥을 깨우는 강력하면서 유명한 앱으로 자리내김 하였습니다. 여러분의 제안과 피드백, 그리고 지원은 Amphetamine을 더 성장하게 해주셨습니다. 감사합니다. Amphetamine은 언제나 광고 없는 100% 무료 앱입니다. 물론 인앱 결재나 유료 업그레이드도 없을것입니다.\n\nAmphetamine은 제 친구인 Isaac Kirkman과의 기억에 바칩니다.\n\nWilliam Gustafson\nAmphetamine 개발자";
-"about_lbl_hard_work" = "🥵 Amphetamine를 만드는건 힘든 일이죠. 🥵";
+"about_lbl_hard_work" = "Amphetamine를 만드는건 힘든 일이죠.";
 "about_bttn_support" = "지원 요청하기";
 "about_bttn_rate" = "App Store에 별점 남기기";
 "about_bttn_ack" = "감사의 말";
@@ -1260,6 +1317,7 @@
 // ---------------------------------------------------------------------------
 
 "qp_lbl_about" = "빠른 설정 항목들은 현재 설정들을 보여주며, 현재 세션에 반드시 들어가는건 아닙니다.";
+"qp_lbl_about_13" = "빠른 설정 항목들은 현재 설정들을 보여주며, 현재 세션에 반드시 들어가는건 아닙니다.";
 "qp_lbl_nt_sess" = "세션 기본값";
 "qp_lbl_all_sess" = "시스템 제어";
 "qp_lbl_other" = "기타"; // 其他
@@ -1276,11 +1334,12 @@
 
 // Title
 "help_quick_prefs_title" = "빠른 설정";
+"help_quick_prefs_title_13" = "빠른 설정";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_quick_prefs_body" = "각각의 빠른 설정 항목들은 현 Amphetamine의 설정과 연결되어 있습니다.\n\n이는 현재 빠른 설정이 현재 세션의 상황을 보여주지 않는다는 걸 보여줍니다. 이는 특히 트리거 세션에서 더 잘보여집니다.\n\n현재 세션의 활동들은 빠른 설정에서 즉시 변경할수 있습니다. 빠른 설정에서 자세한 메뉴를 끄시거나 켜실려면 환경설정 → 모양 → 기타 메뉴바 모양에서 설정가능합니다.";
 
-
+"help_quick_prefs_body_13" = "각각의 빠른 설정 항목들은 현 Amphetamine의 설정과 연결되어 있습니다.\n\n이는 현재 빠른 설정이 현재 세션의 상황을 보여주지 않는다는 걸 보여줍니다. 이는 특히 트리거 세션에서 더 잘보여집니다.\n\n현재 세션의 활동들은 빠른 설정에서 즉시 변경할수 있습니다. 빠른 설정에서 자세한 메뉴를 끄시거나 켜실려면 환경설정 → 모양 → 기타 메뉴바 모양에서 설정가능합니다.";
 
 // ---------------------------------------------------------------------------
 // ----- OTHER HELP MESSAGES
@@ -1311,6 +1370,8 @@
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "cdm_warning_body" = "• 전원 상태\n클림쉘 모드 세션은 Mac의 전원 연결이 끊기거나 혹은 재연결 될 경우 꺼질 수 있습니다. 또한 세션이 시작된 후 전원 연결이 끊기거나 혹은 재 연결 될 경우에도 꺼질 수 있으며, 세션 중 어느 시점에서 외부 전원과 더불어 어뎁터가 연결되어도 꺼질 수 있습니다. 이런 제한은 다른 세션 종류에 영향을 주지 않으며, macOS에서 이를 강제합니다.\n\n• 왜 그런가 하면 까먹고 가방이나 케이스에 넣었을시에 클림쉘 모드에서 발열이 나거나 혹은 배터리가 닳을 수 있기 때문입니다.\nAmphetamine의 설정 →  알림에서 이를 켤 수 있습니다.\n\n• Amphetamine Enhancer에서 제공하는 안전 장치\n 만약 Amphetamine 이 클림쉘 모드에서 충돌이 발생할 경우, Amphetamine을 새로 시작하거나 혹은 다시 시작할깨까지 사용을 못 하실수 있습니다. Amphetamine Enhancer는 이에 대해 안전 장치를 제공해 주니, 설치하시는 것을 추천드립니다.";
+
+"cdm_warning_body_13" = "• 전원 상태\n클림쉘 모드 세션은 Mac의 전원 연결이 끊기거나 혹은 재연결 될 경우 꺼질 수 있습니다. 또한 세션이 시작된 후 전원 연결이 끊기거나 혹은 재 연결 될 경우에도 꺼질 수 있으며, 세션 중 어느 시점에서 외부 전원과 더불어 어뎁터가 연결되어도 꺼질 수 있습니다. 이런 제한은 다른 세션 종류에 영향을 주지 않으며, macOS에서 이를 강제합니다.\n\n• 왜 그런가 하면 까먹고 가방이나 케이스에 넣었을시에 클림쉘 모드에서 발열이 나거나 혹은 배터리가 닳을 수 있기 때문입니다.\nAmphetamine의 설정 →  알림에서 이를 켤 수 있습니다.\n\n• Amphetamine Enhancer에서 제공하는 안전 장치\n 만약 Amphetamine 이 클림쉘 모드에서 충돌이 발생할 경우, Amphetamine을 새로 시작하거나 혹은 다시 시작할깨까지 사용을 못 하실수 있습니다. Amphetamine Enhancer는 이에 대해 안전 장치를 제공해 주니, 설치하시는 것을 추천드립니다.";
 
 
 // ----- FAILED CLOSED DISPLAY MODE SESSION WARNING
@@ -1361,6 +1422,9 @@
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "sess_is_trigger_body" = "트리거를 쓰지 않은 세션의 설정을 변경하셨습니다.\n\n각각의 트리거는 %@개의 설정을 가지고 있으며, 트리거를 수정할수 있습니다. 트리거를 수정하고자 하신다면, 설정 → 트리거에 들어가신 후 더블클릭하여 원하시는 대로 수정하시면 됩니다. 만약 임시적으로 %@ %@ 기한을 가진 트리거를 만들고자 하신다면, Amphetamine의 메뉴의 자세한 현재 설정에서 %@ ~ %@ 체크를 켜주시면 됩니다.\n\n만일 현재 메뉴에서 자세하게 안나온다면, 메뉴 → 모양 → 현재 세션 내용을 자세하게 보여주기를 체크 하시면 됩니다.";
 
+"sess_is_trigger_body_13" = "트리거를 쓰지 않은 세션의 설정을 변경하셨습니다.\n\n각각의 트리거는 %@개의 설정을 가지고 있으며, 트리거를 수정할수 있습니다. 트리거를 수정하고자 하신다면, 설정 → 트리거에 들어가신 후 더블클릭하여 원하시는 대로 수정하시면 됩니다. 만약 임시적으로 %@ %@ 기한을 가진 트리거를 만들고자 하신다면, Amphetamine의 메뉴의 자세한 현재 설정에서 %@ ~ %@ 체크를 켜주시면 됩니다.\n\n만일 현재 메뉴에서 자세하게 안나온다면, 메뉴 → 모양 → 현재 세션 내용을 자세하게 보여주기를 체크 하시면 됩니다.";
+
+
 // ----- LOCK SCREEN MESSAGE
 
 "lck_scrn_request_title" = "스크린을 잠그기 위해 Amphetamine은 손쉬운 사용 기능을 필요로 합니다.";
@@ -1368,12 +1432,16 @@
 // ** NOTE: DO NOT REMOVE '\n' **
 "lck_scrn_request_body" = " → 시스템 환경설정 → 보안 및 개인 정보 보호에서 개인 정보 보호 → 손쉬운 사용에서 Amphetamine을 허가해주시면 됩니다.\n\n시스템 환경 설정 왼쪽 아래의 자물쇠를 클릭하신 후 Mac의 비밀번호를 넣으시면 됩니다. 그런 후, Amphetamine을 클릭하시거나 없으면 + 버튼을 클릭하신 후 Amphetamine.app 을 넣어주신후 체크해주시면 됩니다. 설정하신후 다시 한번 시도해보세요.";
 
+"lck_scrn_request_body_13" = " → 시스템 설정 → 보안 및 개인 정보 보호에서 개인 정보 보호 → 손쉬운 사용에서 Amphetamine을 허가해주시면 됩니다.\n\n시스템 환경 설정 왼쪽 아래의 자물쇠를 클릭하신 후 Mac의 비밀번호를 넣으시면 됩니다. 그런 후, Amphetamine을 클릭하시거나 없으면 + 버튼을 클릭하신 후 Amphetamine.app 을 넣어주신후 체크해주시면 됩니다. 설정하신후 다시 한번 시도해보세요.";
+
 
 // ----- CURSOR MOVEMENT MESSAGE
 
 "move_cursor_request_title" = "커서를 움직이기 위해, Amphetamine은 손쉬운 사용 기능을 필요로 합니다.";
 
 "move_cursor_request_body" = " → 시스템 환경설정 → 보안 및 개인 정보 보호에서 개인 정보 보호 → 손쉬운 사용에서 Amphetamine을 허가해주시면 됩니다.\n\n시스템 환경 설정 왼쪽 아래의 자물쇠를 클릭하신 후 Mac의 비밀번호를 넣으시면 됩니다. 그런 후, Amphetamine을 클릭하시거나 없으면 + 버튼을 클릭하신 후 Amphetamine.app 을 넣어주신후 체크해주시면 됩니다. 설정하신후 다시 한번 시도해보세요";
+
+"move_cursor_request_body_13" = " → 시스템 설정 → 보안 및 개인 정보 보호에서 개인 정보 보호 → 손쉬운 사용에서 Amphetamine을 허가해주시면 됩니다.\n\n시스템 환경 설정 왼쪽 아래의 자물쇠를 클릭하신 후 Mac의 비밀번호를 넣으시면 됩니다. 그런 후, Amphetamine을 클릭하시거나 없으면 + 버튼을 클릭하신 후 Amphetamine.app 을 넣어주신후 체크해주시면 됩니다. 설정하신후 다시 한번 시도해보세요";
 
 
 // ----- WHILE FILE IS DOWNLOADING MESSAGE
@@ -1416,6 +1484,7 @@
 "alert_dont_show_again" = "이런 메시지 보지 않기";
 "alert_dont_ask_again" = "다음부터 묻지 말기";
 "alert_open_sys_prefs" = "시스템 환경설정 열기";
+"alert_open_sys_prefs_13" = "시스템 설정 열기";
 
 // GENERIC ERROR MESSAGE
 "error_generic_went_wrong_title" = "에... 뭔가 잘못되었습니다";
@@ -1430,6 +1499,8 @@
 
 "alert_trig_scn_svr_title" = "이 트리거는 화면 보호기를 설정할 수 없습니다.";
 "alert_trig_scn_svr_body" = "이 트리거가 화면 보호기를 설정할 수 없다면, 이 세션에서 설정 하실수 있습니다. 이 트리거가 화면 보호기를 켜놓는 걸 설정하실려면 설정 → 트리거에 들어가셔서 트리거를 더블 클릭한 후 수정하시면 됩니다.\n\n다른 방법으로는 이 세션에서 화면 보호기를 허용하시고, 지연을 선택하신 후, 화먼 보호기 활성화를 선택하시면 됩니다.";
+
+"alert_trig_scn_svr_body_13" = "이 트리거가 화면 보호기를 설정할 수 없다면, 이 세션에서 설정 하실수 있습니다. 이 트리거가 화면 보호기를 켜놓는 걸 설정하실려면 설정 → 트리거에 들어가셔서 트리거를 더블 클릭한 후 수정하시면 됩니다.\n\n다른 방법으로는 이 세션에서 화면 보호기를 허용하시고, 지연을 선택하신 후, 화먼 보호기 활성화를 선택하시면 됩니다.";
 
 // ----- DRIVE ALIVE SANDBOX ALERT
 "alert_drivealive_tech_det_title" = "몇가지 기술적 문제가 있습니다...";
@@ -1451,6 +1522,7 @@
 // ----- LOCK SCREEN FAILURE
 "alert_lck_scrn_fail_title" = "Amphetamine이 스크린을 잠글 수 없습니다.";
 "alert_lck_scrn_fail_body" = "설정 → 시스템 제어에서 이 기능을 다시 허용해주세요.";
+"alert_lck_scrn_fail_body_13" = "설정 → 시스템 제어에서 이 기능을 다시 허용해주세요.";
 
 // ----- DEFAULT DURATION
 "alert_dd_less_one_min_title" = "기본 시간값은 1분 미만이 될 수 없습니다.";
@@ -1466,7 +1538,9 @@
 
 // ----- RESET PREFERENCES CONFIRMATION
 "prefs_reset_conf_title" = "정말로 Amphetamine의 설정을 모두 초기화 하시겠습니까?";
+"prefs_reset_conf_title_13" = "정말로 Amphetamine의 설정을 모두 초기화 하시겠습니까?";
 "prefs_reset_conf_body" = "초기화를 실행하게 되면 기본값으로 돌아오지만, 모든 트리거 값과 더불어 Drive Alive 설정 값을 잃게 됩니다.";
+"prefs_reset_conf_body_13" = "초기화를 실행하게 되면 기본값으로 돌아오지만, 모든 트리거 값과 더불어 Drive Alive 설정 값을 잃게 됩니다.";
 
 // ----- RESET WARNINGS & DIALOGS CONFIRMATION
 "warn_diag_reset_conf_title" = "성공적으로 경고와 다이어로그를 지웠습니다.";
@@ -1479,6 +1553,7 @@
 // ----- DNS SERVER CRITERIA MESSAGE
 "dns_no_new_serv_title" = "새로운 DNS 서버를 찾을 수 없습니다.";
 "dns_no_new_serv_body" = "현재 목록에 있는 DNS 서버는 macOS에서 받고 있습니다. 만약 네트워크 설정 혹은 시스템 환경설정에서 DNS 서버를 바꾸었다면 몇분 후에 다시 시도해주세요.";
+"dns_no_new_serv_body_13" = "현재 목록에 있는 DNS 서버는 macOS에서 받고 있습니다. 만약 네트워크 설정 혹은 시스템 설정에서 DNS 서버를 바꾸었다면 몇분 후에 다시 시도해주세요.";
 
 // ----- DRIVE ALIVE WRITE ERROR
 "drive_alive_write_err_title" = "오류가 발생하였습니다.";
@@ -1499,6 +1574,9 @@
 
 // PLACEHOLDER IS NAME OF TRIGGER
 "alert_disable_trig_body" = "세션을 종료하려면 다음 트리거를 비활성화해야 합니다: \n\n%@\n\n아래 버튼을 통해 모든 트리거를 비활성화할 수도 있으며, 또는 Amphetamine 설정에서 개별 트리거를 비활성화할 수 있습니다. 비활성화된 트리거는 설정에서 언제든 다시 활성화할 수 있습니다.";
+
+"alert_disable_trig_body_13" = "세션을 종료하려면 다음 트리거를 비활성화해야 합니다: \n\n%@\n\n아래 버튼을 통해 모든 트리거를 비활성화할 수도 있으며, 또는 Amphetamine 설정에서 개별 트리거를 비활성화할 수 있습니다. 비활성화된 트리거는 설정에서 언제든 다시 활성화할 수 있습니다.";
+
 
 "alert_disable_trig_bttn_disable" = "모든 트리거 비활성화";
 "alert_disable_trig_bttn_suppress" = "다음부터는 묻지 않고 모두 비활성화";
@@ -1534,8 +1612,12 @@
 
 "amph3_prefs_cnvrt_message" = "새롭고 멋진 Amphetamine 5로 인해 현재 사용중이신 Amphetamine 3의 설정을 병합하거나 혹은 리셋해야 합니다. 만약 병합을 선택하시게 되면 모든 기존 설정들 (트리거, Drive Alive 설정, 설정, 아이콘, 기본 시간, 핫키 등등.)을 새 Amphetamine 5 포맷으로 병합합니다.\n\n물론, 여기엔 약간의 위험이 따릅니다. Amphetamine 3 설정을 잃기 싫으시다면, 병합하기 전에 백업을 해주세요.\n\n\만약 새로 시작하고 싶으시다면 재설정을 선택하시면 됩니다. (행운이 깃들길!) 만약 이 메시지가 불편하다면 그냥 리셋을 누르시면 됩니다.";
 
+"amph3_prefs_cnvrt_message_13" = "새롭고 멋진 Amphetamine 5로 인해 현재 사용중이신 Amphetamine 3의 설정을 병합하거나 혹은 리셋해야 합니다. 만약 병합을 선택하시게 되면 모든 기존 설정들 (트리거, Drive Alive 설정, 설정, 아이콘, 기본 시간, 핫키 등등.)을 새 Amphetamine 5 포맷으로 병합합니다.\n\n물론, 여기엔 약간의 위험이 따릅니다. Amphetamine 3 설정을 잃기 싫으시다면, 병합하기 전에 백업을 해주세요.\n\n\만약 새로 시작하고 싶으시다면 재설정을 선택하시면 됩니다. (행운이 깃들길!) 만약 이 메시지가 불편하다면 그냥 리셋을 누르시면 됩니다.";
+
 "amph3_prefs_cnvrt_backedup" = "Amphetamine의 설정을 백업했습니다.";
+"amph3_prefs_cnvrt_backedup_13" = "Amphetamine의 설정을 백업했습니다.";
 "amph3_prefs_cnvrt_ask" = "이제 병합하거나 혹은 설정 재설정을 물어 볼 것입니다.";
+"amph3_prefs_cnvrt_ask_13" = "이제 병합하거나 혹은 설정 재설정을 물어 볼 것입니다.";
 
 
 

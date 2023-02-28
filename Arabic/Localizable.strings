@@ -1,0 +1,1711 @@
+/*
+ 
+  Localizable.strings
+  Amphetamine
+
+  Created by William Gustafson on 2/21/20.
+  Copyright © 2023 William C. Gustafson. All rights reserved.
+ 
+*/
+
+
+// BEGIN NEW STRINGS ADDED FOR v5.2.3
+// NOTE: "Closed-Display Mode" is translated as "وضع الشاشة المغلقة"
+
+"cdm_install_script_alert_title" = "Action Required For Closed-Display Mode on Apple Silicon";
+
+"cdm_install_script_alert_body" = "Due to hardware changes introduced with Apple Silicon, Closed-Display Mode has new requirements.\n\nTo be able to connect or disconnect your Mac's power adapter without interrupting the Closed-Display Mode session, Amphetamine needs to install and run a script whenever a Closed-Display Mode session begins or ends. The script must be installed in Amphetamine's Application Scripts folder.\n\nEach time the script runs, authentication will be required. The authentication prompt will say \"osascript wants to make changes.\" After you authenticate, the script will run. If you do not want to authenticate each Closed-Display Mode session, click the Skip button below.\n\nIf you skip installing the Closed-Display Mode script, you won't be asked about this again, and you may experience closed-display mode session interruptions when connecting or disconnecting your Mac's power adapter. If you select Skip but later want to install the script, go to Amphetamine Settings → General, click Reset Warnings and Dialogs, and start a Closed-Display Mode session.";
+
+"cdm_install_script_button" = "Install Script";
+
+"cdm_skip_script_button" = "Skip";
+
+"cdm_remind_me_script_button" = "Remind Me Later";
+
+"cdm_anomaly_alert_title" = "Amphetamine detected an anomaly with your Mac's sleep settings.";
+
+"cdm_anomaly_alert_body" = "An Amphetamine session is not currently active, but your Mac appears to be configured to prevent sleep when in Closed-Display Mode. This can lead to unexpected battery drain and/or overheating.\n\nTo correct this issue, Amphetamine needs to run, and if necessary, install a script. You will be prompted to install the script, if needed, and then prompted to authenticate running the script.\n\nThis issue may have occurred due to a Amphetamine crashing during a Closed-Display Mode session, or by someone manually disabling sleep on your Mac.";
+
+"cdm_anomaly_alert_ignore_button" = "Ignore";
+
+"cdm_anomaly_alert_fix_button" = "Fix Issue";
+
+"cdm_script_fail_alert_title" = "Closed-Display Mode Script Failure";
+
+"cdm_script_fail_alert_body_disable" = "Amphetamine attempted to run a script to disable Closed-Display Mode, but the script either wasn't authenticated successfully or it was cancelled.\n\nYour Mac may still be preventing sleep when the display is closed. This can lead to unexpected battery drain or overheating.\n\nWhen Amphetamine prompts you to fix this issue, it is highly recommended you choose \"Fix Issue.\" You'll be prompted to authenticate allowing \"osascript\" to make changes.";
+
+"cdm_script_fail_alert_body_enable" = "Amphetamine attempted to run a script to enable Closed-Display Mode, but the script either wasn't authenticated successfully or it was cancelled.\n\nYour Mac may still be allowing sleep when the display is closed.\n\nTo fix this issue, end the current session and start a new one. When prompted to allow \"osascript\" to make changes, follow the on-screen directions to successfully authenticate.";
+
+// END NEW STRINGS ADDED FOR v5.2.3
+
+// ---------------------------------------------------------------------------
+// GENERAL USE STRINGS
+
+// THE APP'S NAME, DON'T TRANSLATE
+"gen_use_app_name" = "أمفيتامين";    
+
+// THE NAME OF THE TARGET LANGUAGE
+// EXAMPLE: PUT "SPANISH" HERE IF YOU ARE TRANSLATING INTO THE SPANISH LANGUAGE
+ "gen_use_locale" = "العربية";
+
+// USED IN BUTTONS, MENUS
+"gen_use_end_session_cap" = "إنهاء الجلسة";
+
+// USED TO INFORM USER OF KEY COMMAND
+"gen_use_command_x" = "⌘ X";
+
+// USED IN BUTTONS, MENUS
+"gen_use_cont_session_cap" = "استكمال الجلسة";
+
+// USED IN MENU
+"gen_use_close_menu" = "إغلاق القائمة";
+
+// USED IN SENTENCES
+// EXAMPLE: THERE ARE 10 MINUTES REMAINING IN THIS SESSION.
+"gen_use_remaining" = "متبقية";
+
+// USED IN SENTENCES
+// EXAMPLE USAGE: BATTERY IS 100% 'CHARGED'
+"gen_use_charged" = "مشحونة";
+
+// EXAMPLE USAGE: POWER ADAPTER CONNECTED 'AND'/'OR' BATTERY 100% CHARGED
+"gen_use_and" = "و";
+
+// EXAMPLE USAGE: POWER ADAPTER CONNECTED 'OR' BATTERY 100% CHARGED
+"gen_use_or" = "أو";
+
+// EXAMPLE USAGE: CLICK THE BUTTON LABELED 'SAVE' TO KEEP YOUR CHANGES
+"gen_use_save" = "حفظ";
+
+// EXAMPLE USAGE: CLICK THE BUTTON LABELED 'CANCEL' TO DISCARD YOUR CHANGES
+"gen_use_cancel" = "إلغاء";
+
+// EXAMPLE USAGE: CLICK THE BUTTON LABELED 'CONTINUE' TO PROCEED
+"gen_use_continue" = "متابعة";
+
+// EXAMPLE USAGE: CLICK THE BUTTON LABELED 'SELECT' TO CONFIRM YOUR SELECTION
+"gen_use_select" = "اختر";
+
+// USED AS A BUTTON LABEL OR MENU ITEM TITLE, ACTIONABLE, CLICKING ON THIS WILL END A SESSION
+"gen_use_end_session" = "إنهاء الجلسة الحالية";
+
+// USED IN CONJUNCTION WITH A NUMBER, EXAMPLE USAGE: Duration = 10 'hours'
+"gen_use_days" = "أيام";
+"gen_use_day" = "يوم";
+"gen_use_hours" = "ساعات";
+"gen_use_hour" = "ساعة";
+"gen_use_minutes" = "دقائق";
+"gen_use_minute" = "دقيقة";
+"gen_use_seconds" = "ثوانِ";
+"gen_use_second" = "ثانية";
+
+// USED AS A CATEGORY, EXAMPLE: MENU NAME 'HOURS' SUBMENU CONTAINS "1 HOUR", "2 HOURS", ETC.
+"gen_use_hours_cap" = "بالساعات";
+"gen_use_minutes_cap" = "بالثواني";
+
+// TIME UNIT ABBREVIATIONS
+// EXAMPLE: 1h 30m = 1 HOUR 30 MINUTES
+"duration_abbrv_hours_h" = "س";
+"duration_abbrv_hours_hrs" = "ساعة";
+
+"duration_abbrv_minutes_mins" = "دقائق";
+"duration_abbrv_minutes_m" = "د";
+
+"duration_abbrv_seconds_secs" = "ثوان";
+"duration_abbrv_seconds_s" = "ث";
+
+// USED IN SENTENCE; EXAMPLE: 10 MINUTES 'OF INACTIVITY'
+"gen_use_of_inactivity" = "من الخمول";
+
+// USED IN BUTTON TITLE FOR OTHER TIME DURATION SESSIONS
+// EXAMPLE: 'FOR' 3 HOURS, 'UNTIL' 5:00 PM
+"gen_use_other_time_for_cap" = "مدة";
+"gen_use_other_time_until_cap" = "إلى";
+
+// USED TO INDICATE A CUSTOM TIME SELECTION AS OPPOSED TO THE STANDARD SELECTIONS
+// EXAMPLE: " 'OTHER TIME:' 2 HRS 16 MINS "
+"gen_use_other_time_colon" = "وقت آخر:";
+
+// USED TO INDICATE THAT NO DEVICES (i.e. USB or BLUETOOTH DEVICE) ARE CONNECTED TO THIS MAC
+"gen_use_no_recog_dev" = "لم يتم توصيل أي أجهزة معترف بها";
+
+// USED TO PROMPT USER TO CONTINUE OR END A SESSION
+"gen_use_cont_session" = "هل ترغب في مواصلة هذه الجلسة؟";
+
+// EXAMPLE 100 'PIXELS' WIDE
+"gen_use_pixels" = "بكسل";
+
+// EXAMPLE 1 'PIXEL' WIDE
+"gen_use_pixel" = "بكسل";
+
+// THE LOCALIZED NAME OF THE FINDER APP IN THE TARGET LANGUAGE. MAY BE FINDER AND NO CHANGED NEEDED
+"finder_app_name" = "Finder";
+
+// THE LOCALIZED PATH TO THE USER LIBRARY → PREFERENCES DIRECTORY
+// DO NOT ADD ~ OR ANY OTHER PATH COMPONENTS
+// FULL PATH IS GENERATED DYNAMICALLY USING ACCOUNT SHORT NAME
+// ONLY TRANSLATE THIS IF THESE FOLDER NAMES APPEAR DIFFERENTLY IN THE TARGET LANGUAGE
+// OTHERWISE, DO NOT TRANSLATE
+"path_to_usr_prefs" = "/Library/Preferences/";
+
+// Used to denote the version of the app. Example: Version 5.0
+"gen_use_version_cap" = "النسخة";
+
+// USED AS BUTTON LABEL/TITLE IN RESPONSE TO A QUESTION
+// EXAMPLE: Q: IS THIS DRIVE A NETWORK VOLUME? BUTTON TITLES: 'YES', 'NO'
+"gen_use_yes_cap" = "نعم";
+"gen_use_no_cap" = "لا";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// SESSION DURATIONS
+// USED PRIMARILY IN IN MENUS AS SELECTABLE ITEMS
+
+"pref_duration_other" = "وقت آخر...";
+"pref_duration_indef" = "إلى أجل غير مسمى";
+"pref_duration_5secs" = "5 ثوان";
+"pref_duration_10secs" = "10 ثوان";
+"pref_duration_15secs" = "15 ثوان";
+"pref_duration_30secs" = "30 ثوان";
+"pref_duration_1min" = "دقيقة";
+"pref_duration_5mins" = "5 دقائق";
+"pref_duration_10mins" = "10 دقائق";
+"pref_duration_15mins" = "15 دقيقة";
+"pref_duration_20mins" = "20 دقيقة";
+"pref_duration_25mins" = "25 دقيقة";
+"pref_duration_30mins" = "30 دقيقة";
+"pref_duration_35mins" = "35 دقيقة";
+"pref_duration_40mins" = "40 دقيقة";
+"pref_duration_45mins" = "45 دقيقة";
+"pref_duration_50mins" = "50 دقيقة";
+"pref_duration_55mins" = "55 دقيقة";
+"pref_duration_1hr" = "ساعة";
+"pref_duration_2hrs" = "ساعتان";
+"pref_duration_3hrs" = "3 ساعات";
+"pref_duration_4hrs" = "4 ساعات";
+"pref_duration_5hrs" = "5 ساعات";
+"pref_duration_6hrs" = "6 ساعات";
+"pref_duration_7hrs" = "7 ساعات";
+"pref_duration_8hrs" = "8 ساعات";
+"pref_duration_9hrs" = "9 ساعات";
+"pref_duration_10hrs" = "10 ساعات";
+"pref_duration_12hrs" = "12 ساعة";
+"pref_duration_24hrs" = "24 ساعة";
+"pref_duration_download" = "جاري تحميل الملف...";
+
+// SESSION TIME REMAINING
+"session_time_remain_infin" = "الوقت المتبقي غير محدد";
+"session_time_remain_dwnld" = "أثناء تحميل الملف";
+
+// SESSION TIME EXTENSION
+"session_time_extend" = "تمديد الجلسة حتى";
+
+
+
+// ---------------------------------------------------------------------------
+// DELAYED START DURATIONS
+// USED PRIMARILY IN IN MENUS AS SELECTABLE ITEMS
+
+"scrn_svr_delay_dur_1m" = "ابدأ بعد دقيقة";
+"scrn_svr_delay_dur_5m" = "ابدأ بعد 5 دقائق";
+"scrn_svr_delay_dur_10m" = "ابدأ بعد 10 دقائق";
+"scrn_svr_delay_dur_15m" = "ابدأ بعد 15 دقائق";
+"scrn_svr_delay_dur_30m" = "ابدأ بعد 30 دقائق";
+"scrn_svr_delay_dur_45m" = "ابدأ بعد 40 دقائق";
+"scrn_svr_delay_dur_1h" = "ابدأ بعد ساعة";
+"scrn_svr_delay_dur_1h15m" = "ابدأ بعد ساعة و 15 دقيقة";
+"scrn_svr_delay_dur_1h30m" = "ابدأ بعد ساعة و 30 دقيقة";
+"scrn_svr_delay_dur_1h45m" = "ابدأ بعد ساعة و 45 دقيقة";
+"scrn_svr_delay_dur_2h" = "ابدأ بعد ساعتين";
+"scrn_svr_delay_dur_2h15m" = "ابدأ بعد ساعتين و 15 دقيقة";
+"scrn_svr_delay_dur_2h30m" = "ابدأ بعد ساعتين و 30 دقيقة";
+"scrn_svr_delay_dur_2h45m" = "ابدأ بعد ساعتين و 45 دقيقة";
+"scrn_svr_delay_dur_3h" = "إبدأ بعد 3 ساعات";
+"scrn_svr_delay_dur_3h15m" = "ابدأ بعد 3 ساعات و 15 دقيقة";
+"scrn_svr_delay_dur_3h30m" = "ابدأ بعد 3 ساعات و 30 دقيقة";
+"scrn_svr_delay_dur_3h45m" = "ابدأ بعد 3 ساعات و 45 دقيقة";
+"scrn_svr_delay_dur_4h" = "ابدأ بعد 4 ساعات";
+"scrn_svr_delay_dur_4h15m" = "ابدأ بعد 4 ساعات و 15 دقيقة";
+"scrn_svr_delay_dur_4h30m" = "ابدأ بعد 4 ساعات و 30 دقيقة";
+"scrn_svr_delay_dur_4h45m" = "ابدأ بعد 4 ساعات و 45 دقيقة";
+"scrn_svr_delay_dur_5h" = "ابدأ بعد 5 ساعات";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// FILE DOWNLOAD SESSION PROGRESS
+// USED PRIMARILY IN IN MENUS AS SELECTABLE ITEMS
+
+// ** NOTE: DO NOT REMOVE '%@' or '%.f%%' **
+// PLACEHOLDERS REPRESENT DOWNLOAD PROGRESS - EXAMPLE" File is downloading... (2GB | 47%)
+"pref_duration_download_progress" = "جاري تحميل الملف ... (%@ | %.f%%)";
+"pref_duration_download_progress_unknown" = "جاري تحميل الملف ... (%@ of ?))";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// DATE FORMATTERS
+
+// 12 HOUR DATE FORMATTER STRING 1
+"12_hr_date_formatter" = "MMM d, h:mm a";
+
+// 12 HOUR DATE FORMATTER STRING 2
+"12_hr_date_formatter_2" = "h:mm a";
+
+// 24 HOUR DATE FORMATTER STRING
+"24_hr_date_formatter" = "MMM d, HH:mm";
+
+// 24 HOUR DATE FORMATTER STRING 2
+"24_hr_date_formatter_2" = "HH:mm";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// SESSION ACTIVATION REASONS
+
+"act_reason_sess_at_launch" = "جلسة جديدة عند فتح التطبيق";
+"act_reason_manual" = "تشغيل يدوي";
+"act_reason_app_running" = "يعمل"; // example usage: "Safari is running"
+"act_reason_trigger_name" = "اسم المُحفز";
+"act_reason_applescript" = "تفعيل AppleScript";
+"act_reason_woke_from_sleep" = "استيقاظ جهاز الماك من الإسبات";
+"act_reason_ac_connected" = "تم إعادة توصيل محول الطاقة";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → GLOBAL
+// ---------------------------------------------------------------------------
+
+"pref_window_title" = "التفضيلات";
+"pref_window_title_13" = "الإعدادات";
+// 5.0.2
+"pref_global_lbl_uses_default_duration" = "↵ يستخدم المدة الافتراضية";
+"pref_global_bttn_screen_saver_exceptions" = "استثناءات ...";
+"scrn_svr_excpt_VNC" = "مشاركة الشاشة/اتصالات VNC/سطح المكتب البعيد";
+//5.1.2
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → GENERAL TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_gen" = "عام";
+
+// PREFERENCES → GENERAL BUTTONS
+"pref_gen_bttn_launch_app_at_login" = "تشغيل أمفيتامين عند تسجيل الدخول للنظام";
+"pref_gen_bttn_start_session_at_launch" = "ابدأ جلسة عند فتح أمفيتامين";
+"pref_gen_bttn_start_session_after_wake" = "ابدأ جلسة بعد التشغيل من الإسبات";
+"pref_gen_bttn_hide_dock_icon" = "إخفاء الأمفيتامين من على الـDock";
+"pref_gen_bttn_reduce_motion" = "التقليل تأثيرات الحركة";
+"pref_gen_bttn_reset_warnings" = "إعادة تعيين التحذيرات ومربعات الحوار";
+"pref_gen_bttn_reset_all_prefs" = "إعادة تعيين كل التفضيلات";
+"pref_gen_bttn_reset_all_prefs_13" = "إعادة تعيين كل الإعدادات";
+
+// PREFERENCES → GENERAL LABELS
+"pref_gen_lbl_quick_start" = "بدء الجلسة بسرعة:";
+"pref_gen_lbl_launch_wake" = "سلوكيات التشغيل والاستيقاظ:";
+"pref_gen_lbl_other" = "Other:";
+"pref_gen_lbl_takes_effect_close_win" = "↵ يسري مفعوله بعد إغلاق جميع النوافذ المفتوحة";
+
+// PREFERENCES → GENERAL MENU ITEMS
+"pref_gen_mi_quick_start_rightclick" = "انقر بزر الماوس الأيمن (النقر بزر الماوس الأيسر يظهر القائمة)";
+"pref_gen_mi_quick_start_leftclick" = "انقر بزر الماوس الأيسر (النقر بزر الماوس الأيمن فوق يظهر القائمة)";
+
+
+// ---------------------------------------------------------------------------
+// (?) BUTTON MENU ITEMS
+
+// ----- PREFERENCES → GENERAL → Quick-Start a Session Help Message
+
+// Title
+"help_message_quick_start_title" = "بدء الجلسة سريعة";
+
+// Body
+"help_message_quick_start_body" = "اختر ما إذا كان النقر الأيسر (المعروف أيضًا باسم النقر الأساسي) أو النقر بزر الماوس الأيمن (المعروف أيضًا باسم النقر الثانوي) على أيقونة أمفيتامين في شريط القائمة سوف يؤدي إلى إظهار قائمة أمفيتامين أو بدء/إنهاء الجلسة.";
+
+// ----- PREFERENCES → GENERAL → Launch and Wake Behavior Help Message
+
+// Title
+"help_message_quick_launch_wake_title" = "سلوكيات التشغيل والاستيقاظ"; // fix me quick?
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_quick_launch_wake_body" = "• تشغيل أمفيتامين عند تسجيل الدخول للنظام\nحدد هذا المربع إذا كنت تريد تشغيل أمفيتامين تلقائيًا عند تسجيل الدخول إلى جهاز الماك\n\n • بدء الجلسة عند فتح (إطلاق) أمفيتامين\nحدد هذا المربع إذا كنت تريد أن يبدأ أمفيتامين تلقائيًا جلسة جديدة عندما يتم فتح (إطلاق) التطبيق.\n\n• بدء الجلسة بعد الاستيقاظ من وضع الإسبات\nحدد هذا المربع إذا كنت تريد أن يبدأ أمفيتامين جلسة جديدة عندما يستيقظ جهاز الماك من وضع الإسبات. إذا كانت هنالك جلسة قيد التشغيل بالفعل، فلن يتم بدء جلسة جديدة.";
+
+// ----- PREFERENCES → GENERAL → Other Help Message
+
+// Title
+"help_message_other_title" = "أخرى";
+
+// Body (macOS 10.14+) ** NOTE: DO NOT REMOVE '\n' **
+"help_message_other_body_post_highsierra" = "• إخفاء الأمفيتامين من على الـDock \nحدد هذا المربع لإخفاء أيقونة أمفيتامين من على الـDock. في نظام التشغيل macOS 10.15 والإصدارات الأحدث، ستظهر الأيقونة على الـDock تلقائيًا وتختفي عند فتح إحدى نوافذ أمفيتامين، مثل نافذة التفضيلات، حتى إذا اخترت اخفاء من على الـDock. سيؤدي إغلاق جميع نوافذ أمفيتامين المفتوحة إلى اختفاء رمز Dock مرة أخرى.\n\nفي نظام macOS 10.14 والإصدارات الأقدم، قد تحتاج إلى تعطيل ميزة -إظهار التطبيقات المستخدمة حديثًا في Dock- في macOS من خلال زيارة  ← تفضيلات النظام ← Dock لإزالة أمفيتامين تمامًا من الـDock.\n\n• تقليل المٌؤثوات الحركية\nحدد هذا المربع لتقليل استخدام الرسوم المتحركة في واجهة أمفيتامين.\n\nانقر فوق الزر -إعادة تعيين التحذيرات ومربعات الحوار- لمسح أي إشارات -لا تعرض مرة أخرى- في رسائل التحذير ومربعات الحوار الأخرى .\n\nانقر فوق الزر -إعادة تعيين كافة التفضيلات- لإعادة أمفيتامين إلى حالته الافتراضية (سيتم فقد جميع التفضيلات، بما في ذلك المُحفزات).";
+
+"help_message_other_body_post_highsierra_13" = "• إخفاء الأمفيتامين من على الـDock \nحدد هذا المربع لإخفاء أيقونة أمفيتامين من على الـDock. في نظام التشغيل macOS 10.15 والإصدارات الأحدث، ستظهر الأيقونة على الـDock تلقائيًا وتختفي عند فتح إحدى نوافذ أمفيتامين، مثل نافذة الإعدادات، حتى إذا اخترت اخفاء من على الـDock. سيؤدي إغلاق جميع نوافذ أمفيتامين المفتوحة إلى اختفاء رمز Dock مرة أخرى.\n\nفي نظام macOS 10.14 والإصدارات الأقدم، قد تحتاج إلى تعطيل ميزة -إظهار التطبيقات المستخدمة حديثًا في Dock- في macOS من خلال زيارة  ← إعدادات النظام ← Dock لإزالة أمفيتامين تمامًا من الـDock.\n\n• تقليل المٌؤثوات الحركية\nحدد هذا المربع لتقليل استخدام الرسوم المتحركة في واجهة أمفيتامين.\n\nانقر فوق الزر -إعادة تعيين التحذيرات ومربعات الحوار- لمسح أي إشارات -لا تعرض مرة أخرى- في رسائل التحذير ومربعات الحوار الأخرى .\n\nانقر فوق الزر -إعادة تعيين كافة الإعدادات- لإعادة أمفيتامين إلى حالته الافتراضية (سيتم فقد جميع الإعدادات، بما في ذلك المُحفزات).";
+
+// Body (macOS 10.11 - 10.13) ** NOTE: DO NOT REMOVE '\n' **
+"help_message_other_body_pre_mojave" = "• إخفاء الأمفيتامين من على الـDock\nحدد هذا المربع لإخفاء أيقونة أمفيتامين من على الـDock.\n\n• استخدم لونًا معينًا لتمثيل الحالة في التفضيلات السريعة\nحدد هذا المربع لاستخدام دائرة ملونة لتمثيل حالة كل عنصر في التفضيلات السريعة . أخضر = تشغيل، أحمر = إيقاف. قم بإلغاء تحديد هذا المربع لاستخدام صورة غير ملونة: علامة الصح لـ ON و خطأ لـ OFF.\n\n• تقليل المؤثرات الحركية\nحدد هذا المربع لتقليل استخدام الرسوم المتحركة في واجهة أمفيتامين.\n\nانقر فوق زر - إعادة تعيين التحذيرات ومربعات الحوار-  لمسح كل الإشعارات - لا تظهر مرة أخرى-  في رسائل التحذير ومربعات الحوار الأخرى.\n\nانقر فوق الزر - إعادة تعيين كافة التفضيلات-  لإعادة أمفيتامين إلى الحالة الافتراضية التي كان عليها (سيتم فقد جميع التفضيلات، بما في ذلك المُحفزات).";
+
+"help_message_other_body_pre_mojave_13" = "• إخفاء الأمفيتامين من على الـDock\nحدد هذا المربع لإخفاء أيقونة أمفيتامين من على الـDock.\n\n• استخدم لونًا معينًا لتمثيل الحالة في الإعدادات السريعة\nحدد هذا المربع لاستخدام دائرة ملونة لتمثيل حالة كل عنصر في الإعدادات السريعة . أخضر = تشغيل، أحمر = إيقاف. قم بإلغاء تحديد هذا المربع لاستخدام صورة غير ملونة: علامة الصح لـ ON و خطأ لـ OFF.\n\n• تقليل المؤثرات الحركية\nحدد هذا المربع لتقليل استخدام الرسوم المتحركة في واجهة أمفيتامين.\n\nانقر فوق زر - إعادة تعيين التحذيرات ومربعات الحوار-  لمسح كل الإشعارات - لا تظهر مرة أخرى-  في رسائل التحذير ومربعات الحوار الأخرى.\n\nانقر فوق الزر - إعادة تعيين كافة الإعدادات-  لإعادة أمفيتامين إلى الحالة الافتراضية التي كان عليها (سيتم فقد جميع الإعدادات، بما في ذلك المُحفزات).";
+
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → SESSION DEFAULTS TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_sess" = "اعدادات الجلسات";
+
+// PREFERENCES → SESSIONS DEFAULTS BUTTONS
+"pref_sess_nt_button_title" = "جلسات بدون أي محفزات";
+"pref_sess_nt_bttn_default_duration_edit" = "تعديل";
+"pref_sess_nt_bttn_end_session_force_sleep" = "إنهاء الجلسة عندما يجبر جهاز الماك إلى النوم";
+"pref_sess_nt_bttn_allow_display_sleep" = "السماح بوضع الإسبات للشاشة";
+"pref_sess_nt_bttn_allow_cdm" = "اسمح للنظام بالإسبات عند إغلاق الشاشة";
+"pref_sess_nt_bttn_allow_screen_saver" = "السماح لشاشة التوقف بعد";
+"pref_sess_nt_bttn_end_low_batt" = "جلسة النهاية إذا كانت نسبة الشحن (%) أقل من";
+"pref_sess_nt_bttn_prompt_end_low_batt" = "السؤال قبل إنهاء الجلسة";
+"pref_sess_nt_bttn_ignore_batt_if_pwr_adptr" = "تجاهل نسبة الشحن (%) إذا تم توصيل محول الطاقة";
+"pref_sess_nt_bttn_start_session_pwr_adptr_connect" = "ابدأ جلسة جديدة في حالة إعادة الاتصال";
+
+"pref_sess_nt_bttn_endtime_timer" = "استخدام المؤقت"; // v5.0.2
+"pref_sess_nt_bttn_endtime_sysclock" = "استخدم نفس ساعة النظام"; //v5.0.2
+
+// PREFERENCES → SESSION DEFAULTS LABELS
+"pref_sess_nt_lbl_dd" = "المدة الافتراضية:";
+"pref_sess_nt_lbl_end_time_calc" = "طريقة حساب الوقت:";
+"pref_sess_nt_lbl_forced_sleep" = "الإسبات الإجباري:";
+"pref_sess_nt_lbl_display_sleep" = "سبات الشاشة:";
+"pref_sess_nt_lbl_cdm" = "وضع الشاشة المغلقة:";
+"pref_sess_nt_lbl_screen_saver" = "شاشة التوقف:";
+"pref_sess_nt_lbl_battery" = "البطارية:";
+"pref_sess_nt_lbl_pwr_adptr" = "محول الطاقة:";
+"pref_sess_nt_lbl_cust_dd_enter" = "أدخل الوقت للمدة الجديدة:";
+
+// OTHER STRINGS
+
+// USED IN SENTENCE; EXAMPLE: " 'Your Mac's battery is' not connected to power adapter"
+// ** NOTE: DO NOT REMOVE %@ **
+"pref_sess_batt_is" = "بطارية جهاز الماك الخاص بك هي %@.";
+
+// USED IN SENTENCE; EXAMPLE: " 'Your Mac's battery is below' 10%"
+// ** NOTE: DO NOT REMOVE '%@' or '%li%%' **
+"pref_sess_batt_is_below" = "بطارية جهاز Mac الخاص بك أقل من%@.";
+"pref_sess_batt_is_below2" = "شحن البطارية أقل من %li%%.";
+
+// USED IN SENTENCE; EXAMPLE: " 'End session when:' not connected to power adapter"
+"pref_sess_nt_end_when" = "إنهاء الجلسة عند:";
+
+// USED IN SENTENCE; EXAMPLE: "End session when: 'not connected to power adapter' "
+"pref_sess_nt_ac_not_connected" = "غير متصل بمحول الطاقة";
+"pref_sess_nt_ac_not_connected_cap" = "غير متصل بمحول الطاقة";
+"pref_sess_nt_ac_connected" = "متصل بمحول الطاقة";
+
+// USED IN SENTENCE; EXAMPLE: " 'End session if charge (%) is below: ' 10%"
+// ** NOTE: LEAVE SPACE CHAR AT END OF STRING **
+"pref_sess_nt_end_if_chrg" = "جلسة النهاية إذا كانت نسبة الشحن (%) أقل من: ";
+
+// ---------------------------------------------------------------------------
+// (?) BUTTON MENU ITEMS
+
+// ----- PREFERENCES → SESSION DEFAULTS → Default Duration Help Message
+
+// Title
+"help_message_default_duration_title" = "المدة الافتراضية";
+
+// Body
+"help_message_default_duration_body" = "يتم استخدام المدة الافتراضية في أمفيتامين عندما لا يوفر المستخدم مدة الجلسة بطريقة أخرى. من الأمثلة على ذالك وقت بدء الجلسة عند تشغيل (إطلاق) التطبيق وعند النقر فوق أيقونة أمفيتامين في شريط قائمة النظام لبدء الجلسة.";
+
+// ----- PREFERENCES → SESSION DEFAULTS → End Time Calculation Help Message
+
+// Title
+"help_message_end_time_cal_title" = "طريقة حساب وقت الانتهاء ";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_end_time_cal_body" = "يمكن حساب وقت انتهاء الجلسة باستخدام مؤقت خاص أو باستخدام ساعة النظام.\n\nعلى سبيل المثال، لنفترض أنك حددت - استخدام المؤقت-  ثم بدأت جلسة لمدة 3 ساعات. ثم تجعل جهاز الماك يدخل على وضع الإسبات على الفور لمدة ساعتين. عندما توقظ جهاز الماك الخاص بك، ستظل الجلسة 3 ساعات متبقية. هذا لإنك أوقفت المؤقت مؤقتًا أثناء إسبات الماك.\n\nفي نفس السيناريو الموضح أعلاه، إذا حددت بدلاً من ذلك - استخدام ساعة النظام-، فستبقى ساعة واحدة فقط في الجلسة. هذا بسبب مرور ساعتين على ساعة النظام أثناء وضع الإسبات على الماك";
+
+// ----- PREFERENCES → SESSION DEFAULTS → Forced Sleep Help Message
+
+// Title
+"help_message_forced_sleep_title" = "الإسبات الإجباري";
+
+// Body
+"help_message_forced_sleep_body" = "حدد هذا المربع لإنهاء أي جلسات بدون مُحفزات عندما يُجبر جهاز الماك إلى الإسبات. يشمل الإسبات الإجباري أي أمر يجعل جهاز الماك يتحول لوضيعة الإسبات، مثل النقر فوق  ← الإسبات، أو استخدام اختصار لوحة المفاتيح.";
+
+// ----- PREFERENCES → SESSION DEFAULTS → Display Sleep Help Message
+
+// Title
+"help_message_display_sleep_title" = "إسبات الشاشة";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_display_sleep_body" = "حدد هذا المربع إذا كنت تريد أن تنام شاشة جهاز الماك أثناء الجلسة. إذا سمحت بوضع إسبات الشاشة، فسوف تنطفئ الشاشة/تتوقف عن العمل بعد انقضاء الوقت الذي حددته في  ← تفضيلات النظام ← موفر الطاقة.\n\nلاحظ أن هذا التفضيل يؤثر فقط على الجلسات الغير مبنية على المُحفزات. إذا كنت تريد أن تسمح الجلسات القائمة على المُحفزات أن تسمح لشاشة الماك الخاصة بك بالإسبات، فيمكن تكوين كل مُحفزات خاص للقيام بذلك.";
+
+"help_message_display_sleep_body_13" = "حدد هذا المربع إذا كنت تريد أن تنام شاشة جهاز الماك أثناء الجلسة. إذا سمحت بوضع إسبات الشاشة، فسوف تنطفئ الشاشة/تتوقف عن العمل بعد انقضاء الوقت الذي حددته في ← إعدادات النظام ← موفر الطاقة.\n\nلاحظ أن هذا التفضيل يؤثر فقط على الجلسات الغير مبنية على المُحفزات. إذا كنت تريد أن تسمح الجلسات القائمة على المُحفزات أن تسمح لشاشة الماك الخاصة بك بالإسبات، فيمكن تكوين كل مُحفزات خاص للقيام بذلك.";
+
+// ----- PREFERENCES → SESSION DEFAULTS → Closed-Display Mode Help Message
+
+// Title
+"help_message_closed_display_title" = "وضع الشاشة المغلقة";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_closed_display_body" = "قم بإلغاء تحديد هذا المربع إذا كنت ترغب في أن يبقي أمفيتامين جهاز الماك الخاص بك مستيقظًا أثناء إغلاقك للشاشة.\n\nبشكل عام، يجب توصيل شاشة خارجية ولوحة مفاتيح وماوس ومحول طاقة بجهاز الماك الخاص بك لتمكين وضع الشاشة المغلقة. يمكن لأمفيتامين تجاوز هذه المتطلبات بشكل مؤقت ومنع جهاز الماك الخاص بك من الإسبات عند إغلاق الشاشة.\n\nسيتم تعطيل هذا الخيار إذا كان جهاز الماك الخاص بك لا يدعم هذه الميزة.\n\nهذا التفضيل يؤثر فقط على الجلسات التي لاتستخدم المُحفزات. إذا كنت ترغب في تمكين هذه الميزة لجلسة ذات مُحفز، قم بزيارة التفضيلات ← المُحفزات وقم بتعديل كل مُحفز تريد إضافة هذه الميزة إليه.\n\nعند استخدام هذه الميز، قد ترغب في التفكير في إعداد تحذيرات خاصة لوضع الشاشة المغلقة في التفضيلات ← الإشعارات ← وضع الشاشة المغلقة.";
+
+"help_message_closed_display_body_13" = "قم بإلغاء تحديد هذا المربع إذا كنت ترغب في أن يبقي أمفيتامين جهاز الماك الخاص بك مستيقظًا أثناء إغلاقك للشاشة.\n\nبشكل عام، يجب توصيل شاشة خارجية ولوحة مفاتيح وماوس ومحول طاقة بجهاز الماك الخاص بك لتمكين وضع الشاشة المغلقة. يمكن لأمفيتامين تجاوز هذه المتطلبات بشكل مؤقت ومنع جهاز الماك الخاص بك من الإسبات عند إغلاق الشاشة.\n\nسيتم تعطيل هذا الخيار إذا كان جهاز الماك الخاص بك لا يدعم هذه الميزة.\n\nهذا التفضيل يؤثر فقط على الجلسات التي لاتستخدم المُحفزات. إذا كنت ترغب في تمكين هذه الميزة لجلسة ذات مُحفز، قم بزيارة الإعدادات ← المُحفزات وقم بتعديل كل مُحفز تريد إضافة هذه الميزة إليه.\n\nعند استخدام هذه الميز، قد ترغب في التفكير في إعداد تحذيرات خاصة لوضع الشاشة المغلقة في الإعدادات ← الإشعارات ← وضع الشاشة المغلقة.";
+
+// ----- PREFERENCES → SESSION DEFAULTS → Screen Saver Help Message
+
+// Title
+"help_message_screen_saver_title" = "شاشة الشاشة";
+
+// Body
+"help_message_screen_saver_body" = "حدد هذا المربع إذا كنت تريد تشغيل شاشة التوقف الخاصة بجهاز الماك أثناء الجلسات التي لا تعمل بالمُحفزات. استخدم شريط التمرير لتحديد الحد الزمني قبل بدء شاشة التوقف. أثناء الجلسات لا تعمل بالمُحفزات، سوف يتتبع أمفيتامين وقت إسبات جهاز الماك الخاص بك. إذا كان وقت الإسبات أعلى من الحد الذي قمت بتعيينه، فسيبدأ أمفيتامين شاشة التوقف الخاصة بك.\n\nيمكنك إضافة تطبيقات إلى قائمة الاستثناءات من خلال النقر فوق الزر ـ استثناءات ...ـ. إذا كان هناك تطبيق في قائمة الاستثناءات يعمل على جهاز الماك الخاص بك، فلن يقوم أمفيتامين بتشغيل شاشة التوقف. قد يكون هذا مفيدًا إذا كنت تشاهد مقطع فيديو أو تقرأ كتابًا إلكترونيًا، ونحوه.\n\nلاحظ أن هذا التفضيل لا يؤثر إلا على الجلسات التي لا تعمل بالمُحفزات. إذا كنت تريد أن تسمح الجلسات المبنية على المُحفزات بتشغيل شاشة التوقف، فيمكن تكوين مُحفز فردي للسماح أو عدم السماح لشاشة التوقف.";
+
+// ----- PREFERENCES → SESSION DEFAULTS → Battery Help Message
+
+// Title
+"help_message_battery_title" = "البطارية";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_battery_body" = "• إنهاء الجلسة إذا كان شحن البطارية أقل من ...\nحدد هذا المربع إذا كنت تريد أن يقوم أمفيتامين بإنهاء تلقائي للجلسات التي لاتستخدم المُحفزات عندما تنخفض نسبة بطارية جهاز الماك عن الحد المعين الذي حددته باستخدام شريط التمرير. قم بتحريك شريط التمرير إلى اليسار لإنهاء الجلسات في أي وقت لا يكون فيه محول الطاقة متصلاً.\n\n• السؤال قبل إنهاء الجلسة\nحدد هذا المربع إذا كنت تريد أن  يسألك أمفيتامين أن ينهي الجلسة تلقائيًا بسبب انخفاض شحن البطارية. يمكنك اختيار متابعة الجلسة، وتجاهل شحن بطارية الماك، إذا رغبت في ذلك.\n\n• تجاهل الشحن إذا كان محول الطاقة متصلاً\nحدد هذا المربع إذا كنت تريد أن لا ينهي أمفيتامين الجلسات تلقائيًا بسبب انخفاض شحن البطارية أثناء تم توصيل محول طاقة الماك.\n\nلاحظ أن هذه التفضيلات تؤثر فقط على الجلسات التي لا تستخدم المُحفزات. إذا كنت تريد الجلسات التي تستخدم المُحفزات أن تأخذ  في الاعتبار شحن بطارية جهاز الماك، فأضف معيار الطاقة إلى المُحفز.";
+
+"help_message_battery_body_13" = "• إنهاء الجلسة إذا كان شحن البطارية أقل من ...\nحدد هذا المربع إذا كنت تريد أن يقوم أمفيتامين بإنهاء تلقائي للجلسات التي لاتستخدم المُحفزات عندما تنخفض نسبة بطارية جهاز الماك عن الحد المعين الذي حددته باستخدام شريط التمرير. قم بتحريك شريط التمرير إلى اليسار لإنهاء الجلسات في أي وقت لا يكون فيه محول الطاقة متصلاً.\n\n• السؤال قبل إنهاء الجلسة\nحدد هذا المربع إذا كنت تريد أن  يسألك أمفيتامين أن ينهي الجلسة تلقائيًا بسبب انخفاض شحن البطارية. يمكنك اختيار متابعة الجلسة، وتجاهل شحن بطارية الماك، إذا رغبت في ذلك.\n\n• تجاهل الشحن إذا كان محول الطاقة متصلاً\nحدد هذا المربع إذا كنت تريد أن لا ينهي أمفيتامين الجلسات تلقائيًا بسبب انخفاض شحن البطارية أثناء تم توصيل محول طاقة الماك.\n\nلاحظ أن هذه الإعدادات تؤثر فقط على الجلسات التي لا تستخدم المُحفزات. إذا كنت تريد الجلسات التي تستخدم المُحفزات أن تأخذ  في الاعتبار شحن بطارية جهاز الماك، فأضف معيار الطاقة إلى المُحفز.";
+
+// ----- PREFERENCES → SESSION DEFAULTS → Power Adapter Help Message
+
+// Title
+"help_message_power_adapter_title" = "محول الطاقة";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_power_adapter_body" = "لاحظ أنه يجب عليك تمكين تفضيل ـإنهاء الجلسة إذا كان شحن البطارية أقل من ...ـ وتمكين ـتجاهل مستوى البطارية إذا كان محول الطاقة متصلاـ أو نقل شريط التمرير ـإنهاء الجلسة إذا كان شحن البطارية أقل من ...ـ طوال الطريق إلى النهاية لإتاحة هذا التفضيل.\n\nحدد هذا المربع لجعل أمفيتامين يبدأ تلقائيًا جلسة جديدة كلما تم توصيل محول الطاقة بجهاز الماك. سيبدأ الأمفيتامين جلسة جديدة فقط إذا انتهت الجلسة السابقة بسبب انخفاض شحن البطارية.";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES → SYSTEM CONTROL TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES → SYSTEM CONTROL BUTTONS
+"prefs_tb_sys_cntrl" = "التحكم بالنظام";
+"pref_sess_as_bttn_lck_scrn_pt1" = "قفل الشاشة بعد";
+"pref_sess_as_bttn_lck_scrn_pt2" = "من الخمول";
+"pref_sess_as_bttn_lck_scrn_use_cursor" = "استخدم حركة المؤشر كعلامة لخمول النظام";
+"pref_sess_as_bttn_lck_scrn_disp_clsd" = "قفل الشاشة مباشرة بعد إغلاق الشاشة";
+"pref_sess_as_bttn_lck_scrn_allow_disp_sleep" = "السمح بسبات الشاشة عندما تكون الشاشة مقفلة";
+"pref_sess_as_bttn_cursor_pt1" = "حرك المؤشر كل";
+"pref_sess_as_bttn_cursor_pt2" = "بعد";
+"pref_sess_as_bttn_cursor_pt3" = "من عدم الحركة";
+"pref_sess_as_bttn_cursor_stop_pt1" = "توقف عن تحريك المؤشر بعد";
+"pref_sess_as_bttn_cursor_stop_pt2" = "من الخمول";
+"pref_sess_as_bttn_fast_usr_switch" = "انهاء الجلسة عند التبديل بين الحسابات الشخصية";
+
+// PREFERENCES → SYSTEM CONTROL LABELS
+"pref_sess_as_lbl_cursor_speed" = "سرعة المؤشر:";
+"pref_sess_as_lbl_cursor_speed_fast" =  "سريع";
+"pref_sess_as_lbl_cursor_speed_slow" =  "بطيء";
+"pref_sess_as_lbl_cursor_speed_warn" = "ستؤدي الحركة الأبطأ إلى الضغط على المعالج بشكل طفيف";
+"pref_sess_as_lbl_lck_scrn" = "قفل الشاشة:";
+"pref_sess_as_lbl_cursor" = "المؤشر:";
+"pref_sess_as_lbl_fast_usr_switch" = "التحويل السريع بين المستخدمين:";
+
+// ---------------------------------------------------------------------------
+// (?) BUTTON MENU ITEMS
+
+// ----- PREFERENCES → SYSTEM CONTROL → Lock Screen Help Message
+
+// Title
+"help_message_lock_screen_title" = "قفل الشاشة";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_lock_screen_body" = "• قفل الشاشة بعد ... من عدم النشاط\nحدد هذا المربع لجعل أمفيتامين يقفل شاشة الماك بعد فترة محددة من عدم النشاط. سيحاول أمفيتامين قفل الشاشة فقط إذا كانت الجلسة نشطة. للتحكم في وقت قفل الشاشة عندما تكون الجلسة غير نشطة، اذهب إلى  ← تفضيلات النظام ← الأمان والخصوصية ← عام.\n\n• استخدم حركة المؤشر لتحديد الخمول\nحدد هذا المربع لجعل أمفيتامين يأخذ في الاعتبار حركة المؤشر/الماوس، وليس فقط ساعة النظام في وضع الخمول، عند تحديد وقت قفل الشاشة. قد تكون هذه الميزة مفيدة إذا قمت بالوصول عن بعد إلى جهاز الماك باستخدام احدى هذه التقنيات VNC/ARD/RDP.\n\n• قفل الشاشة فورًا بعد إغلاق الشاشة\n حدد هذا المربع لجعل أمفيتامين يقفل شاشة الماك فور إغلاق الشاشة. ستعمل هذه الميزة فقط إذا كانت الجلسة نشطة وتم تمكين وضعية الشاشة المغلقة لتلك الجلسة. سيتم تعطيل مربع الاختيار إذا كان جهاز الماك الخاص بك لا يدعم هذه الميزة.";
+
+"help_message_lock_screen_body_13" = "• قفل الشاشة بعد ... من عدم النشاط\nحدد هذا المربع لجعل أمفيتامين يقفل شاشة الماك بعد فترة محددة من عدم النشاط. سيحاول أمفيتامين قفل الشاشة فقط إذا كانت الجلسة نشطة. للتحكم في وقت قفل الشاشة عندما تكون الجلسة غير نشطة، اذهب إلى  ← إعدادات النظام ← الأمان والخصوصية ← عام.\n\n• استخدم حركة المؤشر لتحديد الخمول\nحدد هذا المربع لجعل أمفيتامين يأخذ في الاعتبار حركة المؤشر/الماوس، وليس فقط ساعة النظام في وضع الخمول، عند تحديد وقت قفل الشاشة. قد تكون هذه الميزة مفيدة إذا قمت بالوصول عن بعد إلى جهاز الماك باستخدام احدى هذه التقنيات VNC/ARD/RDP.\n\n• قفل الشاشة فورًا بعد إغلاق الشاشة\n حدد هذا المربع لجعل أمفيتامين يقفل شاشة الماك فور إغلاق الشاشة. ستعمل هذه الميزة فقط إذا كانت الجلسة نشطة وتم تمكين وضعية الشاشة المغلقة لتلك الجلسة. سيتم تعطيل مربع الاختيار إذا كان جهاز الماك الخاص بك لا يدعم هذه الميزة.";
+
+// ----- PREFERENCES → SYSTEM CONTROL → Cursor Help Message
+
+// Title
+"help_message_cursor_title" = "المؤشر";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_cursor_body" = "• حرك المؤشر كل ...\nحدد هذا المربع واختر الفاصل الزمني وعتبة الخمول لجعل أمفيتامين يحرك مؤشر الماوس أثناء الجلسة. تنطبق هذه الميزة على كل من الجلسات سؤاءً كانت تستخدم أو لا تستخدم المُحفزات. لاحظ أن المؤشر لن يتحرك إذا كانت شاشة توقف جهاز الماك الخاص بك نشطة. ستمنع حركة المؤشر الشاشة من الإسبات حتى إذا تم تفعيل خيار - السماح بإسبات الشاشة -  لجلسة.\n\n• إيقاف تحريك المؤشر بعد ...\nحدد هذا المربع لإنهاء تحريك المؤشر من قبل أمفيتامين بعد الحد المعين. سيسمح إيقاف حركة المؤشر لشاشة الماك بالإسبات إذا قمت بتمكين السماح بتمكين وضع إسبات الشاشة للجلسة.";
+
+// ----- PREFERENCES → SYSTEM CONTROL → Fast User Switching Help Message
+
+// Title
+"help_message_fast_user_switch_title" = "التبديل السريع بين المستخدمين";
+
+// Body
+"help_message_fast_user_switch_body" = "حدد هذا المربع لتعطيل جميع جلسات أمفيتامين تلقائيًا (التي تعمل المُحفزات أو بدونها) عند التبديل إلى حسباب المستخدمين على جهاز الماك الخاص بك دون تسجيل الخروج من الحساب الذي يعمل عليه أمفيتامين.";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → TRIGGERS TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_trig" = "المُحفزات";
+
+// PREFERENCES → TRIGGERS BUTTONS
+"pref_trig_bttn_enable" = "تفعيل المُحفزات";
+
+// PREFERENCES → TRIGGERS LABELS
+"pref_trig_lbl_edit" = "انقر نقرًا مزدوجًا فوق اسم المُحفز لتعديله";
+
+// TRIGGER TABLE HEADERS
+"trig_tbl_head_name" = "اسم المُحفز";
+"trig_tbl_head_enabled" = "مفعل";
+
+// ----- Triggers Help Message
+
+// Title
+"help_triggers_title" = "المُحفزات";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_triggers_body" = "المُحفزات هي واحدة من أقوى ميزات أمفيتامين. يمكنك إنشاء العديد من المُحفزات كما تريد. عند استيفاء جميع معايير (الشروط) المخصصة للمُحفز، سيبدأ أمفيتامين تلقائيًا جلسة جديدة إذا لم تكن واحدة قيد التشغيل بالفعل.\n\nأيضًا يوجد زر عام لجميع المُحفزات، والذي يفعل أو يعطل جميع المُحفزات دفعة واحدة. يمكنك أيضًت تفعيل أو تعطيل كل مُحفز منفرد. استخدم مربع الاختيار الموجود على يمين كل مُحفز في القائمة لتفعيل المُحفز بشكل فردي أو تعطيله مؤقتًا.\n\nاستخدم الزر + لإنشاء مُحفز جديد. حدد نوع المُحفز من القائمة واستخدم الزر - لحذف المشغل.\n\nحدد مُحفز من القائمة واستخدم الزرين ↑ و ↓ لإعادة ترتيب قائمة المُحفزات. سيتم تقييم المُحفزات بالترتيب الذي تظهر به في القائمة. مما يعني أن أول مُحفز في القائمة سيتم تقييمه أولاً. إذا تم استيفاء جميع المعايير (الشروط) المحددة، ستبدأ الجلسة. إذا لم يتم استيفاء المعايير (الشروط)، فسيتم تقييم المُحفز التالي في القائمة.";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → DRIVE ALIVE TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_drive" = "القرص الحي";
+
+// PREFERENCES → DRIVE ALIVE BUTTONS
+"pref_drivealive_bttn_enable" = "تفعيل القرص الحي";
+
+// PREFERENCES → DRIVE ALIVE LABELS
+"pref_drivealive_lbl_wake" = "أيقظ القرص كل";
+
+// DRIVE ALIVE TABLE HEADERS
+"drivealive_tbl_head_name" = "اسم محرك الأقراص";
+"drivealive_tbl_head_keepalive" = "تفعيل القرص الحي";
+
+// ----- Drive Alive Help Message
+
+// Title
+"help_drivealive_title" = "القرص الحي";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_drivealive_body" = "يستطيع للقرص الحي أن يبقي محركات الأقراص الثابتة مستيقظة (نشطة) وجاهزة للعمل. يعمل القرص الحي عن طريق كتابة كمية صغيرة من البيانات على محركات الأقراص الثابتة الخاصة بك على فترات منتظمة. يتم الكتابة فوق هذه البيانات بشكل متكرر، ولا تشغل سوى بضعة كيلوبايتات من مساحة محرك الأقراص.\n\nلإضافة محرك أقراص جديد، انقر فوق + ثم حدد محرك الأقراص الذي تريد الاحتفاظ به على قيد الحياة (نشط). حدد محرك أقراص من القائمة وانقر فوق الزر - لإزالته.\n\nيمكن الاحتفاظ بكل محرك أقراص في القائمة على قيد الحياة (نشط) إما فقط أثناء عمل جلسة معينة، أو المواكبة على إبقاء القرص نشط طوال فترة عمل أمفيتامين. للحفاظ على محرك الأقراص نشطًا طوال الوقت، حدد المربع الموجود على يمين محرك الأقراص في القائمة.\n\nالفاصل الزمني الافتراضي للقرص الحي لكتابة البيانات إلى محرك (محركات) الأقراص هو كل 10 ثوانٍ. يمكنك تغيير هذا عن طريق إدخال رقم جديد في حقل الرقم أسفل النافذة.";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → HOT KEYS TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_hotk" = "اختصارات الكيبورد";
+
+// PREFERENCES → HOT KEYS LABELS
+"pref_hotk_lbl_startend_action" = "إذا كانت الجلسة قيد التشغيل بالفعل:";
+"pref_hotk_lbl_start_duration" = "بالمدة التالية:";
+"pref_hotk_lbl_startend" = "بدء أو انهاء جلسة";
+"pref_hotk_lbl_start" = "بدء جلسة";
+"pref_hotk_lbl_end" = "انهاء الجلسة:";
+"pref_hotk_lbl_open_menu" = "فتح/غلق القائمة:";
+"pref_hotk_lbl_open_menu_close" = "استخدم مفتاح Esc لإغلاق القائمة"; // Escape key closes menu
+"pref_hotk_lbl_toggle_disp_sleep" = "تفعيل السماح بوضع إسبات الشاشة:";
+"pref_hotk_lbl_toggle_screen_saver" = "تفعيل السماح بشاشة التوقف:";
+
+// PREFERENCES → HOT KEYS MENU ITEMS
+"pref_hotk_mi_startend_action_endstart" = "إنهاء الجلسة الحالية وبدء جلسة جديدة";
+"pref_hotk_mi_startend_action_end" = "إنهاء الجلسة";
+
+// ---------------------------------------------------------------------------
+// (?) BUTTON MENU ITEMS
+
+// ----- PREFERENCES → HOT KEYS → Start or End Session Help Message
+
+// Title
+"help_message_start_end_session_title" = "بدأ أو إنهاء جلسة";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_start_end_session_body" = "سيسمح لك اختصار لوحة المفاتيح هذا ببدء جلسة أو إنهائها. سيتم استخدام المدة الافتراضية (التفضيلات ← الإعدادات الافتراضية للجلسة ← المدة الافتراضية) لهذه الجلسة.\n\nبعد تسجيل اختصار لوحة المفاتيح هذا، ستتمكن من الوصول إلى هذه الخاصية في أمفيتامين بغض النظر عن مكانك في نظام الماك. لا يلزم أن يكون أمفيتامين في مقدمة التطبيقات، ولكن يجب أن يكون قيد التشغيل.\n\nإذا لم تكن قادرًا على تسجيل مجموعة مفاتيح التشغيل السريع التي تريدها، فهذا يعني أن مجموعة المفاتيح يتم استخدامها بالفعل في مكان آخر بواسطة تطبيق آخر.";
+
+"help_message_start_end_session_body_13" = "سيسمح لك اختصار لوحة المفاتيح هذا ببدء جلسة أو إنهائها. سيتم استخدام المدة الافتراضية (الإعدادات ← الإعدادات الافتراضية للجلسة ← المدة الافتراضية) لهذه الجلسة.\n\nبعد تسجيل اختصار لوحة المفاتيح هذا، ستتمكن من الوصول إلى هذه الخاصية في أمفيتامين بغض النظر عن مكانك في نظام الماك. لا يلزم أن يكون أمفيتامين في مقدمة التطبيقات، ولكن يجب أن يكون قيد التشغيل.\n\nإذا لم تكن قادرًا على تسجيل مجموعة مفاتيح التشغيل السريع التي تريدها، فهذا يعني أن مجموعة المفاتيح يتم استخدامها بالفعل في مكان آخر بواسطة تطبيق آخر.";
+
+// ----- PREFERENCES → HOT KEYS → Start Session Help Message
+
+// Title
+"help_message_start_session_title" = "بدء جلسة";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_start_session_body" = "سيسمح لك اختصار لوحة المفاتيح هذا ببدء جلسة بمدة محددة يمكنك تحديد المدة التي تريد أن تستغرقها الجلسة.\n\nبعد إدخال اختصار لوحة المفاتيح، ستتمكن من الوصول إلى وظيفة أمفيتامين هذه بغض النظر عن مكانك في نظام الماك. لا يلزم أن يكون أمفيتامين في مقدمة التطبيقات، ولكن يجب أن يكون قيد التشغيل.\n\nإذا لم تكن قادرًا على تسجيل اختصار لوحة المفاتيح التي تريده، فهذا يعني أن مجموعة المفاتيح قيد الاستخدام بالفعل في مكان آخر بواسطة تطبيق آخر.";
+
+// ----- PREFERENCES → HOT KEYS → End Session Help Message
+
+// Title
+"help_message_end_session_title" = "إنهاء جلسة";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_end_session_body" = "سيسمح لك اختصار لوحة المفاتيح هذا بإنهاء أي جلسة.\n\nبعد تسجيل اختصار لوحة المفاتيح هذا، ستتمكن من الوصول إلى وظيفة أمفيتامين هذه بغض النظر عن مكانك في نظام الماك. لا يلزم أن يكون أمفيتامين في مقدمة التطبيقات، ولكن يجب أن يكون قيد التشغيل.\n\nإذا لم تكن قادرًا على تسجيل اختصار لوحة المفاتيح التي تريده، فهذا يعني أن مجموعة المفاتيح قيد الاستخدام بالفعل في مكان آخر بواسطة تطبيق آخر.";
+
+// ----- PREFERENCES → HOT KEYS → Open Menu Help Message
+
+// Title
+"help_message_open_menu_title" = "افتح القائمة";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_open_menu_body" = "سيسمح لك ماختصار لوحة المفاتيح هذا بفتح قائمة أمفيتامين. هذا قد يفيد للتحقق بسرعة من حالة الجلسة وتفاصيل القرص الحي الموضحة في القائمة، أو للتنقل بسرعة أو تحديد عناصر القائمة باستخدام مفاتيح الأسهم أو اختصارات لوحة المفاتيح (على سبيل المثال ،⌘F لبدء -أثناء تنزيل الملف ...- للجلسة الحالية.\n\nبعد تسجيل اختصار لوحة المفاتيح هذا، ستتمكن من الوصول إلى وظيفة أمفيتامين هذه بغض النظر عن مكانك في نظام الماك. لا يلزم أن يكون أمفيتامين في مقدمة التطبيقات، ولكن يجب أن يكون قيد التشغيل.\n\nإذا لم تكن قادرًا على تسجيل اختصار لوحة المفاتيح التي تريده، فهذا يعني أن مجموعة المفاتيح قيد الاستخدام بالفعل في مكان آخر بواسطة تطبيق آخر";
+
+// ----- PREFERENCES → HOT KEYS → Toggle Display Sleep Help Message
+
+// Title
+"help_message_toggle_allow_display_sleep_title" = "السماح بإسبات الشاشة";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_toggle_allow_display_sleep_body" = "سيسمح لك اختصار لوحة المفاتيح هذا بالتبديل بين تفعيل أو إيقاف تفعيل وضع إسبات على الشاشة. إذا كانت هناك جلسة نشطة، فسيتم تبديل اختصار لوحة المفاتيح بين تفعيل/إيقاف تفعيل وضع الإسبات للجلسة الحالية. هذا يشمل الجلسات المعتمدة على المحفُزات والغير المعتمدة على المحفُزات.\n\nإذا لم تكن هناك جلسة نشطة، اختصار لوحة المفاتيح هذا بتبديل أو إيقاف تفعيل تفضيل السماح بعرض الإسبات لجلسات العمل التي لاتعتمد على المحفُزات.";
+
+// ----- PREFERENCES → HOT KEYS → Toggle Screen Saver Help Message
+
+// Title
+"help_message_toggle_allow_screen_saver_title" = "تفعيل شاشة التوقف";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_toggle_allow_screen_saver_body" = "سيسمح لك اختصار لوحة المفاتيح هذا بالتبديل بين تنشيط أو إيقاف تنشيط شاشة التوقف. إذا كانت هناك جلسة نشطة، فسيقوم اختصار لوحة المفاتيح بالتبديل بين تنشيط أو إيقاف تنشيط شاشة التوقف للدورة الحالية. هذا يشمل الجلسات المعتمدة على المحفُزات والغير المعتمدة على المحفُزات.\n\nإذا لم تكن هناك جلسة نشطة، فسيقوم اختصار لوحة المفاتيح بتنشيط أو إيقاف تنشيط تفضيل -السماح لشاشة التوقف- لجلسات العمل التي لا تعتمد على المحفُزات.";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → NOTIFICATIONS TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_notif" = "الإشعارات";
+
+// PREFERENCES → NOTIFICATIONS BUTTONS
+"pref_notif_bttn_session_reminders_pt1" = "تذكير كل";
+"pref_notif_bttn_session_reminders_pt2" = "دقائق";
+"pref_notif_bttn_trig_autostart" = "إخطار عند بدء مُحفز/جلسات مجدولة تلقائيًا";
+"pref_notif_bttn_trig_autoend" = "إخطار عند انتهاء مُحفز/جلسات مجدولة تلقائيًا";
+"pref_notif_bttn_sound_remind" = "تشغيل مع التذكير بالجلسة/الإشعارات الأخرى";
+"pref_notif_bttn_sound_startend" = "تشغيل عند بدء أو انتهاء أي جلسة";
+"pref_notif_bttn_sound_extend" = "تشغيل عند تمديد الجلسة";
+"pref_notif_bttn_cdm_play_warning" = "قم بتشغيل نغمة تحذير عند اغلاق الشاشة";
+"pref_notif_bttn_cdm_repeat_warning" = "تكرار النغمة كل";
+"pref_notif_bttn_cdm_change_vol" = "قم بتغير درجة صوت النظام مؤقتًا إلى";
+"pref_notif_bttn_cdm_change_vol_message" = "سيؤدي تمكين هذه الميزة إلى تشغيل نغمة التحذير من مخرج (سماعة) الصوت الافتراضي بدلاً من مخرج الصوت المُخصص لمؤثرات الصوت.";
+"pref_notif_bttn_notif_remove" = "إزالة الإشعارات بعد وصولها.";
+
+// PREFERENCES → NOTIFICATIONS LABELS
+"pref_notif_lbl_sound_start" = "بدء الجلسة/تذكير بالجلسة:";
+"pref_notif_lbl_sound_end" = "نهاية الجلسة:";
+"pref_notif_lbl_session_reminders" = "تذكيرات الجلسات";
+"pref_notif_lbl_trig_sched" = "المُحفزات/الجلسات المجدولة:";
+"pref_notif_lbl_sound" = "الصوت:";
+"pref_notif_lbl_cdm" = "وضع الشاشة المغلقة:";
+"pref_notif_lbl_notif_center" = "مركز الإشعارات:";
+
+// PREFERENCES → NOTIFICATIONS MENU ITEMS
+"pref_notif_mi_default_sound" = "صوت النظام الافتراضي";
+
+// ---------------------------------------------------------------------------
+// (?) BUTTON MENU ITEMS
+
+// ----- PREFERENCES → NOTIFICATIONS → Session Reminders Help Message
+
+// Title
+"help_message_session_reminders_title" = "تذكير الجلسة";
+
+// Body
+"help_message_session_reminders_body" = "حدد هذا المربع لجعل أمفيتامين يرسل إشعارًا/تذكيرًا على فترات منتظمة أثناء عمل أي جلسة.";
+
+// ----- PREFERENCES → NOTIFICATIONS → Triggers/Scheduled Help Message
+
+// Title
+"help_message_triggers_scheduled_title" = "المُحفزات/الجلسات المجدولة";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_triggers_scheduled_body" = "حدد هذه المربعات لجعل أمفيتامين يرسل إشعارًا عند بدء أو انتهاء أي جلسة تلقائيًا. يتضمن ذلك جلسات المبنية على المُحفزات، الجلسات المجدولة، وبعض الجلسات المحددة بوقت.\n\nالجلسات التي بدأت أو انتهت يدويًا بالنقر فوق صورة أمفيتامين في شريط القائمة، أو بتحديد خيار من قائمة أمفيتامين لن يتسبب في ظهور أي إشعار.";
+
+// ----- PREFERENCES → NOTIFICATIONS → Sound Help Message
+
+// Title
+"help_message_sound_title" = "الأصوات";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_sound_body" = "• تشغيل صوت مع تذكيرات الجلسة أو أي إشعارات أخرى\nحدد هذا المربع إذا كنت تريد تشغيل صوت مُعين كلما تم أرسال أي إشعار.\n\n• تشغيل صوت عند بدء أو انتهاء أي جلسة\nحدد هذا المربع لتشغيل صوت تنبيه كلما بدأت انتهت جلسة معينة.\n\n• تشغيل صوت عند تمديد أي جلسة\nحدد هذا المربع لتشغيل صوت التنبيه عند تمديد الجلسة.\n\nلإضافة صوت مخصص جديد، انقر فوق الزر + وحدد ملف صوتي لاستخدامه. لإزالة الصوت المخصص، انقر فوق الزر -. سيتم فتح نافذة Finder في المجلد حيث يتم حفظ الملفات المخصصة فيه. احذف ملف الصوت في Finder عن طريق سحبه إلى سلة المهملات أو من خلال لوحة المفاتيح Command + Delete.";
+
+// ----- PREFERENCES → NOTIFICATIONS → Closed-Display Mode Help Message
+
+// Title
+"help_message_closed_display_notif_title" = "وضع الشاشة المغلقة";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_closed_display_notif_body" = "• تشغيل نغمة تحذير لوضع الشاشة المغلقة\nحدد هذا المربع لتشغيل نغمة صوتية عندما يدخل الماك في وضع الشاشة المغلقة. لن يتم تشغيل نغمة التحذير إذا تم توصيل محول طاقة وشاشة خارجية بجهاز الماك.\n\n• تكرار النغمة كل...\nحدد هذا المربع وقم بتحديد فاصل زمني إذا كنت تريد تشغيل نغمة تحذير وضع الشاشة المغلقة بشكل متكرر.\n\n• قم بتعيين مستوى صوت النظام مؤقتًا على...\nحدد هذا المربع وحدد مستوى الصوت إذا كنت تريد من أمفيتامين ضبط مستوى صوت نظام الماك قبل تشغيل نغمة تحذير الشاشة المغلقة. إذا تم كان مستوى صوت نظام الماك الخاص بك منخفض جدًا، فقد لا تسمع صوت النغمة. إذا تم ضبط مستوى صوت نظام الماك الخاص بك على مستوى عالٍ جدًا، فقد تكون النغمة مزعجة. عند تفعيل هذه الميزة، سيقوم أمفيتامين بضبط مستوى صوت نظام الماك الخاص بك ليتناسب مع مستوى نغمة تحذير الشاشة المغلقة. بعد تشغيل نغمة تحذير الشاشة المغلقة، سيتم اعادة مستوى صوت إلى نفس الدرجة التي كان عليها سابقًأ.";
+
+// ----- PREFERENCES → NOTIFICATIONS → Notification Center Help Message
+
+// Title
+"help_message_notif_center_title" = "مركز الإشعارات";
+
+// Body
+"help_message_notif_center_body" = "حدد هذا المربع لجعل أمفيتامين ينظف إشعاراته تلقائيًا في مركز الإشعارات. سيساعد هذا في تقليل كثرة الإشعارات، خاصةً إذا تم تفعيل التذكير بالجلسات.";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → APPEARANCE TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_appr" = "المظهر";
+
+// PREFERENCES → APPEARANCE BUTTONS
+"pref_appr_bttn_image_low_opac" = "استخدم عتامة منخفضة عند عدم النشاط";
+"pref_appr_bttn_image_padd" = "إدارة المساحة المتروكة حول صورة شريط القوائم يدويًا";
+"pref_appr_bttn_text_show_time" = "إظهار الوقت المتبقي للجلسة في شريط القائمة";
+"pref_appr_bttn_text_24hr_clock" = "استخدم تنسيق 24 ساعة";
+"pref_appr_bttn_text_incl_secs" = "تشمل الثواني";
+"pref_appr_bttn_show_curr_sess" = "إظهار تفاصيل الجلسة الحالية";
+"pref_appr_bttn_show_drive_alive" = "إظهار معلومات القرص الحي";
+
+// PREFERENCES → APPEARANCE LABELS
+"pref_appr_lbl_image" = "صورة شريط القوائم:";
+"pref_appr_lbl_text" = "نص شريط القائمة:";
+"pref_appr_lbl_xtra" = "أخرى:";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"pref_appr_lbl_cust_icon_inst" = "اسحب ملفات الصور الخاصة بك وأفلتها في المناطق أدناه. للحصول على أفضل النتائج، يجب استخدام\nفقط الصور الثنائية ذات الخلفية الشفافة.";
+
+"pref_appr_lbl_cust_icon_inact" = "معطل";
+"pref_appr_lbl_cust_icon_act" = "مفعل";
+"pref_appr_lbl_cust_icon_inact_inst" = "ستظهر هذه الصورة عندما يعطل أمفيتامين ميزة الاستيقاظ على جهاز الماك الخاص بك.";
+"pref_appr_lbl_cust_icon_act_inst" = "ستظهر هذه الصورة عندما يبقي أمفيتامين جهاز الماك الخاص بك مستيقظًا.";
+"pref_appr_lbl_cust_icon_get_more" = "المزيد من الصور...";
+
+
+// PREFERENCES → APPEARANCE MENU ITEMS
+"pref_appr_mi_cust_image" = "صورة مخصصة...";
+"pref_appr_mi_image_pill" = "حبة دواء";
+"pref_appr_mi_image_pill_out" = "حبة دواء (مخطط)";
+"pref_appr_mi_image_molecule" = "مركب كيميائي";
+"pref_appr_mi_image_coffee_pot" = "إبريق قهوة";
+"pref_appr_mi_image_caffeine" = "كافيين";
+"pref_appr_mi_image_cup" = "كوب قهوة";
+"pref_appr_mi_image_teapot" = "براد شاي";
+"pref_appr_mi_image_owl" = "بومة";
+"pref_appr_mi_image_eye" = "عين";
+"pref_appr_mi_image_sun_moon" = "شمس وقمر";
+"pref_appr_mi_image_emoji" = "إيموجي";
+"pref_appr_mi_text_normal_sz" = "حجم الخط القياسي";
+"pref_appr_mi_text_small_sz" = "حجم خط صغير";
+"pref_appr_mi_text_format_normal" = "التنسيق القياسي (08:15)";
+"pref_appr_mi_text_format_letter" = "تنسيق تدوين الحروف (8س 15د)";
+
+
+
+
+// ---------------------------------------------------------------------------
+// (?) BUTTON MENU ITEMS
+
+// ----- PREFERENCES → APPEARANCE → Menu Bar Image Help Message
+
+// Title
+"help_message_menu_bar_image_title" = "صورة شريط القائمة";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_menu_bar_image_body" = "اختر الصور التي تريد عرضها في شريط القائمة لتمثيل حالة جلسة أمفيتامين (النشطة/غير النشطة). عندما تبدأ الجلسة أو تنتهي، سيتم تحديث صورة أمفيتامين في شريط القائمة وفقًا لحالة التطبيق.\n\nتستطيع أيضًا أن توفر صورك الخاصة بدلًا من الصور الافتراضية.";
+
+// ----- PREFERENCES → APPEARANCE → Menu Bar Text Help Message
+
+// Title
+"help_message_menu_bar_text_title" = "نص شريط القائمة";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_menu_bar_text_body" = "• إظهار وقت الجلسة المتبقي في شريط القوائم\nحدد هذا المربع إذا كنت تريد عرض الوقت المتبقي للجلسة أو وقت الانتهاء بجانب أيقونة أمفيتامين في شريط القائمة.\n\nاختر خيارات تنسيق إضافية مثل حجم النص في شريط القائمة، كيف يتم تمثيل الوقت، وما إذا كان سيتم تضمين الثواني، وما إذا كان سيتم تمثيل الوقت بتنسيق 12 أو 24 ساعة.";
+
+// ----- PREFERENCES → APPEARANCE → Menu Bar Extras Help Message
+
+// Title
+"help_message_menu_extras_title" = "أخرى";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_message_menu_extras_body" = "• إظهار تفاصيل الجلسة الحالية\nحدد هذا الخيار لإظهار تفاصيل الجلسة مثل مدة الجلسة/الوقت المتبقي والغرض من الجلسة في قائمة أمفيتامين.\n\n• إظهار تفاصيل القرص الحي\nحدد هذا الخيار لإظهار تفاصيل القرص الحي مثل محركات الأقراص التي يتم إبقاؤها نشطة وأيهم ليسوا كذلك.";
+
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- PREFERENCES WINDOW → STATISTICS TAB
+// ---------------------------------------------------------------------------
+
+// PREFERENCES WINDOW TOOLBAR ITEM LABEL
+"prefs_tb_stat" = "إحصائيات";
+
+// PREFERENCES → STATISTICS BUTTONS
+"pref_stat_bttn_reset" = "اعادة تعيين الاحصائيات";
+"pref_stat_bttn_enable" = "تمكين جمع الإحصائيات من قبل المبرمج";
+
+// PREFERENCES → STATISTICS LABELS
+"pref_stat_lbl_how_long_title" = "المدة التي حافظ أمفيتامين على جهاز الماك الخاص بك مستيقظًا"; // v5.0.1
+"pref_stat_lbl_how_long_about" = "\n%@ %@ %@ %@"; // v5.0.1
+"pref_stat_lbl_how_long_prefs" = "%@ %@ %@ %@"; // v5.0.1
+"pref_stat_lbl_average" = "متوسط مدة الجلسة";
+"pref_stat_lbl_total_sessions" = "مجموع الجلسات";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- TRIGGER CONFIGURATION WINDOW + CRITERIA
+// ---------------------------------------------------------------------------
+
+// TRIGGER CONFIGURATION WINDOW
+"trig_config_lbl_name" = "الاسم";
+"trig_config_lbl_name_placeholder" = "اكتب الاسم هنا";
+"trig_config_lbl_name_desc" = "ضع اسما تستطيع تذكره";
+"trig_config_lbl_criteria" = "المعايير";
+"trig_config_lbl_criteria_desc" = "يمكن لكل مُحفز تقوم بإنشائه استخدام مثيل واحد لكل معيار. يجب أن تكون جميع المعايير صحيحة حتى يتم تنشيط المُحفز.";
+"trig_config_lbl_criteria_edit" = "انقر نقرًا مزدوجًا فوق أحد المعايير لتحريره";
+"trig_config_lbl_add_opt" = "خيارات إضافية";
+"trig_config_lbl_add_opt_desc" = "الخيارات الإضافية التي تنطبق فقط على هذا المُحفز.";
+"trig_config_bttn_disp_sleep" = "السماح للشاشة بالسبات";
+"trig_config_bttn_cdm" = "السمح للنظام بالإسبات عند إغلاق الشاشة";
+"trig_config_bttn_scrn_svr" = "السماح بتشغيل شاشة التوقف بعد:";
+
+// TABLE HEADERS
+"trig_config_tbl_head_criterion" = "المعيار";
+"trig_config_tbl_head_values" = "القيمة/القيم";
+
+
+
+// ---------------------------------------------------------------------------
+// ----- TRIGGER CONFIGURATION HELP MESSAGE
+
+// Title
+"help_trigger_config_title" = "إعدادات المُحفز";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_trigger_config_body" = "الاسم\nامنح المُحفز اسمًا سهل التذكر. سيتم استخدام اسم المُحفز في الإشعارات وفي قسم تفاصيل الجلسة بقائمة أمفيتامين (إذا كانت هذه التفضيلات مفعلة).\n\nالمعايير\nيمكن أن يستخدم المُحفز معيارًا واحدًا. لإضافة معيار جديد، انقر فوق الزر + ، وحدد معيارًا. لإزالة معيار، حدد المعيار في جدول المعايير، وانقر فوق الزر -.\n\nخيارات إضافية\n كل مُحفز تقوم بإنشائه بشكل مستقل تستطيع من خلاله السماح أو منع إسبات الشاشة، تنشيط شاشة التوقف، ومنع جهاز الماك الخاص بك من الدخول في وضع الإسبات عندم إغلاق الشاشة.";
+
+"help_trigger_config_body_13" = "الاسم\nامنح المُحفز اسمًا سهل التذكر. سيتم استخدام اسم المُحفز في الإشعارات وفي قسم تفاصيل الجلسة بقائمة أمفيتامين (إذا كانت هذه الإعدادات مفعلة).\n\nالمعايير\nيمكن أن يستخدم المُحفز معيارًا واحدًا. لإضافة معيار جديد، انقر فوق الزر + ، وحدد معيارًا. لإزالة معيار، حدد المعيار في جدول المعايير، وانقر فوق الزر -.\n\nخيارات إضافية\n كل مُحفز تقوم بإنشائه بشكل مستقل تستطيع من خلاله السماح أو منع إسبات الشاشة، تنشيط شاشة التوقف، ومنع جهاز الماك الخاص بك من الدخول في وضع الإسبات عندم إغلاق الشاشة.";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- TRIGGER CRITERIA
+
+// TRIGGER CRITERIA → GLOBAL
+"trig_crit_bttn_add" = "أضف معيارًا";
+
+// example: "Selection: 'None selected'
+"trig_crit_lbl_no_selection" = "لم يتم اختيار أي شيء";
+"trig_crit_lbl_no_value" = "لم يتم إدخال أي قيمة";
+
+// TRIGGER CRITERIA → WI-FI
+"trig_crit_name_wifi" = "شبكة Wi-Fi";
+"trig_crit_name_wifi_placeholder" = "اسم شبكة Wi-Fi";
+"trig_crit_bttn_wifi_get_current" = "احصل على اسم شبكة Wi-Fi المستخدمة حاليًا";
+
+// TRIGGER CRITERIA → IP ADDRESS
+"trig_crit_name_ip" = "عنوان IP";
+"trig_crit_bttn_get_ip" = "استخدم على عنوان IP الحالي";
+"trig_crit_bttn_use_range" = "استخدم نطاق (range) عنوان IP";
+"trig_crit_lbl_ip_start" = "نطاق البدء (Start range):";
+"trig_crit_lbl_ip_end" = "نطاق النهاية: (End range):";
+"trig_crit_lbl_ip_addr" = "عنوان IP:";
+"trig_crit_lbl_ip_mutli" = "تم العثور على عدة عناوين IP لنظام الماك هذا. حدد عنوان IP الذي ترغب في استخدامه لهذا المُحفز وانقر فوق متابعة.";
+"trig_crit_ip_tbl_head_type" = "الواجهة/النوع";
+"trig_crit_ip_tbl_head_addr" = "العناوين";
+
+// TRIGGER CRITERIA → DNS
+"trig_crit_name_dns" = "خادم DNS";
+"trig_crit_dns_tbl_head" = "خوادم DNS";
+
+// TRIGGER CRITERIA → CISCO VPN SERVICE
+"trig_crit_name_vpn" = "Cisco AnyConnect VPN";
+"trig_crit_lbl_vpn_current" = "الخدمة الحالية:";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"trig_crit_txtfd_vpn_message" = "هذا المعيار يعمل فقط مع عميل Cisco AnyConnect VPN. في معظم الحالات، يجب تجنب هذا المعيار إذا كنت لا تستخدم Cisco AnyConnect. استخدم معيار نطاق (range) عنوان IP بدلاً من ذلك.\n\nلاستخدام هذا المعيار، اتصل بشبكة VPN الخاصة بك وانقر فوق الزر ↻ أدناه.";
+
+// TRIGGER CRITERIA → APP
+"trig_crit_name_app" = "تطبيق";
+"trig_crit_bttn_no_helpers" = "لا تعرض التطبيقات أو العمليات المساعدة";
+"trig_crit_bttn_frontmost" = "يتطلب أن يكون التطبيق في مقدمة التطبيقات";
+"trig_crit_lbl_select_app" = "اختر تطبقًا";
+"trig_crit_lbl_when_frontmost" = "(عندما يكون في مقدمة التطبيقات)"; // example: Safari '(when frontmost)'
+
+// TRIGGER CRITERIA → SCHEDULE
+"trig_crit_name_sched" = "جدول مواعيد";
+"trig_crit_lbl_sched_from" = "من:";
+"trig_crit_lbl_sched_until" = "إلى:";
+"trig_crit_lbl_sched_no_select" = "لم يتم تحديد أي أيام ";
+
+// DAYS OF THE WEEK
+
+// IT IS IMPORTANT TO TRANSLATE THE DAYS OF THE WEEK IN THE CORRECT ORDER, AND NOT JUST TRANSLATE THE WORD/SPELLING OF THE DAY
+// FOR EXAMPLE, IN THE USA THE WEEK STARTS ON SUNDAY. THEREFORE, weekday_abbr_1 SHOULD EQUAL THE TARGET LANGUAGE TRANSLATION OF "Sun"
+// IN OTHER LOCALES, HOWEVER, THE WEEK STARTS ON MONDAY, AND THUS, weekday_abbr_1 = SHOULD EQUAL THE TARGET LANGUAGE TRANSLATION OF "Mon"
+
+// THERE IS LIMITED SPACE IN THE SEGMENTED CONTROL. PLEASE USE THE SHORTEST ABBREVIATION FOR EACH WEEKDAY NAME WHERE POSSIBLE
+
+"weekday_abbr_1" = "احد";
+"weekday_abbr_2" = "اثنين";
+"weekday_abbr_3" = "ثلاثاء";
+"weekday_abbr_4" = "أربعاء";
+"weekday_abbr_5" = "خميس";
+"weekday_abbr_6" = "جمعة";
+"weekday_abbr_7" = "سبت";
+
+// TRIGGER CRITERIA → BATTERY & POWER ADAPTER
+"trig_crit_name_power" = "البطارية ومحول الطاقة";
+"trig_crit_lbl_batt_charge_min" = "البطارية تحتوي على الإقل نسبة:";
+"trig_crit_lbl_batt_not_detected" = "لاتوجد بطارية";
+"trig_crit_bttn_ac_connected" = "محول الطاقة متصل";
+"trig_crit_bttn_ac_not_connected" = "محول الطاقة غير متصل";
+"trig_crit_bttn_ac_connected_only" = "فقط عند توصيل محول الطاقة";
+"trig_crit_bttn_ac_not_connected_only" = "فقط عندما يكون محول الطاقة غير متصل";
+"trig_crit_lbl_batt_lvl_greater" = "شحن البطارية ≥ %i%%"; // PLACEHOLDER IS A NUMBER + PERCENT SIGN, EXAMPLE: 'BATTERY CHARGE ≥ 15%'
+
+// TRIGGER CRITERIA → DISPLAYS
+"trig_crit_name_disp" = "الشاشات";
+"trig_crit_mi_disp_equals" = "عدد الشاشات =";
+"trig_crit_mi_disp_greater" = "عدد الشاشات >";
+"trig_crit_mi_disp_less" = "عدد الشاشات <";
+"trig_crit_mi_disp_mirrored" = "الشاشة الرئيسية معكوسة (متطابقة)";
+"trig_crit_bttn_ignore_built_in" = "تجاهل الشاشة المدمجة";
+
+// INDICATES AN EXTERNAL DISPLAY - i.e. NOT BUILT-IN
+"trig_crit_lbl_external" = "(خارجي)";
+
+// TRIGGER CRITERIA → VOLUMES/DRIVES
+"trig_crit_name_vols" = "وحدة التخزين/محرك الأقراص";
+
+// TRIGGER CRITERIA → USB DEVICE
+"trig_crit_name_usb" = "جهاز USB";
+
+// TRIGGER CRITERIA → BLUETOOTH DEVICE
+"trig_crit_name_bluetooth" = "جهاز بلوتوث";
+
+// TRIGGER CRITERIA POPUP → AUDIO OUTPUT
+"trig_crit_name_audio" = "مخرج الصوت";
+"trig_crit_mi_audio_headphones" = "سماعات رأس";
+"trig_crit_mi_audio_bi_speakers" = "مكبرات صوت مدمجة";
+"trig_crit_mi_audio_bi_output" = "Built-in Output";
+"trig_crit_mi_audio_headphones_35w" = "سماعات (سلكية 3.5 ملم)";
+
+// TRIGGER CRITERIA POPUP → CPU
+"trig_crit_name_cpu" = "استخدام المعالج";
+"trig_crit_lbl_cpu" = "نسبة استخدام المعالج";
+"trig_crit_lbl_cpu_error" = "خطأ المعالج";
+
+// TRIGGER CRITERIA POPUP → IDLE TIME
+"trig_crit_name_idle" = "وقت خمول النظام";
+"trig_crit_mi_idle_greater" = "وقت الخمول<";
+"trig_crit_mi_idle_less" = "وقت الخمول<";
+"trig_crit_lbl_idle_mins" = "دقيقة(دقائق)";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- TRIGGER CRITERIA HELP MESSAGES
+
+
+// ----- Criterion Wi-Fi Help Message
+
+// Title
+"criterion_help_wifi_title" = "معيار Wi-Fi";
+
+// Body
+"criterion_help_wifi_body" = "سيتم اطلاق هذا المعيار عندما يكون جهاز الماك الخاص بك متصلاً بشبكة Wi-Fi محددة. أدخل اسم شبكة Wi-Fi في الحقل المتوفر، أو استخدم الزر للحصول تلقائيًا على اسم الشبكة الحالية التي يتصل بها جهاز الماك الخاص بك.";
+
+
+// ----- Criterion IP Address Help Message
+
+// Title
+"criterion_help_ip_title" = "معيار عنوان IP";
+
+// Body
+"criterion_help_ip_body" = "سيتم اطلاق هذا المعيار عندما يكون لجهاز الماك الخاص بك عنوان IP محدد، أو إذا كان عنوان IP الخاص بجهاز الماك يقع ضمن نطاق (range) محدد. استخدم الزر للحصول على عنوان IP الحالي لجهاز الماك، أو أدخل العنوان (العناوين) يدويًا.";
+
+
+// ----- Criterion App Help Message
+
+// Title
+"criterion_help_app_title" = "معيار أحد التطبيقات";
+
+// Body
+"criterion_help_app_body" = "سيتم اطلاق هذا المعيار عند تشغيل التطبيق الذي قمت باختياره. تظهر  التطبيقات المتوافقة مع هذه الميزة في القائمة. إذا لم يظهر أحد التطبيقات في القائمة، فهذا يعني بأنه لا يعمل حاليًا، أو أن تقنية App Sandbox في نظام الماك تمنع أمفيتامين من الوصول لهذا التطبيق.";
+
+
+// ----- Criterion Battery & Power Adapter Help Message
+
+// Title
+"criterion_help_power_title" = "معيار البطارية ومحول الطاقة";
+
+// Body
+"criterion_help_power_body" = "سيتم تفعيل هذا المعيار على عند استيفاء شروط الطاقة والبطارية المحددة على جهاز الماك الخاص بك.";
+
+
+// ----- Criterion Schedule Help Message
+
+// Title
+"criterion_help_schedule_title" = "معيار الجدول الزمني";
+
+// Body
+"criterion_help_schedule_body" = "سيتم تفعيل هذا المعيار خلال الوقت واليوم استنادًا على ساعة نظام الماك في الوقت واليوم المحددين.";
+
+
+// ----- Criterion Displays Help Message
+
+// Title
+"criterion_help_displays_title" = "معيار الشاشة";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"criterion_help_displays_body" = "سيتم اطلاق هذا المعيار عندما يكون عدد الشاشات المتصلة مساويًا للعدد الذي تحدده أو أعلى أو أقل. أيضًا، يمكنك استخدام خيار شاشات العرض المتطابقة كمعيار فقط عندما يتم عكس الشاشة الرئيسية لجهاز الماك الخاص بك.\n\n حدد الخيار -تجاهل الشاشة المدمجة- لتجاهل شاشة الماك المضمنة عند حساب عدد الشاشات المتصلة جهاز الماك الخاص بك.";
+
+
+// ----- Criterion Volume/Drive Help Message
+
+// Title
+"criterion_help_volume_title" = "معيار وحدة التخزين/القرص";
+
+// Body
+"criterion_help_volume_body" = "سيتم اطلاقة هذا المعيار عندما يكون محرك الأقراص أو وحدة التخزين المحددة متصلة بجهاز الماك الخاص بك. يمكنك محرك الأقراص أو وحدة التخزين من القائمة، تأكد من أنه متصل بالجهاز.";
+
+
+// ----- Criterion Audio Help Message
+
+// Title
+"criterion_help_audio_title" = "معيار مخرج الصوت";
+
+// Body
+"criterion_help_audio_body" = "سيتم اطلاق هذا المعيار عندما يتم تخصيص مخرج الصوت المحدد كالمخرج الافتراضي على جهاز الماك.\n\nيمكن تعيين إخراج الصوت من خلال  ← تفضيلات النظام ← الصوت ← مخرج الصوت.";
+
+"criterion_help_audio_body_13" = "سيتم اطلاق هذا المعيار عندما يتم تخصيص مخرج الصوت المحدد كالمخرج الافتراضي على جهاز الماك.\n\nيمكن تعيين إخراج الصوت من خلال  ← إعدادات النظام ← الصوت ← مخرج الصوت.";
+
+
+// ----- Criterion Bluetooth Help Message
+
+// Title
+"criterion_help_bluetooth_title" = "معيار جهاز بلوتوث";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"criterion_help_bluetooth_body" = "سيتم اطلاق هذا المعيار عندما يكون جهاز الـBluetooth المحدد متصلاً بجهاز الماك الخاص بك. ستظهر في القائمة أجهزة الـBluetooth المقترنة بجهاز الماك الخاص بك.\n\nلربط جهاز Bluetooth جديد ، ضع جهازك في وضع الإقتران بالذهاب إلى  ← تفضيلات النظام ← Bluetooth.";
+
+"criterion_help_bluetooth_body_13" = "سيتم اطلاق هذا المعيار عندما يكون جهاز الـBluetooth المحدد متصلاً بجهاز الماك الخاص بك. ستظهر في القائمة أجهزة الـBluetooth المقترنة بجهاز الماك الخاص بك.\n\nلربط جهاز Bluetooth جديد ، ضع جهازك في وضع الإقتران بالذهاب إلى  ← إعدادات النظام ← Bluetooth.";
+
+
+// ----- Criterion Cisco AnyConnect VPN Help Message
+
+// Title
+"criterion_help_vpn_title" = "معيار Cisco AnyConnect VPN";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"criterion_help_vpn_body" = "سيتم اطلاق هذا المعيار عندما يكون جهاز الماك الخاص بك متصلاً بخدمة VPN المحددة. ابدأ خدمة VPN على جهاز الماك الخاص بك، ثم انقر فوق زر تحديث للحصول على اسم الخدمة تلقائيًا.\n\nهذا المعيار تجريبي إلى حد ما، حيث لم يتم اختبار معظم خدمات VPN. Cisco AnyConnect VPN، عميل Cisco AnyConnect الرسمي، هي حاليًا خدمة VPN  الوحيدة المتوافقة.";
+
+
+// ----- Criterion USB Help Message
+
+// Title
+"criterion_help_usb_title" = "معيار جهاز USB";
+
+// Body
+"criterion_help_usb_body" = "سيتم اطلاق هذا المعيار عندما يكون جهاز USB المحدد متصلاً بجهاز الماك الخاص بك. تحقق من القائمة لرؤية جهاز USB المراد استخدامه. ولاتنسى أن تقوم بتوصيله بجهاز الماك وتشغيله.";
+
+
+// ----- Criterion CPU Utilization Help Message
+
+// Title
+"criterion_help_cpu_title" = "معيار استخدام المعالج";
+
+// Body
+"criterion_help_cpu_body" = "سيتم اطلاق هذا المعيار فقط عندما يكون الاستخدام المشترك لجميع وحدات المعالج في جهاز الماك الخاص بك إما أعلى أو أقل من الحد (threshold) الذي قمت بتعيينه. لاحظ أن أخذ عينات استخدام وحدة المعالجة المركزية من أمفيتامين قد لا يتطابق دائمًا مع تطبيقات مراقبة النشاط أو التطبيقات الأخرى القادرة على مراقبة استخدام المعالج. من المحتمل أن يكون هذا بسبب معدلات أخذ العينات المختلفة.";
+
+
+// ----- Criterion Idle Time Help Message
+
+// Title
+"criterion_help_idle_title" = "معيار وقت الخمول";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"criterion_help_idle_body" = "سيتم اطلاق هذا المعيار فقط عندما تكون ساعة وقت الخمول (idle time) في جهاز الماك أعلى أو أقل من الحد (بالدقائق) الذي قمت بتعيينه. عادةً ما تزداد ساعة وقت الخمول في جهاز الماك عند عدم وجود لوحة مفاتيح أو ماوس أو نشاط آخر لجهاز الإدخال.\n\nلاحظ أن إستخدام الماوس ولوحة المفاتيح أو سطح مكتب بعيد أو مشاركة VNC قد تؤدي إلى زيادة ساعة الخمول (idle clock).";
+
+
+// ----- Criterion DNS Server Help Message
+
+// Title
+"criterion_help_dns_title" = "معيار خادم DNS";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"criterion_help_dns_body" = "سيتم اطلاق هذا المعيار عندما يستخدم جهاز الماك الخاص بك أيًا من خوادم/عناوين DNS التي حددتها. لإضافة عناوين DNS التي يستخدمها الماك حاليًا إلى القائمة، انقر فوق الزر +. لإزالة عنوان DNS من القائمة، قم بتحديده  ثم انقر فوق الزر -.\n\nإذا كنت قد قمت مؤخرًا بتحديث خوادم DNS الخاصة بك في تفضيلات النظام ، أو قمت مؤخرًا بتغيير إعدادات الشبكة، فالرجاء الانتظار حتى دقيقتين ليتمكن النظام من تحديث أمفيتامين مع عناوين DNS الجديدة.\n\nملاحظة: قد لا يتم تفعيل هذا المُحفز على الفور في بعض الظروف. سوف يستعلم أمفيتامين عن خوادم DNS الحالية لجهاز الماك الخاص بك، ولكن إذا تم تحديثها/تغييرها مؤخرًا، فقد يستغرق الأمر دقيقة أو دقيقتين حتى يقوم نظام الماك بإيصال هذا التغيير إلى أمفيتامين.";
+
+"criterion_help_dns_body_13" = "سيتم اطلاق هذا المعيار عندما يستخدم جهاز الماك الخاص بك أيًا من خوادم/عناوين DNS التي حددتها. لإضافة عناوين DNS التي يستخدمها الماك حاليًا إلى القائمة، انقر فوق الزر +. لإزالة عنوان DNS من القائمة، قم بتحديده  ثم انقر فوق الزر -.\n\nإذا كنت قد قمت مؤخرًا بتحديث خوادم DNS الخاصة بك في إعدادات النظام ، أو قمت مؤخرًا بتغيير إعدادات الشبكة، فالرجاء الانتظار حتى دقيقتين ليتمكن النظام من تحديث أمفيتامين مع عناوين DNS الجديدة.\n\nملاحظة: قد لا يتم تفعيل هذا المُحفز على الفور في بعض الظروف. سوف يستعلم أمفيتامين عن خوادم DNS الحالية لجهاز الماك الخاص بك، ولكن إذا تم تحديثها/تغييرها مؤخرًا، فقد يستغرق الأمر دقيقة أو دقيقتين حتى يقوم نظام الماك بإيصال هذا التغيير إلى أمفيتامين.";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- STATUS ITEM MENU
+// ---------------------------------------------------------------------------
+
+// CURRENT SESSION DETAILS VIEW MENU ITEM
+"csdv_lbl_title" = "تفاصيل الجلسة الحالية:";
+"csdv_lbl_drive_alive_title" = "تفاصيل القرص الحي:";
+
+// REARRANGE THE BELOW PLACEHOLDERS (IF NEEDED) FOR THE TARGET LANGUAGE
+// IN ENGLISH, THE PLACEHOLDERS WOULD READ LIKE: "1h 3m 45s remaining"
+
+// %1$i = THE NUMBER OF HOURS REMAINING IN THE SESSION
+// %2$@ = duration_abbrv_hours_h
+// %3$02d = THE NUMBER OF MINUTES REMAINING IN THE SESSION
+// %4$@ = duration_abbrv_minutes_m
+// %5$02d = THE NUMBER OF MINUTES REMAINING IN THE SESSION
+// %6$@ = duration_abbrv_seconds_s
+// %7$@ = gen_use_remaining
+"csdv_time_remain_hms" = "%1$i%2$@ %3$02d%4$@ %5$02d%6$@ %7$@";
+
+// %1$02d = THE NUMBER OF MINUTES REMAINING IN THE SESSION
+// %2$@ = duration_abbrv_minutes_m
+// %3$02d = THE NUMBER OF MINUTES REMAINING IN THE SESSION
+// %4$@ = duration_abbrv_seconds_s
+// %5$@ = gen_use_remaining
+"csdv_time_remain_ms" = "%1$02d%2$@ %3$02d%4$@ %5$@";
+
+// %1$02d = THE NUMBER OF MINUTES REMAINING IN THE SESSION
+// %2$@ = duration_abbrv_seconds_s
+// %3$@ = gen_use_remaining
+"csdv_time_remain_s" = "%1$02d%2$@ %3$@";
+
+"csdv_bttn_disp_sleep" = "السماح بإسبات الشاشة";
+"csdv_bttn_cdm" = "السماح للنظام بالإسبات عند إغلاق الشاشة";
+
+"csdv_drive_alive_not_enabled" = "القرص الحي غير مفعل";
+"csdv_drive_alive_not_config" = "لم يتم إعداد أي أقراص";
+
+// MENU/STATUS BAR ITEM → MENU ITEMS
+"statbar_mi_start_new_session" = "بدء جلسة جديدة:";
+"statbar_mi_drive_alive_details" = "تفاصيل القرص الحي:";
+"statbar_mi_other_duration" = "وقت آخر / حتى ...";
+"statbar_mi_other_duration_BigSur" = "وقت آخر / حتى";
+"statbar_mi_app" = "أثناء عمل التطبيق ...";
+"statbar_mi_app_BigSur" = "أثناء عمل التطبيق";
+"statbar_mi_file" = "أثناء تنزيل ملف ...";
+"statbar_mi_qp" = "التفضيلات السريعة";
+"statbar_mi_qp_13" = "الإعدادات السريعة";
+"statbar_mi_prefs" = "التفضيلات ...";
+"statbar_mi_prefs_13" = "الإعدادات ...";
+"statbar_mi_about" = "عن أمفيتامين";
+"statbar_mi_fb_support" = "التعليقات والدعم";
+"statbar_mi_troubleshoot" = "استكشاف الأخطاء/الأسئلة الشائعة";
+"statbar_mi_debugMode" = "تمكين وضع الـDebug (للمطورين) "; // v5.0.1
+"statbar_mi_contact" = "تواصل مع الدعم الفني";
+"statbar_mi_follow_dev" = "تابع مطور البرنامج"; // OPENS TWITTER LINK
+"statbar_mi_contribute" = "ساهم معنا في تطوير أمفيتامين";
+"statbar_mi_quit" = "إنهاء أمفيتامين";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- WELCOME WINDOW
+// ---------------------------------------------------------------------------
+
+// WELCOME WINDOW GLOBAL
+"ww_bttn_dont_show" = "لا تظهر هذه النافذة مرة أخرى";
+"ww_bttn_previous" = "السابق";
+"ww_bttn_next" = "التالي";
+"ww_bttn_end" = "إناء";
+
+// WELCOME WINDOW #1
+"ww1_lbl_welcome" = "مرحبًا بك في أمفيتامين";
+"ww1_lbl_credit" = "صمم بِحُبً ♥ من ويليام جوستافسون";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"ww1_lbl_message" = "\nيعد الأمفيتامين أداة مساعدة فائقة الروعة وقوية ومرنة لإبقاء نظام macOS مستيقضًا .\nحتى مع كل ميزاته وخياراته، يظل أمفيتامين سهل الاستخدام بشكل لا يصدق. \n\nلا يتطلب الأمر سوى بضع خطوات قصيرة لإعداد أمفيتامين. انقر فوق التالي للبدء.";
+
+// WELCOME WINDOW #2
+"ww2_lbl_title" = "أين أجد امفيتامين";
+"ww2_lbl_subtitle" = "يتواجد امفيتامين في شريط القائمة أعلى الزاوية اليسرى من شاشتك.";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"ww2_lbl_message" = "عندما تقوم بالنقر على أيقونة أمفيتامين في شريط القائمة، ستظهر لك قائمة بالخيارات. عندما تقوم بالنقر بزر الماوس الأيمن (أو النقر بمفتاح control ) سيؤدي ذلك إلى بدء/إنهاء جلسة لإلبقاء جهازك مستيقظًا أو التوقف. يمكنك تبديل طريقة النقر في تفضيلات أمفيتامين إذا أردت.\n\n يمكنك تخصيص أمفيتامين بدرجة كبيرة ليناسب طريقة عملك. يمكنك تغيير كثير من الأمور مثل أيقونة شريط القائمة، ووقت ظهور الإشعارات، والأصوات التي يتم تشغيلها من خلاص تفضيلات أمفيتامين.";
+
+"ww2_lbl_message_13" = "عندما تقوم بالنقر على أيقونة أمفيتامين في شريط القائمة، ستظهر لك قائمة بالخيارات. عندما تقوم بالنقر بزر الماوس الأيمن (أو النقر بمفتاح control ) سيؤدي ذلك إلى بدء/إنهاء جلسة لإلبقاء جهازك مستيقظًا أو التوقف. يمكنك تبديل طريقة النقر في تفضيلات أمفيتامين إذا أردت.\n\n يمكنك تخصيص أمفيتامين بدرجة كبيرة ليناسب طريقة عملك. يمكنك تغيير كثير من الأمور مثل أيقونة شريط القائمة، ووقت ظهور الإشعارات، والأصوات التي يتم تشغيلها من خلاص تفضيلات أمفيتامين.";
+
+"ww2_bttn_find_amph" = "انقر هنا لتحديد موقع أمفيتامين";
+
+// WELCOME WINDOW #3
+"ww3_lbl_title" = "ماهي فائدة أمفيتامين";
+"ww3_lbl_subtitle" = "أمفيتامين يبقي جهاز الماك الخاص بك مستيقظا والشاشات المتصلة والأقراص المدمجة.";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"ww3_lbl_message" = "عندما يبقي أمفيتامين جهاز الماك الخاص بك مستيقظًا (يمنع الجهاز من الدخول في وضع الإسبات)، يسمى هذا بـ - جلسة - . لبدء جلسة، انقر فوق أيقونة أمفيتامين في شريط القائمة وحدد مدة الجلسة التي تريدها. يمكنك أيضًا النقر بزر الماوس الأيمن أو مفتاح control  لبدء جلسة باستخدام المدة الافتراضية المُحددة مسبقًا. يمكنك تغيير المدة الافتراضية في التفضيلات ← الجلسات.\n\nإذا كان لديك جهاز MacBook  وتريد إبقائه مستيقظًا أثناء غلق الشاشة (بدون الدخول في وضع الإسبات)، فتستطيع القيام بذلك بواسطة أمفيتامين. يوصى بشدة بتثبيت مُحَسِّنْ أمفيتامين باعتباره للحماية من الفشل.";
+
+"ww3_lbl_message_13" = "عندما يبقي أمفيتامين جهاز الماك الخاص بك مستيقظًا (يمنع الجهاز من الدخول في وضع الإسبات)، يسمى هذا بـ - جلسة - . لبدء جلسة، انقر فوق أيقونة أمفيتامين في شريط القائمة وحدد مدة الجلسة التي تريدها. يمكنك أيضًا النقر بزر الماوس الأيمن أو مفتاح control  لبدء جلسة باستخدام المدة الافتراضية المُحددة مسبقًا. يمكنك تغيير المدة الافتراضية في الإعدادات ← الجلسات.\n\nإذا كان لديك جهاز MacBook  وتريد إبقائه مستيقظًا أثناء غلق الشاشة (بدون الدخول في وضع الإسبات)، فتستطيع القيام بذلك بواسطة أمفيتامين. يوصى بشدة بتثبيت مُحَسِّنْ أمفيتامين باعتباره للحماية من الفشل.";
+
+"ww3_bttn_learn_amph_enh" = "انقر هنا لمعرفة المزيد عن محسن أمفيتامين";
+
+// WELCOME WINDOW #4
+"ww4_lbl_title" = "وماهي مميزات أمفيتامين الأخرى؟";
+"ww4_lbl_subtitle" = "يستطيع أمفيتامين أن يفعل أكثر مما تعتقد";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"ww4_lbl_message" = "تعمل ميزة المُحفزات على جعل جهاز الماك الخاص بك مستيقظًا تلقائيًا استنادًا إلى أمور عدة مثل اتصال Wi-Fi  ومستوى البطارية، وتوصيلات جهاز USB و Bluetooth ، ووقت معين في اليوم، وتشغيل أحد التطبيقات، وعنوان IP  وغير ذلك الكثير. قم بزيارة تفضيلات أمفيتامين لإعداد مُحفز خاص بك يناسب إحتياجاتك، أو انقر فوق الزر أدناه لمعرفة المزيد.\n\nتحافظ ميزة القرص الحي على تنشيط محركات الأقراص المتصلة بجهاز الماك الخاص بك عن طريق كتابة كمية ضئيلة من البيانات بشكل دوري لكل محرك أقراص لإبقائه نشطًا. قم بزيارة تفضيلات أمفيتامين للوصول لإعدادات القرص الحي.";
+
+"ww4_lbl_message_13" = "تعمل ميزة المُحفزات على جعل جهاز الماك الخاص بك مستيقظًا تلقائيًا استنادًا إلى أمور عدة مثل اتصال Wi-Fi  ومستوى البطارية، وتوصيلات جهاز USB و Bluetooth ، ووقت معين في اليوم، وتشغيل أحد التطبيقات، وعنوان IP  وغير ذلك الكثير. قم بزيارة تفضيلات أمفيتامين لإعداد مُحفز خاص بك يناسب إحتياجاتك، أو انقر فوق الزر أدناه لمعرفة المزيد.\n\nتحافظ ميزة القرص الحي على تنشيط محركات الأقراص المتصلة بجهاز الماك الخاص بك عن طريق كتابة كمية ضئيلة من البيانات بشكل دوري لكل محرك أقراص لإبقائه نشطًا. قم بزيارة تفضيلات أمفيتامين للوصول لإعدادات القرص الحي.";
+
+"ww4_bttn_learn_triggers" = "انقر هنا لمعرفة المزيد عن المُحفزات";
+
+// WELCOME WINDOW #5
+"ww5_lbl_title" = "شكرًا ياصديقي لاستخدامك أمفيتامين";
+"ww5_lbl_subtitle" = "صمم أمفيتامين بدافع الحب لكم.";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"ww5_lbl_message" = "أمفيتامين هو هدية مني لكم. أتمنى أن تجدوه مفيدًا ومستقرًا وممتعًا. إذا كان بإمكانك تخصيص لحظة لترك أفكارك بتقييمك له في متجر التطبيقات، فسأكون ممتنًا لذلك. شكرًا لك.\n\nإذا كان لديك سؤال أو واجهت مشكلة أثناء استخدام الأمفيتامين، فالرجاء الاتصال بي بالنقر فوق الملاحظات والدعم ثم الاتصال بالدعم في قائمة أمفيتامين.\n\nويليام جوستافسون\nمطور تطبيق أمفيتامين";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- ABOUT WINDOW
+// ---------------------------------------------------------------------------
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"about_lbl_message" = "أمفيتامين هو أول مشروع لي بلغة Objective-C. منذ اصدار النسخة الأولى لـ أمفيتامين في عام 2014، نما ليصبح أحد أقوى التطبيقات وأكثرها شعبية لإبقاء أجهزة الماك الخاص بك مستيقظًا. اقتراحاتكم وملاحظاتكم ودعمك كانت السبب الرئيسي لهذا النمو. شكرًا لكم.\n\nسيكون أمفيتامين دائمًا تطبيقًا مجانيًا بنسبة 100% بدون أي إعلانات أو عمليات شراء داخل التطبيق أو ترقيات مدفوعة.\n\nخصصت أمفيتامين لذكرى صديقي إسحاق كيركمان.\n\nويليام جوستافسون\n مطور تطبيق أمفيتامين ";
+"about_lbl_hard_work" = "🥵 تطوير أمفيتامين أخذ نص عمري 🥵";
+"about_bttn_support" = "تواصل مع الدعم الفني";
+"about_bttn_rate" = "قيمنا في متجر التطبيقات";
+"about_bttn_ack" = "شكر وتقدير";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- QUICK PREFERENCES
+// ---------------------------------------------------------------------------
+
+"qp_lbl_about" = "تمثل عناصر التفضيلات السريعة حالة العنصر المقابل في التفضيلات، وليس بالضرورة الجلسة الحالية.";
+"qp_lbl_about_13" = "تمثل عناصر الإعدادات السريعة حالة العنصر المقابل في الإعدادات، وليس بالضرورة الجلسة الحالية.";
+"qp_lbl_nt_sess" = "افتراضيات الجلسة";
+"qp_lbl_all_sess" = "التحكم بالنظام";
+"qp_lbl_other" = "أخرى";
+
+// PLACEHOLDER REPRESENTS A BATTER CHARGE LEVEL, EXAMPLE: 'END SESSION IF BATTERY IS BELOW 15%'
+"qp_bttn_end_sess_low_batt_title" = "إنهاء الجلسة إذا كانت البطارية    أقل من%@";
+"qp_bttn_end_sess_ac_discon_title" = "إنهاء الجلسة إذا لم يكن الكومبيوتر متصل بمحول الطاقة";
+
+// PLACEHOLDERS REPRESENT A TIME DURATION, EXAMPLE: 'LOCK SCREEN AFTER 1h 15m OF INACTIVITY'
+"qp_bttn_lck_scrn_title" = "قفل الشاشة بعد %01ld%@ من عدم النشاط";
+"qp_bttn_mv_cursor_title" = "حرك المؤشر بعد %01ld%@ من عدم وجود أي نشاط على الماك";
+
+// ----- Quick Preferences Help Message
+
+// Title
+"help_quick_prefs_title" = "التفضيلات السريعة";
+"help_quick_prefs_title_13" = "الإعدادات السريعة";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_quick_prefs_body" = "يرتبط كل عنصر قائمة في التفضيلات السريعة بالعنصر المقابل له في تفضيلات أمفيتامين.\n\nمن المهم التنبه إلا أن حالة العنصر في التفضيلات السريعة قد لا تعكس سلوك الجلسة الحالية. هذا الأمر أكثر دقة بشكل خاص على لجلسات المبنية على المُحفزات\n\nيمكن تغيير/تجاوز سلوك الجلسة الحالية أثناء التنقل باستخدام عنصر قائمة - تفاصيل الجلسة الحالية - . لتفعيل/تعطيل أحد العناصر في قائمة تفاصيل الجلسة الحالية، قم بزيارة التفضيلات ← المظهر ← إضافات القائمة.";
+
+"help_quick_prefs_body_13" = "يرتبط كل عنصر قائمة في الإعدادات السريعة بالعنصر المقابل له في تفضيلات أمفيتامين.\n\nمن المهم التنبه إلا أن حالة العنصر في الإعدادات السريعة قد لا تعكس سلوك الجلسة الحالية. هذا الأمر أكثر دقة بشكل خاص على لجلسات المبنية على المُحفزات\n\nيمكن تغيير/تجاوز سلوك الجلسة الحالية أثناء التنقل باستخدام عنصر قائمة - تفاصيل الجلسة الحالية - . لتفعيل/تعطيل أحد العناصر في قائمة تفاصيل الجلسة الحالية، قم بزيارة الإعدادات ← المظهر ← إضافات القائمة.";
+
+
+
+// ---------------------------------------------------------------------------
+// ----- OTHER HELP MESSAGES
+// ---------------------------------------------------------------------------
+
+// ----- Screen Saver Exceptions Help Message
+
+// Title
+"help_screen_saver_exceptions_title" = "استثناءات شاشة التوقف";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_screen_saver_exceptions_body" = "في حالة تشغيل أي من التطبيقات أو العمليات الواردة في هذا الجدول، سيمنع أمفيتامين جهاز الماك من تنشيط شاشة التوقف.\n\nانقر فوق الزر + لإضافة تطبيق أو عملية إلى هذا الجدول. حدد تطبيقًا في الجدول وانقر على الزر - لإزالته.\n\n إذا كنت لا ترى التطبيق أو العملية التي تبحث عنها إما أنها ليست قيد التشغيل حاليًا أو أن تقنية App Sandbox في نظام الماك تمنع أمفيتامين من رؤية هذا التطبيق/العملية .";
+
+
+// ----- Apps & Processes Picker Help Message
+
+// Title
+"help_app_picker_title" = "التطبيقات والعمليات";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"help_app_picker_body" = "لرؤية تطبيق أو عملية في هذه القائمة، يجب أن يكون قيد التشغيل. استخدم مربع الاختيار -عدم إظهار التطبيقات والعمليات المساعدة- لتصفية القائمة لتضمين أو استبعاد التطبيقات/العمليات المساعدة. قد لا تحتوي التطبيقات والعمليات المساعدة على واجهة مرئية وغالبًا ما تعمل بصمت في الخلفية.\n\nإذا كنت لا ترى تطبيقًا/عملية في القائمة، فإما أنها ليست قيد التشغيل، أو تم حظر أمفيتامين من الوصول إلى التطبيق/العملية من خلال تقنية App Sandbox الخاصة بنظام الماك. للتغلب على قيود تطبيق Sandbox، ستحتاج إلى تثبيت مُحَسنً أمفيتامين.\n\nإذا قمت بتثبيت مُحَسنً أمفيتامين وما زلت لا ترى التطبيق/العملية التي تريدها (وأنت متأكد من أنها قيد التشغيل) ،  انتظر قليلًا ثم قم بتحديث قائمة التطبيقات/العمليات بالنقر فوق الزر ↻ على يمين حقل البحث.";
+
+
+// ----- CLOSED DISPLAY MODE WARNING
+
+// Title
+"cdm_warning_title" = "حول جلسات وضع الشاشة المغلقة";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"cdm_warning_body" = "• حالة الطاقة\nقد تفشل جلسات وضع الشاشة المغلقة إذا تمت إعادة توصيل جهاز الماك بمحول طاقة خارجي أثناء الجلسة. لا تؤثر هذه المشكلة على جميع أجهزة الماك ولن يتمكن أمفيتامين من اكتشاف ما إذا كانت الجلسة قد فشلت أم لا.\n\n• ارتفاع درجة الحرارة واستنزاف البطارية\nيمكن أن ترتفع درجة حراة جهاز الماك بسهولة داخل الحقيبة أو قد تنفد البطارية تمامًا إذا نسيت أن جلسة وضع الشاشة المغلقة مازالت نشطة. الرجاء التأكد من تفعيل تحذيرات وضع الشاشة المغلقة في التفضيلات ← الإشعارات.\n\n• مُحسِنْ أمفيتامين لرفع درجة الأمان\nإذا تعطل أمفيتامين أثناء جلسة وضع الشاشة المغلقة، فقد يتعذر على جهاز الماك الخاص بك العودة إلى إعدادات الإسبات الإفتراضية حتى تقوم بإعادة تشغيل أمفيتامين أو تعيد تشغيل جهاز الماك الخاص بك. ينصح بشدة بتثبيت مُحسِنْ أمفيتامين أكثر فعالية لمنع من وقوع أي فشل.";
+
+"cdm_warning_body_13" = "• حالة الطاقة\nقد تفشل جلسات وضع الشاشة المغلقة إذا تمت إعادة توصيل جهاز الماك بمحول طاقة خارجي أثناء الجلسة. لا تؤثر هذه المشكلة على جميع أجهزة الماك ولن يتمكن أمفيتامين من اكتشاف ما إذا كانت الجلسة قد فشلت أم لا.\n\n• ارتفاع درجة الحرارة واستنزاف البطارية\nيمكن أن ترتفع درجة حراة جهاز الماك بسهولة داخل الحقيبة أو قد تنفد البطارية تمامًا إذا نسيت أن جلسة وضع الشاشة المغلقة مازالت نشطة. الرجاء التأكد من تفعيل تحذيرات وضع الشاشة المغلقة في الإعدادات ← الإشعارات.\n\n• مُحسِنْ أمفيتامين لرفع درجة الأمان\nإذا تعطل أمفيتامين أثناء جلسة وضع الشاشة المغلقة، فقد يتعذر على جهاز الماك الخاص بك العودة إلى إعدادات الإسبات الإفتراضية حتى تقوم بإعادة تشغيل أمفيتامين أو تعيد تشغيل جهاز الماك الخاص بك. ينصح بشدة بتثبيت مُحسِنْ أمفيتامين أكثر فعالية لمنع من وقوع أي فشل.";
+
+// ----- FAILED CLOSED DISPLAY MODE SESSION WARNING
+
+// Title
+"cdm_fail_warning_title" = "احتمالية فشل جلسة وضع الشاشة المغلقة";
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"cdm_fail_warning_body" = "من المحتمل أن تكون جلسة وضع الشاشة المغلقة قد فشلت بسبب اتصال مصدر طاقة خارجي.\n\nبسبب القيود في نظام الماك، لا يستطيع أمفيتامين اكتشاف ما إذا كانت الجلسة قد فشلت بالفعل أم لا. إذا كنت واثقًا من أن جهاز الماك الخاص بك غير متأثر بهذه المشكلة، فيمكنك تعطيل هذه الميزة بالأسفل.\n\n أمفيتامين قام تلقائيًا بإنهاء جلسة وضع الشاشة المغلقة التي كانت قيد التشغيل. إذا قمت بتعطيل هذه الميزة، فلن يتم إنهاء جلسات وضع الشاشة المغلقة القادمة تلقائيًا.";
+
+// ----- FAILED CLOSED DISPLAY MODE SESSION WARNING SUPPRESSION
+"cdm_fail_warning_suppression" =  "تعطيل إنهاء جلسة وضع الشاشة المغلقة التلقائي";
+
+
+// ----- TRIGGER SESSION WARNING
+
+// USED IN SENTENCES, SEE PLACEHOLDER %@ IN KEY sess_is_trigger_body FOR EXAMPLE USAGE
+// OTHER EXAMPLE: IF YOU WOULD LIKE TO 'ALLOW' / 'PREVENT' THE DISPLAY TO SLEEP
+"gen_use_allow" = "السماح";
+"gen_use_prevent" = "منع";
+
+// USED IN SENTENCES, SEE PLACEHOLDER %@ IN KEY sess_is_trigger_body FOR EXAMPLE USAGE
+// OTHER EXAMPLE: YOU NEED TO 'CHECK' / 'UNCHECK' THE BOX TO ENABLE THIS FEATURE
+"gen_use_check" = "تتحقق";
+"gen_use_uncheck" = "تزل";
+
+// ----- SESSION IS TRIGGER
+"sess_is_trigger_ds_bttn_title" = "السماح للشاشة بوضع الإسبات";
+"sess_is_trigger_ds_feature" = "إسبات الشاشة";
+
+"sess_is_trigger_ss_bttn_title" = "السماح لشاشة التوقف";
+"sess_is_trigger_ss_feature" = "تفعيل شاشة التوقف";
+
+"sess_is_trigger_cdm_feature" = "إسبات الشاشة المغلقة";
+"sess_is_trigger_cdm_bttn_title" = "السماح للنظام بالإسبات عند إغلاق الشاشة";
+
+// Title
+"sess_is_trigger_title" = "الجلسة الحالية مبنية على مُحفز";
+
+// PLACEHOLDERS MAY BE EITHER THE FEATURE, TITLE, CHECK/UNCHECK, OR ALLOW/PREVENT KEYS LISTED ABOVE. EXAMPLE:
+
+/*
+ "You have modified a preference that only applies to non-Trigger sessions.\n\nEach Trigger has its own Allow Display Sleep(sess_is_trigger_ds_bttn_title) preference which can be changed by editing the Trigger. To edit a Trigger, go to Preferences → Triggers and double-click the Trigger you want to edit.\n\nIf you would like to temporarily allow (gen_use_allow) display sleep (sess_is_trigger_ds_feature) for the duration of this Trigger session, click Amphetamine's image in the menu bar and check (gen_use_check) the Allow Display Sleep (sess_is_trigger_ds_bttn_title) checkbox in the Current Session Details section of the menu.\n\nIf you don't see the Current Session Details section in Amphetamine's menu, go to Preferences → Appearance → Menu Extras and check the Show Session Details in Menu box."
+*/
+
+// Body ** NOTE: DO NOT REMOVE '\n' **
+"sess_is_trigger_body" = "لقد قمت بتعديل تفضيل لا ينطبق إلا على الجلسات التي لا تعتمد على المُحفزات.\n\nلكل مُحفز تفضيل %@ الخاص به والذي يمكن تغييره عن طريق تحرير المُحفز. لتحرير مُحفز، اذهب إلى التفضيلات ← المُحفزات وانقر نقرًا مزدوجًا فوق المشغل الذي تريد تحريره.\n\nإذا كنت ترغب في%@ %@ مؤقتًا طوال مدة جلسة المُحفز هذه، فانقر فوق أيقونة أمفيتامين في شريط القائمة و ٪%@ الـ %@ خانة الاختيار في قسم تفاصيل الجلسة الحالية من القائمة.\n\nإذا كنت لا ترى قسم تفاصيل الجلسة الحالية في قائمة أمفيتامين ، فانتقل إلى التفضيلات ← المظهر ← إضافات القائمة وتحقق من إظهار تفاصيل الجلسة في القائمة.";
+
+"sess_is_trigger_body_13" = "لقد قمت بتعديل تفضيل لا ينطبق إلا على الجلسات التي لا تعتمد على المُحفزات.\n\nلكل مُحفز تفضيل %@ الخاص به والذي يمكن تغييره عن طريق تحرير المُحفز. لتحرير مُحفز، اذهب إلى الإعدادات ← المُحفزات وانقر نقرًا مزدوجًا فوق المشغل الذي تريد تحريره.\n\nإذا كنت ترغب في%@ %@ مؤقتًا طوال مدة جلسة المُحفز هذه، فانقر فوق أيقونة أمفيتامين في شريط القائمة و ٪%@ الـ %@ خانة الاختيار في قسم تفاصيل الجلسة الحالية من القائمة.\n\nإذا كنت لا ترى قسم تفاصيل الجلسة الحالية في قائمة أمفيتامين ، فانتقل إلى الإعدادات ← المظهر ← إضافات القائمة وتحقق من إظهار تفاصيل الجلسة في القائمة.";
+
+// ----- LOCK SCREEN MESSAGE
+
+"lck_scrn_request_title" = "لقفل الشاشة، يحتاج أمفيتامين إلى تصريح إلى ميزات إمكانية الوصول.";
+
+// ** NOTE: DO NOT REMOVE '\n' **
+"lck_scrn_request_body" = "يمكنك منح أمفيتامين حق الوصول إلى ميزات إمكانية الوصول في تفضيلات النظام ← الأمان والخصوصية ← الخصوصية ← إمكانية الوصول.\n\nفي تفضيلات النظام، انقر فوق رمز القفل في الزاوية اليمنى السفلية وأدخل كلمة مرور الماك عند مطالبتك بها. بعد ذلك، حدد المربع المجاور لـ أمفيتامين في قسم إمكانية الوصول في علامة التبويب الخصوصية في  الأمان والخصوصية.\n\n إذا كنت لا ترى أمفيتامين في قائمة إمكانية الوصول، فانقر فوق الزر + واختر أمفيتامين من مجلد التطبيقات.\n\nبمجرد منح أمفيتامين الوصول إلى ميزات إمكانية الوصول، عُدْ إلى هنا وحاول تفعيل هذه الميزة مرة أخرى.";
+
+"lck_scrn_request_body_13" = "يمكنك منح أمفيتامين حق الوصول إلى ميزات إمكانية الوصول في إعدادات النظام ← الأمان والخصوصية ← الخصوصية ← إمكانية الوصول.\n\nفي إعدادات النظام، انقر فوق رمز القفل في الزاوية اليمنى السفلية وأدخل كلمة مرور الماك عند مطالبتك بها. بعد ذلك، حدد المربع المجاور لـ أمفيتامين في قسم إمكانية الوصول في علامة التبويب الخصوصية في  الأمان والخصوصية.\n\n إذا كنت لا ترى أمفيتامين في قائمة إمكانية الوصول، فانقر فوق الزر + واختر أمفيتامين من مجلد التطبيقات.\n\nبمجرد منح أمفيتامين الوصول إلى ميزات إمكانية الوصول، عُدْ إلى هنا وحاول تفعيل هذه الميزة مرة أخرى.";
+
+
+// ----- CURSOR MOVEMENT MESSAGE
+
+"move_cursor_request_title" = "لتحريك المؤشر، يحتاج أمفيتامين إلى الوصول إلى ميزات إمكانية الوصول.";
+
+"move_cursor_request_body" = "يمكنك منح أمفيتامين حق الوصول إلى ميزات إمكانية الوصول في تفضيلات النظام ← الأمان والخصوصية ← الخصوصية ← إمكانية الوصول.\n\nفي تفضيلات النظام، انقر فوق رمز القفل في الزاوية اليمنى السفلية وأدخل كلمة مرور الماك عند مطالبتك بها. بعد ذلك، حدد المربع المجاور لـ أمفيتامين في قسم إمكانية الوصول في علامة التبويب الخصوصية في  الأمان والخصوصية.\n\n إذا كنت لا ترى أمفيتامين في قائمة إمكانية الوصول، فانقر فوق الزر + واختر أمفيتامين من مجلد التطبيقات.\n\nبمجرد منح أمفيتامين الوصول إلى ميزات إمكانية الوصول، عُدْ إلى هنا وحاول تفعيل هذه الميزة مرة أخرى";
+
+"move_cursor_request_body_13" = "يمكنك منح أمفيتامين حق الوصول إلى ميزات إمكانية الوصول في إعدادات النظام ← الأمان والخصوصية ← الخصوصية ← إمكانية الوصول.\n\nفي إعدادات النظام، انقر فوق رمز القفل في الزاوية اليمنى السفلية وأدخل كلمة مرور الماك عند مطالبتك بها. بعد ذلك، حدد المربع المجاور لـ أمفيتامين في قسم إمكانية الوصول في علامة التبويب الخصوصية في  الأمان والخصوصية.\n\n إذا كنت لا ترى أمفيتامين في قائمة إمكانية الوصول، فانقر فوق الزر + واختر أمفيتامين من مجلد التطبيقات.\n\nبمجرد منح أمفيتامين الوصول إلى ميزات إمكانية الوصول، عُدْ إلى هنا وحاول تفعيل هذه الميزة مرة أخرى";
+
+
+// ----- WHILE FILE IS DOWNLOADING MESSAGE
+
+"file_dwnld_title" = "وقت مستقطع";
+
+"file_dwnld_body" = "اختر مهلة لتنزيل الملف. إذا لم يتغير الملف أو زاد حجمه أثناء المهلة، فستنتهي الجلسة.";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- DIALOGS
+// ---------------------------------------------------------------------------
+
+// BUTTON TITLE, USED TO CONFIRM SELECTION OF ITEM
+"dialog_select_bttn_title" = "اختر";
+
+// CUSTOM SOUND FILE DIALOG MESSAGE
+"dialog_sound_select" = "الرجاء اختيار الأصوات التي ترغب في إضافتها إلى أمفيتامين:";
+
+// drive
+"dialog_drivealive_select" = "الرجاء اختيار محرك الأقراص الذي ترغب في إبقائه نشطًا:";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- ALERTS
+// ---------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------
+// ALERT BUTTON LABELS/TITLES
+
+"alert_ok_button_title" = "حسنًا";
+"alert_get_amph_enhancer_button_title" = "الحصول على مُحَّسِنْ أمفيتامين";
+"alert_dont_show_type_again" = "لا تظهر هذا النوع من الرسائل مرة أخرى";
+"alert_dont_show_again" = "لا تعرض هذه الرسالة مجددًا";
+"alert_dont_ask_again" = "لا تسألني مجددًا";
+"alert_open_sys_prefs" = "افتح اعدادات النظام";
+"alert_open_sys_prefs_13" = "افتح اعدادات النظام";
+
+// GENERIC ERROR MESSAGE
+"error_generic_went_wrong_title" = "أووه! هنالك مشكلة";
+"error_generic_went_wrong_body" = "حاول مرة اخرى. إذا استمرت المشكلة ، يمكنك إرسال طلب دعم على iffy.freshdesk.com.";
+
+// TRIGGER EDIT ERROR MESSAGE // v5.0.1
+"error_trigger_edit_title" = "هاذا المُحفز لايمكن تعديله.";
+"error_trigger_edit_body" = "حاول مرة اخرى. إذا استمرت المشكلة، يرجى إزالة المُحفز وإعادة إنشائه من جديد. إذا كنت غير قادر على إنشاء مُحفز جديد، يرجى تذكرة دعم فني من خلال iffy.freshdesk.com.";
+
+// ----- SCREEN SAVER FOR TRIGGER ALERT
+"alert_trig_scn_svr_bttn_enable" = "تمكين شاشة التوقف";
+
+"alert_trig_scn_svr_title" = "لم يتم تخصيص هذا المُشغل للسماح بشاشة التوقف.";
+"alert_trig_scn_svr_body" = "بينما لم يتم تخصيص هذا المُحفز للسماح بشاشة التوقف، يمكنك السماح لشاشة التوقف لهذه الجلسة. لتخصيص هذا المشغل لكي يسمح دائمًا لشاشة التوقف ، قم بزيارة التفضيلات → المشغلات وانقر نقرًا مزدوجًا فوق المُحفز لتحريره.\n\nإذا كنت تريد السماح لشاشة التوقف لهذه الجلسة فقط، اختر وقتًا لها أدناه وانقر فوق تفعيل شاشة التوقف .";
+
+"alert_trig_scn_svr_body_13" = "بينما لم يتم تخصيص هذا المُحفز للسماح بشاشة التوقف، يمكنك السماح لشاشة التوقف لهذه الجلسة. لتخصيص هذا المشغل لكي يسمح دائمًا لشاشة التوقف ، قم بزيارة الإعدادات → المشغلات وانقر نقرًا مزدوجًا فوق المُحفز لتحريره.\n\nإذا كنت تريد السماح لشاشة التوقف لهذه الجلسة فقط، اختر وقتًا لها أدناه وانقر فوق تفعيل شاشة التوقف .";
+
+// ----- DRIVE ALIVE SANDBOX ALERT
+"alert_drivealive_tech_det_title" = "بعض التفاصيل الفنية...";
+
+// PLACEHOLDER IS NAME OF DRIVE
+"alert_drivealive_tech_det_body" = "تمنع تقنية App Sandbox الخاصة بنظام الماك أمفيتامين من الكتابة إلى الدليل الجذر (واجهة) لمحرك الأقراص الذي تم تثبيت بنظام الماك عليه.\n\nلا يزال بإمكان أمفيتامين إبقاء محرك الأقراص هذا نشطًا، ولكنه سيكتب البيانات إلى المسار التالي: \n\n%@";
+
+"alert_drivealive_net_vol_title" = "تم الكشف عن وحدة تخزين على الشبكة";
+"alert_drivealive_net_vol_body" = "يبدو أن محرك الأقراص/وحدة التخزين التي حددتها عبارة عن وحدة تخزين على الشبكة أو وحدة تخزين غير محلية. يرجى الاحتياط أنه في حالة فقد الاتصال بوحدة تخزين أو اختفائه فجأة، فقد يتوقف أمفيتامين عن العمل.";
+
+// ----- APP PICK ERROR
+"alert_app_select_title" = "حدث خطأ ما.";
+"alert_app_select_body" = "ربما لم تختر أحد التطبيقات ، أو ربما تم إنهاء التطبيق الذي حددته. يرجى اختيار تطبيق مختلف أو إعادة تشغيل التطبيق الذي حددته مسبقًا.";
+
+// ----- APPLESCRIPT ERROR
+"alert_applescript_fail_title" = "حدث خطأ ما.";
+"alert_applescript_fail_title" = "لم يتمكن أمفيتامين من فهم الرسالة الواردة من AppleScript";
+
+// ----- LOCK SCREEN FAILURE
+"alert_lck_scrn_fail_title" = "لم يتمكن أمفيتامين من قفل الشاشة.";
+"alert_lck_scrn_fail_body" = "قم بزيارة التفضيلات ← التحكم في النظام لإعادة تفعيل هذه الميزة.";
+"alert_lck_scrn_fail_body_13" = "قم بزيارة الإعدادات ← التحكم في النظام لإعادة تفعيل هذه الميزة.";
+
+// ----- DEFAULT DURATION
+"alert_dd_less_one_min_title" = "لا يمكن أن تكون المدة الافتراضية أقل من دقيقة واحدة.";
+"alert_dd_less_one_min_body" = "تم تغيير المدة الافتراضية إلى أقل قيمة وهي 0 ساعة ودقيقة واحدة.";
+
+// ----- CUSTOM STATUS/MENU BAR ITEM IMAGE MISSING OR NOT FOUND
+"cust_img_not_found_title" = "لم يتم العثور على صور مخصصة.";
+"cust_img_not_found_body" = "مطلوب صورتان مخصصتان  لوضعية (نشط وغير نشط). سيتم استخدام الصور الافتراضية.";
+
+// ----- CUSTOM STATUS/MENU BAR ITEM IMAGE SAVE ERROR
+"cust_img_save_err_title" = "لا يمكن حفظ الصور.";
+"cust_img_save_err_body" = "حدث خطأ غير معروف. سيتم استخدام الصور الافتراضية.";
+
+// ----- RESET PREFERENCES CONFIRMATION
+"prefs_reset_conf_title" = "هل أنت متأكد أنك تريد إعادة تعيين تفضيلات أمفيتامين؟";
+"prefs_reset_conf_title_13" = "هل أنت متأكد أنك تريد إعادة تعيين تفضيلات أمفيتامين؟";
+"prefs_reset_conf_body" = "سيتم إعادة تعيين جميع التفضيلات إلى قيمها الافتراضية، وستفقد جميع إعدادات المُحفزات و القرص الحي.";
+"prefs_reset_conf_body_13" = "سيتم إعادة تعيين جميع الإعدادات إلى قيمها الافتراضية، وستفقد جميع إعدادات المُحفزات و القرص الحي.";
+
+// ----- RESET WARNINGS & DIALOGS CONFIRMATION
+"warn_diag_reset_conf_title" = "تم بنجاح إعادة تعيين التحذيرات ومربعات الحوار.";
+"warn_diag_reset_conf_body" = "تم تحذيرك!";
+
+// ----- IP ADDRESS CRITERIA MESSAGE
+"alert_no_ip_address_title" = "لم يتم العثور على عناوين IP.";
+"alert_no_ip_address_body" = "يرجى التحقق مرة أخرى من أن جهاز الماك الخاص بك يمكنه الاتصال بالإنترنت و / أو لديه عنوان IP صالح";
+
+// ----- DNS SERVER CRITERIA MESSAGE
+"dns_no_new_serv_title" = "لم يتم العثور على خوادم DNS جديدة.";
+"dns_no_new_serv_body" = "خوادم DNS المدرجة حاليًا هي الوحيدة التي تم الإبلاغ عنها أنها مستخدمة بواسطة نظام الماك. إذا قمت مؤخرًا بتحديث خوادم DNS الخاصة بك في تفضيلات النظام، أو قمت بتغيير إعدادات الشبكة، فيرجى الانتظار بضع دقائق والمحاولة مرة أخرى.";
+"dns_no_new_serv_body_13" = "خوادم DNS المدرجة حاليًا هي الوحيدة التي تم الإبلاغ عنها أنها مستخدمة بواسطة نظام الماك. إذا قمت مؤخرًا بتحديث خوادم DNS الخاصة بك في إعدادات النظام، أو قمت بتغيير إعدادات الشبكة، فيرجى الانتظار بضع دقائق والمحاولة مرة أخرى.";
+
+// ----- DRIVE ALIVE WRITE ERROR
+"drive_alive_write_err_title" = "حدث خطأ ما.";
+"drive_alive_write_err_body" = "ليس لدى أمفيتامين إذن لكتابة البيانات إلى هذا الموقع. يرجع هذا على الأرجح إلى تقنية App Sandbox الخاصة بـ نظام الماك أو تنسيق وحدة التخزين.\n\nيمكنك تجربة الحل البديل التالي، ولكنه قد لا يكون ناجحًا:\n\nقم بإنشاء مجلد جديد في جذر (root) وحدة التخزين/محرك الأقراص (قد يطلب منك كلمة مرور المستخدم الإداري). ثم حدد هذا المجلد لاستخدامه للقرص الحي.";
+
+// ----- DRIVE ALIVE NETWORK VOLUME PROMPT
+"alert_net_volume_title" = "وحدة التخزين/محرك الأقراص على الشبكة";
+
+// PLACEHOLDER IS NAME OF DRIVE
+"alert_net_volume_body" = "هل وحدة التخزين/محرك الأقراص المسمى '%@' وحدة تخزين متصلة بالشبكة؟ ستؤثر الإجابة على هذا السؤال على أداء أمفيتامين بكفاءة أكبر.";
+
+// ----- BETA EXPIRATION
+"alert_beta_expired_title" = "انتهت صلاحية هذا النسخة التجريبية.";
+"alert_beta_expired_body" = "للحصول على نسخة تجريبية جديدة من الأمفيتامين، يرجى زيارة github.com/x74353/AmphetamineBeta. سوف يتوقف أمفيتامين عن العمل.";
+
+// ----- DISABLE TRIGGERS MESSAGE
+"alert_disable_trig_title" = "جلسة مُحفز قيد التشغيل.";
+
+// PLACEHOLDER IS NAME OF TRIGGER
+"alert_disable_trig_body" = "يتطلب إنهاء هذه الجلسة تعطيل المُحفز التالي: \n\n%@\n\nيمكنك تعطيل كافة المُحفزات باستخدام الزر بالإسفل، أو زيارة تفضيلات أمفيتامين لتعطيل هذا المُحفز بشكل منفرد. يمكنك دائمًا إعادة تفعيل كافة المُحفزات من قسم التفضيلات في أمفيتامين في وقت لاحق.";
+
+"alert_disable_trig_body_13" = "يتطلب إنهاء هذه الجلسة تعطيل المُحفز التالي: \n\n%@\n\nيمكنك تعطيل كافة المُحفزات باستخدام الزر بالإسفل، أو زيارة تفضيلات أمفيتامين لتعطيل هذا المُحفز بشكل منفرد. يمكنك دائمًا إعادة تفعيل كافة المُحفزات من قسم الإعدادات في أمفيتامين في وقت لاحق.";
+
+"alert_disable_trig_bttn_disable" = "تعطيل كافة المُحفزات";
+"alert_disable_trig_bttn_suppress" = "تعطيل جميع المُحفزات تلقائيًا في المرة القادمة";
+
+"alert_disable_trig_dur_indef" = "تعطيل دائمًا";
+"alert_disable_trig_dur_5mins" = "تعطيل لمدة 5 دقائق";
+"alert_disable_trig_dur_10mins" = "تعطيل لمدة 10 دقائق";
+"alert_disable_trig_dur_15mins" = "تعطيل لمدة 15 دقيقة";
+"alert_disable_trig_dur_30mins" = "تعطيل لمدة 30 دقيقة";
+"alert_disable_trig_dur_45mins" = "تعطيل لمدة 45 دقيقة";
+"alert_disable_trig_dur_1hr" = "تعطيل لمدة 1 ساعة";
+"alert_disable_trig_dur_2hrs" = "تعطيل لمدة ساعتين";
+"alert_disable_trig_dur_3hrs" = "تعطيل لمدة 3 ساعات";
+"alert_disable_trig_dur_4hrs" = "تعطيل لمدة 4 ساعات";
+"alert_disable_trig_dur_5hrs" = "تعطيل لمدة 5 ساعات";
+"alert_disable_trig_dur_6hrs" = "تعطيل لمدة 6 ساعات";
+"alert_disable_trig_dur_7hrs" = "تعطيل لمدة 7 ساعات";
+"alert_disable_trig_dur_8hrs" = "تعطيل لمدة 8 ساعات";
+"alert_disable_trig_dur_9hrs" = "تعطيل لمدة 9 ساعات";
+"alert_disable_trig_dur_10hrs" = "تعطيل لمدة 10 ساعات";
+"alert_disable_trig_dur_12hrs" = "تعطيل لمدة 12 ساعة";
+"alert_disable_trig_dur_24hrs" = "تعطيل لمدة 24 ساعة";
+
+// ----- TRIGGER EVALUATION FAILED MESSAGE
+"alert_trigger_eval_fail_title" = "فشل تقييم معايير المُحفز.";
+"alert_trigger_eval_fail_body" = "حدث خطأ أثناء محاولة اطلاق المعيار%@ للمُحفز، \"%@.\"\n\nحاول حذف هذا المُحفز وإعادة إنشائه إذا تكررت هذه المشكلة كثيرًا.";
+
+// ----- AMPHETAMINE 3 → 4/5 PREFERENCES CONVERSION
+"amph3_prefs_cnvrt_bttn_migrate" = "الانتقال";
+"amph3_prefs_cnvrt_bttn_reset" = "إعادة تعيين";
+"amph3_prefs_cnvrt_bttn_backup" = "نسخة احتياطية";
+"amph3_prefs_cnvrt_bttn_quit" = "إنهاء";
+
+"amph3_prefs_cnvrt_message" = "نظرًا لكل المميزات الجديد في أمفيتامين 5، يجب عليك إما نقل تفضيلات أمفيتامين 3 أو إعادة ضبطها. إذا اخترت نقل، سيحاول أمفيتامين نقل جميع تفضيلاتك السابقة (بما في ذلك المُحفزات، وإعدادات القرص الحي، والأيقونات، والفترات الزمنية، ومفاتيح الاختصار، وما إلى ذلك) إلى تنسيق أمفيتامين 5 الجديد.\n\nبالطبع، هناك بعض المخاطر عند محاولة نقل الإعدادات. قم بعملية النقل بحذر. إذا كنت لا تريد أن تفقد تفضيلاتك على أمفيتامين 3 نهائيًا، فالرجاء اختيار النسخ الاحتياطي قبل محاولة النقل.\n\nإذا كنت تفضل البدء من جديد، فاختر خيار إعادة تعيين. إذا كنت ترى هذه الرسالة بشكل من دون سابق إنذار، انقر فوق إعادة تعيين.";
+
+"amph3_prefs_cnvrt_message_13" = "نظرًا لكل المميزات الجديد في أمفيتامين 5، يجب عليك إما نقل تفضيلات أمفيتامين 3 أو إعادة ضبطها. إذا اخترت نقل، سيحاول أمفيتامين نقل جميع تفضيلاتك السابقة (بما في ذلك المُحفزات، وإعدادات القرص الحي، والأيقونات، والفترات الزمنية، ومفاتيح الاختصار، وما إلى ذلك) إلى تنسيق أمفيتامين 5 الجديد.\n\nبالطبع، هناك بعض المخاطر عند محاولة نقل الإعدادات. قم بعملية النقل بحذر. إذا كنت لا تريد أن تفقد تفضيلاتك على أمفيتامين 3 نهائيًا، فالرجاء اختيار النسخ الاحتياطي قبل محاولة النقل.\n\nإذا كنت تفضل البدء من جديد، فاختر خيار إعادة تعيين. إذا كنت ترى هذه الرسالة بشكل من دون سابق إنذار، انقر فوق إعادة تعيين.";
+
+"amph3_prefs_cnvrt_backedup" = "تم عمل نسخ احتياطي لتفضيلات أمفيتامينات.";
+"amph3_prefs_cnvrt_backedup_13" = "تم عمل نسخ احتياطي لتفضيلات أمفيتامينات.";
+"amph3_prefs_cnvrt_ask" = "سيُطلب منك الآن نقل التفضيلات أو إعادة تعيينها.";
+"amph3_prefs_cnvrt_ask_13" = "سيُطلب منك الآن نقل الإعدادات أو إعادة تعيينها.";
+
+
+
+
+
+// ---------------------------------------------------------------------------
+// ----- NOTIFICATION MESSAGES
+// ---------------------------------------------------------------------------
+
+"notif_session_not_active" = "الجلسة غير نشطة";
+"notif_amph_keep_awake" = "أمفيتامين يعمل على إبقاء جهازك مستيقظًا (يمنع الإسبات)";
+"notif_amph_trig_start" = "جلسة مُحفز بدأت";
+"notif_amph_trig_end" = "جلسة مُحفز انتهت";
+"notif_sleep_normal" = "سيدخل جهاز الماك إلى وضع الإسبات وفقًا لجدوله المعتاد";
+"notif_next_reminder_plural_int" = "التذكير التالي سيكون بعد %li دقيقة"; // PLACEHOLDER IS THE TIME UNTIL NEXT REMINDER, EXAMPLE: 'NEXT REMINDER IN 5 MINUTES'
+"notif_next_reminder_singular_int" = "التذكير التالي سيكون بعد %li دقيقة"; // PLACEHOLDER IS THE TIME UNTIL NEXT REMINDER, EXAMPLE: 'NEXT REMINDER IN 1 MINUTE'
+"notif_batt_no_ac" = "البطارية غير متصلة بمحول الطاقة";
+"notif_batt_charge_low" = "شحن البطارية أقل من%li%%"; // PLACEHOLDER IS BATTERY CHARGE LEVEL, EXAMPLE: 'BATTERY CHARGE IS BELOW 15%'
+
+// THESE ARE USED TO INDICATE THE STATE OF EACH OPTION IN NOTIFICATIONS
+// SPACE IS EXTREMELY LIMITED IN NOTIFICATIONS, SO PLEASE ABBREVIATE WHERE POSSIBLE
+"notif_disp_sleep_state" = "إسبات الشاشة:"; // 🖥️ ✗ Display Sleep:
+"notif_scrn_svr_state" = "شاشة التوقف:"; // 🌌 ✗ Screen Saver:
+"notif_cdm_state" = "وضع الشاشة المغلقة"; // CLOSED-DISPLAY MODE // 🐚 ✗ CDM
+
+// THESE ARE USED TO INDICATE THE STATE OF EACH OPTION IN NOTIFICATIONS
+// UNLESS THESE CHARACTERS DO NOT EQUATE TO ON/YES OFF/NO IN THE TARGET LANGUAGE, THESE SHOULD LIKELY NOT BE CHANGED/TRANSLATED
+"notif_state_prevented" = "✗"; // NO/OFF/PREVENTED, other potential symbols: 🚫 ✗
+"notif_state_allowed" = "✓"; // YES/ON/ALLOWED, other potential symbols: ✅ ✓
+
+// ----- REGULAR SESSION ENDED
+"generic_sess_end_1" = "انتهت الجلسة";
+
+// ----- APP SESSION ENDED NOTIFICATION
+
+// NOTE: DO NOT REMOVE '%@'; %@ IS PLACEHOLDER FOR APP NAME
+"app_sess_end_2" = "%@ لم يعد يعمل"; // EXAMPLE: 'SAFARI' IS NO LONGER RUNNING
+
+// ----- UNTIL TIME SESSION ENDED NOTIFICATION
+
+// ** NOTE: DO NOT REMOVE %@ **
+"until_sess_end_1" = "انتهت الجلسة المؤقتة";
+"until_sess_end_2" = "انقضى وقت الانتهاء (%@)"; // PLACEHOLDER IS A TIME, EXAMPLE: 'END TIME (5:00 PM) HAS PASSED'
+
+
+// ----- TIMED SESSION HAS ENDED NOTIFICATION
+"timed_sess_end_1" = "انتهت الجلسة المؤقتة";
+"timed_sess_end_2" = "انقضت مدة الجلسة";
+
+// ----- DISPLAY SLEEP TOGGLED VIA HOTKEY
+"disp_sleep_toggled" = "إسبات الشاشة مفعل";
+"disp_sleep_toggle_allow" = "تم السماح بإسبات الشاشة";
+"disp_sleep_toggle_prevent" = "غير مسموح بإسبات الشاشة";
+"disp_sleep_toggle_fail" = "إسبات الشاشة غير مفعل";
+
+// ----- SCREEN SAVER TOGGLED VIA HOTKEY
+"scrn_svr_toggled" = "شاشة التوقف مفعلة";
+"scrn_svr_toggle_allow" = "شاشات التوقف مسموح بها";
+"scrn_svr_toggle_prevent" = "شاشات التوقف غير مسموح بها";
+"scrn_svr_toggle_fail" = "شاشة التوقف غير مفعلة";
+
+// ----- TRIGGER ERROR MESSAGES
+"trig_err_title" = "عذرًا! حدث خطأ فظيع.";
+
+// SAVE TRIGGER ERRORS
+"trig_err_name" = "• لم يتم تعيين اسم للمُحفز.\n\n";
+"trig_err_no_criteria" = "• لم يتم تحديد/تفعيل أي معيار.\n\n";
+"trig_err_duplicate" = "• يوجد مُحفز بنفس هذا الاسم بالفعل.\n\n";
+"trig_err_wifi" = "• تم تفعيل معيار Wi-Fi ولكن حقل اسم الشبكة فارغ. \n\n";
+"trig_err_ip" = "• تم تفعيل معيار عنوان IP لكن حقل عنوان IP فارغ.\n\n";
+"trig_err_ip_2" = "• تم تمكين معيار عنوان IP ولكن يوجد حقل عنوان واحد أو أكثر فارغ.\n\n";
+"trig_err_vpn" = "• تم تفعيل معيار خدمة VPN ولكن لم يتم العثور على اسم الخدمة.\n\n";
+"trig_err_dns" = "• تم تفعيل معيار الخادم (خوادم) DNS ولكن لم يتم العثور على عناوين الخادم.\n\n";
+"trig_err_app" = "• تم تفعيل معيار التطبيق ولكن لم يتم تحديد أي تطبيق لاستخدامه.\n\n";
+"trig_err_sched" = "• تم تمكين معيار الجدول ولكن لم يتم تحديد أيام.\n\n";
+"trig_err_displays" =  "• تم تفعيل معيار شاشة العرض لكن حقل العدد فارغ.\n\n";
+"trig_err_vol" =  "• تم تفعيل معيار وحدة التخزين/محرك الأقراص ولكن لم يتم تحديد وحدة تخزين أو محرك أقراص.\n\n";
+"trig_err_usb" =  "• تم تفعيل معيار جهاز USB ولكن لم يتم اختيار أي جهاز.\n\n";
+"trig_err_bluetooth" =  "• تم تفعيل معيار جهاز الـBluetooth ولكن لم يتم تحديد أي جهاز.\n\n";
+"trig_err_cpu" =  "• تم تفعيل معيار استخدام المعالج ولكن لم يتم إدخال أي قيمة.\n\n";
+"trig_err_idle" =  "• تم تفعيل معيار وقت الخمول ولكن لم يتم إدخال أي قيمة.\n\n";
+
+// EDIT TRIGGER ERRORS
+"trig_err_cant_edit" = "لا يمكن تعديل المُحفز \"%@\" الآن."; // PLACEHOLDER IS NAME OF TRIGGER
+"trig_err_vpn_edit" = "خدمة VPN المستخدمة مع هذا المُحفز غير نشطة حاليًا.\n\nالرجاء بدء تشغيل خدمة VPN \"%@\" وحاول مرة أخرى."; // PLACEHOLDER IS NAME OF VPN SERVICE
+"trig_err_vol_edit" = "وحدة التخزين/محرك الأقراص المستخدم مع هذا المُحفز غير متصل حاليًا.\n\nالرجاء توصيل \"%@\ بالجهاز والمحاولة مرة أخرى."; // PLACEHOLDER IS NAME OF DRIVE/VOLUME
+"trig_err_usb_edit" = "جهاز USB المستخدم مع هذا المُحفز غير متصل حاليًا.\n\nالرجاء توصيل \"%@\" وحاول مرة أخرى."; // PLACEHOLDER IS NAME OF USB DEVICE
+"trig_err_bluetooth_edit" = "لم يعد جهاز Bluetooth المستخدم مقترنًا مع هذا المُشغل.\n\nالرجاء إعادة ربط الجهاز \"%@\" والمحاولة مرة أخرى."; // PLACEHOLDER IS NAME OF BLUETOOTH DEVICE
+"trig_err_audio_edit" = "المخرج الصوتي المستخدم مع هذا المشغل غير متوفر حاليًا.\n\nالرجاء توصيل \"%@\" والمحاولة مرة أخرى."; // PLACEHOLDER IS NAME OF AUDIO OUTPUT DEVICE

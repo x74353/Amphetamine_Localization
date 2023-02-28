@@ -4,147 +4,37 @@
   Amphetamine
 
   Created by William Gustafson on 2/21/20.
-  Copyright © 2020 William C. Gustafson. All rights reserved.
- 
- 
- ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️
- 
-  ❗️❗️ GUIDELINES PART 1; PLEASE READ ❗️❗️
- 
- ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️
- 
- 
- Hi there!
- 
- First off, THANK YOU for helping with translating Amphetamine into another language. I have chosen to give Amphetamine away for free, and thus, do not have the resources to hire a professional company to do this work. Thousands of people around the world use Amphetamine but certainly, if one is not a native English speaker, it must be difficult to use the more advanced features.
- 
- Before getting started, PLEASE read through the guidelines below. If you have any questions/run into trouble, please submit a support request at iffy.freshdesk.com.
- 
- Lastly, the text that needs translating in this file is ONLY on the right side of the equals sign.
- 
- -----------------------------------------------------------------------------------------------
- EXAMPLE: "gen_use_end_session_cap" = "End Session";
- 
- • "gen_use_end_session_cap" is a unique key. Please do not change any of the unique keys.
- • "End Session" is the text that needs to be translated.
- -----------------------------------------------------------------------------------------------
- 
- Make sure to never remove the quotation marks and leave each line ending with a semicolon character ';'
- 
- Thanks again!
- 
- - William Gustafson, Amphetamine Creator
- 
- 
- ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️
- 
-  ❗️❗️ GUIDELINES PART 2; PLEASE READ ❗️❗️
- 
- ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️ ⭐️⭐️⭐️
- 
- 
- ###########################################################################
- 1. PLACEHOLDERS
- ###########################################################################
- 
- Throughout this file, you will see in many instances of what seem to be garbled text, or odd sets of characters.
- 
- -----------------
- EXAMPLES:
- 
- • %@
- • %li%%
- • %.f
- • \n\n
- 
- ... etc.
- -----------------
- 
- If you're not a developer, these characters may seem like they don't belong and should be removed. However, these characters are __VERY__ important and should never be removed. These characters act as placeholders for other values/text.
- 
- -----------------------------------------------------
- EXAMPLE: Placeholder '%@' equals "not connected"
- • "Power adapter %@" → "Power adapter not connected"
- -----------------------------------------------------
- 
- If you remove any of these placeholders, it will likely cause great confusion to Amphetamine's users. Please take extra special care to not accidentally remove any placeholders.
- 
- In some cases, you may need to move the location of the placeholder if its position in the target language is not grammatically correct.
- 
- -------------------------------------------------------
- EXAMPLE: Placeholder '%@' equals the word "low"
- 
- • ENGLISH → "%@ battery" → "low battery"
- • SPANISH → "batería %@" → "batería baja"
- -------------------------------------------------------
- 
- I have tried to add comments where placeholders exist to indicate the expected value of the placeholder. I may have missed a few. Let me know if you find one.
-
- You should also take care to not remove any '\n' characters. Each '\n' represents a line break and each '\n\n' starts a new paragraph. This helps longer text be broken up and made easier to read. There should typically never be any whitespace/spaces before or after the \n character(s).
- 
- -------------------------------------------------------------------
- EXAMPLE: This is some sample text\nshowing how a line break works.
- -------------------------------------------------------------------
- 
- Notice how the '\n' placeholder in "text\nshowing" does not have any spaces around it? This is the correct format.
- 
- 
- ###########################################################################
- 2. PROPER NOUNS/CAPITALIZATION
- ###########################################################################
- 
- • Amphetamine
- Amphetamine is the name of the application and should always be capitalized as a proper noun. The word "Amphetamine" should never be translated to another language.
- 
- • Triggers
- "Triggers" is a branded feature of Amphetamine. If possible, the term "Triggers" or "Trigger" should be translated as a proper noun, keeping its capitalization. If there is not a word in the target language that accurately represents the English word "Trigger(s)", please use a word that you feel best represents this feature. A possible English alternative could be something like "Automation".
- 
- • Quick Preferences
- "Quick Preferences" is a branded feature of Amphetamine. The "Preferences" part of this feature should be translated to match macOS's default translation for this word in the target language. Capitalization of this feature should remain intact if possible. "Quick" should be translated to a word meaning fast/easy in the target language.
- 
- -------------------------------------------
- EXAMPLE (SPANISH): "Preferencias Rápidas"
- -------------------------------------------
- 
- • Drive Alive
- Drive Alive is a branded feature of Amphetamine. While the target language's translation of this feature likely won't rhyme like it does in English, please be sure to keep the capitalization of this feature in place if possible.
-
- 
- ###########################################################################
- 3. SARCASM/CHEEKINESS
- ###########################################################################
- 
- In a few places, sarcasm is used, or Amphetamine appears to have a bit of a cheeky attitude. This type of humor may not translate well, and can be removed entirely if needed. Please replace the text you remove with a simple message that makes sense in the target language.
- 
- ---------------------------------------------
- EXAMPLE: See key "warn_diag_reset_conf_body"
- ---------------------------------------------
- 
- 
- ###########################################################################
- 4. IDIOMS
- ###########################################################################
- 
- Some English phrases/idioms, may not make sense in other languages.
- 
- -----------------------------------------------------------------------
- EXAMPLE: See "ww5_lbl_subtitle" = "Amphetamine is a labor of love."
- -----------------------------------------------------------------------
- 
- The English idiom "labor of love" means "Work done for one's satisfaction rather than monetary reward."
- 
- If there is an idiom in the target language that has the same meaning, please feel free to substitute it. If no suitable idiom exists in the target language, please attempt to translate the English idiom's meaning as concisely as possible.
- 
- 
- ###########################################################################
- 5. CONCISENESS
- ###########################################################################
- 
- Space is extremely limited in many parts of Amphetamine's user interface (UI). Being clear is greatly important, but conciseness is also critical. Without a doubt, some adjustments to Amphetamine's UI will be required to accommodate differences in word/sentence length across languages, but you can greatly reduce the number of adjustments needed by keeping your translation as concise as possible.
- 
- 
+  Copyright © 2023 William C. Gustafson. All rights reserved.
 */
 
+// BEGIN NEW STRINGS ADDED FOR v5.2.3
+// NOTE: "Closed-Display Mode" is translated as "Mode Ecran Fermé"
+
+"cdm_install_script_alert_title" = "Action Required For Closed-Display Mode on Apple Silicon";
+
+"cdm_install_script_alert_body" = "Due to hardware changes introduced with Apple Silicon, Closed-Display Mode has new requirements.\n\nTo be able to connect or disconnect your Mac's power adapter without interrupting the Closed-Display Mode session, Amphetamine needs to install and run a script whenever a Closed-Display Mode session begins or ends. The script must be installed in Amphetamine's Application Scripts folder.\n\nEach time the script runs, authentication will be required. The authentication prompt will say \"osascript wants to make changes.\" After you authenticate, the script will run. If you do not want to authenticate each Closed-Display Mode session, click the Skip button below.\n\nIf you skip installing the Closed-Display Mode script, you won't be asked about this again, and you may experience closed-display mode session interruptions when connecting or disconnecting your Mac's power adapter. If you select Skip but later want to install the script, go to Amphetamine Settings → General, click Reset Warnings and Dialogs, and start a Closed-Display Mode session.";
+
+"cdm_install_script_button" = "Install Script";
+
+"cdm_skip_script_button" = "Skip";
+
+"cdm_remind_me_script_button" = "Remind Me Later";
+
+"cdm_anomaly_alert_title" = "Amphetamine detected an anomaly with your Mac's sleep settings.";
+
+"cdm_anomaly_alert_body" = "An Amphetamine session is not currently active, but your Mac appears to be configured to prevent sleep when in Closed-Display Mode. This can lead to unexpected battery drain and/or overheating.\n\nTo correct this issue, Amphetamine needs to run, and if necessary, install a script. You will be prompted to install the script, if needed, and then prompted to authenticate running the script.\n\nThis issue may have occurred due to a Amphetamine crashing during a Closed-Display Mode session, or by someone manually disabling sleep on your Mac.";
+
+"cdm_anomaly_alert_ignore_button" = "Ignore";
+
+"cdm_anomaly_alert_fix_button" = "Fix Issue";
+
+"cdm_script_fail_alert_title" = "Closed-Display Mode Script Failure";
+
+"cdm_script_fail_alert_body_disable" = "Amphetamine attempted to run a script to disable Closed-Display Mode, but the script either wasn't authenticated successfully or it was cancelled.\n\nYour Mac may still be preventing sleep when the display is closed. This can lead to unexpected battery drain or overheating.\n\nWhen Amphetamine prompts you to fix this issue, it is highly recommended you choose \"Fix Issue.\" You'll be prompted to authenticate allowing \"osascript\" to make changes.";
+
+"cdm_script_fail_alert_body_enable" = "Amphetamine attempted to run a script to enable Closed-Display Mode, but the script either wasn't authenticated successfully or it was cancelled.\n\nYour Mac may still be allowing sleep when the display is closed.\n\nTo fix this issue, end the current session and start a new one. When prompted to allow \"osascript\" to make changes, follow the on-screen directions to successfully authenticate.";
+
+// END NEW STRINGS ADDED FOR v5.2.3
 
 // ---------------------------------------------------------------------------
 // GENERAL USE STRINGS
@@ -397,6 +287,7 @@
 // ---------------------------------------------------------------------------
 
 "pref_window_title" = "Préférences"; // 5.0.2
+"pref_window_title_13" = "Réglages";
 "pref_global_lbl_uses_default_duration" = "↳ Utilise la durée par défaut";
 "pref_global_bttn_screen_saver_exceptions" = "Exceptions...";
 "scrn_svr_excpt_VNC" = "Partage d'écran/VNC/Bureau à distance"; // 5.1.2
@@ -413,13 +304,14 @@
 "prefs_tb_gen" = "Général";
 
 // PREFERENCES → GENERAL BUTTONS
-"pref_gen_bttn_launch_app_at_login" = "Lancer Amphétamine à la connexion de l'utilisateur";
-"pref_gen_bttn_start_session_at_launch" = "Démarrer la session au lancement d'amphétamine";
+"pref_gen_bttn_launch_app_at_login" = "Lancer Amphetamine à la connexion de l'utilisateur";
+"pref_gen_bttn_start_session_at_launch" = "Démarrer la session au lancement d'Amphetamine";
 "pref_gen_bttn_start_session_after_wake" = "Démarrer la session après la sortie de veille";
 "pref_gen_bttn_hide_dock_icon" = "Masquer Amphetamine dans le Dock";
 "pref_gen_bttn_reduce_motion" = "Réduire les animations";
 "pref_gen_bttn_reset_warnings" = "Réinitialiser les avertissements et les boîtes de dialogue";
 "pref_gen_bttn_reset_all_prefs" = "Réinitialiser toutes les préférences";
+"pref_gen_bttn_reset_all_prefs_13" = "Réinitialiser toutes les réglages";
 
 // PREFERENCES → GENERAL LABELS
 "pref_gen_lbl_quick_start" = "Démarrage rapide d'une session:";
@@ -441,7 +333,7 @@
 "help_message_quick_start_title" = "Démarrer rapidement une session";
 
 // Body
-"help_message_quick_start_body" = "Choisissez si un clic gauche (également appelé clic principal) ou un clic droit (également appelé clic secondaire) sur l'image d'amphétamine dans la barre de menu affiche le menu d'amphétamine ou démarre/termine une session.";
+"help_message_quick_start_body" = "Choisissez si un clic gauche (également appelé clic principal) ou un clic droit (également appelé clic secondaire) sur l'image d'Amphetamine dans la barre de menu affiche le menu d'Amphetamine ou démarre/termine une session.";
 
 // ----- PREFERENCES → GENERAL → Launch and Wake Behavior Help Message
 
@@ -449,7 +341,7 @@
 "help_message_quick_launch_wake_title" = "Comportement de lancement et de réveil"; // fix me quick?
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_quick_launch_wake_body" = "• Lancer Amphétamine à la connexion de l'utilisateur\nCochez cette case si vous souhaitez qu'Amphétamine se lance automatiquement lorsque vous vous connectez à votre Mac.\n\n• Démarrer la session au lancement d'Amphétamine\nCochez cette case si vous souhaitez qu'Amphétamine démarre automatiquement une nouvelle session au lancement de l'application.\n\n• Démarrer la session après la sortie du mode veille\nCochez cette case si vous souhaitez qu'Amphetamine démarre une nouvelle session chaque fois que votre Mac sort du mode veille. Si une session est déjà en cours, une nouvelle session ne peut être démarré.";
+"help_message_quick_launch_wake_body" = "• Lancer Amphetamine à la connexion de l'utilisateur\nCochez cette case si vous souhaitez qu'Amphetamine se lance automatiquement lorsque vous vous connectez à votre Mac.\n\n• Démarrer la session au lancement d'Amphetamine\nCochez cette case si vous souhaitez qu'Amphetamine démarre automatiquement une nouvelle session au lancement de l'application.\n\n• Démarrer la session après la sortie du mode veille\nCochez cette case si vous souhaitez qu'Amphetamine démarre une nouvelle session chaque fois que votre Mac sort du mode veille. Si une session est déjà en cours, une nouvelle session ne peut être démarré.";
 
 // ----- PREFERENCES → GENERAL → Other Help Message
 
@@ -457,12 +349,14 @@
 "help_message_other_title" = "Autre";
 
 // Body (macOS 10.14+) ** NOTE: DO NOT REMOVE '\n' **
-"help_message_other_body_post_highsierra" = "• Hide Amphetamine in the Dock\nCheck this box to hide Amphetamine’s icon in the Dock. On macOS 10.15 and up, the Dock icon will automatically appear and disappear when one of Amphetamine's windows, such as the Preferences window, is open even if the Hide in Dock preference is enabled. Closing all open Amphetamine windows will cause the Dock icon to disappear again.\n\nOn macOS 10.14 and below, you may need to disable macOS's 'Show Recent Applications in Dock' feature by visiting  → System Preferences → Dock to completely remove Amphetamine from the Dock.\n\n• Reduce Motion\nCheck this box to reduce the use of animation in Amphetamine's interface.\n\nClick the Reset Warnings and Dialogs button to clear any 'do not show again' flags on warning messages and other dialogs.\n\nClick the Reset All Preferences button to return Amphetamine to a default state (all preferences, including Triggers will be lost).";
+"help_message_other_body_post_highsierra" = "• Masquer l'Amphetamine dans le Dock\nCochez cette case pour masquer l'icône d'Amphetamine dans le Dock. Sur macOS 10.15 et versions ultérieures, l'icône du Dock apparaîtra et disparaîtra automatiquement lorsqu'une des fenêtres d'Amphetamine, telle que la fenêtre Préférences, est ouverte même si le La préférence Masquer dans le Dock est activée. La fermeture de toutes les fenêtres ouvertes d'Amphetamine entraînera la disparition de l'icône du Dock.\n\nSous macOS 10.14 et versions antérieures, vous devrez peut-être désactiver la fonction 'Afficher les applications récentes dans le Dock' de macOS en visitant  → Préférences Système → Dock pour supprimer complètement l'Amphetamine du Dock.\n\n• Réduire le mouvement\nCochez cette case pour réduire l'utilisation de l'animation dans l'interface d'Amphetamine.\n\nCliquez sur le bouton Réinitialiser les avertissements et les dialogues pour effacer tout 'ne plus afficher' drapeaux sur les messages d'avertissement et autres boîtes de dialogue.\n\nCliquez sur le bouton Réinitialiser toutes les préférences pour rétablir l'état par défaut d'Amphetamine (toutes les préférences, y compris les déclencheurs, seront perdues).";
+
+"help_message_other_body_post_highsierra_13" = "• Masquer l'Amphetamine dans le Dock\nCochez cette case pour masquer l'icône d'Amphetamine dans le Dock. Sur macOS 10.15 et versions ultérieures, l'icône du Dock apparaîtra et disparaîtra automatiquement lorsqu'une des fenêtres d'Amphetamine, telle que la fenêtre Réglages, est ouverte même si le La réglage Masquer dans le Dock est activée. La fermeture de toutes les fenêtres ouvertes d'Amphetamine entraînera la disparition de l'icône du Dock.\n\nSous macOS 10.14 et versions antérieures, vous devrez peut-être désactiver la fonction 'Afficher les applications récentes dans le Dock' de macOS en visitant  → Réglages du Système → Dock pour supprimer complètement l'Amphetamine du Dock.\n\n• Réduire le mouvement\nCochez cette case pour réduire l'utilisation de l'animation dans l'interface d'Amphetamine.\n\nCliquez sur le bouton Réinitialiser les avertissements et les dialogues pour effacer tout 'ne plus afficher' drapeaux sur les messages d'avertissement et autres boîtes de dialogue.\n\nCliquez sur le bouton Réinitialiser toutes les réglages pour rétablir l'état par défaut d'Amphetamine (toutes les réglages, y compris les déclencheurs, seront perdues).";
 
 // Body (macOS 10.11 - 10.13) ** NOTE: DO NOT REMOVE '\n' **
-"help_message_other_body_pre_mojave" = • Masquer Amphétamine dans le Dock\nCochez cette case pour masquer l'icône d'Amphétamine dans le Dock. Sur macOS 10.15 et versions ultérieures, l'icône du Dock apparaîtra et disparaîtra automatiquement lorsque l'une des fenêtres d'Amphétamine, comme la fenêtre Préférences, est ouvert même si la préférence Masquer dans le Dock est activée. La fermeture de toutes les fenêtres Amphétamine ouvertes entraînera à nouveau la disparition de l'icône du Dock.\n\nSur macOS 10.14 et versions antérieures, vous devrez peut-être désactiver la fonction "Afficher les applications récentes dans le Dock" de macOS en visitant  → Préférences Système → Dock pour supprimer complètement Amphétamine du Dock.\n\n• Réduire le mouvement\nCochez cette case pour réduire l'utilisation d'animations dans l'interface d'Amphétamine.\n\nCliquez sur le bouton Réinitialiser les avertissements et les boîtes de dialogue pour ne plus afficher les drapeaux sur les messages d'avertissement et autres boîtes de dialogue.\n\nCliquez sur le bouton Réinitialiser toutes les préférences pour rétablir l'état par défaut d'Amphétamine (toutes les préférences, y compris les déclencheurs, seront perdues).";
+"help_message_other_body_pre_mojave" = "• Masquer Amphetamine dans le Dock\nCochez cette case pour masquer l'icône d'Amphetamine dans le Dock. Sur macOS 10.15 et versions ultérieures, l'icône du Dock apparaîtra et disparaîtra automatiquement lorsque l'une des fenêtres d'Amphetamine, comme la fenêtre Préférences, est ouvert même si la préférence Masquer dans le Dock est activée. La fermeture de toutes les fenêtres Amphetamine ouvertes entraînera à nouveau la disparition de l'icône du Dock.\n\nSur macOS 10.14 et versions antérieures, vous devrez peut-être désactiver la fonction 'Afficher les applications récentes dans le Dock' de macOS en visitant  → Préférences Système → Dock pour supprimer complètement Amphetamine du Dock.\n\n• Réduire le mouvement\nCochez cette case pour réduire l'utilisation d'animations dans l'interface d'Amphetamine.\n\nCliquez sur le bouton Réinitialiser les avertissements et les boîtes de dialogue pour ne plus afficher les drapeaux sur les messages d'avertissement et autres boîtes de dialogue.\n\nCliquez sur le bouton Réinitialiser toutes les préférences pour rétablir l'état par défaut d'Amphetamine (toutes les préférences, y compris les déclencheurs, seront perdues).";
 
-
+"help_message_other_body_pre_mojave_13" = "• Masquer Amphetamine dans le Dock\nCochez cette case pour masquer l'icône d'Amphetamine dans le Dock. Sur macOS 10.15 et versions ultérieures, l'icône du Dock apparaîtra et disparaîtra automatiquement lorsque l'une des fenêtres d'Amphetamine, comme la fenêtre Réglages, est ouvert même si la réglage Masquer dans le Dock est activée. La fermeture de toutes les fenêtres Amphetamine ouvertes entraînera à nouveau la disparition de l'icône du Dock.\n\nSur macOS 10.14 et versions antérieures, vous devrez peut-être désactiver la fonction 'Afficher les applications récentes dans le Dock' de macOS en visitant  → Réglages du Système → Dock pour supprimer complètement Amphetamine du Dock.\n\n• Réduire le mouvement\nCochez cette case pour réduire l'utilisation d'animations dans l'interface d'Amphetamine.\n\nCliquez sur le bouton Réinitialiser les avertissements et les boîtes de dialogue pour ne plus afficher les drapeaux sur les messages d'avertissement et autres boîtes de dialogue.\n\nCliquez sur le bouton Réinitialiser toutes les réglages pour rétablir l'état par défaut d'Amphetamine (toutes les réglages, y compris les déclencheurs, seront perdues).";
 
 
 
@@ -494,7 +388,7 @@
 "pref_sess_nt_lbl_end_time_calc" = "Calcul de l'heure de fin:";
 "pref_sess_nt_lbl_forced_sleep" = "Veille forcée:";
 "pref_sess_nt_lbl_display_sleep" = "Afficher la mise en veille:";
-"pref_sess_nt_lbl_cdm" = "Mode écran fermé:";
+"pref_sess_nt_lbl_cdm" = "Mode Écran Fermé:";
 "pref_sess_nt_lbl_screen_saver" = "Économiseur d'écran:";
 "pref_sess_nt_lbl_battery" = "Batterie:";
 "pref_sess_nt_lbl_pwr_adptr" = "Adaptateur secteur:";
@@ -532,7 +426,7 @@
 "help_message_default_duration_title" = "Durée par défaut";
 
 // Body
-"help_message_default_duration_body" = "La durée par défaut est utilisée dans Amphétamine lorsqu'une durée de session n'est pas indiquée. Par exemple, lorsqu'une session démarre au lancement et lorsque vous cliquez sur l'image d'amphétamine dans la barre de menu système pour démarrer une session.";
+"help_message_default_duration_body" = "La durée par défaut est utilisée dans Amphetamine lorsqu'une durée de session n'est pas indiquée. Par exemple, lorsqu'une session démarre au lancement et lorsque vous cliquez sur l'image d'Amphetamine dans la barre de menu système pour démarrer une session.";
 
 // ----- PREFERENCES → SESSION DEFAULTS → End Time Calculation Help Message
 
@@ -540,7 +434,7 @@
 "help_message_end_time_cal_title" = "Calcul de l'heure de fin";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_end_time_cal_body" = "L'heure de fin de la session peut être calculée soit à l'aide d'une minuterie, soit à l'aide de l'horloge système.\n\nPar exemple, disons que vous sélectionnez "Utiliser la minuterie" puis démarrez une session pendant 3 heures. Ensuite, vous mettez immédiatement votre Mac en veille pendant 2 heures. Lorsque votre Mac sortira de veille, il restera encore 3 heures dans la session. C'est parce que le minuteur est mis en pause pendant que votre Mac est en veille.\n\nDans le même scénario décrit ci-dessus, si vous aviez sélectionné à la place "Utiliser horloge système', il ne resterait qu'une heure sur la session. En effet, 2 heures se seraient écoulées sur l'horloge système pendant que votre Mac dormait.";
+"help_message_end_time_cal_body" = "L'heure de fin de la session peut être calculée soit à l'aide d'une minuterie, soit à l'aide de l'horloge système.\n\nPar exemple, disons que vous sélectionnez \"Utiliser la minuterie\" puis démarrez une session pendant 3 heures. Ensuite, vous mettez immédiatement votre Mac en veille pendant 2 heures. Lorsque votre Mac sortira de veille, il restera encore 3 heures dans la session. C'est parce que le minuteur est mis en pause pendant que votre Mac est en veille.\n\nDans le même scénario décrit ci-dessus, si vous aviez sélectionné à la place \"Utiliser horloge système\", il ne resterait qu'une heure sur la session. En effet, 2 heures se seraient écoulées sur l'horloge système pendant que votre Mac dormait.";
 
 // ----- PREFERENCES → SESSION DEFAULTS → Forced Sleep Help Message
 
@@ -550,21 +444,26 @@
 // Body
 "help_message_forced_sleep_body" = "Cochez cette case pour mettre fin automatiquement à toutes les sessions sans déclencheurs lorsque votre Mac est forcé de se mettre en veille. La mise en veille forcée inclut toute situation dans laquelle vous entreprenez une action pour mettre votre Mac en veille, par exemple en cliquant sur  → Suspendre l’activité, ou en utilisant un raccourci clavier/une touche de raccourci.";
 
+
 // ----- PREFERENCES → SESSION DEFAULTS → Display Sleep Help Message
 
 // Title
 "help_message_display_sleep_title" = "Mise en veille de l'écran";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_display_sleep_body" = "Cochez cette case si vous souhaitez que l'écran de votre Mac se mette en veille pendant une session. Si vous autorisez la mise en veille de l'affichage, votre affichage se mettra en veille/s'éteindra après la durée que vous avez définie dans  → Préférences système → Économie d'énergie / Batterie.\n\nNotez que cette préférence n'affecte que les sessions sans déclencheurs. Si vous souhaitez que les sessions basées sur des déclencheurs permettent la mise en veille de l'écran, chaque déclencheur individuel peut être configuré pour le faire.";
+"help_message_display_sleep_body" = "Cochez cette case si vous souhaitez que l'écran de votre Mac se mette en veille pendant une session. Si vous autorisez la mise en veille de l'affichage, votre affichage se mettra en veille/s'éteindra après la durée que vous avez définie dans  → Préférences Système → Économie d'énergie / Batterie.\n\nNotez que cette préférence n'affecte que les sessions sans déclencheurs. Si vous souhaitez que les sessions basées sur des déclencheurs permettent la mise en veille de l'écran, chaque déclencheur individuel peut être configuré pour le faire.";
+
+"help_message_display_sleep_body_13" = "Cochez cette case si vous souhaitez que l'écran de votre Mac se mette en veille pendant une session. Si vous autorisez la mise en veille de l'affichage, votre affichage se mettra en veille/s'éteindra après la durée que vous avez définie dans  → Réglages du système → Économie d'énergie / Batterie.\n\nNotez que cette réglage n'affecte que les sessions sans déclencheurs. Si vous souhaitez que les sessions basées sur des déclencheurs permettent la mise en veille de l'écran, chaque déclencheur individuel peut être configuré pour le faire.";
 
 // ----- PREFERENCES → SESSION DEFAULTS → Closed-Display Mode Help Message
 
 // Title
-"help_message_closed_display_title" = "Mode écran fermé";
+"help_message_closed_display_title" = "Mode Écran Fermé";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_closed_display_body" = "Décochez cette case si vous souhaitez qu'Amphétamine garde votre Mac éveillé pendant que son écran est fermé.\n\nGénéralement, un écran externe, un clavier, une souris et un adaptateur secteur doivent tous être connectés à votre Mac pour que le mode écran fermé soit activé . Amphétamine peut remplacer temporairement ces exigences et empêcher votre Mac de se mettre en veille lorsque son écran est fermé.\n\nLa case à cocher sera désactivée si votre Mac ne prend pas en charge cette fonctionnalité.\n\nCette préférence n'affecte que les sessions sans déclencheurs. Si vous souhaitez activer cette fonctionnalité pour une session avec déclencheurs, accédez à Préférences → Déclencheurs et modifiez chaque déclencheur auquel vous souhaitez ajouter cette fonctionnalité.\n\nLorsque vous utilisez cette fonctionnalité, vous pouvez envisager de configurer des avertissements de mode d'écran fermé dans les préférences → Notifications → Mode d'écran fermé.";
+"help_message_closed_display_body" = "Décochez cette case si vous souhaitez qu'Amphetamine garde votre Mac éveillé pendant que son écran est fermé.\n\nGénéralement, un écran externe, un clavier, une souris et un adaptateur secteur doivent tous être connectés à votre Mac pour que le Mode Écran Fermé soit activé . Amphetamine peut remplacer temporairement ces exigences et empêcher votre Mac de se mettre en veille lorsque son écran est fermé.\n\nLa case à cocher sera désactivée si votre Mac ne prend pas en charge cette fonctionnalité.\n\nCette préférence n'affecte que les sessions sans déclencheurs. Si vous souhaitez activer cette fonctionnalité pour une session avec déclencheurs, accédez à Préférences → Déclencheurs et modifiez chaque déclencheur auquel vous souhaitez ajouter cette fonctionnalité.\n\nLorsque vous utilisez cette fonctionnalité, vous pouvez envisager de configurer des avertissements de mode d'écran fermé dans les préférences → Notifications → Mode d'écran fermé.";
+
+"help_message_closed_display_body_13" = "Décochez cette case si vous souhaitez qu'Amphetamine garde votre Mac éveillé pendant que son écran est fermé.\n\nGénéralement, un écran externe, un clavier, une souris et un adaptateur secteur doivent tous être connectés à votre Mac pour que le Mode Écran Fermé soit activé . Amphetamine peut remplacer temporairement ces exigences et empêcher votre Mac de se mettre en veille lorsque son écran est fermé.\n\nLa case à cocher sera désactivée si votre Mac ne prend pas en charge cette fonctionnalité.\n\nCette préférence n'affecte que les sessions sans déclencheurs. Si vous souhaitez activer cette fonctionnalité pour une session avec déclencheurs, accédez à Réglages → Déclencheurs et modifiez chaque déclencheur auquel vous souhaitez ajouter cette fonctionnalité.\n\nLorsque vous utilisez cette fonctionnalité, vous pouvez envisager de configurer des avertissements de mode d'écran fermé dans les réglages → Notifications → Mode d'écran fermé.";
 
 // ----- PREFERENCES → SESSION DEFAULTS → Screen Saver Help Message
 
@@ -572,7 +471,7 @@
 "help_message_screen_saver_title" = "Économiseur d'écran";
 
 // Body
-"help_message_screen_saver_body" = "Cochez cette case si vous souhaitez que l'économiseur d'écran de votre Mac s'exécute pendant les sessions sans déclencheurs. Utilisez le curseur pour sélectionner le seuil de temps avant de démarrer l'économiseur d'écran. Pendant les sessions sans déclencheurs, Amphetamine gardera une trace du temps d'inactivité de votre Mac. Si le temps d'inactivité est supérieur au seuil que vous avez défini, Amphétamine démarrera votre économiseur d'écran.\n\nVous pouvez ajouter des applications à une liste d'exceptions en cliquant sur le bouton "Exceptions...". Si une application de la liste des exceptions est en cours d'exécution sur votre Mac, Amphétamine ne démarrera pas l'économiseur d'écran. Cela peut être utile si vous regardez une vidéo ou lisez un livre électronique, etc.\n\nNotez que cette préférence n'affecte que les sessions sans déclencheurs. Si vous souhaitez que les sessions basées sur des déclencheurs permettent à votre économiseur d'écran de se lancer, chaque déclencheur individuel peut être configuré pour autoriser ou interdire le lancement de l'économiseur d'écran.";
+"help_message_screen_saver_body" = "Cochez cette case si vous souhaitez que l'économiseur d'écran de votre Mac s'exécute pendant les sessions sans déclencheurs. Utilisez le curseur pour sélectionner le seuil de temps avant de démarrer l'économiseur d'écran. Pendant les sessions sans déclencheurs, Amphetamine gardera une trace du temps d'inactivité de votre Mac. Si le temps d'inactivité est supérieur au seuil que vous avez défini, Amphetamine démarrera votre économiseur d'écran.\n\nVous pouvez ajouter des applications à une liste d'exceptions en cliquant sur le bouton \"Exceptions...\". Si une application de la liste des exceptions est en cours d'exécution sur votre Mac, Amphetamine ne démarrera pas l'économiseur d'écran. Cela peut être utile si vous regardez une vidéo ou lisez un livre électronique, etc.\n\nNotez que cette préférence n'affecte que les sessions sans déclencheurs. Si vous souhaitez que les sessions basées sur des déclencheurs permettent à votre économiseur d'écran de se lancer, chaque déclencheur individuel peut être configuré pour autoriser ou interdire le lancement de l'économiseur d'écran.";
 
 // ----- PREFERENCES → SESSION DEFAULTS → Battery Help Message
 
@@ -582,13 +481,15 @@
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_message_battery_body" = "• Terminer la session si la charge de la batterie est inférieure...\nCochez cette case si vous souhaitez qu'Amphetamine mette fin automatiquement aux sessions non déclenchées lorsque la batterie de votre Mac tombe en dessous du seuil défini à l'aide du curseur. Déplacez le curseur complètement vers la droite pour mettre fin aux sessions chaque fois que l'adaptateur secteur n'est pas connecté.\n\n• Demander avant de mettre fin à une session\nCochez cette case si vous souhaitez être averti avant qu'Amphetamine mette automatiquement fin à une session en raison d'un faible charge de la batterie. Vous pouvez choisir de continuer la session, en ignorant la charge de la batterie de votre Mac, si vous le souhaitez.\n\n• Ignorer la charge si l'adaptateur secteur est connecté\nCochez cette case si vous souhaitez qu'Amphetamine ne mette pas automatiquement fin aux sessions en raison d'une charge de batterie faible pendant que votre adaptateur secteur est connecté.\n\nNotez que ces préférences n'affectent que les sessions sans déclencheurs. Si vous souhaitez que les sessions de déclenchement prennent en compte la charge de la batterie de votre Mac, ajoutez un critère de puissance à votre (vos) déclencheur(s).";
 
+"help_message_battery_body_13" = "• Terminer la session si la charge de la batterie est inférieure...\nCochez cette case si vous souhaitez qu'Amphetamine mette fin automatiquement aux sessions non déclenchées lorsque la batterie de votre Mac tombe en dessous du seuil défini à l'aide du curseur. Déplacez le curseur complètement vers la droite pour mettre fin aux sessions chaque fois que l'adaptateur secteur n'est pas connecté.\n\n• Demander avant de mettre fin à une session\nCochez cette case si vous souhaitez être averti avant qu'Amphetamine mette automatiquement fin à une session en raison d'un faible charge de la batterie. Vous pouvez choisir de continuer la session, en ignorant la charge de la batterie de votre Mac, si vous le souhaitez.\n\n• Ignorer la charge si l'adaptateur secteur est connecté\nCochez cette case si vous souhaitez qu'Amphetamine ne mette pas automatiquement fin aux sessions en raison d'une charge de batterie faible pendant que votre adaptateur secteur est connecté.\n\nNotez que ces réglages n'affectent que les sessions sans déclencheurs. Si vous souhaitez que les sessions de déclenchement prennent en compte la charge de la batterie de votre Mac, ajoutez un critère de puissance à votre (vos) déclencheur(s).";
+
 // ----- PREFERENCES → SESSION DEFAULTS → Power Adapter Help Message
 
 // Title
 "help_message_power_adapter_title" = "Adaptateur secteur";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_power_adapter_body" = "Notez que vous devez activer les options « Terminer la session si la charge de la batterie est inférieure à... » et activer « Ignorer le niveau de la batterie si l'adaptateur secteur » ou déplacer le curseur « Terminer la session si la charge de la batterie est inférieure à... » jusqu'au à droite pour que cette préférence soit disponible.\n\nCochez cette case pour qu'Amphétamine démarre automatiquement une nouvelle session chaque fois que l'adaptateur secteur de votre Mac est connecté. L'amphétamine ne démarrera une nouvelle session que si la session précédente s'est terminée à cause d'une charge de batterie faible.";
+"help_message_power_adapter_body" = "Notez que vous devez activer les options « Terminer la session si la charge de la batterie est inférieure à... » et activer « Ignorer le niveau de la batterie si l'adaptateur secteur » ou déplacer le curseur « Terminer la session si la charge de la batterie est inférieure à... » jusqu'au à droite pour que cette préférence soit disponible.\n\nCochez cette case pour qu'Amphetamine démarre automatiquement une nouvelle session chaque fois que l'adaptateur secteur de votre Mac est connecté. L'Amphetamine ne démarrera une nouvelle session que si la session précédente s'est terminée à cause d'une charge de batterie faible.";
 
 
 
@@ -630,7 +531,9 @@
 "help_message_lock_screen_title" = "Écran de verrouillage";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_lock_screen_body" = "• Verrouiller l'écran après ... d'inactivité\nCochez cette case pour qu'Amphétamine verrouille l'écran de votre Mac après la période d'inactivité spécifique. Amphétamine ne tentera de verrouiller votre écran que si une session est active. Pour contrôler le verrouillage de votre écran lorsqu'une session n'est pas active, accédez à  → Préférences système → Sécurité et confidentialité → Général.\n\n• Utilisez le mouvement du curseur pour déterminer l'inactivité\nCochez cette case pour qu'Amphétamine prenne en compte le mouvement du curseur/souris, et pas juste l'horloge d'inactivité du système, au moment de décider quand verrouiller votre écran. Cette fonctionnalité peut être utile si vous accédez à distance à votre Mac à l'aide de VNC/ARD/RDP.\n\n• Verrouiller l'écran immédiatement après la fermeture de l'écran\nCochez cette case pour qu'Amphétamine verrouille l'écran de votre Mac immédiatement après la fermeture de l'écran. Cette fonctionnalité ne fonctionnera que si une session est active et que vous avez activé le mode d'écran fermé pour cette session. La case à cocher sera désactivée si votre Mac ne prend pas en charge cette fonctionnalité.";
+"help_message_lock_screen_body" = "• Verrouiller l'écran après ... d'inactivité\nCochez cette case pour qu'Amphetamine verrouille l'écran de votre Mac après la période d'inactivité spécifique. Amphetamine ne tentera de verrouiller votre écran que si une session est active. Pour contrôler le verrouillage de votre écran lorsqu'une session n'est pas active, accédez à  → Préférences Système → Sécurité et confidentialité → Général.\n\n• Utilisez le mouvement du curseur pour déterminer l'inactivité\nCochez cette case pour qu'Amphetamine prenne en compte le mouvement du curseur/souris, et pas juste l'horloge d'inactivité du système, au moment de décider quand verrouiller votre écran. Cette fonctionnalité peut être utile si vous accédez à distance à votre Mac à l'aide de VNC/ARD/RDP.\n\n• Verrouiller l'écran immédiatement après la fermeture de l'écran\nCochez cette case pour qu'Amphetamine verrouille l'écran de votre Mac immédiatement après la fermeture de l'écran. Cette fonctionnalité ne fonctionnera que si une session est active et que vous avez activé le mode d'écran fermé pour cette session. La case à cocher sera désactivée si votre Mac ne prend pas en charge cette fonctionnalité.";
+
+"help_message_lock_screen_body_13" = "• Verrouiller l'écran après ... d'inactivité\nCochez cette case pour qu'Amphetamine verrouille l'écran de votre Mac après la période d'inactivité spécifique. Amphetamine ne tentera de verrouiller votre écran que si une session est active. Pour contrôler le verrouillage de votre écran lorsqu'une session n'est pas active, accédez à  → Réglages du Système → Sécurité et confidentialité → Général.\n\n• Utilisez le mouvement du curseur pour déterminer l'inactivité\nCochez cette case pour qu'Amphetamine prenne en compte le mouvement du curseur/souris, et pas juste l'horloge d'inactivité du système, au moment de décider quand verrouiller votre écran. Cette fonctionnalité peut être utile si vous accédez à distance à votre Mac à l'aide de VNC/ARD/RDP.\n\n• Verrouiller l'écran immédiatement après la fermeture de l'écran\nCochez cette case pour qu'Amphetamine verrouille l'écran de votre Mac immédiatement après la fermeture de l'écran. Cette fonctionnalité ne fonctionnera que si une session est active et que vous avez activé le mode d'écran fermé pour cette session. La case à cocher sera désactivée si votre Mac ne prend pas en charge cette fonctionnalité.";
 
 // ----- PREFERENCES → SYSTEM CONTROL → Cursor Help Message
 
@@ -638,7 +541,7 @@
 "help_message_cursor_title" = "Curseur";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_cursor_body" = "• Déplacer le curseur tous les...\nCochez cette case et choisissez un intervalle et un seuil d'inactivité pour qu'Amphétamine déplace le curseur de la souris pendant une session. Cette fonctionnalité s'applique à la fois aux sessions avec et sans déclencheurs. Notez que le curseur ne bougera pas si l'économiseur d'écran de votre Mac est actif. Le mouvement du curseur empêchera la mise en veille de l'affichage même si vous avez activé l'option Autoriser la mise en veille de l'affichage pour une session.\n\n• Arrêter le déplacement du curseur après...\nCochez cette case pour arrêter le mouvement du curseur d'amphétamine après le seuil spécifique. L'arrêt du mouvement du curseur permettra à l'écran de votre Mac de se mettre en veille si vous avez activé Autoriser la mise en veille de l'affichage pour une session.";
+"help_message_cursor_body" = "• Déplacer le curseur tous les...\nCochez cette case et choisissez un intervalle et un seuil d'inactivité pour qu'Amphetamine déplace le curseur de la souris pendant une session. Cette fonctionnalité s'applique à la fois aux sessions avec et sans déclencheurs. Notez que le curseur ne bougera pas si l'économiseur d'écran de votre Mac est actif. Le mouvement du curseur empêchera la mise en veille de l'affichage même si vous avez activé l'option Autoriser la mise en veille de l'affichage pour une session.\n\n• Arrêter le déplacement du curseur après...\nCochez cette case pour arrêter le mouvement du curseur d'Amphetamine après le seuil spécifique. L'arrêt du mouvement du curseur permettra à l'écran de votre Mac de se mettre en veille si vous avez activé Autoriser la mise en veille de l'affichage pour une session.";
 
 // ----- PREFERENCES → SYSTEM CONTROL → Fast User Switching Help Message
 
@@ -646,7 +549,7 @@
 "help_message_fast_user_switch_title" = "Changement rapide d'utilisateur";
 
 // Body
-"help_message_fast_user_switch_body" = "Cochez cette case pour désactiver automatiquement toutes les sessions Amphétamine (avec et sans déclencheurs) lorsque vous passez à un autre compte utilisateur sur votre Mac sans vous déconnecter du compte sur lequel Amphétamine s'exécute.";
+"help_message_fast_user_switch_body" = "Cochez cette case pour désactiver automatiquement toutes les sessions Amphetamine (avec et sans déclencheurs) lorsque vous passez à un autre compte utilisateur sur votre Mac sans vous déconnecter du compte sur lequel Amphetamine s'exécute.";
 
 
 
@@ -675,7 +578,7 @@
 "help_triggers_title" = "Déclencheur";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_triggers_body" = "Le déclencheur est l'une des caractéristiques les plus puissantes d'Amphetamine. Vous pouvez créer autant de déclencheurs que vous le souhaitez. Lorsque tous les critères d'un déclencheur sont remplis, Amphétamine démarre automatiquement une nouvelle session si aucune n'est déjà en cours d'exécution.\n\nEn plus du bouton global Activer les déclencheurs,, chaque déclencheur individuel que vous créez peuvent également être activés/désactivés. Utilisez la case à cocher à droite de chaque déclencheur dans la liste pour l'activer ou le désactiver temporairement.\n\nUtilisez le bouton + pour créer un nouveau déclencheur. Sélectionnez un déclencheur dans la liste et utilisez le bouton − pour le supprimer.\n\nSélectionnez un déclencheur dans la liste et utilisez les boutons ↑ et ↓ pour la réorganiser. Les déclencheurs seront traités dans l'ordre dans lequel ils sont affichés dans la liste. Le déclencheur le plus haut sera traité en premier. Si tous ses critères sont remplis, une session démarre. Sinon, le prochain déclencheur de la liste sera traité.";
+"help_triggers_body" = "Le déclencheur est l'une des caractéristiques les plus puissantes d'Amphetamine. Vous pouvez créer autant de déclencheurs que vous le souhaitez. Lorsque tous les critères d'un déclencheur sont remplis, Amphetamine démarre automatiquement une nouvelle session si aucune n'est déjà en cours d'exécution.\n\nEn plus du bouton global Activer les déclencheurs,, chaque déclencheur individuel que vous créez peuvent également être activés/désactivés. Utilisez la case à cocher à droite de chaque déclencheur dans la liste pour l'activer ou le désactiver temporairement.\n\nUtilisez le bouton + pour créer un nouveau déclencheur. Sélectionnez un déclencheur dans la liste et utilisez le bouton − pour le supprimer.\n\nSélectionnez un déclencheur dans la liste et utilisez les boutons ↑ et ↓ pour la réorganiser. Les déclencheurs seront traités dans l'ordre dans lequel ils sont affichés dans la liste. Le déclencheur le plus haut sera traité en premier. Si tous ses critères sont remplis, une session démarre. Sinon, le prochain déclencheur de la liste sera traité.";
 
 
 
@@ -704,7 +607,7 @@
 "help_drivealive_title" = "Drive Alive";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_drivealive_body" = "Drive Alive peut garder vos disques durs éveillés (hors de veille) et prêts à l'action. Drive Alive fonctionne en écrivant une petite quantité de données sur vos disques durs à intervalles réguliers. Ces données sont écrasées à plusieurs reprises et n'occupent que quelques kilo-octets (Ko) d'espace sur votre disque.\n\nPour ajouter un nouveau disque, cliquez sur le bouton +, puis sélectionnez le disque que vous souhaitez. Sélectionnez un lecteur dans la liste et cliquez sur le bouton − pour le supprimer.\n\nChaque lecteur peut être maintenu hors de veille soit uniquement lorsqu'une session est en cours, soit à chaque fois qu'Amphétamine est en cours d'exécution. Pour garder un lecteur activé tout le temps, cochez la case à droite du lecteur dans la liste.\n\nL'intervalle par défaut pour que Drive Alive écrive des données sur votre(vos) lecteur(s) est toutes les 10 secondes. Vous pouvez modifier cela en entrant un nouveau numéro dans le champ numérique en bas de la fenêtre.";
+"help_drivealive_body" = "Drive Alive peut garder vos disques durs éveillés (hors de veille) et prêts à l'action. Drive Alive fonctionne en écrivant une petite quantité de données sur vos disques durs à intervalles réguliers. Ces données sont écrasées à plusieurs reprises et n'occupent que quelques kilo-octets (Ko) d'espace sur votre disque.\n\nPour ajouter un nouveau disque, cliquez sur le bouton +, puis sélectionnez le disque que vous souhaitez. Sélectionnez un lecteur dans la liste et cliquez sur le bouton − pour le supprimer.\n\nChaque lecteur peut être maintenu hors de veille soit uniquement lorsqu'une session est en cours, soit à chaque fois qu'Amphetamine est en cours d'exécution. Pour garder un lecteur activé tout le temps, cochez la case à droite du lecteur dans la liste.\n\nL'intervalle par défaut pour que Drive Alive écrive des données sur votre(vos) lecteur(s) est toutes les 10 secondes. Vous pouvez modifier cela en entrant un nouveau numéro dans le champ numérique en bas de la fenêtre.";
 
 
 
@@ -741,7 +644,9 @@
 "help_message_start_end_session_title" = "Démarrer ou terminer la session";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_start_end_session_body" = "Ce raccourci vous permettra de démarrer ou de terminer une session en un instant. La durée par défaut (Préférences → Valeurs par défaut de la session → Durée par défaut) sera utilisée pour la durée de la session.\n\nAprès avoir enregistré la combinaison de touches pour ce raccourci, vous pourrez accéder à cette fonction d'amphétamine où que vous soyez dans macOS. Amphétamine n'a pas besoin d'être au premier plan, mais doit être en cours d'exécution.\n\nSi vous ne parvenez pas à enregistrer la combinaison de touches souhaitée, cela signifie qu'elle est déjà utilisée ailleurs par une autre application.";
+"help_message_start_end_session_body" = "Ce raccourci vous permettra de démarrer ou de terminer une session en un instant. La durée par défaut (Préférences → Valeurs par défaut de la session → Durée par défaut) sera utilisée pour la durée de la session.\n\nAprès avoir enregistré la combinaison de touches pour ce raccourci, vous pourrez accéder à cette fonction d'Amphetamine où que vous soyez dans macOS. Amphetamine n'a pas besoin d'être au premier plan, mais doit être en cours d'exécution.\n\nSi vous ne parvenez pas à enregistrer la combinaison de touches souhaitée, cela signifie qu'elle est déjà utilisée ailleurs par une autre application.";
+
+"help_message_start_end_session_body_13" = "Ce raccourci vous permettra de démarrer ou de terminer une session en un instant. La durée par défaut (Réglages → Valeurs par défaut de la session → Durée par défaut) sera utilisée pour la durée de la session.\n\nAprès avoir enregistré la combinaison de touches pour ce raccourci, vous pourrez accéder à cette fonction d'Amphetamine où que vous soyez dans macOS. Amphetamine n'a pas besoin d'être au premier plan, mais doit être en cours d'exécution.\n\nSi vous ne parvenez pas à enregistrer la combinaison de touches souhaitée, cela signifie qu'elle est déjà utilisée ailleurs par une autre application.";
 
 // ----- PREFERENCES → HOT KEYS → Start Session Help Message
 
@@ -749,7 +654,7 @@
 "help_message_start_session_title" = "Démarrer la session";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_start_session_body" = "Ce raccourci clavier vous permettra de démarrer une session avec une durée spécifique. Spécifiez la durée que vous souhaitez.\n\nAprès avoir enregistré la combinaison de touches, vous pourrez accéder à cette fonction d'amphétamine quel que soit l'endroit où vous vous trouvez dans macOS. Amphétamine n'a pas besoin d'être au premier plan, mais elle doit être en cours d'exécution.\n\nSi vous ne parvenez pas à enregistrer la combinaison de touches  souhaitée, cela signifie qu'elle est déjà utilisée ailleurs par une autre application.";
+"help_message_start_session_body" = "Ce raccourci clavier vous permettra de démarrer une session avec une durée spécifique. Spécifiez la durée que vous souhaitez.\n\nAprès avoir enregistré la combinaison de touches, vous pourrez accéder à cette fonction d'Amphetamine quel que soit l'endroit où vous vous trouvez dans macOS. Amphetamine n'a pas besoin d'être au premier plan, mais elle doit être en cours d'exécution.\n\nSi vous ne parvenez pas à enregistrer la combinaison de touches  souhaitée, cela signifie qu'elle est déjà utilisée ailleurs par une autre application.";
 
 // ----- PREFERENCES → HOT KEYS → End Session Help Message
 
@@ -757,7 +662,7 @@
 "help_message_end_session_title" = "Terminer la Session";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_end_session_body" = "Ce raccourci clavier vous permettra de mettre fin à n'importe quelle session.\n\nAprès avoir enregistré la combinaison de touches, vous pourrez accéder à cette fonction d'Amphétamine quel que soit l'endroit où vous vous trouvez dans macOS. Amphétamine n'a pas besoin d'être au premier plan, mais elle doit être en cours d'exécution.\n\nSi vous ne parvenez pas à enregistrer la combinaison de touches souhaitée, cela signifie qu'elle est déjà utilisée par une autre application.";
+"help_message_end_session_body" = "Ce raccourci clavier vous permettra de mettre fin à n'importe quelle session.\n\nAprès avoir enregistré la combinaison de touches, vous pourrez accéder à cette fonction d'Amphetamine quel que soit l'endroit où vous vous trouvez dans macOS. Amphetamine n'a pas besoin d'être au premier plan, mais elle doit être en cours d'exécution.\n\nSi vous ne parvenez pas à enregistrer la combinaison de touches souhaitée, cela signifie qu'elle est déjà utilisée par une autre application.";
 
 // ----- PREFERENCES → HOT KEYS → Open Menu Help Message
 
@@ -765,7 +670,7 @@
 "help_message_open_menu_title" = "Ouvrir le Menu";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_open_menu_body" = "Ce raccourci clavier vous permettra d'ouvrir le menu d'Amphétamine. Ceci est utile pour vérifier rapidement la session et les détails Drive Alive affichés dans le menu, ou pour naviguer ou sélectionner rapidement des éléments de menu à l'aide des touches fléchées et/ou des raccourcis clavier (par exemple ⌘F pour démarrer une Session  Pendant le téléchargement d'un fichier.\n\nAprès avoir enregistré la combinaison de touches, vous pourrez accéder à cette fonction d'amphétamine, quel que soit l'endroit où vous vous trouvez dans macOS. Amphétamine n'a pas besoin d'être au premier plan, mais elle doit être en cours d'exécution .\n\nSi vous ne parvenez pas à enregistrer la combinaison de touches souhaitée, cela signifie qu'elle est déjà utilisée ailleurs par une autre application.";
+"help_message_open_menu_body" = "Ce raccourci clavier vous permettra d'ouvrir le menu d'Amphetamine. Ceci est utile pour vérifier rapidement la session et les détails Drive Alive affichés dans le menu, ou pour naviguer ou sélectionner rapidement des éléments de menu à l'aide des touches fléchées et/ou des raccourcis clavier (par exemple ⌘F pour démarrer une Session  Pendant le téléchargement d'un fichier.\n\nAprès avoir enregistré la combinaison de touches, vous pourrez accéder à cette fonction d'Amphetamine, quel que soit l'endroit où vous vous trouvez dans macOS. Amphetamine n'a pas besoin d'être au premier plan, mais elle doit être en cours d'exécution .\n\nSi vous ne parvenez pas à enregistrer la combinaison de touches souhaitée, cela signifie qu'elle est déjà utilisée ailleurs par une autre application.";
 
 // ----- PREFERENCES → HOT KEYS → Toggle Display Sleep Help Message
 
@@ -814,11 +719,13 @@
 "pref_notif_lbl_session_reminders" = "Rappel de Session:";
 "pref_notif_lbl_trig_sched" = "Déclencheurs/planifiée:";
 "pref_notif_lbl_sound" = "son:";
-"pref_notif_lbl_cdm" = "Mode écran fermé:";
+"pref_notif_lbl_cdm" = "Mode Écran Fermé:";
 "pref_notif_lbl_notif_center" = "Centre de notification:";
 
 // PREFERENCES → NOTIFICATIONS MENU ITEMS
 "pref_notif_mi_default_sound" = "Son système par défaut";
+
+//// HERE
 
 // ---------------------------------------------------------------------------
 // (?) BUTTON MENU ITEMS
@@ -837,7 +744,7 @@
 "help_message_triggers_scheduled_title" = "Déclencheurs/Planifiés";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_triggers_scheduled_body" = "Cochez ces cases pour qu'Amphetamine envoie une notification lorsqu'une session démarre ou se termine automatiquement. Cela inclut les sessions avec déclencheurs, planifiées et certaines sessions avec minuteurs.\n\nLes sessions démarrées ou terminées manuellement en cliquant sur l'image d'amphétamine dans la barre de menu ou en sélectionnant une option dans le menu d'amphétamine n'entraîneront pas l'envoi d'une notification.";
+"help_message_triggers_scheduled_body" = "Cochez ces cases pour qu'Amphetamine envoie une notification lorsqu'une session démarre ou se termine automatiquement. Cela inclut les sessions avec déclencheurs, planifiées et certaines sessions avec minuteurs.\n\nLes sessions démarrées ou terminées manuellement en cliquant sur l'image d'Amphetamine dans la barre de menu ou en sélectionnant une option dans le menu d'Amphetamine n'entraîneront pas l'envoi d'une notification.";
 
 // ----- PREFERENCES → NOTIFICATIONS → Sound Help Message
 
@@ -850,10 +757,10 @@
 // ----- PREFERENCES → NOTIFICATIONS → Closed-Display Mode Help Message
 
 // Title
-"help_message_closed_display_notif_title" = "Mode écran fermé";
+"help_message_closed_display_notif_title" = "Mode Écran Fermé";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_closed_display_notif_body" = "• Jouer un son d'avertissement en mode d'écran fermé\nCochez cette case pour qu'un son soit émis chaque fois que votre Mac passe en mode d'écran fermé. La tonalité d'avertissement ne retentira pas si l'adaptateur secteur de votre Mac et un écran externe sont connectés.\n\n• Répéter la tonalité tous les...\nCochez cette case et sélectionnez un intervalle si vous souhaitez que la tonalité d'avertissement du mode écran fermé soit émise à plusieurs reprises.\n\n• Réglez momentanément le volume du système à ...\nCochez cette case et sélectionnez un niveau de volume si vous souhaitez qu'Amphetamine ajuste le niveau de volume du système de votre Mac avant de jouer la tonalité d'avertissement d'écran fermé. Si le niveau de volume du système de votre Mac est réglé trop bas, vous risquez de ne pas entendre la tonalité. Si le niveau de volume du système de votre Mac est trop élevé, la tonalité peut être discordante. Lorsque cette fonction est activée, Amphétamine ajustera le niveau de volume du système de votre Mac  si le niveau de volume du système est réglé en dessous ou au-dessus du niveau cible pour la tonalité d'avertissement d'écran fermé. Après la tonalité d'avertissement d'écran fermé, le niveau de volume du système d'origine de votre Mac sera restauré.";
+"help_message_closed_display_notif_body" = "• Jouer un son d'avertissement en mode d'écran fermé\nCochez cette case pour qu'un son soit émis chaque fois que votre Mac passe en mode d'écran fermé. La tonalité d'avertissement ne retentira pas si l'adaptateur secteur de votre Mac et un écran externe sont connectés.\n\n• Répéter la tonalité tous les...\nCochez cette case et sélectionnez un intervalle si vous souhaitez que la tonalité d'avertissement du Mode Écran Fermé soit émise à plusieurs reprises.\n\n• Réglez momentanément le volume du système à ...\nCochez cette case et sélectionnez un niveau de volume si vous souhaitez qu'Amphetamine ajuste le niveau de volume du système de votre Mac avant de jouer la tonalité d'avertissement d'écran fermé. Si le niveau de volume du système de votre Mac est réglé trop bas, vous risquez de ne pas entendre la tonalité. Si le niveau de volume du système de votre Mac est trop élevé, la tonalité peut être discordante. Lorsque cette fonction est activée, Amphetamine ajustera le niveau de volume du système de votre Mac  si le niveau de volume du système est réglé en dessous ou au-dessus du niveau cible pour la tonalité d'avertissement d'écran fermé. Après la tonalité d'avertissement d'écran fermé, le niveau de volume du système d'origine de votre Mac sera restauré.";
 
 // ----- PREFERENCES → NOTIFICATIONS → Notification Center Help Message
 
@@ -876,7 +783,7 @@
 
 // PREFERENCES → APPEARANCE BUTTONS
 "pref_appr_bttn_image_low_opac" = "Utiliser une faible opacité lorsqu'il est inactif";
-"pref_appr_bttn_image_padd" = "Gérer manuellement le remplissage pour l'image de la barre de menus" ;
+"pref_appr_bttn_image_padd" = "Gérer manuellement le remplissage pour l'image de la barre de menus";
 "pref_appr_bttn_text_show_time" = "Afficher le temps de session restant dans la barre de menu";
 "pref_appr_bttn_text_24hr_clock" = "Afficher l'heure au format 24 heures";
 "pref_appr_bttn_text_incl_secs" = "Inclure les secondes";
@@ -893,10 +800,12 @@
 
 "pref_appr_lbl_cust_icon_inact" = "Inactive";
 "pref_appr_lbl_cust_icon_act" = "Active";
-"pref_appr_lbl_cust_icon_inact_inst" = "Cette image s'affichera lorsque Aamphétamine ne maintient pas votre Mac éveillé.";
-"pref_appr_lbl_cust_icon_act_inst" = "Cette image s'affichera quand Amphétamine maintient votre Mac éveillé.";
+"pref_appr_lbl_cust_icon_inact_inst" = "Cette image s'affichera lorsque AAmphetamine ne maintient pas votre Mac éveillé.";
+"pref_appr_lbl_cust_icon_act_inst" = "Cette image s'affichera quand Amphetamine maintient votre Mac éveillé.";
 "pref_appr_lbl_cust_icon_get_more" = "Obtenir plus d'images...";
 
+
+/// HERE
 
 // PREFERENCES → APPEARANCE MENU ITEMS
 "pref_appr_mi_cust_image" = "Image personnalisée...";
@@ -928,7 +837,7 @@
 "help_message_menu_bar_image_title" = "Image de la barre de menus";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_menu_bar_image_body" = "Choisissez les images que vous souhaitez afficher dans la barre de menu pour représenter l'état de la session d'amphétamine (active/inactive). Lorsqu'une session commence ou se termine, l'image d'amphétamine dans la barre de menu sera mise à jour en conséquence.\n\nVous pouvez également fournir vos propres images personnalisées.";
+"help_message_menu_bar_image_body" = "Choisissez les images que vous souhaitez afficher dans la barre de menu pour représenter l'état de la session d'Amphetamine (active/inactive). Lorsqu'une session commence ou se termine, l'image d'Amphetamine dans la barre de menu sera mise à jour en conséquence.\n\nVous pouvez également fournir vos propres images personnalisées.";
 
 // ----- PREFERENCES → APPEARANCE → Menu Bar Text Help Message
 
@@ -936,7 +845,7 @@
 "help_message_menu_bar_text_title" = "Texte de la barre de menus";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_menu_bar_text_body" = "• Afficher le temps de session restant dans la barre de menus\nCochez cette case si vous souhaitez que le temps restant ou l'heure de fin d'une session s'affiche à côté de l'image d'Amphétamine dans la barre de menus.\n\nChoisissez des options de formatage supplémentaires telles que la taille du texte dans la barre de menus, comment l'heure est représentée, s'il faut inclure les secondes et s'il faut représenter l'heure au format 12 ou 24 heures.";
+"help_message_menu_bar_text_body" = "• Afficher le temps de session restant dans la barre de menus\nCochez cette case si vous souhaitez que le temps restant ou l'heure de fin d'une session s'affiche à côté de l'image d'Amphetamine dans la barre de menus.\n\nChoisissez des options de formatage supplémentaires telles que la taille du texte dans la barre de menus, comment l'heure est représentée, s'il faut inclure les secondes et s'il faut représenter l'heure au format 12 ou 24 heures.";
 
 // ----- PREFERENCES → APPEARANCE → Menu Bar Extras Help Message
 
@@ -944,7 +853,7 @@
 "help_message_menu_extras_title" = "Menu supplémentaire";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_menu_extras_body" = "• Afficher les détails de la session en cours\nCochez cette case pour afficher les détails de la session, tels que la durée/le temps restant de la session et la raison de l'activation dans le menu d'amphétamine.\n\n• Afficher les détails de Drive Alive\nCochez cette case pour afficher les détails de Drive Alive, tels que les lecteurs qui sont maintenus en marche et ceux qui ne le sont pas.";
+"help_message_menu_extras_body" = "• Afficher les détails de la session en cours\nCochez cette case pour afficher les détails de la session, tels que la durée/le temps restant de la session et la raison de l'activation dans le menu d'Amphetamine.\n\n• Afficher les détails de Drive Alive\nCochez cette case pour afficher les détails de Drive Alive, tels que les lecteurs qui sont maintenus en marche et ceux qui ne le sont pas.";
 
 
 
@@ -963,7 +872,7 @@
 "pref_stat_bttn_enable" = "Activer la collecte de statistiques";
 
 // PREFERENCES → STATISTICS LABELS
-"pref_stat_lbl_how_long_title" = "Amphétamine a gardé votre Mac éveillé pendant"; // v5.0.1
+"pref_stat_lbl_how_long_title" = "Amphetamine a gardé votre Mac éveillé pendant"; // v5.0.1
 "pref_stat_lbl_how_long_about" = "\n%@ %@ %@ %@"; // v5.0.1
 "pref_stat_lbl_how_long_prefs" = "%@ %@ %@ %@"; // v5.0.1
 "pref_stat_lbl_average" = "Durée moyenne des sessions";
@@ -1003,9 +912,9 @@
 "help_trigger_config_title" = "Configuration du déclencheur";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_trigger_config_body" = "Nom\nDonnez à votre déclencheur un nom mémorable. Le nom de votre déclencheur sera utilisé dans les notifications et dans la section des détails de la session du menu d'amphétamine (si vous avez activé ces préférences).\n\nCritères\nVotre déclencheur peut utiliser une instance de chaque critère. Pour ajouter un nouveau critère, cliquez sur le bouton +, sélectionnez un critère. Pour supprimer un critère, sélectionnez le critère dans le tableau des Critères et cliquez sur le bouton -.\n\nOptions supplémentaires\nChaque déclencheur que vous créez peut être configuré indépendamment pour autoriser ou empêcher la mise en veille de l'affichage, l'activation de l'économiseur d'écran et si votre Mac se met en veille lorsque son écran est fermé.";
+"help_trigger_config_body" = "Nom\nDonnez à votre déclencheur un nom mémorable. Le nom de votre déclencheur sera utilisé dans les notifications et dans la section des détails de la session du menu d'Amphetamine (si vous avez activé ces préférences).\n\nCritères\nVotre déclencheur peut utiliser une instance de chaque critère. Pour ajouter un nouveau critère, cliquez sur le bouton +, sélectionnez un critère. Pour supprimer un critère, sélectionnez le critère dans le tableau des Critères et cliquez sur le bouton -.\n\nOptions supplémentaires\nChaque déclencheur que vous créez peut être configuré indépendamment pour autoriser ou empêcher la mise en veille de l'affichage, l'activation de l'économiseur d'écran et si votre Mac se met en veille lorsque son écran est fermé.";
 
-
+"help_trigger_config_body_13" = "Nom\nDonnez à votre déclencheur un nom mémorable. Le nom de votre déclencheur sera utilisé dans les notifications et dans la section des détails de la session du menu d'Amphetamine (si vous avez activé ces réglages).\n\nCritères\nVotre déclencheur peut utiliser une instance de chaque critère. Pour ajouter un nouveau critère, cliquez sur le bouton +, sélectionnez un critère. Pour supprimer un critère, sélectionnez le critère dans le tableau des Critères et cliquez sur le bouton -.\n\nOptions supplémentaires\nChaque déclencheur que vous créez peut être configuré indépendamment pour autoriser ou empêcher la mise en veille de l'affichage, l'activation de l'économiseur d'écran et si votre Mac se met en veille lorsque son écran est fermé.";
 
 
 
@@ -1155,7 +1064,7 @@
 "criterion_help_app_title" = "Critère de l'application";
 
 // Body
-"criterion_help_app_body" = "Ce critère sera déclenché uniquement lorsque l'application spécifiée est en cours d'exécution sur votre Mac. Seules les applications en cours d'exécution apparaissent dans la liste. Si une application n'apparaît pas dans la liste, soit elle n'est pas en cours d'exécution, soit la technologie App Sandbox de macOS empêche Amphétamine d'interagir avec l'application.";
+"criterion_help_app_body" = "Ce critère sera déclenché uniquement lorsque l'application spécifiée est en cours d'exécution sur votre Mac. Seules les applications en cours d'exécution apparaissent dans la liste. Si une application n'apparaît pas dans la liste, soit elle n'est pas en cours d'exécution, soit la technologie App Sandbox de macOS empêche Amphetamine d'interagir avec l'application.";
 
 
 // ----- Criterion Battery & Power Adapter Help Message
@@ -1182,7 +1091,7 @@
 "criterion_help_displays_title" = "Critère d'écran";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"criterion_help_displays_body" = "Ce critère sera déclenché lorsque le nombre d'écrans connectés est égal, supérieur ou inférieur au nombre que vous définissez. Vous pouvez également choisir la mise en miroir de l'affichage pour que ce critère soit déclenché uniquement lorsque l'affichage principal de votre Mac est dupliqué.\n\nSélectionnez l'option "Ignorer l'écran intégré" pour ignorer l'affichage intégré de votre Mac lors du calcul du nombre d'écrans connectés.";
+"criterion_help_displays_body" = "Ce critère sera déclenché lorsque le nombre d'écrans connectés est égal, supérieur ou inférieur au nombre que vous définissez. Vous pouvez également choisir la mise en miroir de l'affichage pour que ce critère soit déclenché uniquement lorsque l'affichage principal de votre Mac est dupliqué.\n\nSélectionnez l'option \"Ignorer l'écran intégré\" pour ignorer l'affichage intégré de votre Mac lors du calcul du nombre d'écrans connectés.";
 
 
 // ----- Criterion Volume/Drive Help Message
@@ -1202,6 +1111,7 @@
 // Body
 "criterion_help_audio_body" = "Ce critère sera déclenché uniquement lorsque la sortie audio spécifiée est définie comme la sortie actuelle sur votre Mac.\n\nLa sortie audio peut être définie en allant dans le menu  → Préférences Système → Son → Sortie.";
 
+"criterion_help_audio_body_13" = "Ce critère sera déclenché uniquement lorsque la sortie audio spécifiée est définie comme la sortie actuelle sur votre Mac.\n\nLa sortie audio peut être définie en allant dans le menu  → Réglages du Système → Son → Sortie.";
 
 // ----- Criterion Bluetooth Help Message
 
@@ -1210,6 +1120,8 @@
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "criterion_help_bluetooth_body" = "Ce critère sera déclenché uniquement lorsque le périphérique Bluetooth spécifié est connecté à votre Mac. Seuls les appareils Bluetooth qui ont été jumelé apparaîtront dans la liste.\n\nPour jumeler un nouvel appareil Bluetooth, placez votre appareil en mode couplage et accédez au menu  → Préférences Système → Bluetooth.";
+
+"criterion_help_bluetooth_body_13" = "Ce critère sera déclenché uniquement lorsque le périphérique Bluetooth spécifié est connecté à votre Mac. Seuls les appareils Bluetooth qui ont été jumelé apparaîtront dans la liste.\n\nPour jumeler un nouvel appareil Bluetooth, placez votre appareil en mode couplage et accédez au menu  → Réglages du Système → Bluetooth.";
 
 
 // ----- Criterion Cisco AnyConnect VPN Help Message
@@ -1236,7 +1148,7 @@
 "criterion_help_cpu_title" = "Critère d'utilisation du processeur";
 
 // Body
-"criterion_help_cpu_body" = "Ce critère sera déclenché uniquement lorsque l'utilisation combinée de tous les processeurs logiques de votre Mac est supérieure ou inférieure au seuil que vous avez défini. Notez que l'échantillonnage de l'utilisation du processeur par Amphétamine peut ne pas toujours correspondre à celui du moniteur d'activité ou d'autres applications capables de surveiller l'utilisation du processeur. Cela est probablement dû à des taux d'échantillonnage différents.";
+"criterion_help_cpu_body" = "Ce critère sera déclenché uniquement lorsque l'utilisation combinée de tous les processeurs logiques de votre Mac est supérieure ou inférieure au seuil que vous avez défini. Notez que l'échantillonnage de l'utilisation du processeur par Amphetamine peut ne pas toujours correspondre à celui du moniteur d'activité ou d'autres applications capables de surveiller l'utilisation du processeur. Cela est probablement dû à des taux d'échantillonnage différents.";
 
 
 // ----- Criterion Idle Time Help Message
@@ -1254,9 +1166,9 @@
 "criterion_help_dns_title" = "Critère de serveur DNS";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"criterion_help_dns_body" = "Ce critère sera déclenché lorsque votre Mac utilise l'un des serveurs/adresses DNS que vous avez spécifiés. Pour ajouter les adresses DNS actuelles que votre Mac utilise à la liste, cliquez sur le bouton +. Pour supprimer une adresse DNS de la liste, sélectionnez-la et cliquez sur le bouton -.\n\nSi vous avez récemment mis à jour vos serveurs DNS dans les Préférences Système, ou récemment modifié la configuration réseau, veuillez patienter quelques minutes pour pouvoir mettre à jour Amphétamine avec les nouveaux serveurs DNS.\n\nRemarque : ce déclencheur peut ne pas s'activer immédiatement dans certaines circonstances. Amphetamine interrogera les serveurs DNS actuels de votre Mac, mais s'ils ont été mis à jour/modifiés récemment, macOS peut prendre une minute ou deux pour signaler ce changement à Amphetamine.";
+"criterion_help_dns_body" = "Ce critère sera déclenché lorsque votre Mac utilise l'un des serveurs/adresses DNS que vous avez spécifiés. Pour ajouter les adresses DNS actuelles que votre Mac utilise à la liste, cliquez sur le bouton +. Pour supprimer une adresse DNS de la liste, sélectionnez-la et cliquez sur le bouton -.\n\nSi vous avez récemment mis à jour vos serveurs DNS dans les Préférences Système, ou récemment modifié la configuration réseau, veuillez patienter quelques minutes pour pouvoir mettre à jour Amphetamine avec les nouveaux serveurs DNS.\n\nRemarque : ce déclencheur peut ne pas s'activer immédiatement dans certaines circonstances. Amphetamine interrogera les serveurs DNS actuels de votre Mac, mais s'ils ont été mis à jour/modifiés récemment, macOS peut prendre une minute ou deux pour signaler ce changement à Amphetamine.";
 
-
+"criterion_help_dns_body_13" = "Ce critère sera déclenché lorsque votre Mac utilise l'un des serveurs/adresses DNS que vous avez spécifiés. Pour ajouter les adresses DNS actuelles que votre Mac utilise à la liste, cliquez sur le bouton +. Pour supprimer une adresse DNS de la liste, sélectionnez-la et cliquez sur le bouton -.\n\nSi vous avez récemment mis à jour vos serveurs DNS dans les Réglages du Système, ou récemment modifié la configuration réseau, veuillez patienter quelques minutes pour pouvoir mettre à jour Amphetamine avec les nouveaux serveurs DNS.\n\nRemarque : ce déclencheur peut ne pas s'activer immédiatement dans certaines circonstances. Amphetamine interrogera les serveurs DNS actuels de votre Mac, mais s'ils ont été mis à jour/modifiés récemment, macOS peut prendre une minute ou deux pour signaler ce changement à Amphetamine.";
 
 
 
@@ -1308,14 +1220,16 @@
 "statbar_mi_file" = "Pendant le téléchargement du fichier...";
 "statbar_mi_qp" = "Préférences rapides";
 "statbar_mi_prefs" = "Préférences...";
-"statbar_mi_about" = "À propos d'amphétamine";
+"statbar_mi_qp_13" = "Réglages rapides";
+"statbar_mi_prefs_13" = "Réglages...";
+"statbar_mi_about" = "À propos d'Amphetamine";
 "statbar_mi_fb_support" = "Commentaires et assistance";
 "statbar_mi_troubleshoot" = "Dépannage et FAQ";
 "statbar_mi_debugMode" = "Activer le mode de débogage"; // v5.0.1
 "statbar_mi_contact" = "Contactez le support";
 "statbar_mi_follow_dev" = "Suivez le développeur"; // OPENS TWITTER LINK
-"statbar_mi_contribute" = "Contribuer au développement d'Amphétamine";
-"statbar_mi_quit" = "Quitter Amphétamine";
+"statbar_mi_contribute" = "Contribuer au développement d'Amphetamine";
+"statbar_mi_quit" = "Quitter Amphetamine";
 
 
 
@@ -1332,45 +1246,51 @@
 "ww_bttn_end" = "Fin";
 
 // WELCOME WINDOW #1
-"ww1_lbl_welcome" = "Bienvenue dans Amphétamine";
+"ww1_lbl_welcome" = "Bienvenue dans Amphetamine";
 "ww1_lbl_credit" = "Créé avec ♥ par William Gustafson";
 
 // ** NOTE: DO NOT REMOVE '\n' **
-"ww1_lbl_message" = "\nAmphétamine est un utilitaire de veille super génial, puissant et flexible pour macOS.\nMême avec toutes ses fonctionnalités et options, Amphétamine reste incroyablement facile à utiliser.\n\nIl suffit de quelques étapes pour configurer Amphétamine . Cliquez sur Suivant pour commencer.";
+"ww1_lbl_message" = "\nAmphetamine est un utilitaire de veille super génial, puissant et flexible pour macOS.\nMême avec toutes ses fonctionnalités et options, Amphetamine reste incroyablement facile à utiliser.\n\nIl suffit de quelques étapes pour configurer Amphetamine . Cliquez sur Suivant pour commencer.";
 
 // WELCOME WINDOW #2
-"ww2_lbl_title" = "Où est Amphétamine?";
-"ww2_lbl_subtitle" = "Amphétamine est dans la barre de menu dans le coin supérieur droit de votre écran.";
+"ww2_lbl_title" = "Où est Amphetamine?";
+"ww2_lbl_subtitle" = "Amphetamine est dans la barre de menu dans le coin supérieur droit de votre écran.";
 
 // ** NOTE: DO NOT REMOVE '\n' **
-"ww2_lbl_message" = "En cliquant sur Amphétamine dans la barre de menu, le menu Amphétamine s'affichera. Un clic droit (ou Control + Clic) démarrera ou arrêtera une session. Vous pouvez modifier ce comportement dans les préférences d'amphétamine si vous le souhaitez.\n\nAmphétamine est très personnalisable. Vous pouvez modifier toutes sortes de choses comme l'image de la barre de menu, le moment où les notifications doivent apparaître et les sons à jouer dans les préférences.";
+"ww2_lbl_message" = "En cliquant sur Amphetamine dans la barre de menu, le menu Amphetamine s'affichera. Un clic droit (ou Control + Clic) démarrera ou arrêtera une session. Vous pouvez modifier ce comportement dans les préférences d'Amphetamine si vous le souhaitez.\n\nAmphetamine est très personnalisable. Vous pouvez modifier toutes sortes de choses comme l'image de la barre de menu, le moment où les notifications doivent apparaître et les sons à jouer dans les préférences.";
 
-"ww2_bttn_find_amph" = "Cliquez ici pour localiser Amphétamine";
+"ww2_lbl_message_13" = "En cliquant sur Amphetamine dans la barre de menu, le menu Amphetamine s'affichera. Un clic droit (ou Control + Clic) démarrera ou arrêtera une session. Vous pouvez modifier ce comportement dans les réglages d'Amphetamine si vous le souhaitez.\n\nAmphetamine est très personnalisable. Vous pouvez modifier toutes sortes de choses comme l'image de la barre de menu, le moment où les notifications doivent apparaître et les sons à jouer dans les réglages.";
+
+"ww2_bttn_find_amph" = "Cliquez ici pour localiser Amphetamine";
 
 // WELCOME WINDOW #3
-"ww3_lbl_title" = "Que fait Amphétamine?";
-"ww3_lbl_subtitle" = "L'amphétamine maintient votre Mac, son écran et ses disques éveillés.";
+"ww3_lbl_title" = "Que fait Amphetamine?";
+"ww3_lbl_subtitle" = "L'Amphetamine maintient votre Mac, son écran et ses disques éveillés.";
 
 // ** NOTE: DO NOT REMOVE '\n' **
-"ww3_lbl_message" = "Lorsque Amphétamine maintient votre Mac éveillé, cela s'appelle une "session". Pour démarrer une session, cliquez sur Amphétamine dans la barre de menu et sélectionnez une durée de session. Sinon, faites un clic droit/contrôl + Clic pour démarrer une session en utilisant la durée par défaut. Vous pouvez la modifier dans Préférences → Sessions.\n\nSi vous avez un MacBook et que vous souhaitez le garder éveillé pendant que son écran est fermé, c'est désormais possible. Cependant, il est fortement recommandé d'installer Amphetamine Enhancer en tant que sécurité intégrée.";
+"ww3_lbl_message" = "Lorsque Amphetamine maintient votre Mac éveillé, cela s'appelle une \"session\". Pour démarrer une session, cliquez sur Amphetamine dans la barre de menu et sélectionnez une durée de session. Sinon, faites un clic droit/contrôl + Clic pour démarrer une session en utilisant la durée par défaut. Vous pouvez la modifier dans Préférences → Sessions.\n\nSi vous avez un MacBook et que vous souhaitez le garder éveillé pendant que son écran est fermé, c'est désormais possible. Cependant, il est fortement recommandé d'installer Amphetamine Enhancer en tant que sécurité intégrée.";
+
+"ww3_lbl_message_13" = "Lorsque Amphetamine maintient votre Mac éveillé, cela s'appelle une \"session\". Pour démarrer une session, cliquez sur Amphetamine dans la barre de menu et sélectionnez une durée de session. Sinon, faites un clic droit/contrôl + Clic pour démarrer une session en utilisant la durée par défaut. Vous pouvez la modifier dans Réglages → Sessions.\n\nSi vous avez un MacBook et que vous souhaitez le garder éveillé pendant que son écran est fermé, c'est désormais possible. Cependant, il est fortement recommandé d'installer Amphetamine Enhancer en tant que sécurité intégrée.";
 
 "ww3_bttn_learn_amph_enh" = "Cliquez ici pour en savoir plus sur Amphetamine Enhancer";
 
 // WELCOME WINDOW #4
-"ww4_lbl_title" = "Que fait de plus Amphétamine?";
-"ww4_lbl_subtitle" = "Amphétamine peut faire beaucoup plus que vous ne le pensez.";
+"ww4_lbl_title" = "Que fait de plus Amphetamine?";
+"ww4_lbl_subtitle" = "Amphetamine peut faire beaucoup plus que vous ne le pensez.";
 
 // ** NOTE: DO NOT REMOVE '\n' **
-"ww4_lbl_message" = "Les déclencheurs automatisent le maintien de votre Mac éveillé en fonction d'éléments tels que sa connexion Wi-Fi, le niveau de la batterie, les connexions des périphériques USB et Bluetooth, l'heure de la journée, les applications en cours d'exécution, l'adresse IP et bien plus encore. Visitez les Préférences d'Amphetamine pour configurer votre premier déclencheur, ou cliquez sur le bouton ci-dessous pour en savoir plus.\n\nDrive Alive maintient les disques connectés à votre Mac en éveil en écrivant périodiquement une petite quantité de données sur chaque disque. Visitez les préférences d'amphétamine pour configurer Drive Alive.";
+"ww4_lbl_message" = "Les déclencheurs automatisent le maintien de votre Mac éveillé en fonction d'éléments tels que sa connexion Wi-Fi, le niveau de la batterie, les connexions des périphériques USB et Bluetooth, l'heure de la journée, les applications en cours d'exécution, l'adresse IP et bien plus encore. Visitez les Préférences d'Amphetamine pour configurer votre premier déclencheur, ou cliquez sur le bouton ci-dessous pour en savoir plus.\n\nDrive Alive maintient les disques connectés à votre Mac en éveil en écrivant périodiquement une petite quantité de données sur chaque disque. Visitez les préférences d'Amphetamine pour configurer Drive Alive.";
+
+"ww4_lbl_message_13" = "Les déclencheurs automatisent le maintien de votre Mac éveillé en fonction d'éléments tels que sa connexion Wi-Fi, le niveau de la batterie, les connexions des périphériques USB et Bluetooth, l'heure de la journée, les applications en cours d'exécution, l'adresse IP et bien plus encore. Visitez les Réglages d'Amphetamine pour configurer votre premier déclencheur, ou cliquez sur le bouton ci-dessous pour en savoir plus.\n\nDrive Alive maintient les disques connectés à votre Mac en éveil en écrivant périodiquement une petite quantité de données sur chaque disque. Visitez les réglages d'Amphetamine pour configurer Drive Alive.";
 
 "ww4_bttn_learn_triggers" = "Cliquez ici pour en savoir plus sur les déclencheurs";
 
 // WELCOME WINDOW #5
-"ww5_lbl_title" = "Merci d'avoir utilisé Amphétamine, mon ami.";
+"ww5_lbl_title" = "Merci d'avoir utilisé Amphetamine, mon ami.";
 "ww5_lbl_subtitle" = "Amphetamine is a labor of love.";
 
 // ** NOTE: DO NOT REMOVE '\n' **
-"ww5_lbl_message" = "Amphetamine est un cadeau pour vous. J'espère que vous le trouverez utile, stable et agréable. Si vous pouvez prendre un moment pour laisser vos commentaires sur l'App Store, je vous en serais reconnaissant. Merci.\n\nSi vous avez une question ou rencontrez un problème lors de l'utilisation d'amphétamine, veuillez me contacter en cliquant sur Commentaires et assistance → Contacter l'assistance dans le menu d'amphétamine.\n\nWilliam Gustafson\nCréateur d'Amphetamine";
+"ww5_lbl_message" = "Amphetamine est un cadeau pour vous. J'espère que vous le trouverez utile, stable et agréable. Si vous pouvez prendre un moment pour laisser vos commentaires sur l'App Store, je vous en serais reconnaissant. Merci.\n\nSi vous avez une question ou rencontrez un problème lors de l'utilisation d'Amphetamine, veuillez me contacter en cliquant sur Commentaires et assistance → Contacter l'assistance dans le menu d'Amphetamine.\n\nWilliam Gustafson\nCréateur d'Amphetamine";
 
 
 
@@ -1381,8 +1301,8 @@
 // ---------------------------------------------------------------------------
 
 // ** NOTE: DO NOT REMOVE '\n' **
-"about_lbl_message" = "Amphétamine a été mon premier projet Objectif-C. Depuis la sortie initiale d'Amphetamine en 2014, elle est devenue l'une des applications les plus puissantes et les plus populaires pour garder votre Mac éveillé. Vos suggestions, vos commentaires et votre soutien sont le moteur de cette croissance. Merci.\n\nAmphétamine sera toujours une application 100 % gratuite sans publicités, achats intégrés ou mises à niveau payantes.\n\nAmphétamine est dédiée à la mémoire de mon ami, Isaac Kirkman.\n\nWilliam Gustafson\ncréateur d'Amphétamine ";
-"about_lbl_hard_work" = "🥵 Faire amphétamine est un travail difficile! 🥵";
+"about_lbl_message" = "Amphetamine a été mon premier projet Objective-C. Depuis la sortie initiale d'Amphetamine en 2014, elle est devenue l'une des applications les plus puissantes et les plus populaires pour garder votre Mac éveillé. Vos suggestions, vos commentaires et votre soutien sont le moteur de cette croissance. Merci.\n\nAmphetamine sera toujours une application 100 % gratuite sans publicités, achats intégrés ou mises à niveau payantes.\n\nAmphetamine est dédiée à la mémoire de mon ami, Isaac Kirkman.\n\nWilliam Gustafson\ncréateur d'Amphetamine ";
+"about_lbl_hard_work" = "🥵 Faire Amphetamine est un travail difficile! 🥵";
 "about_bttn_support" = "Contactez le support";
 "about_bttn_rate" = "Évaluer dans l'App Store";
 "about_bttn_ack" = "Remerciements";
@@ -1396,6 +1316,7 @@
 // ---------------------------------------------------------------------------
 
 "qp_lbl_about" = "Les éléments des Préférences rapides représentent le statut de l'élément correspondant dans les Préférences, et pas nécessairement la session en cours.";
+"qp_lbl_about_13" = "Les éléments des Réglages rapides représentent le statut de l'élément correspondant dans les Réglages, et pas nécessairement la session en cours.";
 "qp_lbl_nt_sess" = "Valeurs par défaut de la session";
 "qp_lbl_all_sess" = "Controle du système";
 "qp_lbl_other" = "Autre";
@@ -1412,11 +1333,12 @@
 
 // Title
 "help_quick_prefs_title" = "Préférences rapides";
+"help_quick_prefs_title_13" = "Réglages rapides";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_quick_prefs_body" = "Chaque élément de menu dans les préférences rapides est lié à son élément correspondant dans les préférences d'amphétamine.\n\nIl est important de noter que l'état d'un élément dans les préférences rapides peut ne pas refléter le comportement de la session en cours. Cela est particulièrement vrai pour les sessions avec déclencheurs.\n\nLe comportement de la session en cours peut être modifié/remplacé à la volée à l'aide de l'élément de menu Détails de la session en cours. Pour activer/désactiver l'élément de menu Détails de la session en cours, visitez Préférences → Apparence → Menu suplémentaire.";
+"help_quick_prefs_body" = "Chaque élément de menu dans les préférences rapides est lié à son élément correspondant dans les préférences d'Amphetamine.\n\nIl est important de noter que l'état d'un élément dans les préférences rapides peut ne pas refléter le comportement de la session en cours. Cela est particulièrement vrai pour les sessions avec déclencheurs.\n\nLe comportement de la session en cours peut être modifié/remplacé à la volée à l'aide de l'élément de menu Détails de la session en cours. Pour activer/désactiver l'élément de menu Détails de la session en cours, visitez Préférences → Apparence → Menu suplémentaire.";
 
-
+"help_quick_prefs_body_13" = "Chaque élément de menu dans les réglages rapides est lié à son élément correspondant dans les réglages d'Amphetamine.\n\nIl est important de noter que l'état d'un élément dans les réglages rapides peut ne pas refléter le comportement de la session en cours. Cela est particulièrement vrai pour les sessions avec déclencheurs.\n\nLe comportement de la session en cours peut être modifié/remplacé à la volée à l'aide de l'élément de menu Détails de la session en cours. Pour activer/désactiver l'élément de menu Détails de la session en cours, visitez Réglages → Apparence → Menu suplémentaire.";
 
 // ---------------------------------------------------------------------------
 // ----- OTHER HELP MESSAGES
@@ -1428,7 +1350,7 @@
 "help_screen_saver_exceptions_title" = "Exceptions de l'économiseur d'écran";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_screen_saver_exceptions_body" = "Si l'une des applications ou des processus de cette liste est en cours d'exécution, cela empêchera Amphétamine d'activer l'économiseur d'écran de votre Mac.\n\nCliquez sur le bouton + pour ajouter une application ou un processus à la liste. Sélectionnez une application et cliquez sur le bouton - pour la supprimer.\n\nSi vous ne voyez pas l'application ou le processus que vous recherchez, soit il n'est pas en cours d'exécution, soit la technologie App Sandbox de macOS empêche Amphétamine de voir l'application/le processus .";
+"help_screen_saver_exceptions_body" = "Si l'une des applications ou des processus de cette liste est en cours d'exécution, cela empêchera Amphetamine d'activer l'économiseur d'écran de votre Mac.\n\nCliquez sur le bouton + pour ajouter une application ou un processus à la liste. Sélectionnez une application et cliquez sur le bouton - pour la supprimer.\n\nSi vous ne voyez pas l'application ou le processus que vous recherchez, soit il n'est pas en cours d'exécution, soit la technologie App Sandbox de macOS empêche Amphetamine de voir l'application/le processus .";
 
 
 // ----- Apps & Processes Picker Help Message
@@ -1437,16 +1359,18 @@
 "help_app_picker_title" = "Applications et processus";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_app_picker_body" = "Pour voir une application ou un processus dans cette liste, il doit être en cours d'exécution. Utilisez la case à cocher « Ne pas afficher les applications et processus d'assistance » pour filtrer la liste afin d'inclure ou d'exclure les applications/processus d'assistance. Les applications et les processus d'assistance peuvent ne pas avoir d'interface utilisateur et s'exécuter souvent de manière silencieuse en arrière-plan.\n\nSi vous ne voyez pas une application/un processus dans la liste, soit il n'est pas en cours d'exécution, soit Amphétamine ne peut pas observer l'application/le processus par la technologie App Sandbox de macOS. Pour contourner la limitation d'App Sandbox, vous devez installer Amphetamine Enhancer.\n\nSi vous avez installé Amphetamine Enhancer et que vous ne voyez toujours pas l'application/le processus souhaité (et que vous êtes sûr qu'il est en cours d'exécution), attendez jusqu'à 10 secondes, puis actualisez la liste des applications/processus en cliquant sur le bouton ↻ à droite du champ de recherche.";
+"help_app_picker_body" = "Pour voir une application ou un processus dans cette liste, il doit être en cours d'exécution. Utilisez la case à cocher « Ne pas afficher les applications et processus d'assistance » pour filtrer la liste afin d'inclure ou d'exclure les applications/processus d'assistance. Les applications et les processus d'assistance peuvent ne pas avoir d'interface utilisateur et s'exécuter souvent de manière silencieuse en arrière-plan.\n\nSi vous ne voyez pas une application/un processus dans la liste, soit il n'est pas en cours d'exécution, soit Amphetamine ne peut pas observer l'application/le processus par la technologie App Sandbox de macOS. Pour contourner la limitation d'App Sandbox, vous devez installer Amphetamine Enhancer.\n\nSi vous avez installé Amphetamine Enhancer et que vous ne voyez toujours pas l'application/le processus souhaité (et que vous êtes sûr qu'il est en cours d'exécution), attendez jusqu'à 10 secondes, puis actualisez la liste des applications/processus en cliquant sur le bouton ↻ à droite du champ de recherche.";
 
 
 // ----- CLOSED DISPLAY MODE WARNING
 
 // Title
-"cdm_warning_title" = "À propos des sessions en mode écran fermé";
+"cdm_warning_title" = "À propos des sessions en Mode Écran Fermé";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"cdm_warning_body" = "• État de l'alimentation\nLes sessions en mode d'écran fermé peuvent échouer si votre Mac est reconnecté à une source d'alimentation/un adaptateur externe pendant la session. Ce problème n'affecte pas tous les Mac et Amphétamine est incapable de détecter si la session a réellement échoué.\n\n• Surchauffe et décharge de la batterie\nVotre Mac peut facilement surchauffer à l'intérieur d'un sac/étui ou sa batterie peut se décharger complètement si vous oubliez qu'une session en mode affichage fermé est active. Veuillez envisager d'activer les avertissements du mode d'affichage fermé dans Préférences → Notifications.\n\n• Sécurité intégrée de l'amplificateur d'amphétamine\nSi Amphétamine se bloque pendant une session en mode d'affichage fermé, votre Mac peut être incapable de revenir à un comportement de veille normal tant que vous n'avez pas relancé Amphétamine. ou vous redémarrez votre Mac. Il est fortement recommandé d'installer Amphetamine Enhancer en tant que sécurité intégrée.";
+"cdm_warning_body" = "• État de l'alimentation\nLes sessions en mode d'écran fermé peuvent échouer si votre Mac est reconnecté à une source d'alimentation/un adaptateur externe pendant la session. Ce problème n'affecte pas tous les Mac et Amphetamine est incapable de détecter si la session a réellement échoué.\n\n• Surchauffe et décharge de la batterie\nVotre Mac peut facilement surchauffer à l'intérieur d'un sac/étui ou sa batterie peut se décharger complètement si vous oubliez qu'une session en mode affichage fermé est active. Veuillez envisager d'activer les avertissements du mode d'affichage fermé dans Préférences → Notifications.\n\n• Sécurité intégrée de l'amplificateur d'Amphetamine\nSi Amphetamine se bloque pendant une session en mode d'affichage fermé, votre Mac peut être incapable de revenir à un comportement de veille normal tant que vous n'avez pas relancé Amphetamine. ou vous redémarrez votre Mac. Il est fortement recommandé d'installer Amphetamine Enhancer en tant que sécurité intégrée.";
+
+"cdm_warning_body_13" = "• État de l'alimentation\nLes sessions en mode d'écran fermé peuvent échouer si votre Mac est reconnecté à une source d'alimentation/un adaptateur externe pendant la session. Ce problème n'affecte pas tous les Mac et Amphetamine est incapable de détecter si la session a réellement échoué.\n\n• Surchauffe et décharge de la batterie\nVotre Mac peut facilement surchauffer à l'intérieur d'un sac/étui ou sa batterie peut se décharger complètement si vous oubliez qu'une session en mode affichage fermé est active. Veuillez envisager d'activer les avertissements du mode d'affichage fermé dans Réglages → Notifications.\n\n• Sécurité intégrée de l'amplificateur d'Amphetamine\nSi Amphetamine se bloque pendant une session en mode d'affichage fermé, votre Mac peut être incapable de revenir à un comportement de veille normal tant que vous n'avez pas relancé Amphetamine. ou vous redémarrez votre Mac. Il est fortement recommandé d'installer Amphetamine Enhancer en tant que sécurité intégrée.";
 
 // ----- FAILED CLOSED DISPLAY MODE SESSION WARNING
 
@@ -1454,7 +1378,7 @@
 "cdm_fail_warning_title" = "Échec possible de la session en mode d'écran fermé";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"cdm_fail_warning_body" = "Une session en mode d'écran fermé peut échouer en raison de la connexion d'une source d'alimentation externe/d'un adaptateur.\n\nÀ cause des restrictions de macOS, Amphetamine ne peut cependant pas détecter si la session a réellement échoué. Si vous êtes sûr que votre Mac n'est pas affecté par ce problème, vous pouvez désactiver cette fonctionnalité ci-dessous.\n\nAmphétamine a automatiquement mis fin à la session en mode d'écran fermé en cours. Si vous désactivez cette fonctionnalité, les futures sessions en mode d'écran fermé ne seront pas terminées automatiquement.";
+"cdm_fail_warning_body" = "Une session en mode d'écran fermé peut échouer en raison de la connexion d'une source d'alimentation externe/d'un adaptateur.\n\nÀ cause des restrictions de macOS, Amphetamine ne peut cependant pas détecter si la session a réellement échoué. Si vous êtes sûr que votre Mac n'est pas affecté par ce problème, vous pouvez désactiver cette fonctionnalité ci-dessous.\n\nAmphetamine a automatiquement mis fin à la session en mode d'écran fermé en cours. Si vous désactivez cette fonctionnalité, les futures sessions en mode d'écran fermé ne seront pas terminées automatiquement.";
 
 // ----- FAILED CLOSED DISPLAY MODE SESSION WARNING SUPPRESSION
 "cdm_fail_warning_suppression" =  "Désactiver l'arrêt automatique de session en mode d'écran fermé";
@@ -1492,22 +1416,26 @@
 */
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"sess_is_trigger_body" = "Vous avez modifié une option qui s'applique uniquement aux sessions sans déclencheur.\n\nChaque déclencheur a sa propre préférence %@ qui peut être modifiée. Pour modifier un déclencheur, allez dans Préférences → Déclencheurs et double-cliquez sur le déclencheur que vous souhaitez modifier.\n\nSi vous souhaitez temporairement %@ %@ pendant la durée de cette session de déclencheur, cliquez sur l'image d'amphétamine dans la barre de menu et %@ la case %@ dans la section Détails de la session en cours du menu.\n\nSi vous ne voyez pas la section Détails de la session en cours dans le menu d'Amphetamine, allez dans Préférences → Apparence → Extras du menu et cochez Afficher les détails de la session dans le menu.";
+"sess_is_trigger_body" = "Vous avez modifié une option qui s'applique uniquement aux sessions sans déclencheur.\n\nChaque déclencheur a sa propre préférence %@ qui peut être modifiée. Pour modifier un déclencheur, allez dans Préférences → Déclencheurs et double-cliquez sur le déclencheur que vous souhaitez modifier.\n\nSi vous souhaitez temporairement %@ %@ pendant la durée de cette session de déclencheur, cliquez sur l'image d'Amphetamine dans la barre de menu et %@ la case %@ dans la section Détails de la session en cours du menu.\n\nSi vous ne voyez pas la section Détails de la session en cours dans le menu d'Amphetamine, allez dans Préférences → Apparence → Extras du menu et cochez Afficher les détails de la session dans le menu.";
+
+"sess_is_trigger_body_13" = "Vous avez modifié une option qui s'applique uniquement aux sessions sans déclencheur.\n\nChaque déclencheur a sa propre préférence %@ qui peut être modifiée. Pour modifier un déclencheur, allez dans Réglages → Déclencheurs et double-cliquez sur le déclencheur que vous souhaitez modifier.\n\nSi vous souhaitez temporairement %@ %@ pendant la durée de cette session de déclencheur, cliquez sur l'image d'Amphetamine dans la barre de menu et %@ la case %@ dans la section Détails de la session en cours du menu.\n\nSi vous ne voyez pas la section Détails de la session en cours dans le menu d'Amphetamine, allez dans Réglages → Apparence → Extras du menu et cochez Afficher les détails de la session dans le menu.";
 
 // ----- LOCK SCREEN MESSAGE
 
-"lck_scrn_request_title" = "Pour verrouiller l'écran, Amphétamine a besoin d'accéder aux fonctionnalités d'accessibilité.";
+"lck_scrn_request_title" = "Pour verrouiller l'écran, Amphetamine a besoin d'accéder aux fonctionnalités d'accessibilité.";
 
 // ** NOTE: DO NOT REMOVE '\n' **
-"lck_scrn_request_body" = "Vous pouvez autoriser à Amphétamine l'accès aux fonctionnalités d'accessibilité dans Préférences Système → Sécurité et confidentialité → Confidentialité → Accessibilité.\n\nDans Préférences Système, cliquez sur l'icône de verrouillage dans le coin inférieur gauche et entrez le mot de passe de votre Mac lorsque vous y êtes invité. Ensuite, cochez la case à côté d'Amphétamine dans la section Accessibilité de l'onglet Confidentialité de Sécurité et confidentialité.\n\nSi vous ne voyez pas Amphétamine dans la liste Accessibilité, cliquez sur le bouton + et sélectionnez Amphétamine dans le dossier Applications.\n \nUne fois que vous avez autorisé à Amphétamine l'accès aux fonctionnalités d'accessibilité, revenez ici et essayez à nouveau d'activer cette fonctionnalité.";
+"lck_scrn_request_body" = "Vous pouvez autoriser à Amphetamine l'accès aux fonctionnalités d'accessibilité dans Préférences Système → Sécurité et confidentialité → Confidentialité → Accessibilité.\n\nDans Préférences Système, cliquez sur l'icône de verrouillage dans le coin inférieur gauche et entrez le mot de passe de votre Mac lorsque vous y êtes invité. Ensuite, cochez la case à côté d'Amphetamine dans la section Accessibilité de l'onglet Confidentialité de Sécurité et confidentialité.\n\nSi vous ne voyez pas Amphetamine dans la liste Accessibilité, cliquez sur le bouton + et sélectionnez Amphetamine dans le dossier Applications.\n \nUne fois que vous avez autorisé à Amphetamine l'accès aux fonctionnalités d'accessibilité, revenez ici et essayez à nouveau d'activer cette fonctionnalité.";
 
+"lck_scrn_request_body_13" = "Vous pouvez autoriser à Amphetamine l'accès aux fonctionnalités d'accessibilité dans Réglages du Système → Sécurité et confidentialité → Confidentialité → Accessibilité.\n\nDans Réglages du Système, cliquez sur l'icône de verrouillage dans le coin inférieur gauche et entrez le mot de passe de votre Mac lorsque vous y êtes invité. Ensuite, cochez la case à côté d'Amphetamine dans la section Accessibilité de l'onglet Confidentialité de Sécurité et confidentialité.\n\nSi vous ne voyez pas Amphetamine dans la liste Accessibilité, cliquez sur le bouton + et sélectionnez Amphetamine dans le dossier Applications.\n \nUne fois que vous avez autorisé à Amphetamine l'accès aux fonctionnalités d'accessibilité, revenez ici et essayez à nouveau d'activer cette fonctionnalité.";
 
 // ----- CURSOR MOVEMENT MESSAGE
 
-"move_cursor_request_title" = "Pour déplacer le curseur, Amphétamine a besoin d'accéder aux fonctionnalités d'accessibilité.";
+"move_cursor_request_title" = "Pour déplacer le curseur, Amphetamine a besoin d'accéder aux fonctionnalités d'accessibilité.";
 
-"move_cursor_request_body" = "Vous pouvez autoriser à Amphétamine l'accès aux fonctionnalités d'accessibilité dans Préférences Système → Sécurité et confidentialité → Confidentialité → Accessibilité.\n\nDans Préférences Système, cliquez sur l'icône de verrouillage dans le coin inférieur gauche et entrez le mot de passe de votre Mac lorsque vous y êtes invité. Ensuite, cochez la case à côté d'Amphétamine dans la section Accessibilité de l'onglet Confidentialité de Sécurité et confidentialité.\n\nSi vous ne voyez pas Amphétamine dans la liste Accessibilité, cliquez sur le bouton + et sélectionnez Amphétamine dans le dossier Applications.\n \nUne fois que vous avez autorisé à Amphétamine l'accès aux fonctionnalités d'accessibilité, revenez ici et essayez à nouveau d'activer cette fonctionnalité.";
+"move_cursor_request_body" = "Vous pouvez autoriser à Amphetamine l'accès aux fonctionnalités d'accessibilité dans Préférences Système → Sécurité et confidentialité → Confidentialité → Accessibilité.\n\nDans Préférences Système, cliquez sur l'icône de verrouillage dans le coin inférieur gauche et entrez le mot de passe de votre Mac lorsque vous y êtes invité. Ensuite, cochez la case à côté d'Amphetamine dans la section Accessibilité de l'onglet Confidentialité de Sécurité et confidentialité.\n\nSi vous ne voyez pas Amphetamine dans la liste Accessibilité, cliquez sur le bouton + et sélectionnez Amphetamine dans le dossier Applications.\n \nUne fois que vous avez autorisé à Amphetamine l'accès aux fonctionnalités d'accessibilité, revenez ici et essayez à nouveau d'activer cette fonctionnalité.";
 
+"move_cursor_request_body_13" = "Vous pouvez autoriser à Amphetamine l'accès aux fonctionnalités d'accessibilité dans Réglages du Système → Sécurité et confidentialité → Confidentialité → Accessibilité.\n\nDans Réglages du Système, cliquez sur l'icône de verrouillage dans le coin inférieur gauche et entrez le mot de passe de votre Mac lorsque vous y êtes invité. Ensuite, cochez la case à côté d'Amphetamine dans la section Accessibilité de l'onglet Confidentialité de Sécurité et confidentialité.\n\nSi vous ne voyez pas Amphetamine dans la liste Accessibilité, cliquez sur le bouton + et sélectionnez Amphetamine dans le dossier Applications.\n \nUne fois que vous avez autorisé à Amphetamine l'accès aux fonctionnalités d'accessibilité, revenez ici et essayez à nouveau d'activer cette fonctionnalité.";
 
 // ----- WHILE FILE IS DOWNLOADING MESSAGE
 
@@ -1548,7 +1476,8 @@
 "alert_dont_show_type_again" = "Ne plus afficher ce type de message";
 "alert_dont_show_again" = "Ne plus afficher ce message";
 "alert_dont_ask_again" = "Ne plus demander ça";
-"alert_open_sys_prefs" = "Ouvrir les préférences système";
+"alert_open_sys_prefs" = "Ouvrir les Préférences Système";
+"alert_open_sys_prefs_13" = "Ouvrir les Réglages du Système";
 
 // GENERIC ERROR MESSAGE
 "error_generic_went_wrong_title" = "Euh. Quelque chose s'est mal passé.";
@@ -1562,7 +1491,10 @@
 "alert_trig_scn_svr_bttn_enable" = "Activer l'économiseur d'écran";
 
 "alert_trig_scn_svr_title" = "Ce déclencheur n'est pas configuré pour autoriser l'économiseur d'écran.";
+
 "alert_trig_scn_svr_body" = "Bien que ce déclencheur ne soit pas configuré pour autoriser l'économiseur d'écran, vous pouvez l'autoriser pour cette session. Pour configurer ce déclencheur afin qu'il autorise toujours l'économiseur d'écran, accédez à Préférences → Déclencheurs et double-cliquez sur le déclencheur pour le modifier.\n\nSinon, pour autoriser l'économiseur d'écran uniquement pour cette session, choisissez un délai ci-dessous et cliquez sur Activer l'économiseur d'écran .";
+
+"alert_trig_scn_svr_body_13" = "Bien que ce déclencheur ne soit pas configuré pour autoriser l'économiseur d'écran, vous pouvez l'autoriser pour cette session. Pour configurer ce déclencheur afin qu'il autorise toujours l'économiseur d'écran, accédez à Réglages → Déclencheurs et double-cliquez sur le déclencheur pour le modifier.\n\nSinon, pour autoriser l'économiseur d'écran uniquement pour cette session, choisissez un délai ci-dessous et cliquez sur Activer l'économiseur d'écran .";
 
 // ----- DRIVE ALIVE SANDBOX ALERT
 "alert_drivealive_tech_det_title" = "Quelques détails techniques...";
@@ -1571,7 +1503,7 @@
 "alert_drivealive_tech_det_body" = "La technologie App Sandbox de macOS empêche Amphetamine d'écrire dans le répertoire racine du lecteur sur lequel macOS est installé.\n\nAmphetamine peut toujours garder ce lecteur éveillé, mais écrira les données dans le chemin suivant:\n\n%@";
 
 "alert_drivealive_net_vol_title" = "Volume réseau détecté";
-"alert_drivealive_net_vol_body" = "Le lecteur/volume que vous avez sélectionné semble être un volume réseau ou non local. Veuillez noter que si la connexion à ce volume est perdue ou indisponible, amphetamine peut ne plus répondre.";
+"alert_drivealive_net_vol_body" = "Le lecteur/volume que vous avez sélectionné semble être un volume réseau ou non local. Veuillez noter que si la connexion à ce volume est perdue ou indisponible, Amphetamine peut ne plus répondre.";
 
 // ----- APP PICK ERROR
 "alert_app_select_title" = "Quelque chose s'est mal passé.";
@@ -1579,11 +1511,13 @@
 
 // ----- APPLESCRIPT ERROR
 "alert_applescript_fail_title" = "Une erreur s'est produite.";
-"alert_applescript_fail_title" = "Amphétamine n'a pas pu comprendre le message reçu d'AppleScript";
+"alert_applescript_fail_title" = "Amphetamine n'a pas pu comprendre le message reçu d'AppleScript";
 
 // ----- LOCK SCREEN FAILURE
-"alert_lck_scrn_fail_title" = "Amphétamine n'a pas pu verrouiller l'écran.";
+"alert_lck_scrn_fail_title" = "Amphetamine n'a pas pu verrouiller l'écran.";
 "alert_lck_scrn_fail_body" = "Visitez Préférences → Contrôle du système pour réactiver cette fonctionnalité.";
+"alert_lck_scrn_fail_body_13" = "Visitez Réglages → Contrôle du système pour réactiver cette fonctionnalité.";
+
 
 // ----- DEFAULT DURATION
 "alert_dd_less_one_min_title" = "La durée par défaut ne peut pas être inférieure à une minute.";
@@ -1598,8 +1532,11 @@
 "cust_img_save_err_body" = "Une erreur inconnue est survenue. Les images par défaut seront utilisées..";
 
 // ----- RESET PREFERENCES CONFIRMATION
-"prefs_reset_conf_title" = "Voulez-vous vraiment réinitialiser les préférences d'amphétamine ?";
+"prefs_reset_conf_title" = "Voulez-vous vraiment réinitialiser les préférences d'Amphetamine ?";
 "prefs_reset_conf_body" = "Toutes les préférences seront réinitialisées à leurs valeurs par défaut et vous perdrez toutes les configurations de déclancheurs, Drive Alive.";
+
+"prefs_reset_conf_title_13" = "Voulez-vous vraiment réinitialiser les réglages d'Amphetamine ?";
+"prefs_reset_conf_body_13" = "Toutes les réglages seront réinitialisées à leurs valeurs par défaut et vous perdrez toutes les configurations de déclancheurs, Drive Alive.";
 
 // ----- RESET WARNINGS & DIALOGS CONFIRMATION
 "warn_diag_reset_conf_title" = "Les avertissements et les boîtes de dialogue on été réinitialisées avec succès.";
@@ -1611,27 +1548,32 @@
 
 // ----- DNS SERVER CRITERIA MESSAGE
 "dns_no_new_serv_title" = "Aucun nouveau serveur DNS trouvé.";
+
 "dns_no_new_serv_body" = "Les serveurs DNS actuellement répertoriés sont les seuls signalés comme étant utilisés par macOS. Si vous avez récemment mis à jour vos serveurs DNS dans les Préférences Système ou modifié la configuration du réseau, veuillez patienter quelques minutes et réessayer.";
+
+"dns_no_new_serv_body_13" = "Les serveurs DNS actuellement répertoriés sont les seuls signalés comme étant utilisés par macOS. Si vous avez récemment mis à jour vos serveurs DNS dans les Réglages du Système ou modifié la configuration du réseau, veuillez patienter quelques minutes et réessayer.";
 
 // ----- DRIVE ALIVE WRITE ERROR
 "drive_alive_write_err_title" = "Une erreur s'est produite.";
-"drive_alive_write_err_body" = "Amphétamine n'a pas la permission d'écrire des données à cet endroit. Cela est probablement dû à la technologie App Sandbox de macOS ou au formatage du volume.\n\nVous pouvez essayer la solution de contournement suivante, mais cela peut ne pas fonctionner :\n\nCréez un nouveau dossier à la racine du volume/lecteur (le mot de passe et l'utilisateur admin peut vous être demandé). Ensuite, sélectionnez ce dossier à utiliser avec Drive Alive.";
+"drive_alive_write_err_body" = "Amphetamine n'a pas la permission d'écrire des données à cet endroit. Cela est probablement dû à la technologie App Sandbox de macOS ou au formatage du volume.\n\nVous pouvez essayer la solution de contournement suivante, mais cela peut ne pas fonctionner :\n\nCréez un nouveau dossier à la racine du volume/lecteur (le mot de passe et l'utilisateur admin peut vous être demandé). Ensuite, sélectionnez ce dossier à utiliser avec Drive Alive.";
 
 // ----- DRIVE ALIVE NETWORK VOLUME PROMPT
 "alert_net_volume_title" = "Volume réseau/Lecteur";
 
 // PLACEHOLDER IS NAME OF DRIVE
-"alert_net_volume_body" = "Le volume/lecteur nommé '%@' est-il un volume connecté au réseau ? Répondre correctement à cette question aidera Amphétamine à fonctionner plus efficacement.";
+"alert_net_volume_body" = "Le volume/lecteur nommé '%@' est-il un volume connecté au réseau ? Répondre correctement à cette question aidera Amphetamine à fonctionner plus efficacement.";
 
 // ----- BETA EXPIRATION
 "alert_beta_expired_title" = "Cette version bêta a expiré.";
-"alert_beta_expired_body" = "Pour obtenir une nouvelle version bêta d'Amphetamine, veuillez visiter github.com/x74353/AmphetamineBeta. Amphétamine va maintenant se fermer.";
+"alert_beta_expired_body" = "Pour obtenir une nouvelle version bêta d'Amphetamine, veuillez visiter github.com/x74353/AmphetamineBeta. Amphetamine va maintenant se fermer.";
 
 // ----- DISABLE TRIGGERS MESSAGE
 "alert_disable_trig_title" = "Une session avec déclancheur est en cours d'exécution.";
 
 // PLACEHOLDER IS NAME OF TRIGGER
-"alert_disable_trig_body" = "Pour terminer cette session, vous devez désactiver le déclencheur suivant : \n\n%@\n\nVous pouvez désactiver tous les déclencheurs à l'aide du bouton ci-dessous, ou visiter les préférences d'Amphetamine pour désactiver ce déclencheur spécifique. Vous pouvez toujours réactiver tous les déclencheurs dans les préférences d'amphétamine plus tard.";
+"alert_disable_trig_body" = "Pour terminer cette session, vous devez désactiver le déclencheur suivant : \n\n%@\n\nVous pouvez désactiver tous les déclencheurs à l'aide du bouton ci-dessous, ou visiter les préférences d'Amphetamine pour désactiver ce déclencheur spécifique. Vous pouvez toujours réactiver tous les déclencheurs dans les préférences d'Amphetamine plus tard.";
+
+"alert_disable_trig_body_13" = "Pour terminer cette session, vous devez désactiver le déclencheur suivant : \n\n%@\n\nVous pouvez désactiver tous les déclencheurs à l'aide du bouton ci-dessous, ou visiter les réglages d'Amphetamine pour désactiver ce déclencheur spécifique. Vous pouvez toujours réactiver tous les déclencheurs dans les réglages d'Amphetamine plus tard.";
 
 "alert_disable_trig_bttn_disable" = "Désactiver tous les déclencheurs";
 "alert_disable_trig_bttn_suppress" = "Désactivez tous les déclencheurs automatiquement la prochaine fois";
@@ -1668,9 +1610,14 @@
 "amph3_prefs_cnvrt_message" = "En raison de toutes les nouveautés géniales d'Amphetamine 5, vos préférences d'Amphetamine 3 doivent être migrées ou réinitialisées. Si vous choisissez Migrer, Amphetamine tentera de migrer toutes vos préférences précédentes (y compris les déclencheurs, les paramètres Drive Alive, les icônes, les durées, les raccourcis clavier, etc.) vers le nouveau format Amphetamine 5.\n\nIl y a un certain risque avec cette opération. Utilisez la avec prudence. Si vous ne pouvez absolument pas perdre vos préférences Amphetamine 3, veuillez choisir Sauvegarder avant d'essayer de migrer.\n\nSi vous préférez recommencer à zéro (c'est bien pour vous !), choisissez Réinitialiser. Si vous voyez ce message de manière inattendue, cliquez simplement sur Réinitialiser.";
 
 "amph3_prefs_cnvrt_backedup" = "Les préférences d'Amphetamine ont été sauvegardées.";
+
 "amph3_prefs_cnvrt_ask" = "Il vous sera maintenant demandé de migrer ou de réinitialiser les préférences.";
 
+"amph3_prefs_cnvrt_message_13" = "En raison de toutes les nouveautés géniales d'Amphetamine 5, vos réglages d'Amphetamine 3 doivent être migrées ou réinitialisées. Si vous choisissez Migrer, Amphetamine tentera de migrer toutes vos réglages précédentes (y compris les déclencheurs, les paramètres Drive Alive, les icônes, les durées, les raccourcis clavier, etc.) vers le nouveau format Amphetamine 5.\n\nIl y a un certain risque avec cette opération. Utilisez la avec prudence. Si vous ne pouvez absolument pas perdre vos réglages Amphetamine 3, veuillez choisir Sauvegarder avant d'essayer de migrer.\n\nSi vous préférez recommencer à zéro (c'est bien pour vous !), choisissez Réinitialiser. Si vous voyez ce message de manière inattendue, cliquez simplement sur Réinitialiser.";
+    
+"amph3_prefs_cnvrt_backedup_13" = "Les réglages d'Amphetamine ont été sauvegardées.";
 
+"amph3_prefs_cnvrt_ask_13" = "Il vous sera maintenant demandé de migrer ou de réinitialiser les réglages.";
 
 
 
@@ -1679,7 +1626,7 @@
 // ---------------------------------------------------------------------------
 
 "notif_session_not_active" = "Session non active";
-"notif_amph_keep_awake" = "Amphétamine maintient votre Mac éveillé";
+"notif_amph_keep_awake" = "Amphetamine maintient votre Mac éveillé";
 "notif_amph_trig_start" = "La session avec déclencheur a commencé";
 "notif_amph_trig_end" = "La session avec déclencheur est terminée";
 "notif_sleep_normal" = "Votre Mac se mettra en veille selon son horaire normal";

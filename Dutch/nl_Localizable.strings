@@ -4,9 +4,38 @@
  Amphetamine
 
  Created by William Gustafson on 2/21/20.
- Copyright © 2020 William C. Gustafson. All rights reserved.
+ Copyright © 2023 William C. Gustafson. All rights reserved.
 
 */
+
+// BEGIN NEW STRINGS ADDED FOR v5.2.3
+// NOTE: "Closed-Display Mode" is translated as "Modus met dichtgeklapt scherm"
+
+"cdm_install_script_alert_title" = "Action Required For Closed-Display Mode on Apple Silicon";
+
+"cdm_install_script_alert_body" = "Due to hardware changes introduced with Apple Silicon, Closed-Display Mode has new requirements.\n\nTo be able to connect or disconnect your Mac's power adapter without interrupting the Closed-Display Mode session, Amphetamine needs to install and run a script whenever a Closed-Display Mode session begins or ends. The script must be installed in Amphetamine's Application Scripts folder.\n\nEach time the script runs, authentication will be required. The authentication prompt will say \"osascript wants to make changes.\" After you authenticate, the script will run. If you do not want to authenticate each Closed-Display Mode session, click the Skip button below.\n\nIf you skip installing the Closed-Display Mode script, you won't be asked about this again, and you may experience closed-display mode session interruptions when connecting or disconnecting your Mac's power adapter. If you select Skip but later want to install the script, go to Amphetamine Settings → General, click Reset Warnings and Dialogs, and start a Closed-Display Mode session.";
+
+"cdm_install_script_button" = "Install Script";
+
+"cdm_skip_script_button" = "Skip";
+
+"cdm_remind_me_script_button" = "Remind Me Later";
+
+"cdm_anomaly_alert_title" = "Amphetamine detected an anomaly with your Mac's sleep settings.";
+
+"cdm_anomaly_alert_body" = "An Amphetamine session is not currently active, but your Mac appears to be configured to prevent sleep when in Closed-Display Mode. This can lead to unexpected battery drain and/or overheating.\n\nTo correct this issue, Amphetamine needs to run, and if necessary, install a script. You will be prompted to install the script, if needed, and then prompted to authenticate running the script.\n\nThis issue may have occurred due to a Amphetamine crashing during a Closed-Display Mode session, or by someone manually disabling sleep on your Mac.";
+
+"cdm_anomaly_alert_ignore_button" = "Ignore";
+
+"cdm_anomaly_alert_fix_button" = "Fix Issue";
+
+"cdm_script_fail_alert_title" = "Closed-Display Mode Script Failure";
+
+"cdm_script_fail_alert_body_disable" = "Amphetamine attempted to run a script to disable Closed-Display Mode, but the script either wasn't authenticated successfully or it was cancelled.\n\nYour Mac may still be preventing sleep when the display is closed. This can lead to unexpected battery drain or overheating.\n\nWhen Amphetamine prompts you to fix this issue, it is highly recommended you choose \"Fix Issue.\" You'll be prompted to authenticate allowing \"osascript\" to make changes.";
+
+"cdm_script_fail_alert_body_enable" = "Amphetamine attempted to run a script to enable Closed-Display Mode, but the script either wasn't authenticated successfully or it was cancelled.\n\nYour Mac may still be allowing sleep when the display is closed.\n\nTo fix this issue, end the current session and start a new one. When prompted to allow \"osascript\" to make changes, follow the on-screen directions to successfully authenticate.";
+
+// END NEW STRINGS ADDED FOR v5.2.3
 
 // ---------------------------------------------------------------------------
 // GENERAL USE STRINGS
@@ -259,6 +288,7 @@
 // ---------------------------------------------------------------------------
 
 "pref_window_title" = "Voorkeuren"; // 5.0.2
+"pref_window_title_13" = "Instellingen";
 "pref_global_lbl_uses_default_duration" = "↳ Gebruikt standaardduur";
 "pref_global_bttn_screen_saver_exceptions" = "Uitzonderingen…";
 "scrn_svr_excpt_VNC" = "Schermdeling/VNC/Remote Desktop-verbindingen"; // 5.1.2
@@ -282,6 +312,7 @@
 "pref_gen_bttn_reduce_motion" = "Verminder beweging";
 "pref_gen_bttn_reset_warnings" = "Stel waarschuwingen opnieuw in";
 "pref_gen_bttn_reset_all_prefs" = "Stel alle voorkeuren opnieuw in";
+"pref_gen_bttn_reset_all_prefs_13" = "Stel alle instellingen opnieuw in";
 
 // PREFERENCES → GENERAL LABELS
 "pref_gen_lbl_quick_start" = "Start een snelle sessie:";
@@ -321,8 +352,12 @@
 // Body (macOS 10.14+) ** NOTE: DO NOT REMOVE '\n' **
 "help_message_other_body_post_highsierra" = "• Verberg Amphetamine in het Dock\nVink dit aan om het logo van Amphetamine te verbergen in het Dock. In macOS 10.15 en later verschijnt het logo vanzelf als er een venster van Amphetamine openstaat (zoals het Voorkeurenvenster), ook al heb je de verbergoptie ingesteld. Als je alle vensters van Amphetamine sluit, verdwijnt het logo weer.\n\nIn macOS 10.14 en eerder kan het zijn dat je de macOS-functie ‘Toon recente apps in het Dock’ moet uitschakelen (te vinden bij  → Systeemvoorkeuren → Dock) om het logo van Amphetamine volledig van het Dock weg te halen.\n\n• Verminder beweging\nVink dit aan om bewegende animaties van Amphetamine te verminderen.\n\nKlik op ‘Stel waarschuwingen opnieuw in’ om ervoor te zorgen dat alle waarschuwings- en informatievensters waarbij je ‘Niet meer tonen’ aanduidde opnieuw weergegeven worden.\n\nKlik op ‘Stel alle voorkeuren opnieuw in’ om Amphetamine terug naar de standaardmodus te zetten (alle voorkeuren en Triggers gaan hierbij verloren).";
 
+"help_message_other_body_post_highsierra_13" = "• Verberg Amphetamine in het Dock\nVink dit aan om het logo van Amphetamine te verbergen in het Dock. In macOS 10.15 en later verschijnt het logo vanzelf als er een venster van Amphetamine openstaat (zoals het Voorkeurenvenster), ook al heb je de verbergoptie ingesteld. Als je alle vensters van Amphetamine sluit, verdwijnt het logo weer.\n\nIn macOS 10.14 en eerder kan het zijn dat je de macOS-functie ‘Toon recente apps in het Dock’ moet uitschakelen (te vinden bij  → Systeeminstellingen → Dock) om het logo van Amphetamine volledig van het Dock weg te halen.\n\n• Verminder beweging\nVink dit aan om bewegende animaties van Amphetamine te verminderen.\n\nKlik op ‘Stel waarschuwingen opnieuw in’ om ervoor te zorgen dat alle waarschuwings- en informatievensters waarbij je ‘Niet meer tonen’ aanduidde opnieuw weergegeven worden.\n\nKlik op ‘Stel alle instellingen opnieuw in’ om Amphetamine terug naar de standaardmodus te zetten (alle instellingen en Triggers gaan hierbij verloren).";
+
 // Body (macOS 10.11 - 10.13) ** NOTE: DO NOT REMOVE '\n' **
 "help_message_other_body_pre_mojave" = "• Verberg Amphetamine in het Dock\nVink dit aan om het logo van Amphetamine te verbergen in het Dock.\n\n• Gebruik kleur om de status weer te geven in Snelle Voorkeuren\nVink dit aan om een gekleurde cirkel in te stellen die de status van elke optie weergeeft in Snelle Voorkeuren (groen = aan; rood = uit). Als je dit niet aanvinkt, wordt een icoontje zonder kleur gebruikt (vinkje = aan; X = uit).\n\n• Verminder beweging\nVink dit aan om bewegende animaties van Amphetamine te verminderen.\n\nKlik op ‘Stel waarschuwingen opnieuw in’ om ervoor te zorgen dat alle waarschuwings- en informatievensters waarbij je ‘Niet meer tonen’ aanduidde opnieuw weergegeven worden.\n\nKlik op ‘Stel alle voorkeuren opnieuw in’ om Amphetamine terug naar de standaardmodus te zetten (alle voorkeuren en Triggers gaan hierbij verloren).";
+
+"help_message_other_body_pre_mojave_13" = "• Verberg Amphetamine in het Dock\nVink dit aan om het logo van Amphetamine te verbergen in het Dock.\n\n• Gebruik kleur om de status weer te geven in Snelle Instellingen\nVink dit aan om een gekleurde cirkel in te stellen die de status van elke optie weergeeft in Snelle Instellingen (groen = aan; rood = uit). Als je dit niet aanvinkt, wordt een icoontje zonder kleur gebruikt (vinkje = aan; X = uit).\n\n• Verminder beweging\nVink dit aan om bewegende animaties van Amphetamine te verminderen.\n\nKlik op ‘Stel waarschuwingen opnieuw in’ om ervoor te zorgen dat alle waarschuwings- en informatievensters waarbij je ‘Niet meer tonen’ aanduidde opnieuw weergegeven worden.\n\nKlik op ‘Stel alle instellingen opnieuw in’ om Amphetamine terug naar de standaardmodus te zetten (alle instellingen en Triggers gaan hierbij verloren).";
 
 
 
@@ -420,6 +455,8 @@
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_message_display_sleep_body" = "Vink dit aan als je je scherm wil laten sluimeren tijdens een sessie. Je scherm zal dan dimmen na jouw gekozen tijd (in te stellen via  → Systeemvoorkeuren → Batterij (indien je Mac draagbaar is) of Energiestand (indien je een niet-draagbare Mac hebt)).\n\nOpgelet: deze optie betreft enkel sessies zonder Trigger. Als je dit ook wil inschakelen bij sessies mét Trigger, kan je elke individuele Trigger zo configureren.";
 
+"help_message_display_sleep_body_13" = "Vink dit aan als je je scherm wil laten sluimeren tijdens een sessie. Je scherm zal dan dimmen na jouw gekozen tijd (in te stellen via  → Systeeminstellingen → Batterij (indien je Mac draagbaar is) of Energiestand (indien je een niet-draagbare Mac hebt)).\n\nOpgelet: deze optie betreft enkel sessies zonder Trigger. Als je dit ook wil inschakelen bij sessies mét Trigger, kan je elke individuele Trigger zo configureren.";
+
 // ----- PREFERENCES → SESSION DEFAULTS → Closed-Display Mode Help Message
 
 // Title
@@ -427,6 +464,8 @@
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_message_closed_display_body" = "Laat deze optie uitstaan als je wil dat Amphetamine je Mac wakker houdt terwijl je scherm is dichtgeklapt.\n\nNormaal gezien moeten een extern scherm, toetsenbord, muis en oplader allemaal verbonden zijn met je Mac om deze modus te activeren. Amphetamine kan deze voorwaarden tijdelijk omzeilen en kan dus je Mac wakker houden, ook al is je scherm dichtgeklapt.\n\nDit vinkje wordt gedeactiveerd als je Mac deze functie niet ondersteunt.\n\nDeze optie betreft enkel sessies zonder Trigger. Als je dit ook wil inschakelen bij sessies mét Trigger, kan je elke individuele Trigger zo configureren via ‘Voorkeuren → Trigger’.\n\nAls je deze functie gebruikt, stel je best ‘Waarschuwingen voor modus met dichtgeklapt scherm’ in via ‘Voorkeuren → Meldingen → Modus met dichtgeklapt scherm’.";
+
+"help_message_closed_display_body_13" = "Laat deze optie uitstaan als je wil dat Amphetamine je Mac wakker houdt terwijl je scherm is dichtgeklapt.\n\nNormaal gezien moeten een extern scherm, toetsenbord, muis en oplader allemaal verbonden zijn met je Mac om deze modus te activeren. Amphetamine kan deze voorwaarden tijdelijk omzeilen en kan dus je Mac wakker houden, ook al is je scherm dichtgeklapt.\n\nDit vinkje wordt gedeactiveerd als je Mac deze functie niet ondersteunt.\n\nDeze optie betreft enkel sessies zonder Trigger. Als je dit ook wil inschakelen bij sessies mét Trigger, kan je elke individuele Trigger zo configureren via ‘Instellingen → Trigger’.\n\nAls je deze functie gebruikt, stel je best ‘Waarschuwingen voor modus met dichtgeklapt scherm’ in via ‘Instellingen → Meldingen → Modus met dichtgeklapt scherm’.";
 
 // ----- PREFERENCES → SESSION DEFAULTS → Screen Saver Help Message
 
@@ -443,6 +482,8 @@
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_message_battery_body" = "• Stop sessie als je batterijniveau lager is dan…\nVink dit aan als je wil dat sessies zonder Trigger automatisch stoppen zodra de batterij van je Mac onder een bepaalde drempelwaarde valt die je kan instellen met de schuifbalk. Schuif helemaal naar rechts om sessies meteen te beëindigen als de oplader niet is aangesloten.\n\n• Melding voor het stoppen van een sessie\nVink dit aan als je een melding wil krijgen voordat Amphetamine automatisch een sessies beëindigt door een te laag batterijniveau. Je kan dan kiezen om de sessie verder te zetten als je dat wil, ondanks je lager batterijniveau.\n\n• Negeer batterijniveau als oplader is aangesloten\nVink dit aan als je niet wil dat sessies automatisch gestopt worden bij een laag batterijniveau terwijl je oplader is aangesloten.\n\nNpgelet: deze optie betreft enkel sessies zonder Trigger. Als je dit ook wil inschakelen bij sessies mét Trigger, kan je elke individuele Trigger zo configureren (met een ‘batterijcriterium’).";
+
+"help_message_battery_body_13" = "• Stop sessie als je batterijniveau lager is dan…\nVink dit aan als je wil dat sessies zonder Trigger automatisch stoppen zodra de batterij van je Mac onder een bepaalde drempelwaarde valt die je kan instellen met de schuifbalk. Schuif helemaal naar rechts om sessies meteen te beëindigen als de oplader niet is aangesloten.\n\n• Melding voor het stoppen van een sessie\nVink dit aan als je een melding wil krijgen voordat Amphetamine automatisch een sessies beëindigt door een te laag batterijniveau. Je kan dan kiezen om de sessie verder te zetten als je dat wil, ondanks je lager batterijniveau.\n\n• Negeer batterijniveau als oplader is aangesloten\nVink dit aan als je niet wil dat sessies automatisch gestopt worden bij een laag batterijniveau terwijl je oplader is aangesloten.\n\nNpgelet: deze optie betreft enkel sessies zonder Trigger. Als je dit ook wil inschakelen bij sessies mét Trigger, kan je elke individuele Trigger zo configureren (met een ‘batterijcriterium’).";
 
 // ----- PREFERENCES → SESSION DEFAULTS → Power Adapter Help Message
 
@@ -493,6 +534,8 @@
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_message_lock_screen_body" = "• Scherm vergendelen na… inactiviteit\nVink dit aan als Amphetamine je scherm moet vergrendelen na een bepaalde periode van inactiviteit. Dit gebeurt enkel terwijl er een sessie actief is. Om in te stellen wanneer je scherm vergrendeld wordt terwijl er geen sessie actief is, ga je naar  → Systeemvoorkeuren → Beveiliging & Privacy → Algemeen.\n\n• Gebruik muisbewegingen om inactiviteit te bepalen\nVink dit aan als het gebrek aan muisbewegingen ook een voorwaarde moet zijn om je scherm te vergrendelen, naast de systeemklok. Dit is handig voor als je je Mac vanop afstand benadert via VNC/ARD/RDP.\n\n• Vergendel scherm meteen nadat het scherm is dichtgeklapt\nVink dit aan als Amphetamine je scherm meteen moet vergrendelen nadat je het scherm dichtklapt. Dit werkt alleen tijdens een actieve sessie en als je de modus met dichtgeklapt scherm ingeschakeld hebt voor die sessie. Als je Mac deze functie niet ondersteunt, wordt deze optie gedeactiveerd.";
+
+"help_message_lock_screen_body_13" = "• Scherm vergendelen na… inactiviteit\nVink dit aan als Amphetamine je scherm moet vergrendelen na een bepaalde periode van inactiviteit. Dit gebeurt enkel terwijl er een sessie actief is. Om in te stellen wanneer je scherm vergrendeld wordt terwijl er geen sessie actief is, ga je naar  → Systeeminstellingen → Beveiliging & Privacy → Algemeen.\n\n• Gebruik muisbewegingen om inactiviteit te bepalen\nVink dit aan als het gebrek aan muisbewegingen ook een voorwaarde moet zijn om je scherm te vergrendelen, naast de systeemklok. Dit is handig voor als je je Mac vanop afstand benadert via VNC/ARD/RDP.\n\n• Vergendel scherm meteen nadat het scherm is dichtgeklapt\nVink dit aan als Amphetamine je scherm meteen moet vergrendelen nadat je het scherm dichtklapt. Dit werkt alleen tijdens een actieve sessie en als je de modus met dichtgeklapt scherm ingeschakeld hebt voor die sessie. Als je Mac deze functie niet ondersteunt, wordt deze optie gedeactiveerd.";
 
 // ----- PREFERENCES → SYSTEM CONTROL → Cursor Help Message
 
@@ -604,6 +647,8 @@
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_message_start_end_session_body" = "Deze sneltoets laat je snel een sessie starten of stoppen. De standaardduur (Voorkeuren → Standaardsessies → Standaardduur) zal hierbij gebruikt worden.\n\nEens je de sneltoetscombinatie ingesteld hebt, kan je deze functie gebruiken eender waar in macOS: Amphetamine moet wel actief zijn, maar dat mag ook op de achtergrond.\n\nAls het instellen van je toetsencombinatie niet lukt, betekent dat dat die combinatie ergens anders al voor gebruikt wordt. Helaas pindakaas.";
+
+"help_message_start_end_session_body_13" = "Deze sneltoets laat je snel een sessie starten of stoppen. De standaardduur (Instellingen → Standaardsessies → Standaardduur) zal hierbij gebruikt worden.\n\nEens je de sneltoetscombinatie ingesteld hebt, kan je deze functie gebruiken eender waar in macOS: Amphetamine moet wel actief zijn, maar dat mag ook op de achtergrond.\n\nAls het instellen van je toetsencombinatie niet lukt, betekent dat dat die combinatie ergens anders al voor gebruikt wordt. Helaas pindakaas.";
 
 // ----- PREFERENCES → HOT KEYS → Start Session Help Message
 
@@ -751,7 +796,7 @@
 "pref_appr_lbl_xtra" = "Extra’s menu:";
 
 // ** NOTE: DO NOT REMOVE '\n' **
-"pref_appr_lbl_cust_icon_inst" = "Sleep afbeeldingen en laat ze los in de onderstaande vakjes. Om de beste resultaten te krijgen\ngebruik je best enkel binaire afbeeldingen met een transparante achtergrond.";
+"pref_appr_lbl_cust_icon_inst" = "Sleep afbeeldingen en laat ze los in de onderstaande vakjes. Om de beste resultaten te krijgen gebruik je best enkel binaire afbeeldingen met een transparante achtergrond.";
 
 "pref_appr_lbl_cust_icon_inact" = "Inactief";
 "pref_appr_lbl_cust_icon_act" = "Actief";
@@ -866,6 +911,8 @@
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_trigger_config_body" = "Naam\nGeef je Trigger een memorabele naam. Die zal gebruikt worden bij meldingen en details van een sessie in het menu (als je dat hebt ingesteld in de voorkeuren).\n\nVoorwaarden\nJe Trigger kan één functie van elke voorwaarde gebruiken. Om een nieuwe voorwaarde toe te voegen klik je op ‘+’ en kies je een voorwaarde. Om te verwijderen selecteer je een voorwaarde in de lijst en klik je op ‘-‘.\n\nExtra opties\nElke Trigger kan apart worden geconfigureerd om de volgende zaken toe te staan of tegen te houden: sluimeren van het scherm, activeren van de schermbeveiliging en of je Mac al dan niet sluimert als het scherm wordt dichtgeklapt.";
+
+"help_trigger_config_body_13" = "Naam\nGeef je Trigger een memorabele naam. Die zal gebruikt worden bij meldingen en details van een sessie in het menu (als je dat hebt ingesteld in de instellingen).\n\nVoorwaarden\nJe Trigger kan één functie van elke voorwaarde gebruiken. Om een nieuwe voorwaarde toe te voegen klik je op ‘+’ en kies je een voorwaarde. Om te verwijderen selecteer je een voorwaarde in de lijst en klik je op ‘-‘.\n\nExtra opties\nElke Trigger kan apart worden geconfigureerd om de volgende zaken toe te staan of tegen te houden: sluimeren van het scherm, activeren van de schermbeveiliging en of je Mac al dan niet sluimert als het scherm wordt dichtgeklapt.";
 
 
 
@@ -1064,6 +1111,8 @@
 // Body
 "criterion_help_audio_body" = "Aan deze voorwaarde wordt enkel voldaan als een bepaalde geluidsuitvoer als huidige uitvoerbron op je Mac is geselecteerd. Je kan dit aanpassen in  → Systeemvoorkeuren → Geluid → Uitvoer.";
 
+"criterion_help_audio_body_13" = "Aan deze voorwaarde wordt enkel voldaan als een bepaalde geluidsuitvoer als huidige uitvoerbron op je Mac is geselecteerd. Je kan dit aanpassen in  → Systeeminstellingen → Geluid → Uitvoer.";
+
 
 // ----- Criterion Bluetooth Help Message
 
@@ -1072,6 +1121,8 @@
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "criterion_help_bluetooth_body" = "Aan deze voorwaarde wordt enkel voldaan als een specifiek Bluetoothapparaat verbonden is met je Mac. Deze lijst geeft enkel de apparaten weer die al gekoppeld zijn met je Mac.\n\nOm een nieuw apparaat te verbinden, zet je het in verbindingsmodus en ga je naar  → Systeemvoorkeuren → Bluetooth.";
+
+"criterion_help_bluetooth_body_13" = "Aan deze voorwaarde wordt enkel voldaan als een specifiek Bluetoothapparaat verbonden is met je Mac. Deze lijst geeft enkel de apparaten weer die al gekoppeld zijn met je Mac.\n\nOm een nieuw apparaat te verbinden, zet je het in verbindingsmodus en ga je naar  → Systeeminstellingen → Bluetooth.";
 
 
 // ----- Criterion Cisco AnyConnect VPN Help Message
@@ -1117,6 +1168,8 @@
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "criterion_help_dns_body" = "Aan deze voorwaarde wordt enkel voldaan als je Mac een door jou gespecifieerd(e) DNS-server of -adres gebruikt. Klik op ‘+’ om het huidige DNS-adres toe te voegen aan de lijst. Om te verwijderen selecteer je het en klik je op ‘-‘.\n\nAls je DNS-servers recent zijn geüpdatet in Systeemvoorkeuren of als je nog maar pas de netwerkconfiguratie hebt gewijzigd, moet je wellicht enkele minuten wachten alvorens macOS ze doet verschijnen in Amphetamine. Geduld is een schone deugd.\n\nOpgelet: deze Trigger activeert niet altijd ogenblikkelijk in sommige omstandigheden. Soms duurt het wat langer om gewijzigde DNS-servers te laten doorkomen in Amphetamine.";
+
+"criterion_help_dns_body_13" = "Aan deze voorwaarde wordt enkel voldaan als je Mac een door jou gespecifieerd(e) DNS-server of -adres gebruikt. Klik op ‘+’ om het huidige DNS-adres toe te voegen aan de lijst. Om te verwijderen selecteer je het en klik je op ‘-‘.\n\nAls je DNS-servers recent zijn geüpdatet in Systeeminstellingen of als je nog maar pas de netwerkconfiguratie hebt gewijzigd, moet je wellicht enkele minuten wachten alvorens macOS ze doet verschijnen in Amphetamine. Geduld is een schone deugd.\n\nOpgelet: deze Trigger activeert niet altijd ogenblikkelijk in sommige omstandigheden. Soms duurt het wat langer om gewijzigde DNS-servers te laten doorkomen in Amphetamine.";
 
 
 
@@ -1168,8 +1221,10 @@
 "statbar_mi_app" = "Terwijl programma geopend is…";
 "statbar_mi_app_BigSur" = "Terwijl programma geopend is";
 "statbar_mi_file" = "Zolang bestand aan het downloaden is…";
-"statbar_mi_qp" = "Snelle voorkeuren";
+"statbar_mi_qp" = "Snelle Voorkeuren";
+"statbar_mi_qp_13" = "Snelle Instellingen";
 "statbar_mi_prefs" = "Voorkeuren…";
+"statbar_mi_prefs_13" = "Instellingen…";
 "statbar_mi_about" = "Over Amphetamine";
 "statbar_mi_fb_support" = "Feedback & ondersteuning";
 "statbar_mi_troubleshoot" = "Problemen oplossen & FAQ";
@@ -1198,7 +1253,7 @@
 "ww1_lbl_credit" = "Met ♥ gecreëerd door William Gustafson";
 
 // ** NOTE: DO NOT REMOVE '\n' **
-"ww1_lbl_message" = "\nAmphetamine is een fabelachtig fantastisch en fenomenaal flexibel ‘houd-je-Mac-wakker’-programma, speciaal voor macOS.\nZelfs ondanks alle mogelijkheden en functies is Amphetamine erg makkelijk om te gebruiken.\n\nIn enkele korte stappen ga je Amphetamine klaarmaken voor actie. Klik op ‘Volgende’ om te starten.";
+"ww1_lbl_message" = "\nAmphetamine is een fabelachtig fantastisch en fenomenaal flexibel ‘houd-je-Mac-wakker’-programma, speciaal voor macOS. Zelfs ondanks alle mogelijkheden en functies is Amphetamine erg makkelijk om te gebruiken.\n\nIn enkele korte stappen ga je Amphetamine klaarmaken voor actie.\nKlik op ‘Volgende’ om te starten.";
 
 // WELCOME WINDOW #2
 "ww2_lbl_title" = "Waar woont Amphetamine?";
@@ -1206,6 +1261,8 @@
 
 // ** NOTE: DO NOT REMOVE '\n' **
 "ww2_lbl_message" = "Door op het icoontje in de menubalk te klikken krijg je het menu te zien. Als je er rechts op klikt, start of stop je een sessie om je Mac wakker te houden. Je kan deze functie ook omkeren in de voorkeuren als je dat wil.\n\nJe kan Amphetamine oneindig personaliseren. Verander het icoontje, stel meldingen in, kies zelf welke geluiden je wil horen, etc. Neem zeker een kijkje in de voorkeuren van het programma.";
+
+"ww2_lbl_message_13" = "Door op het icoontje in de menubalk te klikken krijg je het menu te zien. Als je er rechts op klikt, start of stop je een sessie om je Mac wakker te houden. Je kan deze functie ook omkeren in de instellingen als je dat wil.\n\nJe kan Amphetamine oneindig personaliseren. Verander het icoontje, stel meldingen in, kies zelf welke geluiden je wil horen, etc. Neem zeker een kijkje in de instellingen van het programma.";
 
 "ww2_bttn_find_amph" = "Klik hier om Amphetamine te lokaliseren";
 
@@ -1216,6 +1273,8 @@
 // ** NOTE: DO NOT REMOVE '\n' **
 "ww3_lbl_message" = "Als Amphetamine je Mac wakker houdt, noemen we dat een ’sessie’. Om er eentje te starten, klik je op het icoontje in de menubalk en selecteer je hoe lang je sessie moet duren. Je kan ook rechts klikken op het icoontje om een sessie te starten met de standaardduur. Die standaardduur kan je aanpassing bij Voorkeuren → Sessies.\n\nAls je een MacBook hebt, kan je die nu ook wakker houden, zelfs met een dichtgeklapt scherm. Voor de zekerheid kan je dan wel best ‘Amphetamine-verbeteraar’ installeren.";
 
+"ww3_lbl_message_13" = "Als Amphetamine je Mac wakker houdt, noemen we dat een ’sessie’. Om er eentje te starten, klik je op het icoontje in de menubalk en selecteer je hoe lang je sessie moet duren. Je kan ook rechts klikken op het icoontje om een sessie te starten met de standaardduur. Die standaardduur kan je aanpassing bij Instellingen → Sessies.\n\nAls je een MacBook hebt, kan je die nu ook wakker houden, zelfs met een dichtgeklapt scherm. Voor de zekerheid kan je dan wel best ‘Amphetamine-verbeteraar’ installeren.";
+
 "ww3_bttn_learn_amph_enh" = "Klik hier om meer te leren over ‘Amphetamine-verbeteraar’";
 
 // WELCOME WINDOW #4
@@ -1225,11 +1284,13 @@
 // ** NOTE: DO NOT REMOVE '\n' **
 "ww4_lbl_message" = "Triggers houden je Mac wakker op basis van bijvoorbeeld je Wi-Fi-verbinding, batterijniveau, aangesloten apparaten (USB en Bluetooth), het huidige tijdstip, je IP-adres, programma’s die geopend zijn, en zoveel meer. In de voorkeuren kan je je eerste Trigger instellen. Of je kan hieronder klikken als je eerst meer wil weten.\n\n’Schijf in bedrijf’ houdt schijven draaiende die zijn verbonden met je Mac. Dat gebeurt door sporadisch een minieme hoeveelheid data weg te schrijven op elke schijf. Via de voorkeuren kan je ‘Schijf in bedrijf’ inschakelen.";
 
+"ww4_lbl_message_13" = "Triggers houden je Mac wakker op basis van bijvoorbeeld je Wi-Fi-verbinding, batterijniveau, aangesloten apparaten (USB en Bluetooth), het huidige tijdstip, je IP-adres, programma’s die geopend zijn, en zoveel meer. In de instellingen kan je je eerste Trigger instellen. Of je kan hieronder klikken als je eerst meer wil weten.\n\n’Schijf in bedrijf’ houdt schijven draaiende die zijn verbonden met je Mac. Dat gebeurt door sporadisch een minieme hoeveelheid data weg te schrijven op elke schijf. Via de instellingen kan je ‘Schijf in bedrijf’ inschakelen.";
+
 "ww4_bttn_learn_triggers" = "Klik hier om meer te leren over Triggers";
 
 // WELCOME WINDOW #5
-"ww5_lbl_title" = "Beste vriend of vriendin, bedankt om Amphetamine een kans te geven. Veel plezier ermee!";
-"ww5_lbl_subtitle" = "Amphetamine is een daad van altruïsme: gratis, zonder gedoe, from me to you. Hey, da’s meertalig én het rijmt!";
+"ww5_lbl_title" = "Bedankt om Amphetamine een kans te geven.";
+"ww5_lbl_subtitle" = "Amphetamine is een daad van altruïsme: gratis, zonder gedoe, van mij voor jou.";
 
 // ** NOTE: DO NOT REMOVE '\n' **
 "ww5_lbl_message" = "Amphetamine is een cadeau van mij voor jou (net als deze Nederlandse vertaling door Mitch Goos). Hopelijk vind je het nuttig, stabiel en geniet je ervan. Als je een klein momentje hebt om een recensie in de App Store achter te laten, kan je op mijn eeuwige dankbaarheid rekenen.\n\nHeb je een vraag of kom je een probleem tegen? Contacteer me dan zeker door naar ‘Feedback & ondersteuning’ te gaan en daar te kiezen voor ‘Support contacteren’.\n\nWilliam Gustafson\nBedenker van Amphetamine";
@@ -1244,7 +1305,7 @@
 
 // ** NOTE: DO NOT REMOVE '\n' **
 "about_lbl_message" = "Amphetamine was mijn eerste project in Objective-C. In 2014 werd het gelanceerd en sindsdien is het uitgegroeid tot een waanzinnig krachtige en enorm populaire app om je Mac wakker te houden. Suggesties, feedback en steun waren de drijfveren voor die groei. Bedankt daarvoor.\n\nAmphetamine zal tot in de eeuwigheid 100% gratis zijn en geen reclame bevatten, noch in-app-aankopen of betaalde upgrades.\n\nIk draag Amphetamine op aan een goede vriend van mij, Isaac Kirkman.\n\nWilliam Gustafson\nBedenker van Amphetamine";
-"about_lbl_hard_work" = "🥵 Amphetamine maken is een titanenkarwei! 🥵";
+"about_lbl_hard_work" = "Amphetamine maken is een titanenkarwei!";
 "about_bttn_support" = "Support contacteren";
 "about_bttn_rate" = "Recensie in App Store geven";
 "about_bttn_ack" = "Dankwoorden";
@@ -1257,7 +1318,8 @@
 // ----- QUICK PREFERENCES
 // ---------------------------------------------------------------------------
 
-"qp_lbl_about" = "Snelle voorkeuren zijn gelinkt aan de status van de instellingen in de gewone voorkeuren. Dat heeft niet per se iets te maken met de huidige sessie.";
+"qp_lbl_about" = "Snelle Voorkeuren zijn gelinkt aan de status van de instellingen in de gewone voorkeuren. Dat heeft niet per se iets te maken met de huidige sessie.";
+"qp_lbl_about_13" = "Snelle Instellingen zijn gelinkt aan de status van de instellingen in de gewone instellingen. Dat heeft niet per se iets te maken met de huidige sessie.";
 "qp_lbl_nt_sess" = "Standaardinstellingen van sessies";
 "qp_lbl_all_sess" = "Systeemcontrole";
 "qp_lbl_other" = "Andere";
@@ -1273,10 +1335,13 @@
 // ----- Quick Preferences Help Message
 
 // Title
-"help_quick_prefs_title" = "Snelle voorkeuren";
+"help_quick_prefs_title" = "Snelle Voorkeuren";
+"help_quick_prefs_title_13" = "Snelle Instellingen";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_quick_prefs_body" = "Elke menuoptie in Snelle Voorkeuren is gelinkt aan de overeenkomstige optie in de voorkeuren van Amphetamine.\n\nBelangrijk om te weten is dat de status van een optie in Snelle Voorkeuren niet per se overeenkomt met de instellingen van de huidige sessie. Dit komt zeker vaak voor bij sessies met Trigger.\n\nDe instellingen van de huidige sessie kan je snel en ad hoc veranderen door in het menu te kiezen voor ‘Details van huidige sessie’. Om die menuoptie te laten zien of verbergen, kan je terecht bij Voorkeuren → Weergave → Extra’s menu.";
+
+"help_quick_prefs_body_13" = "Elke menuoptie in Snelle Instellingen is gelinkt aan de overeenkomstige optie in de instellingen van Amphetamine.\n\nBelangrijk om te weten is dat de status van een optie in Snelle Instellingen niet per se overeenkomt met de instellingen van de huidige sessie. Dit komt zeker vaak voor bij sessies met Trigger.\n\nDe instellingen van de huidige sessie kan je snel en ad hoc veranderen door in het menu te kiezen voor ‘Details van huidige sessie’. Om die menuoptie te laten zien of verbergen, kan je terecht bij Instellingen → Weergave → Extra’s menu.";
 
 
 
@@ -1309,6 +1374,8 @@
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "cdm_warning_body" = "• Oplaadstatus\nSessies met ‘Modus met dichtgeklapt scherm’ kunnen mislukken als je Mac weer opgeladen wordt tijdens de sessie. Dit komt niet bij alle Macs voor gelukkig. Jammer genoeg kan Amphetamine niet detecteren of een sessie werkelijk mislukt is.\n\n• Oververhitting en batterijverbruik\nMet de ‘Modus met dichtgeklapt scherm’ ingeschakeld kan je Mac makkelijk oververhit geraken in een tas/rugzak, of de batterij kan snel leeg geraken. Je kan daarom best waarschuwingen voor ‘Modus met dichtgeklapt scherm’ activeren bij Voorkeuren → Meldingen.\n\n• Amphetamine-verbeteraar als beveiliging\nAls Amphetamine crasht tijdens een sessie met ‘Modus met dichtgeklapt scherm’, kan het zijn dat je Mac niet zomaar terugkeert naar de normale sluimerinstellingen totdat je Amphetamine of je Mac herstart. Daarom wordt het warm aanbevolen om Amphetamine-verbeteraar te installeren als extra beveiliging.";
+
+"cdm_warning_body_13" = "• Oplaadstatus\nSessies met ‘Modus met dichtgeklapt scherm’ kunnen mislukken als je Mac weer opgeladen wordt tijdens de sessie. Dit komt niet bij alle Macs voor gelukkig. Jammer genoeg kan Amphetamine niet detecteren of een sessie werkelijk mislukt is.\n\n• Oververhitting en batterijverbruik\nMet de ‘Modus met dichtgeklapt scherm’ ingeschakeld kan je Mac makkelijk oververhit geraken in een tas/rugzak, of de batterij kan snel leeg geraken. Je kan daarom best waarschuwingen voor ‘Modus met dichtgeklapt scherm’ activeren bij Instellingen → Meldingen.\n\n• Amphetamine-verbeteraar als beveiliging\nAls Amphetamine crasht tijdens een sessie met ‘Modus met dichtgeklapt scherm’, kan het zijn dat je Mac niet zomaar terugkeert naar de normale sluimerinstellingen totdat je Amphetamine of je Mac herstart. Daarom wordt het warm aanbevolen om Amphetamine-verbeteraar te installeren als extra beveiliging.";
 
 // ----- FAILED CLOSED DISPLAY MODE SESSION WARNING
 
@@ -1356,6 +1423,8 @@
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "sess_is_trigger_body" = "Je hebt een voorkeur aangepast die enkel van toepassing is op sessies zonder Trigger.\n\nElke Trigger heeft zijn eigen %@ optie die je kan aanpassen door de Trigger te wijzigen. Dat doe je in Voorkeuren → Triggers; daar dubbelklik je op de Trigger die je wil wijzigen.\n\nAls je tijdelijk wil %@ %@ voor zolang deze sessie met Trigger duurt, kan je op het logo in de menubalk klikken en bij ‘Details van huidige sessie’ het %@ vinkje %@.\n\nAls je in het menu geen optie ‘Details van huidige sessie’ ziet, kan je dat isnchakelen via Voorkeuren → Weergave → Extra’s menu.";
 
+"sess_is_trigger_body_13" = "Je hebt een voorkeur aangepast die enkel van toepassing is op sessies zonder Trigger.\n\nElke Trigger heeft zijn eigen %@ optie die je kan aanpassen door de Trigger te wijzigen. Dat doe je in Instellingen → Triggers; daar dubbelklik je op de Trigger die je wil wijzigen.\n\nAls je tijdelijk wil %@ %@ voor zolang deze sessie met Trigger duurt, kan je op het logo in de menubalk klikken en bij ‘Details van huidige sessie’ het %@ vinkje %@.\n\nAls je in het menu geen optie ‘Details van huidige sessie’ ziet, kan je dat isnchakelen via Instellingen → Weergave → Extra’s menu.";
+
 // ----- LOCK SCREEN MESSAGE
 
 "lck_scrn_request_title" = "Om je scherm te vergrendelen moet je Amphetamine toestemming geven voor de toegankelijkheidsvoorzieningen. Ik zal niets stouts doen, beloofd.";
@@ -1363,12 +1432,16 @@
 // ** NOTE: DO NOT REMOVE '\n' **
 "lck_scrn_request_body" = "Je kan Amphetamine toestemming geven voor de toegankelijkheidsvoorzieningen via Systeemvoorkeuren → Beveiliging & privacy → Privacy → Toegankelijkheid.\n\nKlik in Systeemvoorkeuren dan op het slot-icoontje linksonderaan en geef je gebruikerswachtwoord in als dat gevraagd wordt. Dan moet je het hokje naast Amphetamine aanvinken bij het onderdeel Toegankelijkheid.\n\nIndien Amphetamine niet in de lijst staat, klik je op ‘+’ en kies je Amphetamine in de map ‘Apps’.\n\nZodra je Amphetamine toestemming hebt gegeven voor de toegankelijkheidsvoorzieningen, kan je naar hier terugkeren en de functie opnieuw proberen te activeren.";
 
+"lck_scrn_request_body_13" = "Je kan Amphetamine toestemming geven voor de toegankelijkheidsvoorzieningen via Systeeminstellingen → Beveiliging & privacy → Privacy → Toegankelijkheid.\n\nKlik in Systeeminstellingen dan op het slot-icoontje linksonderaan en geef je gebruikerswachtwoord in als dat gevraagd wordt. Dan moet je het hokje naast Amphetamine aanvinken bij het onderdeel Toegankelijkheid.\n\nIndien Amphetamine niet in de lijst staat, klik je op ‘+’ en kies je Amphetamine in de map ‘Apps’.\n\nZodra je Amphetamine toestemming hebt gegeven voor de toegankelijkheidsvoorzieningen, kan je naar hier terugkeren en de functie opnieuw proberen te activeren.";
+
 
 // ----- CURSOR MOVEMENT MESSAGE
 
 "move_cursor_request_title" = "Om de muisaanwijzer te bewegen moet je Amphetamine toestemming geven voor de toegankelijkheidsvoorzieningen. Ik zal me gedragen, ik zweer het.";
 
 "move_cursor_request_body" = "Je kan Amphetamine toestemming geven voor de toegankelijkheidsvoorzieningen via Systeemvoorkeuren → Beveiliging & privacy → Privacy → Toegankelijkheid.\n\nKlik in Systeemvoorkeuren dan op het slot-icoontje linksonderaan en geef je gebruikerswachtwoord in als dat gevraagd wordt. Dan moet je het hokje naast Amphetamine aanvinken bij het onderdeel Toegankelijkheid.\n\nIndien Amphetamine niet in de lijst staat, klik je op ‘+’ en kies je Amphetamine in de map ‘Apps’.\n\nZodra je Amphetamine toestemming hebt gegeven voor de toegankelijkheidsvoorzieningen, kan je naar hier terugkeren en de functie opnieuw proberen te activeren.";
+
+"move_cursor_request_body_13" = "Je kan Amphetamine toestemming geven voor de toegankelijkheidsvoorzieningen via Systeeminstellingen → Beveiliging & privacy → Privacy → Toegankelijkheid.\n\nKlik in Systeeminstellingen dan op het slot-icoontje linksonderaan en geef je gebruikerswachtwoord in als dat gevraagd wordt. Dan moet je het hokje naast Amphetamine aanvinken bij het onderdeel Toegankelijkheid.\n\nIndien Amphetamine niet in de lijst staat, klik je op ‘+’ en kies je Amphetamine in de map ‘Apps’.\n\nZodra je Amphetamine toestemming hebt gegeven voor de toegankelijkheidsvoorzieningen, kan je naar hier terugkeren en de functie opnieuw proberen te activeren.";
 
 
 // ----- WHILE FILE IS DOWNLOADING MESSAGE
@@ -1411,6 +1484,7 @@
 "alert_dont_show_again" = "Toon deze melding niet meer";
 "alert_dont_ask_again" = "Vraag dit niet meer";
 "alert_open_sys_prefs" = "Open Systeemvoorkeuren";
+"alert_open_sys_prefs_13" = "Open Systeeminstellingen";
 
 // GENERIC ERROR MESSAGE
 "error_generic_went_wrong_title" = "Oh jeetje. Ik wil geen paniek zaaien, maar er ging helaas iets mis.";
@@ -1425,6 +1499,8 @@
 
 "alert_trig_scn_svr_title" = "Deze Trigger kan door zijn configuratie de schermbeveiliging niet toelaten.";
 "alert_trig_scn_svr_body" = "Hoewel deze Trigger door zijn configuratie de schermbeveiliging niet kan toestaan, kan je dat voor deze sessie wel toelaten. Als je wil dat deze Trigger altijd toegang heeft tot deze functie, kan je hem wijzigen via Voorkeuren → Triggers. Dubbelklik om te wijzigen.\n\nAls je de schermbeveiliging enkel voor deze sessie wil toestaan, kan je hieronder een vertraging kiezen en klikken op ‘Schermbeveiliging inschakelen’.";
+
+"alert_trig_scn_svr_body_13" = "Hoewel deze Trigger door zijn configuratie de schermbeveiliging niet kan toestaan, kan je dat voor deze sessie wel toelaten. Als je wil dat deze Trigger altijd toegang heeft tot deze functie, kan je hem wijzigen via Instellingen → Triggers. Dubbelklik om te wijzigen.\n\nAls je de schermbeveiliging enkel voor deze sessie wil toestaan, kan je hieronder een vertraging kiezen en klikken op ‘Schermbeveiliging inschakelen’.";
 
 // ----- DRIVE ALIVE SANDBOX ALERT
 "alert_drivealive_tech_det_title" = "Wat technische praat…";
@@ -1446,6 +1522,7 @@
 // ----- LOCK SCREEN FAILURE
 "alert_lck_scrn_fail_title" = "Amphetamine kon je scherm niet vergrendelen.";
 "alert_lck_scrn_fail_body" = "Ga naar Voorkeuren → Systeemcontrole om deze functie opnieuw in te schakelen. Even vervelend, maar da’s zo gepiept.";
+"alert_lck_scrn_fail_body_13" = "Ga naar Instellingen → Systeemcontrole om deze functie opnieuw in te schakelen. Even vervelend, maar da’s zo gepiept.";
 
 // ----- DEFAULT DURATION
 "alert_dd_less_one_min_title" = "Standaardduur kan niet korter zijn dan één minuut.";
@@ -1461,7 +1538,9 @@
 
 // ----- RESET PREFERENCES CONFIRMATION
 "prefs_reset_conf_title" = "Ben je zeker dat je de voorkeuren van Amphetamine opnieuw wil instellen?";
+"prefs_reset_conf_title_13" = "Ben je zeker dat je de instellingen van Amphetamine opnieuw wil instellen?";
 "prefs_reset_conf_body" = "Je verwijdert zo alle Triggers en configuraties van ‘Schijf in bedrijf’. Alle voorkeuren worden weer naar hun beginstatus ingesteld.";
+"prefs_reset_conf_body_13" = "Je verwijdert zo alle Triggers en configuraties van ‘Schijf in bedrijf’. Alle instellingen worden weer naar hun beginstatus ingesteld.";
 
 // ----- RESET WARNINGS & DIALOGS CONFIRMATION
 "warn_diag_reset_conf_title" = "Alle waarschuwingen zijn opnieuw ingesteld.";
@@ -1474,6 +1553,7 @@
 // ----- DNS SERVER CRITERIA MESSAGE
 "dns_no_new_serv_title" = "Geen nieuwe DNS-servers gevonden.";
 "dns_no_new_serv_body" = "De DNS-servers in deze lijst zijn de enige die in gebruik zijn volgens macOS. Als je nog maar pas de DNS-servers geüpdatet hebt in Systeemvoorkeuren of als je je netwerkconfiguratie recentelijk aangepast hebt, wacht je best enkele minuten en probeer je dan opnieuw.";
+"dns_no_new_serv_body_13" = "De DNS-servers in deze lijst zijn de enige die in gebruik zijn volgens macOS. Als je nog maar pas de DNS-servers geüpdatet hebt in Systeeminstellingen of als je je netwerkconfiguratie recentelijk aangepast hebt, wacht je best enkele minuten en probeer je dan opnieuw.";
 
 // ----- DRIVE ALIVE WRITE ERROR
 "drive_alive_write_err_title" = "Er trad een fout op.";
@@ -1494,6 +1574,8 @@
 
 // PLACEHOLDER IS NAME OF TRIGGER
 "alert_disable_trig_body" = "Je moet de volgende Trigger deactiveren om deze sessie te stoppen:\n\n%@\n\nJe kan ook alle Triggers uitschakelen door de knop hieronder te gebruiken. Als je enkel deze ene Trigger wil uitschakelen kan je dat doen via de voorkeuren. Op een later moment kan je dan steeds alle Triggers weer inschakelen via de voorkeuren.";
+
+"alert_disable_trig_body_13" = "Je moet de volgende Trigger deactiveren om deze sessie te stoppen:\n\n%@\n\nJe kan ook alle Triggers uitschakelen door de knop hieronder te gebruiken. Als je enkel deze ene Trigger wil uitschakelen kan je dat doen via de instellingen. Op een later moment kan je dan steeds alle Triggers weer inschakelen via de instellingen.";
 
 "alert_disable_trig_bttn_disable" = "Alle Triggers uitschakelen";
 "alert_disable_trig_bttn_suppress" = "Volgende keer alle Triggers automatisch uitschakelen";
@@ -1529,8 +1611,12 @@
 
 "amph3_prefs_cnvrt_message" = "Omdat Amphetamine 5 zo ongelooflijk veel nieuwe heerlijkheden bevat, moeten je voorkeuren van een eerdere versie overgezet worden of opnieuw ingesteld worden. Als je voor ‘Overzetten’ kiest, probeer ik al je huidige voorkeuren (Triggers, instellingen voor ‘Schijf in bedrijf’, icoontjes, sneltoetsen, etc.) te kopiëren naar de nieuwste versie.\n\nNatuurlijk zijn daar risico’s aan verbonden, dus doe het voorzichtig (een algemeen levensadvies trouwens).\n\nAls je liever een frisse, nieuwe start maakt (goed bezig!), kies dan voor ‘Opnieuw instellen’. Als je deze melding onverwachts ziet, kies dan gewoon voor ‘Opnieuw instellen’.";
 
+"amph3_prefs_cnvrt_message_13" = "Omdat Amphetamine 5 zo ongelooflijk veel nieuwe heerlijkheden bevat, moeten je instellingen van een eerdere versie overgezet worden of opnieuw ingesteld worden. Als je voor ‘Overzetten’ kiest, probeer ik al je huidige instellingen (Triggers, instellingen voor ‘Schijf in bedrijf’, icoontjes, sneltoetsen, etc.) te kopiëren naar de nieuwste versie.\n\nNatuurlijk zijn daar risico’s aan verbonden, dus doe het voorzichtig (een algemeen levensadvies trouwens).\n\nAls je liever een frisse, nieuwe start maakt (goed bezig!), kies dan voor ‘Opnieuw instellen’. Als je deze melding onverwachts ziet, kies dan gewoon voor ‘Opnieuw instellen’.";
+
 "amph3_prefs_cnvrt_backedup" = "Je hebt een reservekopie gemaakt van Amphetamines voorkeuren.";
+"amph3_prefs_cnvrt_backedup_13" = "Je hebt een reservekopie gemaakt van Amphetamines Instellingen.";
 "amph3_prefs_cnvrt_ask" = "Je zal nu de vraag krijgen om je voorkeuren over te zetten of opnieuw in te stellen. #keuzestress";
+"amph3_prefs_cnvrt_ask_13" = "Je zal nu de vraag krijgen om je instellingen over te zetten of opnieuw in te stellen. #keuzestress";
 
 
 

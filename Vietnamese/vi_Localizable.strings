@@ -4,9 +4,38 @@
   Amphetamine
 
   Created by William Gustafson on 2/21/20.
-  Copyright © 2020 William C. Gustafson. All rights reserved.
+  Copyright © 2023 William C. Gustafson. All rights reserved.
  
 */
+
+// BEGIN NEW STRINGS ADDED FOR v5.2.3
+// NOTE: "Closed-Display Mode" is translated as "Chế độ khi Gập Màn hình"
+
+"cdm_install_script_alert_title" = "Action Required For Closed-Display Mode on Apple Silicon";
+
+"cdm_install_script_alert_body" = "Due to hardware changes introduced with Apple Silicon, Closed-Display Mode has new requirements.\n\nTo be able to connect or disconnect your Mac's power adapter without interrupting the Closed-Display Mode session, Amphetamine needs to install and run a script whenever a Closed-Display Mode session begins or ends. The script must be installed in Amphetamine's Application Scripts folder.\n\nEach time the script runs, authentication will be required. The authentication prompt will say \"osascript wants to make changes.\" After you authenticate, the script will run. If you do not want to authenticate each Closed-Display Mode session, click the Skip button below.\n\nIf you skip installing the Closed-Display Mode script, you won't be asked about this again, and you may experience closed-display mode session interruptions when connecting or disconnecting your Mac's power adapter. If you select Skip but later want to install the script, go to Amphetamine Settings → General, click Reset Warnings and Dialogs, and start a Closed-Display Mode session.";
+
+"cdm_install_script_button" = "Install Script";
+
+"cdm_skip_script_button" = "Skip";
+
+"cdm_remind_me_script_button" = "Remind Me Later";
+
+"cdm_anomaly_alert_title" = "Amphetamine detected an anomaly with your Mac's sleep settings.";
+
+"cdm_anomaly_alert_body" = "An Amphetamine session is not currently active, but your Mac appears to be configured to prevent sleep when in Closed-Display Mode. This can lead to unexpected battery drain and/or overheating.\n\nTo correct this issue, Amphetamine needs to run, and if necessary, install a script. You will be prompted to install the script, if needed, and then prompted to authenticate running the script.\n\nThis issue may have occurred due to a Amphetamine crashing during a Closed-Display Mode session, or by someone manually disabling sleep on your Mac.";
+
+"cdm_anomaly_alert_ignore_button" = "Ignore";
+
+"cdm_anomaly_alert_fix_button" = "Fix Issue";
+
+"cdm_script_fail_alert_title" = "Closed-Display Mode Script Failure";
+
+"cdm_script_fail_alert_body_disable" = "Amphetamine attempted to run a script to disable Closed-Display Mode, but the script either wasn't authenticated successfully or it was cancelled.\n\nYour Mac may still be preventing sleep when the display is closed. This can lead to unexpected battery drain or overheating.\n\nWhen Amphetamine prompts you to fix this issue, it is highly recommended you choose \"Fix Issue.\" You'll be prompted to authenticate allowing \"osascript\" to make changes.";
+
+"cdm_script_fail_alert_body_enable" = "Amphetamine attempted to run a script to enable Closed-Display Mode, but the script either wasn't authenticated successfully or it was cancelled.\n\nYour Mac may still be allowing sleep when the display is closed.\n\nTo fix this issue, end the current session and start a new one. When prompted to allow \"osascript\" to make changes, follow the on-screen directions to successfully authenticate.";
+
+// END NEW STRINGS ADDED FOR v5.2.3
 
  // ---------------------------------------------------------------------------
  // GENERAL USE STRINGS
@@ -255,6 +284,7 @@
 // ---------------------------------------------------------------------------
 
 "pref_window_title" = "Tùy chọn"; // 5.0.2
+"pref_window_title_13" = "Cài đặt"; // 5.0.2
 "pref_global_lbl_uses_default_duration" = "↳ Dùng khoảng thời gian mặc định";
 "pref_global_bttn_screen_saver_exceptions" = "Ngoại lệ...";
 
@@ -277,6 +307,7 @@
 "pref_gen_bttn_reduce_motion" = "Giảm chuyển động";
 "pref_gen_bttn_reset_warnings" = "Reset các cảnh báo và hội thoại";
 "pref_gen_bttn_reset_all_prefs" = "Reset tất cả tùy chỉnh";
+"pref_gen_bttn_reset_all_prefs_13" = "Reset tất cả tùy chỉnh";
 
 // PREFERENCES → GENERAL LABELS
 "pref_gen_lbl_quick_start" = "Khởi chạy nhanh 1 Phiên:";
@@ -316,8 +347,12 @@
 // Body (macOS 10.14+) ** NOTE: DO NOT REMOVE '\n' **
 "help_message_other_body_post_highsierra" = "• Ẩn Amphetamine trên Dock\nChọn ô này nếu bạn muốn ẩn icon Amphetamine trên thanh Dock. Từ macOS 10.15 trở lên, icon trên Dock sẽ tự xuất hiện rồi biến mất khi một cửa sổ của Amphetamine được mở, chẳng hạn Cửa sổ Tuỳ Chỉnh, ngay cả khi tùy chọn ẩn này được bật .\n\nTừ macOS 10.14 về trước, có thể bạn cần tắt tùy chọn 'Hiện các ứng dụng gần đây trên Dock' bằng cách vào  → Tùy chọn Hệ thống → Dock để tắt hoàn toàn icon Amphetamine trên thanh Dock.\n\n• Giảm Chuyển động\nChọn ô này nếu bạn muốn giảm các chuyển động hoạt họa của giao diện Amphetamine.\n\nClick vào Reset các cảnh báo và hội thoại để reset bất kì ô 'đừng hiện lần nữa' nào trên các cửa sổ cảnh báo.\n\nClick vào nút Reset tất cả tùy chỉnh để trả Amphetamine về trạng thái mặc định (toàn bộ tuỳ chỉnh sẽ mất, bao gồm cả các Trigger).";
 
+"help_message_other_body_post_highsierra_13" = "• Ẩn Amphetamine trên Dock\nChọn ô này nếu bạn muốn ẩn icon Amphetamine trên thanh Dock. Từ macOS 10.15 trở lên, icon trên Dock sẽ tự xuất hiện rồi biến mất khi một cửa sổ của Amphetamine được mở, chẳng hạn Cửa sổ Tuỳ Chỉnh, ngay cả khi tùy chọn ẩn này được bật .\n\nTừ macOS 10.14 về trước, có thể bạn cần tắt tùy chọn 'Hiện các ứng dụng gần đây trên Dock' bằng cách vào  → Cài đặt hệ thống → Dock để tắt hoàn toàn icon Amphetamine trên thanh Dock.\n\n• Giảm Chuyển động\nChọn ô này nếu bạn muốn giảm các chuyển động hoạt họa của giao diện Amphetamine.\n\nClick vào Reset các cảnh báo và hội thoại để reset bất kì ô 'đừng hiện lần nữa' nào trên các cửa sổ cảnh báo.\n\nClick vào nút Reset tất cả tùy chỉnh để trả Amphetamine về trạng thái mặc định (toàn bộ tuỳ chỉnh sẽ mất, bao gồm cả các Trigger).";
+
 // Body (macOS 10.11 - 10.13) ** NOTE: DO NOT REMOVE '\n' **
 "help_message_other_body_pre_mojave" = "• Ẩn Amphetamine trên Dock\nCChọn ô này nếu bạn muốn ẩn icon Amphetamine trên thanh Dock.\n\n• Dùng Màu để Thay Trạng thái trong Tuỳ chỉnh Nhanh\nChọn ô này để hiện 1 hình tròn màu thay cho trạng thái của mỗi mục trong Tuỳ chỉnh Nhanh. Xanh lá = ON, Đỏ = OFF. Bỏ chọn ô này để dùng biểu tượng đơn sắc: có dấu tick để hiện ON, và dấu X để hiện OFF.\n\n• Giảm Chuyển động\nChọn ô này nếu bạn muốn giảm các chuyển động hoạt họa của giao diện Amphetamine.\n\nClick vào Reset các cảnh báo và hội thoại để reset bất kì ô 'đừng hiện lần nữa' nào trên các cửa sổ cảnh báo.\n\nClick vào nút Reset tất cả tùy chỉnh để trả Amphetamine về trạng thái mặc định (toàn bộ tuỳ chỉnh sẽ mất, bao gồm cả các Trigger).";
+
+"help_message_other_body_pre_mojave_13" = "• Ẩn Amphetamine trên Dock\nCChọn ô này nếu bạn muốn ẩn icon Amphetamine trên thanh Dock.\n\n• Dùng Màu để Thay Trạng thái trong Tuỳ chỉnh Nhanh\nChọn ô này để hiện 1 hình tròn màu thay cho trạng thái của mỗi mục trong Tuỳ chỉnh Nhanh. Xanh lá = ON, Đỏ = OFF. Bỏ chọn ô này để dùng biểu tượng đơn sắc: có dấu tick để hiện ON, và dấu X để hiện OFF.\n\n• Giảm Chuyển động\nChọn ô này nếu bạn muốn giảm các chuyển động hoạt họa của giao diện Amphetamine.\n\nClick vào Reset các cảnh báo và hội thoại để reset bất kì ô 'đừng hiện lần nữa' nào trên các cửa sổ cảnh báo.\n\nClick vào nút Reset tất cả tùy chỉnh để trả Amphetamine về trạng thái mặc định (toàn bộ tuỳ chỉnh sẽ mất, bao gồm cả các Trigger).";
 
 
 
@@ -413,7 +448,10 @@
 "help_message_display_sleep_title" = "Sleep Màn hình";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_display_sleep_body" = "Chọn ô này nếu bạn muốn màn hình được tắt trong 1 phiên chạy. Khi đó, màn hình sẽ tắt sau khoảng thời gian được thiết đặt sẵn trong  → Tuỳ chỉnh Hệ thống → Tiết kiệm Năng lượng.\n\nXin lưu ý là tuỳ chỉnh này chỉ có tác dụng cho các phiên không qua Trigger. Nếu bạn cần các phiên qua Trigger cho phép màn hình được tắt thì phải thiết đặt cụ thể trong mỗi Trigger.";
+"help_message_display_sleep_body" = "Chọn ô này nếu bạn muốn màn hình được tắt trong 1 phiên chạy. Khi đó, màn hình sẽ tắt sau khoảng thời gian được thiết đặt sẵn trong  → Tùy chọn Hệ thống → Tiết kiệm Năng lượng.\n\nXin lưu ý là tuỳ chỉnh này chỉ có tác dụng cho các phiên không qua Trigger. Nếu bạn cần các phiên qua Trigger cho phép màn hình được tắt thì phải thiết đặt cụ thể trong mỗi Trigger.";
+
+"help_message_display_sleep_body_13" = "Chọn ô này nếu bạn muốn màn hình được tắt trong 1 phiên chạy. Khi đó, màn hình sẽ tắt sau khoảng thời gian được thiết đặt sẵn trong  → Cài đặt hệ thống → Tiết kiệm Năng lượng.\n\nXin lưu ý là tuỳ chỉnh này chỉ có tác dụng cho các phiên không qua Trigger. Nếu bạn cần các phiên qua Trigger cho phép màn hình được tắt thì phải thiết đặt cụ thể trong mỗi Trigger.";
+
 
 // ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Closed-Display Mode Help Message
 
@@ -422,6 +460,9 @@
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_message_closed_display_body" = "Bỏ chọn ô này nếu bạn muốn Amphetamine giữ máy Mac không tắt trong khi gập màn hình.\n\nBình thường để chế độ này chạy được thì phải có một màn hình ngoài, bàn phím, chuột, hoặc bộ sạc được kết nối vào máy Mac. Tuy nhiên Amphetamine có thể tạm thời vượt lên các giới hạn này và giữ máy Mac không tắt khi gập màn hình.\n\nÔ chọn sẽ ẩn nếu máy bạn không hỗ trợ tính năng này.\n\nTùy chọn này chỉ ảnh hưởng đến các phiên không qua Trigger. Nếu bạn muốn bật trên các phiên qua Trigger, hãy vào Tuỳ chỉnh → Trigger và thêm tính năng này vào mỗi Trigger mà bạn muốn.\n\nKhi dùng tihns năng này, có thể bạn cần thiết đặt Cảnh báo Chế độ Gập Màn hình trong mục Tuỳ chỉnh → Thông báo → Chế độ Gập Màn hình";
+
+"help_message_closed_display_body_13" = "Bỏ chọn ô này nếu bạn muốn Amphetamine giữ máy Mac không tắt trong khi gập màn hình.\n\nBình thường để chế độ này chạy được thì phải có một màn hình ngoài, bàn phím, chuột, hoặc bộ sạc được kết nối vào máy Mac. Tuy nhiên Amphetamine có thể tạm thời vượt lên các giới hạn này và giữ máy Mac không tắt khi gập màn hình.\n\nÔ chọn sẽ ẩn nếu máy bạn không hỗ trợ tính năng này.\n\nTùy chọn này chỉ ảnh hưởng đến các phiên không qua Trigger. Nếu bạn muốn bật trên các phiên qua Trigger, hãy vào Tuỳ chỉnh → Trigger và thêm tính năng này vào mỗi Trigger mà bạn muốn.\n\nKhi dùng tihns năng này, có thể bạn cần thiết đặt Cảnh báo Chế độ Gập Màn hình trong mục Tuỳ chỉnh → Thông báo → Chế độ Gập Màn hình";
+
 
 // ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Screen Saver Help Message
 
@@ -438,6 +479,9 @@
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_message_battery_body" = "• Dừng Phiên Khi Mức Pin Dưới...\nChọn ô này nếu bạn muốn Amphetamine tự động dừng các phiên không qua Trigger khi mức pin của máy thấp hơn mức thiết lập bằng thanh slider. Kéo thanh slider qua hết bên phải để dừng phiên chạy khi máy bị ngắt nguồn sạc.\n\n• Báo Trước Khi Dừng 1 Phiên\nChọn ô này nếu bạn muốn được báo trước khi Amphetamine tự động dừng 1 phiên chạy do mức pin xuống thấp. Bạn sẽ được chọn tiếp tục phiên hoặc bỏ qua mức pin yếu nếu muốn.\n\n• Bỏ qua Mức Pin Khi Máy Cắm Nguồn\nChọn ô này nếu bạn không muốn Amphetamine tự động dừng phiên chạy do mức pin thấp nhưng đã được cắm nguồn.\nXin lưu ý tùy chọn này chỉ ảnh hưởng các phiên không qua Trigger. Nếu bạn muốn các phiên qua Trigger tính đến mức pin thấp, hãy thêm một thiết đặt về Nguồn điện vào mỗi Trigger.";
+
+"help_message_battery_body_13" = "• Dừng Phiên Khi Mức Pin Dưới...\nChọn ô này nếu bạn muốn Amphetamine tự động dừng các phiên không qua Trigger khi mức pin của máy thấp hơn mức thiết lập bằng thanh slider. Kéo thanh slider qua hết bên phải để dừng phiên chạy khi máy bị ngắt nguồn sạc.\n\n• Báo Trước Khi Dừng 1 Phiên\nChọn ô này nếu bạn muốn được báo trước khi Amphetamine tự động dừng 1 phiên chạy do mức pin xuống thấp. Bạn sẽ được chọn tiếp tục phiên hoặc bỏ qua mức pin yếu nếu muốn.\n\n• Bỏ qua Mức Pin Khi Máy Cắm Nguồn\nChọn ô này nếu bạn không muốn Amphetamine tự động dừng phiên chạy do mức pin thấp nhưng đã được cắm nguồn.\nXin lưu ý tùy chọn này chỉ ảnh hưởng các phiên không qua Trigger. Nếu bạn muốn các phiên qua Trigger tính đến mức pin thấp, hãy thêm một thiết đặt về Nguồn điện vào mỗi Trigger.";
+
 
 // ----- PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS → Power Adapter Help Message
 
@@ -488,7 +532,10 @@
 "help_message_lock_screen_title" = "Khóa Màn hình";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_message_lock_screen_body" = "• Khóa Màn hình Sau ... Không Dùng Máy\nChọn ô này để Amphetamine khóa màn hình máy Mac sau 1 khoảng thời gian cụ thể bạn không dùng máy. Amphetamine sẽ chỉ khóa màn hình nếu đang có 1 phiên chạy. Để kiểm soát khi nào hệ thống khóa màn hình khi không có phiên nào, hãy vào  → Tuỳ chỉnh Hệ thống → Bảo mật & Quyền riêng tư → Cài đặt chung.\n\n• Dùng Con trỏ Chuột để Xem xét Mức Hoạt Động\nChọn ô này để Amphetamine tính cả sự di chuyển của trỏ chuột, chứ không chỉ thời gian nhàn rỗi của hệ thống, để quyết định khi nào nên khóa màn hình. Tính năng này có thể hữu dụng khi bạn cần truy cập máy Mac này từ xa qua VNC/ARD/RDP.\n\n• Khóa Màn hình Ngay Khi Gập\nChọn ô này để Amphetamine có thể khóa màn hình ngay sau khi gập. Tính năng này chỉ hoạt động khi đang có 1 phiên chạy và bạn cũng đã bật chế độ gập màn hình cho phiên đó. Ô chọn sẽ ẩn nếu máy Mac của bạn không hỗ trợ tính năng này.";
+"help_message_lock_screen_body" = "• Khóa Màn hình Sau ... Không Dùng Máy\nChọn ô này để Amphetamine khóa màn hình máy Mac sau 1 khoảng thời gian cụ thể bạn không dùng máy. Amphetamine sẽ chỉ khóa màn hình nếu đang có 1 phiên chạy. Để kiểm soát khi nào hệ thống khóa màn hình khi không có phiên nào, hãy vào  → Tùy chọn Hệ thống → Bảo mật & Quyền riêng tư → Cài đặt chung.\n\n• Dùng Con trỏ Chuột để Xem xét Mức Hoạt Động\nChọn ô này để Amphetamine tính cả sự di chuyển của trỏ chuột, chứ không chỉ thời gian nhàn rỗi của hệ thống, để quyết định khi nào nên khóa màn hình. Tính năng này có thể hữu dụng khi bạn cần truy cập máy Mac này từ xa qua VNC/ARD/RDP.\n\n• Khóa Màn hình Ngay Khi Gập\nChọn ô này để Amphetamine có thể khóa màn hình ngay sau khi gập. Tính năng này chỉ hoạt động khi đang có 1 phiên chạy và bạn cũng đã bật chế độ gập màn hình cho phiên đó. Ô chọn sẽ ẩn nếu máy Mac của bạn không hỗ trợ tính năng này.";
+
+"help_message_lock_screen_body_13" = "• Khóa Màn hình Sau ... Không Dùng Máy\nChọn ô này để Amphetamine khóa màn hình máy Mac sau 1 khoảng thời gian cụ thể bạn không dùng máy. Amphetamine sẽ chỉ khóa màn hình nếu đang có 1 phiên chạy. Để kiểm soát khi nào hệ thống khóa màn hình khi không có phiên nào, hãy vào  → Cài đặt hệ thống → Bảo mật & Quyền riêng tư → Cài đặt chung.\n\n• Dùng Con trỏ Chuột để Xem xét Mức Hoạt Động\nChọn ô này để Amphetamine tính cả sự di chuyển của trỏ chuột, chứ không chỉ thời gian nhàn rỗi của hệ thống, để quyết định khi nào nên khóa màn hình. Tính năng này có thể hữu dụng khi bạn cần truy cập máy Mac này từ xa qua VNC/ARD/RDP.\n\n• Khóa Màn hình Ngay Khi Gập\nChọn ô này để Amphetamine có thể khóa màn hình ngay sau khi gập. Tính năng này chỉ hoạt động khi đang có 1 phiên chạy và bạn cũng đã bật chế độ gập màn hình cho phiên đó. Ô chọn sẽ ẩn nếu máy Mac của bạn không hỗ trợ tính năng này.";
+
 
 // ----- PREFERENCES → SESSIONS → ALL SESSIONS → Cursor Help Message
 
@@ -600,6 +647,9 @@
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_message_start_end_session_body" = "Chỉ với một tổ hợp phím nóng này, bạn có thể bắt đầu hoặc kết thúc một phiên chạy. Thời gian Mặc định (mục Tùy chọn → Phiên Mặc định → Thời gian Mặc định) sẽ được đặt làm khoảng thời gian mặc định cho phiên chạy đó.\n\nSau khi thiết lập tổ hợp phím cho phím nóng, bạn có thể truy cập tính năng này của Amphetamine ở bất kì đâu trong HĐH macOS. Bạn chỉ cần Amphetamine chạy trong nền, không cần phải mở hiện hành trên màn hình.\n\nNếu bạn không thể tạo tổ hợp phím bất kì cho phím nóng này, có khả năng bạn đã đăng kí nó trước đó trong một app khác rồi.";
+
+"help_message_start_end_session_body_13" = "Chỉ với một tổ hợp phím nóng này, bạn có thể bắt đầu hoặc kết thúc một phiên chạy. Thời gian Mặc định (mục Cài đặt → Phiên Mặc định → Thời gian Mặc định) sẽ được đặt làm khoảng thời gian mặc định cho phiên chạy đó.\n\nSau khi thiết lập tổ hợp phím cho phím nóng, bạn có thể truy cập tính năng này của Amphetamine ở bất kì đâu trong HĐH macOS. Bạn chỉ cần Amphetamine chạy trong nền, không cần phải mở hiện hành trên màn hình.\n\nNếu bạn không thể tạo tổ hợp phím bất kì cho phím nóng này, có khả năng bạn đã đăng kí nó trước đó trong một app khác rồi.";
+
 
 // ----- PREFERENCES → HOT KEYS → Start Session Help Message
 
@@ -863,6 +913,7 @@
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_trigger_config_body" = "Tên\nHãy đặt một cái tên dễ nhớ cho Trigger của bạn. Tên này sẽ được dùng trong các thông báo và mục chi tiết phiên chạy trên menu Amphetamine (nếu bạn đã bật các tùy chọn này).\n\nTiêu chí\nTrigger của bạn có thể dùng 1 khoản của mỗi tiêu chí. Để thêm tiêu chí mới, click nút dấu +, rồi chọn tên tiêu chí. Để xoá, hãy chọn tiêu chí trong danh sách, rồi click nút dấu -.\n\nCác tùy chọn Bổ sung\nMỗi Trigger bạn tạo có thể được cấu hình độc lập để cho phép/ngăn chế độ tắt màn hình, chạy screen saver, và có cho hệ thống ngủ khi gập màn hình hay không.";
 
+"help_trigger_config_body_13" = "Tên\nHãy đặt một cái tên dễ nhớ cho Trigger của bạn. Tên này sẽ được dùng trong các thông báo và mục chi tiết phiên chạy trên menu Amphetamine (nếu bạn đã bật các tùy chọn này).\n\nTiêu chí\nTrigger của bạn có thể dùng 1 khoản của mỗi tiêu chí. Để thêm tiêu chí mới, click nút dấu +, rồi chọn tên tiêu chí. Để xoá, hãy chọn tiêu chí trong danh sách, rồi click nút dấu -.\n\nCác tùy chọn Bổ sung\nMỗi Trigger bạn tạo có thể được cấu hình độc lập để cho phép/ngăn chế độ tắt màn hình, chạy screen saver, và có cho hệ thống ngủ khi gập màn hình hay không.";
 
 
 
@@ -1058,7 +1109,9 @@
 "criterion_help_audio_title" = "Tiêu chí về Đầu ra Âm thanh";
 
 // Body
-"criterion_help_audio_body" = "Tiêu chí này được xem là đúng chỉ khi một nguồn xuất âm thanh hiện hành nhất định đang được máy Mac của bạn sử dụng.\n\nĐể thiết đặt một đầu ra âm thanh, vui lòng vào  → tùy chọn Hệ thống → Âm thanh → Đầu ra.";
+"criterion_help_audio_body" = "Tiêu chí này được xem là đúng chỉ khi một nguồn xuất âm thanh hiện hành nhất định đang được máy Mac của bạn sử dụng.\n\nĐể thiết đặt một đầu ra âm thanh, vui lòng vào  → Tùy chọn Hệ thống → Âm thanh → Đầu ra.";
+
+"criterion_help_audio_body_13" = "Tiêu chí này được xem là đúng chỉ khi một nguồn xuất âm thanh hiện hành nhất định đang được máy Mac của bạn sử dụng.\n\nĐể thiết đặt một đầu ra âm thanh, vui lòng vào  → Cài đặt hệ thống → Âm thanh → Đầu ra.";
 
 
 // ----- Criterion Bluetooth Help Message
@@ -1068,6 +1121,8 @@
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "criterion_help_bluetooth_body" = "Tiêu chí này được xem là đúng chỉ khi một thiết bị Bluetooth nhất định được kết nối với máy Mac của bạn. Chỉ những thiết bị Bluetooth đã được pair với máy Mac mới hiện trong danh sách.\n\nĐể pair một thiết bị Bluetooth mới, hãy đưa nó về chế độ pair và truy cập  → Tùy chọn Hệ thống → Bluetooth.";
+
+"criterion_help_bluetooth_body_13" = "Tiêu chí này được xem là đúng chỉ khi một thiết bị Bluetooth nhất định được kết nối với máy Mac của bạn. Chỉ những thiết bị Bluetooth đã được pair với máy Mac mới hiện trong danh sách.\n\nĐể pair một thiết bị Bluetooth mới, hãy đưa nó về chế độ pair và truy cập  → Cài đặt hệ thống → Bluetooth.";
 
 
 // ----- Criterion Cisco AnyConnect VPN Help Message
@@ -1113,6 +1168,8 @@
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "criterion_help_dns_body" = "Tiêu chí này được xem là đúng khi máy Mac của bạn đang dùng bất kì địa chỉ/máy chủ DNS được chỉ định. Để thêm các địa chỉ DNS mà hệ thống đang dùng vào danh sách, hãy click nút dấy +. Để xoá địa chỉ DNS bất kì khỏi danh sách, hãy chọn địa chỉ đó rồi click nút dấu -.\n\nNếu gần đây bạn có cập nhật máy chủ DNS trong Tùy chọn Hệ thống, hoặc thay đổi thiết đặt mạng, xin vui lòng đợi vài phút để macOS cập nhật thông tin máy chủ DNS mới cho Amphetamine.\n\nLưu ý: Trong một số trường hợp, rigger này có thể không được kích hoạt ngay tức thì. Amphetamine sẽ lệnh hỏi các địa chỉ DNS của máy Mac, nhưng nếu gần đây bạn có thay đổi thiết đặt của chúng thì cảm phiền bạn dành 1-2 phút để macOS liên kết thay đổi đó đến Amphetamine nhé.";
+
+"criterion_help_dns_body_13" = "Tiêu chí này được xem là đúng khi máy Mac của bạn đang dùng bất kì địa chỉ/máy chủ DNS được chỉ định. Để thêm các địa chỉ DNS mà hệ thống đang dùng vào danh sách, hãy click nút dấy +. Để xoá địa chỉ DNS bất kì khỏi danh sách, hãy chọn địa chỉ đó rồi click nút dấu -.\n\nNếu gần đây bạn có cập nhật máy chủ DNS trong Cài đặt hệ thống, hoặc thay đổi thiết đặt mạng, xin vui lòng đợi vài phút để macOS cập nhật thông tin máy chủ DNS mới cho Amphetamine.\n\nLưu ý: Trong một số trường hợp, rigger này có thể không được kích hoạt ngay tức thì. Amphetamine sẽ lệnh hỏi các địa chỉ DNS của máy Mac, nhưng nếu gần đây bạn có thay đổi thiết đặt của chúng thì cảm phiền bạn dành 1-2 phút để macOS liên kết thay đổi đó đến Amphetamine nhé.";
 
 
 
@@ -1165,7 +1222,9 @@
 "statbar_mi_app_BigSur" = "Khi App Đang Chạy";
 "statbar_mi_file" = "Khi File Đang Tải...";
 "statbar_mi_qp" = "Tùy chọn Nhanh";
+"statbar_mi_qp_13" = "Cài đặt Nhanh";
 "statbar_mi_prefs" = "Tùy chọn...";
+"statbar_mi_prefs_13" = "Cài đặt...";
 "statbar_mi_about" = "Về Amphetamine";
 "statbar_mi_fb_support" = "Phản hồi & Hỗ trợ";
 "statbar_mi_troubleshoot" = "Sự cố & Câu hỏi Thường gặp";
@@ -1203,6 +1262,9 @@
 // ** NOTE: DO NOT REMOVE '\n' **
 "ww2_lbl_message" = "Theo mặc định, menu của Amphetamine sẽ hiển thị khi bạn click vào Amphetamine trên thanh menu. Click phải chuột (hoặc Control + click) sẽ bắt đầu/kết thúc một phiên chạy để giữ máy thức. Nếu muốn, bạn có thể đổi thiết đặt này.\n\nHãy thay đổi các thiết đặt của Amphetamine tuỳ ý bạn, như biểu tượng trên thanh menu, khi nào nên hiện thông báo, và âm thanh nào để phát trong mục Tùy chọn của Amphetamine.";
 
+"ww2_lbl_message_13" = "Theo mặc định, menu của Amphetamine sẽ hiển thị khi bạn click vào Amphetamine trên thanh menu. Click phải chuột (hoặc Control + click) sẽ bắt đầu/kết thúc một phiên chạy để giữ máy thức. Nếu muốn, bạn có thể đổi thiết đặt này.\n\nHãy thay đổi các thiết đặt của Amphetamine tuỳ ý bạn, như biểu tượng trên thanh menu, khi nào nên hiện thông báo, và âm thanh nào để phát trong mục Cài đặt của Amphetamine.";
+
+
 "ww2_bttn_find_amph" = "Click vào đây để tìm Amphetamine";
 
 // WELCOME WINDOW #3
@@ -1212,6 +1274,8 @@
 // ** NOTE: DO NOT REMOVE '\n' **
 "ww3_lbl_message" = "Khi Amphetamine giữ máy Mac của bạn thức, ta gọi là 1 \"phiên.\" Để bắt đầu 1 phiên chạy, hãy click vào Amphetamine trên thanh menu và chọn 1 khoảng thời gian. Ngoài ra hãy click phải chuột/Control + click để chạy 1 phiên với Thời gian Mặc định. Vào mục Tuỳ chỉnh → Phiên chạy để đổi Thời gian Mặc định.\n\nNếu bạn đang dùng MacBook và muốn máy vẫn thức trong khi gập màn hình, bạn có thể làm được với Amphetamine. Tuy vậy, nên cài đặt thêm Amphetamine Enhancer cho chắc chắn nhé.";
 
+"ww3_lbl_message_13" = "Khi Amphetamine giữ máy Mac của bạn thức, ta gọi là 1 \"phiên.\" Để bắt đầu 1 phiên chạy, hãy click vào Amphetamine trên thanh menu và chọn 1 khoảng thời gian. Ngoài ra hãy click phải chuột/Control + click để chạy 1 phiên với Thời gian Mặc định. Vào mục Tuỳ chỉnh → Phiên chạy để đổi Thời gian Mặc định.\n\nNếu bạn đang dùng MacBook và muốn máy vẫn thức trong khi gập màn hình, bạn có thể làm được với Amphetamine. Tuy vậy, nên cài đặt thêm Amphetamine Enhancer cho chắc chắn nhé.";
+
 "ww3_bttn_learn_amph_enh" = "Click vào đây để biết thêm về Amphetamine Enhancer";
 
 // WELCOME WINDOW #4
@@ -1220,6 +1284,8 @@
 
 // ** NOTE: DO NOT REMOVE '\n' **
 "ww4_lbl_message" = "Tính năng Trigger tự động giữ cho máy Mac thức tuỳ vào các điều kiện về kết nối Wi-Fi, mức pin, kết nối thiết bị USB và Bluetooth, thời gian trong ngày, các ứng dụng đang chạy, địa chỉ IP, nhiều lắm. Hãy vào mục Tùy chọn để tạo Trigger đầu tiên cho mình, hoặc click nút bên dưới để tìm hiểu thêm.\n\nDrive Alive giữ cho ổ đĩa đang kết nối vào máy được thức bằng việc ghi một ít dữ liệu vào mỗi ổ đĩa theo chu kì. Vui lòng vào mục Tùy chọn để thiết lập Drive Alive nhé.";
+
+"ww4_lbl_message_13" = "Tính năng Trigger tự động giữ cho máy Mac thức tuỳ vào các điều kiện về kết nối Wi-Fi, mức pin, kết nối thiết bị USB và Bluetooth, thời gian trong ngày, các ứng dụng đang chạy, địa chỉ IP, nhiều lắm. Hãy vào mục Cài đặt để tạo Trigger đầu tiên cho mình, hoặc click nút bên dưới để tìm hiểu thêm.\n\nDrive Alive giữ cho ổ đĩa đang kết nối vào máy được thức bằng việc ghi một ít dữ liệu vào mỗi ổ đĩa theo chu kì. Vui lòng vào mục Cài đặt để thiết lập Drive Alive nhé.";
 
 "ww4_bttn_learn_triggers" = "Click vào đây để tìm hiểu về Triggers";
 
@@ -1243,7 +1309,7 @@
 
 // ** NOTE: DO NOT REMOVE '\n' **
 "about_lbl_message" = "Amphetamine là dự án viết bằng Objective-C đầu tiên của tôi. Kể từ phiên bản đầu tiên vào năm 2014, Amphetamine đã trở thành một trong những ứng dụng mạnh mẽ và thông dụng nhất để giữ máy Mac của bạn luôn thức. Những đề xuất, phản hồi, và hỗ trợ từ các bạn là động lực cho sự phát triển ấy. Xin chân thành cảm ơn.\n\nAmphetamine sẽ luôn là ứng dụng miễn phí 100%, không quảng cáo, không mua trong ứng dụng, không phải trả phí để nâng cấp.\n\nXin dành Amphetamine để trân trọng kí ức về anh bạn Isaac Kirkman của tôi.\n\nWilliam Gustafson\nTác giả của Amphetamine";
-"about_lbl_hard_work" = "🥵 Viết nên Amphetamine là cả một quá trình cần mẫn đấy. 🥵";
+"about_lbl_hard_work" = "Viết nên Amphetamine là cả một quá trình cần mẫn đấy.";
 "about_bttn_support" = "Liên hệ Hỗ trợ";
 "about_bttn_rate" = "Đánh giá trên App Store";
 "about_bttn_ack" = "Bản xác nhận";
@@ -1257,6 +1323,7 @@
 // ---------------------------------------------------------------------------
 
 "qp_lbl_about" = "Các mục Tùy chọn Nhanh đại diện cho tình trạng của mục tương ứng trong màn hình Tùy chọn, và không nhất thiết phải là phiên chạy hiện hành.";
+"qp_lbl_about_13" = "Các mục Cài đặt Nhanh đại diện cho tình trạng của mục tương ứng trong màn hình Cài đặt, và không nhất thiết phải là phiên chạy hiện hành.";
 "qp_lbl_nt_sess" = "Phiên Mặc định";
 "qp_lbl_all_sess" = "Đ.khiển Hệ thống";
 "qp_lbl_other" = "Khác"; // 其他
@@ -1273,9 +1340,12 @@
 
 // Title
 "help_quick_prefs_title" = "Tùy chọn Nhanh";
+"help_quick_prefs_title_13" = "Cài đặt Nhanh";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "help_quick_prefs_body" = "Mỗi mục của Tùy chọn Nhanh đều tương ứng với một cài đặt trong màn hình Tùy chọn của Amphetamine.\n\nXin chú ý là trạng thái của một mục trong Tùy chọn Nhanh có thể không thể hiện đúng phiên chạy hiện hành, nhất là những phiên qua Trigger.\n\nHành vi của phiên chạy hiện hành có thể bị thay đổi khi bạn dùng mục menu Chi tiết Phiên chạy Hiện hành. Để bật/tắt mục này, hãy vào Tùy chọn → Giao diện → Mục menu thêm.";
+
+"help_quick_prefs_body_13" = "Mỗi mục của Cài đặt Nhanh đều tương ứng với một cài đặt trong màn hình Cài đặt của Amphetamine.\n\nXin chú ý là trạng thái của một mục trong Cài đặt Nhanh có thể không thể hiện đúng phiên chạy hiện hành, nhất là những phiên qua Trigger.\n\nHành vi của phiên chạy hiện hành có thể bị thay đổi khi bạn dùng mục menu Chi tiết Phiên chạy Hiện hành. Để bật/tắt mục này, hãy vào Cài đặt → Giao diện → Mục menu thêm.";
 
 
 
@@ -1308,6 +1378,8 @@
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "cdm_warning_body" = "• Tình trạng Năng lượng\nCác phiên chạy ở chế độ gập màn hình sẽ ngừng nếu máy Mac của bạn bị ngắt khỏi nguồn điện. Khi phiên chạy bắt đầu, nếu máy Mac bị ngắt nguồn, phiên chạy cũng sẽ ngừng. Dù điều này là bắt buộc bởi macOS, các kiểu phiên chạy khác không bị hạn chế như vậy.\n\n• Hao pin và Quá nhiệt\nMáy có thể bị quá nhiệt trong ba lô/va li hoặc pin máy sẽ cạn hoàn toàn nếu bạn quên rằng đã bật tùy chọn chế độ phiên chạy gập màn hình. Hãy xem xét việc bật cảnh cáo chế độ gập màn hình trong Tùy chọn → Thông báo.\n\n• Yên tâm hơn với Amphetamine Enhancer\nNếu Amphetamine bị crash trong một phiên chạy ở chế độ gập màn hình, máy Mac của bạn sẽ có khả năng không thể trở về tình trạng hoạt động như bình thường cho tới khi bạn mở lại Amphetamine hoặc khởi động lại máy. Để phòng khả năng này xảy ra, tôi khuyên bạn hãy cài đặt thêm Amphetamine Enhancer.";
+
+"cdm_warning_body_13" = "• Tình trạng Năng lượng\nCác phiên chạy ở chế độ gập màn hình sẽ ngừng nếu máy Mac của bạn bị ngắt khỏi nguồn điện. Khi phiên chạy bắt đầu, nếu máy Mac bị ngắt nguồn, phiên chạy cũng sẽ ngừng. Dù điều này là bắt buộc bởi macOS, các kiểu phiên chạy khác không bị hạn chế như vậy.\n\n• Hao pin và Quá nhiệt\nMáy có thể bị quá nhiệt trong ba lô/va li hoặc pin máy sẽ cạn hoàn toàn nếu bạn quên rằng đã bật tùy chọn chế độ phiên chạy gập màn hình. Hãy xem xét việc bật cảnh cáo chế độ gập màn hình trong Cài đặt → Thông báo.\n\n• Yên tâm hơn với Amphetamine Enhancer\nNếu Amphetamine bị crash trong một phiên chạy ở chế độ gập màn hình, máy Mac của bạn sẽ có khả năng không thể trở về tình trạng hoạt động như bình thường cho tới khi bạn mở lại Amphetamine hoặc khởi động lại máy. Để phòng khả năng này xảy ra, tôi khuyên bạn hãy cài đặt thêm Amphetamine Enhancer.";
 
 // ----- FAILED CLOSED DISPLAY MODE SESSION WARNING
 
@@ -1356,6 +1428,8 @@
 // Body ** NOTE: DO NOT REMOVE '\n' **
 "sess_is_trigger_body" = "Bạn vừa đổi một thiết đặt vốn chỉ tác động đến các phiên chạy không qua Trigger.\n\nMỗi Trigger có %@ tùy chọn riêng; bạn có thể thay đổi trong thông số tiêu chí của từng Trigger. Để sửa đổi một Trigger, hãy vào Tùy chọn → Triggers và click đúp vào Trigger bạn cần sửa.\n\nNếu bạn muốn tạm thời %@ %@ trong khoảng thời gian của phiên chạy qua Trigger này, hãy click vào ảnh của Amphetamine trên thanh menu và %@ ô chọn %@ trong phần Chi tiết Phiên chạy Hiện hành\n\nNếu bạn không thấy có phần Chi tiết Phiên chạy Hiện hành trong menu Amphetamine, hãy vào Tùy chọn → Giao diện → Mục Menu Thêm và click chọn ô Hiện chi tiết phiên hiện hành.";
 
+"sess_is_trigger_body_13" = "Bạn vừa đổi một thiết đặt vốn chỉ tác động đến các phiên chạy không qua Trigger.\n\nMỗi Trigger có %@ tùy chọn riêng; bạn có thể thay đổi trong thông số tiêu chí của từng Trigger. Để sửa đổi một Trigger, hãy vào Cài đặt → Triggers và click đúp vào Trigger bạn cần sửa.\n\nNếu bạn muốn tạm thời %@ %@ trong khoảng thời gian của phiên chạy qua Trigger này, hãy click vào ảnh của Amphetamine trên thanh menu và %@ ô chọn %@ trong phần Chi tiết Phiên chạy Hiện hành\n\nNếu bạn không thấy có phần Chi tiết Phiên chạy Hiện hành trong menu Amphetamine, hãy vào Cài đặt → Giao diện → Mục Menu Thêm và click chọn ô Hiện chi tiết phiên hiện hành.";
+
 // ----- LOCK SCREEN MESSAGE
 
 "lck_scrn_request_title" = "Để có thể khóa màn hình, Amphetamine cần bạn cho phép truy cập tính năng Trợ năng.";
@@ -1363,12 +1437,16 @@
 // ** NOTE: DO NOT REMOVE '\n' **
 "lck_scrn_request_body" = "Bạn có thể cho phép Amphetamine truy cập tính năng về trợ năng trong Tùy chọn Hệ thống → Bảo mật & Quyền riêng tư → Quyền riêng tư → Trợ năng.\n\nTrong Tùy chọn Hệ thống, click vào icon hình ổ khóa ở góc dưới bên trái và nhập mật khẩu máy Mac của bạn vào. Sau đó, click chọn ô bên cạnh tên của Amphetamine trong mục Trợ năng của tab Quyền riêng tư.\n\nNếu bạn không thấy có Amphetamine trong danh sách Trợ năng, hãy click nút dấu + rồi dò tìm Amphetamine trong thư mục Ứng dụng.\n\nMột khi đã cấp quyền truy cập trợ năng cho Amphetamine xong, bạn hãy trở lại phần tính năng này và bật nó lên nhé.";
 
+"lck_scrn_request_body_13" = "Bạn có thể cho phép Amphetamine truy cập tính năng về trợ năng trong Cài đặt hệ thống → Bảo mật & Quyền riêng tư → Quyền riêng tư → Trợ năng.\n\nTrong Cài đặt hệ thống, click vào icon hình ổ khóa ở góc dưới bên trái và nhập mật khẩu máy Mac của bạn vào. Sau đó, click chọn ô bên cạnh tên của Amphetamine trong mục Trợ năng của tab Quyền riêng tư.\n\nNếu bạn không thấy có Amphetamine trong danh sách Trợ năng, hãy click nút dấu + rồi dò tìm Amphetamine trong thư mục Ứng dụng.\n\nMột khi đã cấp quyền truy cập trợ năng cho Amphetamine xong, bạn hãy trở lại phần tính năng này và bật nó lên nhé.";
+
 
 // ----- CURSOR MOVEMENT MESSAGE
 
 "move_cursor_request_title" = "Để có thể di chuyển con trỏ chuột, Amphetamine cần bạn cho phép truy cập tính năng Trợ năng.";
 
 "move_cursor_request_body" = "Bạn có thể cho phép Amphetamine truy cập tính năng về trợ năng trong Tùy chọn Hệ thống → Bảo mật & Quyền riêng tư → Quyền riêng tư → Trợ năng.\n\nTrong Tùy chọn Hệ thống, click vào icon hình ổ khóa ở góc dưới bên trái và nhập mật khẩu máy Mac của bạn vào. Sau đó, click chọn ô bên cạnh tên của Amphetamine trong mục Trợ năng của tab Quyền riêng tư.\n\nNếu bạn không thấy có Amphetamine trong danh sách Trợ năng, hãy click nút dấu + rồi dò tìm Amphetamine trong thư mục Ứng dụng.\n\nMột khi đã cấp quyền truy cập trợ năng cho Amphetamine xong, bạn hãy trở lại phần tính năng này và bật nó lên nhé.";
+
+"move_cursor_request_body_13" = "Bạn có thể cho phép Amphetamine truy cập tính năng về trợ năng trong Cài đặt hệ thống → Bảo mật & Quyền riêng tư → Quyền riêng tư → Trợ năng.\n\nTrong Cài đặt hệ thống, click vào icon hình ổ khóa ở góc dưới bên trái và nhập mật khẩu máy Mac của bạn vào. Sau đó, click chọn ô bên cạnh tên của Amphetamine trong mục Trợ năng của tab Quyền riêng tư.\n\nNếu bạn không thấy có Amphetamine trong danh sách Trợ năng, hãy click nút dấu + rồi dò tìm Amphetamine trong thư mục Ứng dụng.\n\nMột khi đã cấp quyền truy cập trợ năng cho Amphetamine xong, bạn hãy trở lại phần tính năng này và bật nó lên nhé.";
 
 
 // ----- WHILE FILE IS DOWNLOADING MESSAGE
@@ -1411,6 +1489,7 @@
 "alert_dont_show_again" = "Không hiện cảnh báo này nữa";
 "alert_dont_ask_again" = "Không hỏi nữa";
 "alert_open_sys_prefs" = "Mở Tùy chọn Hệ thống";
+"alert_open_sys_prefs_13" = "Mở Cài đặt hệ thống";
 
 // GENERIC ERROR MESSAGE
 "error_generic_went_wrong_title" = "Ui cha. Có gì đó sai sai đã xảy ra.";
@@ -1425,6 +1504,7 @@
 
 "alert_trig_scn_svr_title" = "Trigger này không được thiết lập để cho phép chạy screen saver.";
 "alert_trig_scn_svr_body" = "Dù Trigger này không được thiết lập để cho phép chạy screen saver, bạn vẫn có thể thay đổi được. Để làm được điều này, hãy vào Tùy chọn → Triggers và click đúp vào tên Trigger để sửa.\n\Hoặc không bạn hãy chọn một mức delay bên dưới, rồi click Bật Screen Saver.";
+"alert_trig_scn_svr_body_13" = "Dù Trigger này không được thiết lập để cho phép chạy screen saver, bạn vẫn có thể thay đổi được. Để làm được điều này, hãy vào Cài đặt → Triggers và click đúp vào tên Trigger để sửa.\n\Hoặc không bạn hãy chọn một mức delay bên dưới, rồi click Bật Screen Saver.";
 
 // ----- DRIVE ALIVE SANDBOX ALERT
 "alert_drivealive_tech_det_title" = "Vài chi tiết về kĩ thuật...";
@@ -1446,6 +1526,7 @@
 // ----- LOCK SCREEN FAILURE
 "alert_lck_scrn_fail_title" = "Amphetamine không thể khóa được màn hình.";
 "alert_lck_scrn_fail_body" = "Hãy vào Tùy chọn → Điều khiển Hệ thống để bật lại tính năng này.";
+"alert_lck_scrn_fail_body_13" = "Hãy vào Cài đặt → Điều khiển Hệ thống để bật lại tính năng này.";
 
 // ----- DEFAULT DURATION
 "alert_dd_less_one_min_title" = "Thời gian mặc định không thể ít hơn 1 phút.";
@@ -1461,7 +1542,9 @@
 
 // ----- RESET PREFERENCES CONFIRMATION
 "prefs_reset_conf_title" = "Bạn có chắc chắn muốn reset các tùy chỉnh của Amphetamine?";
+"prefs_reset_conf_title_13" = "Bạn có chắc chắn muốn reset các tùy chỉnh của Amphetamine?";
 "prefs_reset_conf_body" = "Tất cả tùy chọn sẽ được đưa về mặc định ban đầu. Bạn cũng sẽ mất các thiết lập về Trigger và Drive Alive.";
+"prefs_reset_conf_body_13" = "Tất cả tùy chọn sẽ được đưa về mặc định ban đầu. Bạn cũng sẽ mất các thiết lập về Trigger và Drive Alive.";
 
 // ----- RESET WARNINGS & DIALOGS CONFIRMATION
 "warn_diag_reset_conf_title" = "Reset các cảnh báo và hộp thoại thành công.";
@@ -1474,6 +1557,7 @@
 // ----- DNS SERVER CRITERIA MESSAGE
 "dns_no_new_serv_title" = "Không thấy máy chủ DNS mới nào.";
 "dns_no_new_serv_body" = "Các máy chủ DNS trong danh sách là những gì macOS đã khai báo. Nếu gần đây bạn có cập nhật máy chủ DNS trong Tùy chọn Hệ thống, hay thay đổi thiết đặt mạng, xin vui lòng đợi trong giây lát và thử lại.";
+"dns_no_new_serv_body_13" = "Các máy chủ DNS trong danh sách là những gì macOS đã khai báo. Nếu gần đây bạn có cập nhật máy chủ DNS trong Cài đặt hệ thống, hay thay đổi thiết đặt mạng, xin vui lòng đợi trong giây lát và thử lại.";
 
 // ----- DRIVE ALIVE WRITE ERROR
 "drive_alive_write_err_title" = "Có lỗi xảy ra.";
@@ -1494,6 +1578,8 @@
 
 // PLACEHOLDER IS NAME OF TRIGGER
 "alert_disable_trig_body" = "Bắt buộc phải tắt các Trigger sau để dừng phiên này:\n\n%@\n\nBạn có thể tắt toàn bộ Trigger bằng nút bên dưới, hoặc vào mục Tùy chọn để tắt một Trigger cụ thể. Dù sao bạn vẫn có thể bật lại tất cả Trigger từ màn hình Tùy chọn mà nhỉ.";
+
+"alert_disable_trig_body_13" = "Bắt buộc phải tắt các Trigger sau để dừng phiên này:\n\n%@\n\nBạn có thể tắt toàn bộ Trigger bằng nút bên dưới, hoặc vào mục Cài đặt để tắt một Trigger cụ thể. Dù sao bạn vẫn có thể bật lại tất cả Trigger từ màn hình Cài đặt mà nhỉ.";
 
 "alert_disable_trig_bttn_disable" = "Tắt Tất cả Trigger";
 "alert_disable_trig_bttn_suppress" = "Tự động Tắt Tất cả Trigger ở Lần chạy Kế tiếp";
@@ -1530,8 +1616,12 @@
 
 "amph3_prefs_cnvrt_message" = "Do phiên bản Amphetamine 5 tuyệt vời quá nên các thiết đặt từ bản Amphetamine 3 của bạn cần được nhập sang hoặc reset lại. Nếu bạn chọn Nhập cài đặt, Amphetamine sẽ thử nhập toàn bộ các tùy chọn trước đó (bao gồm Trigger, Drive Alive, biểu tượng, khoảng thời gian, phím nóng, v.v) sang định dạng mới cho Amphetamine 5.\n\nTất nhiên sẽ có một ít rủi ro trong quá trình này, vậy nên hãy thận trọng. Nếu bạn hoàn toàn không muốn mất các cài đặt của bản Amphetamine 3, hãy chọn Backup trước khi thử Nhập cài đặt.\n\nCòn nếu bạn muốn bắt đầu lại từ đầu (khá đấy!), hãy chọn Reset. Cứ click nút Reset nếu bạn không mong đợi thông báo này nhé.";
 
+"amph3_prefs_cnvrt_message_13" = "Do phiên bản Amphetamine 5 tuyệt vời quá nên các thiết đặt từ bản Amphetamine 3 của bạn cần được nhập sang hoặc reset lại. Nếu bạn chọn Nhập cài đặt, Amphetamine sẽ thử nhập toàn bộ các tùy chọn trước đó (bao gồm Trigger, Drive Alive, biểu tượng, khoảng thời gian, phím nóng, v.v) sang định dạng mới cho Amphetamine 5.\n\nTất nhiên sẽ có một ít rủi ro trong quá trình này, vậy nên hãy thận trọng. Nếu bạn hoàn toàn không muốn mất các cài đặt của bản Amphetamine 3, hãy chọn Backup trước khi thử Nhập cài đặt.\n\nCòn nếu bạn muốn bắt đầu lại từ đầu (khá đấy!), hãy chọn Reset. Cứ click nút Reset nếu bạn không mong đợi thông báo này nhé.";
+
 "amph3_prefs_cnvrt_backedup" = "Các tùy chọn của Amphetamine đã được back up.";
+"amph3_prefs_cnvrt_backedup_13" = "Các tùy chọn của Amphetamine đã được back up.";
 "amph3_prefs_cnvrt_ask" = "Bây giờ ứng dụng sẽ hỏi bạn muốn nhập hay reset các tùy chọn.";
+"amph3_prefs_cnvrt_ask_13" = "Bây giờ ứng dụng sẽ hỏi bạn muốn nhập hay reset các tùy chọn.";
 
 
 
