@@ -29,10 +29,13 @@
 "cdm_anomaly_alert_body" = "An Amphetamine session is not currently active, but your Mac appears to be configured to prevent sleep when in Closed-Display Mode. This can lead to unexpected battery drain and/or overheating.\n\nTo correct this issue, Amphetamine needs to run, and if necessary, install a script. You will be prompted to install the script, if needed, and then prompted to authenticate running the script.\n\nThis issue may have occurred due to a Amphetamine crashing during a Closed-Display Mode session, or by someone manually disabling sleep on your Mac.";
 
 "cdm_anomaly_alert_ignore_button" = "Ignore";
+
 "cdm_anomaly_alert_fix_button" = "Fix Issue";
 
 "cdm_script_fail_alert_title" = "Closed-Display Mode Script Failure";
-"cdm_script_fail_alert_body_disable" = "Amphetamine attempted to run a script to disable Closed-Display Mode, but the script either wasn't authenticated successfully or it was cancelled.\n\nYour Mac may still be preventing sleep when the display is closed. This can lead to unexpected battery drain or overheating.\n\nWhen Amphetamine prompts you to fix this issue, it is highly recommended you choose "Fix Issue." You'll be prompted to authenticate allowing \"osascript\" to make changes.";
+
+"cdm_script_fail_alert_body_disable" = "Amphetamine attempted to run a script to disable Closed-Display Mode, but the script either wasn't authenticated successfully or it was cancelled.\n\nYour Mac may still be preventing sleep when the display is closed. This can lead to unexpected battery drain or overheating.\n\nWhen Amphetamine prompts you to fix this issue, it is highly recommended you choose \"Fix Issue.\" You'll be prompted to authenticate allowing \"osascript\" to make changes.";
+
 "cdm_script_fail_alert_body_enable" = "Amphetamine attempted to run a script to enable Closed-Display Mode, but the script either wasn't authenticated successfully or it was cancelled.\n\nYour Mac may still be allowing sleep when the display is closed.\n\nTo fix this issue, end the current session and start a new one. When prompted to allow \"osascript\" to make changes, follow the on-screen directions to successfully authenticate.";
 
 // END NEW STRINGS ADDED FOR v5.2.3
