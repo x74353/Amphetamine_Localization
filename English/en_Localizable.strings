@@ -147,33 +147,112 @@
 */
 
 // ---------------------------------------------------------------------------
-// BEGIN NEW STRINGS ADDED FOR v5.2.3
-
-"cdm_install_script_alert_title" = "Action Required For Closed-Display Mode on Apple Silicon";
-
-"cdm_install_script_alert_body" = "Due to hardware changes introduced with Apple Silicon, Closed-Display Mode has new requirements.\n\nTo be able to connect or disconnect your Mac's power adapter without interrupting the Closed-Display Mode session, Amphetamine needs to install and run a script whenever a Closed-Display Mode session begins or ends. The script must be installed in Amphetamine's Application Scripts folder.\n\nEach time the script runs, authentication will be required. The authentication prompt will say \"osascript wants to make changes.\" After you authenticate, the script will run. If you do not want to authenticate each Closed-Display Mode session, click the Skip button below.\n\nIf you skip installing the Closed-Display Mode script, you won't be asked about this again, and you may experience closed-display mode session interruptions when connecting or disconnecting your Mac's power adapter. If you select Skip but later want to install the script, go to Amphetamine Settings → General, click Reset Warnings and Dialogs, and start a Closed-Display Mode session.";
-
-"cdm_install_script_button" = "Install Script";
-
+// BEGIN NEW STRINGS ADDED FOR v5.3
 "cdm_skip_script_button" = "Skip";
-
 "cdm_remind_me_script_button" = "Remind Me Later";
-
-"cdm_anomaly_alert_title" = "Amphetamine detected an anomaly with your Mac's sleep settings.";
-
-"cdm_anomaly_alert_body" = "An Amphetamine session is not currently active, but your Mac appears to be configured to prevent sleep when in Closed-Display Mode. This can lead to unexpected battery drain and/or overheating.\n\nTo correct this issue, Amphetamine needs to run, and if necessary, install a script. You will be prompted to install the script, if needed, and then prompted to authenticate running the script.\n\nThis issue may have occurred due to a Amphetamine crashing during a Closed-Display Mode session, or by someone manually disabling sleep on your Mac.";
-
 "cdm_anomaly_alert_ignore_button" = "Ignore";
 
-"cdm_anomaly_alert_fix_button" = "Fix Issue";
+// EDIT 2
+"install_script_folder_prompt" = "Select Script Folder";
+"install_script_message" = "Please select the User > Library > Application Scripts > com.if.Amphetamine folder";
 
-"cdm_script_fail_alert_title" = "Closed-Display Mode Script Failure";
+"install_script_success_title" = "Script Installed";
 
-"cdm_script_fail_alert_body_disable" = "Amphetamine attempted to run a script to disable Closed-Display Mode, but the script either wasn't authenticated successfully or it was cancelled.\n\nYour Mac may still be preventing sleep when the display is closed. This can lead to unexpected battery drain or overheating.\n\nWhen Amphetamine prompts you to fix this issue, it is highly recommended you choose \"Fix Issue.\" You'll be prompted to authenticate allowing \"osascript\" to make changes.";
+"install_cdm_script_success_message" = "The Enable/Disable Sleep script was installed successfully.\n\nPlease end the current session and start a new one.";
 
-"cdm_script_fail_alert_body_enable" = "Amphetamine attempted to run a script to enable Closed-Display Mode, but the script either wasn't authenticated successfully or it was cancelled.\n\nYour Mac may still be allowing sleep when the display is closed.\n\nTo fix this issue, end the current session and start a new one. When prompted to allow \"osascript\" to make changes, follow the on-screen directions to successfully authenticate.";
+"install_script_error_title" = "Script Not Installed";
 
-// END NEW STRINGS ADDED FOR v5.2.3
+"install_cdm_script_error_message" = "An error occurred. Either the wrong folder was selected or the script file could not be copied.";
+
+// EDIT 3
+"install_generic_script_success_message" = "The script was installed successfully.\n\nIf a session is active, please end the current session and start a new one.";
+
+"alert_get_amph_enhancer_button_title_m_app" = "Install Process Discovery Script";
+
+"help_app_picker_body_m" = "To see an app or process in this list, it must be running. Use the 'Don't show helper apps and processes' checkbox to filter the list to include or exclude helper apps/processes. Helper apps and processes may not have a user interface and often run silently in the background.\n\nIf you are not seeing an app/process in the list, either it is not running, or Amphetamine is blocked from observing the app/process by macOS's App Sandbox technology. To get around the App Sandbox limitation, you'll need to install a Process Discovery script that can \"see\" these other processes and report them back to Amphetamine.\n\nIf you've installed the Process Discovery script and still aren't seeing the app/process you want, wait up to 10 seconds and then refresh the app/process list by clicking the ↻ button to the right of the search field.";
+
+"criterion_help_app_body_m" = "This criterion will evaluate true only when the specified app or process is running on your Mac.\n\nTo see an app or process in this list, it must be running. Use the 'Don't show helper apps and processes' checkbox to filter the list to include or exclude helper apps/processes. Helper apps and processes may not have a user interface and often run silently in the background.\n\nIf you are not seeing an app/process in the list, either it is not running, or Amphetamine is blocked from observing the app/process by macOS's App Sandbox technology. To get around the App Sandbox limitation, you'll need to install a Process Discovery script that can \"see\" these other processes and report them back to Amphetamine.\n\nIf you've installed the Process Discovery script and still aren't seeing the app/process you want, wait up to 10 seconds and then refresh the app/process list by clicking the ↻ button to the right of the search field.";
+
+// END NEW STRINGS ADDED FOR v5.3
+// ---------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------
+// BEGIN NEW STRINGS ADDED FOR v5.3.1
+
+//Portuguese → Requested
+//Vietnamese → Requested
+//Simplified Chinese → Requested
+//Dutch → Requested
+//German → Requested
+//Korean → Requested
+//Japanese → Requested
+//French → Requested
+//Arabic → Unavailble
+
+// POWER PROTECT
+
+"cdm_install_script_button" = "Install";
+"install_Power_Protect_success_title" = "Power Protect Installed";
+"install_Power_Protect_success_message" = "You will be prompted again to enable or disable Power Protect for this session.";
+"install_Power_Protect_error_title" = "Power Protect Not Installed";
+"install_Power_Protect_error_message" = "An error occurred. You must select the ~/Application Scripts/com.if.Amphetamine folder.\n\nPlease try again or contact support for assistance via Amphetamine's menu bar icon → Feedback & Support → Contact Support";
+
+"cdm_powerProtect_alert_title_nontrigger" = "Power Protect this session?";
+"cdm_powerProtect_alert_title_trigger" = "Power Protect this Trigger session?";
+
+"cdm_powerProtect_alert_body" = "If you connect or disconnect a power source (power adapter, external display with power delivery, etc.) to your Mac while Closed-Display Mode is enabled, a problem may occur.\n\nPower Protect will prevent this problem, but will require you to enter an administrator's password or use Touch ID to start or end Closed-Display Mode.";
+
+"cdm_powerProtect_alert_button_enable_once" = "Power Protect this session only";
+"cdm_powerProtect_alert_button_skip_once" = "Don't Power Protect this session";
+
+"cdm_powerProtect_alert_button_more_options" = "More options...";
+"cdm_powerProtect_alert_button_more_options_alert_title" = "Power Protect More Options"
+"cdm_powerProtect_alert_button_more_options_alert_message" = "Select whether to Power Protect all sessions of this type by default."
+
+"cdm_powerProtect_alert_button_enable_always_nontrigger" = "Power Protect all non-Trigger sessions";
+"cdm_powerProtect_alert_button_enable_always_trigger" = "Always Power Protect this Trigger's sessions";
+
+"cdm_powerProtect_alert_button_skip_always_nontrigger" = "Don't Power Protect any sessions";
+"cdm_powerProtect_alert_button_skip_always_trigger" = "Never Power Protect this Trigger's sessions";
+
+"cdm_install_script_alert_title" = "About Power Protect";
+
+"cdm_install_script_alert_body" = "Power Protect allows you to connect or disconnect your Apple Silicon Mac’s power adapter or other power source, such as a display with power delivery, during a session that has Closed-Display Mode enabled.\n\nYou are not required to use Power Protect to use Closed-Display Mode in a session. Without Power Protect, however, your Mac may immediately enter sleep mode if you connect or disconnect your Mac’s power adapter or other power source during a session that has Closed-Display Mode enabled.\n\nUsing Power Protect requires an administrator’s password or Touch ID. You must authenticate both enabling and disabling Power Protect at the beginning and end of every session.\n\nYou will see an authentication prompt that reads:\n\"osascript wants to make changes\"\n\nTo install Power Protect, click Install below. To skip installation, choose Cancel.\n\nIf you Cancel installation of Power Protect, you will be prompted again the next time you start a session that has Closed-Display Mode enabled. When prompted, choose More Options… and then choose whether to always or never Power Protect your sessions, if desired. Choosing to always or never Power Protect sessions will prevent Amphetamine from prompting you to decide whether to use Power Protect each time you start a session.";
+
+"cdm_anomaly_alert_title" = "Power Protect is affecting your Mac's sleep settings";
+
+"cdm_anomaly_alert_body" = "An Amphetamine session is not currently active, but Power Protect is enabled and is keeping your Mac awake. This can lead to unexpected battery drain and/or overheating, especially in Closed-Display Mode.\n\nTo correct this issue, Amphetamine needs to disable Power Protect, and if necessary, reinstall Power Protect. You'll need to enter an administrator's password or use Touch ID to disable Power Protect.\n\nYou will see an authentication prompt that reads:\n\"osascript wants to make changes\"\n\nThis issue may have been caused by quitting Amphetamine during a Closed-Display Mode enabled session, due to a Amphetamine crashing during a Closed-Display Mode enabled session, or by someone manually disabling sleep on your Mac.";
+
+"cdm_anomaly_alert_body_restart" = "An Amphetamine session is not currently active, but Power Protect is enabled and is keeping your Mac awake. This can lead to unexpected battery drain and/or overheating, especially in Closed-Display Mode.\n\nTo correct this issue, you must relaunch Amphetamine after it quits. Once relaunched, Amphetamine will prompt you again to fix the issue.\n\nTo prevent this issue, make sure to end any active session prior to quitting Amphetamine.";
+
+"cdm_script_fail_alert_title" = "Power Protect Failure";
+"cdm_anomaly_alert_fix_button" = "Disable Power Protect";
+
+"cdm_script_fail_alert_body_disable" = "Amphetamine attempted to disable Power Protect, but authentication wasn't successful or was cancelled.\n\nYour Mac may still be preventing sleep even though there is no active session. This can lead to unexpected battery drain or overheating.\n\nWhen Amphetamine prompts you to fix this issue, it is highly recommended you choose \"Disable Power Protect.\" You'll be prompted again to authenticate allowing \"osascript\" to make changes.";
+
+"cdm_script_fail_alert_body_enable" = "Amphetamine attempted to enable Power Protect for a Closed-Display Mode session but authentication wasn't successful or was cancelled.\n\nYour Mac may not sleep when the display is closed, but connecting or disconnecting an external power source may cause your Mac to sleep immediately.\n\nTo fix this issue, end the current session and start a new one. When prompted to allow \"osascript\" to make changes, follow the on-screen directions to successfully authenticate.";
+
+// DEBUG MODE
+
+"statbar_mi_debugMode" = "Debug Mode...";
+"pref_debug_bttn_enable" = "Enable Debug Mode";
+"debug_window_bttn_export" = "Export Log";
+"debug_window_clear_log" = "Clear Log";
+"debug_window_autoscroll_log" = "Auto-scroll"; // automatic scrolling
+
+"debug_mode_alert_title" = "Debug Mode is Enabled";
+"debug_mode_alert_body" = "Debug Mode could affect Amphetamine's performance.\n\nDisable Debug Mode by clicking on Amphetmaine's icon in the menu bar, and then choose Feedback & Support → Debug Mode... Then, uncheck Enable Debug Mode.";
+
+// LOCATION SEVICES FOR MACOS SONOMA
+
+"location_services_disabled" =  "Location Services not enabled";
+
+// LAUNCH AT LOGIN
+
+"amp_install_path_alert_title" = "Amphetamine's home is Applications";
+"amp_install_path_alert_message" = "For all of Amphetamine's functions to work, it needs to be installed in the Applications folder.\n\nPlease quit Amphetamine and move it to the /Applications folder. Some features like Launch at Login require this.";
+
+// END NEW STRINGS ADDED FOR v5.3.1
 // ---------------------------------------------------------------------------
 
 
@@ -1391,12 +1470,11 @@
 "statbar_mi_about" = "About Amphetamine";
 "statbar_mi_fb_support" = "Feedback & Support";
 "statbar_mi_troubleshoot" = "Troubleshooting & FAQs";
-"statbar_mi_debugMode" = "Enable Debug Mode"; // v5.0.1
 "statbar_mi_contact" = "Contact Support";
 "statbar_mi_follow_dev" = "Follow the Developer"; // OPENS TWITTER LINK
 "statbar_mi_contribute" = "Contribute to Amphetamine's Development";
 "statbar_mi_quit" = "Quit Amphetamine";
-
+"statbar_mi_uninstall_scripts" = "Uninstall Scripts...";
 
 
 
@@ -1435,9 +1513,11 @@
 "ww3_lbl_subtitle" = "Amphetamine keeps your Mac awake. And its displays. And its drives.";
 
 // ** NOTE: DO NOT REMOVE '\n' **
-"ww3_lbl_message_13" = "When Amphetamine is keeping your Mac awake it's called a \"session.\" To start a session, click on Amphetamine in the menu bar and select a session duration. Alternatively, right/control click to start a session using the Default Duration. You can change the Default Duration in Settings → Sessions.\n\nIf you have a MacBook, and want to keep it awake while its display is closed, this is now possible. It is highly recommended you install Amphetamine Enhancer as a fail-safe, however.";
+"ww3_lbl_message_13_m" = "When Amphetamine is keeping your Mac awake it's called a \"session.\" To start a session, click on Amphetamine in the menu bar and select a session duration. Alternatively, right/control click to start a session using the Default Duration. You can change the Default Duration in Settings → Sessions.\n\nIf you have a MacBook, and want to keep it awake while its display is closed, this is called a Closed-Display Mode session.";
 
-"ww3_lbl_message" = "When Amphetamine is keeping your Mac awake it's called a \"session.\" To start a session, click on Amphetamine in the menu bar and select a session duration. Alternatively, right/control click to start a session using the Default Duration. You can change the Default Duration in Preferences → Sessions.\n\nIf you have a MacBook, and want to keep it awake while its display is closed, this is now possible. It is highly recommended you install Amphetamine Enhancer as a fail-safe, however.";
+"ww3_lbl_message_13" = "When Amphetamine is keeping your Mac awake it's called a \"session.\" To start a session, click on Amphetamine in the menu bar and select a session duration. Alternatively, right/control click to start a session using the Default Duration. You can change the Default Duration in Settings → Sessions.\n\nIf you have a MacBook, and want to keep it awake while its display is closed, this is called a Closed-Display Mode session. It is highly recommended you install Amphetamine Enhancer as a fail-safe, however.";
+
+"ww3_lbl_message" = "When Amphetamine is keeping your Mac awake it's called a \"session.\" To start a session, click on Amphetamine in the menu bar and select a session duration. Alternatively, right/control click to start a session using the Default Duration. You can change the Default Duration in Preferences → Sessions.\n\nIf you have a MacBook, and want to keep it awake while its display is closed, this is called a Closed-Display Mode session. It is highly recommended you install Amphetamine Enhancer as a fail-safe, however.";
 
 
 "ww3_bttn_learn_amph_enh" = "Click Here to Learn More About Amphetamine Enhancer";
@@ -1471,11 +1551,11 @@
 
 // ** NOTE: DO NOT REMOVE '\n' **
 "about_lbl_message" = "Amphetamine was my first Objective-C project. Since Amphetamine's initial release back in 2014, it has grown to become one of the most powerful and popular apps for keeping your Mac awake. Your suggestions, feedback, and support are what has driven that growth. Thank you.\n\nAmphetamine will always be a 100% free app without advertisements, in-app purchases, or paid upgrades.\n\nAmphetamine is dedicated to the memory of my friend, Isaac Kirkman.\n\nWilliam Gustafson\nAmphetamine Creator";
-"about_lbl_hard_work" = "Making Amphetamine is hard work!";
+"about_lbl_hard_work" = "🥵 Making Amphetamine is hard work! 🥵";
 "about_bttn_support" = "Contact Support";
 "about_bttn_rate" = "Rate in App Store";
 "about_bttn_ack" = "Acknowledgments";
-
+"about_bttn_learn_more" = "Learn More";
 
 
 
@@ -1532,8 +1612,7 @@
 "help_app_picker_title" = "Apps and Processes";
 
 // Body ** NOTE: DO NOT REMOVE '\n' **
-"help_app_picker_body" = "To see an app or process in this list, it must be running. Use the 'Don't show helper apps and processes' checkbox to filter the list to include or exclude helper apps/processes. Helper apps and processes may not have a user interface and often run silently in the background.\n\nIf you are not seeing an app/process in the list, either it is not running, or Amphetamine is blocked from observing the app/process by macOS's App Sandbox technology. To get around the App Sandbox limitation, you'll need to install Amphetamine Enhancer.\n\nIf you've installed Amphetamine Enhancer and still aren't seeing the app/process you want (and you're sure its running), wait up to 10 sections and then refresh the app/process list by clicking the ↻ button to the right of the search field.";
-
+"help_app_picker_body" = "To see an app or process in this list, it must be running. Use the 'Don't show helper apps and processes' checkbox to filter the list to include or exclude helper apps/processes. Helper apps and processes may not have a user interface and often run silently in the background.\n\nIf you are not seeing an app/process in the list, either it is not running, or Amphetamine is blocked from observing the app/process by macOS's App Sandbox technology. To get around the App Sandbox limitation, you'll need to install Amphetamine Enhancer.\n\nIf you've installed Amphetamine Enhancer and still aren't seeing the app/process you want (and you're sure its running), wait up to 10 seconds and then refresh the app/process list by clicking the ↻ button to the right of the search field.";
 
 // ----- CLOSED DISPLAY MODE WARNING
 
@@ -1801,7 +1880,7 @@
     
 "amph3_prefs_cnvrt_backedup" = "Amphetamine's preferences have been backed up.";
 "amph3_prefs_cnvrt_ask" = "You will now be asked to migrate or reset preferences.";
-}
+
 
 
 
