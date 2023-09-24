@@ -152,9 +152,8 @@
 "cdm_remind_me_script_button" = "Remind Me Later";
 "cdm_anomaly_alert_ignore_button" = "Ignore";
 
-// EDIT 2
-"install_script_folder_prompt" = "Select Script Folder";
-"install_script_message" = "Please select the User > Library > Application Scripts > com.if.Amphetamine folder";
+"install_script_folder_prompt" = "Select Application Scripts";
+"install_script_message" = "Please select the User → Library → Application Scripts → com.if.Amphetamine folder";
 
 "install_script_success_title" = "Script Installed";
 
@@ -164,7 +163,6 @@
 
 "install_cdm_script_error_message" = "An error occurred. Either the wrong folder was selected or the script file could not be copied.";
 
-// EDIT 3
 "install_generic_script_success_message" = "The script was installed successfully.\n\nIf a session is active, please end the current session and start a new one.";
 
 "alert_get_amph_enhancer_button_title_m_app" = "Install Process Discovery Script";
@@ -176,81 +174,98 @@
 // END NEW STRINGS ADDED FOR v5.3
 // ---------------------------------------------------------------------------
 
+
 // ---------------------------------------------------------------------------
 // BEGIN NEW STRINGS ADDED FOR v5.3.1
 
-//Portuguese → Requested
-//Vietnamese → Requested
-//Simplified Chinese → Requested
-//Dutch → Requested
-//German → Requested
-//Korean → Requested
-//Japanese → Requested
-//French → Requested
-//Arabic → Unavailble
+// GENERAL
+
+// NSMENU ITEM TITLE
+"uninstall_script_menu_item" = "Uninstall Scripts...";
+
 
 // POWER PROTECT
+"cdm_install_script_alert_title_new" = "Would you like to install Power Protect?";
+
+"cdm_install_script_alert_body_new" = "Power Protect allows you to connect or disconnect your Apple Silicon Mac’s power adapter or other power source, such as a display with power delivery, during a session that has Closed-Display Mode enabled.\n\nYou are not required to use Power Protect in a session, however, without Power Protect your Mac may immediately enter sleep mode if you connect or disconnect your Mac’s power adapter or other power source during a session when Closed-Display Mode is enabled.\n\nUsing Power Protect requires installing a script and configuration file on your Mac. You'll be prompted to use Touch ID or your administrator password to install the configuration file. The prompt will say \"osascript wants to make changes.\"\n\nOnce the configuration file is installed, the following commands will no longer require a password to execute:\n\npmset -a disablesleep 1\npmset -a disablesleep 0\n\nOther commands that normally require Touch ID or an administrator password to execute will remain unchanged. Amphetamine does not save or otherwise store your password or Touch ID data in this process.";
+
+"install_Power_Protect_success_title_new" = "Power Protect Install\nStep 1 of 2 Complete";
+
+"install_Power_Protect_success_message_new" = "The Power Protect script was successfully installed. Next, you will be prompted to install the Power Protect configuration file.\n\nUse Touch ID or enter your administrator password when prompted.";
+
+"install_Power_Protect_error_title" = "Power Protect Not Installed";
+"install_Power_Protect_error_message" = "An error occurred. You must select the ~/Application Scripts/com.if.Amphetamine folder.\n\nPlease try again or contact support for assistance via Amphetamine's menu bar icon → Feedback & Support → Contact Support.";
+
+"power_protect_sudo_install_success_title" = "Power Protect is Installed";
+"power_protect_sudo_install_success_message" = "Installing the configuration and script files for Power Protect succeeded.\n\nIf a session is active, please end and restart it.";
+
+"power_protect_sudo_install_fail_title" = "Power Protect Not Installed";
+"power_protect_sudo_install_fail_message" = "Installing the Power Protect configuration file failed.\n\nPlease contact support via Amphetamine's menu → Feedback & Support → Contact Support";
 
 "cdm_install_script_button" = "Install";
-"install_Power_Protect_success_title" = "Power Protect Installed";
-"install_Power_Protect_success_message" = "You will be prompted again to enable or disable Power Protect for this session.";
-"install_Power_Protect_error_title" = "Power Protect Not Installed";
-"install_Power_Protect_error_message" = "An error occurred. You must select the ~/Application Scripts/com.if.Amphetamine folder.\n\nPlease try again or contact support for assistance via Amphetamine's menu bar icon → Feedback & Support → Contact Support";
 
-"cdm_powerProtect_alert_title_nontrigger" = "Power Protect this session?";
-"cdm_powerProtect_alert_title_trigger" = "Power Protect this Trigger session?";
+"cdm_script_fail_alert_title_new" = "Power Protect Failure";
 
-"cdm_powerProtect_alert_body" = "If you connect or disconnect a power source (power adapter, external display with power delivery, etc.) to your Mac while Closed-Display Mode is enabled, a problem may occur.\n\nPower Protect will prevent this problem, but will require you to enter an administrator's password or use Touch ID to start or end Closed-Display Mode.";
+"cdm_script_fail_alert_body_enable_new" = "Amphetamine attempted to enable Power Protect for a Closed-Display Mode session but wasn't successful.\n\nYour Mac may not sleep when the display is closed, but connecting or disconnecting an external power source may cause your Mac to sleep immediately.\n\nTo fix this issue, try ending the current session and start a new one.\n\nIf the issue persists, contact support via Amphetamine's menu → Feedback & Support → Contact Support";
 
-"cdm_powerProtect_alert_button_enable_once" = "Power Protect this session only";
-"cdm_powerProtect_alert_button_skip_once" = "Don't Power Protect this session";
-
-"cdm_powerProtect_alert_button_more_options" = "More options...";
-"cdm_powerProtect_alert_button_more_options_alert_title" = "Power Protect More Options"
-"cdm_powerProtect_alert_button_more_options_alert_message" = "Select whether to Power Protect all sessions of this type by default."
-
-"cdm_powerProtect_alert_button_enable_always_nontrigger" = "Power Protect all non-Trigger sessions";
-"cdm_powerProtect_alert_button_enable_always_trigger" = "Always Power Protect this Trigger's sessions";
-
-"cdm_powerProtect_alert_button_skip_always_nontrigger" = "Don't Power Protect any sessions";
-"cdm_powerProtect_alert_button_skip_always_trigger" = "Never Power Protect this Trigger's sessions";
-
-"cdm_install_script_alert_title" = "About Power Protect";
-
-"cdm_install_script_alert_body" = "Power Protect allows you to connect or disconnect your Apple Silicon Mac’s power adapter or other power source, such as a display with power delivery, during a session that has Closed-Display Mode enabled.\n\nYou are not required to use Power Protect to use Closed-Display Mode in a session. Without Power Protect, however, your Mac may immediately enter sleep mode if you connect or disconnect your Mac’s power adapter or other power source during a session that has Closed-Display Mode enabled.\n\nUsing Power Protect requires an administrator’s password or Touch ID. You must authenticate both enabling and disabling Power Protect at the beginning and end of every session.\n\nYou will see an authentication prompt that reads:\n\"osascript wants to make changes\"\n\nTo install Power Protect, click Install below. To skip installation, choose Cancel.\n\nIf you Cancel installation of Power Protect, you will be prompted again the next time you start a session that has Closed-Display Mode enabled. When prompted, choose More Options… and then choose whether to always or never Power Protect your sessions, if desired. Choosing to always or never Power Protect sessions will prevent Amphetamine from prompting you to decide whether to use Power Protect each time you start a session.";
+"cdm_script_fail_alert_body_disable_new" = "Amphetamine attempted to disable Power Protect, but wasn't successful.\n\nYour Mac may still be preventing sleep even though there is no active session. This can lead to unexpected battery drain or overheating.\n\nWhen Amphetamine prompts you to fix this issue, it is highly recommended you choose Disable Power Protect.";
 
 "cdm_anomaly_alert_title" = "Power Protect is affecting your Mac's sleep settings";
 
-"cdm_anomaly_alert_body" = "An Amphetamine session is not currently active, but Power Protect is enabled and is keeping your Mac awake. This can lead to unexpected battery drain and/or overheating, especially in Closed-Display Mode.\n\nTo correct this issue, Amphetamine needs to disable Power Protect, and if necessary, reinstall Power Protect. You'll need to enter an administrator's password or use Touch ID to disable Power Protect.\n\nYou will see an authentication prompt that reads:\n\"osascript wants to make changes\"\n\nThis issue may have been caused by quitting Amphetamine during a Closed-Display Mode enabled session, due to a Amphetamine crashing during a Closed-Display Mode enabled session, or by someone manually disabling sleep on your Mac.";
+"cdm_anomaly_alert_body_new" = "An Amphetamine session is not currently active, but Power Protect is enabled and is keeping your Mac awake. This can lead to unexpected battery drain and/or overheating, especially in Closed-Display Mode.\n\nTo correct this issue, Amphetamine needs to disable Power Protect, and if necessary, reinstall Power Protect.\n\nThis issue may have been caused by quitting Amphetamine during a Closed-Display Mode enabled session, due to a Amphetamine crashing during a Closed-Display Mode enabled session, or by someone manually disabling sleep on your Mac.";
 
-"cdm_anomaly_alert_body_restart" = "An Amphetamine session is not currently active, but Power Protect is enabled and is keeping your Mac awake. This can lead to unexpected battery drain and/or overheating, especially in Closed-Display Mode.\n\nTo correct this issue, you must relaunch Amphetamine after it quits. Once relaunched, Amphetamine will prompt you again to fix the issue.\n\nTo prevent this issue, make sure to end any active session prior to quitting Amphetamine.";
-
-"cdm_script_fail_alert_title" = "Power Protect Failure";
 "cdm_anomaly_alert_fix_button" = "Disable Power Protect";
 
-"cdm_script_fail_alert_body_disable" = "Amphetamine attempted to disable Power Protect, but authentication wasn't successful or was cancelled.\n\nYour Mac may still be preventing sleep even though there is no active session. This can lead to unexpected battery drain or overheating.\n\nWhen Amphetamine prompts you to fix this issue, it is highly recommended you choose \"Disable Power Protect.\" You'll be prompted again to authenticate allowing \"osascript\" to make changes.";
+"update_Power_Protect_title" = "Power Protect Update";
+"update_Power_Protect_message" = "The script Power Protect uses needs to be updated.";
 
-"cdm_script_fail_alert_body_enable" = "Amphetamine attempted to enable Power Protect for a Closed-Display Mode session but authentication wasn't successful or was cancelled.\n\nYour Mac may not sleep when the display is closed, but connecting or disconnecting an external power source may cause your Mac to sleep immediately.\n\nTo fix this issue, end the current session and start a new one. When prompted to allow \"osascript\" to make changes, follow the on-screen directions to successfully authenticate.";
+"power_protect_update_script_button" = "Update"; // NSOPENPANEL BUTTON TITLE
+
+"update_Power_Protect_success_title" = "Power Protect Updated";
+"update_Power_Protect_success_message" = "Please end any Power Protected sessions and restart them.";
+
+"update_Power_Protect_error_title" = "Power Protect Not Updated";
+"update_Power_Protect_error_message" = "An error occurred. You must select the ~/Application Scripts/com.if.Amphetamine folder.\n\nPlease restart Amphetamine and try again, or contact support for assistance via Amphetamine's menu bar icon → Feedback & Support → Contact Support.";
+
 
 // DEBUG MODE
+"debug_window_title" = "Amphetamine Debug Console";
+"debug_column_header_souce" = "Source";
+"debug_column_header_time" = "Time";
+"debug_colum_header_message" = "Message";
 
 "statbar_mi_debugMode" = "Debug Mode...";
 "pref_debug_bttn_enable" = "Enable Debug Mode";
 "debug_window_bttn_export" = "Export Log";
-"debug_window_clear_log" = "Clear Log";
+"debug_window_clear_log" = "Clear Console";
 "debug_window_autoscroll_log" = "Auto-scroll"; // automatic scrolling
 
-"debug_mode_alert_title" = "Debug Mode is Enabled";
-"debug_mode_alert_body" = "Debug Mode could affect Amphetamine's performance.\n\nDisable Debug Mode by clicking on Amphetmaine's icon in the menu bar, and then choose Feedback & Support → Debug Mode... Then, uncheck Enable Debug Mode.";
+"debug_mode_alert_title" = "Debug Mode is enabled";
+"debug_mode_alert_body" = "Debug Mode could affect Amphetamine's performance.\n\nDisable Debug Mode by clicking on Amphetamine's icon in the menu bar, and then choose Feedback & Support → Debug Mode... Then, uncheck Enable Debug Mode.";
 
-// LOCATION SEVICES FOR MACOS SONOMA
+"debug_save_prompt" = "Choose where to save the Debug Mode log file:";
+"debug_save_success_title" = "Debug log exported";
+"debug_save_success_message" = "Successfully saved to %@"; // %@ will be the file path chosen by the user
 
+"debug_save_fail_title" = "Export failed";
+"debug_save_fail_message" = "Please try again or choose a different location to save the file.";
+
+
+// LOCATION SERVICES FOR MACOS SONOMA
 "location_services_disabled" =  "Location Services not enabled";
+"locSrv_alert_title" = "Amphetamine needs Location Services access";
+"locSrv_alert_message" = "Starting in macOS 14 Sonoma, apps that want to get your WiFi network's name must be granted access to Location Services. You should be prompted to grant Amphetamine access.\n\nIf you are not prompted, go to  → System Settings → Privacy & Security → Location Services and grant Amphetamine access.";
+
 
 // LAUNCH AT LOGIN
-
 "amp_install_path_alert_title" = "Amphetamine's home is Applications";
 "amp_install_path_alert_message" = "For all of Amphetamine's functions to work, it needs to be installed in the Applications folder.\n\nPlease quit Amphetamine and move it to the /Applications folder. Some features like Launch at Login require this.";
+
+
+// ROSETTA 2 WARNING
+"rosetta_warn_title" = "Amphetamine is using Rosetta";
+"rosetta_warn_message" = "You have an Apple Silicon Mac, but the Intel version of Amphetamine is running.\n\nThis will cause some of Amphetamine's features to not work as expected.\n\nTo fix this issue, use Finder to select Amphetamine in the Applications folder and then choose File → Get Info from Finder's menu. In the Amphetamine Info window that appears, uncheck the box labeled Open Using Rosetta, then quit and relaunch Amphetamine.";
+
 
 // END NEW STRINGS ADDED FOR v5.3.1
 // ---------------------------------------------------------------------------
@@ -1474,7 +1489,7 @@
 "statbar_mi_follow_dev" = "Follow the Developer"; // OPENS TWITTER LINK
 "statbar_mi_contribute" = "Contribute to Amphetamine's Development";
 "statbar_mi_quit" = "Quit Amphetamine";
-"statbar_mi_uninstall_scripts" = "Uninstall Scripts...";
+
 
 
 
