@@ -1,7 +1,7 @@
 ---------------------------------------------------------
 SUBTITLE:
 
-** NOTE: This field has a 30 character limit **
+** NOTE: This field has a 30-character limit **
 
 Powerful keep-awake utility
 
@@ -26,7 +26,7 @@ Quick-start a session with one click, or choose a duration.
 
 PREVIEW 2:
 Use Triggers to automate when your Mac should sleep.
-WiFi, USB & Bluetooth, display, drives, + more.
+Wi-Fi, USB & Bluetooth, display, drives, + more.
 
 PREVIEW 3:
 Keep your Mac awake while you work.
@@ -80,7 +80,7 @@ Create a Trigger to automatically keep your Mac awake.
 • While your Mac has a specific IP address
 • While your Mac is on a specific Wi-Fi network
 • While your Mac is connected to Cisco AnyConnect VPN service
-• While your Mac is using a specific DNS servers
+• While your Mac is using a specific DNS server
 • While headphones or another audio output is in use
 • While a specific drive or volume is mounted
 • While your Mac's CPU is being utilized to a specific threshold
@@ -113,7 +113,7 @@ Amphetamine is the most powerful and customizable keep-awake utility ever create
 • Use your own notification sounds
 • Allow your display to sleep while keeping your Mac awake
 • Allow screen saver to run after a customizable period of inactivity
-• Optional session time remaining display in the menu (with 12/24 hour support)
+• Optional session time remaining display in the menu (with 12/24-hour support)
 • Auto-end session if your Mac's battery is low
 • Hot key support for starting/ending sessions, enabling disabling display sleep, and more
 
