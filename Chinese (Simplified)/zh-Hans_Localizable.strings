@@ -12,27 +12,27 @@
 // BEGIN NEW STRINGS ADDED FOR v5.2.3
 // NOTE: "Closed-Display Mode" is translated as "显示器关闭模式"
 
-"cdm_install_script_alert_title" = "Action Required For Closed-Display Mode on Apple Silicon";
+"cdm_install_script_alert_title" = "在Apple Silicon上需要采取行动才能使用显示器关闭模式";
 
-"cdm_install_script_alert_body" = "Due to hardware changes introduced with Apple Silicon, Closed-Display Mode has new requirements.\n\nTo be able to connect or disconnect your Mac's power adapter without interrupting the Closed-Display Mode session, Amphetamine needs to install and run a script whenever a Closed-Display Mode session begins or ends. The script must be installed in Amphetamine's Application Scripts folder.\n\nEach time the script runs, authentication will be required. The authentication prompt will say \"osascript wants to make changes.\" After you authenticate, the script will run. If you do not want to authenticate each Closed-Display Mode session, click the Skip button below.\n\nIf you skip installing the Closed-Display Mode script, you won't be asked about this again, and you may experience closed-display mode session interruptions when connecting or disconnecting your Mac's power adapter. If you select Skip but later want to install the script, go to Amphetamine Settings → General, click Reset Warnings and Dialogs, and start a Closed-Display Mode session.";
+"cdm_install_script_alert_body" = "由于Apple Silicon引入的硬件变化，显示器关闭模式有新的要求。\n\n为了能够在不中断显示器关闭模式的情况下连接或断开Mac的电源，Amphetamine需要在显示器关闭模式开始或结束时安装并运行脚本。该脚本必须安装在Amphetamine的应用程序脚本文件夹中。\n\n每次运行脚本时，都需要进行验证。验证视窗将提示您进行验证，允许\"osascript\"进行更改。\"进行验证后，脚本将运行。如果您不想每次运行显示器关闭模式验证，请单击下面的“跳过”按钮。\n\n如果您跳过安装显示器关闭模式脚本，系统将不会再次询问您此问题，并且在连接或断开Mac电源适配器时，您可能会遇到显示器关闭模式中断的情况。如果您选择“跳过”但稍后想要安装脚本，请转至“Amphetamine”→“通用”，单击“重置警告和对话框”，然后启动会话。";
 
-"cdm_install_script_button" = "Install Script";
+"cdm_install_script_button" = "安装脚本";
 
-"cdm_skip_script_button" = "Skip";
+"cdm_skip_script_button" = "跳过";
 
-"cdm_remind_me_script_button" = "Remind Me Later";
+"cdm_remind_me_script_button" = "稍后提醒";
 
-"cdm_anomaly_alert_title" = "Amphetamine detected an anomaly with your Mac's sleep settings.";
+"cdm_anomaly_alert_title" = "Amphetamine检测到Mac有异常的睡眠设置。";
 
-"cdm_anomaly_alert_body" = "An Amphetamine session is not currently active, but your Mac appears to be configured to prevent sleep when in Closed-Display Mode. This can lead to unexpected battery drain and/or overheating.\n\nTo correct this issue, Amphetamine needs to run, and if necessary, install a script. You will be prompted to install the script, if needed, and then prompted to authenticate running the script.\n\nThis issue may have occurred due to a Amphetamine crashing during a Closed-Display Mode session, or by someone manually disabling sleep on your Mac.";
+"cdm_anomaly_alert_body" = "An Amphetamine session is not currently active, but your Mac appears to be configured to prevent sleep when in显示器关闭模式. This can lead to unexpected battery drain and/or overheating.\n\nTo correct this issue, Amphetamine needs to run, and if necessary, install a script. You will be prompted to install the script, if needed, and then prompted to authenticate running the script.\n\nThis issue may have occurred due to a Amphetamine crashing during显示器关闭模式session, or by someone manually disabling sleep on your Mac.";
 
-"cdm_anomaly_alert_ignore_button" = "Ignore";
+"cdm_anomaly_alert_ignore_button" = "忽略";
 
-"cdm_anomaly_alert_fix_button" = "Fix Issue";
+"cdm_anomaly_alert_fix_button" = "修复问题";
 
-"cdm_script_fail_alert_title" = "Closed-Display Mode Script Failure";
+"cdm_script_fail_alert_title" = "关闭显示模式的脚本失败";
 
-"cdm_script_fail_alert_body_disable" = "Amphetamine attempted to run a script to disable Closed-Display Mode, but the script either wasn't authenticated successfully or it was cancelled.\n\nYour Mac may still be preventing sleep when the display is closed. This can lead to unexpected battery drain or overheating.\n\nWhen Amphetamine prompts you to fix this issue, it is highly recommended you choose \"Fix Issue.\" You'll be prompted to authenticate allowing \"osascript\" to make changes.";
+"cdm_script_fail_alert_body_disable" = "Amphetamine尝试运行脚本来停用关闭显示模式，但该脚本未成功通过认证或已被取消。\n\n当显示屏关闭时，您的Mac可能仍会防止睡眠。这可能会导致电池意外耗尽或过热。\n\n当Amphetamine提示您修复此问题时，强烈建议您选择\"修复问题。\"系统将提示您进行验证，允许\"osascript\"进行更改。";
 
 "cdm_script_fail_alert_body_enable" = "Amphetamine attempted to run a script to enable Closed-Display Mode, but the script either wasn't authenticated successfully or it was cancelled.\n\nYour Mac may still be allowing sleep when the display is closed.\n\nTo fix this issue, end the current session and start a new one. When prompted to allow \"osascript\" to make changes, follow the on-screen directions to successfully authenticate.";
 
@@ -100,14 +100,14 @@
 
 // TIME UNIT ABBREVIATIONS
 // EXAMPLE: 1h 30m = 1 HOUR 30 MINUTES
-"duration_abbrv_hours_h" = "h";
-"duration_abbrv_hours_hrs" = "hrs";
+"duration_abbrv_hours_h" = "小时";
+"duration_abbrv_hours_hrs" = "小时";
 
-"duration_abbrv_minutes_mins" = "mins";
-"duration_abbrv_minutes_m" = "m";
+"duration_abbrv_minutes_mins" = "分钟";
+"duration_abbrv_minutes_m" = "分钟";
 
-"duration_abbrv_seconds_secs" = "secs";
-"duration_abbrv_seconds_s" = "s";
+"duration_abbrv_seconds_secs" = "秒";
+"duration_abbrv_seconds_s" = "秒";
 
 // USED IN SENTENCE; EXAMPLE: 10 MINUTES 'OF INACTIVITY'
 "gen_use_of_inactivity" = "后运行";
@@ -119,7 +119,7 @@
 
 // USED TO INDICATE A CUSTOM TIME SELECTION AS OPPOSED TO THE STANDARD SELECTIONS
 // EXAMPLE: " 'OTHER TIME:' 2 HRS 16 MINS "
-"gen_use_other_time_colon" = "剩余时间:";
+"gen_use_other_time_colon" = "剩余时间：";
 
 // USED TO INDICATE THAT NO DEVICES (i.e. USB or BLUETOOTH DEVICE) ARE CONNECTED TO THIS MAC
 "gen_use_no_recog_dev" = "未连接可识别的设备";
@@ -144,7 +144,7 @@
 "path_to_usr_prefs" = "/Library/Preferences/";
 
 // Used to denote the version of the app. Example: Version 5.0
-"gen_use_version_cap" = "Version";
+"gen_use_version_cap" = "版本";
 
 // USED AS BUTTON LABEL/TITLE IN RESPONSE TO A QUESTION
 // EXAMPLE: Q: IS THIS DRIVE A NETWORK VOLUME? BUTTON TITLES: 'YES', 'NO'
@@ -311,9 +311,9 @@
 "pref_gen_bttn_reset_all_prefs_13" = "恢复默认设置";
 
 // PREFERENCES → GENERAL LABELS
-"pref_gen_lbl_quick_start" = "快速开启一个会话:";
-"pref_gen_lbl_launch_wake" = "启动和唤醒:";
-"pref_gen_lbl_other" = "其他:";
+"pref_gen_lbl_quick_start" = "快速开启一个会话：";
+"pref_gen_lbl_launch_wake" = "启动和唤醒：";
+"pref_gen_lbl_other" = "其他：";
 "pref_gen_lbl_takes_effect_close_win" = "↳ 关闭所有打开的窗口后生效";
 
 // PREFERENCES → GENERAL MENU ITEMS
@@ -384,15 +384,15 @@
 "pref_sess_nt_bttn_endtime_sysclock" = "使用系统时钟"; //v5.0.2
 
 // PREFERENCES → SESSIONS → NON-TRIGGER SESSIONS LABELS
-"pref_sess_nt_lbl_dd" = "默认时长:";
-"pref_sess_nt_lbl_end_time_calc" = "计算结束时间:";
-"pref_sess_nt_lbl_forced_sleep" = "强制睡眠:";
-"pref_sess_nt_lbl_display_sleep" = "显示器睡眠:";
-"pref_sess_nt_lbl_cdm" = "显示器关闭模式:";
-"pref_sess_nt_lbl_screen_saver" = "屏幕保护程序:";
-"pref_sess_nt_lbl_battery" = "电池:";
-"pref_sess_nt_lbl_pwr_adptr" = "电源适配器:";
-"pref_sess_nt_lbl_cust_dd_enter" = "输入新的时长:";
+"pref_sess_nt_lbl_dd" = "默认时长：";
+"pref_sess_nt_lbl_end_time_calc" = "计算结束时间：";
+"pref_sess_nt_lbl_forced_sleep" = "强制睡眠：";
+"pref_sess_nt_lbl_display_sleep" = "显示器睡眠：";
+"pref_sess_nt_lbl_cdm" = "显示器关闭模式：";
+"pref_sess_nt_lbl_screen_saver" = "屏幕保护程序：";
+"pref_sess_nt_lbl_battery" = "电池：";
+"pref_sess_nt_lbl_pwr_adptr" = "电源适配器：";
+"pref_sess_nt_lbl_cust_dd_enter" = "输入新的时长：";
 
 // OTHER STRINGS
 
@@ -406,7 +406,7 @@
 "pref_sess_batt_is_below2" = "电池充电量低于%li%%";
 
 // USED IN SENTENCE; EXAMPLE: " 'End session when:' not connected to power adapter"
-"pref_sess_nt_end_when" = "结束会话，当:";
+"pref_sess_nt_end_when" = "结束会话，当：";
 
 // USED IN SENTENCE; EXAMPLE: "End session when: 'not connected to power adapter' "
 "pref_sess_nt_ac_not_connected" = "未连接电源适配器时";
@@ -415,7 +415,7 @@
 
 // USED IN SENTENCE; EXAMPLE: " 'End session if charge (%) is below: ' 10%"
 // ** NOTE: LEAVE SPACE CHAR AT END OF STRING **
-"pref_sess_nt_end_if_chrg" = "当电量低于(%)时结束会话:";
+"pref_sess_nt_end_if_chrg" = "当电量低于(%)时结束会话：";
 
 // ---------------------------------------------------------------------------
 // (?) BUTTON MENU ITEMS
@@ -514,13 +514,13 @@
 "pref_sess_as_bttn_fast_usr_switch" = "切换用户时结束会话";
 
 // PREFERENCES → SESSIONS → ALL SESSIONS LABELS
-"pref_sess_as_lbl_cursor_speed" = "光标移动速度:";
+"pref_sess_as_lbl_cursor_speed" = "光标移动速度：";
 "pref_sess_as_lbl_cursor_speed_fast" =  "快";
 "pref_sess_as_lbl_cursor_speed_slow" =  "慢";
 "pref_sess_as_lbl_cursor_speed_warn" = "较慢的移动会稍微增加CPU使用率";
-"pref_sess_as_lbl_lck_scrn" = "锁定屏幕:";
-"pref_sess_as_lbl_cursor" = "光标:";
-"pref_sess_as_lbl_fast_usr_switch" = "快速切换用户:";
+"pref_sess_as_lbl_lck_scrn" = "锁定屏幕：";
+"pref_sess_as_lbl_cursor" = "光标：";
+"pref_sess_as_lbl_fast_usr_switch" = "快速切换用户：";
 
 // ---------------------------------------------------------------------------
 // (?) BUTTON MENU ITEMS
@@ -621,15 +621,15 @@
 "prefs_tb_hotk" = "热键";
 
 // PREFERENCES → HOT KEYS LABELS
-"pref_hotk_lbl_startend_action" = "当一个会话正在运行中:";
-"pref_hotk_lbl_start_duration" = "持续时间:";
-"pref_hotk_lbl_startend" = "开启或结束会话:";
-"pref_hotk_lbl_start" = "开启会话:";
-"pref_hotk_lbl_end" = "结束会话:";
-"pref_hotk_lbl_open_menu" = "打开/关闭菜单:";
+"pref_hotk_lbl_startend_action" = "当一个会话正在运行中：";
+"pref_hotk_lbl_start_duration" = "持续时间：";
+"pref_hotk_lbl_startend" = "开启或结束会话：";
+"pref_hotk_lbl_start" = "开启会话：";
+"pref_hotk_lbl_end" = "结束会话：";
+"pref_hotk_lbl_open_menu" = "打开/关闭菜单：";
 "pref_hotk_lbl_open_menu_close" = "点击Esc键关闭菜单"; // Escape key closes menu
-"pref_hotk_lbl_toggle_disp_sleep" = "切换允许显示器睡眠:";
-"pref_hotk_lbl_toggle_screen_saver" = "切换允许屏幕保护程序运行:";
+"pref_hotk_lbl_toggle_disp_sleep" = "切换允许显示器睡眠：";
+"pref_hotk_lbl_toggle_screen_saver" = "切换允许屏幕保护程序运行：";
 
 // PREFERENCES → HOT KEYS MENU ITEMS
 "pref_hotk_mi_startend_action_endstart" = "结束当前会话并开启一个新会话";
@@ -714,13 +714,13 @@
 "pref_notif_bttn_notif_remove" = "删除展示后的通知";
 
 // PREFERENCES → NOTIFICATIONS LABELS
-"pref_notif_lbl_sound_start" = "会话开启/提醒:";
-"pref_notif_lbl_sound_end" = "会话结束:";
-"pref_notif_lbl_session_reminders" = "会话提醒:";
-"pref_notif_lbl_trig_sched" = "触发器/计划:";
-"pref_notif_lbl_sound" = "提示单:";
-"pref_notif_lbl_cdm" = "显示器关闭模式:";
-"pref_notif_lbl_notif_center" = "通知中心:";
+"pref_notif_lbl_sound_start" = "会话开启/提醒：";
+"pref_notif_lbl_sound_end" = "会话结束：";
+"pref_notif_lbl_session_reminders" = "会话提醒：";
+"pref_notif_lbl_trig_sched" = "触发器/计划：";
+"pref_notif_lbl_sound" = "提示单：";
+"pref_notif_lbl_cdm" = "显示器关闭模式：";
+"pref_notif_lbl_notif_center" = "通知中心：";
 
 // PREFERENCES → NOTIFICATIONS MENU ITEMS
 "pref_notif_mi_default_sound" = "默认系统提示音";
@@ -789,9 +789,9 @@
 "pref_appr_bttn_show_drive_alive" = "显示硬盘唤醒的详细信息";
 
 // PREFERENCES → APPEARANCE LABELS
-"pref_appr_lbl_image" = "菜单栏图标:";
-"pref_appr_lbl_text" = "菜单栏文本:";
-"pref_appr_lbl_xtra" = "附加菜单:";
+"pref_appr_lbl_image" = "菜单栏图标：";
+"pref_appr_lbl_text" = "菜单栏文本：";
+"pref_appr_lbl_xtra" = "附加菜单：";
 
 // ** NOTE: DO NOT REMOVE '\n' **
 "pref_appr_lbl_cust_icon_inst" = "将图像文件拖放到下面的区域中。为了获得最佳效果，\n应使用具有透明背景的二进制图像。";
@@ -818,7 +818,7 @@
 "pref_appr_mi_image_emoji" = "Emoji";
 "pref_appr_mi_text_normal_sz" = "标准字号";
 "pref_appr_mi_text_small_sz" = "较小字号";
-"pref_appr_mi_text_format_normal" = "标准格式(08:15)";
+"pref_appr_mi_text_format_normal" = "标准格式（08：15）";
 "pref_appr_mi_text_format_letter" = "字母符号格式(8h 15m)";
 
 
@@ -931,9 +931,9 @@
 "trig_crit_name_ip" = "IP地址";
 "trig_crit_bttn_get_ip" = "获取当前IP地址";
 "trig_crit_bttn_use_range" = "使用IP地址范围";
-"trig_crit_lbl_ip_start" = "起始范围:";
-"trig_crit_lbl_ip_end" = "结束范围:";
-"trig_crit_lbl_ip_addr" = "IP地址:";
+"trig_crit_lbl_ip_start" = "起始范围：";
+"trig_crit_lbl_ip_end" = "结束范围：";
+"trig_crit_lbl_ip_addr" = "IP地址：";
 "trig_crit_lbl_ip_mutli" = "Mac找到了多个IP地址。选择你要用于此触发器的IP地址，然后单击下一步。";
 "trig_crit_ip_tbl_head_type" = "接口/类型";
 "trig_crit_ip_tbl_head_addr" = "地址";
@@ -953,13 +953,13 @@
 "trig_crit_name_app" = "应用程序";
 "trig_crit_bttn_no_helpers" = "不显示帮助程序或进程";
 "trig_crit_bttn_frontmost" = "需要应用程序在最前台";
-"trig_crit_lbl_select_app" = "选择一个app:";
+"trig_crit_lbl_select_app" = "选择一个app：";
 "trig_crit_lbl_when_frontmost" = "(在最前台时)"; // example: Safari '(when frontmost)'
 
 // TRIGGER CRITERIA → SCHEDULE
 "trig_crit_name_sched" = "计划";
-"trig_crit_lbl_sched_from" = "从:";
-"trig_crit_lbl_sched_until" = "至:";
+"trig_crit_lbl_sched_from" = "从：";
+"trig_crit_lbl_sched_until" = "至：";
 "trig_crit_lbl_sched_no_select" = "未选择日期 ";
 
 // DAYS OF THE WEEK
@@ -980,7 +980,7 @@
 
 // TRIGGER CRITERIA → BATTERY & POWER ADAPTER
 "trig_crit_name_power" = "电池 & 电源适配器";
-"trig_crit_lbl_batt_charge_min" = "电池至少:";
+"trig_crit_lbl_batt_charge_min" = "电池至少：";
 "trig_crit_lbl_batt_not_detected" = "未检测到电池";
 "trig_crit_bttn_ac_connected" = "电源适配器已连接";
 "trig_crit_bttn_ac_not_connected" = "电源适配器未连接";
@@ -1017,7 +1017,7 @@
 
 // TRIGGER CRITERIA POPUP → CPU
 "trig_crit_name_cpu" = "CPU使用率";
-"trig_crit_lbl_cpu" = "CPU使用率为:";
+"trig_crit_lbl_cpu" = "CPU使用率为：";
 "trig_crit_lbl_cpu_error" = "CPU错误";
 
 // TRIGGER CRITERIA POPUP → IDLE TIME
@@ -1170,8 +1170,8 @@
 // ---------------------------------------------------------------------------
 
 // CURRENT SESSION DETAILS VIEW MENU ITEM
-"csdv_lbl_title" = "当前会话详细信息:";
-"csdv_lbl_drive_alive_title" = "硬盘唤醒详细信息:";
+"csdv_lbl_title" = "当前会话详细信息：";
+"csdv_lbl_drive_alive_title" = "硬盘唤醒详细信息：";
 
 // REARRANGE THE BELOW PLACEHOLDERS (IF NEEDED) FOR THE TARGET LANGUAGE
 // IN ENGLISH, THE PLACEHOLDERS WOULD READ LIKE: "1h 3m 45s remaining"
@@ -1204,8 +1204,8 @@
 "csdv_drive_alive_not_config" = "未配置驱动器";
 
 // MENU/STATUS BAR ITEM → MENU ITEMS
-"statbar_mi_start_new_session" = "开启新会话:";
-"statbar_mi_drive_alive_details" = "硬盘唤醒详细信息:";
+"statbar_mi_start_new_session" = "开启新会话：";
+"statbar_mi_drive_alive_details" = "硬盘唤醒详细信息：";
 "statbar_mi_other_duration" = "自定义时间/直到...";
 "statbar_mi_other_duration_BigSur" = "自定义时间/直到";
 "statbar_mi_app" = "当App正在运行时...";
@@ -1240,7 +1240,7 @@
 
 // WELCOME WINDOW #1
 "ww1_lbl_welcome" = "欢迎使用Amphetamine";
-"ww1_lbl_credit" = "Created with ♥ by William Gustafson";
+"ww1_lbl_credit" = "William Gustafson用♥创造出来的";
 
 // ** NOTE: DO NOT REMOVE '\n' **
 "ww1_lbl_message" = "\nAmphetamine是适用于macOS的一款超棒、强大而灵活的免睡眠实用程序。\n在具备多种功能和选项的同时，Amphetamine仍然保持简单易用。\n\n只需几个简单的步骤即可上手Amphetamine。单击下一步开始吧。";
@@ -1279,7 +1279,7 @@
 "ww4_bttn_learn_triggers" = "单击此处了解有关触发器的更多信息";
 
 // WELCOME WINDOW #5
-"ww5_lbl_title" = "感谢使用Amphetamine，朋友。";
+"ww5_lbl_title" = "伙伴，感谢你使用Amphetamine。";
 "ww5_lbl_subtitle" = "Amphetamine因热爱而生。";
 
 // ** NOTE: DO NOT REMOVE '\n' **
@@ -1627,9 +1627,9 @@
 
 // THESE ARE USED TO INDICATE THE STATE OF EACH OPTION IN NOTIFICATIONS
 // SPACE IS EXTREMELY LIMITED IN NOTIFICATIONS, SO PLEASE ABBREVIATE WHERE POSSIBLE
-"notif_disp_sleep_state" = "显示器睡眠:";
-"notif_scrn_svr_state" = "屏幕保护程序:";
-"notif_cdm_state" = "显示器关闭模式:"; // CLOSED-DISPLAY MODE
+"notif_disp_sleep_state" = "显示器睡眠：";
+"notif_scrn_svr_state" = "屏幕保护程序：";
+"notif_cdm_state" = "显示器关闭模式："; // CLOSED-DISPLAY MODE
 
 // THESE ARE USED TO INDICATE THE STATE OF EACH OPTION IN NOTIFICATIONS
 // UNLESS THESE CHARACTERS DO NOT EQUATE TO ON/YES OFF/NO IN THE TARGET LANGUAGE, THESE SHOULD LIKELY NOT BE CHANGED/TRANSLATED
